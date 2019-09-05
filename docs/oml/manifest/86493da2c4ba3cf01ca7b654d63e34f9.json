@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/86493da2c4ba3cf01ca7b654d63e34f9.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "松島天神社/曾根崎露天神社/北野綱引天神社",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1978"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0183001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000402321"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "松島天神社/曾根崎露天神社/北野綱引天神社"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "マツシマテンジンシヤソネザキツユノテンジンシヤキタノツナヒキテンジンシヤ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書][1]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "松島天神社"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "マツシマテンジンシヤ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "曾根崎露天神社"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ソネザキツユノテンジンシヤ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "綱引天神社"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ツナヒキテンジンシヤ"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "露天神社"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "ツユノテンジンシヤ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1978",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/86493da2c4ba3cf01ca7b654d63e34f9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/86493da2c4ba3cf01ca7b654d63e34f9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 371,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/86493da2c4ba3cf01ca7b654d63e34f9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/86493da2c4ba3cf01ca7b654d63e34f9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1981",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 371,
+                                "width": 589
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1981"
+                    },
+                    "width": 589
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1981"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

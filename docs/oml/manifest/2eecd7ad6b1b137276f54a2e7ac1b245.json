@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2eecd7ad6b1b137276f54a2e7ac1b245.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪府立梅田高等女学校 私立金蘭会高等女学校 君ケ代",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2148"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0353001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000402321"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪府立梅田高等女学校 私立金蘭会高等女学校 君ケ代"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカフリツウメダコウトウジヨガツコウシリツキンランカイコウトウジヨガツコウキミガヨ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書][1]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1916-1922]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1916****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪府立梅田高等女学"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカフリツウメダコウトウジヨガツコウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "梅田高等女学校"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ウメダコウトウジヨガツコウ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "私立金蘭会高等女学校"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "シリツキンランカイコウトウジヨガツコウ"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "金蘭会高等女学校"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "キンランカイコウトウジヨガツコウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2148",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2eecd7ad6b1b137276f54a2e7ac1b245.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2eecd7ad6b1b137276f54a2e7ac1b245.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 372,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2eecd7ad6b1b137276f54a2e7ac1b245.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/2eecd7ad6b1b137276f54a2e7ac1b245.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2151",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 372,
+                                "width": 583
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2151"
+                    },
+                    "width": 583
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2151"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

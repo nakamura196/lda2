@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d793a95703acb30f6defb3fe2a227f.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "淀屋橋筋油屋小路北西角加賀屋長谷部菓子屋 大正年間",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "364"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2524001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349629"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "淀屋橋筋油屋小路北西角加賀屋長谷部菓子屋 大正年間"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ヨドヤバシスジアブラヤシヨウジホクセイカドカガヤハセベカシヤタイシヨウネンカン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:明治大正昭和の大阪写真集 6"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1912-1926]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1912****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "淀屋橋筋"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ヨドヤバシスジ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=364",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d793a95703acb30f6defb3fe2a227f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d793a95703acb30f6defb3fe2a227f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 563,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d793a95703acb30f6defb3fe2a227f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/96d793a95703acb30f6defb3fe2a227f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=361",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 563,
+                                "width": 704
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=361"
+                    },
+                    "width": 704
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=361"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

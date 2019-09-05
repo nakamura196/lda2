@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/560dc98de082cc739d145bb1f786d432.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大大阪記念博覧会 暁曙塔と曙橋",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1675"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1787001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000302896"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大大阪記念博覧会 暁曙塔と曙橋"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ダイオオサカキネンハクランカイギヨウシヨトウトアケボノバシ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:大大坂記念博覧会絵はがき"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1925]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1925****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大大阪記念博覧会"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ダイオオサカキネンハクランカイ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "暁鐘塔"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ギヨウシヨウトウ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "曙橋"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "アケボノバシ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1675",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/560dc98de082cc739d145bb1f786d432.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/560dc98de082cc739d145bb1f786d432.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 535,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/560dc98de082cc739d145bb1f786d432.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/560dc98de082cc739d145bb1f786d432.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1677",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 535,
+                                "width": 346
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1677"
+                    },
+                    "width": 346
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1677"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

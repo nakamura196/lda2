@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4478224b2ebde6730d78ca68f9762e0f.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[大阪の商工業]",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1507"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1606001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000396423"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[大阪の商工業]"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカノシヨウコウギヨウ"
+        },
+        {
+            "label": "注記_01",
+            "value": "彩色 本体の書名:特別大演習記念絵葉書"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "1919.11"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "191911**"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "特別大演習"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "トクベツダイエンシユウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1507",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4478224b2ebde6730d78ca68f9762e0f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4478224b2ebde6730d78ca68f9762e0f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 339,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4478224b2ebde6730d78ca68f9762e0f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/4478224b2ebde6730d78ca68f9762e0f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1509",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 339,
+                                "width": 534
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1509"
+                    },
+                    "width": 534
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1509"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

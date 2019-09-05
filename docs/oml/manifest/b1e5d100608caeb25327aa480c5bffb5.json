@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b1e5d100608caeb25327aa480c5bffb5.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大毎十号機イスパノスイザ四百五拾馬力/(本社電送写真室)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2375"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0742001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000412480"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大毎十号機イスパノスイザ四百五拾馬力/(本社電送写真室)"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ダイマイジユウゴウキイスパノスイザヨンヒヤクゴジユウバリキホンシヤデンソウシヤシンシツ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[絵ハガキ帖]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[19--(大正-昭和初期)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "19******"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪毎日新聞社"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカマイニチシンブンシヤ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "毎日新聞社"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "マイニチシンブンシヤ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2375",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b1e5d100608caeb25327aa480c5bffb5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b1e5d100608caeb25327aa480c5bffb5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 342,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b1e5d100608caeb25327aa480c5bffb5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/b1e5d100608caeb25327aa480c5bffb5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2378",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 342,
+                                "width": 520
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2378"
+                    },
+                    "width": 520
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2378"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

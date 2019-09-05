@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/34e7aec1f4d4b768092fdf455de0435f.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪造幣局 自働天秤",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2686"
+        },
+        {
+            "label": "管理番号",
+            "value": "d1871001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000700142"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪造幣局 自働天秤"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカゾウヘイキヨクジドウテンビン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:大阪造幣局絵葉書"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1877-1945]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1877****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪造幣局"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカゾウヘイキヨク"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2686",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/34e7aec1f4d4b768092fdf455de0435f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/34e7aec1f4d4b768092fdf455de0435f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 411,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/34e7aec1f4d4b768092fdf455de0435f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/34e7aec1f4d4b768092fdf455de0435f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2691",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 411,
+                                "width": 638
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2691"
+                    },
+                    "width": 638
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2691"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

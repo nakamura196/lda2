@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8fe426e797052057a7203239a8bb1d11.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪城公園再建大阪城天主閣屋上の金色の大鯱大阪市今村久兵衛氏献納の高さ七尺横五尺目方一対三百貫金色燦然として異彩を添へり",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1270"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1368001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080208671"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪城公園再建大阪城天主閣屋上の金色の大鯱大阪市今村久兵衛氏献納の高さ七尺横五尺目方一対三百貫金色燦然として異彩を添へり"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカジヨウコウエンサイケンオオサカジヨウテンシユカクオクジヨウノコンジキノオオシヤチホコオオサカシイマムラキユウベエシケンノウノタカサナナシヤクヨコゴシヤクメカタイツツイサンビヤツカンコンジキサンゼントシテイサイオソエリ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1928]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1928****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪城天守閣"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカジヨウテンシユカク"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "鯱"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "シヤチホコ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1270",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8fe426e797052057a7203239a8bb1d11.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8fe426e797052057a7203239a8bb1d11.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 669,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8fe426e797052057a7203239a8bb1d11.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8fe426e797052057a7203239a8bb1d11.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1271",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 669,
+                                "width": 423
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1271"
+                    },
+                    "width": 423
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1271"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

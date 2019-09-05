@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4c402ac5eb250349f38d94cc730f7824.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪城趾[多門櫓]",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2193"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0414001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000402324"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪城趾[多門櫓]"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカジヨウシタモンヤグラ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書][2]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪城多門櫓"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカジヨウタモンヤグラ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "多門櫓"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "タモンヤグラ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "大阪城趾"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "オオサカジヨウシ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2193",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4c402ac5eb250349f38d94cc730f7824.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4c402ac5eb250349f38d94cc730f7824.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 367,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4c402ac5eb250349f38d94cc730f7824.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/4c402ac5eb250349f38d94cc730f7824.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2195",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 367,
+                                "width": 578
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2195"
+                    },
+                    "width": 578
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2195"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/665730687edfb9ff30779fc2b7d750d1.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "心斎橋筋船場側 北出時計店",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "305"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2465001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349626"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "心斎橋筋船場側 北出時計店"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "シンサイバシスジセンバガワキタデトケイテン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:明治大正昭和の大阪写真集 5"
+        },
+        {
+            "label": "注記_02",
+            "value": "「大阪市産業大観」より"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1929]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1929****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "心斎橋筋"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "シンサイバシスジ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "船場"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "センバ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "北出時計店"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "キタデトケイテン"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=305",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/665730687edfb9ff30779fc2b7d750d1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/665730687edfb9ff30779fc2b7d750d1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 563,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/665730687edfb9ff30779fc2b7d750d1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/665730687edfb9ff30779fc2b7d750d1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=303",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 563,
+                                "width": 796
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=303"
+                    },
+                    "width": 796
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=303"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

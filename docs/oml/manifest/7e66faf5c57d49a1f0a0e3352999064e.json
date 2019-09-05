@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7e66faf5c57d49a1f0a0e3352999064e.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "桜じま三井グレン下の惨状",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "87"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2113001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080249965"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "桜じま三井グレン下の惨状"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "サクラジマミツイグレンシタノサンジヨウ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:室戸台風による大阪築港水害写真"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "1934"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1934****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "室戸台風"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ムロトタイフウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "桜じま三井グレン"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "サクラジマミツイグレン"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "此花区桜じま"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "コノハナクサクラサクラジマ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=87",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7e66faf5c57d49a1f0a0e3352999064e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7e66faf5c57d49a1f0a0e3352999064e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 507,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7e66faf5c57d49a1f0a0e3352999064e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/7e66faf5c57d49a1f0a0e3352999064e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=88",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 507,
+                                "width": 648
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=88"
+                    },
+                    "width": 648
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=88"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

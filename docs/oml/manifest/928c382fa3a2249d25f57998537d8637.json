@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/928c382fa3a2249d25f57998537d8637.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "水都中ノ島公園ヨリ天神橋ヲ望ム",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2095"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0300001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000402321"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "水都中ノ島公園ヨリ天神橋ヲ望ム"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "スイトナカノシマコウエンヨリテンジンバシオノゾム"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書][1]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1934]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1934****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "中之島公園"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ナカノシマコウエン"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "天神橋"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "テンジンバシ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2095",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/928c382fa3a2249d25f57998537d8637.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/928c382fa3a2249d25f57998537d8637.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 339,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/928c382fa3a2249d25f57998537d8637.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/928c382fa3a2249d25f57998537d8637.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2098",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 339,
+                                "width": 532
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2098"
+                    },
+                    "width": 532
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2098"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

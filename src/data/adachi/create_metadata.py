@@ -45,6 +45,8 @@ while(flg):
     url = "http://jmapps.ne.jp/adachitokyo/list.html?page=" + \
         str(page)+"&list_count=100"
 
+    print(page)
+
     r = requests.get(url)  # requestsを使って、webから取得
 
     soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
@@ -70,7 +72,6 @@ while(flg):
             soup2 = BeautifulSoup(r2.text, 'lxml')  # 要素を抽出
 
             blockData = soup2.find(id="blockData")
-            print(blockData)
 
             obj = {}
             obj["metadata"] = {}
@@ -88,8 +89,6 @@ while(flg):
 
             for tr in trs:
                 obj["metadata"][tr.find("th").text] = tr.find("td").text
-
-            print(obj)
 
             all.append(obj)
 

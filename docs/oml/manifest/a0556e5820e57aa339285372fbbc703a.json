@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a0556e5820e57aa339285372fbbc703a.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(大阪名勝)茶臼山",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2625"
+        },
+        {
+            "label": "管理番号",
+            "value": "d1810001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000700080"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(大阪名勝)茶臼山"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカメイシヨウチヤウスヤマ"
+        },
+        {
+            "label": "注記_01",
+            "value": "彩色 本体の書名:[原色写真版大阪名所ほか]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "茶臼山"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "チヤウスヤマ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2625",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a0556e5820e57aa339285372fbbc703a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a0556e5820e57aa339285372fbbc703a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 408,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a0556e5820e57aa339285372fbbc703a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a0556e5820e57aa339285372fbbc703a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2630",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 408,
+                                "width": 632
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2630"
+                    },
+                    "width": 632
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2630"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

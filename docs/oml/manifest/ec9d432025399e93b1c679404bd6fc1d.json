@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9d432025399e93b1c679404bd6fc1d.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "有恒倶楽部(其六) 六階撞球室/六階酒場",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1624"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1736001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000302931"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "有恒倶楽部(其六) 六階撞球室/六階酒場"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ユウコウクラブソノロクロツカイドウキユウシツロツカイサカバ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:有恒倶楽部"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1926]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1926****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "有恒倶楽部"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ユウコウクラブ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "野村ビルディング"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ノムラビルデイング"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1624",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9d432025399e93b1c679404bd6fc1d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9d432025399e93b1c679404bd6fc1d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 337,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9d432025399e93b1c679404bd6fc1d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ec9d432025399e93b1c679404bd6fc1d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1626",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 337,
+                                "width": 537
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1626"
+                    },
+                    "width": 537
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1626"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

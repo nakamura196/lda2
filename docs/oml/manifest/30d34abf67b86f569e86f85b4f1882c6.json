@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/30d34abf67b86f569e86f85b4f1882c6.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(文化の大阪)堂島川畔に聳立せる堂島ビルデング 大江橋と堂ビル 昭和初年",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "360"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2520001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349629"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(文化の大阪)堂島川畔に聳立せる堂島ビルデング 大江橋と堂ビル 昭和初年"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ブンカノオオサカドウジマガワハンニシヨウリツセルドウジマビルデングオオエバシトドウビルシヨウワシヨネン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:明治大正昭和の大阪写真集 6"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1926]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1926****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "堂島川"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ドウジマガワ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "堂島ビルディング"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ドウジマビルデイング"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "大江橋"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "オオエバシ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=360",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/30d34abf67b86f569e86f85b4f1882c6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/30d34abf67b86f569e86f85b4f1882c6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 533,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/30d34abf67b86f569e86f85b4f1882c6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/30d34abf67b86f569e86f85b4f1882c6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=357",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 533,
+                                "width": 793
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=357"
+                    },
+                    "width": 793
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=357"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/79bcd1a9306fbb803cb638eaaa010d2a.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪百景 大阪ビルデイング/大阪中央電信局/第四師団司令部",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "672"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0361001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000508128"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪百景 大阪ビルデイング/大阪中央電信局/第四師団司令部"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカヒヤツケイオオサカビルデイングオオサカチユウオウデンシンキヨクダイヨンシダンシレイブ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書帖](2)"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1931]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1931****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪ビルディング"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカビルデイング"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "大阪中央電信局"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "オオサカチユウオウデンシンキヨク"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "第四師団司令部"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ダイヨンシダンシレイブ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=672",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/79bcd1a9306fbb803cb638eaaa010d2a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/79bcd1a9306fbb803cb638eaaa010d2a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 403,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/79bcd1a9306fbb803cb638eaaa010d2a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/79bcd1a9306fbb803cb638eaaa010d2a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=672",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 403,
+                                "width": 631
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=672"
+                    },
+                    "width": 631
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=672"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

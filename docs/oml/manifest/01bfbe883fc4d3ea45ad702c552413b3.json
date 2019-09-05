@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/01bfbe883fc4d3ea45ad702c552413b3.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(近畿地方大風水害)後藤内相外島療養所視察生存者を慰問す",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1540"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1639001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000317001"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(近畿地方大風水害)後藤内相外島療養所視察生存者を慰問す"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "キンキチホウダイフウスイガイゴトウナイシヨウソトジマリヨウヨウジヨシサツセイゾンシヤオイモンス"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:大風水害実況写真"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1934]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1934****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "近畿地方大風水害"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "キンキチホウダイフウスイガイ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "風水害"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "フウスイガイ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "後藤文夫"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ゴトウフミオ"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "外島療養所"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "ソトジマリヨウヨウジヨ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1540",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/01bfbe883fc4d3ea45ad702c552413b3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/01bfbe883fc4d3ea45ad702c552413b3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 339,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/01bfbe883fc4d3ea45ad702c552413b3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/01bfbe883fc4d3ea45ad702c552413b3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1542",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 339,
+                                "width": 536
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1542"
+                    },
+                    "width": 536
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1542"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

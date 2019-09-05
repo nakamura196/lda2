@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/bd26efd52b72a9caf2a882541be5bb6b.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(大阪名所 仏法四最初天王寺) 太子堂/七不思議の内二双竹",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2282"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0503001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000402324"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(大阪名所 仏法四最初天王寺) 太子堂/七不思議の内二双竹"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカメイシヨブツポウサイシヨシテンノウジタイシドウナナフシギノウチニソウチク"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書][2]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "四天王寺"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "シテンノウジ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "太子堂"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "タイシドウ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "二双竹"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ニソウチク"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2282",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/bd26efd52b72a9caf2a882541be5bb6b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/bd26efd52b72a9caf2a882541be5bb6b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 371,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/bd26efd52b72a9caf2a882541be5bb6b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/bd26efd52b72a9caf2a882541be5bb6b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2284",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 371,
+                                "width": 597
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2284"
+                    },
+                    "width": 597
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2284"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8b54dbefd8e2f1088ae6b74419f802e1.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "浜寺黄金山一本松",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "458"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0147001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000508284"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "浜寺黄金山一本松"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ハマデラコガネヤマイツポンマツ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪絵葉書貼込帳]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[19--(大正時代～昭和初期)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "19******"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "浜寺"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ハマデラ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "黄金山一本松"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "コガネヤマイツポンマツ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=458",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8b54dbefd8e2f1088ae6b74419f802e1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8b54dbefd8e2f1088ae6b74419f802e1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 898,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8b54dbefd8e2f1088ae6b74419f802e1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8b54dbefd8e2f1088ae6b74419f802e1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=455",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 898,
+                                "width": 581
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=455"
+                    },
+                    "width": 581
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=455"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

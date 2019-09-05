@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/887e1282ebab958f80872c6520ab5bbf.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "道頓堀角座 望東",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "308"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2468001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349626"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "道頓堀角座 望東"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ドウトンボリカドザボウトウ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:明治大正昭和の大阪写真集 5"
+        },
+        {
+            "label": "注記_02",
+            "value": "「大阪市産業大観」より"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1929]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1929****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "道頓堀"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ドウトンボリ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "角座"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "カドザ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=308",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/887e1282ebab958f80872c6520ab5bbf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/887e1282ebab958f80872c6520ab5bbf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 568,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/887e1282ebab958f80872c6520ab5bbf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/887e1282ebab958f80872c6520ab5bbf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=306",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 568,
+                                "width": 799
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=306"
+                    },
+                    "width": 799
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=306"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/07e458340ecc8bb1f3cf4b1bc3ece625.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "陸軍特別大演習記念特殊通信日附印等に就て(付属資料)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1500"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1599001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000319429"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "陸軍特別大演習記念特殊通信日附印等に就て(付属資料)"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "リクグントクベツダイエンシユウキネントクシユツウシンヒズケイントウニツイテ"
+        },
+        {
+            "label": "注記_01",
+            "value": "付属資料 本体の書名:陸軍特別大演習記念絵葉書"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1932.11]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "193211**"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "陸軍特別大演習"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "リクグントクベツダイエンシユウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "特別大演習"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "トクベツダイエンシユウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1500",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/07e458340ecc8bb1f3cf4b1bc3ece625.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/07e458340ecc8bb1f3cf4b1bc3ece625.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 528,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/07e458340ecc8bb1f3cf4b1bc3ece625.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/07e458340ecc8bb1f3cf4b1bc3ece625.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1502",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 528,
+                                "width": 331
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1502"
+                    },
+                    "width": 331
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1502"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

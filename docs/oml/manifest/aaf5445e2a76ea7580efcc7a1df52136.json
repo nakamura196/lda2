@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/aaf5445e2a76ea7580efcc7a1df52136.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(大阪名所)新世界通天閣",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "545"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0234001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000292363"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(大阪名所)新世界通天閣"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカメイシヨシンセカイツウテンカク"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪・東京名所絵葉書]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1912-1925]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1912****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "新世界"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "シンセカイ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "通天閣"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ツウテンカク"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=545",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/aaf5445e2a76ea7580efcc7a1df52136.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/aaf5445e2a76ea7580efcc7a1df52136.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 534,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/aaf5445e2a76ea7580efcc7a1df52136.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/aaf5445e2a76ea7580efcc7a1df52136.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=544",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 534,
+                                "width": 347
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=544"
+                    },
+                    "width": 347
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=544"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

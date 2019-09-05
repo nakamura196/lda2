@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2694805a9b379db43e31109e432f92d.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪中央電信局/渡辺橋/安治川口/大阪商船天保山乗船場",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "682"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0371001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000508128"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪中央電信局/渡辺橋/安治川口/大阪商船天保山乗船場"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカチユウオウデンシンキヨクワタナベバシアジガワグチオオサカシヨウセンテンポウザンジヨウセンジヨウ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書帖](2)"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[19--]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1900****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪中央電信局"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカチユウオウデンシンキヨク"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "渡辺橋"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ワタナベバシ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "安治川口"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "アジガワグチ"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "天保山乗船場"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "テンポウザンジヨウセンジヨウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=682",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2694805a9b379db43e31109e432f92d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2694805a9b379db43e31109e432f92d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 406,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2694805a9b379db43e31109e432f92d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a2694805a9b379db43e31109e432f92d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=682",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 406,
+                                "width": 640
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=682"
+                    },
+                    "width": 640
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=682"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b2df59ca5806f68cc80fa6ab6a41db13.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "近安津田商店",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "212"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2305001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349622"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "近安津田商店"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "チカヤスツダシヨウテン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:明治大正昭和の大阪写真集 1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1905]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1905****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "近安津田商店"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "チカヤスツダシヨウテン"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "南久宝寺四丁目"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ミナミキユウホウジヨンチヨウメ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=212",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b2df59ca5806f68cc80fa6ab6a41db13.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b2df59ca5806f68cc80fa6ab6a41db13.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 529,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b2df59ca5806f68cc80fa6ab6a41db13.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/b2df59ca5806f68cc80fa6ab6a41db13.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=213",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 529,
+                                "width": 793
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=213"
+                    },
+                    "width": 793
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=213"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/192e9cc1829d2d150896ca9a92e2464a.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(大阪名勝)新世界正面のイルミ子ーション",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "753"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0442001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000508128"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(大阪名勝)新世界正面のイルミ子ーション"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカメイシヨウシンセカイシヨウメンノイルミネーシヨン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書帖](2)"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[19--]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1900****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "新世界"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "シンセカイ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=753",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/192e9cc1829d2d150896ca9a92e2464a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/192e9cc1829d2d150896ca9a92e2464a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 281,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/192e9cc1829d2d150896ca9a92e2464a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/192e9cc1829d2d150896ca9a92e2464a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=753",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 281,
+                                "width": 436
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=753"
+                    },
+                    "width": 436
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=753"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

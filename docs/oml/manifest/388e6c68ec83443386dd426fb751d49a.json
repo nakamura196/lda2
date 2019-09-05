@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/388e6c68ec83443386dd426fb751d49a.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "住友本邸 島之内鰻谷 長堀川",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "295"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2429001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349625"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "住友本邸 島之内鰻谷 長堀川"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "スミトモホンテイシマノウチウナギダニナガホリガワ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:明治大正昭和の大阪写真集 4"
+        },
+        {
+            "label": "注記_02",
+            "value": "「大阪府写真帖」より"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1915]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1915****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "住友本邸"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "スミトモホンテイ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "島之内鰻谷"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "シマノウチウナギダニ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "長堀川"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ナガホリガワ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=295",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/388e6c68ec83443386dd426fb751d49a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/388e6c68ec83443386dd426fb751d49a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 568,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/388e6c68ec83443386dd426fb751d49a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/388e6c68ec83443386dd426fb751d49a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=293",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 568,
+                                "width": 813
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=293"
+                    },
+                    "width": 813
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=293"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

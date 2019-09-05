@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7e9c414b008b2574a0e3436d7cf65ea.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(大阪名所)千日前楽天地",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1125"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1190001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080250525"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(大阪名所)千日前楽天地"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカメイシヨセンニチマエラクテンチ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:絵葉書"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1914-1932]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1914****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "千日前"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "センニチマエ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "楽天地"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ラクテンチ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1125",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7e9c414b008b2574a0e3436d7cf65ea.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7e9c414b008b2574a0e3436d7cf65ea.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 336,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7e9c414b008b2574a0e3436d7cf65ea.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c7e9c414b008b2574a0e3436d7cf65ea.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1126",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 336,
+                                "width": 529
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1126"
+                    },
+                    "width": 529
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1126"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

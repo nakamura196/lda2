@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9e5fa9f5c2c2a9b72663879828102ebd.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪市玉出第二尋常小学校秋季校庭運動会(昭和二年十月二十一日)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "508"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0197001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000508284"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪市玉出第二尋常小学校秋季校庭運動会(昭和二年十月二十一日)"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカシタマデダイニジンジヨウシヨウガツコウシユウキコウテイウンドウカイ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪絵葉書貼込帳]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1927]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1927****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪市玉出第二小学校"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカシタマデダイニシヨウガツコウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "玉出第二尋常小学校"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "タマデダイニジンジヨウシヨウガツコウ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "玉出尋常小学校"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "タマデジンジヨウシヨウガツコウ"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "運動会"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "ウンドウカイ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=508",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9e5fa9f5c2c2a9b72663879828102ebd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9e5fa9f5c2c2a9b72663879828102ebd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 457,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9e5fa9f5c2c2a9b72663879828102ebd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/9e5fa9f5c2c2a9b72663879828102ebd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=507",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 457,
+                                "width": 711
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=507"
+                    },
+                    "width": 711
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=507"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

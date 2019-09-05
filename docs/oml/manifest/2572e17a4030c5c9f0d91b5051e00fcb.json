@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2572e17a4030c5c9f0d91b5051e00fcb.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(摂北大水害の惨状)三国堤防附近",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1515"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1614001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000268786"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(摂北大水害の惨状)三国堤防附近"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "セツホクダイスイガイノサンジヨウミクニテイボウフキン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:大洪水の惨状"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "1917"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1917****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "洪水"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "コウズイ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "水害"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "スイガイ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "三国堤防"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ミクニテイボウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1515",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2572e17a4030c5c9f0d91b5051e00fcb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2572e17a4030c5c9f0d91b5051e00fcb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 339,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2572e17a4030c5c9f0d91b5051e00fcb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/2572e17a4030c5c9f0d91b5051e00fcb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1517",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 339,
+                                "width": 534
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1517"
+                    },
+                    "width": 534
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1517"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

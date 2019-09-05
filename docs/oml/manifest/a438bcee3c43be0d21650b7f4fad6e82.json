@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a438bcee3c43be0d21650b7f4fad6e82.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "生駒鋼索鉄道 中央ヨリ山麓ヲ望ム",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1086"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1151001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000410615"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "生駒鋼索鉄道 中央ヨリ山麓ヲ望ム"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "イコマコウサクテツドウチユウオウヨリサンロクオノゾム"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵はがき]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1918]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1918****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "生駒鋼索鉄道"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "イコマコウサクテツドウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "生駒山"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "イコマヤマ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1086",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a438bcee3c43be0d21650b7f4fad6e82.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a438bcee3c43be0d21650b7f4fad6e82.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 527,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a438bcee3c43be0d21650b7f4fad6e82.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a438bcee3c43be0d21650b7f4fad6e82.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1087",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 527,
+                                "width": 339
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1087"
+                    },
+                    "width": 339
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1087"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

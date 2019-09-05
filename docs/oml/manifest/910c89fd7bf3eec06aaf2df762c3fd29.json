@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/910c89fd7bf3eec06aaf2df762c3fd29.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "生国魂[大神璽]/官幣大社生国魂神社社務所之印(印影)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "901"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0644001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000505646"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "生国魂[大神璽]/官幣大社生国魂神社社務所之印(印影)"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "イククニタマカンペイタイシヤイククニタマジンジヤシヤムシヨノイン"
+        },
+        {
+            "label": "注記_01",
+            "value": "印影 本体の書名:[大阪名所絵葉書帖](1)"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1871-1945]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1871****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "生国魂神社"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "イククニタマジンジヤ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "生玉"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "イクタマ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=901",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/910c89fd7bf3eec06aaf2df762c3fd29.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/910c89fd7bf3eec06aaf2df762c3fd29.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 525,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/910c89fd7bf3eec06aaf2df762c3fd29.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/910c89fd7bf3eec06aaf2df762c3fd29.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=902",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 525,
+                                "width": 329
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=902"
+                    },
+                    "width": 329
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=902"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

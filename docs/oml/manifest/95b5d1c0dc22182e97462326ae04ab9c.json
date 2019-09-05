@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/95b5d1c0dc22182e97462326ae04ab9c.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "南御堂/北御堂",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2579"
+        },
+        {
+            "label": "管理番号",
+            "value": "d1164001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000700117"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "南御堂/北御堂"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ミナミミドウキタミドウ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵はがき]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "南御堂"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ミナミミドウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "北御堂"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "キタミドウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2579",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/95b5d1c0dc22182e97462326ae04ab9c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/95b5d1c0dc22182e97462326ae04ab9c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 405,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/95b5d1c0dc22182e97462326ae04ab9c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/95b5d1c0dc22182e97462326ae04ab9c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2585",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 405,
+                                "width": 632
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2585"
+                    },
+                    "width": 632
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2585"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

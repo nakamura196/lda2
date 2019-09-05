@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c8635d9ac47d0e393542cbea16fab653.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪百景 長堀高島屋/大丸/阪急百貨店/南海高島屋/三越",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1825"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0030001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000402321"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪百景 長堀高島屋/大丸/阪急百貨店/南海高島屋/三越"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカヒヤツケイナガホリタカシマヤダイマルハンキユウヒヤツカテンナンカイタカシマヤミツコシ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書][1]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1933頃]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1933****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "高島屋"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "タカシマヤ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "大丸"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ダイマル"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "阪急百貨店"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ハンキユウヒヤツカテン"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "三越"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "ミツコシ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1825",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c8635d9ac47d0e393542cbea16fab653.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c8635d9ac47d0e393542cbea16fab653.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 495,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c8635d9ac47d0e393542cbea16fab653.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c8635d9ac47d0e393542cbea16fab653.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1828",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 495,
+                                "width": 769
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1828"
+                    },
+                    "width": 769
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1828"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

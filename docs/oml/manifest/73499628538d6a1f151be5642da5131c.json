@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/73499628538d6a1f151be5642da5131c.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "倒壊した四天王寺五重の塔",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1524"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1623001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000396318"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "倒壊した四天王寺五重の塔"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "トウカイシタシテンノウジゴジユウノトウ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[室戸台風実況写真絵はがき]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1934]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1934****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "室戸台風"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ムロトタイフウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "四天王寺五重塔"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "シテンノウジゴジユウノトウ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "五重塔"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ゴジユウノトウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1524",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/73499628538d6a1f151be5642da5131c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/73499628538d6a1f151be5642da5131c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 335,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/73499628538d6a1f151be5642da5131c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/73499628538d6a1f151be5642da5131c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1526",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 335,
+                                "width": 534
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1526"
+                    },
+                    "width": 534
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1526"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

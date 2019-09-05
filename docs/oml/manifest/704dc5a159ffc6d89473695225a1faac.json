@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/704dc5a159ffc6d89473695225a1faac.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(大阪府女子師範学校)校舎全景",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1756"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1873001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080264663"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(大阪府女子師範学校)校舎全景"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカフジヨシシハンガツコウコウシヤゼンケイ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪府女子師範学校]新築落成記念"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "1928.1"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "192801**"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪府女子師範学校"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカフジヨシシハンガツコウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1756",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/704dc5a159ffc6d89473695225a1faac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/704dc5a159ffc6d89473695225a1faac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 342,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/704dc5a159ffc6d89473695225a1faac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/704dc5a159ffc6d89473695225a1faac.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1758",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 342,
+                                "width": 533
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1758"
+                    },
+                    "width": 533
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1758"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

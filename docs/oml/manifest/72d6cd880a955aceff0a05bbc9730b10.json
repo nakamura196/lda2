@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/72d6cd880a955aceff0a05bbc9730b10.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大大阪記念博覧会 南門より見たる廉売舘",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1669"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1781001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000375794"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大大阪記念博覧会 南門より見たる廉売舘"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ダイオオサカキネンハクランカイミナミモンヨリミタルレンバイカン"
+        },
+        {
+            "label": "注記_01",
+            "value": "彩色 本体の書名:[大大阪記念博覧会]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1925]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1925****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大大阪記念博覧会"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ダイオオサカキネンハクランカイ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "廉売館"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "レンバイカン"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1669",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/72d6cd880a955aceff0a05bbc9730b10.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/72d6cd880a955aceff0a05bbc9730b10.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 335,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/72d6cd880a955aceff0a05bbc9730b10.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/72d6cd880a955aceff0a05bbc9730b10.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1671",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 335,
+                                "width": 529
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1671"
+                    },
+                    "width": 529
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1671"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

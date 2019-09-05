@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2f6fcb55b5ec68bf653df32ed456c8c5.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "聖徳太子絵伝 四天王寺蔵",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2298"
+        },
+        {
+            "label": "管理番号",
+            "value": "d0519001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000402324"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "聖徳太子絵伝 四天王寺蔵"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "シヨウトクタイシエデンシテンノウジゾウ"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[大阪名所絵葉書][2]"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "四天王寺"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "シテンノウジ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "聖徳太子絵伝"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "シヨウトクタイシエデン"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2298",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2f6fcb55b5ec68bf653df32ed456c8c5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2f6fcb55b5ec68bf653df32ed456c8c5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 374,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2f6fcb55b5ec68bf653df32ed456c8c5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/2f6fcb55b5ec68bf653df32ed456c8c5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2300",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 374,
+                                "width": 578
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2300"
+                    },
+                    "width": 578
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2300"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

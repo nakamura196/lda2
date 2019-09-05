@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/57b0945310a4c313261dc661725dbd9d.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "道明寺天満宮行列人形",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "2704"
+        },
+        {
+            "label": "管理番号",
+            "value": "d1889001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000700144"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "道明寺天満宮行列人形"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ドウミヨウジテンマングウギヨウレツニンギヨウソノ9"
+        },
+        {
+            "label": "巻次",
+            "value": "其9"
+        },
+        {
+            "label": "巻次(数値)",
+            "value": "0009"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:河内国道明寺天満宮絵葉書"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "道明寺天満宮"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ドウミヨウジテンマングウ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2704",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/57b0945310a4c313261dc661725dbd9d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/57b0945310a4c313261dc661725dbd9d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 404,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/57b0945310a4c313261dc661725dbd9d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/57b0945310a4c313261dc661725dbd9d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2709",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 404,
+                                "width": 636
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2709"
+                    },
+                    "width": 636
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=2709"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e3a26b82a24e1f1ee002702fdc7835be.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(右)林業館 (左)水族館(第五回内国勧業博覧会紀念写真)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "6"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0936001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000604770"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(右)林業館 (左)水族館(第五回内国勧業博覧会紀念写真)"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ミギリンギヨウカンヒダリスイゾクカン"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:第五回内国勧業博覧会刷物集成"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1903頃]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1903****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "第五回内国勧業博覧会"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ダイゴカイナイコクカンギヨウハクランカイ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "内国勧業博覧会"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ナイコクカンギヨウハクランカイ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "林業館"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "リンギヨウカン"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "水族館"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "スイゾクカン"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=6",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e3a26b82a24e1f1ee002702fdc7835be.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e3a26b82a24e1f1ee002702fdc7835be.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 581,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e3a26b82a24e1f1ee002702fdc7835be.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/e3a26b82a24e1f1ee002702fdc7835be.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=7",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 581,
+                                "width": 877
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=7"
+                    },
+                    "width": 877
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=7"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

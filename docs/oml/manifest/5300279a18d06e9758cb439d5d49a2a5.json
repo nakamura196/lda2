@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5300279a18d06e9758cb439d5d49a2a5.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "一番キレイな大阪名所絵葉書(袋)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "1359"
+        },
+        {
+            "label": "管理番号",
+            "value": "c1458001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000375792"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "一番キレイな大阪名所絵葉書(袋)"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "イチバンキレイナオオサカメイシヨエハガキ"
+        },
+        {
+            "label": "注記_01",
+            "value": "彩色 本体の書名:大阪名所絵葉書"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1933頃]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1933****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "FINE VIEWS OF OSAKA"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "FINE VIEWS OF OSAKA"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=1359",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5300279a18d06e9758cb439d5d49a2a5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5300279a18d06e9758cb439d5d49a2a5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 563,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5300279a18d06e9758cb439d5d49a2a5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/5300279a18d06e9758cb439d5d49a2a5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=1360",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 563,
+                                "width": 365
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1360"
+                    },
+                    "width": 365
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=1360"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

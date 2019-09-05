@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8ebc90bf1f15e7b1a1b802e50089557b.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(箕面公園)二の橋と鳳凰閣",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "731"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0420001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000508128"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(箕面公園)二の橋と鳳凰閣"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ミノオコウエンニノハシトホウオウカク"
+        },
+        {
+            "label": "注記_01",
+            "value": "彩色 本体の書名:[大阪名所絵葉書帖](2)"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[19--]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1900****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "箕面公園"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ミノオコウエン"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "鳳凰閣"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ホウオウカク"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=731",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8ebc90bf1f15e7b1a1b802e50089557b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8ebc90bf1f15e7b1a1b802e50089557b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 339,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8ebc90bf1f15e7b1a1b802e50089557b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8ebc90bf1f15e7b1a1b802e50089557b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=731",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 339,
+                                "width": 534
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=731"
+                    },
+                    "width": 534
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=731"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}
