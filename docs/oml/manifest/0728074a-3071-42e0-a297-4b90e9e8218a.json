@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/0728074a-3071-42e0-a297-4b90e9e8218a.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "築港第二突堤住友倉庫前 遠方ニ見ゆる巨船は第一突堤ニ打上げたるまや丸",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "63"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2089001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080249965"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "築港第二突堤住友倉庫前 遠方ニ見ゆる巨船は第一突堤ニ打上げたるまや丸"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "チツコウダイニトツテイスミトモソウコマエエンポウニミユルキヨセンハダイイチトツテイニウチアゲタルマヤマル"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:室戸台風による大阪築港水害写真"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "1934"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1934****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "室戸台風"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ムロトタイフウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "築港第二突堤住友倉庫"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "チツコウダイニトツテイスミトモソウコ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "築港第一突堤"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "チツコウダイイチトツテイ"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "まや丸"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "マヤマル"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=63",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/0728074a-3071-42e0-a297-4b90e9e8218a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/0728074a-3071-42e0-a297-4b90e9e8218a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 480,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/0728074a-3071-42e0-a297-4b90e9e8218a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/0728074a-3071-42e0-a297-4b90e9e8218a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/image.do?id=63&mno=0",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 480,
+                                "width": 613
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=64"
+                    },
+                    "width": 613
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=64"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

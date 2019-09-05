@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/462e1fee-40ca-4e48-9717-3ee15cf3d8f6.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "港区夕凪橋から境川方面を望む",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "書誌管理番号",
+            "value": "20"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2046001"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000481666"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "港区夕凪橋から境川方面を望む"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ミナトクユウナギバシカラサカイガワホウメンオノゾム"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:昭和二十五年九月三日ジェーン台風記録写真"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "刊年表示形",
+            "value": "[1950]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1950****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1a：写真"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "ジェーン台風"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ジエーンタイフウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "夕凪橋"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ユウナギバシ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "港区夕凪橋"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ミナトクユウナギバシ"
+        },
+        {
+            "label": "フリーキーワード_04(漢字)",
+            "value": "境川"
+        },
+        {
+            "label": "フリーキーワード_04(カナ)",
+            "value": "サカイガワ"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=20",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/462e1fee-40ca-4e48-9717-3ee15cf3d8f6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/462e1fee-40ca-4e48-9717-3ee15cf3d8f6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 474,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/462e1fee-40ca-4e48-9717-3ee15cf3d8f6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/462e1fee-40ca-4e48-9717-3ee15cf3d8f6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/image.do?id=20&mno=0",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 474,
+                                "width": 640
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=21"
+                    },
+                    "width": 640
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no=21"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}
