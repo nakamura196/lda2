@@ -18,6 +18,8 @@ data_dir = config["data_dir"]
 output_dir = config["output_dir"]
 prefix = config["prefix"]
 
+dir_name = output_dir.split("/")[-1]
+
 path_metadata = data_dir+"/metadata.xlsx"
 path_image = data_dir+"/images.xlsx"
 
@@ -104,7 +106,7 @@ for j in range(4, r_count):
 
     filename = id+".json"
 
-    manifest_uri = prefix+"/oml/manifest/"+filename
+    manifest_uri = prefix+"/"+dir_name+"/manifest/"+filename
 
     relation = df.iloc[j, related_index]
 
