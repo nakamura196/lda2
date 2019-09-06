@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/11fa279515244352f279473151819f76.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "飛鶴三長命之図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15535"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ひかくさんちょうめいのず"
+        },
+        {
+            "label": "作者",
+            "value": "松本楓湖・鈴木華邨・高橋廣湖・今村興宗"
+        },
+        {
+            "label": "年代",
+            "value": "明治時代後期"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "幕末の日本画家、菊池容斎の流れを継ぐ四名の画家による合筆。歴史伝説上で長寿とされる人物を描いて長寿を寿ぐ三長命之図に鶴を加えたものであり、上から松本楓湖が鶴、鈴木華邨が武内宿禰、高橋廣湖が浦島太郎、今村紫紅の兄、今村興宗が平安後期の武将三浦義明を描いている。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "まつもとふうこ・すずきかそん・たかはしこうこ・いまむらこうしゅう"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "全体：縦159.0✕横43.0　本紙：縦98.5✕横31.4"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "12足立区外"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15535",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/11fa279515244352f279473151819f76.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/11fa279515244352f279473151819f76.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/11fa279515244352f279473151819f76.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/11fa279515244352f279473151819f76.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9201.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 382
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9201.jpg"
+                    },
+                    "width": 382
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9201.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

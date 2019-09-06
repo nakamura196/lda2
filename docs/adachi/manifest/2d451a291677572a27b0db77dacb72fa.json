@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2d451a291677572a27b0db77dacb72fa.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "金魚売り",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12832"
+        },
+        {
+            "label": "年代",
+            "value": "昭和33年"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "天秤棒におかもちをさげ、特徴ある売り声で金魚を売り歩く行商。東京では雛祭りに金魚を供えるという慣習があり、そのころか。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1958"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12832",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2d451a291677572a27b0db77dacb72fa.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2d451a291677572a27b0db77dacb72fa.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1078,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2d451a291677572a27b0db77dacb72fa.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/2d451a291677572a27b0db77dacb72fa.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4531.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1078,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4531.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4531.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7f2ec13815b62ac2e79498f19c0cd1f7.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "千住三丁目から一丁目方面上空",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12453"
+        },
+        {
+            "label": "年代",
+            "value": "昭和45年3月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "旧日光街道を北から南に望む。写真手前の千住三丁目付近には、２階建ての商店や民家の寄棟のづくりの屋根も見られ、街道に面する間口に対して奥行きが長い宿場町特有の地割もうかがわれる。駅前通りには高層のビルが見られる。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1970"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12453",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7f2ec13815b62ac2e79498f19c0cd1f7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7f2ec13815b62ac2e79498f19c0cd1f7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1117,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7f2ec13815b62ac2e79498f19c0cd1f7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/7f2ec13815b62ac2e79498f19c0cd1f7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4152.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1117,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4152.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4152.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

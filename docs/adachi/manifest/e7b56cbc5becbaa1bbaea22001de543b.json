@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e7b56cbc5becbaa1bbaea22001de543b.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "畑をうなう",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12812"
+        },
+        {
+            "label": "年代",
+            "value": "昭和35年ころ"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "伊興付近。手前では、サツマイモの蔓を切っているようである。"
+        },
+        {
+            "label": "地区",
+            "value": "10伊興地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1960"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12812",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e7b56cbc5becbaa1bbaea22001de543b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e7b56cbc5becbaa1bbaea22001de543b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e7b56cbc5becbaa1bbaea22001de543b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/e7b56cbc5becbaa1bbaea22001de543b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4511.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1487
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4511.jpg"
+                    },
+                    "width": 1487
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4511.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

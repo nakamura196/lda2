@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/76bf68df6fe9133b81094d3ba5e079a1.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "見沼代用水での野菜洗い",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12813"
+        },
+        {
+            "label": "年代",
+            "value": "昭和36年"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "舎人付近。収穫したネギを用水で洗う。用水は田を潤すほか、野菜や農具の水洗いなどの作業にも利用されていた。"
+        },
+        {
+            "label": "地区",
+            "value": "04舎人地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1961"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12813",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/76bf68df6fe9133b81094d3ba5e079a1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/76bf68df6fe9133b81094d3ba5e079a1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/76bf68df6fe9133b81094d3ba5e079a1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/76bf68df6fe9133b81094d3ba5e079a1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4512.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 878
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4512.jpg"
+                    },
+                    "width": 878
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4512.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

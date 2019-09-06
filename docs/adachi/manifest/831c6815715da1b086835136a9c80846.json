@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/831c6815715da1b086835136a9c80846.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "木造橋と木造船",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12354"
+        },
+        {
+            "label": "年代",
+            "value": "昭和29年"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "このころはまだ木造船も活躍しており、木造船に動力エンジンを取り付けたものも見られた。写真は小型の和船で、櫂を使って操るもので、川漁師が使用した。足立区観光写真コンク－ル出品作品"
+        },
+        {
+            "label": "地区",
+            "value": "11足立区内(地区不明)"
+        },
+        {
+            "label": "西暦",
+            "value": "1954"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12354",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/831c6815715da1b086835136a9c80846.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/831c6815715da1b086835136a9c80846.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/831c6815715da1b086835136a9c80846.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/831c6815715da1b086835136a9c80846.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4053.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 869
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4053.jpg"
+                    },
+                    "width": 869
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4053.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

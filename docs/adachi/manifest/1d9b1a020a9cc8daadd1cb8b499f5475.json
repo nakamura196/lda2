@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1d9b1a020a9cc8daadd1cb8b499f5475.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "駅前商店街",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12445"
+        },
+        {
+            "label": "年代",
+            "value": "昭和39年頃"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "北千住駅方面から駅前通りを望む。「縄筵段ボール」の看板は、梱包資材を販売していた熊倉商店の看板である。物資輸送の要であった北千住駅周辺では梱包資材の需要が大きかった。まだこの時代には、縄や筵（むしろ）が使用されることも多かった。5―７の写真に写る「サカエヤ」の看板も見られる。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1964"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12445",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1d9b1a020a9cc8daadd1cb8b499f5475.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1d9b1a020a9cc8daadd1cb8b499f5475.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1117,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1d9b1a020a9cc8daadd1cb8b499f5475.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/1d9b1a020a9cc8daadd1cb8b499f5475.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4144.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1117,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4144.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4144.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

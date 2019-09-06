@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7741af85eed3858aa1f28f903a8531fc.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "地盤沈下以前の綾瀬川",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12379"
+        },
+        {
+            "label": "年代",
+            "value": "昭和23年頃"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "現八潮市大字浮塚677番地先の綾瀬川から下流（南側）の内匠橋方向を望んだところ。堤防は土手で、地盤沈下が進行した現代に比べて高く、水面近くには杭による土留めが見られる。地盤沈下は昭和40年代に激しくなり、昭和39年度の大谷田町や五兵衛町では年間18㎝の沈降を見せていた。"
+        },
+        {
+            "label": "地区",
+            "value": "08花畑地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1948"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12379",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7741af85eed3858aa1f28f903a8531fc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7741af85eed3858aa1f28f903a8531fc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7741af85eed3858aa1f28f903a8531fc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/7741af85eed3858aa1f28f903a8531fc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4078.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1225
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4078.jpg"
+                    },
+                    "width": 1225
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4078.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

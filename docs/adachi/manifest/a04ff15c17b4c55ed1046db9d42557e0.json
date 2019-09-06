@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a04ff15c17b4c55ed1046db9d42557e0.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "（おしどり）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "599"
+        },
+        {
+            "label": "大分類",
+            "value": "浮世絵"
+        },
+        {
+            "label": "中分類",
+            "value": "小原祥邨"
+        },
+        {
+            "label": "名称よみ",
+            "value": "（おしどり）"
+        },
+        {
+            "label": "作者",
+            "value": "小原祥邨"
+        },
+        {
+            "label": "年代",
+            "value": "昭和元年～23年(1926～1948)"
+        },
+        {
+            "label": "時代",
+            "value": "06昭和戦前･戦中"
+        },
+        {
+            "label": "小分類",
+            "value": "花鳥画"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=599",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a04ff15c17b4c55ed1046db9d42557e0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a04ff15c17b4c55ed1046db9d42557e0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a04ff15c17b4c55ed1046db9d42557e0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a04ff15c17b4c55ed1046db9d42557e0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/585.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 799
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/585.jpg"
+                    },
+                    "width": 799
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/585.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

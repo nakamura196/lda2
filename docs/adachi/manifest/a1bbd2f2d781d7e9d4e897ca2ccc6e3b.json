@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1bbd2f2d781d7e9d4e897ca2ccc6e3b.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "伊興遺跡発掘の鍬入れ式",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12435"
+        },
+        {
+            "label": "年代",
+            "value": "昭和48年8月3日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "足立区北部の遺跡として知られる伊興遺跡の本格的な発掘調査はこの年から行われた。それまでも郷土史家や学校教員、地元の人びとにより考古資料が採集されてきたことが調査につながった。場所は現在の伊興遺跡公園（現東伊興四丁目9番1号）付近。"
+        },
+        {
+            "label": "地区",
+            "value": "10伊興地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1973"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12435",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1bbd2f2d781d7e9d4e897ca2ccc6e3b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1bbd2f2d781d7e9d4e897ca2ccc6e3b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1123,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1bbd2f2d781d7e9d4e897ca2ccc6e3b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a1bbd2f2d781d7e9d4e897ca2ccc6e3b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4134.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1123,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4134.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4134.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

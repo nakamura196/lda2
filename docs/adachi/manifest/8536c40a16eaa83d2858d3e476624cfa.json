@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8536c40a16eaa83d2858d3e476624cfa.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "紅葉鹿図屏風",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15559"
+        },
+        {
+            "label": "作者",
+            "value": "村越其栄"
+        },
+        {
+            "label": "年代",
+            "value": "江戸時代後期"
+        },
+        {
+            "label": "時代",
+            "value": "03江戸"
+        },
+        {
+            "label": "解説",
+            "value": "抱一の孫弟子にあたる村越其栄が描く本作は、紅葉に銀箔という秋らしい冷涼な空間に、鳴き声を放つ鹿、降りかかる紅葉、緑の川岸、青い水流で構成されている。紅葉の幹は金箔地にたらし込みで彩色され葉脈の金泥と合わせ銀と金の対象をなす。大千住　美の系譜展　出展資料足立区千住　個人蔵（本資料はダウンロードはできません。）"
+        },
+        {
+            "label": "作者よみ",
+            "value": "むらこしこうえい"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15559",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8536c40a16eaa83d2858d3e476624cfa.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8536c40a16eaa83d2858d3e476624cfa.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8536c40a16eaa83d2858d3e476624cfa.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8536c40a16eaa83d2858d3e476624cfa.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9229.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1216
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9229.jpg"
+                    },
+                    "width": 1216
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9229.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

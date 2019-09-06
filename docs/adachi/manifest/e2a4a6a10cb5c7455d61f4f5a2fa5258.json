@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e2a4a6a10cb5c7455d61f4f5a2fa5258.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "ラジオ体操10周年",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12433"
+        },
+        {
+            "label": "年代",
+            "value": "昭和39年7月27日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "千住本氷川神社（千住三丁目22番地）で行われたラジオ体操10周年のようす。同地には「氷川ラジオ体操会三十周年足立区年中無休ラジオ体操発祥之地」の碑（昭和60・1985年8月建立）がある。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1964"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12433",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e2a4a6a10cb5c7455d61f4f5a2fa5258.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e2a4a6a10cb5c7455d61f4f5a2fa5258.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1117,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e2a4a6a10cb5c7455d61f4f5a2fa5258.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/e2a4a6a10cb5c7455d61f4f5a2fa5258.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4132.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1117,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4132.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4132.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

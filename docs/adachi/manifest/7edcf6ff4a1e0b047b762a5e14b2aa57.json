@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7edcf6ff4a1e0b047b762a5e14b2aa57.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "河川敷を歩く",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12357"
+        },
+        {
+            "label": "年代",
+            "value": "昭和29年"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "左岸（北側）より西新井橋を望む。岸辺に近い場所を人が歩くために自然な小道ができあがっている。釣りする人、魚捕りから帰る子ども、ボート漕ぎの様子を見物しているのか水面を眺める人も多い。足立区観光写真コンク－ル出品作品"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1954"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12357",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7edcf6ff4a1e0b047b762a5e14b2aa57.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7edcf6ff4a1e0b047b762a5e14b2aa57.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1173,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7edcf6ff4a1e0b047b762a5e14b2aa57.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/7edcf6ff4a1e0b047b762a5e14b2aa57.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4056.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1173,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4056.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4056.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

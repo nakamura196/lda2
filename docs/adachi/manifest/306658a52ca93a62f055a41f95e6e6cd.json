@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/306658a52ca93a62f055a41f95e6e6cd.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "十二月ノ内　重陽　後の月宴",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "176"
+        },
+        {
+            "label": "大分類",
+            "value": "浮世絵"
+        },
+        {
+            "label": "中分類",
+            "value": "歌川豊国三代"
+        },
+        {
+            "label": "名称よみ",
+            "value": "じゅうにがつのうち　ちょうよう　のちのつきうたげ"
+        },
+        {
+            "label": "作者",
+            "value": "歌川豊国三代"
+        },
+        {
+            "label": "年代",
+            "value": "安政元年４月"
+        },
+        {
+            "label": "時代",
+            "value": "03江戸"
+        },
+        {
+            "label": "小分類",
+            "value": "美人画"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=176",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/306658a52ca93a62f055a41f95e6e6cd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/306658a52ca93a62f055a41f95e6e6cd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1065,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/306658a52ca93a62f055a41f95e6e6cd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/306658a52ca93a62f055a41f95e6e6cd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/168.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1065,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/168.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/168.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

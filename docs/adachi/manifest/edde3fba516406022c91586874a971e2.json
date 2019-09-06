@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/edde3fba516406022c91586874a971e2.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "工事が進む西新井の環七通り",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12393"
+        },
+        {
+            "label": "年代",
+            "value": "昭和43年12月19日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "写真は昭和43(1968)年のようす。昭和44(1969)年3月12日には東武線と交差する西新井陸橋が開通、最後にこの西新井周辺が同年8月20日に開通して足立区内の環七通りは全通した。12月19日の撮影で西新井一丁目6番付近から東を望む。"
+        },
+        {
+            "label": "地区",
+            "value": "05梅島地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1968"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12393",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/edde3fba516406022c91586874a971e2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/edde3fba516406022c91586874a971e2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1117,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/edde3fba516406022c91586874a971e2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/edde3fba516406022c91586874a971e2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4092.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1117,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4092.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4092.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

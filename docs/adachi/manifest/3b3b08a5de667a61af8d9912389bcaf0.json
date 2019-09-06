@@ -1,0 +1,120 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "駒下駄（女性用）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "9034"
+        },
+        {
+            "label": "名称よみ",
+            "value": "こまげた"
+        },
+        {
+            "label": "時代",
+            "value": "99不明"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "08花畑地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=9034",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1065,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1686.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1065,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1686.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1160,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1685.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1160,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1685.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3b3b08a5de667a61af8d9912389bcaf0.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1687.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1687.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1686.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d0f8478bbdadeb618fd73e93dacb4f.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "水路の工事",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12399"
+        },
+        {
+            "label": "年代",
+            "value": "昭和42年11月27日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "三ツ家堀の暗渠化工事の風景。現在の五反野駅前通（旧下妻街道）で、北の四家交差点方向を望んでいる。この時期、区内各地の用水路は暗渠化工事が進められ並行する道路の拡幅に利用された。弘道一丁目25番西側の道路上から北を撮影している。"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1967"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12399",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d0f8478bbdadeb618fd73e93dacb4f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d0f8478bbdadeb618fd73e93dacb4f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1117,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/96d0f8478bbdadeb618fd73e93dacb4f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/96d0f8478bbdadeb618fd73e93dacb4f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4098.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1117,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4098.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4098.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

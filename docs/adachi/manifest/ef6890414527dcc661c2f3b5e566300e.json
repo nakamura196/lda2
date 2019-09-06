@@ -1,0 +1,62 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ef6890414527dcc661c2f3b5e566300e.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "光茶釜",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14953"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ひかりちゃがま"
+        },
+        {
+            "label": "解説",
+            "value": "茶屋・松風庵を営んだ千住五丁目に伝来しました。江戸名所図会には徳川吉宗が上覧し賞賛したという故事が記されています。茶屋の名前は松風庵でしたが「爺ヶ茶屋」の呼称が一般的でした。明治時代にも存続し、付近に「茶釜橋」という名前の橋もありました。現在は千住新橋南詰付近の荒川河川敷となっています。"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14953",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ef6890414527dcc661c2f3b5e566300e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ef6890414527dcc661c2f3b5e566300e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ef6890414527dcc661c2f3b5e566300e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ef6890414527dcc661c2f3b5e566300e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5416.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1433
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5416.jpg"
+                    },
+                    "width": 1433
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5416.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

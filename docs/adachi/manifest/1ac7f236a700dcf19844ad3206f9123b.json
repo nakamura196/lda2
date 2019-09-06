@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1ac7f236a700dcf19844ad3206f9123b.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "二少女之図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15540"
+        },
+        {
+            "label": "名称よみ",
+            "value": "にしょうじょのず"
+        },
+        {
+            "label": "作者",
+            "value": "高橋廣湖"
+        },
+        {
+            "label": "年代",
+            "value": "明治時代後期"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "千住の旦那衆に支援された日本画家、高橋廣湖の作品。明確な輪郭線によらず、色彩と濃淡によって大正を描出するという「朦朧体」の技法や、西洋絵画の表現に触発されたものか、一切の輪郭線を廃した無線描法によって描かれており、少女の顔や肌は意図的に胡粉を薄く塗るだけに留められている。高橋廣湖ご遺族の旧蔵品。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "たかはしこうこ"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "本紙：縦129.3×横56.0"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "12足立区外"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15540",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1ac7f236a700dcf19844ad3206f9123b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1ac7f236a700dcf19844ad3206f9123b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1ac7f236a700dcf19844ad3206f9123b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/1ac7f236a700dcf19844ad3206f9123b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9206.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 521
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9206.jpg"
+                    },
+                    "width": 521
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9206.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

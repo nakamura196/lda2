@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5a1a5735a207812226eb4563eb041077.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "新板世たい道具尽し",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "451"
+        },
+        {
+            "label": "大分類",
+            "value": "浮世絵"
+        },
+        {
+            "label": "中分類",
+            "value": "歌川広重二代"
+        },
+        {
+            "label": "名称よみ",
+            "value": "しんばんせたいどうぐづくし"
+        },
+        {
+            "label": "作者",
+            "value": "歌川広重二代"
+        },
+        {
+            "label": "年代",
+            "value": "弘化４年～嘉永５年(1847～1852)"
+        },
+        {
+            "label": "時代",
+            "value": "03江戸"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=451",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5a1a5735a207812226eb4563eb041077.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5a1a5735a207812226eb4563eb041077.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5a1a5735a207812226eb4563eb041077.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/5a1a5735a207812226eb4563eb041077.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/440.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 798
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/440.jpg"
+                    },
+                    "width": 798
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/440.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

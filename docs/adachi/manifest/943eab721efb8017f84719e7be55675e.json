@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/943eab721efb8017f84719e7be55675e.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "水害時の国道4号線梅島陸橋",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12362"
+        },
+        {
+            "label": "年代",
+            "value": "昭和33年9月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "昭和33(1958)年9月の台風22号による水害のようす。本写真の梅島陸橋は、現在の環七通り梅島陸橋ではなく、国道4号線と東武鉄道が交差する場所にかかっていた自動車専用の陸橋のことである。写真は陸橋南側の現足立四丁目13番東側の歩道上から北を望んだところ。内田静男氏撮影。"
+        },
+        {
+            "label": "地区",
+            "value": "05梅島地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1958"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12362",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/943eab721efb8017f84719e7be55675e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/943eab721efb8017f84719e7be55675e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1127,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/943eab721efb8017f84719e7be55675e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/943eab721efb8017f84719e7be55675e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4061.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1127,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4061.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4061.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

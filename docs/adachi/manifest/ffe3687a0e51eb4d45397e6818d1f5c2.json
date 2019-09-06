@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffe3687a0e51eb4d45397e6818d1f5c2.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "弓張堤燈",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "9371"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ゆみはりちょうちん"
+        },
+        {
+            "label": "時代",
+            "value": "99不明"
+        },
+        {
+            "label": "解説",
+            "value": "別称「提灯箱（ちょうちんばこ）」"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "03江北地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=9371",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffe3687a0e51eb4d45397e6818d1f5c2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffe3687a0e51eb4d45397e6818d1f5c2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffe3687a0e51eb4d45397e6818d1f5c2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ffe3687a0e51eb4d45397e6818d1f5c2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1970.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 804
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1970.jpg"
+                    },
+                    "width": 804
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1970.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

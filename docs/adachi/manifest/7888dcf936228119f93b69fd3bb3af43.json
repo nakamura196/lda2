@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7888dcf936228119f93b69fd3bb3af43.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "（模様づくし）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1025"
+        },
+        {
+            "label": "大分類",
+            "value": "浮世絵"
+        },
+        {
+            "label": "中分類",
+            "value": "不明"
+        },
+        {
+            "label": "名称よみ",
+            "value": "（もようづくし）"
+        },
+        {
+            "label": "作者",
+            "value": "不明"
+        },
+        {
+            "label": "年代",
+            "value": "制作年不明"
+        },
+        {
+            "label": "時代",
+            "value": "99不明"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1025",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7888dcf936228119f93b69fd3bb3af43.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7888dcf936228119f93b69fd3bb3af43.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1066,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7888dcf936228119f93b69fd3bb3af43.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/7888dcf936228119f93b69fd3bb3af43.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1000.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1066,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1000.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1000.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

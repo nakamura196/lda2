@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/98c4780bf98e05efcf3f051108d62576.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "アイロン（多摩川アイロン）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "10868"
+        },
+        {
+            "label": "名称よみ",
+            "value": "あいろん（たまがわあいろん）"
+        },
+        {
+            "label": "解説",
+            "value": "別称「炭火アイロン（すみびあいろん）」。中に炭火を入れ、その熱で布のしわや縫い目をのばす道具です。明治時代、それまでの火熨斗に取って代わり、大正時代に電気アイロンが出現するまで使われました。形は電気アイロンに似ていますが、炭火を入れる胴の部分が大きく、上面が開閉できる蓋になっています。蓋にはガス抜きの煙突と握り手がついています。"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=10868",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/98c4780bf98e05efcf3f051108d62576.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/98c4780bf98e05efcf3f051108d62576.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/98c4780bf98e05efcf3f051108d62576.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/98c4780bf98e05efcf3f051108d62576.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/3092.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/3092.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/3092.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

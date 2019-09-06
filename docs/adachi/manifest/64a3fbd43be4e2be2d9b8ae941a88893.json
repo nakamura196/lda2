@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "児島高徳図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1170"
+        },
+        {
+            "label": "名称よみ",
+            "value": "こじまたかのりず"
+        },
+        {
+            "label": "作者",
+            "value": "松本楓湖"
+        },
+        {
+            "label": "時代",
+            "value": "07近代"
+        },
+        {
+            "label": "解説",
+            "value": "南北朝時代の武将で、南朝の忠臣として知られた児島高徳を描く。千住中組（現千住仲町ほか）の旧家、石出掃部介家に伝来した。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "まつもとふうこ"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "全体：縦172.4×横48.3　本紙：縦92.8×横31.6"
+        },
+        {
+            "label": "員数",
+            "value": "一幅"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1170",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1180.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 417
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1180.jpg"
+                    },
+                    "width": 417
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/64a3fbd43be4e2be2d9b8ae941a88893.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1181.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 346
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1181.jpg"
+                    },
+                    "width": 346
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1180.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

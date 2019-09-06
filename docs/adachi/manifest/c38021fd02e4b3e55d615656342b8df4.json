@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c38021fd02e4b3e55d615656342b8df4.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "椿図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15556"
+        },
+        {
+            "label": "名称よみ",
+            "value": "つばきず"
+        },
+        {
+            "label": "作者",
+            "value": "石井柏亭"
+        },
+        {
+            "label": "年代",
+            "value": "昭和時代"
+        },
+        {
+            "label": "時代",
+            "value": "07近代"
+        },
+        {
+            "label": "解説",
+            "value": "与謝野寛・晶子夫妻の側近として、歌人・編集者として活動した千ヶ崎悌六へと贈られたと見られる石井柏亭による作品。柏亭は与謝野夫妻の盟友であり、悌六の洋画の師であった。本作は本紙を台紙に貼り付けた仮巻である他、「薄謝　石井柏亭」と書かれた巻紙と紅白の水引が掛けられており、柏亭からの何らかの謝礼として悌六へと贈答された可能性が考えられる。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "いしいはくてい"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "08花畑地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15556",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c38021fd02e4b3e55d615656342b8df4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c38021fd02e4b3e55d615656342b8df4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c38021fd02e4b3e55d615656342b8df4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c38021fd02e4b3e55d615656342b8df4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9224.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 348
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9224.jpg"
+                    },
+                    "width": 348
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9224.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

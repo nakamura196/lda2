@@ -1,0 +1,128 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "斗搔",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "10324"
+        },
+        {
+            "label": "名称よみ",
+            "value": "とかき"
+        },
+        {
+            "label": "解説",
+            "value": "米などの穀類を枡に盛って計量するときに枡の縁の高さにならして余分な盛り上がりを掻き落とすための丸棒で、斗棒・ますかけ・枡掻・とおかちともいわれます。斗掻・斗棒は斗桶や斗枡と組み合わせて1斗を計量することからこのように呼ばれます。"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "長36.8×径5.8"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "07東渕江地区"
+        },
+        {
+            "label": "形態/材質/品質",
+            "value": "木"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=10324",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/2804.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1364
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/2804.jpg"
+                    },
+                    "width": 1364
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1062,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/2803.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1062,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/2803.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 1062,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/9af1223818656438c6d1ce02b53edd54.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/2802.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1062,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/2802.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/2804.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

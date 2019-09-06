@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5cb0f5f97ca5658c8dc5366376b71061.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "西之宮稲荷の神社前",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12468"
+        },
+        {
+            "label": "年代",
+            "value": "昭和45年8月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "西之宮稲荷神社（足立三丁目28番）前　普賢寺堀が、神社入り口の鳥居前で一部暗渠になっていた。暑い盛りで、夏休みで遊ぶ子ども、大八車に物を乗せる人はシャツを脱いでいるのが見える。"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1970"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12468",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5cb0f5f97ca5658c8dc5366376b71061.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5cb0f5f97ca5658c8dc5366376b71061.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1079,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5cb0f5f97ca5658c8dc5366376b71061.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/5cb0f5f97ca5658c8dc5366376b71061.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4167.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1079,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4167.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4167.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

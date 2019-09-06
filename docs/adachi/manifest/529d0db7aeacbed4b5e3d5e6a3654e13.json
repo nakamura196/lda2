@@ -1,0 +1,62 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/529d0db7aeacbed4b5e3d5e6a3654e13.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "本木三丁目青年団第四部",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12496"
+        },
+        {
+            "label": "解説",
+            "value": "西新井町では足立区誕生を記念して、ほとんどの世帯や団体が記念撮影したが、写真はその一部。当時の若者はみな青年団に入団し、軍事的な訓練を行っていたがその反面、防災活動や奉仕活動を自発的に行って、村や町の貧しい行政面をおおいにたすけていた。"
+        },
+        {
+            "label": "地区",
+            "value": "02西新井地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12496",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/529d0db7aeacbed4b5e3d5e6a3654e13.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/529d0db7aeacbed4b5e3d5e6a3654e13.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1196,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/529d0db7aeacbed4b5e3d5e6a3654e13.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/529d0db7aeacbed4b5e3d5e6a3654e13.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4195.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1196,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4195.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4195.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

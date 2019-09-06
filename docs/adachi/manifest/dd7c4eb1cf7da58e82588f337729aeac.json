@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd7c4eb1cf7da58e82588f337729aeac.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "新任区長の初会議",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12497"
+        },
+        {
+            "label": "時代",
+            "value": "06昭和戦前･戦中"
+        },
+        {
+            "label": "解説",
+            "value": "このころの区は行政区で、東京市の吏員吉川等が区長に就任した。ただし、区会があり、36名の定員の区会議員が選出されたが、当時の区会議員は名誉職で、任期４か年、職務権限は市会に準じて定められた。その権限は、予算・決算・不動産の管理処分及び取得・市の税の賦課徴収関係・小学校及び実業学校の設置・区の公益に関する意見書の提出・行政庁の諮問に答申するなどであった。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12497",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd7c4eb1cf7da58e82588f337729aeac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd7c4eb1cf7da58e82588f337729aeac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd7c4eb1cf7da58e82588f337729aeac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/dd7c4eb1cf7da58e82588f337729aeac.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4196.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1597
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4196.jpg"
+                    },
+                    "width": 1597
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4196.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

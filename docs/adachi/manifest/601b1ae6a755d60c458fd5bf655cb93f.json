@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/601b1ae6a755d60c458fd5bf655cb93f.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "平野運動場",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12658"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "昭和43(1968)年8月1日開設。人口の増加にともなって、スポーツ人口も増加し運動場の不足が叫ばれるようになった。と同時に、のびのびと飛びまわれる子どものための運動場も必要であった。区では｢青少年の健全育成｣の施策を推進するため、まず平野二丁目に運動場を建設、子どものためには、少年野球場を開設した。"
+        },
+        {
+            "label": "地区",
+            "value": "05梅島地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12658",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/601b1ae6a755d60c458fd5bf655cb93f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/601b1ae6a755d60c458fd5bf655cb93f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1129,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/601b1ae6a755d60c458fd5bf655cb93f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/601b1ae6a755d60c458fd5bf655cb93f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4357.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1129,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4357.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4357.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

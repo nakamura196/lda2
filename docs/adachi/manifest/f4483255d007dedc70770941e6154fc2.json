@@ -1,0 +1,91 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "庚申塔（青面金剛像）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14915"
+        },
+        {
+            "label": "名称よみ",
+            "value": "こうしんとう（しょうめんこんごうぞう）"
+        },
+        {
+            "label": "年代",
+            "value": "文政年間（1818～1829）"
+        },
+        {
+            "label": "解説",
+            "value": "極めて精巧な彫刻ですが、主尊の顔をはじめ剥落した箇所が目立ちます。青面金剛が、邪鬼を両脚で踏みつける典型的な形式です。清水武兵衛を中心とする下沼田村（江北周辺）の庚申講中が、橋供養と同時に造立したことが台座に刻まれています。文政年間（1818～30）に立てられたものです。もとは江北橋の土手下にありました。"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14915",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5334.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5334.jpg"
+                    },
+                    "width": 616
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 563,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f4483255d007dedc70770941e6154fc2.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5335.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 563,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5335.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5334.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

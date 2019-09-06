@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4de35ac64b9f8a21cc78c3d26073e9c1.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "路面電車　都電",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12846"
+        },
+        {
+            "label": "年代",
+            "value": "昭和42年"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "上野付近、乗車中。千住大橋の鉄橋化に伴い、昭和3年、市電が水天宮から千住4丁目を繋ぐようになった。昭和18年の都制の施行とともに都電と名を変え、人々に親しまれてきたが、自動車交通の増加に押され、昭和43年2月24日千住4丁目、三ノ輪間が廃止になった。"
+        },
+        {
+            "label": "地区",
+            "value": "12足立区外"
+        },
+        {
+            "label": "西暦",
+            "value": "1967"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12846",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4de35ac64b9f8a21cc78c3d26073e9c1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4de35ac64b9f8a21cc78c3d26073e9c1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4de35ac64b9f8a21cc78c3d26073e9c1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/4de35ac64b9f8a21cc78c3d26073e9c1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4545.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 821
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4545.jpg"
+                    },
+                    "width": 821
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4545.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

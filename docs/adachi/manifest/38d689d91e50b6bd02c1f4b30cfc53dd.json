@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/38d689d91e50b6bd02c1f4b30cfc53dd.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "東武鉄道の高架化工事",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12407"
+        },
+        {
+            "label": "年代",
+            "value": "昭和46年8月17日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "東武鉄道の北千住～西新井間は複々線化と高架化が進められた。は高架の支柱で、日光方面に向かう東武特急「きぬ」が走る。高架化工事がすすんだ梅田八丁目14番北から下り方面を望んでいる。右は梅島三丁目の町並、左は東武鉄道の西新井工場（現在は姿を消した）。"
+        },
+        {
+            "label": "地区",
+            "value": "05梅島地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1971"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12407",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/38d689d91e50b6bd02c1f4b30cfc53dd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/38d689d91e50b6bd02c1f4b30cfc53dd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1117,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/38d689d91e50b6bd02c1f4b30cfc53dd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/38d689d91e50b6bd02c1f4b30cfc53dd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4106.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1117,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4106.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4106.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

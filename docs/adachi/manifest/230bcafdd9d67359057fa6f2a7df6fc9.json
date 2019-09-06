@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/230bcafdd9d67359057fa6f2a7df6fc9.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "一行書「牧誠則無他事」",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1173"
+        },
+        {
+            "label": "作者",
+            "value": "東郷平八郎"
+        },
+        {
+            "label": "年代",
+            "value": "大正5年"
+        },
+        {
+            "label": "時代",
+            "value": "05大正"
+        },
+        {
+            "label": "作者よみ",
+            "value": "とうごうへいはちろう"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "全体：縦181.7×横43.4　本紙：縦99.4×横26.4"
+        },
+        {
+            "label": "員数",
+            "value": "一幅"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1916"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1173",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/230bcafdd9d67359057fa6f2a7df6fc9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/230bcafdd9d67359057fa6f2a7df6fc9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/230bcafdd9d67359057fa6f2a7df6fc9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/230bcafdd9d67359057fa6f2a7df6fc9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1184.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 314
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1184.jpg"
+                    },
+                    "width": 314
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1184.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a7ab6cf7077c4a7652e23a65af3dbcee.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "千住町　千住大橋　（大正5年頃の木造の千住大橋）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15513"
+        },
+        {
+            "label": "年代",
+            "value": "大正5年"
+        },
+        {
+            "label": "時代",
+            "value": "05大正"
+        },
+        {
+            "label": "解説",
+            "value": "『南足立郡誌』（大正5年、南足立郡役所）の巻頭写真に掲載された写真のうちの一枚。木造橋の千住大橋の上を人や荷車が行き交う。南足立郡千住町がわから北豊島郡南千住町側を撮影している。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1916"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15513",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a7ab6cf7077c4a7652e23a65af3dbcee.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a7ab6cf7077c4a7652e23a65af3dbcee.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1169,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a7ab6cf7077c4a7652e23a65af3dbcee.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a7ab6cf7077c4a7652e23a65af3dbcee.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/8903.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1169,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/8903.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/8903.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

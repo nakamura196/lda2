@@ -1,0 +1,107 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "双鶴図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15507"
+        },
+        {
+            "label": "名称よみ",
+            "value": "そうかくず"
+        },
+        {
+            "label": "作者",
+            "value": "村越向栄"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "千住の琳派絵師、村越向栄の双鶴図である。表具には源氏香、網干文様、鶴が配され、軸先には漆の蒔絵で松葉があり、制作当初のままと推定される。慶事に床の間を飾るに相応しい画題と表装である。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "むらこしこうえい"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "11足立区内(一般)"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15507",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/8079.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 455
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/8079.jpg"
+                    },
+                    "width": 455
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/73e9ef7e9aea7067b655e4411d770ee9.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/8080.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 379
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/8080.jpg"
+                    },
+                    "width": 379
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/8079.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

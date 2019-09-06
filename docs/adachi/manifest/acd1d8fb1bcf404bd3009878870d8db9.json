@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd1d8fb1bcf404bd3009878870d8db9.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "三笑図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15549"
+        },
+        {
+            "label": "名称よみ",
+            "value": "さんしょうず"
+        },
+        {
+            "label": "作者",
+            "value": "浦田廣香"
+        },
+        {
+            "label": "年代",
+            "value": "明治～昭和初期"
+        },
+        {
+            "label": "時代",
+            "value": "07近代"
+        },
+        {
+            "label": "解説",
+            "value": "高橋廣湖の弟、浦田廣香の作品。浦田廣香は、廣湖の没後、大正4年に熊本から上京して、東京画壇での活動をはじめた。道釈人物や花鳥画を得意とし、本作では中国の故事から、儒教・道教・仏教の賢者を描いて三教一致の概念を表す「三笑図」を画題としている。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "うらたこうか"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "本紙：縦137.0×横34.0"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "12足立区外"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15549",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd1d8fb1bcf404bd3009878870d8db9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd1d8fb1bcf404bd3009878870d8db9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd1d8fb1bcf404bd3009878870d8db9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/acd1d8fb1bcf404bd3009878870d8db9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9215.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 291
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9215.jpg"
+                    },
+                    "width": 291
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9215.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -23,7 +23,7 @@ import json
 import time
 from PIL import Image
 
-path = "data/omlDAdataset.xlsx"
+path = "data/tmp/omlDAdataset.xlsx"
 
 df = pd.read_excel(path, sheet_name=0, header=None, index_col=None)
 
@@ -42,7 +42,7 @@ rows2.append(row2)
 
 for j in range(1, r_count):
 
-    if j < 821:
+    if j < 271:
         continue
 
     id = df.iloc[j, 0]
@@ -65,6 +65,11 @@ for j in range(1, r_count):
 
             thumb_flg = True
 
+            thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no="+str(id)
+                        
+            row2 = [id, thumb_url]
+            rows2.append(row2)
+
             for img in imgs:
                 src = img.get("src")
                 
@@ -73,7 +78,7 @@ for j in range(1, r_count):
                     # print(src)
                     data_no = src.split("data_no=")[1].split("&")[0]
                     img_url = "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no="+data_no
-                    thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no="+data_no
+                    thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no="+data_no
 
                     image = Image.open(urllib.request.urlopen(img_url))
                     width, height = image.size
@@ -81,12 +86,7 @@ for j in range(1, r_count):
                     row = [id, img_url, thumb_url, width, height]
                     rows.append(row)
 
-                    if thumb_flg:
-                        
-                        row2 = [id, thumb_url]
-                        rows2.append(row2)
-
-                        thumb_flg = False
+                    
 
                     
 

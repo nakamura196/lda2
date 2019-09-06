@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/eef1b60aeabe50e5a9717095d2fdf83c.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "芭蕉句碑（春も漸けしきととのふ月と梅）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14924"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ばしょうくひ（はるもややけしきととのうつきとうめ"
+        },
+        {
+            "label": "年代",
+            "value": "文久3年"
+        },
+        {
+            "label": "解説",
+            "value": "文久3(1863)年、千住三丁目本氷川神社境内に建てられた芭蕉句碑です。千住は芭蕉奥の細道の旅立ちの地でもあり、蕉門の流れをくむ巣兆が住んでいたこともあって俳諧がさかんであり、千住連衆が活躍していました。枇杷園随筆、白雄夜話によれば、芭蕉の自画讃で紅梅にこの句を讃しているという。本氷川神社に梅樹があって、芭蕉崇敬者らが建立したと考えられるが真説は定かではありません。風化が激しいため、平成3(1991)年地元で新たに句碑を再建し、旧碑をここに保存しました。"
+        },
+        {
+            "label": "西暦",
+            "value": "1863"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14924",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/eef1b60aeabe50e5a9717095d2fdf83c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/eef1b60aeabe50e5a9717095d2fdf83c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1066,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/eef1b60aeabe50e5a9717095d2fdf83c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/eef1b60aeabe50e5a9717095d2fdf83c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5352.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1066,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5352.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5352.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

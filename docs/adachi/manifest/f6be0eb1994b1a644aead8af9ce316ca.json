@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f6be0eb1994b1a644aead8af9ce316ca.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "建設中の五兵衛町都営住宅",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12400"
+        },
+        {
+            "label": "年代",
+            "value": "昭和35年5月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "足立区では盛んに都営住宅の建設が行われ多くは木造平屋建ての建物であった。人口増加率は昭和35(1960)年から昭和40(1965)年の間がもっとも高く（5年間隔で見た場合）、こうした公営住宅が各地に建設された。場所は現在のつくばエクスプレス青井駅周辺の都営青井三丁目第3アパート付近。"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1960"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12400",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f6be0eb1994b1a644aead8af9ce316ca.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f6be0eb1994b1a644aead8af9ce316ca.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1119,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f6be0eb1994b1a644aead8af9ce316ca.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f6be0eb1994b1a644aead8af9ce316ca.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4099.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1119,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4099.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4099.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

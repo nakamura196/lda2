@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/00d1b725592e75ea1d3ee12d5968bfba.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "東京の穀倉地帯",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12335"
+        },
+        {
+            "label": "年代",
+            "value": "昭和29年10月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "伊興町の田んぼ現伊興付近。足立区は東京都産米供出量の40パーセントを占める優秀な稲作地帯であった。当時は久留米絣の野良着に手拭いの頬被りが農作業スタイルであり、まだ雨降り時には蓑や笠を着けることも普通であった。女性の被る手拭には伊興の子育観音（実相院）の文字が見られる。足立区観光写真コンク－ル出品作品"
+        },
+        {
+            "label": "地区",
+            "value": "10伊興地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1954"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12335",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/00d1b725592e75ea1d3ee12d5968bfba.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/00d1b725592e75ea1d3ee12d5968bfba.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1175,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/00d1b725592e75ea1d3ee12d5968bfba.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/00d1b725592e75ea1d3ee12d5968bfba.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4034.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1175,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4034.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4034.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

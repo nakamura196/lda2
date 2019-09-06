@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ab0ebe03acf4bda786426056ba4bf036.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "芭蕉像（石版印刷）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15518"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ばしょうぞう（せきばんいんさつ）"
+        },
+        {
+            "label": "作者",
+            "value": "原画　建部巣兆"
+        },
+        {
+            "label": "年代",
+            "value": "明治25年"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "明治25(1892)年、石版印刷で印刷された建部巣兆筆の芭蕉像。版権所有「東京市日本橋区西川岸町十四番地　高見正八」とある。巣兆の芭蕉像はいくつか知られているが、本作は原品所在は未詳である。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "げんが　たけべそうちょう"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "西暦",
+            "value": "1892"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15518",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ab0ebe03acf4bda786426056ba4bf036.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ab0ebe03acf4bda786426056ba4bf036.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ab0ebe03acf4bda786426056ba4bf036.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ab0ebe03acf4bda786426056ba4bf036.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9176.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 824
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9176.jpg"
+                    },
+                    "width": 824
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9176.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

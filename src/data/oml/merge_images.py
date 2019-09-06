@@ -23,23 +23,27 @@ import json
 import time
 from PIL import Image
 
-files = glob.glob("data/images/*.csv")
+list = ["images", "thumbnails"]
 
-rows = []
-rows.append(["id", "img_url", "thumb_url", "width", "height"])
+for a in list:
 
-for file in sorted(files):
-    print(file)
+    files = glob.glob("data/"+a+"/*.csv")
 
-    f = open(file, 'r')
+    rows = []
+    rows.append(["id", "img_url", "thumb_url", "width", "height"])
 
-    reader = csv.reader(f)
-    header = next(reader)
-    for row in reader:
-        rows.append(row)
+    for file in sorted(files):
+        print(file)
 
-    f.close()
+        f = open(file, 'r')
 
-df = pd.DataFrame(rows)
+        reader = csv.reader(f)
+        header = next(reader)
+        for row in reader:
+            rows.append(row)
 
-df.to_excel("data/images.xlsx", index=False, header=False)
+        f.close()
+
+    df = pd.DataFrame(rows)
+
+    df.to_excel("data/"+a+".xlsx", index=False, header=False)

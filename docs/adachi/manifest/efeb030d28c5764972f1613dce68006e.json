@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/efeb030d28c5764972f1613dce68006e.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "月次景物図　十月　蔦に百舌図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15582"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ゆきなみけいぶつず　じゅがつ　つたにもずず"
+        },
+        {
+            "label": "作者",
+            "value": "村越向栄"
+        },
+        {
+            "label": "年代",
+            "value": "明治時代"
+        },
+        {
+            "label": "解説",
+            "value": "千住の琳派絵師、村越向栄が描いた十二か月の景物図のうちの一つ。本十二か月は、花鳥図と風景図からなる。足立区千住個人寄贈　当館蔵平成30年度文化遺産調査特別展「大千住　美の系譜―酒井抱一から岡倉天心まで―」出展作品"
+        },
+        {
+            "label": "作者よみ",
+            "value": "むらこしこうえい"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15582",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/efeb030d28c5764972f1613dce68006e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/efeb030d28c5764972f1613dce68006e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/efeb030d28c5764972f1613dce68006e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/efeb030d28c5764972f1613dce68006e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9253.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 423
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9253.jpg"
+                    },
+                    "width": 423
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9253.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c5361a3a3992d5c68cde360b3baa0def.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "足立郡の範囲",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15519"
+        },
+        {
+            "label": "名称よみ",
+            "value": "あだちぐんのはんい"
+        },
+        {
+            "label": "解説",
+            "value": "足立郡の範囲図。足立区の区名が直接由来しているのは武蔵国足立郡である。なお郡域は変遷していると考えられるが、江戸時代後期の郡域を表した。天保13(1842)年「富士見十三州輿地之全図」（当館蔵）に境界線を加筆し平成29(2017)年段階の現行自治体名を付した。"
+        },
+        {
+            "label": "大分類ID",
+            "value": "11"
+        },
+        {
+            "label": "資料種別",
+            "value": "参考資料"
+        },
+        {
+            "label": "一般に公開",
+            "value": "1"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15519",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c5361a3a3992d5c68cde360b3baa0def.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c5361a3a3992d5c68cde360b3baa0def.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c5361a3a3992d5c68cde360b3baa0def.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c5361a3a3992d5c68cde360b3baa0def.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9180.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 843
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9180.jpg"
+                    },
+                    "width": 843
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9180.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

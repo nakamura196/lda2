@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/fcc69c7a023750ebd20dc8e07c6baa75.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "芭蕉像",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1150"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ばしょうぞう"
+        },
+        {
+            "label": "作者",
+            "value": "長谷川栄作(原型）川崎克（製作）"
+        },
+        {
+            "label": "年代",
+            "value": "昭和１７（１９４２)年"
+        },
+        {
+            "label": "時代",
+            "value": "06昭和"
+        },
+        {
+            "label": "解説",
+            "value": "かつて憲政記念館で展示された陶製の芭蕉像。その後、奥の細道矢立初の日というゆかりから足立区が入手し、中央図書館郷土資料室に展示されていた。昭和61(1986)年11月に郷土博物館の開館に合わせて、当館の第一次常設展示で公開した。　その後、平成21(2009)年3月に第二次常設展示のオープンに合わせ、千住関連代表資料を現地にというコンセプトのもと、学びピア２１（生涯学習センター）１階エントランスホールに移設公開中。現在に至る。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "はせがわえいさく･かわさきかつ"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "高105.5×最大幅132.5×奥行88.5"
+        },
+        {
+            "label": "員数",
+            "value": "一躯"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1150",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/fcc69c7a023750ebd20dc8e07c6baa75.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/fcc69c7a023750ebd20dc8e07c6baa75.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/fcc69c7a023750ebd20dc8e07c6baa75.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/fcc69c7a023750ebd20dc8e07c6baa75.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1120.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1033
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1120.jpg"
+                    },
+                    "width": 1033
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1120.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

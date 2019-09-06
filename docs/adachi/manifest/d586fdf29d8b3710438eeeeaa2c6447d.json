@@ -1,0 +1,95 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "旧考録（寺社縁起、千住宿旧古考、検地年限記）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "2048"
+        },
+        {
+            "label": "作者",
+            "value": "永野彦右衛門尉  菅原政重"
+        },
+        {
+            "label": "年代",
+            "value": "弘化2年9月"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "西暦",
+            "value": "1845"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=2048",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1063,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1210.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1063,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1210.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1063,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/d586fdf29d8b3710438eeeeaa2c6447d.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1209.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1063,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1209.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1210.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6c9b5edb4ecc656a6a75ee0a3fb1072e.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "溢水した花畑運河",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12373"
+        },
+        {
+            "label": "年代",
+            "value": "昭和41年6月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "昭和41(1966)年6月の台風4号による水害。花畑運河（現花畑川）には現在のような堤防はなく、溢れた水が直接道路まで浸している。場所は花畑川の北岸（現神明二丁目6番もしくは7番の地先）で西の雪見橋方向を望んだところ。写真の奥が綾瀬川である。足立区土木部"
+        },
+        {
+            "label": "地区",
+            "value": "08花畑地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1966"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12373",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6c9b5edb4ecc656a6a75ee0a3fb1072e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6c9b5edb4ecc656a6a75ee0a3fb1072e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1073,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6c9b5edb4ecc656a6a75ee0a3fb1072e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/6c9b5edb4ecc656a6a75ee0a3fb1072e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4072.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1073,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4072.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4072.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

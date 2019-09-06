@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7621165b64f4ac1f29fd461c2ce8dc5.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "秋草図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1174"
+        },
+        {
+            "label": "名称よみ",
+            "value": "あきくさず"
+        },
+        {
+            "label": "作者",
+            "value": "村越向栄"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "朝顔、萩、薄、葛、藤袴、女郎花、撫子が描かれた一幅。現在一般的に知られている秋の七草に入るはずの桔梗の代わりに朝顔が青い花として描かれている。現代的な感覚では朝顔は夏の花というイメージが強いが、秋の季語として知られ、酒井抱一や鈴木其一の作例でも、秋草図の中に朝顔が描き込まれている例があるように、秋の花として親しまれていた。本作品もモティーフ、彩色、構図などの点から見て、其一の影響が色濃く表れたものと考えられる。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "むらこしこうえい"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "全体：縦190.8×横58.7　本紙：縦99.4×横40.6"
+        },
+        {
+            "label": "員数",
+            "value": "一幅"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1174",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7621165b64f4ac1f29fd461c2ce8dc5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7621165b64f4ac1f29fd461c2ce8dc5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7621165b64f4ac1f29fd461c2ce8dc5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/b7621165b64f4ac1f29fd461c2ce8dc5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1185.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 491
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1185.jpg"
+                    },
+                    "width": 491
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1185.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

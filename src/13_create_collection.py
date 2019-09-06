@@ -11,7 +11,7 @@ import glob
 
 import yaml
 
-config_path = "/Users/nakamura/git/min_a/lda2/src/data/oml/data/config.yml"
+config_path = "/Users/nakamura/git/min_a/lda2/src/data/adachi/data/config.yml"
 f = open(config_path, "r+")
 config = yaml.load(f)
 

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5ac7de9d508a547341d64af6e2dcb96.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "本木町三丁目5464　井上伊之松氏宅",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12501"
+        },
+        {
+            "label": "年代",
+            "value": "昭和7年"
+        },
+        {
+            "label": "時代",
+            "value": "06昭和戦前･戦中"
+        },
+        {
+            "label": "解説",
+            "value": "写真は市郡併合の記念写真集から。本木町の農家ではほとんどといってよいほど、漉返紙を作っていた。主な製品は浅草紙(ちり紙)、呉服紙、包紙、桜紙、鼠紙、張子紙、表紙など。浅草紙は江戸時代からの特産で、ここで生産された製品は千住の紙問屋を通じて東京へ出荷されていた。足立区の代表的な家内工業の一つ。"
+        },
+        {
+            "label": "地区",
+            "value": "02西新井地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1932"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12501",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5ac7de9d508a547341d64af6e2dcb96.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5ac7de9d508a547341d64af6e2dcb96.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5ac7de9d508a547341d64af6e2dcb96.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f5ac7de9d508a547341d64af6e2dcb96.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4200.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1591
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4200.jpg"
+                    },
+                    "width": 1591
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4200.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

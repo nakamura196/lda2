@@ -1,0 +1,99 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "防毒マスク",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "9003"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ぼうどくますく"
+        },
+        {
+            "label": "時代",
+            "value": "06昭和戦前･戦中"
+        },
+        {
+            "label": "解説",
+            "value": "昭和17年式。甲2号7個、甲3号2個、不明1個。"
+        },
+        {
+            "label": "員数",
+            "value": "10"
+        },
+        {
+            "label": "地区",
+            "value": "04舎人地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=9003",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1083,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1649.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1083,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1649.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1196,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/71f9d318dc3d21bab89f40b6b918e455.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1648.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1196,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1648.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1649.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

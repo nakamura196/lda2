@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/31ff11b69833ef4f1dda90d357889646.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "江戸時代はじめの新田開発関係図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15520"
+        },
+        {
+            "label": "名称よみ",
+            "value": "えどじだいはじめのしんでんかいはつかんけいず"
+        },
+        {
+            "label": "時代",
+            "value": "現代"
+        },
+        {
+            "label": "解説",
+            "value": "江戸時代はじめ、足立区東部をはじめ武蔵国東部で行われた徳川家代官伊奈氏による新田開発の関係資料について示した。特別展図録『浪人たちのフロンティア』掲載図。"
+        },
+        {
+            "label": "大分類ID",
+            "value": "11"
+        },
+        {
+            "label": "資料種別",
+            "value": "参考資料"
+        },
+        {
+            "label": "一般に公開",
+            "value": "1"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15520",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/31ff11b69833ef4f1dda90d357889646.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/31ff11b69833ef4f1dda90d357889646.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/31ff11b69833ef4f1dda90d357889646.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/31ff11b69833ef4f1dda90d357889646.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9181.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 873
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9181.jpg"
+                    },
+                    "width": 873
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9181.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

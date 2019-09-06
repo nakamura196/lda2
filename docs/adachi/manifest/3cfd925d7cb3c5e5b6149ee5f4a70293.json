@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3cfd925d7cb3c5e5b6149ee5f4a70293.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "羅漢図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15550"
+        },
+        {
+            "label": "名称よみ",
+            "value": "らかんず"
+        },
+        {
+            "label": "作者",
+            "value": "浦田廣香"
+        },
+        {
+            "label": "年代",
+            "value": "明治～昭和初期"
+        },
+        {
+            "label": "時代",
+            "value": "07近代"
+        },
+        {
+            "label": "解説",
+            "value": "高橋廣湖の弟、浦田廣香の作品。釈迦から仏教の正法護持を託された十六羅漢の一人で、龍を操る神通力を持ったという半託迦尊者を描いたものだろう。手に持つ鉢から発せられた煙のような黒雲の中に小さな龍が泳ぐさまが、薄墨と濃墨で描かれている。高橋廣湖ご遺族の旧蔵品。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "うらたこうか"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "本紙：縦132.2×横34.5"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "12足立区外"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15550",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3cfd925d7cb3c5e5b6149ee5f4a70293.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3cfd925d7cb3c5e5b6149ee5f4a70293.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3cfd925d7cb3c5e5b6149ee5f4a70293.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3cfd925d7cb3c5e5b6149ee5f4a70293.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9216.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 305
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9216.jpg"
+                    },
+                    "width": 305
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9216.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

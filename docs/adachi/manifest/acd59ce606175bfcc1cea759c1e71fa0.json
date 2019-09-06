@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd59ce606175bfcc1cea759c1e71fa0.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "春秋二度の彼岸図（六阿弥陀詣）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15532"
+        },
+        {
+            "label": "名称よみ",
+            "value": "しゅんじゅうにどのひがんず（ろくあみだもうで）"
+        },
+        {
+            "label": "年代",
+            "value": "天保7年"
+        },
+        {
+            "label": "解説",
+            "value": "「江戸名所図会」巻之六第十七冊に収録された六阿弥陀詣のようすを描いた図。絵師は長谷川雪旦。茶屋や巡拝する人々が描かれている。現在の足立区江北の恵明寺には六阿弥陀二番が、足立区扇の性翁寺には木余如来がある。"
+        },
+        {
+            "label": "西暦",
+            "value": "1836"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15532",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd59ce606175bfcc1cea759c1e71fa0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd59ce606175bfcc1cea759c1e71fa0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/acd59ce606175bfcc1cea759c1e71fa0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/acd59ce606175bfcc1cea759c1e71fa0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9193.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1575
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9193.jpg"
+                    },
+                    "width": 1575
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9193.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

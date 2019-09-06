@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7f048daeeda577e922e3f4df9768126.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "庚申塔(嘉永元年銘)",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14932"
+        },
+        {
+            "label": "名称よみ",
+            "value": "こうしんとう（かえいがんねんめい）"
+        },
+        {
+            "label": "年代",
+            "value": "嘉永元年"
+        },
+        {
+            "label": "解説",
+            "value": "庚申信仰の主尊である、猿田彦尊・庚申・青面金剛を合わせて100体分を文字で側面に刻んでることから、「百躰庚申塔」とも呼ばれます。造立された嘉永元(1848)年は申年にあたり、この年多くの百庚申が建てられました。この庚申塔は、二ツ家の庚申講中が造立したもので、もと青井五丁目の旧下妻街道の辻にありました。"
+        },
+        {
+            "label": "西暦",
+            "value": "1848"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14932",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7f048daeeda577e922e3f4df9768126.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7f048daeeda577e922e3f4df9768126.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7f048daeeda577e922e3f4df9768126.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c7f048daeeda577e922e3f4df9768126.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5369.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5369.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5369.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

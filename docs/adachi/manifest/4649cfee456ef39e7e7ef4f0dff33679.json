@@ -1,0 +1,95 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "北三谷新田絵図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14944"
+        },
+        {
+            "label": "名称よみ",
+            "value": "きたさんやしんでんえず"
+        },
+        {
+            "label": "年代",
+            "value": "元禄8年"
+        },
+        {
+            "label": "解説",
+            "value": "慶長19(1614)年に開発された北三谷新田(足立区東和)の81年後のすがたを描いた絵図です。一面の耕地と屋敷が広がり縦横に用水が流れています。元禄8(1695)年に行われた検地の際に、担当する下野国黒羽藩（現栃木県大田原市）大関大助の家臣と打ち合わせをするために作成された作業用下図です。　右側にある「本庄御上水」は後の葛西用水、画面中央を東西に流れている「大谷田落」は後の八か村落としです。"
+        },
+        {
+            "label": "西暦",
+            "value": "1695"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14944",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1148,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5405.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1148,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5405.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/4649cfee456ef39e7e7ef4f0dff33679.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5406.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 776
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5406.jpg"
+                    },
+                    "width": 776
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5405.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

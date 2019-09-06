@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1cb728e74cac7457ee2a849ca8ea433.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "バイクの通る道",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12464"
+        },
+        {
+            "label": "年代",
+            "value": "昭和40年5月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "江北四丁目2番付近。昭和38(1963)年に開校した「足立区立高野小学校」という看板が立てられている。通学路となっており、奥に交通安全のテントも見える。手前の通りは江北のバス通りで当時から交通量もあり、格好よくバイクを運転する人も見られる。"
+        },
+        {
+            "label": "地区",
+            "value": "03江北地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1965"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12464",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1cb728e74cac7457ee2a849ca8ea433.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1cb728e74cac7457ee2a849ca8ea433.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1011,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1cb728e74cac7457ee2a849ca8ea433.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a1cb728e74cac7457ee2a849ca8ea433.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4163.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1011,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4163.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4163.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

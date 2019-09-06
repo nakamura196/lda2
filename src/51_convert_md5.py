@@ -11,7 +11,7 @@ import glob
 import hashlib
 import yaml
 
-path = "data/oml/data/md5.csv"
+path = "data/adachi/data/md5.csv"
 
 f = open(path, 'r')
 rows = []

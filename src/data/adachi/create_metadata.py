@@ -53,6 +53,8 @@ while(flg):
 
     imgs = soup.find_all("a")
 
+    check = []
+
     for img in imgs:
 
         src = img.get("href")
@@ -64,6 +66,7 @@ while(flg):
             src = "http://jmapps.ne.jp/adachitokyo/"+src.replace("./", "")
 
             print(src)
+            check.append(src)
 
             time.sleep(1)
 
@@ -96,7 +99,7 @@ while(flg):
 
     page += 1
 
-    if len(imgs) == 0:
+    if len(check) == 0:
         flg = False
 
 fields = []

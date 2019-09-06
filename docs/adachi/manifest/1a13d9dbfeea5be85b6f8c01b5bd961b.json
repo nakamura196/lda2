@@ -1,0 +1,62 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1a13d9dbfeea5be85b6f8c01b5bd961b.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "馬頭観音",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14926"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ばとうかんのん"
+        },
+        {
+            "label": "解説",
+            "value": "ヒンズー教のビシュヌ神の化身が仏教に採り入れられたといわれる観音で、馬の頭を持っていることから馬頭観音と呼ばれています。忿怒相三眼で牙があり、生死の大海を渡って四魔を承服させる大威力を現しています。しかし馬頭を頭上にいただいているところから馬や牛の供養仏となり、墓標的な色彩が濃くなって、各地に建てられ信仰されました。この場合は、忿怒相でなく慈悲相に仕上げたものが多くみられます。"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14926",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1a13d9dbfeea5be85b6f8c01b5bd961b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1a13d9dbfeea5be85b6f8c01b5bd961b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1a13d9dbfeea5be85b6f8c01b5bd961b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/1a13d9dbfeea5be85b6f8c01b5bd961b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5356.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5356.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5356.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

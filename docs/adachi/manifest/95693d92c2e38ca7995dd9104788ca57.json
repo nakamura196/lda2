@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/95693d92c2e38ca7995dd9104788ca57.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "大震災千住町写真帳より　８\n清亮寺（弥五郎新田）付近と隅田川駅（現荒川区南千住）から南の被害状況",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15530"
+        },
+        {
+            "label": "年代",
+            "value": "大正12年"
+        },
+        {
+            "label": "時代",
+            "value": "05大正"
+        },
+        {
+            "label": "解説",
+            "value": "『大震災千住町写真帖』所収の１枚。現足立区日の出町の清亮寺付近の被害状況と、現荒川区南千住の隅田川駅から南をのぞんだ風景写真を掲載している。写真は井上仙吉（千住町中組）の撮影。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1923"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15530",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/95693d92c2e38ca7995dd9104788ca57.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/95693d92c2e38ca7995dd9104788ca57.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/95693d92c2e38ca7995dd9104788ca57.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/95693d92c2e38ca7995dd9104788ca57.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9191.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1593
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9191.jpg"
+                    },
+                    "width": 1593
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9191.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/bc9f4741b4f17ab5290a57475306c523.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "高架になった五反野駅",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12845"
+        },
+        {
+            "label": "年代",
+            "value": "昭和44年1月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "駅の裏には駅利用者の自転車が置かれ、駅前放置自転車の兆しがみえる。＊小菅駅として公開していたものを「五反野駅」に修正しました。（平成30年９月19日）"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1969"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12845",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/bc9f4741b4f17ab5290a57475306c523.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/bc9f4741b4f17ab5290a57475306c523.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1043,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/bc9f4741b4f17ab5290a57475306c523.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/bc9f4741b4f17ab5290a57475306c523.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4544.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1043,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4544.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4544.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

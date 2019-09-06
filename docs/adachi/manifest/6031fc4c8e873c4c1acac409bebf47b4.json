@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6031fc4c8e873c4c1acac409bebf47b4.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "奥のほそ道",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1405"
+        },
+        {
+            "label": "名称よみ",
+            "value": "おくのほそみち"
+        },
+        {
+            "label": "作者",
+            "value": "松尾芭蕉"
+        },
+        {
+            "label": "年代",
+            "value": "享保12年"
+        },
+        {
+            "label": "解説",
+            "value": "元禄2年3月27日(1689年5月16日)に江戸深川(現江東区)を出立し、奥州・北陸の名所・旧蹟・歌枕などを巡り、8月20日に美濃国大垣(現岐阜県大垣市)にいたる約600里(2340キロメートル)、約5か月におよぶ旅を題材にした作品です。深川から船で千住まで遡った松尾芭蕉は、多くの門人たちが見送る中、河合曽良をともなって旅立ちました。『奥のほそ道』には千住で詠んだ矢立初めの句「行春や鳥啼魚の目は泪」が載せられています。奥書から尾張名古屋で井筒屋庄兵衛版を写したことが記されている。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "まつおばしょう"
+        },
+        {
+            "label": "員数",
+            "value": "1冊"
+        },
+        {
+            "label": "西暦",
+            "value": "1727"
+        },
+        {
+            "label": "中分類ID",
+            "value": "0"
+        },
+        {
+            "label": "形態/材質/品質",
+            "value": "写本"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1405",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6031fc4c8e873c4c1acac409bebf47b4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6031fc4c8e873c4c1acac409bebf47b4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6031fc4c8e873c4c1acac409bebf47b4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/6031fc4c8e873c4c1acac409bebf47b4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5797.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1586
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5797.jpg"
+                    },
+                    "width": 1586
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5797.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

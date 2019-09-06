@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/65cc78b34972761dd6175ce5636e1bac.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "川田橋排水場全景",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12565"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "足立区の下水は、素掘の旧農業用水であるため、流末が細く、浅く、下水路とはまったく逆の構造であった。これを改修し、水を集める能力を増したが、それとともに集まる水を大量に排出する排水場の建設に力が注がれた。川田橋排水場は区内最大級の排水場で口径1000ミリのポンプ2台、1200ミリのポンプ1台が備えつけられ、毎分490トンの水を荒川に放出する。昭和37(1962)年3月完成"
+        },
+        {
+            "label": "地区",
+            "value": "05梅島地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12565",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/65cc78b34972761dd6175ce5636e1bac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/65cc78b34972761dd6175ce5636e1bac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1084,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/65cc78b34972761dd6175ce5636e1bac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/65cc78b34972761dd6175ce5636e1bac.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4264.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1084,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4264.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4264.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

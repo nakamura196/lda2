@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/577779f7bd916307004dffaec5f3fdb7.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "能楽図屏風",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15489"
+        },
+        {
+            "label": "名称よみ",
+            "value": "のうがくずびょうぶ"
+        },
+        {
+            "label": "作者",
+            "value": "河鍋暁斎"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "自身も能を嗜み、能狂言画も多く描いた河鍋暁斎による二曲一双の屏風。能狂言の演目「悪太郎」（右隻１扇）、「大黒連歌」（右隻２扇）、「柿山伏」（左隻１扇）、「金岡」（左隻２扇）を描いている。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "かわなべきょうさい"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15489",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/577779f7bd916307004dffaec5f3fdb7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/577779f7bd916307004dffaec5f3fdb7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 859,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/577779f7bd916307004dffaec5f3fdb7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/577779f7bd916307004dffaec5f3fdb7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5791.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 859,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5791.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5791.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

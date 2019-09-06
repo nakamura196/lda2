@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5803dd854050dd16807b1edb78b1023d.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "国道4号線の改修",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12488"
+        },
+        {
+            "label": "時代",
+            "value": "05大正"
+        },
+        {
+            "label": "解説",
+            "value": "大正7(1918)年から国道の改修工事がはじめられたが、その後市電の乗入れがきまり、千住大橋―千住新橋間の道路は計画を変更して幅員を拡げて12間半(22m)とし、大正12(1923)年から土地買収などを行ない、同15年に完成した。このとき、新開橋は埋め立てられた。千住大橋―千住四丁目間に市電が開通したのは昭和3(1928)年7月24日のことであった。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12488",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5803dd854050dd16807b1edb78b1023d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5803dd854050dd16807b1edb78b1023d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1127,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5803dd854050dd16807b1edb78b1023d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/5803dd854050dd16807b1edb78b1023d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4187.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1127,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4187.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4187.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

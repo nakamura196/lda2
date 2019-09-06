@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/17fb96bd89f604fa9f688d15170c6e9c.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "庚申塔(寛政十二年銘)",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14933"
+        },
+        {
+            "label": "名称よみ",
+            "value": "こうしんとう（かんせいじゅうにねんめい）"
+        },
+        {
+            "label": "年代",
+            "value": "寛政12年12月"
+        },
+        {
+            "label": "解説",
+            "value": "寛政12(1800)年12月に、二ツ家庚申講中の人々が造立した庚申塔です。天上には雲をまとう月日、その下に青面金剛が宝珠、戟、弓、矢等を持ち、邪鬼を踏みつけています。左下には、朝を告げる鶏も表現されています。最下部には、見ざる、言わざる、聞かざるの三猿も彫刻されています。もと青井五丁目の旧下妻街道の辻にありました。"
+        },
+        {
+            "label": "西暦",
+            "value": "1800"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14933",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/17fb96bd89f604fa9f688d15170c6e9c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/17fb96bd89f604fa9f688d15170c6e9c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/17fb96bd89f604fa9f688d15170c6e9c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/17fb96bd89f604fa9f688d15170c6e9c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5370.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5370.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5370.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2073dc744a1b63a273386c3b54f71e08.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "田んぼでままごと",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12334"
+        },
+        {
+            "label": "年代",
+            "value": "昭和35年10月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "現保塚町付近の田の稲刈り。当時の保塚町付近は一面の水田で、竹塚堀から分水する坊屋堀や吉右衛門堀に囲まれた長田・五反田といった耕地があった。トネリコや榛の木が畔に植えられ、刈ったあとの稲のハザ架けに使用されている。稲刈は家族総出の仕事なので、子どもたちも家から離れた耕地に来て遊んでいる。黒田倉蔵氏撮影"
+        },
+        {
+            "label": "地区",
+            "value": "09渕江地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1960"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12334",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2073dc744a1b63a273386c3b54f71e08.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2073dc744a1b63a273386c3b54f71e08.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1124,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2073dc744a1b63a273386c3b54f71e08.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/2073dc744a1b63a273386c3b54f71e08.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4033.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1124,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4033.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4033.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1f477e93f6c3ed4e977f3a06848878c8.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "内匠圦（たくみいり）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12381"
+        },
+        {
+            "label": "年代",
+            "value": "昭和41年6月20日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "圦は堤防に設けられた通水管と水門で、排水の調整等に用いる施設である。内匠本町17番（現南花畑三丁目20番付近）地先の綾瀬川堤防部分にあった。木製の水門が印象的である。足立区土木部"
+        },
+        {
+            "label": "地区",
+            "value": "08花畑地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1966"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12381",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1f477e93f6c3ed4e977f3a06848878c8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1f477e93f6c3ed4e977f3a06848878c8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1f477e93f6c3ed4e977f3a06848878c8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/1f477e93f6c3ed4e977f3a06848878c8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4080.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 790
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4080.jpg"
+                    },
+                    "width": 790
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4080.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

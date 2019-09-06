@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2d20cfa1469fc97c8c8bdf0aa6b64ff.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "綾瀬駅での千代田線開通式",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12723"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "昭和46(1971)年4月20日、綾瀬駅で、北千住―綾瀬間の開通式が行われた。この開通で、地下鉄千代田線と国鉄常磐線は相互乗り入れされ、綾瀬―霞ヶ関間が直通となった。しかし、この日から常磐線は緩行と快速の複々線となり、快速線は松戸―北千住間を停車しなくなり、上野方面は北千住で快速線に乗替えるかしなければならなくなり、運賃的にも負担が多くなったことから、住民の反対運動がおこった。"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12723",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2d20cfa1469fc97c8c8bdf0aa6b64ff.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2d20cfa1469fc97c8c8bdf0aa6b64ff.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1141,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a2d20cfa1469fc97c8c8bdf0aa6b64ff.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a2d20cfa1469fc97c8c8bdf0aa6b64ff.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4422.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1141,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4422.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4422.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

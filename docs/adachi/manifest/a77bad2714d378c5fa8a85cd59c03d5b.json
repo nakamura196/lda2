@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a77bad2714d378c5fa8a85cd59c03d5b.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "四季草花人物図屏風",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1161"
+        },
+        {
+            "label": "名称よみ",
+            "value": "しきくさばなじんぶつずびょうぶ"
+        },
+        {
+            "label": "作者",
+            "value": "村越向栄"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "作者村越向栄の父・其栄は鈴木其一の門弟。向栄は明治期の琳派画家として千住を拠点に活動。本作は「白梅に藪柑子図」「仕丁図」「秋草図」「夏草図」「木樵図」「山茶花に寒牡丹図」から成る。現状の配列に整合性はなく、当初は独立した掛幅であった可能性が高い。千住掃部宿（現千住仲町ほか）の開発人、石出吉胤を祖とする石出掃部介家に伝来した。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "むらこしこうえい"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "全体：縦171.0×横367.8　本紙：縦113.0×横41.0"
+        },
+        {
+            "label": "員数",
+            "value": "六曲一隻"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1161",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a77bad2714d378c5fa8a85cd59c03d5b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a77bad2714d378c5fa8a85cd59c03d5b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 997,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a77bad2714d378c5fa8a85cd59c03d5b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a77bad2714d378c5fa8a85cd59c03d5b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1158.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 997,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1158.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1158.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

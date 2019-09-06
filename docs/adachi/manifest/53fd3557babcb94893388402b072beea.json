@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/53fd3557babcb94893388402b072beea.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "古今名画美考競（番付）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "5734"
+        },
+        {
+            "label": "年代",
+            "value": "年未詳"
+        },
+        {
+            "label": "解説",
+            "value": "文化年間に知られていた絵師の番付表。摺りの状態から、復刻版とみられる。西（左）の下段最下部には、谷文晁がおり、その上段に千住の建部巣兆の他、酒井抱一・谷文一の名が見える。"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "文化財指定/登録",
+            "value": "有形文化財(古文書)"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=5734",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/53fd3557babcb94893388402b072beea.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/53fd3557babcb94893388402b072beea.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/53fd3557babcb94893388402b072beea.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/53fd3557babcb94893388402b072beea.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/6319.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 895
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/6319.jpg"
+                    },
+                    "width": 895
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/6319.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f2196ed93cbff2da3c9fadca6eef84c3.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "昭和10(1935)年ごろの綾瀬川",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12509"
+        },
+        {
+            "label": "時代",
+            "value": "06昭和戦前･戦中"
+        },
+        {
+            "label": "解説",
+            "value": "帆かけ舟がのんびり通っていた。ここでは鯉がよく釣れた。また、むかしから沼沢の多い低地帯であったため、綾瀬川の両岸近くには養魚場がたくさんあった。"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12509",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f2196ed93cbff2da3c9fadca6eef84c3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f2196ed93cbff2da3c9fadca6eef84c3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1077,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f2196ed93cbff2da3c9fadca6eef84c3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f2196ed93cbff2da3c9fadca6eef84c3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4208.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1077,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4208.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4208.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

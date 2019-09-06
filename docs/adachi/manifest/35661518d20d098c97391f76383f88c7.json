@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/35661518d20d098c97391f76383f88c7.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "鶏図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15534"
+        },
+        {
+            "label": "名称よみ",
+            "value": "にわとりず"
+        },
+        {
+            "label": "作者",
+            "value": "谷文一"
+        },
+        {
+            "label": "年代",
+            "value": "江戸時代"
+        },
+        {
+            "label": "時代",
+            "value": "03江戸"
+        },
+        {
+            "label": "解説",
+            "value": "一世谷文一（号「痴斎」）による鶏図。雄鶏と雌鳥とともに雛が描かれている。本図の構成要素は二曲一隻屏風（足立区内個人蔵、『大千住展』展覧会図録参照）でも見ることができる。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "たにぶんいち"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "江戸"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15534",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/35661518d20d098c97391f76383f88c7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/35661518d20d098c97391f76383f88c7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/35661518d20d098c97391f76383f88c7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/35661518d20d098c97391f76383f88c7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9200.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 560
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9200.jpg"
+                    },
+                    "width": 560
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9200.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

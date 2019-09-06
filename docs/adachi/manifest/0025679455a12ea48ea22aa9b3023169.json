@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/0025679455a12ea48ea22aa9b3023169.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "空中写真　佐野家屋敷周辺　昭和33(1958)年撮影",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15521"
+        },
+        {
+            "label": "名称よみ",
+            "value": "くうちゅうしゃしん　さのけやしきしゅうへん　しょうわ３３ねんさつえい"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "近世初期の新田開発をすすめ、代官伊奈氏の家臣でもあった佐野家の屋敷地。中川の右岸（西岸）に接し、水運の便が良い地域に立地している。特別展図録『浪人たちのフロンティア』掲載。"
+        },
+        {
+            "label": "地区",
+            "value": "07東渕江地区"
+        },
+        {
+            "label": "大分類ID",
+            "value": "11"
+        },
+        {
+            "label": "資料種別",
+            "value": "写真"
+        },
+        {
+            "label": "一般に公開",
+            "value": "1"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15521",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/0025679455a12ea48ea22aa9b3023169.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/0025679455a12ea48ea22aa9b3023169.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1124,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/0025679455a12ea48ea22aa9b3023169.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/0025679455a12ea48ea22aa9b3023169.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9182.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1124,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9182.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9182.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

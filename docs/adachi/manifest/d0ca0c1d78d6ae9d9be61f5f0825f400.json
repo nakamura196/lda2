@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0ca0c1d78d6ae9d9be61f5f0825f400.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "不発弾の処理",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12432"
+        },
+        {
+            "label": "年代",
+            "value": "昭和56年5月2日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "佐野センター（佐野二丁目43番5号）の建設時に戦時中のアメリカ軍の１トン爆弾が発見され、付近住民が避難するとともに自衛隊によって処理が行われた。この他にも区内では千住緑町でも不発弾が発見されるなど、戦時中の遺産がいまも時おり姿を表す。"
+        },
+        {
+            "label": "地区",
+            "value": "07東渕江地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1981"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12432",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0ca0c1d78d6ae9d9be61f5f0825f400.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0ca0c1d78d6ae9d9be61f5f0825f400.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1117,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0ca0c1d78d6ae9d9be61f5f0825f400.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/d0ca0c1d78d6ae9d9be61f5f0825f400.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4131.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1117,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4131.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4131.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

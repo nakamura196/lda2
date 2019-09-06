@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/63063c7371e64734c044813762b3c8ae.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "東京府下南足立郡西新井村　五智山總持寺全図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15515"
+        },
+        {
+            "label": "名称よみ",
+            "value": "とうきょうふかふかみなみあだちぐｎにしあらいむら　ごちさんそうじじぜんず"
+        },
+        {
+            "label": "年代",
+            "value": "明治30年"
+        },
+        {
+            "label": "解説",
+            "value": "明治30（1897）年に作成された總持寺（西新井大師）の銅版画。銅版原板も当館が所蔵している。寺院の南東から鳥瞰している。"
+        },
+        {
+            "label": "西暦",
+            "value": "1897"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15515",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/63063c7371e64734c044813762b3c8ae.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/63063c7371e64734c044813762b3c8ae.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 902,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/63063c7371e64734c044813762b3c8ae.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/63063c7371e64734c044813762b3c8ae.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/8906.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 902,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/8906.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/8906.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

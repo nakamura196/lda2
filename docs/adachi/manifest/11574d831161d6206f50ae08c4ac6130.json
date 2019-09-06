@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/11574d831161d6206f50ae08c4ac6130.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "四中二部開設",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12540"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "区内には生活苦のため、働いて家計を助けなければならない児童が多くいた。これら未就学児童は、区立中学校14校の在籍者18"
+        },
+        {
+            "label": "解説",
+            "value": "000名のうち、約1"
+        },
+        {
+            "label": "解説",
+            "value": "200名もいた。このような児童を救済すべく、当時の伊藤泰治校長の発議によって、昭和26(1951)年7月16日、第二部(夜間中学)が開設された。"
+        },
+        {
+            "label": "地区",
+            "value": "05梅島地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12540",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/11574d831161d6206f50ae08c4ac6130.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/11574d831161d6206f50ae08c4ac6130.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1134,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/11574d831161d6206f50ae08c4ac6130.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/11574d831161d6206f50ae08c4ac6130.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4239.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1134,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4239.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4239.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/659db8930238af23a534e0f8ffa2ae9a.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "鯉図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "1183"
+        },
+        {
+            "label": "名称よみ",
+            "value": "こいず"
+        },
+        {
+            "label": "作者",
+            "value": "村越向栄"
+        },
+        {
+            "label": "年代",
+            "value": "明治34年"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "鯉はその旺盛な生命力と、吉祥的意味から盛んに絵画化されており、中国・朝鮮・日本において数多くの作例を確認することができる。本作品では身をくねらせ水面から上昇するような姿勢のもの、ゆったりと泳ぐもの、さらに深い水中から頭部を見せるものの三尾の鯉を表す。鯉の鱗は繊細な筆墨で表され、淡く引かれた水面の青色と、流麗な水紋が印象的な一幅である。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "むらこしこうえい"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "本紙：縦66.4×横50.0"
+        },
+        {
+            "label": "員数",
+            "value": "一幅"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1901"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=1183",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/659db8930238af23a534e0f8ffa2ae9a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/659db8930238af23a534e0f8ffa2ae9a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/659db8930238af23a534e0f8ffa2ae9a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/659db8930238af23a534e0f8ffa2ae9a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/1194.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 519
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1194.jpg"
+                    },
+                    "width": 519
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/1194.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

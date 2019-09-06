@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9f70f9c7c216ff2910b26acdc13575fc.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "廃止前日の都電",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12645"
+        },
+        {
+            "label": "年代",
+            "value": "昭和43年2月23日"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "車社会の到来で、道路は自動車であふれ、大衆の乗物として長年親しまれてきた都電がじゃま物あつかいされるようになった。特に千住4丁目・千住2丁目・区役所前の3つの停留所(安全地帯)にはしばしば大型ダンプやマイカーが激突するなど、悲惨な事故をくりかえしていた。都では地下鉄日比谷線の開通によって、都電を廃止しても通勤・通学には支障がないという考え方で、昭和43(1968)年2月24日限りをもって北千住―三の輪間2776mが廃止された。写真は廃止前日に橋戸町から写したもの。"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1968"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12645",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9f70f9c7c216ff2910b26acdc13575fc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9f70f9c7c216ff2910b26acdc13575fc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9f70f9c7c216ff2910b26acdc13575fc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/9f70f9c7c216ff2910b26acdc13575fc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4344.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 809
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4344.jpg"
+                    },
+                    "width": 809
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4344.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

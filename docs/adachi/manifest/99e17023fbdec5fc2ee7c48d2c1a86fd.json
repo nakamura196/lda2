@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/99e17023fbdec5fc2ee7c48d2c1a86fd.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "千住榎木新田宛伊奈忠治開発定書",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "13646"
+        },
+        {
+            "label": "名称よみ",
+            "value": "せんじゅえのきしんでんあていなただはるかいはつさだめがき"
+        },
+        {
+            "label": "作者",
+            "value": "伊奈半十郎忠治"
+        },
+        {
+            "label": "年代",
+            "value": "元和2年"
+        },
+        {
+            "label": "解説",
+            "value": "幕府代官の伊奈忠治が江戸東郊地域に発給した開発定書の一つ。新田を開発するため入植者を、五つの条件を示して募っている。対象となった千住榎木新田の位置は未詳。宛所の「平内」は開発人、河合平内のことで、本開発定書のほか、慶長19(1614)年の普賢寺北三谷新田宛、元和2(1616)年の千住榎木新田宛（いずれも当館蔵）、六木新田宛（明治大学博物館蔵）の開発定書で名前が確認できる。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "いなはんじゅうろうただはる"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "西暦",
+            "value": "1616"
+        },
+        {
+            "label": "文化財指定/登録",
+            "value": "足立区登録有形文化財(古文書)"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=13646",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/99e17023fbdec5fc2ee7c48d2c1a86fd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/99e17023fbdec5fc2ee7c48d2c1a86fd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1107,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/99e17023fbdec5fc2ee7c48d2c1a86fd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/99e17023fbdec5fc2ee7c48d2c1a86fd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5331.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1107,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5331.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5331.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

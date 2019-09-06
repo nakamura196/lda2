@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/09ef3dc7371c0adf78e6f51c1c8eda5c.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "廣湖落款集",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15546"
+        },
+        {
+            "label": "名称よみ",
+            "value": "こうこらっかんしゅう"
+        },
+        {
+            "label": "作者",
+            "value": "亀井琴仙"
+        },
+        {
+            "label": "年代",
+            "value": "明治～大正頃"
+        },
+        {
+            "label": "時代",
+            "value": "07近代"
+        },
+        {
+            "label": "解説",
+            "value": "様々な形の高橋廣湖の落款印を捺して図様の作られた作品で、秋草の入れられた竹籠の中で、印が何かを形作るように山形を成している。作者の亀井琴仙は本名を啓三郎といい、明治39年頃に讃岐から上京して廣湖の書生となった最も身近な門弟の一人だが、廣湖没後の足跡は定かではない。高橋廣湖ご遺族旧蔵品。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "かめいきんせん"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "本紙：縦112.0×横31.0"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "12足立区外"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15546",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/09ef3dc7371c0adf78e6f51c1c8eda5c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/09ef3dc7371c0adf78e6f51c1c8eda5c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/09ef3dc7371c0adf78e6f51c1c8eda5c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/09ef3dc7371c0adf78e6f51c1c8eda5c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9212.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 332
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9212.jpg"
+                    },
+                    "width": 332
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9212.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

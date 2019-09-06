@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6ca5385dae6fb4aec18506d3c2526a1a.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "火の見櫓がある風景",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12346"
+        },
+        {
+            "label": "年代",
+            "value": "昭和43年1月"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "竹の塚二丁目8番付近から竹ノ塚駅方面を望む。左手が千住堀、右手は竹塚堀が流れ道幅は狭い。火の見櫓は町内の防災のために建てられ消防団等が管理していた。電話の普及や通報体制の整備などにより、古びた火の見櫓は役目を終え撤去されていったが、区内では各地に見られたなつかしい風景になっている。黒田倉蔵氏撮影"
+        },
+        {
+            "label": "地区",
+            "value": "09渕江地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1968"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12346",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6ca5385dae6fb4aec18506d3c2526a1a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6ca5385dae6fb4aec18506d3c2526a1a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1122,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6ca5385dae6fb4aec18506d3c2526a1a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/6ca5385dae6fb4aec18506d3c2526a1a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4045.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1122,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4045.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4045.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc73b6469b0c3177ccf7caa6a934a03c.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "千寿第三尋常小学校",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12476"
+        },
+        {
+            "label": "年代",
+            "value": "大正13年"
+        },
+        {
+            "label": "時代",
+            "value": "05大正"
+        },
+        {
+            "label": "解説",
+            "value": "大正9(1920)年創立。写真は大正13(1924)年のもの。"
+        },
+        {
+            "label": "地区",
+            "value": "03江北地区"
+        },
+        {
+            "label": "西暦",
+            "value": "1924"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12476",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc73b6469b0c3177ccf7caa6a934a03c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc73b6469b0c3177ccf7caa6a934a03c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 803,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc73b6469b0c3177ccf7caa6a934a03c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/dc73b6469b0c3177ccf7caa6a934a03c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4175.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 803,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4175.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4175.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

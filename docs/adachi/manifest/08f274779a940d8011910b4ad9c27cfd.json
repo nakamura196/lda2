@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/08f274779a940d8011910b4ad9c27cfd.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "狗図",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15537"
+        },
+        {
+            "label": "名称よみ",
+            "value": "いぬず"
+        },
+        {
+            "label": "作者",
+            "value": "高橋廣湖"
+        },
+        {
+            "label": "年代",
+            "value": "明治時代後期"
+        },
+        {
+            "label": "時代",
+            "value": "04明治"
+        },
+        {
+            "label": "解説",
+            "value": "桜の花びらが舞い散る中を、二匹の子犬がじゃれ合っている。愛らしい子犬を描いた例としては江戸時代京都の円山応挙の作がまず想起されるが、本作においても明確な輪郭による三角形の垂れ目に、墨の濃淡で瞳孔を描いた黒目など、着実に応挙の子犬表現の流れが踏まえられている。"
+        },
+        {
+            "label": "作者よみ",
+            "value": "たかはしこうこ"
+        },
+        {
+            "label": "法量(cm)",
+            "value": "全体：縦150.5×横30.0　本紙：縦69.0×横26.5"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15537",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/08f274779a940d8011910b4ad9c27cfd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/08f274779a940d8011910b4ad9c27cfd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/08f274779a940d8011910b4ad9c27cfd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/08f274779a940d8011910b4ad9c27cfd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9203.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 473
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9203.jpg"
+                    },
+                    "width": 473
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9203.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

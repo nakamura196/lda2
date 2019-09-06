@@ -1,0 +1,128 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "乍恐書付を以御訴訟申上候事（利根川破損普請人足役につき）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "5570"
+        },
+        {
+            "label": "作者",
+            "value": "御神領沼田村名主平左衛門他２４名"
+        },
+        {
+            "label": "年代",
+            "value": "延宝6年3月23日"
+        },
+        {
+            "label": "解説",
+            "value": "幕府代官から、金町を流れる利根川（現江戸川）の堤防工事に作業員を出すように命令が出されました。　沼田、堀之内、鹿浜、皿沼、高野、谷在家、小台の各村は、代官に、東叡山領（寛永寺の領地、神領）は諸役（労役または労役金）が免除されており、今回の命令は「非常に迷惑」と言っています。また、稲の植え付けの季節で、人足を出すと不作となるので「迷惑」であるとしています。そして、これまでの通り、免除してほしいと代官に願い出ました。　しかし、村の願いは聞き入れられず、最終的に作業員をだすこととなりました。"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "西暦",
+            "value": "1678"
+        },
+        {
+            "label": "文化財指定/登録",
+            "value": "有形文化財(古文書)"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=5570",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 632,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/7109.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 632,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/7109.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1070,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/7110.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1070,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/7110.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 1025,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3ca3173991fa2bd55b311580146075cc.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/7111.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1025,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/7111.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/7109.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ca194fb5949f3c7f7c5c2c99db1ad7eb.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "地盤沈下によって露出した井戸鉄管",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "12611"
+        },
+        {
+            "label": "時代",
+            "value": "08昭和戦後"
+        },
+        {
+            "label": "解説",
+            "value": "この井戸は足立区青井5丁目18-22伊藤定久氏宅のもので、昭和42(1967)年1月20日に測定したところ、80センチも鉄管が露出していた、井戸を設置したのは昭和5(1930)年で、管の長さ90メートル、昭和38(1963)年8月1日に測定したときは、50センチ露出していたので4年半で30センチも地盤が沈下したことになる。"
+        },
+        {
+            "label": "地区",
+            "value": "06綾瀬地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=12611",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ca194fb5949f3c7f7c5c2c99db1ad7eb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ca194fb5949f3c7f7c5c2c99db1ad7eb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ca194fb5949f3c7f7c5c2c99db1ad7eb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ca194fb5949f3c7f7c5c2c99db1ad7eb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/4310.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 822
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4310.jpg"
+                    },
+                    "width": 822
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/4310.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

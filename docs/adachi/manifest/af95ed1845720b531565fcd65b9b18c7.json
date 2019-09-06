@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/af95ed1845720b531565fcd65b9b18c7.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "譬草風俗合",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "640"
+        },
+        {
+            "label": "大分類",
+            "value": "浮世絵"
+        },
+        {
+            "label": "中分類",
+            "value": "菊川英山"
+        },
+        {
+            "label": "名称よみ",
+            "value": "たとえぐさふうぞくあわせ"
+        },
+        {
+            "label": "作者",
+            "value": "菊川英山"
+        },
+        {
+            "label": "年代",
+            "value": "制作年不明"
+        },
+        {
+            "label": "時代",
+            "value": "99不明"
+        },
+        {
+            "label": "小分類",
+            "value": "美人画"
+        },
+        {
+            "label": "解説",
+            "value": "平成29年度浮世絵展「美人画名品選―春信・歌麿から芳年・周延まで―」後期出展作品"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=640",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/af95ed1845720b531565fcd65b9b18c7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/af95ed1845720b531565fcd65b9b18c7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/af95ed1845720b531565fcd65b9b18c7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/af95ed1845720b531565fcd65b9b18c7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/626.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 797
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/626.jpg"
+                    },
+                    "width": 797
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/626.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,95 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "算額",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14948"
+        },
+        {
+            "label": "名称よみ",
+            "value": "さんがく"
+        },
+        {
+            "label": "年代",
+            "value": "嘉永7年"
+        },
+        {
+            "label": "解説",
+            "value": "算額は、江戸時代の和算家による数学の問答が書かれた額で、寺社に奉納されました。数学の問題が解けたことを神仏に感謝し、ますます勉学に励むことを誓ったり、問題を広く伝える意味もありました。この算額は須賀三治郎邦慶という人物が奉納したもので、幾何学の問題が書かれています。"
+        },
+        {
+            "label": "西暦",
+            "value": "1854"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14948",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1114,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5409.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1114,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5409.jpg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/b5827ac14dc546907c06e2e96bd58897.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5410.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1201
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5410.jpg"
+                    },
+                    "width": 1201
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5409.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

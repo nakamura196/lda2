@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/64ad4d12e9709561921a8955ccff3688.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "朝比奈三郎草摺引きの図　",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "15567"
+        },
+        {
+            "label": "名称よみ",
+            "value": "あさひなさぶろうくさずりびきのず"
+        },
+        {
+            "label": "作者",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "年代",
+            "value": "江戸時代後期"
+        },
+        {
+            "label": "時代",
+            "value": "03江戸"
+        },
+        {
+            "label": "解説",
+            "value": "武者絵の名手として名を馳せた浮世絵師、歌川国芳の肉筆による一作で、画題は『曽我物語』中「草摺引」の場面の朝比奈三郎である。大千住　美の系譜展　出展資料足立区千住個人寄贈　当館蔵"
+        },
+        {
+            "label": "作者よみ",
+            "value": "うたがわくによし"
+        },
+        {
+            "label": "員数",
+            "value": "1"
+        },
+        {
+            "label": "地区",
+            "value": "01千住地区"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=15567",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/64ad4d12e9709561921a8955ccff3688.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/64ad4d12e9709561921a8955ccff3688.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/64ad4d12e9709561921a8955ccff3688.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/64ad4d12e9709561921a8955ccff3688.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/9238.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 694
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9238.jpg"
+                    },
+                    "width": 694
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/9238.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

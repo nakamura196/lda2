@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5448e0d85be0a11ea42bd4b0a39759f.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "五榜の掲示",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14952"
+        },
+        {
+            "label": "名称よみ",
+            "value": "ごぼうのけいじ"
+        },
+        {
+            "label": "年代",
+            "value": "慶応4年3月"
+        },
+        {
+            "label": "解説",
+            "value": "明治維新政府は庶民政策の基本方針を「五榜の掲示」として示しました。これは、五倫の道の勧め、徒党・強訴・逃散の禁止、切支丹・邪宗門の禁止、開国和親と外国人殺害禁止、士民の本国脱走禁止からなります。この資料は、五倫の道の勧めを記したもので、伊興村に交付されたものです。"
+        },
+        {
+            "label": "西暦",
+            "value": "1868"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14952",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5448e0d85be0a11ea42bd4b0a39759f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5448e0d85be0a11ea42bd4b0a39759f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1124,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b5448e0d85be0a11ea42bd4b0a39759f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/b5448e0d85be0a11ea42bd4b0a39759f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5415.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1124,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5415.jpg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5415.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

@@ -1,0 +1,70 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9acabef6cca67e4f9d75cbbc149702a3.json",
+    "@type": "sc:Manifest",
+    "attribution": "足立区立郷土博物館",
+    "label": "ナンシー･レーガン書簡",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "資料番号",
+            "value": "14940"
+        },
+        {
+            "label": "名称よみ",
+            "value": "なんしー・れーがんしょかん"
+        },
+        {
+            "label": "年代",
+            "value": "昭和61年6月16日"
+        },
+        {
+            "label": "解説",
+            "value": "足立区に贈られたレーガン桜の写真集を当時の大統領夫人、ナンシー・レーガン氏に足立区が贈呈したことに対する返礼書簡。（以下翻訳文）ホワイトハウス１９８６年６月１６日親愛なる区長　古性殿先日大統領と私が東京を訪れた際、区長の代理として、かみや　もりと氏とせき　ひでじろう氏より“レーガン桜”の写真集を贈呈いただきました。ありがとうございます。1981年に足立区に植えられた木のめまぐるしい生長を大変喜ばしく思います。日本という美しい国での滞在の良き思い出の品となり、私も夫も大変感謝しております。これは私たちと足立区民の暖かい友情を表した素晴らしい記念品だと思います。皆様のご健康とご多幸を心よりお祈り申し上げます。（署名）ナンシー・レーガン日本東京　特別区、足立名誉区長　古性直"
+        },
+        {
+            "label": "西暦",
+            "value": "1986"
+        }
+    ],
+    "related": "http://jmapps.ne.jp/adachitokyo/det.html?data_id=14940",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9acabef6cca67e4f9d75cbbc149702a3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9acabef6cca67e4f9d75cbbc149702a3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9acabef6cca67e4f9d75cbbc149702a3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/9acabef6cca67e4f9d75cbbc149702a3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/large/5377.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 760
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5377.jpg"
+                    },
+                    "width": 760
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://jmapps.ne.jp/adachitokyo/files/0774/media_files/small/5377.jpg"
+    },
+    "within": "http://jmapps.ne.jp/adachitokyo/index.html"
+}

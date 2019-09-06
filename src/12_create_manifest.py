@@ -10,7 +10,7 @@ from PIL import Image
 import yaml
 import requests
 
-config_path = "/Users/nakamura/git/min_a/lda2/src/data/oml/data/config.yml"
+config_path = "/Users/nakamura/git/min_a/lda2/src/data/adachi/data/config.yml"
 f = open(config_path, "r+")
 config = yaml.load(f)
 
@@ -20,6 +20,9 @@ prefix = config["prefix"]
 
 path_metadata = data_dir+"/metadata.xlsx"
 path_image = data_dir+"/images.xlsx"
+
+manifest_dir = output_dir +"/manifest"
+os.makedirs(manifest_dir, exist_ok=True)
 
 def get_id_image_map():
     df = pd.read_excel(path_image, sheet_name=0,
@@ -235,6 +238,6 @@ for j in range(4, r_count):
 
 
 
-    f2 = open(output_dir+"/manifest/"+filename, 'w')
+    f2 = open(manifest_dir+"/"+filename, 'w')
     json.dump(manifest, f2, ensure_ascii=False, indent=4,
               sort_keys=True, separators=(',', ': '))
