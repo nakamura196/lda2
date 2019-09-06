@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/d4517f982574fdecaa6910c17f778a72.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "戦病没者市葬センビョウボツシャシソウ\n戦時下の市民生活",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "作成年代",
+            "value": "昭和10年代"
+        },
+        {
+            "label": "制作年月日",
+            "value": "1938年09月12日"
+        },
+        {
+            "label": "地理情報",
+            "value": "西宮市六湛寺町10（大きな地図）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "情報公開課"
+        },
+        {
+            "label": "更新日",
+            "value": "2018年11月28日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040100001187"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=14222",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/d4517f982574fdecaa6910c17f778a72.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/d4517f982574fdecaa6910c17f778a72.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 565,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/d4517f982574fdecaa6910c17f778a72.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/d4517f982574fdecaa6910c17f778a72.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/1/1878/1878.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 565,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/1/1878/1878.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/1/1878/1878.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

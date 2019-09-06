@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/728eaba26fc0a8569d21e03799523e38.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "室戸台風　学校復旧工事ムロトタイフウ　ガッコウフッキュウコウジ\n用海尋常小学校　新校舎屋上からの眺め",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "作成年代",
+            "value": "昭和10年代"
+        },
+        {
+            "label": "制作年月日",
+            "value": "1937年05月11日"
+        },
+        {
+            "label": "地理情報",
+            "value": "西宮市用海町3-54（大きな地図）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "情報公開課"
+        },
+        {
+            "label": "更新日",
+            "value": "2019年07月31日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040100001777"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=14934",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/728eaba26fc0a8569d21e03799523e38.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/728eaba26fc0a8569d21e03799523e38.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 565,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/728eaba26fc0a8569d21e03799523e38.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/728eaba26fc0a8569d21e03799523e38.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/1/1875/1875.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 565,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/1/1875/1875.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/1/1875/1875.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

@@ -10,7 +10,27 @@ from PIL import Image
 import yaml
 import requests
 
-config_path = "/Users/nakamura/git/min_a/lda2/src/data/adachi/data/config.yml"
+import argparse
+import sys
+
+def parse_args(args=sys.argv[1:]):
+    """ Get the parsed arguments specified on this script.
+    """
+    parser = argparse.ArgumentParser(description="")
+
+    parser.add_argument(
+        'config_path',
+        action='store',
+        type=str,
+        help='config path.')
+
+    return parser.parse_args(args)
+
+
+args = parse_args()
+
+config_path = args.config_path
+
 f = open(config_path, "r+")
 config = yaml.load(f)
 

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/53cced2fa8e94a6bebcfc517924efcbb.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "名神高速道路メイシンコウソクドウロ\n西宮工区着工式",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "作成年代",
+            "value": "昭和30年代"
+        },
+        {
+            "label": "制作年月日",
+            "value": "1963年04月20日"
+        },
+        {
+            "label": "地理情報",
+            "value": "西宮市高畑町2（大きな地図）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "情報公開課"
+        },
+        {
+            "label": "更新日",
+            "value": "2018年01月30日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040100000652"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=12509",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/53cced2fa8e94a6bebcfc517924efcbb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/53cced2fa8e94a6bebcfc517924efcbb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/53cced2fa8e94a6bebcfc517924efcbb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/53cced2fa8e94a6bebcfc517924efcbb.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12838/12838.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12838/12838.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12838/12838.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

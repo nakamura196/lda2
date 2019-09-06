@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/0b9800edceda0a3693a39517d79ad9ae.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "全国高校タッチフットボール大会決勝ゼンコクコウコウタッチフットボールタイカイケッショウ\n市立西宮ＶＳ関西学院",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "作成年代",
+            "value": "昭和40年代"
+        },
+        {
+            "label": "制作年月日",
+            "value": "1967年12月27日"
+        },
+        {
+            "label": "地理情報",
+            "value": "西宮市深津町7（大きな地図）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "情報公開課"
+        },
+        {
+            "label": "更新日",
+            "value": "2018年03月30日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040100000868"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=12773",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/0b9800edceda0a3693a39517d79ad9ae.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/0b9800edceda0a3693a39517d79ad9ae.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/0b9800edceda0a3693a39517d79ad9ae.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/0b9800edceda0a3693a39517d79ad9ae.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12835/12835.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12835/12835.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12835/12835.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

@@ -39,8 +39,17 @@ opath = args.output_file_path
 
 size = 10
 
-response = urllib.request.urlopen(collection_uri)
-collection = json.loads(response.read().decode('utf8'))
+local_flg = True
+
+if local_flg:
+    f = open(collection_uri)
+    # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
+    collection = json.load(f)
+    # ファイルを閉じる
+    f.close()
+else:
+    response = urllib.request.urlopen(collection_uri)
+    collection = json.loads(response.read().decode('utf8'))
 
 manifests = collection["manifests"]
 result = {}
@@ -80,8 +89,16 @@ for i in range(len(manifests)):
 
     print(str(i+1)+"/"+str(len(manifests)))
 
-    response = urllib.request.urlopen(manifest_uri)
-    manifest = json.loads(response.read().decode('utf8'))
+    if local_flg:
+        manifest_path = os.path.split(opath)[0]+"/manifest/"+os.path.split(manifest_uri)[1]
+        f = open(manifest_path)
+        # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
+        manifest = json.load(f)
+        # ファイルを閉じる
+        f.close()
+    else:
+        response = urllib.request.urlopen(manifest_uri)
+        manifest = json.loads(response.read().decode('utf8'))
 
     thumbnail = None
     if "thumbnail" in manifest:

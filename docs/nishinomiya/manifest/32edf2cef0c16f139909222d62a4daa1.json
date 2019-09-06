@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/32edf2cef0c16f139909222d62a4daa1.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "山口牧生《いとけなきものの舟》ヤマグチマキオ　イトケナキモノノフネ",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "制作年月日",
+            "value": "2001年"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "西宮市大谷記念美術館"
+        },
+        {
+            "label": "更新日",
+            "value": "2018年12月03日"
+        },
+        {
+            "label": "資料番号",
+            "value": "28204"
+        },
+        {
+            "label": "作成者",
+            "value": "山口牧生"
+        },
+        {
+            "label": "資料の形状",
+            "value": "高さ35.5×幅155.3×奥行き41.5cm"
+        },
+        {
+            "label": "関連リンク",
+            "value": "http://jmapps.ne.jp/otanimuseum/det.html?data_id=717"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=13879",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/32edf2cef0c16f139909222d62a4daa1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/32edf2cef0c16f139909222d62a4daa1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/32edf2cef0c16f139909222d62a4daa1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/32edf2cef0c16f139909222d62a4daa1.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12826/12826.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12826/12826.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12826/12826.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

@@ -42,49 +42,52 @@ rows2.append(row2)
 
 for j in range(1, r_count):
 
-    if j < 271:
+    if j < 3391:
         continue
 
     id = df.iloc[j, 0]
     num = df.iloc[j, 87]
 
-    print(j)
+    print(str(j)+"/"+str(r_count))
 
     if not pd.isnull(num) and num != 0:
-        for k in range(0, num):
-            url = "http://image.oml.city.osaka.lg.jp/archive/detail.do?id="+str(id)
-            # print(url)
+        url = "http://image.oml.city.osaka.lg.jp/archive/detail.do?id="+str(id)
+        print(url)
 
-            time.sleep(1)
+        time.sleep(1)
 
-            r = requests.get(url)  # requestsを使って、webから取得
+        r = requests.get(url)  # requestsを使って、webから取得
 
-            soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
+        soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
-            imgs = soup.find_all("img")
+        imgs = soup.find_all("img")
 
-            thumb_flg = True
+        print("画像数: "+str(len(imgs)-11))
 
-            thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no="+str(id)
-                        
-            row2 = [id, thumb_url]
-            rows2.append(row2)
+        thumb_flg = True
 
-            for img in imgs:
-                src = img.get("src")
-                
+        thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-thumbnail?data_no="+str(id)
+                    
+        row2 = [id, thumb_url]
+        rows2.append(row2)
 
-                if "data_no" in src and "get-large" in src:
-                    # print(src)
-                    data_no = src.split("data_no=")[1].split("&")[0]
-                    img_url = "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no="+data_no
-                    thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no="+data_no
+        for img in imgs:
+            src = img.get("src")
+            
 
-                    image = Image.open(urllib.request.urlopen(img_url))
-                    width, height = image.size
+            if "data_no" in src and "get-large" in src:
+                # print(src)
+                data_no = src.split("data_no=")[1].split("&")[0]
+                img_url = "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no="+data_no
+                thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no="+data_no
 
-                    row = [id, img_url, thumb_url, width, height]
-                    rows.append(row)
+                print(img_url)
+
+                image = Image.open(urllib.request.urlopen(img_url))
+                width, height = image.size
+
+                row = [id, img_url, thumb_url, width, height]
+                rows.append(row)
 
                     
 

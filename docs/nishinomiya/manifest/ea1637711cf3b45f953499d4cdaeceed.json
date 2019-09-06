@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/ea1637711cf3b45f953499d4cdaeceed.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "太田三郎《SEED PROJECT from HYOGO》オオタサブロウ　シードプロジェクトフロムヒョウゴ",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "制作年月日",
+            "value": "2000年"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "西宮市大谷記念美術館"
+        },
+        {
+            "label": "更新日",
+            "value": "2018年12月03日"
+        },
+        {
+            "label": "資料番号",
+            "value": "28204"
+        },
+        {
+            "label": "作成者",
+            "value": "太田三郎"
+        },
+        {
+            "label": "資料の形状",
+            "value": "縦21.0×横11.8cm"
+        },
+        {
+            "label": "関連リンク",
+            "value": "http://jmapps.ne.jp/otanimuseum/det.html?data_id=675"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=13874",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/ea1637711cf3b45f953499d4cdaeceed.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/ea1637711cf3b45f953499d4cdaeceed.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 565,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/ea1637711cf3b45f953499d4cdaeceed.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/ea1637711cf3b45f953499d4cdaeceed.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/1/1875/1875.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 565,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/1/1875/1875.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/1/1875/1875.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

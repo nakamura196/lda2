@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/fb1c3bd20c3d29059ff149eb7a913f4d.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "ポスター「御子達の楽園　浜甲子園阪神パーク」ポスターオコタチノラクエンハマコウシエンハンシンパーク",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "制作年月日",
+            "value": "昭和7年ごろ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "郷土資料館"
+        },
+        {
+            "label": "更新日",
+            "value": "2017年07月06日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040200000024"
+        },
+        {
+            "label": "作成者",
+            "value": "阪神電気鉄道"
+        },
+        {
+            "label": "資料の形状",
+            "value": "縦78.0cm×横52.6cm"
+        },
+        {
+            "label": "資料群名",
+            "value": "西宮市所蔵文書"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=2165",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/fb1c3bd20c3d29059ff149eb7a913f4d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/fb1c3bd20c3d29059ff149eb7a913f4d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/fb1c3bd20c3d29059ff149eb7a913f4d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/fb1c3bd20c3d29059ff149eb7a913f4d.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12837/12837.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12837/12837.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12837/12837.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

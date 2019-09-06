@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/c07a6d7ef0e126835e01853c29cbf54a.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "支配別色分け村々絵図シハイベツイロワケムラムラエズ",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "制作年月日",
+            "value": "天保8年4月"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "郷土資料館"
+        },
+        {
+            "label": "更新日",
+            "value": "2018年01月30日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040200000096"
+        },
+        {
+            "label": "作成者",
+            "value": "摂州武庫郡上田新田支配人与一兵衛他4名"
+        },
+        {
+            "label": "資料の形状",
+            "value": "軸装"
+        },
+        {
+            "label": "資料の形状",
+            "value": "（本紙）縦41.5㎝×横60㎝"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=7982",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/c07a6d7ef0e126835e01853c29cbf54a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/c07a6d7ef0e126835e01853c29cbf54a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/c07a6d7ef0e126835e01853c29cbf54a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/c07a6d7ef0e126835e01853c29cbf54a.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12829/12829.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12829/12829.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12829/12829.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}
