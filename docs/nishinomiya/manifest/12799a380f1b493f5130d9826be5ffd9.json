@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/12799a380f1b493f5130d9826be5ffd9.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "西宮ヨットハーバーニシノミヤヨットハーバー\n西宮港に浮かぶヨット",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "作成年代",
+            "value": "昭和20年代"
+        },
+        {
+            "label": "制作年月日",
+            "value": "1954年07月10日"
+        },
+        {
+            "label": "地理情報",
+            "value": "（周辺地図）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "情報公開課"
+        },
+        {
+            "label": "更新日",
+            "value": "2017年05月19日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040100000355"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=2013",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/12799a380f1b493f5130d9826be5ffd9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/12799a380f1b493f5130d9826be5ffd9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/12799a380f1b493f5130d9826be5ffd9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/12799a380f1b493f5130d9826be5ffd9.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12829/12829.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12829/12829.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12829/12829.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

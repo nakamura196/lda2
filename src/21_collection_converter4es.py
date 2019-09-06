@@ -101,7 +101,10 @@ for i in range(len(manifests)):
         obj["attribution"] = manifest["attribution"]
 
     if "license" in manifest:
-        obj["license"] = manifest["license"]
+        license = manifest["license"]
+        if license == "http://creativecommons.org/publicdomain/mark/1.0/":
+            license = "Public Domain Marked"
+        obj["license"] = license
 
     if "metadata" in manifest:
         for metadata in manifest["metadata"]:

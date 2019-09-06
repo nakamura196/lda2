@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/18aff5b700c39adb8e4a77f137c79990.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "甲武中学校コウブチュウガッコウ\n開校式",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "作成年代",
+            "value": "昭和50年代以降"
+        },
+        {
+            "label": "制作年月日",
+            "value": "1975年04月21日"
+        },
+        {
+            "label": "地理情報",
+            "value": "西宮市樋ノ口町１丁目7-56（大きな地図）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "情報公開課"
+        },
+        {
+            "label": "更新日",
+            "value": "2017年05月19日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040100000339"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=1997",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/18aff5b700c39adb8e4a77f137c79990.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/18aff5b700c39adb8e4a77f137c79990.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/18aff5b700c39adb8e4a77f137c79990.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/18aff5b700c39adb8e4a77f137c79990.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12838/12838.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12838/12838.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12838/12838.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}

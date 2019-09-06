@@ -42,7 +42,7 @@ rows2.append(row2)
 
 for j in range(1, r_count):
 
-    if j < 3391:
+    if j < 3781:
         continue
 
     id = df.iloc[j, 0]

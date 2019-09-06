@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/991d1b949f51996fddc794863380ce52.json",
+    "@type": "sc:Manifest",
+    "attribution": "にしのみやデジタルアーカイブ",
+    "label": "中央商店街チュウオウショウテンガイ\nやなぎ通り  東方向",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "作成年代",
+            "value": "昭和30年代"
+        },
+        {
+            "label": "制作年月日",
+            "value": "1964年01月"
+        },
+        {
+            "label": "地理情報",
+            "value": "西宮市馬場町5（大きな地図）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "情報公開課"
+        },
+        {
+            "label": "更新日",
+            "value": "2017年05月31日"
+        },
+        {
+            "label": "資料番号",
+            "value": "282040100000455"
+        }
+    ],
+    "related": "https://archives.nishi.or.jp/04_entry.php?mkey=2113",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/991d1b949f51996fddc794863380ce52.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/991d1b949f51996fddc794863380ce52.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 561,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nishinomiya/manifest/991d1b949f51996fddc794863380ce52.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nishinomiya/manifest/991d1b949f51996fddc794863380ce52.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://archives.nishi.or.jp/media/middle/12/12831/12831.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 561,
+                                "width": 800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://archives.nishi.or.jp/media/thumb/12/12831/12831.jpg"
+                    },
+                    "width": 800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://archives.nishi.or.jp/media/thumb/12/12831/12831.jpg"
+    },
+    "within": "https://archives.nishi.or.jp/index.php"
+}
