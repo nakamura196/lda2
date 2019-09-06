@@ -48,31 +48,6 @@ aggregations = {}
 aggregations2 = {}
 
 data = []
-result["rows"] = data
-
-config = {
-    "searchableFields": [],
-    "sortings": {
-        "label_asc": {
-            "field": 'label',
-            "order": 'asc'
-        },
-        "label_desc": {
-            "field": 'label',
-            "order": 'desc'
-        }
-    },
-    "aggregations": aggregations2
-}
-
-if "label" in collection:
-    config["label"] = collection["label"]
-
-result["config"] = config
-
-config["searchableFields"].append("label")
-config["searchableFields"].append("description")
-config["searchableFields"].append("fulltext")
 
 for i in range(len(manifests)):
 
@@ -105,6 +80,9 @@ for i in range(len(manifests)):
     if "description" in manifest:
         obj["description"] = manifest["description"]
 
+    if "attribution" in manifest:
+        obj["attribution"] = manifest["attribution"]
+
     if "metadata" in manifest:
         for metadata in manifest["metadata"]:
             label = metadata["label"]
@@ -122,39 +100,11 @@ for i in range(len(manifests)):
 
                 if "http" not in value:
 
-                    if label not in aggregations:
-                        aggregations[label] = {
-                            "title": label,
-                            "map" : {}
-                        }
-
-                    if label not in obj:
-                        obj[label] = []
-
-                    map = aggregations[label]["map"]
-
-                    if value not in map:
-                        map[value] = 0
-
-                    map[value] = map[value] + 1
-
-                    obj[label].append(value)
                     fulltext += " "+value
 
     obj["fulltext"] = fulltext
     data.append(obj)
 
-for field in aggregations:
-    obj = aggregations[field]
-    map = obj["map"]
-    map = sorted(map.items(), key=lambda kv: kv[1], reverse=True)
-
-    if map[0][1] > 1 and len(map) != 1:
-        aggregations2[field] = {
-            "title": obj["title"],
-            "size": size
-        }
-
 f2 = open(opath, 'w')
-json.dump(result, f2, ensure_ascii = False, indent = 4,
+json.dump(data, f2, ensure_ascii = False, indent = 4,
             sort_keys = True, separators = (',', ': '))
