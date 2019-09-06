@@ -104,6 +104,8 @@ for i in range(len(manifests)):
         license = manifest["license"]
         if license == "http://creativecommons.org/publicdomain/mark/1.0/":
             license = "Public Domain Marked"
+        elif license == "http://creativecommons.org/licenses/by/4.0/":
+            license = "CC BY"
         obj["license"] = license
 
     if "metadata" in manifest:
