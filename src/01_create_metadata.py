@@ -24,7 +24,25 @@ import time
 from PIL import Image
 import yaml
 
-config_path = "/Users/nakamura/git/min_a/lda2/src/data/nishinomiya/data/config.yml"
+
+def parse_args(args=sys.argv[1:]):
+    """ Get the parsed arguments specified on this script.
+    """
+    parser = argparse.ArgumentParser(description="")
+
+    parser.add_argument(
+        'config_path',
+        action='store',
+        type=str,
+        help='config path.')
+
+    return parser.parse_args(args)
+
+
+args = parse_args()
+
+config_path = args.config_path
+
 f = open(config_path, "r+")
 config = yaml.load(f)
 
@@ -42,14 +60,17 @@ all = []
 files = glob.glob(data_dir+"/metadata/*.json")
 
 for file in files:
-    # jsonファイルを読み込む
-    f = open(file)
-    # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
-    data = json.load(f)
-    # ファイルを閉じる
-    f.close()
+    try:
+        # jsonファイルを読み込む
+        f = open(file)
+        # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
+        data = json.load(f)
+        # ファイルを閉じる
+        f.close()
 
-    all.append(data)
+        all.append(data)
+    except:
+        print("error 1")
 
 # --------
 

@@ -45,12 +45,12 @@ with open('data/html.csv', 'r') as f:
 
         url = row[0]
 
-        print("********\t"+url)
-
         filename = odir+"/"+url.split("_")[-1]+".json"
 
         if os.path.exists(filename):
             continue
+
+        print("********\t"+url)
 
         main = {}
         array = []
@@ -59,11 +59,18 @@ with open('data/html.csv', 'r') as f:
         driver.get(url)
         time.sleep(1)
 
-        img_url = driver.find_element_by_id(
-            "contviewer_url").text.split("のURL:")[1]
-        print(img_url)
+        text = driver.find_element_by_id(
+            "contviewer_url").text
+
+        if len(text) == 0:
+            print("空？")
+            continue
+
+        img_url = text.split("のURL:")[1]
 
         if img_url != "":
+
+            print(img_url)
 
             thumb_url = img_url.replace(".jpg", "_ls.jpg")
 
