@@ -34,7 +34,7 @@ args = parse_args()
 config_path = args.config_path
 
 f = open(config_path, "r+")
-config = yaml.load(f)
+config = yaml.load(f, Loader=yaml.SafeLoader)
 
 data_dir = config["data_dir"]
 output_dir = config["output_dir"]

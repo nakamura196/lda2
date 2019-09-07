@@ -34,7 +34,7 @@ args = parse_args()
 config_path = args.config_path
 
 f = open(config_path, "r+")
-config = yaml.load(f)
+config = yaml.load(f, Loader=yaml.SafeLoader)
 
 prefix = config["prefix"]
 
