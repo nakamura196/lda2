@@ -45,5 +45,9 @@ for a in list:
         f.close()
 
     df = pd.DataFrame(rows)
+    writer = pd.ExcelWriter("data/"+a+".xlsx",
+                            options={'strings_to_urls': False})
 
-    df.to_excel("data/"+a+".xlsx", index=False, header=False)
+    df.to_excel(writer, index=False, header=False)
+
+    writer.close()

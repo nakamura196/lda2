@@ -50,7 +50,8 @@ rows = [
     ["python 20_collection_converter.py "+collection_path+" "+output_dir+"/items.json"],
     ["python 21_collection_converter4es.py "+collection_path +
         " "+output_dir+"/rows.json"],
-    ["python 30_create_uni.py "+config_path]
+    ["python 30_create_uni.py "+config_path],
+    ["python 41_create_rows.py"]
 ]
 
 
