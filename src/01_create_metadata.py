@@ -84,9 +84,9 @@ for obj in all:
 
 rows = []
 row0 = ["title", "thumbnail", "relation", "logo",
-        "within", "attribution", "license", "uuid"]
+        "within", "attribution", "license", "uuid", "description"]
 row1 = ["http://purl.org/dc/terms/title", "http://xmlns.com/foaf/0.1/thumbnail", "http://purl.org/dc/terms/relation", "logo",
-        "within", "attribution", "http://purl.org/dc/terms/rights", "http://purl.org/dc/terms/identifier"]
+        "within", "attribution", "http://purl.org/dc/terms/rights", "http://purl.org/dc/terms/identifier", "http://purl.org/dc/terms/description"]
 row2 = []
 row3 = []
 
@@ -111,8 +111,12 @@ for obj in all:
     if id in images:
         thumbnail = images[id]["thumbnail"]
 
+    description = ""
+    if "description" in obj:
+        description = obj["description"]
+
     row = [obj["title"], thumbnail, url, "", obj["within"],
-           obj["attribution"], obj["license"], uuid]
+           obj["attribution"], obj["license"], uuid, description]
 
     for key in fields:
         value = ""

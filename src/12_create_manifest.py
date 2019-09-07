@@ -83,14 +83,14 @@ id_image_map = get_id_image_map()
 
 map = {}
 
+description_index = None
+logo_index = None
+
 for i in range(0, c_count):
     label = df.iloc[0, i]
     uri = df.iloc[1, i]
     # type = df.iloc[2, i]
     target=df.iloc[3,i]
-
-    description_index = None
-    logo_index = None
 
     if target == "metadata":
         obj = {}
@@ -175,7 +175,9 @@ for j in range(4, r_count):
             manifest["description"] = value
 
     if logo_index != None:
-        manifest["logo"] = df.iloc[j, logo_index]
+        value = df.iloc[j, logo_index]
+        if not pd.isnull(value) and value != 0:
+            manifest["logo"] = value
 
     canvases = manifest["sequences"][0]["canvases"]
 

@@ -1,3 +1,4 @@
+from selenium.webdriver.chrome.options import Options
 import urllib.request  # ライブラリを取り込む
 import csv
 import json
@@ -28,7 +29,11 @@ from selenium import webdriver
 
 check = []
 
-driver = webdriver.Chrome()
+
+# ChromeのDriverオブジェクト生成時にオプションに引数を追加して渡す。
+options = Options()
+options.add_argument('--headless')
+driver = webdriver.Chrome(chrome_options=options)
 
 odir = "data/images"
 
@@ -40,7 +45,7 @@ with open('data/html.csv', 'r') as f:
 
         url = row[0]
 
-        print(url)
+        print("********\t"+url)
 
         filename = odir+"/"+url.split("_")[-1]+".json"
 
@@ -51,28 +56,32 @@ with open('data/html.csv', 'r') as f:
         array = []
         main["array"] = array
 
-       
         driver.get(url)
         time.sleep(1)
 
         img_url = driver.find_element_by_id(
             "contviewer_url").text.split("のURL:")[1]
-        print("*\t"+img_url)
+        print(img_url)
 
-        thumb_url = img_url.replace(".jpg", "_ls.jpg")
+        if img_url != "":
 
-        main["thumbnail"] = thumb_url
+            thumb_url = img_url.replace(".jpg", "_ls.jpg")
 
-        image = Image.open(urllib.request.urlopen(img_url))
-        width, height = image.size
+            main["thumbnail"] = thumb_url
 
-        obj = {
-            "img_url": img_url,
-            "thumb_url": thumb_url,
-            "width": width,
-            "height": height
-        }
-        array.append(obj)
+            image = Image.open(urllib.request.urlopen(img_url))
+            width, height = image.size
+
+            obj = {
+                "img_url": img_url,
+                "thumb_url": thumb_url,
+                "width": width,
+                "height": height
+            }
+            array.append(obj)
+        else:
+            print("空？")
+            continue
 
         time.sleep(1)
 
@@ -80,11 +89,12 @@ with open('data/html.csv', 'r') as f:
 
         flg = True
 
-
         while(flg):
 
-            img_url = driver.find_element_by_id(
-                "contviewer_url").text.split("のURL:")[1]
+            tmp = driver.find_element_by_id(
+                "contviewer_url").text.split("のURL:")
+
+            img_url = tmp[1]
             print(img_url)
 
             thumb_url = img_url.replace(".jpg", "_ls.jpg")
@@ -105,7 +115,6 @@ with open('data/html.csv', 'r') as f:
             else:
 
                 check.append(img_url)
-
                 driver.find_element_by_id("toolbar_xpanelcont_next").click()
 
         f2 = open(filename, 'w')

@@ -43,7 +43,8 @@ urls = []
 
 for j in range(len(aas)):
     a = aas[j]
-    if "mkey" in a.get("href"):
+
+    if a.get("href") != None and "mkey" in a.get("href"):
 
         url = "https://archives.nishi.or.jp/"+a.get("href")
 
@@ -64,7 +65,6 @@ for j in range(len(aas)):
         main = {}
         array = []
         main["array"] = array
-        
 
         time.sleep(1)
 
@@ -72,38 +72,66 @@ for j in range(len(aas)):
 
         soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
-        imgs = soup.find_all("img")
+        imgs = soup.find(class_="group").find_all("img")
 
         thumb_flg = True
 
-        for img in imgs:
-            src = img.get("src")
+        if len(imgs) != 0:
 
-            if "media/thumb" in src:
+            continue
 
-                
-                thumb_url = "https://archives.nishi.or.jp/"+src
-                img_url = thumb_url.replace("/thumb/", "/middle/")
+            for img in imgs:
+                src = img.get("src")
 
-                image = Image.open(urllib.request.urlopen(img_url))
-                width, height = image.size
+                if "media/thumb" in src:
 
-                obj = {
-                    "img_url": img_url,
-                    "thumb_url": thumb_url,
-                    "width": width,
-                    "height": height
-                }
-                array.append(obj)
+                    thumb_url = "https://archives.nishi.or.jp/"+src
+                    img_url = thumb_url.replace("/thumb/", "/middle/")
 
+                    image = Image.open(urllib.request.urlopen(img_url))
+                    width, height = image.size
 
-                if thumb_flg:
+                    obj = {
+                        "img_url": img_url,
+                        "thumb_url": thumb_url,
+                        "width": width,
+                        "height": height
+                    }
+                    array.append(obj)
 
-                    main["thumbnail"] = thumb_url
+                    if thumb_flg:
 
-                    thumb_flg = False
+                        main["thumbnail"] = thumb_url
+
+                        thumb_flg = False
+
+        else:
+            imgs = soup.find_all("img")
+
+            for img in imgs:
+                src = img.get("src")
+                if "media/middle" in src:
+
+                    img_url = "https://archives.nishi.or.jp/"+src
+                    thumb_url = img_url.replace("/middle/", "/thumb/")
+
+                    image = Image.open(urllib.request.urlopen(img_url))
+                    width, height = image.size
+
+                    obj = {
+                        "img_url": img_url,
+                        "thumb_url": thumb_url,
+                        "width": width,
+                        "height": height
+                    }
+                    array.append(obj)
+
+                    if thumb_flg:
+
+                        main["thumbnail"] = thumb_url
+
+                        thumb_flg = False
 
         f2 = open(filename, 'w')
         json.dump(main, f2, ensure_ascii=False, indent=4,
-                sort_keys=True, separators=(',', ': '))
-
+                  sort_keys=True, separators=(',', ': '))
