@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a9dbf865230d57fd379b7ffcefc50b97.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "摂津 摩耶山 鐘楼",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "セツツマヤサンシヨウロウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "摂津 摩耶山 鐘楼"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349782"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3175"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "e0127001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "テンジヨウジ"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "天上寺"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:葉書帖"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "マヤサン"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "摩耶山"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3175",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a9dbf865230d57fd379b7ffcefc50b97.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a9dbf865230d57fd379b7ffcefc50b97.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 283,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a9dbf865230d57fd379b7ffcefc50b97.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a9dbf865230d57fd379b7ffcefc50b97.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3186",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 283,
+                                "width": 435
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3186"
+                    },
+                    "width": 435
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3186"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

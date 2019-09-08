@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8f17cc91ca6a15f4594f41fb5d25be9e.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪の印象 道頓堀の殷盛",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1927]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1927****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカノインシヨウドウトンボリノインセイ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪の印象 道頓堀の殷盛"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000832822"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3335"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "e0289001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ドウトンボリ"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "道頓堀"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:大阪関係絵葉書"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "アカダマ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "赤玉"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3335",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8f17cc91ca6a15f4594f41fb5d25be9e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8f17cc91ca6a15f4594f41fb5d25be9e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 284,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8f17cc91ca6a15f4594f41fb5d25be9e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8f17cc91ca6a15f4594f41fb5d25be9e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3364",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 284,
+                                "width": 439
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3364"
+                    },
+                    "width": 439
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3364"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

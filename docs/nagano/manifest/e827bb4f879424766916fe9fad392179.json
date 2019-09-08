@@ -1,0 +1,295 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json",
+    "@type": "sc:Manifest",
+    "attribution": "県立長野図書館",
+    "label": "地堺絵図[2枚]",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "分野",
+            "value": "歴史"
+        },
+        {
+            "label": "制作年（和暦）",
+            "value": "明治４年"
+        },
+        {
+            "label": "施設名",
+            "value": "県立長野図書館"
+        },
+        {
+            "label": "資料コード",
+            "value": "02MP5220340000"
+        },
+        {
+            "label": "資料解説",
+            "value": "明治4年(1871)4月、水内郡柏原村(現・信濃町)から中野御役所宛に提出された柏原村と飯山藩の境を記した絵図の下書きである。野尻・大古間両村境際(黒い点線)から柏原村と飯山藩の管轄である舟竹村字針之木境(太い黒線)までの筋道は、約21町24間(約2km)。このことを中野御役所に報告したものとなっている。また、絵図は2枚あるが、1枚目は提出用に描いた下書きの更なる下書きであり、2枚目は1枚目を参考にした提出用の下書きであると思われる。1枚目の方は、四角に囲ってある中に表題にと考えた「中野県御管下柏原村より飯山藩御管下村境　水内郡柏原村」がメモ的に書かれている。この絵図の目的は詳細な記述がないためわからないが、おそらく、同年7月に廃藩置県が行われることに先立って調査されたものなのであろう。"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000307library_02MP5220340000",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 9072,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203503.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9072,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203503_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 9072,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203538.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9072,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203538_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 9072,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203590.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9072,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203590_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "height": 9072,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p4-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p4",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203630.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9072,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[4]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203630_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "height": 9072,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p5-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p5",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203655.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9072,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[5]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203655_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p6",
+                    "@type": "sc:Canvas",
+                    "height": 4032,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p6-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p6",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203692.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4032,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[6]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203692_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p7",
+                    "@type": "sc:Canvas",
+                    "height": 4032,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p7-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p7",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203713.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4032,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[7]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203713_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p8",
+                    "@type": "sc:Canvas",
+                    "height": 4032,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p8-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p8",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203721.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4032,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[8]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203721_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p9",
+                    "@type": "sc:Canvas",
+                    "height": 4032,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p9-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p9",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203746.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4032,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[9]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203746_ls.jpg"
+                    },
+                    "width": 6048
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p10",
+                    "@type": "sc:Canvas",
+                    "height": 4032,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/annotation/p10-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/e827bb4f879424766916fe9fad392179.json/canvas/p10",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203746.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4032,
+                                "width": 6048
+                            }
+                        }
+                    ],
+                    "label": "[10]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203746_ls.jpg"
+                    },
+                    "width": 6048
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/203/000203503_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000307library"
+}

@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9382e859f2da4e0a314974dd07588d.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[一心寺 八窓茶室と楽山洞扁額]",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明-1945]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "イツシンジハツソウチヤシツトラクザンドウヘンガク"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[一心寺 八窓茶室と楽山洞扁額]"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349782"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3218"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "e0170001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "イツシンジ"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "一心寺"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:葉書帖"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ラクザンドウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "楽山洞"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3218",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9382e859f2da4e0a314974dd07588d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9382e859f2da4e0a314974dd07588d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 463,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ec9382e859f2da4e0a314974dd07588d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ec9382e859f2da4e0a314974dd07588d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3238",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 463,
+                                "width": 707
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3238"
+                    },
+                    "width": 707
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3238"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

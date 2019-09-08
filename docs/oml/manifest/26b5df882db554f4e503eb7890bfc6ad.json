@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/26b5df882db554f4e503eb7890bfc6ad.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "御召艦長門",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オメシカンナガト"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "御召艦長門"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349782"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3197"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "e0149001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オメシカンナガト"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "御召艦長門"
+        },
+        {
+            "label": "注記_01",
+            "value": "彩色 本体の書名:葉書帖"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "ナガト"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "長門"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3197",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/26b5df882db554f4e503eb7890bfc6ad.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/26b5df882db554f4e503eb7890bfc6ad.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 283,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/26b5df882db554f4e503eb7890bfc6ad.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/26b5df882db554f4e503eb7890bfc6ad.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3208",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 283,
+                                "width": 436
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3208"
+                    },
+                    "width": 436
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3208"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

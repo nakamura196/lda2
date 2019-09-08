@@ -1,0 +1,116 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json",
+    "@type": "sc:Manifest",
+    "attribution": "県立長野図書館",
+    "label": "（道中人馬割）",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "metadata": [
+        {
+            "label": "分野",
+            "value": "歴史"
+        },
+        {
+            "label": "施設名",
+            "value": "県立長野図書館"
+        },
+        {
+            "label": "資料コード",
+            "value": "02OD5160920200"
+        },
+        {
+            "label": "資料解説",
+            "value": "この文書は小さなメモ1枚である。表題・年月日・発給人の名などいっさいないが、これも金沢藩の通し人馬に関する覚え書きである。前半分には、「6疋惣太夫、26疋富蔵、30疋太右衛門　牟礼納合」と書かれている。3人の下請負人にたいして、それぞれ牟礼宿へ集める馬の頭数を割り当てた覚えであろう。後半は、「高田宿より柏原宿まで、9疋惣太夫、30疋太右衛門、24疋富蔵、〆63疋」と書いてある。これも高田～柏原間の、金沢藩主参勤大名行列のお供をする通し馬の頭数を割り当てたものである。惣太夫ら3人は柏原近辺の者らしく、高田宿～新町宿(あらまち・長野市若槻)の人馬を多く扱っている。"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000307library_02OD5160920200",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2016,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/187/000187945.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2016,
+                                "width": 3024
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/187/000187945_ls.jpg"
+                    },
+                    "width": 3024
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2016,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/187/000187948.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2016,
+                                "width": 3024
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/187/000187948_ls.jpg"
+                    },
+                    "width": 3024
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 2016,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nagano/manifest/d9ab077792225954af611e40440a4902.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/187/000187948.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2016,
+                                "width": 3024
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/187/000187948_ls.jpg"
+                    },
+                    "width": 3024
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000307library/000/187/000187945_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000307library"
+}

@@ -1,0 +1,155 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "文久元年辛酉十一月廿一日乙巳冬至本日太陽午正并前日廿日甲辰夜恒星中時測量",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1861(文久1.11)"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "186111**"
+        },
+        {
+            "label": "文書種別",
+            "value": "a：間重富・間家関係文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ブンキュウ ガンネン シンユウ ジュウイチガツ ニジュウイチニチ イッシ トウジ ホンジツ タイヨウ ゴショウ ナラビニ ゼンジツ ハツカ コウシン ヨル コウセイ チュウジ ソクリョウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "文久元年辛酉十一月廿一日乙巳冬至本日太陽午正并前日廿日甲辰夜恒星中時測量"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000521784"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3446"
+        },
+        {
+            "label": "枚数",
+            "value": "2"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "360010"
+        },
+        {
+            "label": "注記_01",
+            "value": "文久元年11月20日・21日"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ハザマ ゴウノスケ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大坂:間剛之助"
+        },
+        {
+            "label": "形態",
+            "value": "1枚 ; 28×40cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ハザマ，ゴウノスケ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "間 剛之助/[著]"
+        },
+        {
+            "label": "請求記号",
+            "value": "440"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "間重富関係資料(観測記録類:二至二分測量) 重要文化財指定(歴史資料):2016年8月17日"
+        },
+        {
+            "label": "注釈",
+            "value": "帙入"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3446",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3856",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 708
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3856"
+                    },
+                    "width": 708
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 706,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/732047ee1a83fddd65d4312dcb934837.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3857",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 706,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3857"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3856"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

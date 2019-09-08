@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d9a51e577a01551a877f13377f5c73dc.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪市立美術館落成記念(天王寺公園)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1936]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1936****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカシリツビジユツカンラクセイキネンテンノウジコウエン"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪市立美術館落成記念(天王寺公園)"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349782"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3315"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "e0267001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカシリツビジユツカン"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪市立美術館"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:葉書帖"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "テンノウジコウエン"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "天王寺公園"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ビジユツカン"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "美術館"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3315",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d9a51e577a01551a877f13377f5c73dc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d9a51e577a01551a877f13377f5c73dc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 279,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d9a51e577a01551a877f13377f5c73dc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/d9a51e577a01551a877f13377f5c73dc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3342",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 279,
+                                "width": 420
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3342"
+                    },
+                    "width": 420
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3342"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

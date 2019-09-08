@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/65bc71278fae9af9e04e9ccf1d8b78b7.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[共同ビルヂング]営業室ノ一部/一階正面玄関",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1936]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1936****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "キヨウドウビルヂングエイギヨウシツノイチブイツカイシヨウメンゲンカン"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[共同ビルヂング]営業室ノ一部/一階正面玄関"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000302928"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3086"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2679001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "キヨウドウビルジング"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "共同ビルヂング"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:[共同ビルヂング絵はがき]"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "キヨウドウビルデイング"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "共同ビルディング"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3086",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/65bc71278fae9af9e04e9ccf1d8b78b7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/65bc71278fae9af9e04e9ccf1d8b78b7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 388,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/65bc71278fae9af9e04e9ccf1d8b78b7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/65bc71278fae9af9e04e9ccf1d8b78b7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3095",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 388,
+                                "width": 612
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3095"
+                    },
+                    "width": 612
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3095"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

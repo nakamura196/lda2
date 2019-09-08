@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5b8c752cf6068b144a437987c93e4956.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "心斎橋(大阪) 石原時計店 望南 大正後半",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1921-1925]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1921****"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "シンサイバシイシハラトケイテンボウナンタイシヨウコウハンオオサカ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "心斎橋(大阪) 石原時計店 望南 大正後半"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349625"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "2986"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "d2458001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "シンサイバシ"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "心斎橋"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:明治大正昭和の大阪写真集 4"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "イシハラトケイテン"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "石原時計店"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=2986",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5b8c752cf6068b144a437987c93e4956.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/5b8c752cf6068b144a437987c93e4956.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 539,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/5b8c752cf6068b144a437987c93e4956.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/5b8c752cf6068b144a437987c93e4956.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=2994",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 539,
+                                "width": 806
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=2994"
+                    },
+                    "width": 806
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=2994"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9ab4cd2d2aed74a0213220e24046cb3b.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "(府堺高女運動会)胡蝶(四五年)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "1b：絵葉書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "フサカイコウジヨウンドウカイコチヨウシゴネン"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "(府堺高女運動会)胡蝶(四五年)"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349782"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3303"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "e0255001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "オオサカフリツサカイコウトウジヨガツコウ"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "大阪府立堺高等女学校"
+        },
+        {
+            "label": "注記_01",
+            "value": "白黒 本体の書名:葉書帖"
+        },
+        {
+            "label": "フリーキーワード_02(カナ)",
+            "value": "サカイコウトウジヨガツコウ"
+        },
+        {
+            "label": "フリーキーワード_02(漢字)",
+            "value": "堺高等女学校"
+        },
+        {
+            "label": "フリーキーワード_03(カナ)",
+            "value": "ウンドウカイ"
+        },
+        {
+            "label": "フリーキーワード_03(漢字)",
+            "value": "運動会"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3303",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9ab4cd2d2aed74a0213220e24046cb3b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/9ab4cd2d2aed74a0213220e24046cb3b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 282,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/9ab4cd2d2aed74a0213220e24046cb3b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/9ab4cd2d2aed74a0213220e24046cb3b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3330",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 282,
+                                "width": 445
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3330"
+                    },
+                    "width": 445
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3330"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

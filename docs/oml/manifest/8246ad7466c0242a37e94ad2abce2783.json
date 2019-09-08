@@ -1,0 +1,148 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "曽根崎模様",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "b1：浄瑠璃本(鶴澤清六遺文庫)"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ソネザキモヨウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "曽根崎模様"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012487167"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "3589"
+        },
+        {
+            "label": "枚数",
+            "value": "29"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "31930010"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ナンワコバシ"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "難波小橋"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=3589",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=13447",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 707
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=13447"
+                    },
+                    "width": 707
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=13448",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 707
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=13448"
+                    },
+                    "width": 707
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/8246ad7466c0242a37e94ad2abce2783.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=13449",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 707
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=13449"
+                    },
+                    "width": 707
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=13447"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}
