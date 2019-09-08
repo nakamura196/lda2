@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json",
+    "@type": "sc:Manifest",
+    "attribution": "地域文化資源デジタルアーカイブ",
+    "label": "天王寺一問一答",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "ID",
+            "value": "yanesen/07/017"
+        },
+        {
+            "label": "title",
+            "value": "天王寺一問一答"
+        }
+    ],
+    "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json",
+    "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_07_017.json",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-005/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-005",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
+                                "width": 3680
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-005/full/115,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-005",
+                            "profile": "http://iiif.io/api/image/2/level0.json"
+                        }
+                    },
+                    "width": 3680
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_017.json/canvas/p2",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-006/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-006",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
+                                "width": 3680
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-006/full/115,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-006",
+                            "profile": "http://iiif.io/api/image/2/level0.json"
+                        }
+                    },
+                    "width": 3680
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-07/yanesen-07-005/full/115,/0/default.jpg"
+    },
+    "viewingDirection": "right-to-left",
+    "within": "https://nakamura196.github.io/lda/"
+}

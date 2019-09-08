@@ -1,0 +1,99 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json",
+    "@type": "sc:Manifest",
+    "attribution": "地域文化資源デジタルアーカイブ",
+    "label": "薮そば遺聞",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "ID",
+            "value": "yanesen/01/008"
+        },
+        {
+            "label": "title",
+            "value": "薮そば遺聞"
+        },
+        {
+            "label": "subject",
+            "value": "キク"
+        },
+        {
+            "label": "subject",
+            "value": "植物学的分類"
+        },
+        {
+            "label": "subject",
+            "value": "菊の紋"
+        },
+        {
+            "label": "subject",
+            "value": "記章"
+        },
+        {
+            "label": "subject",
+            "value": "薬用"
+        },
+        {
+            "label": "subject",
+            "value": "菊あわせ"
+        },
+        {
+            "label": "subject",
+            "value": "菊供養"
+        }
+    ],
+    "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json",
+    "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_01_008.json",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
+                                "width": 3680
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005/full/115,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005",
+                            "profile": "http://iiif.io/api/image/2/level0.json"
+                        }
+                    },
+                    "width": 3680
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005/full/115,/0/default.jpg"
+    },
+    "viewingDirection": "right-to-left",
+    "within": "https://nakamura196.github.io/lda/"
+}
