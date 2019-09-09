@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bd623aa3fd85fae560645850777aa60.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "五十四帖源氏発句双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "北冥舎魚堂"
+        },
+        {
+            "label": "作者・画工",
+            "value": "勝川春亭"
+        },
+        {
+            "label": "作者・画工",
+            "value": "松高齋(勝川)春亭"
+        },
+        {
+            "label": "出版年",
+            "value": "（文化）"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/文集/平安朝/源氏物語/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×67.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "江崎屋辰蔵"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "4574-S9/東S4574-S009"
+        },
+        {
+            "label": "題名",
+            "value": "五十四帖源氏発句双六"
+        },
+        {
+            "label": "題名",
+            "value": "ゴジュウヨジョウ　ゲンジ　ホック　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000404",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bd623aa3fd85fae560645850777aa60.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bd623aa3fd85fae560645850777aa60.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bd623aa3fd85fae560645850777aa60.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2bd623aa3fd85fae560645850777aa60.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000404&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4574-S09.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000404&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4574-S09.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000404&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4574-S09.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

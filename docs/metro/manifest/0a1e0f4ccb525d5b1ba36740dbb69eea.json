@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a1e0f4ccb525d5b1ba36740dbb69eea.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "参宮上京道中一覧双六（写真版）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "一般/隣接街道（五街道、付金沢街道、富士山）/東海道//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "061-S40/東S061-S040"
+        },
+        {
+            "label": "題名",
+            "value": "参宮上京道中一覧双六（写真版）"
+        },
+        {
+            "label": "題名",
+            "value": "サングウ　ジョウキョウ　ドウチュウ　イチラン　スゴロク　シャシンバン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000097",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a1e0f4ccb525d5b1ba36740dbb69eea.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a1e0f4ccb525d5b1ba36740dbb69eea.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1824,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a1e0f4ccb525d5b1ba36740dbb69eea.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0a1e0f4ccb525d5b1ba36740dbb69eea.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000097&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S040.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1824,
+                                "width": 1848
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000097&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S040.jpg"
+                    },
+                    "width": 1848
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000097&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S040.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

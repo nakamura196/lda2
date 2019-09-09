@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bbe8a9c8a755556480cc2befb4d76d33.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "しん工夫けん双六（写真版）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "一般/江戸/名所案内記、図絵//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "025-S14/東S025-S014"
+        },
+        {
+            "label": "題名",
+            "value": "しん工夫けん双六（写真版）"
+        },
+        {
+            "label": "題名",
+            "value": "シン　クフウケン　スゴロク　シャシンバン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000029",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bbe8a9c8a755556480cc2befb4d76d33.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bbe8a9c8a755556480cc2befb4d76d33.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2012,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bbe8a9c8a755556480cc2befb4d76d33.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/bbe8a9c8a755556480cc2befb4d76d33.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000029&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S014.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2012,
+                                "width": 1904
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000029&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S014.jpg"
+                    },
+                    "width": 1904
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000029&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S014.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

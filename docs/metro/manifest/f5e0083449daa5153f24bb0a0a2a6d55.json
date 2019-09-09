@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5e0083449daa5153f24bb0a0a2a6d55.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "とりせ双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "宮尾しげを"
+        },
+        {
+            "label": "出版地",
+            "value": "大阪"
+        },
+        {
+            "label": "出版年",
+            "value": "昭和6年"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "31.0×45.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "とりせ（大坂）"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6592/加06592"
+        },
+        {
+            "label": "題名",
+            "value": "とりせ双六"
+        },
+        {
+            "label": "題名",
+            "value": "トリセ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000816",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5e0083449daa5153f24bb0a0a2a6d55.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5e0083449daa5153f24bb0a0a2a6d55.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4856,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5e0083449daa5153f24bb0a0a2a6d55.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f5e0083449daa5153f24bb0a0a2a6d55.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000816&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6592.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4856,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000816&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6592.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000816&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6592.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

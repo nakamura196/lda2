@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/58b6abdf63c03aeaf74e577e53dd141a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "子宝遊寿双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "よし藤"
+        },
+        {
+            "label": "出版年",
+            "value": "慶応3年10月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/玩具（おもちゃ）（外国子供風俗も含む）//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×73.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "大橋堂弥七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "085-S1/東S085-S001"
+        },
+        {
+            "label": "題名",
+            "value": "子宝遊寿双六"
+        },
+        {
+            "label": "題名",
+            "value": "コダカラ　アソビ　コトブキ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000187",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/58b6abdf63c03aeaf74e577e53dd141a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/58b6abdf63c03aeaf74e577e53dd141a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4554,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/58b6abdf63c03aeaf74e577e53dd141a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/58b6abdf63c03aeaf74e577e53dd141a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000187&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F085-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4554,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000187&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F085-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000187&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F085-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

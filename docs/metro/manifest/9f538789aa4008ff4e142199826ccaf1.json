@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f538789aa4008ff4e142199826ccaf1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "〔東海道五十三次双六〕",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "安永4年"
+        },
+        {
+            "label": "分類",
+            "value": "一般/隣接街道（五街道、付金沢街道、富士山）/東海道//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "61.0×87.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "西村"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "061-S39/東S061-S039"
+        },
+        {
+            "label": "題名",
+            "value": "〔東海道五十三次双六〕"
+        },
+        {
+            "label": "題名",
+            "value": "トウカイドウ　ゴジュウサンツギ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000096",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f538789aa4008ff4e142199826ccaf1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f538789aa4008ff4e142199826ccaf1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4638,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f538789aa4008ff4e142199826ccaf1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9f538789aa4008ff4e142199826ccaf1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000096&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S039.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4638,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000096&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S039.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000096&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S039.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

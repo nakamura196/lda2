@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/429b98d4550292c481b1e6be60ffbc52.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "古帳反古紙出紙屑猪艸鴈皮製紙原料商",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1868-(明治期)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1868****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "コチヨウホゴカミダシカミクズチヨソウガンピセイシゲンリヨウシヨウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "古帳反古紙出紙屑猪艸鴈皮製紙原料商"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000517544"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "7416"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "b0234001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "イシズキチベエ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:[石津吉兵衛]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×27cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=7416",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/429b98d4550292c481b1e6be60ffbc52.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/429b98d4550292c481b1e6be60ffbc52.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/429b98d4550292c481b1e6be60ffbc52.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/429b98d4550292c481b1e6be60ffbc52.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=117554",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 747
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117554"
+                    },
+                    "width": 747
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117554"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

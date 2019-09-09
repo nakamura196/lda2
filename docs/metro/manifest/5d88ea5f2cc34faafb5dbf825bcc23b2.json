@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d88ea5f2cc34faafb5dbf825bcc23b2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "万国人物図会",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "51.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特5555/特5555"
+        },
+        {
+            "label": "題名",
+            "value": "万国人物図会"
+        },
+        {
+            "label": "題名",
+            "value": "バンコク　ジンブツ　ズエ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000837",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d88ea5f2cc34faafb5dbf825bcc23b2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d88ea5f2cc34faafb5dbf825bcc23b2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4620,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d88ea5f2cc34faafb5dbf825bcc23b2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5d88ea5f2cc34faafb5dbf825bcc23b2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000837&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK5555.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4620,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000837&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK5555.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000837&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK5555.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

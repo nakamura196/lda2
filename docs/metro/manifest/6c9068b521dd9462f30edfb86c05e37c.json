@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6c9068b521dd9462f30edfb86c05e37c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "五九郎式新婚双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "大正11年8月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/冠婚、葬祭/婚姻/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×80.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "文港堂山本高猶"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0721-S1/東S0721-S001"
+        },
+        {
+            "label": "題名",
+            "value": "五九郎式新婚双六"
+        },
+        {
+            "label": "題名",
+            "value": "ゴクロウシキ　シンコン　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000122",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6c9068b521dd9462f30edfb86c05e37c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6c9068b521dd9462f30edfb86c05e37c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4640,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6c9068b521dd9462f30edfb86c05e37c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6c9068b521dd9462f30edfb86c05e37c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000122&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0721-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4640,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000122&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0721-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000122&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0721-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

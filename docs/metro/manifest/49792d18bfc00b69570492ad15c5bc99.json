@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/49792d18bfc00b69570492ad15c5bc99.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "官職双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "法制/法制/官職//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "81.0×63.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "602-S2/東S602-S002"
+        },
+        {
+            "label": "題名",
+            "value": "官職双六"
+        },
+        {
+            "label": "題名",
+            "value": "カンショク　スゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.3「紫の色彩を見ると幕末か明治のものだが、執柄つまり摂政関白を上りとした古風なもの。コピーは東京大学図書館蔵、宝暦7年刊『新板　官職双六指南』の序文の一部と双六略図の箇所である。出陳の図と、この双六略図と構成がほぼ同じなのがわかる。この本は単独に刊行されたのでなく、おそらく堂々たる官職双六に付けられた解説と見られ、本資料などもその種の図を手本に作られたのであろう。他に、徳川幕府や明治政府の職制を双六としたものも見かけ、一類をなしていると思われる。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000631",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/49792d18bfc00b69570492ad15c5bc99.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/49792d18bfc00b69570492ad15c5bc99.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/49792d18bfc00b69570492ad15c5bc99.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/49792d18bfc00b69570492ad15c5bc99.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000631&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F602-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000631&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F602-S02.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000631&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F602-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

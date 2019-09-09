@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f85b093779cb2b9e5a6a562955a3162.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "ちらし書恋文章飛廻双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "中村長秀"
+        },
+        {
+            "label": "作者・画工",
+            "value": "有楽斉長秀"
+        },
+        {
+            "label": "分類",
+            "value": "美術/演劇/脚本、筋書、絵本、作者、番附、外題をもととしたる双六//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "34.0×46.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "越後屋吉次郎（京）"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "573-S55/東S573-S055"
+        },
+        {
+            "label": "題名",
+            "value": "ちらし書恋文章飛廻双六"
+        },
+        {
+            "label": "題名",
+            "value": "チラシガキ　コイ　ノ　ブンショウ　トビマワリ　スゴロク"
+        },
+        {
+            "label": "題名",
+            "value": "於四条南側顔見世切狂言"
+        },
+        {
+            "label": "題名",
+            "value": "シジョウミナミガワカオミセキリキョウゲン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000575",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f85b093779cb2b9e5a6a562955a3162.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f85b093779cb2b9e5a6a562955a3162.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f85b093779cb2b9e5a6a562955a3162.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3f85b093779cb2b9e5a6a562955a3162.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000575&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S55.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000575&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S55.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000575&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S55.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

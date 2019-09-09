@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d58d0c00000d1686560e8a8bb920da83.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "女学校生活双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "正光社編輯部"
+        },
+        {
+            "label": "出版年",
+            "value": "大正13年1月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/玩具及子供風俗、子供風俗を絵画化したもの/芝居遊び、相撲遊び/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×80.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "正光社"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0863-S1/東S0863-S001"
+        },
+        {
+            "label": "題名",
+            "value": "女学校生活双六"
+        },
+        {
+            "label": "題名",
+            "value": "ジョガッコウ　セイカツ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000221",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d58d0c00000d1686560e8a8bb920da83.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d58d0c00000d1686560e8a8bb920da83.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d58d0c00000d1686560e8a8bb920da83.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d58d0c00000d1686560e8a8bb920da83.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000221&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0863-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000221&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0863-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000221&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0863-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

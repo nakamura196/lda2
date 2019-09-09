@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e845573fb76b7163975f07314a2c8adb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "商業滑稽双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治41年1月"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "41.0×55.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "（商業界9巻1号附録）；石版多色摺；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "森山章之丞"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6570/加06570"
+        },
+        {
+            "label": "題名",
+            "value": "商業滑稽双六"
+        },
+        {
+            "label": "題名",
+            "value": "ショウギョウ　コッケイ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000783",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e845573fb76b7163975f07314a2c8adb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e845573fb76b7163975f07314a2c8adb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e845573fb76b7163975f07314a2c8adb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e845573fb76b7163975f07314a2c8adb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000783&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6570.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5090,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000783&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6570.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000783&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6570.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

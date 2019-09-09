@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3e89593d20e3309f5185196bbb72f064.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "五十三駅東海道滑稽双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一恵齋芳幾"
+        },
+        {
+            "label": "出版年",
+            "value": "万延1年7月"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/小説/滑稽本//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "加賀屋"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "478-S2/東S478-S002"
+        },
+        {
+            "label": "題名",
+            "value": "五十三駅東海道滑稽双六"
+        },
+        {
+            "label": "題名",
+            "value": "ゴジュウサンツギ　トウカイドウ　コッケイ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000427",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3e89593d20e3309f5185196bbb72f064.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3e89593d20e3309f5185196bbb72f064.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3e89593d20e3309f5185196bbb72f064.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3e89593d20e3309f5185196bbb72f064.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000427&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F478-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000427&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F478-S02.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000427&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F478-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

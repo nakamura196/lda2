@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fce5ef5aff309751d5356ea8f6a7eba8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "しんはん東海道鬱散双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/漫画、大津絵、狂画/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "47.0×68.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "竹内孫八"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5247-S5/東S5247-S005"
+        },
+        {
+            "label": "題名",
+            "value": "しんはん東海道鬱散双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　トウカイドウ　キサンジ　スゴロク"
+        },
+        {
+            "label": "題名",
+            "value": "シンパントウカイドウキサンジスゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.5「十返舎一九の滑稽本『道中膝栗毛』を題材とした双六。『膝栗毛』は非常に好評を博し、東海道だけでなく四国･中国･信州などを舞台に、享和2年から文政5年まで前後21年に渡って刊行された。その人気を背景に膝栗毛の双六も多く作られたらしく、当館でも他に数種類所蔵している。弥次･喜多は四日市から伊勢参宮をすませて京へ上るが、双六は通常の東海道五十三次を辿っている。なお、当図の版元竹内孫八は、天保4･5年にかけて広重の｢東街道五十三次｣を出した保永堂である。」"
+        },
+        {
+            "label": "改印",
+            "value": "極"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000435",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fce5ef5aff309751d5356ea8f6a7eba8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fce5ef5aff309751d5356ea8f6a7eba8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fce5ef5aff309751d5356ea8f6a7eba8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/fce5ef5aff309751d5356ea8f6a7eba8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000435&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S05.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000435&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S05.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000435&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S05.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

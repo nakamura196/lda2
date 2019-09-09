@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bfea086badef9ccb0d1f5ea802aef10c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "初商出世双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "小三馬"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川国輝"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(歌川)國輝"
+        },
+        {
+            "label": "出版年",
+            "value": "安政1年9月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/春/正月（総）/売初、初荷"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×34.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "式亭三馬店"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "07516-S1/東S07516-S001"
+        },
+        {
+            "label": "題名",
+            "value": "初商出世双六"
+        },
+        {
+            "label": "題名",
+            "value": "ハツ　アキナイ　シュッセ　スゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "2012大規模企画展(13)　「江戸本町2丁目に、戯作者の式亭三馬（1776-1822）が創業し､没後は息子の小三馬が継いだ小間物屋（化粧品店）がありました。おしろいがよくのる「江戸の水」という化粧水で評判でした。この双六は、店の商品をコマ絵にしたもので、正月の宣伝用の配りものと思われます｡」，『第3回江戸資料展』図録解説p.24「戯作者式亭三馬が創業し､没後は子息の小三馬がついだ化粧品店の商品一覧を双六化したもので､値段も併記してある｡宣伝をかねた正月用の配りものと思われる｡原袋付き｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000149",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bfea086badef9ccb0d1f5ea802aef10c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bfea086badef9ccb0d1f5ea802aef10c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bfea086badef9ccb0d1f5ea802aef10c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/bfea086badef9ccb0d1f5ea802aef10c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000149&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07516-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4890
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000149&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07516-S001.jpg"
+                    },
+                    "width": 4890
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000149&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07516-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

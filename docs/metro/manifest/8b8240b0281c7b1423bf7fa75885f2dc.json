@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8b8240b0281c7b1423bf7fa75885f2dc.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "伊勢物語業平寿娯六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "松亭金水"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川豊国（3代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一陽齋豊國(三世"
+        },
+        {
+            "label": "作者・画工",
+            "value": "彫工　卯夛吉"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化頃"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/文集/平安朝/伊勢物語/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "38.0×76.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "藤岡屋彦太郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "4573-S1/東S4573-S001"
+        },
+        {
+            "label": "題名",
+            "value": "伊勢物語業平寿娯六"
+        },
+        {
+            "label": "題名",
+            "value": "イセ　モノガタリ　ナリヒラ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000394",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8b8240b0281c7b1423bf7fa75885f2dc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8b8240b0281c7b1423bf7fa75885f2dc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8b8240b0281c7b1423bf7fa75885f2dc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8b8240b0281c7b1423bf7fa75885f2dc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000394&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4573-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000394&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4573-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000394&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4573-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

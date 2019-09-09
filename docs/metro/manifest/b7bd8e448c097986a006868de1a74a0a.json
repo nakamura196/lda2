@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7bd8e448c097986a006868de1a74a0a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "ちんわんぶしおさな寿古路く",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一惠齋芳幾"
+        },
+        {
+            "label": "出版年",
+            "value": "万延1年3月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/玩具及子供風俗、子供風俗を絵画化したもの/子供遊び、子供風俗（子供の世界及び大人の世界を子供にて表わしたるもの）/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "72.0×50.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "辻岡屋文助"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0861-S14/東S0861-S014"
+        },
+        {
+            "label": "題名",
+            "value": "ちんわんぶしおさな寿古路く"
+        },
+        {
+            "label": "題名",
+            "value": "チンワンブシ　オサナ　スゴロク"
+        },
+        {
+            "label": "題名",
+            "value": "ちんわんぶし稚双六"
+        },
+        {
+            "label": "資料解説",
+            "value": "『子供の遊び』図録解説p.11「ちんわん猫にゃあちう、金魚に放し亀、牛もう／＼、こまいぬに鈴がらりん、蛙が三ツで三（み）ひょこひょこ、鳩ぽっぽに立石石燈籠、小僧こけて居る、櫂突く貝突く､布袋（ほてい）のどぶつに、つんぼ恵比寿､雁が三羽で鳥居におかめに般若で､ひうどんちゃん、天神西行子守に相撲取どっこい、わい／＼天王五重塔､お馬が三ツでひん／＼／＼。ことば遊びの一種で早口言葉としても楽んだらしいが､これを振り出しから上（あが）りまで36に分けた回り双六にしたものである。上りの絵は曽我狂言の春駒の対面の趣向を取入れたもので4人の顔は役者の似顔になっている。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000208",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7bd8e448c097986a006868de1a74a0a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7bd8e448c097986a006868de1a74a0a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7bd8e448c097986a006868de1a74a0a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b7bd8e448c097986a006868de1a74a0a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000208&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0861-S014.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4664
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000208&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0861-S014.jpg"
+                    },
+                    "width": 4664
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000208&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0861-S014.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

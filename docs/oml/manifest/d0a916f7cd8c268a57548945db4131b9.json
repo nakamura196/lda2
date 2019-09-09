@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0a916f7cd8c268a57548945db4131b9.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "古着小袖流解物小切類商",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1868-(明治期)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1868****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "フルギコソデナガレトキモノコギレルイシヨウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "古着小袖流解物小切類商"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000518756"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "7424"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "b0242001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "タニサシチテン"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:[谷佐七店]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;41×27cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=7424",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0a916f7cd8c268a57548945db4131b9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0a916f7cd8c268a57548945db4131b9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 687,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/d0a916f7cd8c268a57548945db4131b9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/d0a916f7cd8c268a57548945db4131b9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=117562",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 687,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117562"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117562"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

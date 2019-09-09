@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e6eae2e1f53c3a4f8e7b6201960a2e50.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "菅笠 柳合利 畳表ござ卸商",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1868-(明治期)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1868****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "スゲガサヤナギゴウリタタミオモテゴザオロシシヨウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "菅笠 柳合利 畳表ござ卸商"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000606208"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "7486"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "b0304001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ヤマナカカヘエ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:[山中嘉兵衛]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×27cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=7486",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e6eae2e1f53c3a4f8e7b6201960a2e50.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e6eae2e1f53c3a4f8e7b6201960a2e50.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e6eae2e1f53c3a4f8e7b6201960a2e50.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/e6eae2e1f53c3a4f8e7b6201960a2e50.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=117624",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 688
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117624"
+                    },
+                    "width": 688
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117624"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

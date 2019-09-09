@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c6050bf2b3b2bb93d2e3003d78fe7a36.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "洋傘メリヤス類各国ネルシヤツ各種綿入チヨツキ製造卸小売",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1868-(明治期)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1868****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ヨウガサメリヤスルイカツコクネルシヤツカクシユワタイレチヨツキセイゾウオロシコウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "洋傘メリヤス類各国ネルシヤツ各種綿入チヨツキ製造卸小売"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000523325"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "7502"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "b0320001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "タカダシヨウテン"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:[貴田商店]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;26×38cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=7502",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c6050bf2b3b2bb93d2e3003d78fe7a36.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c6050bf2b3b2bb93d2e3003d78fe7a36.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 697,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c6050bf2b3b2bb93d2e3003d78fe7a36.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c6050bf2b3b2bb93d2e3003d78fe7a36.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=117640",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 697,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117640"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117640"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

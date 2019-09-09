@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d3cae9d5b2671959b92b896da8eeb3f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "〔競馬双六〕",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川広重（3代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "立齋"
+        },
+        {
+            "label": "出版年",
+            "value": "明治17年11月"
+        },
+        {
+            "label": "分類",
+            "value": "美術/娯楽、運動/見世物、其他興行物/競馬、曲馬/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×50.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "楢葉周平"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5892-S1/東S5892-S001"
+        },
+        {
+            "label": "題名",
+            "value": "〔競馬双六〕"
+        },
+        {
+            "label": "題名",
+            "value": "ケイバ　スゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "『明治前期の東京』図録解説p.28「これは､同じ落成式の模様を双六に仕立てたもの｡上方正面に玉座がある｡コマもあったものと思われる｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000618",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d3cae9d5b2671959b92b896da8eeb3f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d3cae9d5b2671959b92b896da8eeb3f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d3cae9d5b2671959b92b896da8eeb3f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8d3cae9d5b2671959b92b896da8eeb3f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000618&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5892-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000618&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5892-S01.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000618&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5892-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

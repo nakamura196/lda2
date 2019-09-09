@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b190d28fd7474c2fa82bef6bb89750f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "古狐妖され双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "芳藤"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/徳川並江戸時代史（通史）//怪談/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "75.0×52.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "鎌田在明"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "2456-S3/東S2456-S003"
+        },
+        {
+            "label": "題名",
+            "value": "古狐妖され双六"
+        },
+        {
+            "label": "題名",
+            "value": "フルギツネ　バカサレ　スゴロク"
+        },
+        {
+            "label": "改印",
+            "value": "明治23年"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000279",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b190d28fd7474c2fa82bef6bb89750f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b190d28fd7474c2fa82bef6bb89750f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b190d28fd7474c2fa82bef6bb89750f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4b190d28fd7474c2fa82bef6bb89750f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000279&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2456-S003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4678
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000279&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2456-S003.jpg"
+                    },
+                    "width": 4678
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000279&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2456-S003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

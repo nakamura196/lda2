@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/07262f201609e5357e906c39728dcd42.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "メートル双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "計量革新会"
+        },
+        {
+            "label": "出版年",
+            "value": "大正13年1月"
+        },
+        {
+            "label": "分類",
+            "value": "産業/産業/度量衡//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "54.0×78.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "大阪白帆社"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "808-S1/東S808-S001"
+        },
+        {
+            "label": "題名",
+            "value": "メートル双六"
+        },
+        {
+            "label": "題名",
+            "value": "メートル　スゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.12「大正10年の度量衡改正によって､まず官庁･学校でメートル法が実施されることになったが､一般には従来の尺貫法がその後も長く使用された。これは､計量革新会という団体が､生徒を対象にその普及をめざして作った双六である。なお、全面的にメートル法を採用することが法制化されたのは昭和34年になってからである。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000680",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/07262f201609e5357e906c39728dcd42.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/07262f201609e5357e906c39728dcd42.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/07262f201609e5357e906c39728dcd42.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/07262f201609e5357e906c39728dcd42.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000680&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F808-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000680&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F808-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000680&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F808-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

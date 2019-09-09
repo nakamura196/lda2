@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/adbb2bcf62207db5f6425bea1346a439.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "大千世界国づくし寿語録",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "瑞穂の屋"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川国輝（2代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "山田曜齋"
+        },
+        {
+            "label": "出版年",
+            "value": "明治4年9月"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/外国地誌（萬国）/名所、案内記、図会//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "68.0×96.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "松木平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "955-S3/東S955-S003"
+        },
+        {
+            "label": "題名",
+            "value": "大千世界国づくし寿語録"
+        },
+        {
+            "label": "題名",
+            "value": "ダイセン　セカイ　クニ　ズクシ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000747",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/adbb2bcf62207db5f6425bea1346a439.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/adbb2bcf62207db5f6425bea1346a439.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4415,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/adbb2bcf62207db5f6425bea1346a439.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/adbb2bcf62207db5f6425bea1346a439.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000747&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F955-S03.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4415,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000747&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F955-S03.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000747&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F955-S03.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

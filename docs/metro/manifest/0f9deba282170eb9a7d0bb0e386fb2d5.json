@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f9deba282170eb9a7d0bb0e386fb2d5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "初春書始寿語六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一景、豊国、国周ほか"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一景、豊國､國周他"
+        },
+        {
+            "label": "出版年",
+            "value": "明治4年11月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/春/正月（総）/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "63.0×74.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "山中北郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0751-S8/東S0751-S008"
+        },
+        {
+            "label": "題名",
+            "value": "初春書始寿語六"
+        },
+        {
+            "label": "題名",
+            "value": "ハツハル　カキゾメ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000145",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f9deba282170eb9a7d0bb0e386fb2d5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f9deba282170eb9a7d0bb0e386fb2d5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4691,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f9deba282170eb9a7d0bb0e386fb2d5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0f9deba282170eb9a7d0bb0e386fb2d5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000145&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0751-S008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4691,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000145&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0751-S008.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000145&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0751-S008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

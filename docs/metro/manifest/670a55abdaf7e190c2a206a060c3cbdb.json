@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "大広間より御舞台後座脇迄猿頭塀取合絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6171-40/東6171-040"
+        },
+        {
+            "label": "題名",
+            "value": "大広間より御舞台後座脇迄猿頭塀取合絵図"
+        },
+        {
+            "label": "題名",
+            "value": "オオヒロマ　ヨリ　オブタイ　ウシロ　ザワキ　マデ　サルガシラベイ　トリアイ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "大広間より御舞台後座脇迄猿頭塀取合イ絵図"
+        },
+        {
+            "label": "図面種類",
+            "value": "詳細図"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "猿頭塀"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:10"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006854",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006854&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_40_X1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4682
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006854&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_40_X1.jpg"
+                    },
+                    "width": 4682
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/670a55abdaf7e190c2a206a060c3cbdb.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006854&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_40_X2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4676
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006854&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_40_X2.jpg"
+                    },
+                    "width": 4676
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006854&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_40_X1.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

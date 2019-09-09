@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/df7fa13ece8f917d7b10588b37715c8a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "傾城道中双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "鬼外楼"
+        },
+        {
+            "label": "作者・画工",
+            "value": "五亀亭貞房"
+        },
+        {
+            "label": "作者・画工",
+            "value": "ホリ若狭"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "出版年",
+            "value": "（文政10年）"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "53.0×75.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり付；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "鶴屋喜右衛門"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6563/加06563"
+        },
+        {
+            "label": "題名",
+            "value": "傾城道中双六"
+        },
+        {
+            "label": "題名",
+            "value": "ケイセイ　ドウチュウ　スゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.6「総籬及び交り半籬の店から当時全盛の遊女を選び、狂歌を付した双六。猪首猫背の描法は文政中期の特徴であるし、題名の上に書かれた五柳亭徳升の戯述の中に、文政9年刊の合巻『一寸見南枝当年新板（ちょっとみなんしことしのしんばん）』の書名が見えるから、その後間もない刊行であることがわかる。その前後の『吉原細見』を見ていくと、揚代に少々の違いがあるものの、全員の名前が揃っているのは文政9年秋版である。従って双六は、文政10年春の新版と見てよいだろう。狂歌の選者鬼外楼は福廼屋内成といい、宿屋飯盛の門人で、後に独立し七宝連の首領となった人物である。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000779",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/df7fa13ece8f917d7b10588b37715c8a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/df7fa13ece8f917d7b10588b37715c8a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4714,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/df7fa13ece8f917d7b10588b37715c8a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/df7fa13ece8f917d7b10588b37715c8a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000779&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6563.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4714,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000779&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6563.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000779&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6563.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

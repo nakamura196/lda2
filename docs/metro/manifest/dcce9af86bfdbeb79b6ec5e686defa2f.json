@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcce9af86bfdbeb79b6ec5e686defa2f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "三十二相双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "小林清親"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(小林)清親"
+        },
+        {
+            "label": "出版年",
+            "value": "（明治29年12月）"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/漫画、大津絵、狂画/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "74.0×49.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "井上吉次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5247-S12/東S5247-S012"
+        },
+        {
+            "label": "題名",
+            "value": "三十二相双六"
+        },
+        {
+            "label": "題名",
+            "value": "サンジュウニソウ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000442",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcce9af86bfdbeb79b6ec5e686defa2f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcce9af86bfdbeb79b6ec5e686defa2f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcce9af86bfdbeb79b6ec5e686defa2f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dcce9af86bfdbeb79b6ec5e686defa2f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000442&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S12.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000442&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S12.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000442&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S12.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

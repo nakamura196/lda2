@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/88b9eeab3ec7761f81cce7c74524a238.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "チウ太郎双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "川上四郎"
+        },
+        {
+            "label": "作者・画工",
+            "value": "川上四郎"
+        },
+        {
+            "label": "出版年",
+            "value": "大正13年1月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/玩具及子供風俗、子供風俗を絵画化したもの/人間の生活を動植物にて表わしたるもの及び動植物に関するもの/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×40.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "コドモ社"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0862-S3/東S0862-S003"
+        },
+        {
+            "label": "題名",
+            "value": "チウ太郎双六"
+        },
+        {
+            "label": "題名",
+            "value": "チュウタロウ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000215",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/88b9eeab3ec7761f81cce7c74524a238.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/88b9eeab3ec7761f81cce7c74524a238.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/88b9eeab3ec7761f81cce7c74524a238.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/88b9eeab3ec7761f81cce7c74524a238.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000215&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0862-S003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4985
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000215&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0862-S003.jpg"
+                    },
+                    "width": 4985
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000215&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0862-S003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,351 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "茶功適",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "寛政7(1795)"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1795****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "チヤコウテキ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "茶功適"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080208516"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "27337"
+        },
+        {
+            "label": "枚数",
+            "value": "10"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0099001"
+        },
+        {
+            "label": "注記_01",
+            "value": "帙入"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "シオヤチユウベエ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:塩屋忠兵ヱ"
+        },
+        {
+            "label": "巻次",
+            "value": "第1箋"
+        },
+        {
+            "label": "巻次(数値)",
+            "value": "0001"
+        },
+        {
+            "label": "形態",
+            "value": "折本1帖;16×6cm(袖珍本)"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "イチウアンシユジン"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "一雨庵主人/編"
+        },
+        {
+            "label": "請求記号",
+            "value": "791"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=27337",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119872",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 385
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119872"
+                    },
+                    "width": 385
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 649,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119873",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 649,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119873"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 649,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119874",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 649,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119874"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p4-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p4",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119875",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[4]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119875"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p5-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p5",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119876",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[5]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119876"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p6",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p6-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p6",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119877",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[6]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119877"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p7",
+                    "@type": "sc:Canvas",
+                    "height": 649,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p7-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p7",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119878",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 649,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[7]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119878"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p8",
+                    "@type": "sc:Canvas",
+                    "height": 649,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p8-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p8",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119879",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 649,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[8]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119879"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p9",
+                    "@type": "sc:Canvas",
+                    "height": 651,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p9-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p9",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119880",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 651,
+                                "width": 999
+                            }
+                        }
+                    ],
+                    "label": "[9]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119880"
+                    },
+                    "width": 999
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p10",
+                    "@type": "sc:Canvas",
+                    "height": 641,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/annotation/p10-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/24e87865097ef90917fc174f8807c419.json/canvas/p10",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=119881",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 641,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[10]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119881"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=119872"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

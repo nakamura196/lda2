@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab85169739a68e8d3e405b111998fdc1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "かのうほうげんの馬と山はんごん丹藤川平九郎大でけ双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "美術/演劇/各家（伝記、似顔、筆蹟、追善、死陰当り狂言、逸話）/瀬川、岩井、山中、藤川/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "30.0×42.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "鱗形屋"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5729-S1/東S5729-S001"
+        },
+        {
+            "label": "題名",
+            "value": "かのうほうげんの馬と山はんごん丹藤川平九郎大でけ双六"
+        },
+        {
+            "label": "題名",
+            "value": "カノウ　ホウゲン　ノ　ウマ　ト　ヤマ　ハンゴンタン　フジカワ　ヘイクロウ　オオデケ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000514",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab85169739a68e8d3e405b111998fdc1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab85169739a68e8d3e405b111998fdc1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab85169739a68e8d3e405b111998fdc1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ab85169739a68e8d3e405b111998fdc1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000514&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5729-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000514&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5729-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000514&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5729-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

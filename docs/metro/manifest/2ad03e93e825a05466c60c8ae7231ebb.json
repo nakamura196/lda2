@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2ad03e93e825a05466c60c8ae7231ebb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "家庭教育双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "川端龍子"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "出版年",
+            "value": "大正4年1月"
+        },
+        {
+            "label": "分類",
+            "value": "国書教育////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×78.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "婦人世界新年附録；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "実業之日本社"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和1395/和1395"
+        },
+        {
+            "label": "題名",
+            "value": "家庭教育双六"
+        },
+        {
+            "label": "題名",
+            "value": "カテイ　キョウイク　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000844",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2ad03e93e825a05466c60c8ae7231ebb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2ad03e93e825a05466c60c8ae7231ebb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4718,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2ad03e93e825a05466c60c8ae7231ebb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2ad03e93e825a05466c60c8ae7231ebb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000844&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FWA1395.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4718,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000844&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FWA1395.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000844&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FWA1395.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

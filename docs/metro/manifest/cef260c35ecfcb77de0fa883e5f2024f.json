@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cef260c35ecfcb77de0fa883e5f2024f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "〔徳川幕府職制一覧双六〕",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "法制/徳川幕府/職制//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "71.0×50.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "611-S1/東S611-S001"
+        },
+        {
+            "label": "題名",
+            "value": "〔徳川幕府職制一覧双六〕"
+        },
+        {
+            "label": "題名",
+            "value": "トクガワ　バクフ　ショクセイ　イチラン　スゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "2013文化財ウィーク（39）「徳川幕府の役職の一覧を双六に仕立てた1枚です。左下の「一生小普請(こぶしん)」が振り出し、中央上部の「御大老」が上がりです。88の役職があり、それぞれサイコロの目の数に従ってわたっていく飛び双六です。幕府の組織を覚えるための双六ともいわれています。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000636",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cef260c35ecfcb77de0fa883e5f2024f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cef260c35ecfcb77de0fa883e5f2024f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cef260c35ecfcb77de0fa883e5f2024f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cef260c35ecfcb77de0fa883e5f2024f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000636&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F611-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000636&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F611-S01.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000636&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F611-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

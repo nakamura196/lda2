@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/30a2f77ac1468cf68399845b83dbd249.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "仮名手本誠忠寿古六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一雄斎国輝"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永頃"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "50.0×71.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "多色摺；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "和泉屋市兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6558/加06558"
+        },
+        {
+            "label": "題名",
+            "value": "仮名手本誠忠寿古六"
+        },
+        {
+            "label": "題名",
+            "value": "カナデホン　セイチュウ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000775",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/30a2f77ac1468cf68399845b83dbd249.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/30a2f77ac1468cf68399845b83dbd249.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4694,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/30a2f77ac1468cf68399845b83dbd249.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/30a2f77ac1468cf68399845b83dbd249.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000775&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6558.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4694,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000775&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6558.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000775&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6558.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

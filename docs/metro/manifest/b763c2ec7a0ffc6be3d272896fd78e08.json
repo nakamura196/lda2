@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b763c2ec7a0ffc6be3d272896fd78e08.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "千年紀念御神蹟めぐり",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "松浦武四郎"
+        },
+        {
+            "label": "作者・画工",
+            "value": "松浦武四郎"
+        },
+        {
+            "label": "出版年",
+            "value": "明治34年12月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/各社/天神//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "51.0×75.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "根岸武香"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "336-S1/東S336-S001"
+        },
+        {
+            "label": "題名",
+            "value": "千年紀念御神蹟めぐり"
+        },
+        {
+            "label": "題名",
+            "value": "センネン　キネン　ゴシンセキ　メグリ"
+        },
+        {
+            "label": "題名",
+            "value": "千年紀念御旧蹟双六"
+        },
+        {
+            "label": "題名",
+            "value": "センネンキネンゴキュウセキスゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000305",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b763c2ec7a0ffc6be3d272896fd78e08.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b763c2ec7a0ffc6be3d272896fd78e08.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4527,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b763c2ec7a0ffc6be3d272896fd78e08.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b763c2ec7a0ffc6be3d272896fd78e08.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000305&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F336-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4527,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000305&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F336-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000305&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F336-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

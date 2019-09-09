@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d7c4dbf9be94d38f9013a156fc661a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "婦女教育礼儀寿語禄",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "作者・画工",
+            "value": "安達吟光"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(安達)吟光"
+        },
+        {
+            "label": "出版年",
+            "value": "明治25年11月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/礼式//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "福田熊次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "088-S1/東S088-S001"
+        },
+        {
+            "label": "題名",
+            "value": "婦女教育礼儀寿語禄"
+        },
+        {
+            "label": "題名",
+            "value": "フジョ　キョウイク　レイギ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000241",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d7c4dbf9be94d38f9013a156fc661a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d7c4dbf9be94d38f9013a156fc661a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d7c4dbf9be94d38f9013a156fc661a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/72d7c4dbf9be94d38f9013a156fc661a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000241&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F088-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000241&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F088-S01.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000241&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F088-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

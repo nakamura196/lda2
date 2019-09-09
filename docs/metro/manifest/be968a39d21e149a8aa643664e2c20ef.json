@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/be968a39d21e149a8aa643664e2c20ef.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "世進電話双録",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治26年"
+        },
+        {
+            "label": "分類",
+            "value": "都市問題、都市計画、帝都復興/交通付通信/通信（電信、電話付伝書鳩）//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×49.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "福田熊次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "729-S2/東S729-S002"
+        },
+        {
+            "label": "題名",
+            "value": "世進電話双録"
+        },
+        {
+            "label": "題名",
+            "value": "ヨ　ワ　ススム　デンワ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000669",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/be968a39d21e149a8aa643664e2c20ef.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/be968a39d21e149a8aa643664e2c20ef.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/be968a39d21e149a8aa643664e2c20ef.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/be968a39d21e149a8aa643664e2c20ef.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000669&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F729-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000669&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F729-S02.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000669&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F729-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

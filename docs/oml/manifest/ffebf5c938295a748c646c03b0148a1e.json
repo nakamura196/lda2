@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffebf5c938295a748c646c03b0148a1e.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "諸糸商",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "シヨイトシヨウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "諸糸商"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000517571"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "7546"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "b0364001"
+        },
+        {
+            "label": "注記_01",
+            "value": "木版"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "オカダギヘエ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大坂:[岡田儀兵衛]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;34×50cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=7546",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffebf5c938295a748c646c03b0148a1e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffebf5c938295a748c646c03b0148a1e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 668,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ffebf5c938295a748c646c03b0148a1e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ffebf5c938295a748c646c03b0148a1e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=117685",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 668,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117685"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=117685"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}
