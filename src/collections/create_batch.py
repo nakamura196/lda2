@@ -47,7 +47,7 @@ rows = [
     ["python 02_create_images.py "+config_path],
     ["python 12_create_manifest.py "+config_path],
     ["python 13_create_collection.py "+config_path],
-    ["python 20_collection_converter.py "+collection_path+" "+data_dir+"/items.json"],
+    ["python 20_collection_converter.py "+collection_path+" "+output_dir+"/items.json"],
     # ["python 21_collection_converter4es.py "+collection_path +
     #     " "+data_dir+"/rows.json"],
     # ["python 30_create_uni.py "+config_path],
