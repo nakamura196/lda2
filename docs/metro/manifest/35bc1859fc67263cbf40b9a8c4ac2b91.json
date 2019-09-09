@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/35bc1859fc67263cbf40b9a8c4ac2b91.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "三重御櫓絵図 二十分ノ一",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "建地割"
+        },
+        {
+            "label": "建築区分",
+            "value": "櫓"
+        },
+        {
+            "label": "建築区分",
+            "value": "三重櫓"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6192-22/東6192-022"
+        },
+        {
+            "label": "題名",
+            "value": "三重御櫓絵図 二十分ノ一"
+        },
+        {
+            "label": "題名",
+            "value": "サンジュウ　オヤグラ　エズ　ニジュウブン　ノ　イチ"
+        },
+        {
+            "label": "題名",
+            "value": "三重御櫓二十分一"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006952",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/35bc1859fc67263cbf40b9a8c4ac2b91.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/35bc1859fc67263cbf40b9a8c4ac2b91.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/35bc1859fc67263cbf40b9a8c4ac2b91.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/35bc1859fc67263cbf40b9a8c4ac2b91.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006952&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_22_W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 5964
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006952&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_22_W.jpg"
+                    },
+                    "width": 5964
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006952&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_22_W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f08e008303b7705bcffddc82dadf380.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御本丸大広間南御入側より御上段格天井絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "天井詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良若狭控  天保十五甲辰年御本丸御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大広間"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6162-26/東6162-026"
+        },
+        {
+            "label": "造営年度",
+            "value": "弘化度"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸大広間南御入側より御上段格天井絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマル　オオヒロマ　ミナミ　オイリカワ　ヨリ　オジョウダン　ゴウテンジョウ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸大広間南御入側より御上段格天井絵図 十分一之割"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:10"
+        },
+        {
+            "label": "資料解説",
+            "value": "2014文化財ウィークリーフレットp.8「本丸大広間の中でも、将軍が謁見する部屋として特に重要な、上段、中段、下段、南御入側の矩計図（詳細な断面図）です。長押（化粧板）や各部屋の格天井の段差の位置や寸法について、詳細な仕様が書かれています。（Design of the go-tenjo (square-patterned ceiling) of the O-hiroma from the southern entrance to the upper chamber）This is a detailed drawing of the square-patterned ceiling in the upper"
+        },
+        {
+            "label": "資料解説",
+            "value": "middle"
+        },
+        {
+            "label": "資料解説",
+            "value": "and lower chambers of the O-hiroma"
+        },
+        {
+            "label": "資料解説",
+            "value": "which were used for audiences with the Shogun. The ceiling mirrored the gradations in floor level height between each of the three chambers.」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006494",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f08e008303b7705bcffddc82dadf380.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f08e008303b7705bcffddc82dadf380.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1904,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f08e008303b7705bcffddc82dadf380.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3f08e008303b7705bcffddc82dadf380.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006494&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_26.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1904,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006494&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_26.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006494&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_26.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5aed2ca68ffd3460c301b96191cdcf41.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[本寿院様御神棚]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "神棚詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "豊田家文書，袋（和別337付）に豊田控とあり"
+        },
+        {
+            "label": "建築区分",
+            "value": "二丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "本寿院様"
+        },
+        {
+            "label": "数量",
+            "value": "１舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "付属資料：本寿院様御住居御清之間御神棚繪圖　矩計正寸　捨分壱之圖　豊田控（袋，16.9×7.3），和別337-338が入っていたもの；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和-別337/和-別0337"
+        },
+        {
+            "label": "造営年度",
+            "value": "元治度"
+        },
+        {
+            "label": "題名",
+            "value": "[本寿院様御神棚]"
+        },
+        {
+            "label": "題名",
+            "value": "ホンジュインサマ　オカミダナ"
+        },
+        {
+            "label": "題名",
+            "value": "本寿院様御神棚繪圖（題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "ホンジュインサマ　オカミダナ　エズ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080685",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5aed2ca68ffd3460c301b96191cdcf41.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5aed2ca68ffd3460c301b96191cdcf41.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5aed2ca68ffd3460c301b96191cdcf41.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5aed2ca68ffd3460c301b96191cdcf41.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080685&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-337.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080685&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-337.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080685&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-337.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

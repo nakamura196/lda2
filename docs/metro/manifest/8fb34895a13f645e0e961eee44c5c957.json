@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8fb34895a13f645e0e961eee44c5c957.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[呉服之間御祐筆間共地繪圖]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "豊田家文書"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸　呉服之間、御祐筆間"
+        },
+        {
+            "label": "数量",
+            "value": "１舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "付属資料：西丸御普請御用　御上棟元治甲子年六月廿六日　午上刻無滞相済申候（袋，8.6×18.3），和別312-318が入っていたもの；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和-別312/和-別0312"
+        },
+        {
+            "label": "造営年度",
+            "value": "元治度か"
+        },
+        {
+            "label": "題名",
+            "value": "[呉服之間御祐筆間共地繪圖]"
+        },
+        {
+            "label": "題名",
+            "value": "ゴフクノマ　ゴユウヒツノマ　トモジエズ"
+        },
+        {
+            "label": "題名",
+            "value": "呉服之間御祐筆間共地繪圖（外題）"
+        },
+        {
+            "label": "題名",
+            "value": "ゴフクノマ　ゴユウヒツノマ　トモジエズ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080660",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8fb34895a13f645e0e961eee44c5c957.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8fb34895a13f645e0e961eee44c5c957.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8fb34895a13f645e0e961eee44c5c957.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8fb34895a13f645e0e961eee44c5c957.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080660&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-312.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080660&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-312.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080660&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-312.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

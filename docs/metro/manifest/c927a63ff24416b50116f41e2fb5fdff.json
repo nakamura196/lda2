@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c927a63ff24416b50116f41e2fb5fdff.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[中奥向　　御用部屋　奥向部屋　新番所　御膳建　時計之間　其外共　御側衆　奥御祐筆所　小屋繪圖　○に「と」　豊田控]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "小屋伏図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "豊田家文書，外題に○「と」とあり"
+        },
+        {
+            "label": "建築区分",
+            "value": "二丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "中奥"
+        },
+        {
+            "label": "数量",
+            "value": "１舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和-別334/和-別0334"
+        },
+        {
+            "label": "造営年度",
+            "value": "元治度か"
+        },
+        {
+            "label": "題名",
+            "value": "[中奥向　　御用部屋　奥向部屋　新番所　御膳建　時計之間　其外共　御側衆　奥御祐筆所　小屋繪圖　○に「と」　豊田控]"
+        },
+        {
+            "label": "題名",
+            "value": "ナカオクムキ　ゴヨウベヤ　オクムキベヤ　シンバンショ　ゴゼンダテ　トケイノマ　ソノ　ホカ　トモ　オソバシュウ　オクゴユウヒツ　コヤ　エズ　○　ニ　　ト　トヨダ　ヒカエ"
+        },
+        {
+            "label": "題名",
+            "value": "中奥向　　御用部屋　奥向部屋　新番所　御膳建　時計之間　其外共　御側衆　奥御祐筆所　小屋繪圖　○に「と」　豊田控"
+        },
+        {
+            "label": "題名",
+            "value": "ナカオクムキ　ゴヨウベヤ　オクムキベヤ　シンバンショ　ゴゼンダテ　トケイノマ　ソノ　ホカ　トモ　オソバシュウ　オクゴユウヒツ　コヤ　エズ　○　ニ　ト　トヨダ　ヒカエ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080682",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c927a63ff24416b50116f41e2fb5fdff.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c927a63ff24416b50116f41e2fb5fdff.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c927a63ff24416b50116f41e2fb5fdff.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c927a63ff24416b50116f41e2fb5fdff.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080682&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-334.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080682&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-334.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080682&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-334.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

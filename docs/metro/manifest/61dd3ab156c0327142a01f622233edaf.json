@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/61dd3ab156c0327142a01f622233edaf.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御城内向絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "本城全体図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "甲良"
+        },
+        {
+            "label": "建築区分",
+            "value": "その他"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり（20.7×12.2cm）；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6158-6/東6158-006"
+        },
+        {
+            "label": "題名",
+            "value": "御城内向絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ゴジョウナイムキ　エズ"
+        },
+        {
+            "label": "資料解説",
+            "value": "2007文化財ウィーク（25）「御城の全体図で甲良の角印がある。本図と展示資料26の文書を照合すると、図の赤く大きめの付箋は分担者、朱の入っている場所は修復箇所と一致する。「舟はし」「新口」にも小さな付箋が貼付されており、石材の運搬に舟が活用されたことが考えられよう。(Diagram inside the walls of Edo Castle)Overall diagram of the castle stamped with the square seal of K?ra. Comparing this diagram to document No.26 reveals that the parts labeled with red slips match the assignees"
+        },
+        {
+            "label": "資料解説",
+            "value": "and the parts indicated in vermilion are places that have been restored. Small slips have also been stuck on Funahashi and Shinguchi"
+        },
+        {
+            "label": "資料解説",
+            "value": "and it is believed that boats were used to transport building stones.」"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "61.4×89.2"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006404",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/61dd3ab156c0327142a01f622233edaf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/61dd3ab156c0327142a01f622233edaf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4652,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/61dd3ab156c0327142a01f622233edaf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/61dd3ab156c0327142a01f622233edaf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006404&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6158_06.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4652,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006404&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6158_06.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006404&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6158_06.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

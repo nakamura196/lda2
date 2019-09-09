@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/df72c6bd0895d68912d1ae5edcc724c7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "大広間千鳥破風改口木連格子絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "破風詳細図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大広間"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6162-77/東6162-077"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        },
+        {
+            "label": "題名",
+            "value": "大広間千鳥破風改口木連格子絵図"
+        },
+        {
+            "label": "題名",
+            "value": "オオヒロマ　チドリ　ハフ　アラタメグチ　キズレ　ゴウシ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "大広間千鳥破風改口木連格子絵図 但東西并御上没後共三ヶ所控（押紙）"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:10"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006544",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/df72c6bd0895d68912d1ae5edcc724c7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/df72c6bd0895d68912d1ae5edcc724c7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4666,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/df72c6bd0895d68912d1ae5edcc724c7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/df72c6bd0895d68912d1ae5edcc724c7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006544&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_77.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4666,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006544&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_77.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006544&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_77.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

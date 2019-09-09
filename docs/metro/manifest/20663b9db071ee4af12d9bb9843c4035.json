@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20663b9db071ee4af12d9bb9843c4035.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御広敷向足堅メ絵図面",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "基礎伏図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "豊田家文書"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大奥　御広敷向"
+        },
+        {
+            "label": "数量",
+            "value": "１舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和-別302/和-別0302"
+        },
+        {
+            "label": "題名",
+            "value": "御広敷向足堅メ絵図面"
+        },
+        {
+            "label": "題名",
+            "value": "オヒロシキムキ　アシガタメ　エズメン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080650",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20663b9db071ee4af12d9bb9843c4035.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20663b9db071ee4af12d9bb9843c4035.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3893,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20663b9db071ee4af12d9bb9843c4035.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/20663b9db071ee4af12d9bb9843c4035.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080650&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-302-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3893,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080650&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-302-W.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080650&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-302-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

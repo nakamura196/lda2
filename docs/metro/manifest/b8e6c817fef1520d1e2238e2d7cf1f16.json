@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8e6c817fef1520d1e2238e2d7cf1f16.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "山里御庭御土蔵",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "山里土蔵"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6177-9/東6177-009"
+        },
+        {
+            "label": "題名",
+            "value": "山里御庭御土蔵"
+        },
+        {
+            "label": "題名",
+            "value": "ヤマザト　オニワ　オドゾウ"
+        },
+        {
+            "label": "題名",
+            "value": "山里御庭御土蔵"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:60"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "28.0×38.0"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006912",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8e6c817fef1520d1e2238e2d7cf1f16.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8e6c817fef1520d1e2238e2d7cf1f16.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4702,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8e6c817fef1520d1e2238e2d7cf1f16.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b8e6c817fef1520d1e2238e2d7cf1f16.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006912&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6177_09.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4702,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006912&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6177_09.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006912&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6177_09.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

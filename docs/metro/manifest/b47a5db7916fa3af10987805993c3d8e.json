@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b47a5db7916fa3af10987805993c3d8e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御座之間御上段並御小座敷上御鈴御上段並蔦之間共御床コ棚繪圖　［1］御座之間御上段御床コ棚正寸繪圖　［2］上御廊御小座敷蔦之間御床コ正寸繪圖面　［3］上御廊御小座敷御床コ御棚正寸繪圖　［4］御座之間御小座敷御床コ棚正寸繪圖",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "棚詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "豊田家文書"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大奥　御小座敷、御座之間"
+        },
+        {
+            "label": "数量",
+            "value": "１舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和-別273/和-別0273"
+        },
+        {
+            "label": "題名",
+            "value": "御座之間御上段並御小座敷上御鈴御上段並蔦之間共御床コ棚繪圖　［1］御座之間御上段御床コ棚正寸繪圖　［2］上御廊御小座敷蔦之間御床コ正寸繪圖面　［3］上御廊御小座敷御床コ御棚正寸繪圖　［4］御座之間御小座敷御床コ棚正寸繪圖"
+        },
+        {
+            "label": "題名",
+            "value": "ゴザノマ　オジョウダン　ナラビ　オコザシキ　カミオスズ　オジョウダン　ナラビ　ツタノマ　トモ　オトコタナ　エズ　ゴザノマ　オジョウダン　オトコタナ　ショウスン　エズ　カミオロウ　オコザシキ　オトコ　オタナ　ショウスン　エズ　ゴザノマ　オコザシキ　オトコタナ　ショウスン　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "御座之間御上段並御小座敷　上御鈴御上段並蔦之間共　御床コ棚繪圖"
+        },
+        {
+            "label": "題名",
+            "value": "ゴザノマ　オジョウダン　ナラビ　オコザシキ　カミオスズ　オジョウダン　ナラビ　ツタノマ　トモ　オトコタナ　エズ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080621",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b47a5db7916fa3af10987805993c3d8e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b47a5db7916fa3af10987805993c3d8e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1385,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b47a5db7916fa3af10987805993c3d8e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b47a5db7916fa3af10987805993c3d8e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080621&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-273-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1385,
+                                "width": 5999
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080621&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-273-W.jpg"
+                    },
+                    "width": 5999
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080621&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-273-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

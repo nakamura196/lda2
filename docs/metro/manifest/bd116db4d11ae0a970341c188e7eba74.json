@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bd116db4d11ae0a970341c188e7eba74.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御城内御近傍出火之節奥之衆申合色分絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "本城周辺図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良筑前棟村控 明和七寅年十二月"
+        },
+        {
+            "label": "建築区分",
+            "value": "その他"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6198-1/東6198-001"
+        },
+        {
+            "label": "題名",
+            "value": "御城内御近傍出火之節奥之衆申合色分絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ゴジョウナイ　ゴキンボウ　シュッカ　ノ　セツ　オクノシュウ　モウシアワセ　イロワケ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "御城内御近傍出火之節奥之衆申合色分絵図"
+        },
+        {
+            "label": "資料解説",
+            "value": "2007文化財ウィーク（22）「明和７年(1770) 12月申合相極とあり、江戸城近辺に出火があった場合の参集者について定め、色分けした図と考えられる。近傍からは直ちに、距離が離れるにつれ様子を見てとの申し合わせは現代の緊急時参集指示に通ずるものがある。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006978",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bd116db4d11ae0a970341c188e7eba74.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bd116db4d11ae0a970341c188e7eba74.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4697,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bd116db4d11ae0a970341c188e7eba74.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/bd116db4d11ae0a970341c188e7eba74.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006978&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6198_01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4697,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006978&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6198_01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006978&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6198_01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

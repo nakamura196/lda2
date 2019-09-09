@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0632ab34d78f140013366f0d2dcd7057.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御座之間御伺所続御小座敷西拝見所御廊下向御用場共屋根絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "屋根伏"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "嘉永壬子七月 嘉永五壬子年西丸御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "御座之間ほか"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6171-55/東6171-055"
+        },
+        {
+            "label": "造営年度",
+            "value": "嘉永度"
+        },
+        {
+            "label": "題名",
+            "value": "御座之間御伺所続御小座敷西拝見所御廊下向御用場共屋根絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ゴザノマ　オンウカガイショ　ツズキ　オコザシキ　ニシハイケンジョ　オロウカムキ　ゴヨウバ　トモ　ヤネ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "御座之間御伺所続御小座敷西拝見所御廊下向御用場共屋根絵図"
+        },
+        {
+            "label": "題名",
+            "value": "御座之間向屋根絵図（新裏打に貼付）"
+        },
+        {
+            "label": "題名",
+            "value": "ゴザノマムキヤネエズ"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:60"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006870",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0632ab34d78f140013366f0d2dcd7057.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0632ab34d78f140013366f0d2dcd7057.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0632ab34d78f140013366f0d2dcd7057.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0632ab34d78f140013366f0d2dcd7057.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006870&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_55.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4706
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006870&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_55.jpg"
+                    },
+                    "width": 4706
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006870&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_55.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

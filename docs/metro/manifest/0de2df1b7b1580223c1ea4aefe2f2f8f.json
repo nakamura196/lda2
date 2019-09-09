@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0de2df1b7b1580223c1ea4aefe2f2f8f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御休息御棚唐戸大地割",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "棚詳細図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "御休息之間"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6166-78/東6166-078"
+        },
+        {
+            "label": "題名",
+            "value": "御休息御棚唐戸大地割"
+        },
+        {
+            "label": "題名",
+            "value": "ゴキュウソク　オタナ　カラト　オオジワリ"
+        },
+        {
+            "label": "題名",
+            "value": "御休息御棚唐戸大地割"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011文化財ウィーク（29）「「御休息」は、御座之間の北西の萩之廊下に続いた御殿で、上段と下段及び周囲の入側で構成されていました。ここは将軍の居間・寝所ですが、隣の御小座敷とともに将軍の全くの個室でした。貞享元年（1684）に城内で刃傷沙汰があり、将軍に万一のことがあってはと、応接間である御座之間と離して設けられたとされています。この2室には御側用人と御小姓（御小性）しか入れませんでした。本図は、御休息の棚に嵌め込まれた唐戸の意匠です。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006728",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0de2df1b7b1580223c1ea4aefe2f2f8f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0de2df1b7b1580223c1ea4aefe2f2f8f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0de2df1b7b1580223c1ea4aefe2f2f8f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0de2df1b7b1580223c1ea4aefe2f2f8f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006728&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_78.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4646
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006728&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_78.jpg"
+                    },
+                    "width": 4646
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006728&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_78.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/aac8f0ed2578507f5a3f9a935163fa1c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "天井銅張絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "天井詳細図"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6171-47-2/東6171-047-002"
+        },
+        {
+            "label": "題名",
+            "value": "天井銅張絵図"
+        },
+        {
+            "label": "題名",
+            "value": "テンジョウ　ドウバリ　エズ"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "16.2×27.3"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006862",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/aac8f0ed2578507f5a3f9a935163fa1c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/aac8f0ed2578507f5a3f9a935163fa1c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4695,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/aac8f0ed2578507f5a3f9a935163fa1c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/aac8f0ed2578507f5a3f9a935163fa1c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006862&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_47_02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4695,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006862&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_47_02.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006862&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_47_02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

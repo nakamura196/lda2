@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/70888d97c22fbc5dd309939cd686b6db.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "寛永度御本丸大奥惣絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "甲良左衛門控"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大奥"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6181-1/東6181-001"
+        },
+        {
+            "label": "造営年度",
+            "value": "寛永度"
+        },
+        {
+            "label": "題名",
+            "value": "寛永度御本丸大奥惣絵図"
+        },
+        {
+            "label": "題名",
+            "value": "カンエイド　ゴホンマル　オオオク　ソウエズ"
+        },
+        {
+            "label": "題名",
+            "value": "大奥  甲良左衛門控"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:400"
+        },
+        {
+            "label": "資料解説",
+            "value": "2013文化財ウィーク（25）「初期の大奥の姿を描いた図面です。図の上が本丸御殿の表・中奥の方向です。大奥と中奥は銅塀によって厳重に区切られており、御鈴廊下だけでつながっていました。大奥の建物は、使用目的によって、御台所の御殿である御殿向、大奥の事務所である広敷向、大奥女中の住居である長局向にわけられていました。(Overall floor plan of Edo Castle Gohonmaru ?oku in Kan'ei Period)The ?oku and Nakaoku areas were strictly separated by a copper wall"
+        },
+        {
+            "label": "資料解説",
+            "value": "and they were joined only by Osuzur?ka corridor. The ?oku area was divided according to the purpose of use into a palace for the lawful wife of the shogun"
+        },
+        {
+            "label": "資料解説",
+            "value": "an administration office"
+        },
+        {
+            "label": "資料解説",
+            "value": "and living quarters for housemaids.」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006916",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/70888d97c22fbc5dd309939cd686b6db.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/70888d97c22fbc5dd309939cd686b6db.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4674,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/70888d97c22fbc5dd309939cd686b6db.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/70888d97c22fbc5dd309939cd686b6db.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006916&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6181_01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4674,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006916&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6181_01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006916&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6181_01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

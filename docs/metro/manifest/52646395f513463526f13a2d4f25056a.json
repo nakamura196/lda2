@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/52646395f513463526f13a2d4f25056a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "吹上御苑之図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "建築区分",
+            "value": "吹上"
+        },
+        {
+            "label": "建築区分",
+            "value": "滝見池付近"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6176-4/東6176-004"
+        },
+        {
+            "label": "題名",
+            "value": "吹上御苑之図"
+        },
+        {
+            "label": "題名",
+            "value": "フキアゲ　ギョエン　ノ　ズ"
+        },
+        {
+            "label": "題名",
+            "value": "吹上御苑之図"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26.0×36.0"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006905",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/52646395f513463526f13a2d4f25056a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/52646395f513463526f13a2d4f25056a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/52646395f513463526f13a2d4f25056a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/52646395f513463526f13a2d4f25056a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

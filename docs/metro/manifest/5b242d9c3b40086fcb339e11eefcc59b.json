@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5b242d9c3b40086fcb339e11eefcc59b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御休息鬼板形組正寸",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "図面種類",
+            "value": "鬼板詳細図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "御休息之間"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6166-7/東6166-007"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        },
+        {
+            "label": "題名",
+            "value": "御休息鬼板形組正寸"
+        },
+        {
+            "label": "題名",
+            "value": "ゴキュウソク　オニイタ　カタグミ　ショウスン"
+        },
+        {
+            "label": "題名",
+            "value": "御休息鬼板ノ形組正寸"
+        },
+        {
+            "label": "題名",
+            "value": "ゴキュウソクオニイタノカタグミショウスン"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:1"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006657",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5b242d9c3b40086fcb339e11eefcc59b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5b242d9c3b40086fcb339e11eefcc59b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5b242d9c3b40086fcb339e11eefcc59b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5b242d9c3b40086fcb339e11eefcc59b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006657&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_07.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4656
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006657&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_07.jpg"
+                    },
+                    "width": 4656
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006657&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_07.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
