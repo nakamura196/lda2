@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/00e5e42c75d7df7a1f1db4a97f91310f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御本丸御休息御小座敷上御小納戸御駕籠台小屋絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6166-27/東6166-027"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸御休息御小座敷上御小納戸御駕籠台小屋絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマル　ゴキュウソク　オコザシキ　カミ　オコナンド　オカゴダイ　コヤ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸御休息御小座敷上御小納戸御駕籠台小屋絵図"
+        },
+        {
+            "label": "図面種類",
+            "value": "小屋伏"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良若狭控  万延元庚申年御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "御休息御小座敷付近"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:60"
+        },
+        {
+            "label": "資料解説",
+            "value": "2012文化財ウィーク（62）「将軍の休息エリアの屋根の下の構造図です。最上格の大広間や白書院の102人足より少ない85人足で、手間工数が指示されています。幕末の苦しい幕府財政の中では、手間工数を減らし、工費を倹約する必要がありました。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006677",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/00e5e42c75d7df7a1f1db4a97f91310f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/00e5e42c75d7df7a1f1db4a97f91310f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4645,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/00e5e42c75d7df7a1f1db4a97f91310f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/00e5e42c75d7df7a1f1db4a97f91310f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006677&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_27.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4645,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006677&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_27.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006677&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6166_27.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

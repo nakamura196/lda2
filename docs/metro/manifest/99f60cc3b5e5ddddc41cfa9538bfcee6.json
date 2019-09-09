@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/99f60cc3b5e5ddddc41cfa9538bfcee6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "西丸仮御殿向絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6171-64/東6171-064"
+        },
+        {
+            "label": "題名",
+            "value": "西丸仮御殿向絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ニシノマル　カリゴテンムキ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "西丸仮御殿向絵図"
+        },
+        {
+            "label": "題名",
+            "value": "西丸仮御殿向絵図 大棟梁甲良筑前控（題簽）"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良筑前控（外題題簽）"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "表､中奥"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "元治度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:300"
+        },
+        {
+            "label": "資料解説",
+            "value": "2013文化財ウィーク（33）「展示資料32の西の丸御殿は文久3年(1864)６月に残らず焼失しました。これはその後、元治元年(1864)に建てられた最後の西丸御殿の表・中奥の図面です。西の丸が大御所の隠居所となったときは、御三家をはじめ大名や役人は、本丸へ登城の際に、西の丸へ出仕することも義務づけられていました。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006879",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/99f60cc3b5e5ddddc41cfa9538bfcee6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/99f60cc3b5e5ddddc41cfa9538bfcee6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/99f60cc3b5e5ddddc41cfa9538bfcee6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/99f60cc3b5e5ddddc41cfa9538bfcee6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006879&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_64.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 5086
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006879&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_64.jpg"
+                    },
+                    "width": 5086
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006879&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_64.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

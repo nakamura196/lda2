@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/92f716b65bd9c291aa17f59015de9991.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御本丸表御舞台蟇股絵様",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×40.0"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6169-33/東6169-033"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸表御舞台蟇股絵様"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマル　オモテ　オブタイ　カエルマタ　エヨウ"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸表御舞台蟇股絵様"
+        },
+        {
+            "label": "図面種類",
+            "value": "蟇股詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "若狭控 万延元申年五月 万延元庚申年御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "表舞台"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006812",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/92f716b65bd9c291aa17f59015de9991.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/92f716b65bd9c291aa17f59015de9991.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4679,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/92f716b65bd9c291aa17f59015de9991.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/92f716b65bd9c291aa17f59015de9991.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006812&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6169_33.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4679,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006812&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6169_33.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006812&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6169_33.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

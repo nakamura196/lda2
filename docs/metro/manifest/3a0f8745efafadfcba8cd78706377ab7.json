@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3a0f8745efafadfcba8cd78706377ab7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇城御苑内新馬車道惣絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "193-7/東193-007"
+        },
+        {
+            "label": "題名",
+            "value": "皇城御苑内新馬車道惣絵図"
+        },
+        {
+            "label": "題名",
+            "value": "コウジョウ　ギョエンナイ　シンバシャミチ　ソウエズ"
+        },
+        {
+            "label": "題名",
+            "value": "皇城御苑内新馬車道惣絵図（貼紙）"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "建築区分",
+            "value": "吹上"
+        },
+        {
+            "label": "建築区分",
+            "value": "滝見池付近"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006369",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3a0f8745efafadfcba8cd78706377ab7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3a0f8745efafadfcba8cd78706377ab7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4635,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3a0f8745efafadfcba8cd78706377ab7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3a0f8745efafadfcba8cd78706377ab7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006369&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F193__07.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4635,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006369&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F193__07.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006369&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F193__07.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

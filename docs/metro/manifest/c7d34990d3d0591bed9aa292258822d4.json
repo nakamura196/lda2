@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c7d34990d3d0591bed9aa292258822d4.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［御小座敷御入側外側并御庇し出正寸法共矩斗繪圖］",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和-別263/和-別0263"
+        },
+        {
+            "label": "題名",
+            "value": "［御小座敷御入側外側并御庇し出正寸法共矩斗繪圖］"
+        },
+        {
+            "label": "題名",
+            "value": "オコザシキ　オイリカワ　ソトガワ　ナラビ　ニ　オヒサシデ　ショウスンポウ　トモ　カナバカリ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "御小座敷御入側外側并御庇し出正寸法共矩斗繪圖（外題）"
+        },
+        {
+            "label": "題名",
+            "value": "オコザシキ　オイリカワ　ソトガワ　ナラビ　ニ　オヒサシデ　ショウスンポウ　トモ　カナバカリエズ"
+        },
+        {
+            "label": "図面種類",
+            "value": "矩計図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "豊田家文書"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大奥　御小座敷"
+        },
+        {
+            "label": "数量",
+            "value": "１舗"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080611",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c7d34990d3d0591bed9aa292258822d4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c7d34990d3d0591bed9aa292258822d4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c7d34990d3d0591bed9aa292258822d4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c7d34990d3d0591bed9aa292258822d4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080611&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-263.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080611&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-263.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080611&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FWA-BE-263.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

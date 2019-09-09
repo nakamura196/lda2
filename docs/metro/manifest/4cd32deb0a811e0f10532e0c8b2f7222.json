@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cd32deb0a811e0f10532e0c8b2f7222.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御本丸大広間御二之間北御後之間格天井割絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6162-73/東6162-073"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸大広間御二之間北御後之間格天井割絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマル　オオヒロマ　オニノマ　キタ　オウシロノマ　ゴウテンジョウ　ワリエズ"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸大広間御二之間北御後之間格天井割絵図"
+        },
+        {
+            "label": "図面種類",
+            "value": "天井伏"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁控  万延元庚申年御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大広間"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006540",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cd32deb0a811e0f10532e0c8b2f7222.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cd32deb0a811e0f10532e0c8b2f7222.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cd32deb0a811e0f10532e0c8b2f7222.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4cd32deb0a811e0f10532e0c8b2f7222.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

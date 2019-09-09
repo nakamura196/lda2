@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e49d08ffa76d3c14b762016630bc99f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［明治初年宮城写真集]［蓮池の渡門の光景］",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "分類",
+            "value": "法制/徳川幕府/江戸城//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；写真（印画紙焼付）；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "617-C3-9/東C617-C003-009"
+        },
+        {
+            "label": "題名",
+            "value": "［明治初年宮城写真集]［蓮池の渡門の光景］"
+        },
+        {
+            "label": "題名",
+            "value": "メイジ　ショネン　キュウジョウ　シャシンシュウ　レンチノワタリモン　ノ　コウケイ"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00236376",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e49d08ffa76d3c14b762016630bc99f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e49d08ffa76d3c14b762016630bc99f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1764,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e49d08ffa76d3c14b762016630bc99f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5e49d08ffa76d3c14b762016630bc99f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236376&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617-C003-009.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1764,
+                                "width": 2466
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236376&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617-C003-009.jpg"
+                    },
+                    "width": 2466
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236376&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617-C003-009.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

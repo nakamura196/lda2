@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cd68d80b2e7d64b4d25c42368bee53e3.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［江戸御城内鴟吻］",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "28.0×40.0"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6192-10/東6192-010"
+        },
+        {
+            "label": "題名",
+            "value": "［江戸御城内鴟吻］"
+        },
+        {
+            "label": "題名",
+            "value": "エド　ゴジョウナイ　シフン"
+        },
+        {
+            "label": "題名",
+            "value": "江戸御城内"
+        },
+        {
+            "label": "図面種類",
+            "value": "鴟吻詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "万延元庚申年御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "櫓"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006942",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cd68d80b2e7d64b4d25c42368bee53e3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cd68d80b2e7d64b4d25c42368bee53e3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4695,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cd68d80b2e7d64b4d25c42368bee53e3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cd68d80b2e7d64b4d25c42368bee53e3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006942&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_10.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4695,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006942&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_10.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006942&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_10.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

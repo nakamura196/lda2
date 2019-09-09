@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/113264f53120f13a282eace5b4107205.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "芝口御門、御普請会所地絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "出版年",
+            "value": "1710年"
+        },
+        {
+            "label": "分類",
+            "value": "法制/徳川幕府/江戸城//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；刷物；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6157-C1/東C6157-C001"
+        },
+        {
+            "label": "題名",
+            "value": "芝口御門、御普請会所地絵図"
+        },
+        {
+            "label": "題名",
+            "value": "シバグチ　ゴモン　ゴフシン　カイショ　ジエズ"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "甲良宗員筆，甲良印"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第1回江戸資料展』図録解説p.14「別に｢新橋見附方会所」と記入されている｡新橋にあった芝口門の建築の工事事務所の図で､臨時にこのような建物を建てて工事に当ったことがわかる｡」"
+        },
+        {
+            "label": "件名",
+            "value": "甲良宗員（コウラ　ムネカズ）（1661-1733）"
+        },
+        {
+            "label": "書写",
+            "value": "写"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00236383",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/113264f53120f13a282eace5b4107205.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/113264f53120f13a282eace5b4107205.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2733,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/113264f53120f13a282eace5b4107205.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/113264f53120f13a282eace5b4107205.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236383&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6157-C001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2733,
+                                "width": 3804
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236383&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6157-C001.jpg"
+                    },
+                    "width": 3804
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236383&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6157-C001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

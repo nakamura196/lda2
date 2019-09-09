@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a5097eb4c6202c909733c1a3ea5f4ebc.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "紅葉山厳有院様御手水鉢石",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×39.0"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6175-11/東6175-011"
+        },
+        {
+            "label": "題名",
+            "value": "紅葉山厳有院様御手水鉢石"
+        },
+        {
+            "label": "題名",
+            "value": "モミジヤマ　ゲンユウインサマ　オチョウズバチイシ"
+        },
+        {
+            "label": "題名",
+            "value": "御手水鉢石 十分一"
+        },
+        {
+            "label": "題名",
+            "value": "紅葉山厳有院様御手水鉢石"
+        },
+        {
+            "label": "図面種類",
+            "value": "詳細図"
+        },
+        {
+            "label": "建築区分",
+            "value": "紅葉山"
+        },
+        {
+            "label": "建築区分",
+            "value": "厳有院南手水鉢石"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:10"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006903",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a5097eb4c6202c909733c1a3ea5f4ebc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a5097eb4c6202c909733c1a3ea5f4ebc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4684,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a5097eb4c6202c909733c1a3ea5f4ebc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a5097eb4c6202c909733c1a3ea5f4ebc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006903&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6175_11.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4684,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006903&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6175_11.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006903&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6175_11.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

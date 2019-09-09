@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4ba287b3943c6567d0b267f0a559d7d4.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸城写真集",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "分類",
+            "value": "法制/徳川幕府/江戸城//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "百人番所/百人番所[二の丸東側]；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "617-10-4/東617-010-004"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城写真集"
+        },
+        {
+            "label": "題名",
+            "value": "エドジョウ　シャシンシュウ"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "有限会社内山科学模型製作所 東京都文京区本郷元町一ノ一 代表取締役 内山善三郎"
+        },
+        {
+            "label": "資料解説",
+            "value": "2015文化財ウィーク『江戸城から明治宮殿へ』図録p.3「［百人番所］江戸城の大手三ノ門を警備した番士の詰所。名称は、警備を担当したのが鉄砲百人組であったことに由来する。番所は、大手三ノ門枡形の堀重門外にかかっていた下乗橋の前と枡形渡櫓を出た左側堀際の2ヵ所に存在し、甲賀・根来・伊賀・二十五騎の4組が一昼夜交替で詰めていた。（『江戸幕府大事典』吉川弘文館　2009.12　より）Hyakunin Bansho　This was the largest inspection point in the Edo Castle Honmaru Palace. The building still exists today.」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080525",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4ba287b3943c6567d0b267f0a559d7d4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4ba287b3943c6567d0b267f0a559d7d4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2425,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4ba287b3943c6567d0b267f0a559d7d4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4ba287b3943c6567d0b267f0a559d7d4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080525&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617%E2%80%90010%2804%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2425,
+                                "width": 3234
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080525&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617%E2%80%90010%2804%29.jpg"
+                    },
+                    "width": 3234
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080525&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617%E2%80%90010%2804%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

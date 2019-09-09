@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d26241dec052f278fedac58582521aa2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御本丸御膳所上之間明り取脇之図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6165-26/東6165-026"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸御膳所上之間明り取脇之図"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマル　ゴゼンショ　カミノマ　アカリトリ　ワキ　ノ　ズ"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸御膳所上之間明り取脇之図"
+        },
+        {
+            "label": "題名",
+            "value": "御膳所上之間明り取脇之方建地割"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマルゴゼンショカミノマアカリトリワキノカタタテジワリ"
+        },
+        {
+            "label": "図面種類",
+            "value": "明取詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁控  万延元庚申年御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "御膳所"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:10"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006619",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d26241dec052f278fedac58582521aa2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d26241dec052f278fedac58582521aa2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d26241dec052f278fedac58582521aa2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d26241dec052f278fedac58582521aa2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006619&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6165_26.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4672
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006619&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6165_26.jpg"
+                    },
+                    "width": 4672
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006619&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6165_26.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

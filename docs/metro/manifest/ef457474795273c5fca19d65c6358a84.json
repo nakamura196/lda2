@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef457474795273c5fca19d65c6358a84.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "西丸御殿向惣絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6171-68/東6171-068"
+        },
+        {
+            "label": "題名",
+            "value": "西丸御殿向惣絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ニシノマル　ゴテンムキ　ソウエズ"
+        },
+        {
+            "label": "題名",
+            "value": "嘉永度西丸御殿向惣絵図"
+        },
+        {
+            "label": "題名",
+            "value": "カエイドニシノマルゴテンムキソウエズ"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "甲良筑前控"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "表､中奥"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "嘉永度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:150"
+        },
+        {
+            "label": "資料解説",
+            "value": "2013文化財ウィーク（32）「嘉永5年(1852)、３度目の火災による焼失の後で建てられた西の丸表・中奥の図面です。それ以前の御殿に対し、全体に仕様を落とし、質素にする方針がとられています。西丸御殿は、本丸御殿より小さく、略された部分はあるものの、表には広間や白書院、中奥には御座の間、御休息、御小座敷があり、大奥とは御鈴廊下でつながるなど、本丸御殿に準ずる構成でした。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006883",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef457474795273c5fca19d65c6358a84.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef457474795273c5fca19d65c6358a84.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef457474795273c5fca19d65c6358a84.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ef457474795273c5fca19d65c6358a84.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006883&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_68_W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4823
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006883&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_68_W.jpg"
+                    },
+                    "width": 4823
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006883&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_68_W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

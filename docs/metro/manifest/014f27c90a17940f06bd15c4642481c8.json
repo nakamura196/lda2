@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/014f27c90a17940f06bd15c4642481c8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸御城御殿守横面之絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6191-D4/東D6191-D004"
+        },
+        {
+            "label": "題名",
+            "value": "江戸御城御殿守横面之絵図"
+        },
+        {
+            "label": "題名",
+            "value": "エド　オシロ　ゴテンシュ　ヨコメン　ノ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "江戸御城御殿守横面之絵図"
+        },
+        {
+            "label": "図面種類",
+            "value": "建地割"
+        },
+        {
+            "label": "建築区分",
+            "value": "天守"
+        },
+        {
+            "label": "建築区分",
+            "value": "天守"
+        },
+        {
+            "label": "数量",
+            "value": "1幅"
+        },
+        {
+            "label": "造営年度",
+            "value": "(正徳度)"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011文化財ウィーク（41）「展示資料40と同じく天守閣の再建計画の横面図。5層5階、銅板黒塗りの壁、千鳥破風、唐破風を配し、屋根の上に鯱鉾が置かれた姿が絵画的に描かれています。」，2005文化財ウィーク（6）「天守は慶長・元和・寛永の3度造営されましたが、明暦の大火で焼失後、天守閣はついに再建されることはありませんでした。本図は、正徳頃作成された再建計画の図と考えられています。寛永度の建築に基づき、5層5階、銅板黒塗りの壁、2・3・5重目に千鳥破風、4重目に唐破風を配し、最上階の屋根が妻方向の立面を絵画的表現で描いています。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006932",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/014f27c90a17940f06bd15c4642481c8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/014f27c90a17940f06bd15c4642481c8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/014f27c90a17940f06bd15c4642481c8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/014f27c90a17940f06bd15c4642481c8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006932&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6191_D04_W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4001
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006932&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6191_D04_W.jpg"
+                    },
+                    "width": 4001
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006932&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6191_D04_W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

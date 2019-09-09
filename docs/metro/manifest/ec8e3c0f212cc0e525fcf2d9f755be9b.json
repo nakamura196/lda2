@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec8e3c0f212cc0e525fcf2d9f755be9b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸城本丸諸門銅物絵図袋共7枚の1（袋）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "分類",
+            "value": "西丸能舞臺本丸大広間本丸雑大奥御殿向其外銅物類/江戸本丸雑甲良筑前///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×39.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；袋；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木12-3-3/木012-3-03"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城本丸諸門銅物絵図袋共7枚の1（袋）"
+        },
+        {
+            "label": "題名",
+            "value": "エドジョウ　ホンマル　ショモン　ドウモノ　エズ　１"
+        },
+        {
+            "label": "題名",
+            "value": "汐見渡御櫓御門 御裏御切手御門 御廣敷御長屋御門 下御廣舗御門 御銅物仕本 錺方（袋外題）"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "甲良家"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00236408",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec8e3c0f212cc0e525fcf2d9f755be9b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec8e3c0f212cc0e525fcf2d9f755be9b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec8e3c0f212cc0e525fcf2d9f755be9b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ec8e3c0f212cc0e525fcf2d9f755be9b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236408&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FKI012-003-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236408&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FKI012-003-003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00236408&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2FKI012-003-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

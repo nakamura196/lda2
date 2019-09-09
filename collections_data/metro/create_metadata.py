@@ -51,7 +51,8 @@ from PIL import Image
 import time
 from selenium import webdriver
 
-categories = ["絵葉書・写真帖"]
+categories = ["双六", "江戸城", "浮世絵",
+              "番付", "江戸図", "和漢書", "建築図面", "書簡", "その他の貴重資料", "近代の地図", "東京府・東京市関係資料", "江戸・東京の災害記録　", "絵葉書・写真帖"]
 
 for category in categories:
 
@@ -61,26 +62,33 @@ for category in categories:
     while(flg):
 
         url = "http://archive.library.metro.tokyo.jp/da/result_sd?qf=&q=&start=" + \
-            str(10*p)+"&sort=タイトル_STRING asc, METADATA_ID asc&dispStyle=&tilcod=&mode=result_sd&cond[item0_andOr]=and&cond[item0_cond]=in&cond[item10_andOr]=and&cond[item10_cond]=in&cond[item11_andOr]=and&cond[item11_cond]=in&cond[item12_andOr]=and&cond[item12_cond]=in&cond[item13_andOr]=and&cond[item13_cond]=in&cond[item14_andOr]=and&cond[item14_cond]=in&cond[item15_andOr]=and&cond[item15_cond]=in&cond[item16_andOr]=and&cond[item16_cond]=in&cond[item17_andOr]=and&cond[item17_cond]=in&cond[item18_andOr]=and&cond[item18_cond]=in&cond[item19_andOr]=and&cond[item19_cond]=in&cond[item20_andOr]=and&cond[item20_cond]=eq&cond[item2_andOr]=and&cond[item2_cond]=in&cond[item3_andOr]=and&cond[item3_cond]=in&cond[item4_andOr]=and&cond[item4_cond]=in&cond[item8_andOr]=and&cond[item8_cond]=in&cond[item9_andOr]=and&cond[item9_cond]=in&category=江戸城"
+            str(10*p)+"&sort=タイトル_STRING asc, METADATA_ID asc&dispStyle=&tilcod=&mode=result_sd&cond[item0_andOr]=and&cond[item0_cond]=in&cond[item10_andOr]=and&cond[item10_cond]=in&cond[item11_andOr]=and&cond[item11_cond]=in&cond[item12_andOr]=and&cond[item12_cond]=in&cond[item13_andOr]=and&cond[item13_cond]=in&cond[item14_andOr]=and&cond[item14_cond]=in&cond[item15_andOr]=and&cond[item15_cond]=in&cond[item16_andOr]=and&cond[item16_cond]=in&cond[item17_andOr]=and&cond[item17_cond]=in&cond[item18_andOr]=and&cond[item18_cond]=in&cond[item19_andOr]=and&cond[item19_cond]=in&cond[item20_andOr]=and&cond[item20_cond]=eq&cond[item2_andOr]=and&cond[item2_cond]=in&cond[item3_andOr]=and&cond[item3_cond]=in&cond[item4_andOr]=and&cond[item4_cond]=in&cond[item8_andOr]=and&cond[item8_cond]=in&cond[item9_andOr]=and&cond[item9_cond]=in&category="+category
 
         p += 1
+
+        print(str(p)+"\t"+category)
 
         r = requests.get(url)  # requestsを使って、webから取得
         soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
         divs = soup.find_all(class_="sdw_search_resultListLink")
 
+        if len(divs) == 0:
+            flg = False
+
         for div in divs:
             id = div.get("onclick").split("'")[1]
 
             url2 = "http://archive.library.metro.tokyo.jp/da/detail?tilcod="+id
 
-            print(url2)
+            
 
             filename = "data/metadata/"+id+".json"
 
             if os.path.exists(filename):
                 continue
+
+            print(url2)
 
             obj = {}
             metadata = {}

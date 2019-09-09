@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/69f5e00bf5597f4075757dff7646bd57.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸御城総絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6151-3/東6151-003"
+        },
+        {
+            "label": "題名",
+            "value": "江戸御城総絵図"
+        },
+        {
+            "label": "題名",
+            "value": "エド　オシロ　ソウエズ"
+        },
+        {
+            "label": "題名",
+            "value": "江戸御城之絵図"
+        },
+        {
+            "label": "題名",
+            "value": "エドオシロノエズ"
+        },
+        {
+            "label": "題名",
+            "value": "江戸御城総絵図"
+        },
+        {
+            "label": "図面種類",
+            "value": "本城全体図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良若狭控"
+        },
+        {
+            "label": "建築区分",
+            "value": "その他"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "資料解説",
+            "value": "2014文化財ウィークリーフレットp.1「本図は、右手中央に本丸（「御本丸」と「御本丸大奥」は1つながりの御殿）、その下に二ノ丸、三ノ丸（「二ノ丸」と「三ノ丸」はそれぞれ独立した御殿）、左上に西丸と紅葉山、という、江戸城内の建物の総絵図を描いています。これに西方向の吹上と北の丸を加えると、江戸城内郭全体となります。左下に大手門を初めとする諸門と、そこで周囲の監視に当たる百人組他を列記しています。凡例には、橙が櫓(やぐら)・御門、薄紅色が御殿・番所とあり、城内警備の状況を記した図と考えられています。（Overall layout of Edo Castle (hand-drawn)）This drawing shows the position of the buildings that formed part of Edo Castle. Different colors are used for the palaces"
+        },
+        {
+            "label": "資料解説",
+            "value": "moats"
+        },
+        {
+            "label": "資料解説",
+            "value": "embankments"
+        },
+        {
+            "label": "資料解説",
+            "value": "and walls.」，2005文化財ウィーク（9）「江戸城の内郭を描いた図です。右手中央に本丸、その下に二の丸、三の丸、左上に西の丸と紅葉山を描いています。左下に大手門を初めとする諸門と周囲を監視する百人組他を列記しています。紅葉山に建てられた霊廟等の配置から、18世紀末期以降の城内警備の状況を記した図と考えられます。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006375",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/69f5e00bf5597f4075757dff7646bd57.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/69f5e00bf5597f4075757dff7646bd57.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4625,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/69f5e00bf5597f4075757dff7646bd57.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/69f5e00bf5597f4075757dff7646bd57.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006375&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6151_03.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4625,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006375&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6151_03.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006375&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6151_03.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

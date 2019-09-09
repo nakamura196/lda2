@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4f44d69f3cfe17f7e83dfed9f5e1bf4c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御本丸大広間御中門より虎之間取合迄三方船肘木正寸",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "38.0×133.0"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6162-60/東6162-060"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸大広間御中門より虎之間取合迄三方船肘木正寸"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマル　オオヒロマ　ゴチュウモン　ヨリ　トラノマ　トリアイ　マデ　サンポウ　フナヒジキ　ショウスン"
+        },
+        {
+            "label": "題名",
+            "value": "大広間御中門より虎之間取合迄三方船肘木正寸"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸大広間船肘木正寸"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマルオオヒロマフナヒジキショウスン"
+        },
+        {
+            "label": "図面種類",
+            "value": "組物詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良若狭控  万延元庚申年御普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "本丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "大広間"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "万延度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:1"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006527",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4f44d69f3cfe17f7e83dfed9f5e1bf4c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4f44d69f3cfe17f7e83dfed9f5e1bf4c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4697,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4f44d69f3cfe17f7e83dfed9f5e1bf4c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4f44d69f3cfe17f7e83dfed9f5e1bf4c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006527&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_60.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4697,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006527&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_60.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006527&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6162_60.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

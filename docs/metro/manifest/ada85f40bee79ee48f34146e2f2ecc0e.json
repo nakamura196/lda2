@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ada85f40bee79ee48f34146e2f2ecc0e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸城西丸仮御殿虎之間妻之方二十分ノ一建地割",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6171-15/東6171-015"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城西丸仮御殿虎之間妻之方二十分ノ一建地割"
+        },
+        {
+            "label": "題名",
+            "value": "エドジョウ　ニシノマル　カリゴテン　トラノマ　ツマノカタ　ニジュウブン　ノ　イチ　タテジワリ"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城西丸仮御殿虎之間妻之方弐拾分一建地割"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城西丸仮御殿虎之間弐拾分一建地割"
+        },
+        {
+            "label": "題名",
+            "value": "エドジョウニシノマルカリゴテントラノマニジュウブンノイチタテジワリ"
+        },
+        {
+            "label": "図面種類",
+            "value": "建地割"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良筑前控 元治元甲子年五月 元治元甲子年西之丸仮御殿普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "虎之間"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "元治度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006827",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ada85f40bee79ee48f34146e2f2ecc0e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ada85f40bee79ee48f34146e2f2ecc0e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3601,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ada85f40bee79ee48f34146e2f2ecc0e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ada85f40bee79ee48f34146e2f2ecc0e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006827&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_15_W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3601,
+                                "width": 5999
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006827&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_15_W.jpg"
+                    },
+                    "width": 5999
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006827&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_15_W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

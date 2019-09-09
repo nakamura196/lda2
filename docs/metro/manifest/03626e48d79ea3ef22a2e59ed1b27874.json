@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/03626e48d79ea3ef22a2e59ed1b27874.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "神田橋冠木御門妻地割 二十分ノ一（三枚ノ内一）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6194-4/東6194-004"
+        },
+        {
+            "label": "題名",
+            "value": "神田橋冠木御門妻地割 二十分ノ一（三枚ノ内一）"
+        },
+        {
+            "label": "題名",
+            "value": "カンダバシ　カブキ　ゴモン　ツマ　ジワリ　ニジュウブン　ノ　イチ　サンマイ　ノ　ウチ　イチ"
+        },
+        {
+            "label": "題名",
+            "value": "神田橋冠木御門妻地割二十分一元控"
+        },
+        {
+            "label": "題名",
+            "value": "カンダバシカブキゴモンツマジワリニジュウブンノイチモトヒカエ"
+        },
+        {
+            "label": "図面種類",
+            "value": "建地割"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "甲良筑前"
+        },
+        {
+            "label": "建築区分",
+            "value": "外郭"
+        },
+        {
+            "label": "建築区分",
+            "value": "神田橋門"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006961",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/03626e48d79ea3ef22a2e59ed1b27874.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/03626e48d79ea3ef22a2e59ed1b27874.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/03626e48d79ea3ef22a2e59ed1b27874.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/03626e48d79ea3ef22a2e59ed1b27874.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006961&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6194_04.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 5709
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006961&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6194_04.jpg"
+                    },
+                    "width": 5709
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006961&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6194_04.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

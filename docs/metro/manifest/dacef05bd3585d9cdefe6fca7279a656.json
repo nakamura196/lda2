@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dacef05bd3585d9cdefe6fca7279a656.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸城写真集",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "分類",
+            "value": "法制/徳川幕府/江戸城//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "辰巳三重櫓（蓮池巽三重櫓）[二の丸]/；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "617-10-22/東617-010-022"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城写真集"
+        },
+        {
+            "label": "題名",
+            "value": "エドジョウ　シャシンシュウ"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "有限会社内山科学模型製作所 東京都文京区本郷元町一ノ一 代表取締役 内山善三郎"
+        },
+        {
+            "label": "資料解説",
+            "value": "2015文化財ウィーク『江戸城から明治宮殿へ』図録p.3「[二ノ丸辰巳三重櫓、東三重櫓]　下乗橋の番所付近から二ノ丸御殿の東側を写したものです。左手前の二ノ丸辰巳三重櫓から、多門をはさんで東三重櫓へとつながっています。堀の右側の建物は、手前が下勘定所、その奥が喰違門、正面の奥は三ノ丸の林です。A photograph of the east side of the Ninomaru Palace.」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00080543",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dacef05bd3585d9cdefe6fca7279a656.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dacef05bd3585d9cdefe6fca7279a656.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2425,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dacef05bd3585d9cdefe6fca7279a656.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dacef05bd3585d9cdefe6fca7279a656.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080543&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617%E2%80%90010%2822%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2425,
+                                "width": 3234
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080543&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617%E2%80%90010%2822%29.jpg"
+                    },
+                    "width": 3234
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00080543&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F617%E2%80%90010%2822%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

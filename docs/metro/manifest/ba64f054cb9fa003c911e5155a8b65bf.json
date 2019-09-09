@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba64f054cb9fa003c911e5155a8b65bf.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸城紅葉山御宮御霊屋勤方絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.0×39.5（36.6×54.8）"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6152-2/東6152-002"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城紅葉山御宮御霊屋勤方絵図"
+        },
+        {
+            "label": "題名",
+            "value": "エドジョウ　モミジヤマ　オミヤ　ミタマヤ　ツトメカタ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城紅葉山御宮御霊屋勤方絵図"
+        },
+        {
+            "label": "題名",
+            "value": "紅葉山御宮御霊屋勤方絵図（題簽）"
+        },
+        {
+            "label": "図面種類",
+            "value": "平面図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "大棟梁甲良豊前控"
+        },
+        {
+            "label": "建築区分",
+            "value": "紅葉山"
+        },
+        {
+            "label": "建築区分",
+            "value": "全体"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "資料解説",
+            "value": "2005文化財ウィーク（22）「本丸の西、西丸の北にある紅葉山は、歴代将軍の霊廟が建てられた聖地です。将軍は代替りの初めと家康の忌日などに大名・諸役人等、供の人々と列を作ってこれらの霊廟に参詣しました。霊廟の隣、宝蔵群の一画にあった書物蔵の蔵書の多くは、紅葉山文庫として現在は国立公文書館に保管されています。霊廟は、明治維新後、撤去が命ぜられ破却されたため、現在では痕跡をとどめていません。」"
+        },
+        {
+            "label": "書写",
+            "value": "写"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006389",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba64f054cb9fa003c911e5155a8b65bf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba64f054cb9fa003c911e5155a8b65bf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4667,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba64f054cb9fa003c911e5155a8b65bf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ba64f054cb9fa003c911e5155a8b65bf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006389&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6152_02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4667,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006389&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6152_02.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000002-00006389&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6152_02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
