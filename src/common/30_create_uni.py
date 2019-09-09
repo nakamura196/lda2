@@ -26,6 +26,8 @@ with open(path) as f:
     df = json.load(f)
 
     for obj in df:
+        
+        print(obj["collection_uri"])
 
         r = requests.get(obj["collection_uri"])
         data = r.json()

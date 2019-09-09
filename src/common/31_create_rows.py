@@ -89,6 +89,7 @@ for config in df:
     for manifest_obj in collection["manifests"]:
 
         manifest_uri = manifest_obj["@id"]
+        print(manifest_uri)
 
         if config["local_flg"]:
             filepath = config["path"]+"/"+manifest_uri.split("/")[-1]
