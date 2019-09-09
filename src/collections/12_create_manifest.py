@@ -136,7 +136,7 @@ for j in range(4, r_count):
     for index in map:
         value = df.iloc[j, index]
         if not pd.isnull(value) and value != 0:
-            values = str(value).split(",")
+            values = str(value).replace("|", ",").split(",")
             for value in values:
                 metadata.append({
                     "label": map[index]["label"],

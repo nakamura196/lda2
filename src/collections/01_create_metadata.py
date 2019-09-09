@@ -142,7 +142,11 @@ for obj in all:
     for key in fields:
         value = ""
         if key in obj["metadata"]:
-            value = obj["metadata"][key]
+            m = obj["metadata"][key]
+            if type(m) is str:
+                value = m
+            else:
+                value = "|".join(m)
         row.append(value)
 
     rows.append(row)
