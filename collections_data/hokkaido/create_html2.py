@@ -63,9 +63,12 @@ for i in range(len(files)):
 
         filename2 = "data/metadata2/"+id+".html"
 
-        source2 = driver.page_source
+        
 
         try:
+
+            source2 = driver.page_source
+
             driver.find_element_by_id("ui-id-2").click()
 
             time.sleep(1)

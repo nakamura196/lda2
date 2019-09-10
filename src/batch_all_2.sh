@@ -1,4 +1,4 @@
-cd ../common
+cd common
 sh batch.sh
 
 cd ../common_all

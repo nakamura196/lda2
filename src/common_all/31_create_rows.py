@@ -83,6 +83,8 @@ with open(path) as f:
 
 for config in df:
 
+    print(config["collection_uri"])
+
     r = requests.get(config["collection_uri"])
     collection = r.json()
 
