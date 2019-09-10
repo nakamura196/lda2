@@ -36,7 +36,7 @@ with open(path) as f:
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": data["@id"],
             "@type": "sc:Collection",
-            "label": data["label"]
+            "label": data["label"]+"("+str(len(data["manifests"]))+")"
         })
 
 uni = {
