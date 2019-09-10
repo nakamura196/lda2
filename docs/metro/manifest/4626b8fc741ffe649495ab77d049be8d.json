@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4626b8fc741ffe649495ab77d049be8d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０６（1859）05・"
+        },
+        {
+            "label": "分類",
+            "value": "玩具絵、一般/家庭/童話及童話を絵画化したるもの//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；鍵と引付あり、校合摺か；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "文正堂、小林"
+        },
+        {
+            "label": "版元",
+            "value": "小林　泰治郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "087-C5/東C087-C005"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川芳幾（ウタガワ　ヨシイク）（1833-1904）"
+        },
+        {
+            "label": "改印等",
+            "value": "午五改"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/墨摺/"
+        },
+        {
+            "label": "画題等",
+            "value": "「昔はなし舌きりすゞめ」"
+        },
+        {
+            "label": "画題等",
+            "value": "ムカシバナシ　シタキリ　スズメ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川芳幾"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "芳幾画、一恵斎芳幾画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009436",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4626b8fc741ffe649495ab77d049be8d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4626b8fc741ffe649495ab77d049be8d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4626b8fc741ffe649495ab77d049be8d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4626b8fc741ffe649495ab77d049be8d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009436&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F087-C005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009436&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F087-C005.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009436&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F087-C005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

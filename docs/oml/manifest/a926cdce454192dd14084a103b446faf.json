@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a926cdce454192dd14084a103b446faf.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "京大坂おどけ問答",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1868頃(幕末頃)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1868****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "キヨウオオサカオドケモンドウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "京大坂おどけ問答"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000472849"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28446"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0818001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "キヨウワヒサジ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "京都:京和久治"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;34×45cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "807"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28446",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a926cdce454192dd14084a103b446faf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a926cdce454192dd14084a103b446faf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 750,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a926cdce454192dd14084a103b446faf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a926cdce454192dd14084a103b446faf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=161732",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 750,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=161732"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=161732"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

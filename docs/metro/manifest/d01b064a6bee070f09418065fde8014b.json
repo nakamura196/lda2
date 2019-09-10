@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01b064a6bee070f09418065fde8014b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１１（1878）"
+        },
+        {
+            "label": "分類",
+            "value": "一般/一般/新聞紙、画報/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "-"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "008-C2-2/東C008-C002-002"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "山崎年信（1世）（ヤマザキ　トシノブ）（1857-1886），川上春，明治10年11月5日事件"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「朝野新聞」「第千三百七十一号甲」"
+        },
+        {
+            "label": "画題等",
+            "value": "チョウヤ シンブン　ダイセンサンビャクナナジュウイチゴウ　コウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "山崎年信（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "應需年信"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007122",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01b064a6bee070f09418065fde8014b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01b064a6bee070f09418065fde8014b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01b064a6bee070f09418065fde8014b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d01b064a6bee070f09418065fde8014b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007122&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-C002-2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007122&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-C002-2.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007122&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-C002-2.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

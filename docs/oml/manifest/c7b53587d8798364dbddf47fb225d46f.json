@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7b53587d8798364dbddf47fb225d46f.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[番付]明治十一寅七月;蔦紅葉宇都谷峠，;銘作切籠曙",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1878.7"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "187807**"
+        },
+        {
+            "label": "文書種別",
+            "value": "g：芝居番付"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "バンズケ メイジ ジュウイチ トラ シチガツ ツタモミジ ウツノヤトウゲ， メイサク キリコ ノ アケボノ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[番付]明治十一寅七月;蔦紅葉宇都谷峠，;銘作切籠曙"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012487319"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29312"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "m0114"
+        },
+        {
+            "label": "注記_01",
+            "value": "興行地・劇場等:[道頓堀] 中の芝居，芝居番付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "タマオキ セイシチ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[大阪]:玉置清七"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;25×34cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "774.4"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29312",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7b53587d8798364dbddf47fb225d46f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7b53587d8798364dbddf47fb225d46f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 671,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c7b53587d8798364dbddf47fb225d46f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c7b53587d8798364dbddf47fb225d46f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=196912",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 671,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196912"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196912"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

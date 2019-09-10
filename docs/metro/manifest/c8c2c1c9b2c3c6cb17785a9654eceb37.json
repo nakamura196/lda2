@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8c2c1c9b2c3c6cb17785a9654eceb37.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "皇室/明治天皇付明治史/維新以後の各戦役/朝鮮事変/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "1595-K2-3(2)/東K小1595-K002-003(02)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "旧弊親父　「おれハ文政八年の生れだヤレかいくわだソレぶんめいだてつ道だでんしんだのと見るもいまいましいむかし徳川様じぶんの江戸ッ子だとしハとつてもいまのわかいものにやァまけやしねへ　開化息子　「このべんりのよの中にうまれてきうくつなむかしをしたひ今のことをそしるぐわんこじいさんにや一ばんぶん明人のうてのちからを見せてやろふ"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "四ツ切/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「当時浮世の戯」「旧弊親父　開化息子」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウジ　ウキヨ　ノ　タワムレ　キュウヘイ　オヤジ　カイカ　ムスコ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009506",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8c2c1c9b2c3c6cb17785a9654eceb37.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8c2c1c9b2c3c6cb17785a9654eceb37.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3496,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8c2c1c9b2c3c6cb17785a9654eceb37.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c8c2c1c9b2c3c6cb17785a9654eceb37.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009506&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1595-K002-003%2802%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3496,
+                                "width": 2220
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009506&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1595-K002-003%2802%29.jpg"
+                    },
+                    "width": 2220
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009506&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1595-K002-003%2802%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

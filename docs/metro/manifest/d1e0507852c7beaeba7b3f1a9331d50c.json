@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1e0507852c7beaeba7b3f1a9331d50c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「しんぱん　一口はなし」[十六編]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "18.0×23.1cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-3-4(17)/東448-003-004(17)"
+        },
+        {
+            "label": "題名",
+            "value": "「しんぱん　一口はなし」[十六編]"
+        },
+        {
+            "label": "題名",
+            "value": "［シンパン　ヒトクチハナシ］"
+        },
+        {
+            "label": "題名",
+            "value": "「たのしみ草し　冬」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［タノシミソウシ　フユ］"
+        },
+        {
+            "label": "画中文字",
+            "value": "楽草紙 冬"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041465",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1e0507852c7beaeba7b3f1a9331d50c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1e0507852c7beaeba7b3f1a9331d50c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1e0507852c7beaeba7b3f1a9331d50c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d1e0507852c7beaeba7b3f1a9331d50c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041465&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-003-04%2817%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041465&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-003-04%2817%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041465&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-003-04%2817%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

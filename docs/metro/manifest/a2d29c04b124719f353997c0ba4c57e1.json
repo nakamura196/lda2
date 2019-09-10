@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2d29c04b124719f353997c0ba4c57e1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "武芸出世双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化頃"
+        },
+        {
+            "label": "分類",
+            "value": "美術/兵学、武芸、武家故実/武芸、武器（総）史伝及武家故実//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26.0×37.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "592-S3/東S592-S003"
+        },
+        {
+            "label": "題名",
+            "value": "武芸出世双六"
+        },
+        {
+            "label": "題名",
+            "value": "ブゲイ　シュッセ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "福亭三笑"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川貞秀"
+        },
+        {
+            "label": "作者・画工",
+            "value": "王蘭貞秀"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "藤岡屋慶次郎"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000625",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2d29c04b124719f353997c0ba4c57e1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2d29c04b124719f353997c0ba4c57e1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1904,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2d29c04b124719f353997c0ba4c57e1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a2d29c04b124719f353997c0ba4c57e1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000625&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F592-S003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1904,
+                                "width": 2696
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000625&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F592-S003.jpg"
+                    },
+                    "width": 2696
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000625&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F592-S003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef6412dfde51c498ed62a13f8ae6fa63.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "天保前期"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/各宗/日蓮宗//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；画題は断ち落としのため欠落、他の情報による；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "伊勢屋　利兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3582-C1-2/東C3582-C001-002"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国芳（ウタガワ　クニヨシ）（1797-1862）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/横"
+        },
+        {
+            "label": "画題等",
+            "value": "［高祖御一代略図］［建治三年九月身延山七面神示現］"
+        },
+        {
+            "label": "画題等",
+            "value": "コウソ　ゴイチダイ　リャクズ　ケンジ　サンネン　クガツ　ミノブザン　シチメン　カミ　ジゲン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国芳／画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "朝桜楼国芳画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010221",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef6412dfde51c498ed62a13f8ae6fa63.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef6412dfde51c498ed62a13f8ae6fa63.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1812,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef6412dfde51c498ed62a13f8ae6fa63.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ef6412dfde51c498ed62a13f8ae6fa63.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00010221&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3582-C001-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1812,
+                                "width": 2667
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00010221&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3582-C001-002.jpg"
+                    },
+                    "width": 2667
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00010221&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3582-C001-002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

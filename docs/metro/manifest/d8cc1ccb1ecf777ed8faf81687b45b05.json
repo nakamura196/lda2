@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8cc1ccb1ecf777ed8faf81687b45b05.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "忠臣蔵双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "大正12年9月"
+        },
+        {
+            "label": "分類",
+            "value": "美術/演劇/脚本、筋書、絵本、作者、番附、外題をもととしたる双六//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×80.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "573-S64/東S573-S064"
+        },
+        {
+            "label": "題名",
+            "value": "忠臣蔵双六"
+        },
+        {
+            "label": "題名",
+            "value": "チュウシングラ　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "原徳太郎"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000584",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8cc1ccb1ecf777ed8faf81687b45b05.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8cc1ccb1ecf777ed8faf81687b45b05.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8cc1ccb1ecf777ed8faf81687b45b05.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d8cc1ccb1ecf777ed8faf81687b45b05.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000584&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S64.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000584&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S64.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000584&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S64.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba4cdd824fe9dc8c4003ae5435f1cb8a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治（）07・25"
+        },
+        {
+            "label": "分類",
+            "value": "社会科学/風俗・習慣/////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵貼込帖（9枚），「小供風俗」所収；；；；；1帖；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京市日本橋区室町三丁目九番地　秋山　武右衛門"
+        },
+        {
+            "label": "版元",
+            "value": "秋山　武右衛門"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加3031(1)/加03031(001)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "宮川春汀（ミヤガワ　シュンテイ）(1873-1914)"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "小供風俗　坊主起し"
+        },
+        {
+            "label": "画題等",
+            "value": "コドモ　フウゾク　ボウズオコシ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "宮川春汀"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "春汀漁人（「春汀」印）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019391",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba4cdd824fe9dc8c4003ae5435f1cb8a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba4cdd824fe9dc8c4003ae5435f1cb8a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2868,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ba4cdd824fe9dc8c4003ae5435f1cb8a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ba4cdd824fe9dc8c4003ae5435f1cb8a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00019391&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA3031-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2868,
+                                "width": 1830
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00019391&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA3031-001.jpg"
+                    },
+                    "width": 1830
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00019391&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA3031-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

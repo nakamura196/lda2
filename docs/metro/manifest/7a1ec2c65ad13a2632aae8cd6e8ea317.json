@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7a1ec2c65ad13a2632aae8cd6e8ea317.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０３（1856）11"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/児雷也///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "[？]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "N190-1/東N190-001"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "上演場所",
+            "value": "(見立)"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（1世）（ウタガワ　クニサダ）（1786-1864）"
+        },
+        {
+            "label": "役名・役者",
+            "value": "児雷也（1代）河原崎　権十郎、こしぢ（3代）岩井　粂三郎"
+        },
+        {
+            "label": "改印等",
+            "value": "[辰十一]"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「見立三十六句撰」「児雷也」「こしぢ」"
+        },
+        {
+            "label": "画題等",
+            "value": "ミタテ　サンジュロックセン　ジライヤ　コシジ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）（歌川国貞（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "筆"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "香蝶楼豊国筆(年玉印)"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00018848",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7a1ec2c65ad13a2632aae8cd6e8ea317.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7a1ec2c65ad13a2632aae8cd6e8ea317.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7a1ec2c65ad13a2632aae8cd6e8ea317.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7a1ec2c65ad13a2632aae8cd6e8ea317.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00018848&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN190-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4508
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00018848&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN190-001.jpg"
+                    },
+                    "width": 4508
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00018848&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN190-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

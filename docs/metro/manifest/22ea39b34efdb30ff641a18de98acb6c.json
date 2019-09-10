@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/22ea39b34efdb30ff641a18de98acb6c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板箱根霊験躄仇討飛巡双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/徳川並江戸時代史（通史）//敵討/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "33.0×48.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "2455-S4/東S2455-S004"
+        },
+        {
+            "label": "題名",
+            "value": "新板箱根霊験躄仇討飛巡双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ハコネ　レイゲン　イザリ　アダウチ　トビマワリ　スゴロク"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000275",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/22ea39b34efdb30ff641a18de98acb6c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/22ea39b34efdb30ff641a18de98acb6c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4830,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/22ea39b34efdb30ff641a18de98acb6c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/22ea39b34efdb30ff641a18de98acb6c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000275&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2455-S004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4830,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000275&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2455-S004.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000275&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2455-S004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

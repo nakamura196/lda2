@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6053ef921b594feda0087184fcf46c54.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "天保14-弘化4"
+        },
+        {
+            "label": "分類",
+            "value": "一般、参考資料/日本地誌/関東（江ノ島、利根川、函根）//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "941-C9-1/東C941-C009-001"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国芳（ウタガワ　クニヨシ）（1797-1862）"
+        },
+        {
+            "label": "改印等",
+            "value": "普"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/堅"
+        },
+        {
+            "label": "画題等",
+            "value": "江之島参詣、一、"
+        },
+        {
+            "label": "画題等",
+            "value": "エノシマ　サンケイ　イチ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一勇齋國芳画、朝櫻棲國芳画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00224957",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6053ef921b594feda0087184fcf46c54.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6053ef921b594feda0087184fcf46c54.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2684,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6053ef921b594feda0087184fcf46c54.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6053ef921b594feda0087184fcf46c54.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00224957&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F941-C009-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2684,
+                                "width": 1756
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00224957&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F941-C009-001.jpg"
+                    },
+                    "width": 1756
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00224957&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F941-C009-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

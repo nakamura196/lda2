@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f2e94537df3b1e9eadaa666b2dc0ee1a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０２（1855）"
+        },
+        {
+            "label": "分類",
+            "value": "鯰絵、一般/江戸/災異－地震/安政２年/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "-"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0277-C22/東C0277-C022"
+        },
+        {
+            "label": "画中文字",
+            "value": "「おくれて出られぬ藏の中　あちこち見つけて藪の中　うちからころげて大道中　はだかてにげ出す風呂の中　店ばんはたらくけむの中　女郎はおはぐろとぶの中　雨ふり野じんはとばの中　まがりヲ直して内の中　すちゃらかぽく／＼万歳らくぐら／＼」"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「地震のすちやらか」"
+        },
+        {
+            "label": "画題等",
+            "value": "ジシン　ノ　スチャラカ"
+        },
+        {
+            "label": "災害名称",
+            "value": "安政の大地震（1855年）"
+        },
+        {
+            "label": "災害年代",
+            "value": "江戸"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第2回江戸資料展』図録解説p.4「大地震後に町を売り歩いた刷りもの｡天水桶の文字がなまずに縁のある「鹿島町」になっている｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007457",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f2e94537df3b1e9eadaa666b2dc0ee1a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f2e94537df3b1e9eadaa666b2dc0ee1a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f2e94537df3b1e9eadaa666b2dc0ee1a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f2e94537df3b1e9eadaa666b2dc0ee1a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007457&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C022.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007457&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C022.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007457&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C022.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

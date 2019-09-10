@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[市の側堀江座番付]明治四十三年一月二日;假名手本忠臣藏",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1910]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1910****"
+        },
+        {
+            "label": "文書種別",
+            "value": "g：芝居番付"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "イチノカワ ホリエザ バンズケ メイジ ヨンジュウサンネン イチガツ フツカ カナ デホン チュウシングラ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[市の側堀江座番付]明治四十三年一月二日;假名手本忠臣藏"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012487664"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29388"
+        },
+        {
+            "label": "枚数",
+            "value": "2"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "m0190"
+        },
+        {
+            "label": "注記_01",
+            "value": "興行地・劇場等:堀江市の側堀江座，芝居番付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ヒロタ ハッセンドウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:廣田八千堂"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;24×38cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "777.1"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29388",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 705,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=196988",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 705,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196988"
+                    },
+                    "width": 1000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 696,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f5b2f5640a51a89fef8b4d8cb720e4d1.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=196989",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 696,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196989"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196988"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

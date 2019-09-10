@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8c80388e04e4c8812ad86255627b7c79.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「今古名家南画一覧　明治四年辛未仲夏新鐫」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "白李亭／撰"
+        },
+        {
+            "label": "出版年",
+            "value": "明治四年辛未仲夏新鐫"
+        },
+        {
+            "label": "分類",
+            "value": "歴史/伝記///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.0×25.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；白李亭撰；東京十軒寓居中嶋文車堂花山鐫；；"
+        },
+        {
+            "label": "版元",
+            "value": "東京十軒寓居中嶋文車堂花山／鐫"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加1900/加01900"
+        },
+        {
+            "label": "題名",
+            "value": "「今古名家南画一覧　明治四年辛未仲夏新鐫」"
+        },
+        {
+            "label": "題名",
+            "value": "キンコメイカナンガイチラン　メイジヨネンカノトヒツジチュウカシンセン"
+        },
+        {
+            "label": "画中文字",
+            "value": "「今古南画一覧　全」（表紙貼付　袋か？）"
+        },
+        {
+            "label": "資料コード",
+            "value": "1170144539"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041078",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8c80388e04e4c8812ad86255627b7c79.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8c80388e04e4c8812ad86255627b7c79.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8c80388e04e4c8812ad86255627b7c79.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8c80388e04e4c8812ad86255627b7c79.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041078&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA1900.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041078&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA1900.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041078&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA1900.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

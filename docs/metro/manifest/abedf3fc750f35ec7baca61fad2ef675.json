@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/abedf3fc750f35ec7baca61fad2ef675.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "生徒勉強東京小学校教授双録",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治10年10月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/教育/学校付幼稚園//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×74.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "397-S7/東S397-S007"
+        },
+        {
+            "label": "題名",
+            "value": "生徒勉強東京小学校教授双録"
+        },
+        {
+            "label": "題名",
+            "value": "セイト　ベンキョウ　トウキョウ　ショウガッコウ　キョウジュ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川広重（3代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(歌川)廣重(三世)"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "多賀甚五郎"
+        },
+        {
+            "label": "資料解説",
+            "value": "『近代日本の夜明け』図録解説p.20「小学校の建物、授業風景からなる双六。双六は、「ふり出し」から｢上り｣まで楽しみながら多くのことを知ることができる遊具で、江戸時代から様々な題材がとり入れられている。この双六は、師範学校をふり出しに、華族学校で上る。教師が壁に掛けた図を指示しながら授業をしている絵がいくつかある。この掛図を使用した教授法は、多数の子供に同一の教育内容を効率よく教える方法として、学制発布後広く導入された。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000364",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/abedf3fc750f35ec7baca61fad2ef675.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/abedf3fc750f35ec7baca61fad2ef675.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/abedf3fc750f35ec7baca61fad2ef675.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/abedf3fc750f35ec7baca61fad2ef675.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000364&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F397-S07.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000364&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F397-S07.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000364&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F397-S07.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

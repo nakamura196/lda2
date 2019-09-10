@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8aea03f45d6f9d2ef7a4d8be5a3923f1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「神道仏道　むりもんだふ　初編」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.4×23.4cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "版元",
+            "value": "書林兼草紙屋"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2529-12(32)/特2529-012(32)"
+        },
+        {
+            "label": "題名",
+            "value": "「神道仏道　むりもんだふ　初編」"
+        },
+        {
+            "label": "題名",
+            "value": "「シントウ　ブツダウ　ムリモンダフ　ショヘン」"
+        },
+        {
+            "label": "題名",
+            "value": "「江戸自慢　三」（表紙）"
+        },
+        {
+            "label": "題名",
+            "value": "［エドジマン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "江戸自慢　12、「神道の方問　神ハ飯？にあらすして　九せんのくらゐあるとハいかに　佛道の方答　食物にあらねど　廿四はいまいるがごとし」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041832",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8aea03f45d6f9d2ef7a4d8be5a3923f1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8aea03f45d6f9d2ef7a4d8be5a3923f1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8aea03f45d6f9d2ef7a4d8be5a3923f1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8aea03f45d6f9d2ef7a4d8be5a3923f1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041832&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-012%2832%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041832&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-012%2832%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041832&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-012%2832%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

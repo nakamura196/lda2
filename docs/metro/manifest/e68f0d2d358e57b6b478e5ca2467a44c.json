@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e68f0d2d358e57b6b478e5ca2467a44c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "皇室/明治天皇付明治史/維新以後の各戦役/朝鮮事変/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "1595-K2-1(1)/東K小1595-K002-001(01)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "鉄道馬車「なんのこじき馬車めらァがたがたしてもかなわせるものか　共立社馬車「なかなかつよいぞしかしまけてたまるものかそつちがニせんに直さげをすりやこつちも一区一せん五りんでふんばつてすらァ　「人力車もこゝが力の入れどこだまけるなまけるな跡をしにやおれがついているぞ"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "四ツ切/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「当時浮世の戯」「鉄道馬車　共立社馬車」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウジ　ウキヨ　ノ　タワムレ　テツドウ　バシャ　キョウリツシャ　バシャ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009501",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e68f0d2d358e57b6b478e5ca2467a44c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e68f0d2d358e57b6b478e5ca2467a44c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3504,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e68f0d2d358e57b6b478e5ca2467a44c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e68f0d2d358e57b6b478e5ca2467a44c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009501&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1595-K002-001%2801%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3504,
+                                "width": 2208
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009501&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1595-K002-001%2801%29.jpg"
+                    },
+                    "width": 2208
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009501&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1595-K002-001%2801%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

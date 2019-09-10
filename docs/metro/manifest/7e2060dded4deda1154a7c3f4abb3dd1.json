@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2060dded4deda1154a7c3f4abb3dd1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板宿下遊楽双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "万延1年8月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/風俗史及資料/江戸時代の世相雑感/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "61.0×73.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0716-S2/東S0716-S002"
+        },
+        {
+            "label": "題名",
+            "value": "新板宿下遊楽双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ヤドサガリ　ユウラク　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川豊国（4代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "梅蝶楼國貞(歌川豊國）四世"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "佐野屋喜兵衛"
+        },
+        {
+            "label": "資料解説",
+            "value": "2008大規模企画展（27）「長局に住み込みで働いていた大奥女中が、休暇を得て宿元などに一時的に帰ることを“宿下がり”といいます。これは、その宿下がりを題材にした飛双六です。各コマには、花見や芝居など、女中たちが休暇の間に楽しんでいたと思われる遊興の数々が描かれています。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000119",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2060dded4deda1154a7c3f4abb3dd1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2060dded4deda1154a7c3f4abb3dd1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4708,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2060dded4deda1154a7c3f4abb3dd1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7e2060dded4deda1154a7c3f4abb3dd1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000119&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0716-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4708,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000119&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0716-S002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000119&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0716-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

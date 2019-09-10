@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d5677a451624e5e2b885cb789889626.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "志ん板清元名代寿語六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治15年12月"
+        },
+        {
+            "label": "分類",
+            "value": "美術/音楽/浄瑠璃付説教、祭文/常磐津、富本、清本節/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×74.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5666-S2/東S5666-S002"
+        },
+        {
+            "label": "題名",
+            "value": "志ん板清元名代寿語六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　キヨモト　ミョウダイ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "豊原国周"
+        },
+        {
+            "label": "作者・画工",
+            "value": "豊原國周"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "佐藤新太郎"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000477",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d5677a451624e5e2b885cb789889626.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d5677a451624e5e2b885cb789889626.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d5677a451624e5e2b885cb789889626.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0d5677a451624e5e2b885cb789889626.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000477&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5666-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000477&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5666-S02.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000477&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5666-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

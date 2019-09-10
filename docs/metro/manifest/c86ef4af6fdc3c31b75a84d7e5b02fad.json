@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c86ef4af6fdc3c31b75a84d7e5b02fad.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；『絵本江戸桜』の中の１葉（国立国会図書館蔵本により確認、当館所蔵本025-25には含まれない）；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3586-C1/東C3586-C001"
+        },
+        {
+            "label": "出版地",
+            "value": "［江戸］"
+        },
+        {
+            "label": "画中文字",
+            "value": "「日蓮宗の寺なり鬼子母神堂は古松しげりていと殊勝の法場なり十月の會式はもみぢ見物をかねておもしろきゆへ諸人くんじゆす此所の名物やぶのそばといふあり風味他にこへだり　當所は古跡多くして八景あるよし」「奉納鬼子母神」（のぼり旗）"
+        },
+        {
+            "label": "件名",
+            "value": "北尾政美（キタオ　マサヨシ）（1764-1824）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "//竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「雑司谷法明寺」"
+        },
+        {
+            "label": "画題等",
+            "value": "ゾウシガヤ　ホウミョウジ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［北尾政美］"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00222263",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c86ef4af6fdc3c31b75a84d7e5b02fad.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c86ef4af6fdc3c31b75a84d7e5b02fad.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2640,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c86ef4af6fdc3c31b75a84d7e5b02fad.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c86ef4af6fdc3c31b75a84d7e5b02fad.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00222263&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3586-C001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2640,
+                                "width": 1782
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00222263&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3586-C001.jpg"
+                    },
+                    "width": 1782
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00222263&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3586-C001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/da0fd29ed9a5ddd9eacfe17d460518e7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２２（1889）04・"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/各伝///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；順番と画題の人物名は目録（5261-K002）による；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "両国吉川町二番地　松木平吉"
+        },
+        {
+            "label": "版元",
+            "value": "松木　平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "280-K22/東K小280-K022"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「長野県　岡西記」"
+        },
+        {
+            "label": "件名",
+            "value": "小林清親（コバヤシ　キヨチカ）（1847-1915）"
+        },
+        {
+            "label": "改印等",
+            "value": "明治廿ニ年四月　日印刷出版"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「教導立志基」 「十二」"
+        },
+        {
+            "label": "画題等",
+            "value": "キョウドウ　リッシ　ノ　モトイ　ジュウニ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "小林清親"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "清親(「小林竹印」印)"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009954",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/da0fd29ed9a5ddd9eacfe17d460518e7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/da0fd29ed9a5ddd9eacfe17d460518e7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3412,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/da0fd29ed9a5ddd9eacfe17d460518e7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/da0fd29ed9a5ddd9eacfe17d460518e7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009954&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-K022.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3412,
+                                "width": 2296
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009954&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-K022.jpg"
+                    },
+                    "width": 2296
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009954&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-K022.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

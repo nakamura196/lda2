@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/598e4a994e770d16105e044eb32dc391.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "天保０８（1837）6"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/死絵///"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "加4647（表16）と2枚続の錦絵；錦絵の貼込帖，「江戸錦繪帖」所収；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4647-(裏34）/加04647-(裏034）"
+        },
+        {
+            "label": "出版地",
+            "value": "大坂"
+        },
+        {
+            "label": "画中文字",
+            "value": "「嵐璃寛御名残狂言」「出村新兵衛」「民谷源八郎」「朝かほや絵にうつすまにしほれけり」「天保八酉年六月十三日往生」「行年五十才」"
+        },
+        {
+            "label": "上演場所",
+            "value": "(死絵)"
+        },
+        {
+            "label": "件名",
+            "value": "英一蝶（ハナブサ　イッチョウ）（1652-1724）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「嵐璃寛御名残狂言」「出村新兵衛」「民谷源八郎」"
+        },
+        {
+            "label": "画題等",
+            "value": "アラシ　リカン　オナゴリ　キョウゲン　デムラ　シンベエ　タミヤ　ゲンパチロウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一蝶斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "東都狂画園浪華江戸旅舎において一蝶斎戯画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019480",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/598e4a994e770d16105e044eb32dc391.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/598e4a994e770d16105e044eb32dc391.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1610,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/598e4a994e770d16105e044eb32dc391.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/598e4a994e770d16105e044eb32dc391.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019480&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4647-Y34.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1610,
+                                "width": 1100
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019480&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4647-Y34.jpg"
+                    },
+                    "width": 1100
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019480&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4647-Y34.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20d0d73b5a8fddf854d412fdb97a84e8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化０４（1847）"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4726-4/加04726-004"
+        },
+        {
+            "label": "画中文字",
+            "value": "呉猛（ごもう）　家（いへ）貧（ひん）にして夏夜（なつのよ）帷帳（かや）なし蚊(か)を防（ふせ）ぐことあたはず夜毎（よごと）に己（おのれ）赤裸（あかはだか）となりて其（その）衣（きぬ）を親（おや）の裾（すそ）にかけ側（かたはら）に寝（いね）蚊（か）の集（あつま）り肌膚（はだ）を刺（さし）痒（かゆ）きこといふばかりなけれども追（おふ）ことなしこれをおはゞ親（おや）の身（み）をくらはんことをおそるゝゆゑなり是(これ)猛（もう）が年（とし）八才ごろとかやいまだ学（まな）ぶべき年間（ねんかん）なけれども天性（てんせい）の至孝（しいかう）かくのごとし　種員謹記"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国芳（ウタガワ　クニヨシ）（1797-1862）"
+        },
+        {
+            "label": "改印等",
+            "value": "名主二印"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「唐土廿四孝」「呉猛」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウド　ニジュウシコウ　ゴモウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一勇斎国芳(芳桐印)"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019700",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20d0d73b5a8fddf854d412fdb97a84e8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20d0d73b5a8fddf854d412fdb97a84e8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2532,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20d0d73b5a8fddf854d412fdb97a84e8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/20d0d73b5a8fddf854d412fdb97a84e8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019700&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2532,
+                                "width": 1768
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019700&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-004.jpg"
+                    },
+                    "width": 1768
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019700&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2a88ae3dbb78b737f39c80d7b04dc586.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "赤坂仮皇居・青山御所外構土塁築造工事書類袋（赤坂表三丁目玉窓寺旧境域～紀伊国坂）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "赤坂青山清敬/明治十三四年赤阪仮皇居外構其他///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "32.5×22.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木52-6-3/木052-6-03"
+        },
+        {
+            "label": "題名",
+            "value": "赤坂仮皇居・青山御所外構土塁築造工事書類袋（赤坂表三丁目玉窓寺旧境域～紀伊国坂）"
+        },
+        {
+            "label": "題名",
+            "value": "アカサカ　カリコウキョ　アオヤマ　ゴショ　ソトガマエ　ドルイ　チクゾウ　コウジ　ショルイ　フクロ　アカサカオモテ　サンチョウメ　ギョクソウジ　キュウ　キョウイキ　キノクニザカ"
+        },
+        {
+            "label": "題名",
+            "value": "（袋外題）「明治拾三年従十月明拾四年至赤坂假皇居外構青山御所続玉窓寺境ヨリ赤坂裏三丁目御囲込地及紀之国坂下迄土塁築造繪圖小積原積 六等属木子清敬預」"
+        },
+        {
+            "label": "体裁",
+            "value": "雑（袋）"
+        },
+        {
+            "label": "作成年",
+            "value": "明治13-14(1880-81)"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00058060",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2a88ae3dbb78b737f39c80d7b04dc586.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2a88ae3dbb78b737f39c80d7b04dc586.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4493,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2a88ae3dbb78b737f39c80d7b04dc586.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2a88ae3dbb78b737f39c80d7b04dc586.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058060&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI052-006-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4493,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058060&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI052-006-003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058060&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI052-006-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

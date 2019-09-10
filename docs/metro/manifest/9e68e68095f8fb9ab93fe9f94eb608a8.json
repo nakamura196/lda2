@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e68e68095f8fb9ab93fe9f94eb608a8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０５（1858）03・"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/各社/各地（地方別にする）/関東/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "庄、中橋、山田屋"
+        },
+        {
+            "label": "版元",
+            "value": "山田屋　庄次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3391-C42/東C3391-C042"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（1世）（ウタガワ　ヒロシゲ）（1797-1858）"
+        },
+        {
+            "label": "改印等",
+            "value": "午三"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「江戸名所」「赤羽根水天宮」"
+        },
+        {
+            "label": "画題等",
+            "value": "エド　メイショ　アカバネ　スイテングウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "広重画"
+        },
+        {
+            "label": "資料解説",
+            "value": "『古書錦絵展』図録解説p.5「「江戸名所」は晩年の代表傑作である横画集｡これはそのうちの傑作であり、歿年の作品である｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010089",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e68e68095f8fb9ab93fe9f94eb608a8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e68e68095f8fb9ab93fe9f94eb608a8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1788,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e68e68095f8fb9ab93fe9f94eb608a8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9e68e68095f8fb9ab93fe9f94eb608a8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010089&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3391-C042.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1788,
+                                "width": 2672
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010089&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3391-C042.jpg"
+                    },
+                    "width": 2672
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010089&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3391-C042.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

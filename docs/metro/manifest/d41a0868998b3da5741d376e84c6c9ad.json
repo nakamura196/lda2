@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d41a0868998b3da5741d376e84c6c9ad.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１１（1878）01・"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/漫画、大津絵、狂画/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；「定價二銭五厘」｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "大傳馬町二丁目十四番地　井上茂丘ヱ"
+        },
+        {
+            "label": "版元",
+            "value": "井上　茂兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5247-C11/東C5247-C011"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「出て三日人なら如何に猫の恋。と故人もいひし早咲の。梅も盛のつく頃に。隅田の上流の夜泊は。足もと暗き朧月に。顔をそむけて忍びがへし。浮雲くわたる糸爪を研や。遂ずや、挑まれつ争みつ狂ふ恋中を。嗅出されては最う仮名読の、先生実に情けないといはん　転々堂主人戯誌　」"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "改印等",
+            "value": "御届明治十一年一月　日"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「見立多以盡」「とりけしたい」"
+        },
+        {
+            "label": "画題等",
+            "value": "ミタテ　タイズクシ　トリケシタイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "應需大蘇芳年(「大蘇」印)"
+        },
+        {
+            "label": "画の内容",
+            "value": "かなよみ新聞を読む"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00008439",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d41a0868998b3da5741d376e84c6c9ad.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d41a0868998b3da5741d376e84c6c9ad.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2799,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d41a0868998b3da5741d376e84c6c9ad.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d41a0868998b3da5741d376e84c6c9ad.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00008439&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5247-C011.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2799,
+                                "width": 1884
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00008439&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5247-C011.jpg"
+                    },
+                    "width": 1884
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00008439&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5247-C011.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

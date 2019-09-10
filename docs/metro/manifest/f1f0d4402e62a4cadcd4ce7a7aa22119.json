@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0d4402e62a4cadcd4ce7a7aa22119.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "享和"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/美人画/梅川忠兵衛//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "藤"
+        },
+        {
+            "label": "版元",
+            "value": "山城屋　藤右衛門"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "N230-4/東N230-004"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "上演場所",
+            "value": "江戸"
+        },
+        {
+            "label": "上演年",
+            "value": "享和（）・"
+        },
+        {
+            "label": "件名",
+            "value": "喜久麿（キクマ）"
+        },
+        {
+            "label": "改印等",
+            "value": "－"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "中短冊/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「梅川忠兵衛」"
+        },
+        {
+            "label": "画題等",
+            "value": "ウメカワ　チュウベエ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "喜久麿"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "喜久麿画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019062",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0d4402e62a4cadcd4ce7a7aa22119.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0d4402e62a4cadcd4ce7a7aa22119.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0d4402e62a4cadcd4ce7a7aa22119.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f1f0d4402e62a4cadcd4ce7a7aa22119.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019062&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN230-004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4508
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019062&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN230-004.jpg"
+                    },
+                    "width": 4508
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019062&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN230-004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fc02c29984c418c49a33cb8cad6a17df.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "文久3年（1863）頃"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/見立///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東都福寿堂梓"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5713-C29/東C5713-C029"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "上演場所",
+            "value": "見立"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「一陽春侍黄金祝儀台」"
+        },
+        {
+            "label": "画題等",
+            "value": "イチヨウ　ノ　アケボノ　コガネ　ノ　シマダイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "－"
+        },
+        {
+            "label": "画の内容",
+            "value": "顔見世番付に見立てた絵。江戸三座の主要な役者を集めた。"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010835",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fc02c29984c418c49a33cb8cad6a17df.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fc02c29984c418c49a33cb8cad6a17df.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1030,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fc02c29984c418c49a33cb8cad6a17df.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/fc02c29984c418c49a33cb8cad6a17df.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010835&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5713-C029.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1030,
+                                "width": 1562
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010835&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5713-C029.jpg"
+                    },
+                    "width": 1562
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010835&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5713-C029.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

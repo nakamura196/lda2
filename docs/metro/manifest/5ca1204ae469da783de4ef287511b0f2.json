@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5ca1204ae469da783de4ef287511b0f2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "東海旧道膝栗毛滑稽双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治22年11月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/隣接街道（五街道、付金沢街道、富士山）/東海道//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "061-S47/東S061-S047"
+        },
+        {
+            "label": "題名",
+            "value": "東海旧道膝栗毛滑稽双六"
+        },
+        {
+            "label": "題名",
+            "value": "トウカイ　キュウドウ　ヒザクリゲ　コッケイ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川国貞（3代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(歌川)國貞(三世)"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "深川屋金之助"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000104",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5ca1204ae469da783de4ef287511b0f2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5ca1204ae469da783de4ef287511b0f2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4572,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5ca1204ae469da783de4ef287511b0f2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5ca1204ae469da783de4ef287511b0f2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000104&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S047.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4572,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000104&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S047.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000104&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S047.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

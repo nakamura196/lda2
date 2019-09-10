@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c26cd5bd65187701b53df0c5e70b83eb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "青山御所表座敷・御車寄・能舞台新築書類袋",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "雑集清敬/青山御所一部書類出納寮金庫赤坂表町東宮大夫官舎洋館図面///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "33.5×23cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木77-3-1/木077-3-01"
+        },
+        {
+            "label": "題名",
+            "value": "青山御所表座敷・御車寄・能舞台新築書類袋"
+        },
+        {
+            "label": "題名",
+            "value": "アオヤマ　ゴショ　オモテザシキ　ミクルマヨセ　ノウブタイ　シンチク　ショルイ　フクロ"
+        },
+        {
+            "label": "題名",
+            "value": "（外題）「青山御所表御座敷并御能舞臺其外新築書類」"
+        },
+        {
+            "label": "体裁",
+            "value": "雑（袋）1枚"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治11(1878)］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00058781",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c26cd5bd65187701b53df0c5e70b83eb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c26cd5bd65187701b53df0c5e70b83eb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c26cd5bd65187701b53df0c5e70b83eb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c26cd5bd65187701b53df0c5e70b83eb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058781&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI077-003-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058781&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI077-003-001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058781&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI077-003-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

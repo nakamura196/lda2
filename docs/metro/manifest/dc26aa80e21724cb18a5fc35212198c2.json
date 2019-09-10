@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc26aa80e21724cb18a5fc35212198c2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般、宗教、哲学、教育/社寺/七福神及祭れる諸神社/布袋/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "大黒屋金之助"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3197-C2/東C3197-C002"
+        },
+        {
+            "label": "件名",
+            "value": "河鍋暁斎（カワナベ　キョウサイ）（1831-1889）"
+        },
+        {
+            "label": "改印等",
+            "value": "子三改"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/堅"
+        },
+        {
+            "label": "画題等",
+            "value": "〔布袋の図〕"
+        },
+        {
+            "label": "画題等",
+            "value": "ホテイ　ノ　ズ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "河鍋暁斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "應需　惺々暁齋"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00221546",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc26aa80e21724cb18a5fc35212198c2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc26aa80e21724cb18a5fc35212198c2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2720,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc26aa80e21724cb18a5fc35212198c2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dc26aa80e21724cb18a5fc35212198c2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00221546&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3197-C002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2720,
+                                "width": 1844
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00221546&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3197-C002.jpg"
+                    },
+                    "width": 1844
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00221546&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3197-C002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

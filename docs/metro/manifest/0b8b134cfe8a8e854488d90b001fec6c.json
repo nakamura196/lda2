@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b8b134cfe8a8e854488d90b001fec6c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０２（1855）12・"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）/岡場所（深川）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "てりふり丁、ゑひすや"
+        },
+        {
+            "label": "版元",
+            "value": "恵比須屋　庄七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0795-C18-1/東C0795-C018-001"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊国（4世）（ウタガワ　トヨクニ）(1823-1880)"
+        },
+        {
+            "label": "改印等",
+            "value": "改、卯十二"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「当盛美人揃之内」「[つぼねみせ、みじまい]」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウセイ　ビジンゾロイ　ノ　ウチ　ツボネミセ　ミジマイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（4世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一寿斎国貞画（年玉枠）"
+        },
+        {
+            "label": "画の内容",
+            "value": "表題の文字の背景に判じ絵で場所・情景を表わす（壷、寝ている人、逆さの蝉、箕、縞の反物、井桁→局見世　身仕舞）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009117",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b8b134cfe8a8e854488d90b001fec6c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b8b134cfe8a8e854488d90b001fec6c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b8b134cfe8a8e854488d90b001fec6c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0b8b134cfe8a8e854488d90b001fec6c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009117&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0795-C018-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009117&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0795-C018-001.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009117&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0795-C018-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a75e40a4e6716906dc5da8224bd7ca79.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２５（1892）09・"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/玩具（おもちゃ）（外国子供風俗も含む）//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "浅草区千束町二丁目四十二番地印刷兼発行者松井栄吉"
+        },
+        {
+            "label": "版元",
+            "value": "松井　栄吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "085-C18-8/東C085-C018-008"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "豊原国周（トヨハラ　クニチカ）（1835-1900）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「乳母のまねをする子供」"
+        },
+        {
+            "label": "画題等",
+            "value": "ウバ　ノ　マネ　オ　スル　コドモ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "豊原国周"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "筆"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "豊春国周筆"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "直山刀"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009360",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a75e40a4e6716906dc5da8224bd7ca79.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a75e40a4e6716906dc5da8224bd7ca79.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4724,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a75e40a4e6716906dc5da8224bd7ca79.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a75e40a4e6716906dc5da8224bd7ca79.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009360&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F085-C018-008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4724,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009360&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F085-C018-008.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009360&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F085-C018-008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

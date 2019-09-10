@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f52e89e15c6d980f0aaa956105be21c2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般/一般/新聞紙、画報/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "恵比寿屋　庄七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "008-30-30/東008-030-030"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「郵便報知新聞」「第五百八十九号」"
+        },
+        {
+            "label": "画題等",
+            "value": "ユウビン　ホウチ　シンブン　ダイゴヒャクハチジュウキュウゴウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "大蘇芳年(「月岡」六角印)"
+        },
+        {
+            "label": "画の内容",
+            "value": "酒好きグデン徳､葬られて蘇生し金を得る"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007100",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f52e89e15c6d980f0aaa956105be21c2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f52e89e15c6d980f0aaa956105be21c2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2773,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f52e89e15c6d980f0aaa956105be21c2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f52e89e15c6d980f0aaa956105be21c2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007100&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-030-30.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2773,
+                                "width": 1749
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007100&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-030-30.jpg"
+                    },
+                    "width": 1749
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007100&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-030-30.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

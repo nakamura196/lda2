@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/68ec328cc877142f1b6ee8907a213062.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１１（1878）08・24"
+        },
+        {
+            "label": "分類",
+            "value": "皇室/明治天皇付明治史/維新以後の各戦役/征韓論及西南の乱/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；「定価壱銭六厘」｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東福田町二番地　船津忠次郎"
+        },
+        {
+            "label": "版元",
+            "value": "船津 忠次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "1594-C9-1/東C1594-C009-001"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「岡丈紀填詞」"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "改印等",
+            "value": "御届明治十一年八月二十四日"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「鹿児島明暗録」「篠原国幹」"
+        },
+        {
+            "label": "画題等",
+            "value": "カゴシマ　メイアンロク　シノハラ　クニモト"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "大蘇芳年（「芳年」印）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009483",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/68ec328cc877142f1b6ee8907a213062.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/68ec328cc877142f1b6ee8907a213062.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2712,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/68ec328cc877142f1b6ee8907a213062.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/68ec328cc877142f1b6ee8907a213062.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009483&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1594-C009-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2712,
+                                "width": 1812
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009483&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1594-C009-001.jpg"
+                    },
+                    "width": 1812
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009483&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1594-C009-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

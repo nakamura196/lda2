@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9cd859d110c8af59d36c905a1ddd80b1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新版太郎冠者稲荷双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/各社/稲荷//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "32.0×42.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "337-S1/東S337-S001"
+        },
+        {
+            "label": "題名",
+            "value": "新版太郎冠者稲荷双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　タロウカジャ　イナリ　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "和泉屋市兵衛"
+        },
+        {
+            "label": "改印",
+            "value": "極（前期）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000308",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9cd859d110c8af59d36c905a1ddd80b1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9cd859d110c8af59d36c905a1ddd80b1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5941,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9cd859d110c8af59d36c905a1ddd80b1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9cd859d110c8af59d36c905a1ddd80b1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000308&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F337-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5941,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000308&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F337-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000308&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F337-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c324486f3986339040094bf1466531df.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "第五回内国勧業博覧会電灯装飾之図",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1903]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1903****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ダイゴカイ ナイコク カンギヨウハクランカイ デントウ ソウシヨク ノ ズ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "第五回内国勧業博覧会電灯装飾之図"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000378466"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28386"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0047001"
+        },
+        {
+            "label": "フリーキーワード_01(カナ)",
+            "value": "ヤマモトショウコク"
+        },
+        {
+            "label": "フリーキーワード_01(漢字)",
+            "value": "山本松谷"
+        },
+        {
+            "label": "注記_01",
+            "value": "風俗画報 269号附録"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "トウヨウドウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "東陽堂"
+        },
+        {
+            "label": "形態",
+            "value": "1枚; 47×63cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ショウコク"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "松谷/画"
+        },
+        {
+            "label": "請求記号",
+            "value": "606"
+        },
+        {
+            "label": "注釈",
+            "value": "彩刷"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28386",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c324486f3986339040094bf1466531df.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/c324486f3986339040094bf1466531df.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 723,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/c324486f3986339040094bf1466531df.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/c324486f3986339040094bf1466531df.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=160645",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 723,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=160645"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=160645"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

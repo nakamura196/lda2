@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/516ea10f724f4fbc15a5ce05755ade95.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般/一般/新聞紙、画報/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "文　辻文"
+        },
+        {
+            "label": "版元",
+            "value": "辻岡屋　文助"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "008-29-23/東008-029-023"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「転々堂略記」"
+        },
+        {
+            "label": "件名",
+            "value": "落合芳幾（オチアイ　ヨシイク）（1833-1904）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京日々新聞」「九百廿三号」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　ニチニチ　シンブン　キュウヒャクニジュウサンゴウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "恵斎芳幾（「芳幾」印）"
+        },
+        {
+            "label": "画の内容",
+            "value": "雲取山のお雪は弁蔵と私通した上に､青梅から来た木屋某と姦通し､弁蔵が妬みから木屋を殺害"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007126",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/516ea10f724f4fbc15a5ce05755ade95.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/516ea10f724f4fbc15a5ce05755ade95.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2799,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/516ea10f724f4fbc15a5ce05755ade95.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/516ea10f724f4fbc15a5ce05755ade95.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007126&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-23.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2799,
+                                "width": 1846
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007126&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-23.jpg"
+                    },
+                    "width": 1846
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007126&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-23.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

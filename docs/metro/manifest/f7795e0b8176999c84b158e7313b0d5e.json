@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7795e0b8176999c84b158e7313b0d5e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "稚出世振分寿古六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "文久2年閏8月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/心理、倫理/婦人、小児教訓//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "74.0×50.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "377-S8/東S377-S008"
+        },
+        {
+            "label": "題名",
+            "value": "稚出世振分寿古六"
+        },
+        {
+            "label": "題名",
+            "value": "オサナ　シュッセ　フリワケ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "叟斎了古、恵斎芳幾"
+        },
+        {
+            "label": "作者・画工",
+            "value": "叟齋了古　惠齋芳幾"
+        },
+        {
+            "label": "作者・画工",
+            "value": "彫工　太田＃太吉"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "近江屋久次郎"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000348",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7795e0b8176999c84b158e7313b0d5e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7795e0b8176999c84b158e7313b0d5e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7795e0b8176999c84b158e7313b0d5e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f7795e0b8176999c84b158e7313b0d5e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000348&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F377-S008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4582
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000348&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F377-S008.jpg"
+                    },
+                    "width": 4582
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000348&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F377-S008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6b7b9e1845db4d9b6c7031e9802e21d7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "源平騎射当双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "文久1年11月"
+        },
+        {
+            "label": "分類",
+            "value": "美術/兵学、武芸、武家故実/弓術、騎術、砲術及それらに関する武器/騎術/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "75.0×37.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5942-S1/東S5942-S001"
+        },
+        {
+            "label": "題名",
+            "value": "源平騎射当双六"
+        },
+        {
+            "label": "題名",
+            "value": "ゲンペイ　キシャ　アタリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "作者・画工",
+            "value": "魁齋芳年"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "正文堂"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.9「今まで見てきた双六とは形が異なる。笹龍胆と浮線蝶の紋により、源平2軍に別れてチームの勝負を争ったものらしい。向き合って整列している両軍の馬の背に、上から「あ・た・り・ま・す・る」の字が見えるが、使用書きがないので遊び方はわからない。ただこの双六は、明治の浮世絵師として著名な芳年の初期の作品という点でとり上げた。天保十年の生れなのでこの年23歳位である。板ぼかしを重ねた地面の処理などに師国芳譲りの洋風が感じられる。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000626",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6b7b9e1845db4d9b6c7031e9802e21d7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6b7b9e1845db4d9b6c7031e9802e21d7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6b7b9e1845db4d9b6c7031e9802e21d7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6b7b9e1845db4d9b6c7031e9802e21d7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000626&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5942-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000626&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5942-S01.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000626&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5942-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

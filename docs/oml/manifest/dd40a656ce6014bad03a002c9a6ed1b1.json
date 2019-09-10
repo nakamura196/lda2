@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd40a656ce6014bad03a002c9a6ed1b1.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[番付]金門五三桐",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1826.11]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "182611**"
+        },
+        {
+            "label": "文書種別",
+            "value": "g：芝居番付"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "バンズケ キンモン ゴサン ノ キリ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[番付]金門五三桐"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012487243"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29299"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "m0101"
+        },
+        {
+            "label": "注記_01",
+            "value": "興行地・劇場等:京 北川芝居，芝居番付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "シュッパンシャ フメイ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[出版地不明]:[出版者不明]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;23×29cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "774.4"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29299",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd40a656ce6014bad03a002c9a6ed1b1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd40a656ce6014bad03a002c9a6ed1b1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 715,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dd40a656ce6014bad03a002c9a6ed1b1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/dd40a656ce6014bad03a002c9a6ed1b1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=196898",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 715,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196898"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196898"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

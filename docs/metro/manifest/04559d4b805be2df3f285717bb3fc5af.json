@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/04559d4b805be2df3f285717bb3fc5af.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "相撲取組双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "美術/娯楽、運動/相撲付拳闘/取組、勝負附/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "33.0×43.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5877-S1/東S5877-S001"
+        },
+        {
+            "label": "題名",
+            "value": "相撲取組双六"
+        },
+        {
+            "label": "題名",
+            "value": "スモウ　トリクミ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳虎"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一猛齋芳虎"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "和泉屋市兵衛"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000617",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/04559d4b805be2df3f285717bb3fc5af.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/04559d4b805be2df3f285717bb3fc5af.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1896,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/04559d4b805be2df3f285717bb3fc5af.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/04559d4b805be2df3f285717bb3fc5af.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000617&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5877-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1896,
+                                "width": 2494
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000617&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5877-S001.jpg"
+                    },
+                    "width": 2494
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000617&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5877-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

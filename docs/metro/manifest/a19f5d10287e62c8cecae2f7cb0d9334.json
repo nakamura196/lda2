@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a19f5d10287e62c8cecae2f7cb0d9334.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２９（1896）11・12"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/日本地誌/中部（伊豆）//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "臨写印刷兼発行者　日本橋区吉川町二番地　松木平吉"
+        },
+        {
+            "label": "版元",
+            "value": "松木　平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "943-C13/東C943-C013"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「東海道駿河の国興津町の東にあり嶺ハ岩石峻嶮にして山下鉄車進行せり」"
+        },
+        {
+            "label": "件名",
+            "value": "小林清親（コバヤシ　キヨチカ）（1847-1915）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「日本名勝圖會」「薩埵嶺」"
+        },
+        {
+            "label": "画題等",
+            "value": "ニホン　メイショウ　ズエ　サッタレイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "小林清親"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "清親　(「清」「親」陰刻朱方印)"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00012284",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a19f5d10287e62c8cecae2f7cb0d9334.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a19f5d10287e62c8cecae2f7cb0d9334.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2788,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a19f5d10287e62c8cecae2f7cb0d9334.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a19f5d10287e62c8cecae2f7cb0d9334.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012284&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F943-C013.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2788,
+                                "width": 1876
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012284&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F943-C013.jpg"
+                    },
+                    "width": 1876
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012284&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F943-C013.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

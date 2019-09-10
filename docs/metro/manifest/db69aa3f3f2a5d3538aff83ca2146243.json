@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/db69aa3f3f2a5d3538aff83ca2146243.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［万国人物図会]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "海事・外交/伝記///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "50.0×73.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "近藤記念海事財団文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "近255/近255"
+        },
+        {
+            "label": "題名",
+            "value": "［万国人物図会]"
+        },
+        {
+            "label": "題名",
+            "value": "バンコク　ジンブツ　ズエ"
+        },
+        {
+            "label": "題名",
+            "value": "万国人物双六"
+        },
+        {
+            "label": "題名",
+            "value": "バンコクジンブツスゴロク"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第3回江戸資料展』図録解説p.14「亜細亜洲・英吉利等の洲名や国名や地名などには正確なものもあるが、図がらや説明等はあやしげな想像によったもの｡当時の一般市人の知識の程度がうかがえる｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000843",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/db69aa3f3f2a5d3538aff83ca2146243.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/db69aa3f3f2a5d3538aff83ca2146243.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4752,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/db69aa3f3f2a5d3538aff83ca2146243.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/db69aa3f3f2a5d3538aff83ca2146243.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000843&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKON255.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4752,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000843&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKON255.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000843&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKON255.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

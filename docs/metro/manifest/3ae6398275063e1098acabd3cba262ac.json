@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae6398275063e1098acabd3cba262ac.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "文明滑稽寿語録",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治4年10月"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "60.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5259-S11/東S5259-S011"
+        },
+        {
+            "label": "題名",
+            "value": "文明滑稽寿語録"
+        },
+        {
+            "label": "題名",
+            "value": "ブンメイ　コッケイ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "作者・画工",
+            "value": "恵齋芳幾"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "辻岡屋文助"
+        },
+        {
+            "label": "資料解説",
+            "value": "『明治前期の東京』図録解説p.12「文明開化の世相文物を題材に双六にしたもの。開化双六の1つ。ふり出しが人力車、上りが蒸気車となっている対照や、古来の劇を開化風にみたてた意匠がおもしろく、懐中時計をたもととけい、風船を風玉、気球を風舟（せん）、毛布をふらんけん、洋犬をかめ等としるす。女が人力車から落ちたり、ビールのあわに驚いたり、巡礼がホテルをおがんだりしている。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000454",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae6398275063e1098acabd3cba262ac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae6398275063e1098acabd3cba262ac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae6398275063e1098acabd3cba262ac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3ae6398275063e1098acabd3cba262ac.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000454&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S11.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000454&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S11.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000454&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S11.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ffe4827f678457e799a0dffc6dd49eef.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２９（1896）02・"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）/吉原（元吉原、新吉原）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "浅草区瓦丁二バンチ　森本順三郎"
+        },
+        {
+            "label": "版元",
+            "value": "森本　順三郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0791-C69/東C0791-C069"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "楊斎延一（ヨウサイ　ノブカズ）（1872-1944）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京名所内」「吉原仲之町真景」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　メイショ　ナイ　ヨシワラ　ナカノチョウ　シンケイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "楊斎延一"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "応需 延一画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00049146",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ffe4827f678457e799a0dffc6dd49eef.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ffe4827f678457e799a0dffc6dd49eef.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4724,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ffe4827f678457e799a0dffc6dd49eef.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ffe4827f678457e799a0dffc6dd49eef.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00049146&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0791-C069.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4724,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00049146&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0791-C069.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00049146&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0791-C069.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

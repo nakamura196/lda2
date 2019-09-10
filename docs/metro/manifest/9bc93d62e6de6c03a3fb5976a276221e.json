@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9bc93d62e6de6c03a3fb5976a276221e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "諸国御札ふり出し双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "慶応3年12月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/社寺/願懸、お守（地震除）//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×49.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "313-S1ア/東S313-S001ア"
+        },
+        {
+            "label": "題名",
+            "value": "諸国御札ふり出し双六"
+        },
+        {
+            "label": "題名",
+            "value": "ショコク　オフダ　フリダシ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "よし藤"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "大黒屋金三郎"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第3回江戸資料展』図録解説p.23「伊勢太神宮ならびに諸神のお札が天からふっている図｡慶応3年には諸国旱魃で､物価が上がり､生活が苦しかった｡お札がふったのは物価が下がる吉兆豊饒のしるしであるとされた。原袋付き｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000300",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9bc93d62e6de6c03a3fb5976a276221e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9bc93d62e6de6c03a3fb5976a276221e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9bc93d62e6de6c03a3fb5976a276221e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9bc93d62e6de6c03a3fb5976a276221e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000300&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F313-S001a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4549
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000300&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F313-S001a.jpg"
+                    },
+                    "width": 4549
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000300&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F313-S001a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

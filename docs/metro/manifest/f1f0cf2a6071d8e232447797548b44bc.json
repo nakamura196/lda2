@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0cf2a6071d8e232447797548b44bc.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０１（1854）8"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/死絵///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5721-C45/東C5721-C045"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "「嘉永七寅年　浄莚信士　八月六日　行年三十二才」「天王寺村坂松山一心寺戒名」「わかれともしらて浪花へのほり鯉なみだ滝なすひいき連中　梅屋」"
+        },
+        {
+            "label": "上演場所",
+            "value": "江戸"
+        },
+        {
+            "label": "上演場所",
+            "value": "(死絵)"
+        },
+        {
+            "label": "上演年",
+            "value": "安政０１（1854）08・"
+        },
+        {
+            "label": "役名・役者",
+            "value": "（8代）市川　団十郎"
+        },
+        {
+            "label": "改印等",
+            "value": "－"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「荒事　八代目団十郎事市川白猿　日数廿日之間罷出奉入御覧候」"
+        },
+        {
+            "label": "画題等",
+            "value": "アラゴト　ハチダイメ　ダンジュウロウ　コト　イチカワ　ハクエン　ニッスウ　ハツカ　ノ　アイダ　マカリイズ　タテマツリイリ　ゴランソウラエ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "－"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00011389",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0cf2a6071d8e232447797548b44bc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0cf2a6071d8e232447797548b44bc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1550,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1f0cf2a6071d8e232447797548b44bc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f1f0cf2a6071d8e232447797548b44bc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011389&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5721-C045.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1550,
+                                "width": 1048
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011389&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5721-C045.jpg"
+                    },
+                    "width": 1048
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011389&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5721-C045.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

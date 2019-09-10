@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac4206c8a05a917011b7559bdb2a29dd.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［勢州津贄崎座番附］",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "明治11.4"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26×38cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加2758（35）/加02758（35）"
+        },
+        {
+            "label": "題名",
+            "value": "［勢州津贄崎座番附］"
+        },
+        {
+            "label": "題名",
+            "value": "「芝居番附」（表紙外題）"
+        },
+        {
+            "label": "題名",
+            "value": "［シバイバンヅケ］"
+        },
+        {
+            "label": "画中文字",
+            "value": "木戸銭他値段一覧あり"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041577",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac4206c8a05a917011b7559bdb2a29dd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac4206c8a05a917011b7559bdb2a29dd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac4206c8a05a917011b7559bdb2a29dd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ac4206c8a05a917011b7559bdb2a29dd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041577&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA2758%2835%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041577&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA2758%2835%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041577&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA2758%2835%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

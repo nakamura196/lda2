@@ -1,0 +1,135 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖，「鶏助雑箋　15」所収；；；；；1帖；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "勝木吉勝"
+        },
+        {
+            "label": "版元",
+            "value": "勝木　吉勝"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加155-15(42)/加00155-015(042)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "上演場所",
+            "value": "東京"
+        },
+        {
+            "label": "改印等",
+            "value": "明治二十二年"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「上野公園御幸之図」「憲法御発布ニ付祝典府民奉迎各区山車整列盛況」"
+        },
+        {
+            "label": "画題等",
+            "value": "ウエノ　コウエン　ミユキ　ノ　ズ　ケンポウ　ゴハップ　ニ　ツキ　シュクテン　フミン　ホウゲイ　カック　ダシ　セイレツ　セイキョウ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00218012",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2556,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00218012&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA155-015-042%2802%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2556,
+                                "width": 1710
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00218012&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA155-015-042%2802%29.jpg"
+                    },
+                    "width": 1710
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2562,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b7edb6379bf2e7e6e3839e6c836be25e.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00218012&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA155-015-042%2801%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2562,
+                                "width": 1716
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00218012&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA155-015-042%2801%29.jpg"
+                    },
+                    "width": 1716
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00218012&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA155-015-042%2802%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

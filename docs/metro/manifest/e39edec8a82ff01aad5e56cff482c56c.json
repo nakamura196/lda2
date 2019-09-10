@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e39edec8a82ff01aad5e56cff482c56c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化０４（1847）"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4726-18/加04726-018"
+        },
+        {
+            "label": "画中文字",
+            "value": "孟宗（もうそう）　幼稚（ようち）にして父におくれ母（はゝ）を敬（うやま）ふことたとふるにものなし母（はゝ）老（おい）て病（やまひ）篤（あつ）し冬月雪中（とうげつせつちう）に笋（たかんな）の羔（あつもの）を食（しょく）せんことをのぞむ其（その）季候（きこう）にあらねば人力（じんりき）のおよぶ所にあらざれども竹林（ちくりん）にいたり竹（たけ）をうごかし哀泣（あいきう）して求（もと[ママ］）んことをこひしに神明仏陀（しんめいぶつだ）孝（かう）を感（かん）ずるの余（あま）りにや須叟（たちまち）に地（ち）裂（さけ）て笋（たかんな）數（あまた）莖を生（しやう）ず喜（よろこ）びて家（いへ）に持（もち）かへり母（はゝ）に薦（すゝ）むれば日あらずして病（やま）ひ愈（いえ）じとなん　種員謹記"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国芳（ウタガワ　クニヨシ）（1797-1862）"
+        },
+        {
+            "label": "改印等",
+            "value": "名主二印"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「唐土廿四孝」「孟宗」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウド　ニジュウシコウ　モウソウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国芳"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019714",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e39edec8a82ff01aad5e56cff482c56c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e39edec8a82ff01aad5e56cff482c56c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2524,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e39edec8a82ff01aad5e56cff482c56c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e39edec8a82ff01aad5e56cff482c56c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019714&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-018.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2524,
+                                "width": 1750
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019714&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-018.jpg"
+                    },
+                    "width": 1750
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019714&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-018.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

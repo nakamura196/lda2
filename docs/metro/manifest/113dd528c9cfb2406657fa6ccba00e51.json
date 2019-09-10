@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/113dd528c9cfb2406657fa6ccba00e51.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/社寺/七福神及祭れる諸神社//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；軸物；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "319-D1/東D319-D001"
+        },
+        {
+            "label": "件名",
+            "value": "磯田湖竜斎（イソダ　コリュウサイ）（1735-1790？）"
+        },
+        {
+            "label": "改印等",
+            "value": "安永末頃ヵ"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "柱絵（内68×10.8cm）（外131×24cm）/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "七福神"
+        },
+        {
+            "label": "画題等",
+            "value": "シチフクジン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "磯田湖龍斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "湖龍画"
+        },
+        {
+            "label": "画の内容",
+            "value": "大正十ニ年関東大地震震害調査報告附図"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00221555",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/113dd528c9cfb2406657fa6ccba00e51.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/113dd528c9cfb2406657fa6ccba00e51.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2906,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/113dd528c9cfb2406657fa6ccba00e51.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/113dd528c9cfb2406657fa6ccba00e51.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00221555&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F319-D001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2906,
+                                "width": 485
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00221555&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F319-D001.jpg"
+                    },
+                    "width": 485
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00221555&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F319-D001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

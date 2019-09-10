@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4e41a785f493c03d69d7bc0f35d9929.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「大日本國中繁花見立相撲」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "一夢庵小蝶／筆"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/滑稽文学/見立番附其他見立類////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.0×22.8cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；番付貼込帖，「松逎寿」所収；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-2-1(3)/東448-002-001(03)"
+        },
+        {
+            "label": "題名",
+            "value": "「大日本國中繁花見立相撲」"
+        },
+        {
+            "label": "題名",
+            "value": "［ダイニホンコクジュウハンカミタテスモウ］"
+        },
+        {
+            "label": "題名",
+            "value": "「松廼寿」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［マツノコトブキ］"
+        },
+        {
+            "label": "作者カナ",
+            "value": "イチムアン　コチョウ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041310",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4e41a785f493c03d69d7bc0f35d9929.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4e41a785f493c03d69d7bc0f35d9929.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4e41a785f493c03d69d7bc0f35d9929.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f4e41a785f493c03d69d7bc0f35d9929.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041310&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-01%2803%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041310&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-01%2803%29.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041310&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-01%2803%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

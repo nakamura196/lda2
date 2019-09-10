@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e22e58617c01f0cea8ee1eba853f8a12.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「現存雷名和漢各体歌鑑」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "35×47cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；"
+        },
+        {
+            "label": "版元",
+            "value": "燕石楼／蔵板"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加125-15/加00125-015"
+        },
+        {
+            "label": "題名",
+            "value": "「現存雷名和漢各体歌鑑」"
+        },
+        {
+            "label": "題名",
+            "value": "ゲンゾンライメイワカンカクタイウタカガミ"
+        },
+        {
+            "label": "画中文字",
+            "value": "「天保十年」本文中に記載あり"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041023",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e22e58617c01f0cea8ee1eba853f8a12.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e22e58617c01f0cea8ee1eba853f8a12.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4984,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e22e58617c01f0cea8ee1eba853f8a12.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e22e58617c01f0cea8ee1eba853f8a12.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041023&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-015.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4984,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041023&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-015.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041023&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-015.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

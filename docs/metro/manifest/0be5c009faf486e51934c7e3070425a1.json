@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0be5c009faf486e51934c7e3070425a1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化０４（1847）"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4726-9/加04726-009"
+        },
+        {
+            "label": "画中文字",
+            "value": "唐夫人（とうふじん）　其姑（そのしうとめ）長孫夫人（ちやうそんふじん）年高（としたか）ふして歯（は）なし夫人（ふじん）日ごとに姑（しうとめ）に乳（ち）をすゝむ故（ゆゑ）に粒食（りうしよく）せざれどもいと堅固（けんご）なりきかくて長孫（ちやうそん）病(やまひ)重（おも）く死（し）せんとするとき一門（いちもん）の人（ひと）ゞを招（まね）ぎ告（つげ）ていふやうわれ嫁（よめ）の恩（おん）を受（うく）る?（こと）言（ことば）にのべがたし願（ねがはく）は子孫（しそん）に新婦（よめ）たるもの唐夫人（とうふじん）にならべかしと言（いひ）しとなん　種員謹記"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国芳（ウタガワ　クニヨシ）（1797-1862）"
+        },
+        {
+            "label": "改印等",
+            "value": "名主二印"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「唐土廿四孝」「唐夫人」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウド　ニジュウシコウ　トウフジン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一勇斎国芳"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019705",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0be5c009faf486e51934c7e3070425a1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0be5c009faf486e51934c7e3070425a1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2540,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0be5c009faf486e51934c7e3070425a1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0be5c009faf486e51934c7e3070425a1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019705&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-009.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2540,
+                                "width": 1752
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019705&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-009.jpg"
+                    },
+                    "width": 1752
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019705&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-009.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

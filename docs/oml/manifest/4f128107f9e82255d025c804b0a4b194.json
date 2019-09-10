@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4f128107f9e82255d025c804b0a4b194.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "文楽座人形浄瑠璃十一月興行(昭和二年十一月);源平布引滝，;冥途の飛脚，;増補忠臣蔵",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1927]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1927****"
+        },
+        {
+            "label": "文書種別",
+            "value": "g：芝居番付"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ブンラクザ ニンギョウ ジョウルリ ジュウイチガツ コウギョウ ショウワ ニネン ジュウイチガツ ゲンペイ ヌノビキ ノ タキ， メイド ノ ヒキャク， ゾウホ チュウシングラ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "文楽座人形浄瑠璃十一月興行(昭和二年十一月);源平布引滝，;冥途の飛脚，;増補忠臣蔵"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012487877"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29397"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "m0199"
+        },
+        {
+            "label": "注記_01",
+            "value": "興行地・劇場等:道頓堀 弁天座，芝居番付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ヒロタ ハッセンドウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:廣田八千堂"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;31×47cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "777.1"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29397",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4f128107f9e82255d025c804b0a4b194.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/4f128107f9e82255d025c804b0a4b194.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 671,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/4f128107f9e82255d025c804b0a4b194.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/4f128107f9e82255d025c804b0a4b194.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=196998",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 671,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196998"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196998"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

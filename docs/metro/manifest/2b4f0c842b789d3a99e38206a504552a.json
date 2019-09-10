@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2b4f0c842b789d3a99e38206a504552a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸じまん",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "一般/江戸/名所案内記、図絵//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×71.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "025-S4ア/東S025-S004ア"
+        },
+        {
+            "label": "題名",
+            "value": "江戸じまん"
+        },
+        {
+            "label": "題名",
+            "value": "エド　ジマン"
+        },
+        {
+            "label": "作者・画工",
+            "value": "風水閑人仙鳧"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川広重"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一立齋（歌川）廣重"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "寸松堂大森"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第2回江戸資料展』図録解説p.26「双六｡日本橋を振出しに､ほぼ左回りに江戸市中と周辺の名所を一巡している｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000019",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2b4f0c842b789d3a99e38206a504552a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2b4f0c842b789d3a99e38206a504552a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4769,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2b4f0c842b789d3a99e38206a504552a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2b4f0c842b789d3a99e38206a504552a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000019&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S004a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4769,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000019&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S004a.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000019&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S004a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/abc65c2495fbe4df4c86c03ae4f6623a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化4-嘉永5"
+        },
+        {
+            "label": "分類",
+            "value": "源氏絵/風俗/春/正月の娯楽、遊戯/投扇興"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "錦集堂＝東屋大助"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "07547-C1/東C07547-C001"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊国（3世）（ウタガワ　トヨクニ）（1786-1865）"
+        },
+        {
+            "label": "改印等",
+            "value": "渡邊　衣笠　名主2印"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/堅"
+        },
+        {
+            "label": "画題等",
+            "value": "〔春遊投扇興〕"
+        },
+        {
+            "label": "画題等",
+            "value": "シュンユウ　トウセンキョウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "豊國画、國貞舎豊國画"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第1回江戸資料展』図録解説p.28「これも源氏絵であるが､投扇興を描いている点に資料的価値をもつ｡ひらいた扇を的に投げ当ててその的の落ち具合などで得点をきそった優雅な遊戯である｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00219726",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/abc65c2495fbe4df4c86c03ae4f6623a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/abc65c2495fbe4df4c86c03ae4f6623a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/abc65c2495fbe4df4c86c03ae4f6623a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/abc65c2495fbe4df4c86c03ae4f6623a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

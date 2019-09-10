@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1861ab82fa569b343c4fdba6fd048b9e.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[市の側堀江座番付]明治四十一年二月一日;加賀見山舊錦繪，;染模様妹脊門松，;義經腰越状，;橋辨慶",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1908]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1908****"
+        },
+        {
+            "label": "文書種別",
+            "value": "g：芝居番付"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "イチノカワ ホリエザ バンズケ メイジ ヨンジュウイチネン ニガツ ツイタチ カガミヤマ コキョウ ノ ニシキエ， ソメモヨウ イモセ ノ カドマツ， ヨシツネ コシゴエジョウ， ハシベンケイ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[市の側堀江座番付]明治四十一年二月一日;加賀見山舊錦繪，;染模様妹脊門松，;義經腰越状，;橋辨慶"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012487650"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29384"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "m0186"
+        },
+        {
+            "label": "注記_01",
+            "value": "興行地・劇場等:堀江市の側堀江座，芝居番付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ヒロタ ヨネシチ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:廣田米七"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;27×38cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "777.1"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29384",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1861ab82fa569b343c4fdba6fd048b9e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/1861ab82fa569b343c4fdba6fd048b9e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 704,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/1861ab82fa569b343c4fdba6fd048b9e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/1861ab82fa569b343c4fdba6fd048b9e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=196984",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 704,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196984"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196984"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1df9716b6f29f56fecf4dba981135c47.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "明治婦人風俗寿語ろく",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治32年"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/風俗史及資料/明治以後の風俗、流行/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "78.0×51.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0717-S1/東S0717-S001"
+        },
+        {
+            "label": "題名",
+            "value": "明治婦人風俗寿語ろく"
+        },
+        {
+            "label": "題名",
+            "value": "メイジ　フジン　ノ　フウゾク　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "綱島亀吉"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000120",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1df9716b6f29f56fecf4dba981135c47.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1df9716b6f29f56fecf4dba981135c47.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1df9716b6f29f56fecf4dba981135c47.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1df9716b6f29f56fecf4dba981135c47.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000120&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0717-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4465
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000120&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0717-S001.jpg"
+                    },
+                    "width": 4465
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000120&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0717-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

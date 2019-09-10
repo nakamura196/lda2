@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1643b32a4be12252140b62870e72ad01.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化０４（1847）"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4726-5/加04726-005"
+        },
+        {
+            "label": "画中文字",
+            "value": "仲由（ちうゆう）　字（あざなは）子路（しろ）孔子（こうし）が門弟（もんてい）十哲（じつてつ）の一人家（いへ）貧（ひん）にして産（なりはひ）なし藜（あかざ）?（まめのは）をもて食（しよく）となし日毎（ひごと）に百里の外（ほか）に米（こめ）を負行（おひゆき）賃（あたへ）をとりて父母を養（やしな）ふ大勇者（たいゆうしや）なれば諸国（しょこく）の王（わう）より招（まね）くといへとも親（おや）在（います）ゆへ應（おう）ぜず両親（ふたおや）世（よ）を去（さつ）てのち楚國（そこく）につかへ冨貴自在（ふうきじざい）の身（み）となりしが麁食（そじき）をなし重（おも）きを負（おふ）て父母につかへし往時（いにしへ）にはしかじとてうち歎（なげ）きしとなん　種員謹記"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国芳（ウタガワ　クニヨシ）（1797-1862）"
+        },
+        {
+            "label": "改印等",
+            "value": "名主二印"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「唐土廿四孝」「仲由」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウド　ニジュウシコウ　チュウユウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国芳"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019701",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1643b32a4be12252140b62870e72ad01.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1643b32a4be12252140b62870e72ad01.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2565,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1643b32a4be12252140b62870e72ad01.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1643b32a4be12252140b62870e72ad01.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019701&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2565,
+                                "width": 1780
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019701&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-005.jpg"
+                    },
+                    "width": 1780
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019701&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

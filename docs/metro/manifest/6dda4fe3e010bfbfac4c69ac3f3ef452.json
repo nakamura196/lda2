@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6dda4fe3e010bfbfac4c69ac3f3ef452.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１１（1878）01・10"
+        },
+        {
+            "label": "分類",
+            "value": "武者絵////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；「価二銭五厘」｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "浅草瓦町二番地　森本順三郎"
+        },
+        {
+            "label": "版元",
+            "value": "森本 順三郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "H041-19/東H041-019"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "改印等",
+            "value": "明治十一年一月十日御届"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「名誉八行之内」「礼」「畠山重忠」"
+        },
+        {
+            "label": "画題等",
+            "value": "メイヨ　ハチギョウ　ノ　ウチ　レイ　ハタヤマ　シゲタダ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "応需 　大蘇芳年(「芳年」印)"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫工弥太"
+        },
+        {
+            "label": "画の内容",
+            "value": "西南戦争の勇士を仮託したか"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00012456",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6dda4fe3e010bfbfac4c69ac3f3ef452.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6dda4fe3e010bfbfac4c69ac3f3ef452.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2688,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6dda4fe3e010bfbfac4c69ac3f3ef452.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6dda4fe3e010bfbfac4c69ac3f3ef452.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012456&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH041-019.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2688,
+                                "width": 1848
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012456&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH041-019.jpg"
+                    },
+                    "width": 1848
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012456&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH041-019.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

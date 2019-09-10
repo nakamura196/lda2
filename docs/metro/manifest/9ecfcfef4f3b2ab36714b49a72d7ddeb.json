@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ecfcfef4f3b2ab36714b49a72d7ddeb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "廓の遊全盛双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "元治1年11月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "62.0×74.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "079-S2/東S079-S002"
+        },
+        {
+            "label": "題名",
+            "value": "廓の遊全盛双六"
+        },
+        {
+            "label": "題名",
+            "value": "サト　ノ　アソビ　ゼンセイ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "豊原国周"
+        },
+        {
+            "label": "作者・画工",
+            "value": "國周"
+        },
+        {
+            "label": "作者・画工",
+            "value": "ホリ若狭"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "海老屋林之助"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第2回江戸資料展』図録解説p.29「廓の内部での遊興の様子は、錦絵･双六などからも知ることができる｡また、廓の年中行事、場所の名なども双六に見られる｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000174",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ecfcfef4f3b2ab36714b49a72d7ddeb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ecfcfef4f3b2ab36714b49a72d7ddeb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ecfcfef4f3b2ab36714b49a72d7ddeb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9ecfcfef4f3b2ab36714b49a72d7ddeb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000174&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F079-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000174&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F079-S02.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000174&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F079-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

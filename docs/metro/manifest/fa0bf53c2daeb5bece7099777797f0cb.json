@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fa0bf53c2daeb5bece7099777797f0cb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；軸物；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0872-D2/東D0872-D002"
+        },
+        {
+            "label": "件名",
+            "value": "玉川春水（タマガワ　シュンスイ）（生没年未詳）"
+        },
+        {
+            "label": "改印等",
+            "value": "安永"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "柱絵（内67.9×11.6cm）（外133.5×25.1cm）/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "須磨の浦"
+        },
+        {
+            "label": "画題等",
+            "value": "スマ　ノ　ウラ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "玉川春水"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "畫"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "玉川春水畫"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00220579",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fa0bf53c2daeb5bece7099777797f0cb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fa0bf53c2daeb5bece7099777797f0cb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2890,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fa0bf53c2daeb5bece7099777797f0cb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/fa0bf53c2daeb5bece7099777797f0cb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00220579&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0872-D002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2890,
+                                "width": 510
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00220579&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0872-D002.jpg"
+                    },
+                    "width": 510
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00220579&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0872-D002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9566e5d4aa40e69b5dad9aa5a6226a7c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "鷹司邸表方指図（寛政8写）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清久/清久寛政貳戌年九月改之御遷宮御用一件木子甚三郎///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "30×98.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木34-5-3/木034-5-03"
+        },
+        {
+            "label": "題名",
+            "value": "鷹司邸表方指図（寛政8写）"
+        },
+        {
+            "label": "題名",
+            "value": "タカツカサテイ　オモテカタ　サシズ　カンセイ　8　ウツシ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「寛政二庚戌春御造作有之 堀川北村喜右衛門殿 繪図借用 鷹司様表向御繪図写」，「寛政八年辰十二月写之有之 木子藤四郎 清久」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "寛政8.12(1796)写"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清久"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044690",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9566e5d4aa40e69b5dad9aa5a6226a7c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9566e5d4aa40e69b5dad9aa5a6226a7c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2464,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9566e5d4aa40e69b5dad9aa5a6226a7c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9566e5d4aa40e69b5dad9aa5a6226a7c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044690&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI034-005-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2464,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044690&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI034-005-003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044690&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI034-005-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

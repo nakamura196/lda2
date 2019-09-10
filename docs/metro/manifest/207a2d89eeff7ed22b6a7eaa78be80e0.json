@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/207a2d89eeff7ed22b6a7eaa78be80e0.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０７（1874）10"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/三国志///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "人形町、具足屋"
+        },
+        {
+            "label": "版元",
+            "value": "具足屋　嘉兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "N026-10/東N026-010"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "上演場所",
+            "value": "（見立）"
+        },
+        {
+            "label": "件名",
+            "value": "安達吟光（アダチ　ギンコウ）（生没年未詳）"
+        },
+        {
+            "label": "役名・役者",
+            "value": "劉備字玄徳（5代）坂東　彦三郎、関羽字雲長（4代）中村　芝翫、張飛字翌徳（5代）尾上　菊五郎"
+        },
+        {
+            "label": "改印等",
+            "value": "戌十"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「講談一席読切　桃井伯童司」「劉備字玄徳　坂東彦三郎」 「講談一席読切　濤声舎千山」「関羽字雲長　中村芝翫」 「講談一席読切　桃林亭太琉」「張飛字翌徳　尾上菊五郎」"
+        },
+        {
+            "label": "画題等",
+            "value": "コウダン　イッセキ　ヨミキリ　モミハク　ドウジ　リュウビ　アザ　ゲントク　バンドウ　ヒコサブロウ　コウダン　イッセキ　ヨミキリ　トウセイシャ　センザン　カンウ　アザ　ウンチョウ　ナカムラ　シカン　コウダン　イッセキ　ヨミキリ　トウリンテイ　タリュウ　チョウヒ　アザ　エキトク　オノエ　キクゴロウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "安達吟光"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "松雪斉銀光筆"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "片田彫長"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00052596",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/207a2d89eeff7ed22b6a7eaa78be80e0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/207a2d89eeff7ed22b6a7eaa78be80e0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4508,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/207a2d89eeff7ed22b6a7eaa78be80e0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/207a2d89eeff7ed22b6a7eaa78be80e0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052596&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN026-010.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4508,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052596&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN026-010.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052596&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN026-010.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

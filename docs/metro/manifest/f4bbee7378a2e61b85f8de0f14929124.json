@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4bbee7378a2e61b85f8de0f14929124.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "有卦入船福神数娯録",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "万延1年10月"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.0×49.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "多色摺；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6544/加06544"
+        },
+        {
+            "label": "題名",
+            "value": "有卦入船福神数娯録"
+        },
+        {
+            "label": "題名",
+            "value": "ウケ　イリフネ　フクジン　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "柳亭種彦（2代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一恵斎芳幾"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "栄久堂"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000762",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4bbee7378a2e61b85f8de0f14929124.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4bbee7378a2e61b85f8de0f14929124.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5193,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f4bbee7378a2e61b85f8de0f14929124.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f4bbee7378a2e61b85f8de0f14929124.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000762&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6544.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5193,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000762&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6544.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000762&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6544.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

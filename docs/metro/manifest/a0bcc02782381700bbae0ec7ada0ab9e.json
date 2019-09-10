@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0bcc02782381700bbae0ec7ada0ab9e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "志ん板なぞなぞ双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治19年10月"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/滑稽文学/謎判じ物、考え物//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "447-S1/東S447-S001"
+        },
+        {
+            "label": "題名",
+            "value": "志ん板なぞなぞ双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ナゾナゾ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(歌川)芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "彫工　渡辺栄蔵"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "児玉又七"
+        },
+        {
+            "label": "資料解説",
+            "value": "『明治前期の東京』図録解説p.28「「れんぐわせきトかけてむずかしいせうぎととく　心はよく　つんだ／＼」というように開化の文物を取り入れたところが新趣向｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000387",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0bcc02782381700bbae0ec7ada0ab9e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0bcc02782381700bbae0ec7ada0ab9e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0bcc02782381700bbae0ec7ada0ab9e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a0bcc02782381700bbae0ec7ada0ab9e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000387&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F447-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000387&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F447-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000387&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F447-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

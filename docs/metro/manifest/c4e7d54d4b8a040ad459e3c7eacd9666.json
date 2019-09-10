@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c4e7d54d4b8a040ad459e3c7eacd9666.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "巣鴨染井殿中江戸の花独案内",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化頃"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/秋/秋の遊楽/秋の庭、秋の夜、秋の七草（七草）"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "33.0×46.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "07771-S2/東S07771-S002"
+        },
+        {
+            "label": "題名",
+            "value": "巣鴨染井殿中江戸の花独案内"
+        },
+        {
+            "label": "題名",
+            "value": "スガモ　ソメイ　デンチュウ　エド　ノ　ハナ　ヒトリ　アンナイ"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "いがや勘右衛門"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000170",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c4e7d54d4b8a040ad459e3c7eacd9666.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c4e7d54d4b8a040ad459e3c7eacd9666.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5007,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c4e7d54d4b8a040ad459e3c7eacd9666.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c4e7d54d4b8a040ad459e3c7eacd9666.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000170&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07771-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5007,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000170&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07771-S002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000170&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07771-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/89091871834430edcaea69ebd439c7c4.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "陞官図（写）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "諸芸/遊戯/双六//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "39.0×47.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "彩色・蜂屋茂橘；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特5556/特5556"
+        },
+        {
+            "label": "題名",
+            "value": "陞官図（写）"
+        },
+        {
+            "label": "題名",
+            "value": "ショウカンズ　ウツシ"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.3「展示資料12と同日の識語があるので、これも椎園が原図に就いて写したものであろう。「陞官図」とした自筆の別紙が付されている。童生を起馬（振出し）に文武の諸官を経て午朝門に至る官職双六である。この原図は展示資料12と同じく比較的新しいためか、中国の陞官図といっても展示資料11の系統と全く別のものであるが、彼地の双六の一端として出陳した。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000838",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/89091871834430edcaea69ebd439c7c4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/89091871834430edcaea69ebd439c7c4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1870,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/89091871834430edcaea69ebd439c7c4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/89091871834430edcaea69ebd439c7c4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000838&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTo5556.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1870,
+                                "width": 2252
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000838&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTo5556.jpg"
+                    },
+                    "width": 2252
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000838&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTo5556.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b456ec361faf4a211ead627f601b4e5e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２９（1896）7"
+        },
+        {
+            "label": "分類",
+            "value": "貼交絵/一般/通誌/山嶽、河川、海岸、湖沼、橋梁"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京日本橋区長谷川町十九番地　福田熊次郎"
+        },
+        {
+            "label": "版元",
+            "value": "福田　熊次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "016-C3-6/東C016-C003-006"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「千秋　酒もよし料理もうまし居心もよいので客も多く北邑」"
+        },
+        {
+            "label": "件名",
+            "value": "稲葉千秋"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京自慢名物会」「桃川燕林」「北邑　御料理」「よし町　濱田家小奴　池田よし」「人形丁もやう」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　ジマン　メイブツエ　キタムラ　オリョウリ　ヨシマチ　ハマダヤ　コヤッコ　イケダ　ヨシ　ニンギョウチョウ　モヨウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "稲葉千秋"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "「千秋好」印"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007185",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b456ec361faf4a211ead627f601b4e5e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b456ec361faf4a211ead627f601b4e5e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b456ec361faf4a211ead627f601b4e5e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b456ec361faf4a211ead627f601b4e5e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007185&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-C003-006.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007185&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-C003-006.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007185&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-C003-006.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

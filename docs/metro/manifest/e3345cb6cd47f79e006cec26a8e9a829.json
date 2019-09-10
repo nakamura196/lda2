@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e3345cb6cd47f79e006cec26a8e9a829.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "北本所中之郷石原辺之絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永4[1851]改"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/本所、深川（第六大区）/本所/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 色刷；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "[近吾堂]近江屋吾平"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0471-10/東0471-010"
+        },
+        {
+            "label": "題名",
+            "value": "北本所中之郷石原辺之絵図"
+        },
+        {
+            "label": "題名",
+            "value": "キタホンジョ　ナカノゴウ　イシハラ　アタリ　ノ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽）改正北本所中ノ郷石原邊圖　全"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［近吾堂板切絵図　29］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "キンゴドウバン　キリエズ　29"
+        },
+        {
+            "label": "大きさ",
+            "value": "42.9×59.9cm"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "編者等",
+            "value": "村上吾雄誌"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011-2大規模企画展『江戸の町づくり』リーフレットp.8「現在の墨田区吾妻橋、東駒形、本所、石原、亀沢、横網あたりの絵図です。大名と御家人の武家屋敷、町屋、寺院が混在している地域です。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042376",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e3345cb6cd47f79e006cec26a8e9a829.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e3345cb6cd47f79e006cec26a8e9a829.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e3345cb6cd47f79e006cec26a8e9a829.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e3345cb6cd47f79e006cec26a8e9a829.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

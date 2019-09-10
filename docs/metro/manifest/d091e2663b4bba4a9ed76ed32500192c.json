@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d091e2663b4bba4a9ed76ed32500192c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治３７（1904）"
+        },
+        {
+            "label": "分類",
+            "value": "皇室/明治天皇付明治史/維新以後の各戦役/日露戦争/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；3枚続きの右図（中･左欠）；；；；；絵師、出版年、版元名は『近世錦絵世相史』第8巻による；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "秋山　武右衛門"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "1598-C4-1/東C1598-C004-001"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「三月十日旅順口彼我駆逐艦の接戦に我漣艦の一等水兵敵艦に躍り入り艦長目がけて大喝一声帯剣を振り翳して真甲より斬下げ足ヲ飛して海中ニ蹴落したり」"
+        },
+        {
+            "label": "件名",
+            "value": "右田年英（ミギタ　トシヒデ）（1863-1925）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「日露交戦紀聞」"
+        },
+        {
+            "label": "画題等",
+            "value": "ニチロ　コウセン　キブン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "右田年英"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009528",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d091e2663b4bba4a9ed76ed32500192c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d091e2663b4bba4a9ed76ed32500192c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2796,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d091e2663b4bba4a9ed76ed32500192c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d091e2663b4bba4a9ed76ed32500192c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009528&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1598-C004-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2796,
+                                "width": 1896
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009528&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1598-C004-001.jpg"
+                    },
+                    "width": 1896
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009528&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1598-C004-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

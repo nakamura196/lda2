@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8256df8936b078f4bd364be16c63c4a0.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/風俗史及資料/明治以後の風俗、流行/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵貼込帖「三越このみ都のにしき」所収；個別題は目録による；；；；；1帖；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京市日本橋区室町三丁目九番地　秋山武右衛門（こっけい堂・印）"
+        },
+        {
+            "label": "版元",
+            "value": "秋山 武右衛門"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0717-3(9)/東0717-003(009)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "英文題：「Ｔｈｅ　Ｓｅａｓｏｎｓ　ａｎｄ　ｔｈｅｉｒ　ｆａｓｈｉｏｎｓ．」「9､Ａｕｔｕｍｎ　Ａ　ｂｒｉｇｈｔ　ｔｉｎｔ　ｏｆ　ｍａｐｌｅ　ｆｏｌｉａｇｅ」"
+        },
+        {
+            "label": "件名",
+            "value": "水野年方（ミズノ　トシカタ）（1866-1872）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「三越好都のにしき」「〔紅葉狩〕」"
+        },
+        {
+            "label": "画題等",
+            "value": "ミツイゴノミ　ミヤコ　ノ　ニシキ　モミジガリ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "水野年方"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "年方（「蕉雪」印）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "印刷山田"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00008377",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8256df8936b078f4bd364be16c63c4a0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8256df8936b078f4bd364be16c63c4a0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1884,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8256df8936b078f4bd364be16c63c4a0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8256df8936b078f4bd364be16c63c4a0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00008377&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0717-003-09.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1884,
+                                "width": 2580
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00008377&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0717-003-09.jpg"
+                    },
+                    "width": 2580
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00008377&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0717-003-09.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

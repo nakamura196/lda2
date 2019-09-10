@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a073e4e0ad988f3a89294327ed457cc.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板道中双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化頃"
+        },
+        {
+            "label": "分類",
+            "value": "一般/隣接街道（五街道、付金沢街道、富士山）/東海道//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "13.0×17.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "061-S27/東S061-S027"
+        },
+        {
+            "label": "題名",
+            "value": "新板道中双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ドウチュウ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川広重"
+        },
+        {
+            "label": "作者・画工",
+            "value": "廣重"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "三河屋"
+        },
+        {
+            "label": "資料解説",
+            "value": "『江戸時代特別資料展』図録解説p.3、p.7「（p.3）当館約780点の双六中最小のもの。箱根<手がたをわすれ江戸へかえる>しまだ<大井川川どめにて一日逗留>とあり、実際に使用できる。，（p.7）｢新板道中雙六｣は当館で最小の双六で、ミニチュア愛玩用として親しまれたものと思われる。勿論遊ぶこともできる。）」，『双六』図録解説p.5「当館所蔵中最も小さい双六。名主｢田中｣の改印は通常の大きさなので､後の縮小版ではないようだ。携帯用としても必要以上に小さいので、むしろ玩弄用ミニチュアと思われる。齣ごとの絵は略筆で小さいながら、その地の風景、名物をそれらしく描き独特の味がある。｢箱根｣には｢手がたをわすれ江戸へかへる｣、｢しまだ｣には｢大井川川どめにて一日とうりう」などと書き込まれており、実際に遊ぶことも出来るようだ。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000084",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a073e4e0ad988f3a89294327ed457cc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a073e4e0ad988f3a89294327ed457cc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1868,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0a073e4e0ad988f3a89294327ed457cc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0a073e4e0ad988f3a89294327ed457cc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000084&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S027.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1868,
+                                "width": 2428
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000084&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S027.jpg"
+                    },
+                    "width": 2428
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000084&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S027.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

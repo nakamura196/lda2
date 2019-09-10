@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4a2eb8ffc5be1f63ef9290ccc7a814be.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）皇太后宮御休所・宮御殿軒詳細図（軒付）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「皇后宮常御殿　皇太后宮御休所　御小座敷　御文庫　御霊代ノ間　皇后宮常御殿ヨリ申口其他取合廊下」/「皇太后御休所」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×39.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木96-3-12/木096-3-012"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）皇太后宮御休所・宮御殿軒詳細図（軒付）"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　コウタイゴウグウ　オヤスミドコロ　ミヤゴテン　ノキ　ショウサイズ　ノキズケ"
+        },
+        {
+            "label": "題名",
+            "value": "「皇太后宮御休所  宮御殿  軒付二分壱ノ圖」「第弐十六号  軒付長延百九拾八尺三寸  第三拾六号  軒付長延弐百八拾尺」（内題）"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治17年&nbsp;8月24日"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:2"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00061032",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4a2eb8ffc5be1f63ef9290ccc7a814be.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4a2eb8ffc5be1f63ef9290ccc7a814be.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4a2eb8ffc5be1f63ef9290ccc7a814be.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4a2eb8ffc5be1f63ef9290ccc7a814be.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00061032&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI096-003-012.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00061032&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI096-003-012.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00061032&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI096-003-012.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

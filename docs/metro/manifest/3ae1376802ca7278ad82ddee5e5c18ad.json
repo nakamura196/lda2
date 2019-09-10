@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae1376802ca7278ad82ddee5e5c18ad.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治"
+        },
+        {
+            "label": "分類",
+            "value": "一般/一般/新聞紙、画報/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "日本橋元大工町"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "008-29-33/東008-029-033"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「転々堂藍泉記」"
+        },
+        {
+            "label": "件名",
+            "value": "小林永濯（コバヤシ　エイタク）（1843-1890）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「各種新聞図解の内」「第十四」「郵便報知新聞」「第五百九十八号」"
+        },
+        {
+            "label": "画題等",
+            "value": "カクシュ　シンブン　ズカイ　ノ　ウチ　ダイジュウサン　ユウビン　ホウチ　シンブン　ダイゴヒャクキュウジュウハチゴウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "小林永濯"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "鮮斎永濯"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007166",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae1376802ca7278ad82ddee5e5c18ad.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae1376802ca7278ad82ddee5e5c18ad.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2797,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3ae1376802ca7278ad82ddee5e5c18ad.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3ae1376802ca7278ad82ddee5e5c18ad.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007166&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-33.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2797,
+                                "width": 1845
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007166&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-33.jpg"
+                    },
+                    "width": 1845
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007166&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-33.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

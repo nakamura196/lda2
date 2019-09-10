@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0ecd1a07dfe866166713ecf746609160.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「明治六年春改正　高名三幅対」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "明治6年春改正"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "内47.6×35.6cm（外69.7×44cm）"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；軸物；東花堂板；；；"
+        },
+        {
+            "label": "版元",
+            "value": "東花堂"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "214-D1/東D214-D001"
+        },
+        {
+            "label": "題名",
+            "value": "「明治六年春改正　高名三幅対」"
+        },
+        {
+            "label": "題名",
+            "value": "メイジロクネンハルカイセイ　コウミョウサンプクツイ"
+        },
+        {
+            "label": "題名",
+            "value": "（表紙題簽）「高名三幅対」"
+        },
+        {
+            "label": "題名",
+            "value": "コウミョウサンプクツイ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00040960",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0ecd1a07dfe866166713ecf746609160.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0ecd1a07dfe866166713ecf746609160.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0ecd1a07dfe866166713ecf746609160.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0ecd1a07dfe866166713ecf746609160.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040960&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F214-D001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040960&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F214-D001.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040960&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F214-D001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

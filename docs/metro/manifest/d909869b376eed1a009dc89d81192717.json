@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d909869b376eed1a009dc89d81192717.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板都路入東海道五十三駅道中双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "（明治）"
+        },
+        {
+            "label": "分類",
+            "value": "一般/隣接街道（五街道、付金沢街道、富士山）/東海道//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.0×50.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "061-S29/東S061-S029"
+        },
+        {
+            "label": "題名",
+            "value": "新板都路入東海道五十三駅道中双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ミヤコジイリ　トウカイドウ　ゴジュウサンツギ　ドウチュウ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(歌川)芳藤"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "辻岡屋亀治良"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.4「同じく日本橋から京への東海道双六であるが､名所旧跡を尋ねたり海路をとるなど脇道があり､丸花型のある宿では渡し賃･賽銭･名物の代金などを支払うような工夫を凝らしている。道中双六が盛んに行われ､宿駅を辿るだけでは飽き足らなくなった様子が感じられる。遊び方の十分わからないこうした新趣向の双六には､説明の書かれた袋などが付いていたものと思われる。色摺で刊年が明確な双六としては、当舘ではこれが最も古いところである。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000086",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d909869b376eed1a009dc89d81192717.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d909869b376eed1a009dc89d81192717.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5163,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d909869b376eed1a009dc89d81192717.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d909869b376eed1a009dc89d81192717.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000086&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S029.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5163,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000086&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S029.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000086&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F061-S029.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

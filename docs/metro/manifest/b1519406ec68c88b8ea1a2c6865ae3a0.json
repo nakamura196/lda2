@@ -1,0 +1,115 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "浄土双陸（写）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "仏教/宗派/総記//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "72.0×51.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "模寫･蜂屋茂橘；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2933/特2933"
+        },
+        {
+            "label": "題名",
+            "value": "浄土双陸（写）"
+        },
+        {
+            "label": "題名",
+            "value": "ジョウド　スゴロク　ウツシ"
+        },
+        {
+            "label": "資料解説",
+            "value": "2006文化財ウィーク（41）「浄土双六は、江戸時代中期から庶民の遊びとして登場した「絵双六(えすごろく)」の最初のものといわれている。画面をいくつもの線でくぎり、画面上部には「上り」として極楽浄土、下部には地獄が描かれている。それぞれのコマには、弁才天、大黒、閻魔王などのほか、「山姥」、「かっぱ」、「ぬらりひょん」などの妖怪の絵が並んでいる。画面左上に貼付された紙片には、蜂屋茂橘(はちやもきつ)（1795－1873）による考証が行われ、左欄外の朱書からは、蜂屋が天保14年（1843）1月29日に、「大野氏」所蔵の木版の双六をその隣人の海野氏から借用して模写したものとわかる。蜂屋茂橘は、江戸時代の国学者、随筆家で椎園と号した。なお、原資料との比較のために、複製パネルを展示した。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000834",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000834&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK2933A.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4295
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000834&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK2933A.jpg"
+                    },
+                    "width": 4295
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b1519406ec68c88b8ea1a2c6865ae3a0.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000834&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK2933B.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4277
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000834&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK2933B.jpg"
+                    },
+                    "width": 4277
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000834&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FTK2933A.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

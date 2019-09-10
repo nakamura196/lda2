@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/06872d8ee06c7f3527d852407809f60a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "狂詠江戸のはな",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "一般/江戸/名所、品物//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "51.0×74.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "026-S1/東S026-S001"
+        },
+        {
+            "label": "題名",
+            "value": "狂詠江戸のはな"
+        },
+        {
+            "label": "題名",
+            "value": "キョウエイ　エド　ノ　ハナ"
+        },
+        {
+            "label": "作者・画工",
+            "value": "薫斎"
+        },
+        {
+            "label": "作者・画工",
+            "value": "北渓、国貞ほか"
+        },
+        {
+            "label": "作者・画工",
+            "value": "北渓、國貞他"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.9「日本橋の曙をふり出し、吉原の桜で上る江戸の名物双六である。全41齣のうち食物関係が26齣を占めているのは、江戸繁栄の1つの姿であろうが、おそらくは宣伝費を負担していよう。狂歌師･俳諧者･画工を合せて56人という多数が名を連ねている。上りに｢76翁秋長堂｣と見える。秋長堂は狂歌師河井物梁（かわいものやな）の堂号で、天保3年の序のある『彼賀古登集』に｢七十二叟｣とあるから、この双六の年代は一応天保7年ということになる。しかし、版面全体に字体や墨付のむらがあり､花笠文京の名も見えるなど、不審な点が多い。この双六も展示資料47･48のように絵以外の部分などに埋木を施し、しかも更に後の摺りと見られる。題字は幕末の書家で草書を善くした松本菫斎の手になるが、題名も変えているであろう。このような問題は含むが、天保後期-嘉永初期頃の江戸の一面を映す双六ではある。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000030",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/06872d8ee06c7f3527d852407809f60a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/06872d8ee06c7f3527d852407809f60a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4669,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/06872d8ee06c7f3527d852407809f60a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/06872d8ee06c7f3527d852407809f60a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000030&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F026-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4669,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000030&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F026-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000030&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F026-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

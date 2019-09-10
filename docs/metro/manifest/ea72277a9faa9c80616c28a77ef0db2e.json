@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ea72277a9faa9c80616c28a77ef0db2e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "本郷名所案内寿語録",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "（明治）"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/本郷、小石川（第四大区）/本郷/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.0×52.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0451-S1/東S0451-S001"
+        },
+        {
+            "label": "題名",
+            "value": "本郷名所案内寿語録"
+        },
+        {
+            "label": "題名",
+            "value": "ホンゴウ　メイショ　アンナイ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "玉潤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "玉潤"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "本郷カネヤス"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000047",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ea72277a9faa9c80616c28a77ef0db2e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ea72277a9faa9c80616c28a77ef0db2e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5038,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ea72277a9faa9c80616c28a77ef0db2e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ea72277a9faa9c80616c28a77ef0db2e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000047&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0451-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5038,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000047&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0451-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000047&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0451-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

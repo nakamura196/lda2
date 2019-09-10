@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d87eab90bc50db1526c831f1627649.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０３（1856）08・"
+        },
+        {
+            "label": "分類",
+            "value": "武者絵////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "蔦屋　吉蔵"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "H019-1/東H019-001"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川芳春（ウタガワ　ヨシハル）（1828-1888）"
+        },
+        {
+            "label": "改印等",
+            "value": "改、辰八"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「武勇高名組討撰」 「斉藤実盛」「手塚太郎」"
+        },
+        {
+            "label": "画題等",
+            "value": "ブユウ　コウメイ　クミウチゾロエ　サイトウ　サネモリ　テズカ　タロウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川芳晴"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一梅齋芳晴画"
+        },
+        {
+            "label": "画の内容",
+            "value": "『源平盛衰記』巻第三十"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00012384",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d87eab90bc50db1526c831f1627649.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d87eab90bc50db1526c831f1627649.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2732,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72d87eab90bc50db1526c831f1627649.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/72d87eab90bc50db1526c831f1627649.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012384&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH019-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2732,
+                                "width": 1832
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012384&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH019-001.jpg"
+                    },
+                    "width": 1832
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012384&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH019-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

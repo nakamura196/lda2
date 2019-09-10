@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/df4de1102f47f5eeee0d29920b136c52.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "春興はりませ寿古ろく",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/春/正月の市中の情景（春をも含む）/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "74.0×75.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0753-S1/東S0753-S001"
+        },
+        {
+            "label": "題名",
+            "value": "春興はりませ寿古ろく"
+        },
+        {
+            "label": "題名",
+            "value": "シュンキョウ　ハリマゼ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川広重（2代か）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一立齋(歌川)廣重(二代か)"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "平野屋"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000150",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/df4de1102f47f5eeee0d29920b136c52.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/df4de1102f47f5eeee0d29920b136c52.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5559,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/df4de1102f47f5eeee0d29920b136c52.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/df4de1102f47f5eeee0d29920b136c52.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000150&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0753-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5559,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000150&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0753-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000150&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0753-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

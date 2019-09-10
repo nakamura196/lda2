@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c41fa55d5dc171b4d9348e7b8bb69ad1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板鳥羽画忠臣蔵飛廻双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/漫画、大津絵、狂画/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.0×49.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5247-S7/東S5247-S007"
+        },
+        {
+            "label": "題名",
+            "value": "新板鳥羽画忠臣蔵飛廻双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　トバエ　チュウシングラ　トビマワリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一二三斎"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一二三齋"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "柏屋宗七（京）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000437",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c41fa55d5dc171b4d9348e7b8bb69ad1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c41fa55d5dc171b4d9348e7b8bb69ad1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c41fa55d5dc171b4d9348e7b8bb69ad1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c41fa55d5dc171b4d9348e7b8bb69ad1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000437&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S07.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000437&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S07.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000437&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S07.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7736b1eb92202729b6176df8449d9032.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "源氏かるた絵合",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治21年11月"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/文集/平安朝/源氏物語/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "4574-S16/東S4574-S016"
+        },
+        {
+            "label": "題名",
+            "value": "源氏かるた絵合"
+        },
+        {
+            "label": "題名",
+            "value": "ゲンジ　カルタ　エアワセ"
+        },
+        {
+            "label": "作者・画工",
+            "value": "彫竹"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "前田屋喜兵衛"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000411",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7736b1eb92202729b6176df8449d9032.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7736b1eb92202729b6176df8449d9032.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7736b1eb92202729b6176df8449d9032.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7736b1eb92202729b6176df8449d9032.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000411&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4574-S16.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000411&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4574-S16.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000411&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4574-S16.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

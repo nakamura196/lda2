@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb58c4024a3eb8925c1013afd26cb820.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "日枝神社社殿立面図（側面）（明治22.3）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "林宗栄図集清敬/神社林家平野神社松尾神社林準次郎宗栄実測///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26×71cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木28-3-41/木028-3-41"
+        },
+        {
+            "label": "題名",
+            "value": "日枝神社社殿立面図（側面）（明治22.3）"
+        },
+        {
+            "label": "題名",
+            "value": "ヒエ　ジンジャ　シャデン　リツメンズ　ソクメン　メイジ　２２　３"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「東亰日枝神社五拾分一畧図 別紙木口地之間指図有之可見合」，「明治廿二年三月 林準次郎宗榮寫之」，（裏面：明治宮殿聖上常御殿棟包断面詳細図）「明治十八年五月廿三日 是ハ旧西丸ニ宮城御造営之節 主上常御殿棟包下堅メ之不用図也 但拾分一」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治22"
+        },
+        {
+            "label": "家名・人名",
+            "value": "林宗栄"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:50"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044405",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb58c4024a3eb8925c1013afd26cb820.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb58c4024a3eb8925c1013afd26cb820.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2571,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb58c4024a3eb8925c1013afd26cb820.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cb58c4024a3eb8925c1013afd26cb820.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044405&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI028-003-041.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2571,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044405&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI028-003-041.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044405&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI028-003-041.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

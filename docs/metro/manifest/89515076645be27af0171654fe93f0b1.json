@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/89515076645be27af0171654fe93f0b1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「日本二千年袖鑑　十九　嘉永四亥年大新板改」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "重宣／画"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/滑稽文学/見立番附其他見立類////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "18.0×23.1cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；番付の貼込帖，「楽草紙　春」所収；目録の書名：楽草紙　春；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東都　通油町　松林堂　藤岡屋慶次郎板"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-3-1(21)/東448-003-001(21)"
+        },
+        {
+            "label": "題名",
+            "value": "「日本二千年袖鑑　十九　嘉永四亥年大新板改」"
+        },
+        {
+            "label": "題名",
+            "value": "［二ホンニセンネンソデカガミ　ジュウキュウ　カエイヨンイドシダイシンパンアラタメ］"
+        },
+        {
+            "label": "題名",
+            "value": "「楽草紙　春」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［タノシミソウシ　ハル］"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "画中文字",
+            "value": "楽草紙 春"
+        },
+        {
+            "label": "作者カナ",
+            "value": "シゲノブ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041408",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/89515076645be27af0171654fe93f0b1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/89515076645be27af0171654fe93f0b1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/89515076645be27af0171654fe93f0b1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/89515076645be27af0171654fe93f0b1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041408&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-003-01%2821%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041408&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-003-01%2821%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041408&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-003-01%2821%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

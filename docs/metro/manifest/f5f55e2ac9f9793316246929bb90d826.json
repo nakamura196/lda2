@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5f55e2ac9f9793316246929bb90d826.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "天保"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/日本橋、京橋（第一大区）/日本橋/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；後摺 「竹内」「保永堂版」の印はあれども、傘の文字が、「伊勢利」「林」「池中」に変わっている。日の出はなし。落款削去。；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "林"
+        },
+        {
+            "label": "版元",
+            "value": "伊勢屋　利兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0421-C55/東C0421-C055"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "渓斎英泉（ケイサイ　エイセン）（1791-1848）"
+        },
+        {
+            "label": "改印等",
+            "value": "後摺"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「木曾街道續ノ壹　日本橋雪ノ曙」 「第壹」"
+        },
+        {
+            "label": "画題等",
+            "value": "キソ　カイドウ　ツズキ　ノ　イチ　ニホンバシ　ユキ　ノ　アケボノ　ダイイチ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "英泉"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "-"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007678",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5f55e2ac9f9793316246929bb90d826.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5f55e2ac9f9793316246929bb90d826.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4724,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5f55e2ac9f9793316246929bb90d826.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f5f55e2ac9f9793316246929bb90d826.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007678&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0421-C055.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4724,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007678&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0421-C055.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007678&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0421-C055.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

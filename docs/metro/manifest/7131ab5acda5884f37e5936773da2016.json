@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7131ab5acda5884f37e5936773da2016.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板蝦夷土産道中寿五六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/日本地誌/北海道、樺太//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "38.0×51.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "947-S1/東S947-S001"
+        },
+        {
+            "label": "題名",
+            "value": "新板蝦夷土産道中寿五六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　エゾ　ミヤゲ　ドウチュウ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "松浦武四郎"
+        },
+        {
+            "label": "作者・画工",
+            "value": "多氣志楼主人"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000739",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7131ab5acda5884f37e5936773da2016.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7131ab5acda5884f37e5936773da2016.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4872,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7131ab5acda5884f37e5936773da2016.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7131ab5acda5884f37e5936773da2016.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000739&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F947-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4872,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000739&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F947-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000739&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F947-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

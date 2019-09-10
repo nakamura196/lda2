@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/be9861e6e962a1a696a24f9120956b91.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "年代不明"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "伊勢辰板"
+        },
+        {
+            "label": "版元",
+            "value": "伊勢辰"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "576-C1-1/東C576-C001-001"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "上演場所",
+            "value": "江戸"
+        },
+        {
+            "label": "上演年",
+            "value": "年代不明（）・"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国綱（ウタガワ　クニツナ）"
+        },
+        {
+            "label": "役名・役者",
+            "value": "国姓爺（8代）市川　団十郎"
+        },
+        {
+            "label": "改印等",
+            "value": "－"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「新板芝居道具づくし」"
+        },
+        {
+            "label": "画題等",
+            "value": "シンパン　シバイ　ドウグ　ズクシ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国綱"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "国綱画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00011820",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/be9861e6e962a1a696a24f9120956b91.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/be9861e6e962a1a696a24f9120956b91.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/be9861e6e962a1a696a24f9120956b91.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/be9861e6e962a1a696a24f9120956b91.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011820&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F576-C001-01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1646,
+                                "width": 1112
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011820&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F576-C001-01.jpg"
+                    },
+                    "width": 1112
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011820&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F576-C001-01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

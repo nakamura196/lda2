@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e78030d30691e38b67773fb1432fd000.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "紙鴟登天上双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永頃"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/春/正月の市中の情景（春をも含む）/鳥追"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "65.0×46.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "07534-S2/東S07534-S002"
+        },
+        {
+            "label": "題名",
+            "value": "紙鴟登天上双六"
+        },
+        {
+            "label": "題名",
+            "value": "イカノボリ　テンジョウ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "万亭応賀"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一鵬齋芳藤"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "辻岡屋文助"
+        },
+        {
+            "label": "資料解説",
+            "value": "『子供の遊び』図録解説p.3「ふり出しから29場面に、23種の凧を描き、引掛りや、子供の雁木による妨害を乗りこえ、文字通り春風に吹きあげられて、雲上へ昇るという趣向の双六。凧どもが勝手なごたくを並べ、鯰や行燈、スルメのような烏賊（いか）凧など異色で面白い。凧については『和名類聚抄』に紙老鴟（しろうし）（師労之）とあり『和漢三才図会』には、いかのぼり、風筝（ふうそう）、烏賊（いか）、章魚（たこ）などの名称がみえ、さらに中国の漢時代にその起源があったと記されている。『安斎随筆』に｢イカノボリ京ノ詞也。江戸ニテタコト云」とみえ、古くは鳶の形に作り、後世さまざまな形のものが作られ、長い足をつけた形が烏賊や鮹魚（たこ）に似ているところからイカノボリまたはタコと呼ばれたと記している。また『物類称呼』には、各地における呼称が列記されている。芳藤は国芳の門人で、作画期は幕末から明治にわたり、特におもちゃ絵で知られている。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000155",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e78030d30691e38b67773fb1432fd000.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e78030d30691e38b67773fb1432fd000.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e78030d30691e38b67773fb1432fd000.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e78030d30691e38b67773fb1432fd000.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000155&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07534-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000155&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07534-S002.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000155&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F07534-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff136b958df13e10e90fc18bab5f4af3.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "文久新鐫八町堀細見絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "文久2[1862]"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/日本橋、京橋（第一大区）/京橋/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 無彩；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "金鱗堂尾張屋清七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0422-12ア/東0422-012ア"
+        },
+        {
+            "label": "題名",
+            "value": "文久新鐫八町堀細見絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ブンキュウ　シンセン　ハッチョウボリ　サイケン　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽（書））八丁堀"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［尾張屋板切絵図］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "オワリヤバン　キリエズ"
+        },
+        {
+            "label": "大きさ",
+            "value": "32.4×61.7cm"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011-2大規模企画展『江戸の町づくり』リーフレットp.11「八丁堀の部分だけを拡大して人名を詳細に記入したものです。南北両組の与力・同心の組屋敷は、八丁堀を中心とした地域にありました。南北それぞれ25人の与力の屋敷は合計で1万5千坪あまり、1人当たりの屋敷は250坪から350坪ぐらいであったそうです。また、同心は南北それぞれ100人で1人あたりの屋敷は100坪あまりであったということです。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042264",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff136b958df13e10e90fc18bab5f4af3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff136b958df13e10e90fc18bab5f4af3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4081,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff136b958df13e10e90fc18bab5f4af3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ff136b958df13e10e90fc18bab5f4af3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042264&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0422-012a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4081,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042264&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0422-012a.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042264&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0422-012a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

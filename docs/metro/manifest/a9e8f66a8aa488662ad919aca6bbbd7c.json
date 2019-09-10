@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a9e8f66a8aa488662ad919aca6bbbd7c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "東京善悪振分双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "（明治）"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/心理、倫理/修養教訓、金言集//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "373-S2/東S373-S002"
+        },
+        {
+            "label": "題名",
+            "value": "東京善悪振分双六"
+        },
+        {
+            "label": "題名",
+            "value": "トウキョウ　ゼンアク　フリワケ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "よし藤"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "古河屋勝五郎"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000318",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a9e8f66a8aa488662ad919aca6bbbd7c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a9e8f66a8aa488662ad919aca6bbbd7c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4505,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a9e8f66a8aa488662ad919aca6bbbd7c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a9e8f66a8aa488662ad919aca6bbbd7c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000318&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F373-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4505,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000318&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F373-S002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000318&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F373-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a42ad62c726710a6a28b812a8dd158f1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１８（1885）02・15"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/各藩、各家　/浅野刀傷事件//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "武川清吉　本シロカネ丁ニ丁メ十二バンチ"
+        },
+        {
+            "label": "版元",
+            "value": "武川　清吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "258-C11-2/東C258-C011-002"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「散はなのこすゑにかへる心かなみねのあらしの雪の明かた　常緑」"
+        },
+        {
+            "label": "件名",
+            "value": "河鍋暁斎（カワナベ　キョウサイ）（1831-1889），忠臣蔵"
+        },
+        {
+            "label": "改印等",
+            "value": "明治十八年二月十五日御届"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「元禄日本錦」「こ」「杦野十平二次房」「そ」「早水藤左エ門満尭」"
+        },
+        {
+            "label": "画題等",
+            "value": "ゲンロク　ヤマトニシキ　コ　コスギノ　ジュウベエ　ジツギフサ　ソ　ハヤミ　トウザエモン　ミツタカ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "河鍋暁斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "応需 惺々入道暁斎画(「如空」印)"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "ホリ銀"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009786",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a42ad62c726710a6a28b812a8dd158f1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a42ad62c726710a6a28b812a8dd158f1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2851,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a42ad62c726710a6a28b812a8dd158f1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a42ad62c726710a6a28b812a8dd158f1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009786&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F258-C011-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2851,
+                                "width": 1887
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009786&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F258-C011-002.jpg"
+                    },
+                    "width": 1887
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009786&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F258-C011-002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

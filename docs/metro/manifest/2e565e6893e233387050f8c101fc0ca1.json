@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2e565e6893e233387050f8c101fc0ca1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化０４（1847）"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4726-19/加04726-019"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "◆黔婁（ゆきんろう）　古郷（ふるさと）をはなれとほき縣（あがた）の令（やくにん）となりいまだ十日ならざるに父（ちゝ）の病（やまひ）発（はつ［ママ］）る時（をり）俄（にはか）に心驚（おどろ）き身に汗（あせ）すること夥（おびたゞ）し是たゞことにあらず父の身に?（こと）［ある］ならんと察（さつ）し官（くわん）を辞（じ）し速（すみやか）に家（いへ）にかへればはたして然（しかり）かくて医（い）の曰病者（ひやうしや）の大便（だいべん）を嘗（なめ）て味（あじは）ひ苦（にが）ければ愈（いゆ）べし甜（あま）ければ愈（いゆ）"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国芳（ウタガワ　クニヨシ）（1797-1862）"
+        },
+        {
+            "label": "改印等",
+            "value": "村田、米良"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「唐土廿四孝」「◆（まだれに由又）黔婁」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウド　ニジュウシコウ　ユキンロウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一勇斎国芳画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019715",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2e565e6893e233387050f8c101fc0ca1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2e565e6893e233387050f8c101fc0ca1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2540,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2e565e6893e233387050f8c101fc0ca1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2e565e6893e233387050f8c101fc0ca1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019715&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-019.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2540,
+                                "width": 1760
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019715&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-019.jpg"
+                    },
+                    "width": 1760
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019715&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA4726-019.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/16ae2fb8f9e9303b8c3bfce6cc5bfaf2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治"
+        },
+        {
+            "label": "分類",
+            "value": "江戸地誌/東京/名所、案内記、写真帖////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；井上安治（探景）の通称「東京真画名所図解」と呼ばれる光線画の一連の作品を貼り合わせたもの，78点；書名は後補題簽による；；；刊；折本；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "福田　熊次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "035-51-1/東035-051-001"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "井上安治（イノウエ　ヤスジ）（1864-1889）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "四ツ切/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「御城二重橋ノ景」"
+        },
+        {
+            "label": "画題等",
+            "value": "サンジュウロッカセン　トウト　コガネイ　サクラ　ゴ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "井上安治（探景）"
+        },
+        {
+            "label": "資料解説",
+            "value": "『明治前期の東京』図録解説p.11「特に名所の夜景をシルエット風に描いた作品が多く、開化当初の東京の新旧の風景を描き、明治十八年の両国花火･神田大火も題材にされているが、全体は明治十年代後半の作と伝えられる。　井上探景画　刊　横小一冊」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007615",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/16ae2fb8f9e9303b8c3bfce6cc5bfaf2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/16ae2fb8f9e9303b8c3bfce6cc5bfaf2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2256,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/16ae2fb8f9e9303b8c3bfce6cc5bfaf2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/16ae2fb8f9e9303b8c3bfce6cc5bfaf2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007615&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-051-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2256,
+                                "width": 3068
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007615&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-051-001.jpg"
+                    },
+                    "width": 3068
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007615&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-051-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

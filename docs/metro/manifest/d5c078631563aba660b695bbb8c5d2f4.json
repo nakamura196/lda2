@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d5c078631563aba660b695bbb8c5d2f4.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「しんはん　生類せり合問答[見立]　三編」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永5"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.5×23.4cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-1-5(21)/東448-001-005(21)"
+        },
+        {
+            "label": "題名",
+            "value": "「しんはん　生類せり合問答[見立]　三編」"
+        },
+        {
+            "label": "題名",
+            "value": "「シンハン　シヤウルイセリアイモンドウミタテ　サンヘン」［シンハン　ショウルイセリアイモンドウミタテ　サンヘン］"
+        },
+        {
+            "label": "題名",
+            "value": "「吾妻美屋け　五編　全」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［アヅマミヤゲ　ゴヘン　ゼン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "吾妻美屋げ　五編"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041306",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d5c078631563aba660b695bbb8c5d2f4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d5c078631563aba660b695bbb8c5d2f4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d5c078631563aba660b695bbb8c5d2f4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d5c078631563aba660b695bbb8c5d2f4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

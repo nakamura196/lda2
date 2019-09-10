@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee8ca1703de21ac6a23bb2b9dd935c14.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板魚鱗飛双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "31.0×44.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "墨摺；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6546/加06546"
+        },
+        {
+            "label": "題名",
+            "value": "新板魚鱗飛双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ギョリン　トビスゴロク"
+        },
+        {
+            "label": "出版地",
+            "value": "京都"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "墨屋吉兵衛（京）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000764",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee8ca1703de21ac6a23bb2b9dd935c14.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee8ca1703de21ac6a23bb2b9dd935c14.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5018,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee8ca1703de21ac6a23bb2b9dd935c14.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ee8ca1703de21ac6a23bb2b9dd935c14.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000764&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6546.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5018,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000764&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6546.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000764&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6546.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

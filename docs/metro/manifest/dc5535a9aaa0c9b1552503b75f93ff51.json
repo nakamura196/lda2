@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc5535a9aaa0c9b1552503b75f93ff51.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新版源平振分大双六　武者揃",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/合伝/肖像、銅像（集）像伝//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "44.0×59.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "212-S5/東S212-S005"
+        },
+        {
+            "label": "題名",
+            "value": "新版源平振分大双六　武者揃"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ゲンペイ　フリワケ　オオスゴロク　ムシャゾロエ"
+        },
+        {
+            "label": "作者・画工",
+            "value": "溪斎英泉"
+        },
+        {
+            "label": "作者・画工",
+            "value": "渓斎英泉"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "山城屋又兵衛"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000265",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc5535a9aaa0c9b1552503b75f93ff51.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc5535a9aaa0c9b1552503b75f93ff51.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5028,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc5535a9aaa0c9b1552503b75f93ff51.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dc5535a9aaa0c9b1552503b75f93ff51.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000265&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F212-S005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5028,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000265&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F212-S005.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000265&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F212-S005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

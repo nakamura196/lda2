@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/23c812bf1f559f3914832eaa62eabb09.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "増補改正飯田町駿河台小川町絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永2[1849]/文久3[1863]改正"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/麹町､神田/神田/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 無彩；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "[金鱗堂]尾張屋清七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0412-11/東0412-011"
+        },
+        {
+            "label": "題名",
+            "value": "増補改正飯田町駿河台小川町絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ゾウホ　カイセイ　イイダマチ　スルガダイ　オガワマチ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽）小川町駿河臺"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［尾張屋板切絵図　4］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "オワリヤバン　キリエズ　4"
+        },
+        {
+            "label": "大きさ",
+            "value": "34.7×68.3cm"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042244",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/23c812bf1f559f3914832eaa62eabb09.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/23c812bf1f559f3914832eaa62eabb09.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3631,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/23c812bf1f559f3914832eaa62eabb09.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/23c812bf1f559f3914832eaa62eabb09.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042244&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0412-011.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3631,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042244&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0412-011.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042244&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0412-011.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

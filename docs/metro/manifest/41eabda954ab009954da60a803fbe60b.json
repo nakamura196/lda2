@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/41eabda954ab009954da60a803fbe60b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "名所/園芸///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；『絵本江戸桜』（享和3刊）の中の１葉；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "820-C1/東C820-C001"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "花屋の伊兵衛といふ/つゝじを植しおびたゝし/花のころハ貴賤群集す/其外千草万木かずをつくすことなし/江都第一の植木屋なり/上ゝ方の御植木鉢植など大かた此ところよりさゝぐること毎日々々なり/"
+        },
+        {
+            "label": "件名",
+            "value": "北尾政美（キタオ　マサヨシ）（1764-1824）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "小判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「染井之植木屋」"
+        },
+        {
+            "label": "画題等",
+            "value": "ソメイ　ノ　ウエキヤ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "北尾政美"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00055202",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/41eabda954ab009954da60a803fbe60b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/41eabda954ab009954da60a803fbe60b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2492,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/41eabda954ab009954da60a803fbe60b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/41eabda954ab009954da60a803fbe60b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00055202&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F820-C001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2492,
+                                "width": 1700
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00055202&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F820-C001.jpg"
+                    },
+                    "width": 1700
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00055202&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F820-C001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

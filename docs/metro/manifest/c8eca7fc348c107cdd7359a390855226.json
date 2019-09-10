@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8eca7fc348c107cdd7359a390855226.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０２（1855）"
+        },
+        {
+            "label": "分類",
+            "value": "鯰絵、一般/江戸/災異－地震/安政２年/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "-"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0277-C37/東C0277-C037"
+        },
+        {
+            "label": "画中文字",
+            "value": "「一此たびわたくしハ千年からくに／＼をなやめ鹿島様へたび／＼わび入こんど又大江戸をらんぼふニいすぶり家蔵をたほし人をおふくつぶしもふこんどわ申わけなく出家いたし諸國かい國に出るところい又此せつ金もふけの人がけさ衣をもつて一どふのたのみにはなにもをどけのためだから百万べんをしてくだされとゆふからいたします南無阿弥陀佛／＼なますた／＼／＼／＼」"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「じしん百万遍」"
+        },
+        {
+            "label": "画題等",
+            "value": "ジシン　ヒャクマンベン"
+        },
+        {
+            "label": "災害名称",
+            "value": "安政の大地震（1855年）"
+        },
+        {
+            "label": "災害年代",
+            "value": "江戸"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007477",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8eca7fc348c107cdd7359a390855226.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8eca7fc348c107cdd7359a390855226.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c8eca7fc348c107cdd7359a390855226.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c8eca7fc348c107cdd7359a390855226.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007477&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C037.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007477&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C037.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007477&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C037.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

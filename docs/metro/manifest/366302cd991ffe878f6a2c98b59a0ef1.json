@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/366302cd991ffe878f6a2c98b59a0ef1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "知恩寺本師堂・勢至堂平面図（青木良孝か）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "泉涌寺泉山法隆寺相国寺知恩寺御影堂増上寺山門光明寺山門東福寺山門男山八幡北野平野神社松尾神社鴨神社山王八阪杜神楽岡斎場/知恩寺勢至堂正面、側面本師堂勢至堂平面二葉///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "36.5×64.5cm、台紙39.5×66cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木27-16-2/木027-16-02"
+        },
+        {
+            "label": "題名",
+            "value": "知恩寺本師堂・勢至堂平面図（青木良孝か）"
+        },
+        {
+            "label": "題名",
+            "value": "チオンジ　ホンシドウ　セイシドウ　ヘイメンズ　アオキ　ヨシタカカ"
+        },
+        {
+            "label": "題名",
+            "value": "（外題）「長徳山 大師堂 知恩寺 勢至堂 平面図」，（内題）「山城國愛宕郡田中村浄土宗四ヶ本地之内 長徳山知恩寺本師堂百分壱之図」）「知恩寺勢至堂」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:100"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044254",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/366302cd991ffe878f6a2c98b59a0ef1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/366302cd991ffe878f6a2c98b59a0ef1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/366302cd991ffe878f6a2c98b59a0ef1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/366302cd991ffe878f6a2c98b59a0ef1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044254&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-016-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044254&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-016-002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044254&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-016-002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

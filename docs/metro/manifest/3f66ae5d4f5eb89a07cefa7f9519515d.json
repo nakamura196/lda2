@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f66ae5d4f5eb89a07cefa7f9519515d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "教育東海道鉄道双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治21年11月"
+        },
+        {
+            "label": "分類",
+            "value": "都市問題、都市計画、帝都復興/交通付通信/鉄道、軌道、地下鉄道//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "723-S5/東S723-S005"
+        },
+        {
+            "label": "題名",
+            "value": "教育東海道鉄道双六"
+        },
+        {
+            "label": "題名",
+            "value": "キョウイク　トウカイドウ　テツドウ　スゴロク"
+        },
+        {
+            "label": "題名",
+            "value": "哩里程附"
+        },
+        {
+            "label": "題名",
+            "value": "マイルリテイツキ"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "永松作之助"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000663",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f66ae5d4f5eb89a07cefa7f9519515d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f66ae5d4f5eb89a07cefa7f9519515d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f66ae5d4f5eb89a07cefa7f9519515d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3f66ae5d4f5eb89a07cefa7f9519515d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000663&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F723-S05.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000663&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F723-S05.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000663&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F723-S05.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

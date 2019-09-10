@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d13c70514ce91757eea6e72d926f8db.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/隅田川//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "はんもとゑざうしといやあさくさみつけまへどうぼうまち　いづみやごん四郎"
+        },
+        {
+            "label": "版元",
+            "value": "和泉屋　権四郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "048-C2/東C048-C002"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "「みねあまたこへてこしぢにまつちかきすみだ河原にくだる鴈金」"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大短冊横/墨摺筆彩/"
+        },
+        {
+            "label": "画題等",
+            "value": "「江戸八景」「四」「隅田川の落鴈」「八まいつゞき」 「木母寺」「梅若つか」「なにかあるそ」"
+        },
+        {
+            "label": "画題等",
+            "value": "エド　ハッケイ　シ　スミダガワ　ノ　ラクガン　ハチマイツズキ　モクバジ　ウメワカ　ツカ　ナニカ　アルゾ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "-"
+        },
+        {
+            "label": "画の内容",
+            "value": "「日本べにゑのぐわんそぢがミゑのこんげんるいなしふきゑ所　げんじゑ[五]十四まい御ざ候并ニ四きのゑ」とあり"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007854",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d13c70514ce91757eea6e72d926f8db.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d13c70514ce91757eea6e72d926f8db.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4724,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d13c70514ce91757eea6e72d926f8db.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0d13c70514ce91757eea6e72d926f8db.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007854&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F048-C002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4724,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007854&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F048-C002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007854&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F048-C002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

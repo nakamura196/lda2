@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cfd201531e88fb51b95d4f21bcfe904.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "嘉永新鐫雑司ケ谷音羽絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "安政4[1857]改"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/本郷、小石川（第四大区）/小石川/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 色刷；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "金鱗堂尾張屋清七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0452-6イ/東0452-006イ"
+        },
+        {
+            "label": "題名",
+            "value": "嘉永新鐫雑司ケ谷音羽絵図"
+        },
+        {
+            "label": "題名",
+            "value": "カエイ　シンセン　ゾウシガヤ　オトワ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽）音羽繪圖　全"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［尾張屋板切絵図　17］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "オワリヤバン　キリエズ　17"
+        },
+        {
+            "label": "大きさ",
+            "value": "46.2×50.0cm"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "編者等",
+            "value": "戸松昌訓正訂"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011-2大規模企画展『江戸の町づくり』リーフレットp.13「文京区の大塚、関口、豊島区の高田、雑司ヶ谷、・南池袋あたりの切絵図です。音羽という町名の由来は江戸城奥女中の音羽が、護国寺門前町で家を拝領したことによるといわれています。初版は嘉永4年の発行です。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042340",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cfd201531e88fb51b95d4f21bcfe904.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cfd201531e88fb51b95d4f21bcfe904.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5042,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4cfd201531e88fb51b95d4f21bcfe904.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4cfd201531e88fb51b95d4f21bcfe904.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042340&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0452-006b.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5042,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042340&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0452-006b.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042340&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0452-006b.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

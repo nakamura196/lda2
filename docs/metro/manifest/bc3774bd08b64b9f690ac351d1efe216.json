@@ -1,0 +1,142 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bc3774bd08b64b9f690ac351d1efe216.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "慶応０２（1866）7"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/ひらかな盛衰記///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "丸平"
+        },
+        {
+            "label": "版元",
+            "value": "丸屋　平次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5714-C8-18/東C5714-C008-018"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "「名月や海の遠見や松の上　竹夫」"
+        },
+        {
+            "label": "上演場所",
+            "value": "江戸"
+        },
+        {
+            "label": "上演年",
+            "value": "慶応０２（1866）07・"
+        },
+        {
+            "label": "件名",
+            "value": "豊原国周（トヨハラ　クニチカ）（1835-1900），竹内田蝶（タケウチ　タチョウ）（1832-1881）"
+        },
+        {
+            "label": "役名・役者",
+            "value": "船頭松右エ門（5代）大谷　友右衛門"
+        },
+        {
+            "label": "改印等",
+            "value": "寅七改"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「み立いろはあはせ　せ」「二番組」「船頭松右エ門」"
+        },
+        {
+            "label": "画題等",
+            "value": "ミタテ　イロハ　アワセ　セ　ニバングミ　センドウ　マツエモン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "豊原国周，竹内田蝶"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "国周筆(年玉印)、田蝶(？印)"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "片田彫長"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010880",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bc3774bd08b64b9f690ac351d1efe216.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bc3774bd08b64b9f690ac351d1efe216.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1590,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bc3774bd08b64b9f690ac351d1efe216.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/bc3774bd08b64b9f690ac351d1efe216.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010880&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5714-C008-18.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1590,
+                                "width": 1024
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010880&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5714-C008-18.jpg"
+                    },
+                    "width": 1024
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010880&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5714-C008-18.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

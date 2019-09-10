@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c178128fb74cc39e5bd3d798fec5a623.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/絵本、画帖/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；貼込帖，「吾妻のにしき」所収；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5245-22(5)/東5245-022(005)"
+        },
+        {
+            "label": "件名",
+            "value": "葛飾北斎（カツシカ　ホクサイ）（1世）（1760-1849）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "角摺物/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "元禄歌仙貝合　なみまかしは"
+        },
+        {
+            "label": "画題等",
+            "value": "ゲンロクカセンカイアワセ　ナミマカシワ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "葛飾北斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "筆"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月◆老人爲一筆"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00222899",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c178128fb74cc39e5bd3d798fec5a623.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c178128fb74cc39e5bd3d798fec5a623.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2360,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c178128fb74cc39e5bd3d798fec5a623.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c178128fb74cc39e5bd3d798fec5a623.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00222899&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-022-05.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2360,
+                                "width": 1856
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00222899&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-022-05.jpg"
+                    },
+                    "width": 1856
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00222899&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-022-05.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

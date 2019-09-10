@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d0f6101666656ed78444f8a6c8b94585.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新版教育女礼遊芸双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "大正9年10月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/礼式//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×80.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "088-S2/東S088-S002"
+        },
+        {
+            "label": "題名",
+            "value": "新版教育女礼遊芸双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　キョウイク　ジョレイ　ユウゲイ　スゴロク"
+        },
+        {
+            "label": "題名",
+            "value": "新版教育女礼式双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパンキョウイクニョレイシキスゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "綱島亀吉"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000242",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d0f6101666656ed78444f8a6c8b94585.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d0f6101666656ed78444f8a6c8b94585.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d0f6101666656ed78444f8a6c8b94585.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d0f6101666656ed78444f8a6c8b94585.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000242&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F088-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000242&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F088-S02.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000242&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F088-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

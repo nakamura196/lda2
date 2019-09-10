@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1aec2da9d8f145134769dd5ccbcbbc6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治３０（1897）8"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/芝居年中行事///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "長谷川寿美"
+        },
+        {
+            "label": "版元",
+            "value": "長谷川　寿美"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "577-10-14ア/東577-010-014ア"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "上演場所",
+            "value": "東京"
+        },
+        {
+            "label": "上演年",
+            "value": "明治３０（1897）08・"
+        },
+        {
+            "label": "改印等",
+            "value": "明治三十年八月"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「大江戸しばゐねんぢうぎやうじ　感亭流」"
+        },
+        {
+            "label": "画題等",
+            "value": "オオエド　シバイ　ネンジュウ　ギョウジ　カンテイリュウ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00011843",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1aec2da9d8f145134769dd5ccbcbbc6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1aec2da9d8f145134769dd5ccbcbbc6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2672,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1aec2da9d8f145134769dd5ccbcbbc6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f1aec2da9d8f145134769dd5ccbcbbc6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011843&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F577-010-14a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2672,
+                                "width": 1828
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011843&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F577-010-14a.jpg"
+                    },
+                    "width": 1828
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00011843&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F577-010-14a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

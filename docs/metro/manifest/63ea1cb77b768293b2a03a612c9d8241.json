@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/63ea1cb77b768293b2a03a612c9d8241.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "本朝百勇伝英雄双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化頃"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/合伝/肖像、銅像（集）像伝//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "36.0×75.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "212-S7ア/東S212-S007ア"
+        },
+        {
+            "label": "題名",
+            "value": "本朝百勇伝英雄双六"
+        },
+        {
+            "label": "題名",
+            "value": "ホンチョウ　ヒャクユウデン　エイユウ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "式亭"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "作者・画工",
+            "value": "朝櫻樓國芳"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "丸屋清次郎"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.8「名主吉村の改印がふり出しにあり、展示資料39とほぼ同じ時期の刊行で様式も似ている。題名から、こちらも『本朝百将伝』(明暦2刊)などの伝統に根ざした錦絵揃い物あたりに依っていそうだがまだつきとめていない。とりあげた英雄20名は、軍記物に登場し手講釈･演劇･小説等で馴染の深い人々である。略記を綴っている式亭は小三馬で、｢画が出来て後需に応じた｣と断っている。袋の絵は大島へ流された為朝らしく『保元物語』から構想した馬琴の読本『椿説弓張月』に依っていよう。今1人は島の娘簓江（ささらえ）と思われる。なお、この袋の裏側には､弘化四年江戸表に於いて御求め下された旨の米沢城下の持主の墨記がある。双六が江戸土産とされた一証左と言えるだろう。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000268",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/63ea1cb77b768293b2a03a612c9d8241.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/63ea1cb77b768293b2a03a612c9d8241.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3553,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/63ea1cb77b768293b2a03a612c9d8241.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/63ea1cb77b768293b2a03a612c9d8241.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000268&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F212-S007a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3553,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000268&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F212-S007a.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000268&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F212-S007a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

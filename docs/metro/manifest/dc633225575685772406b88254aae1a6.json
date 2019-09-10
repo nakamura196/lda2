@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc633225575685772406b88254aae1a6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/絵本、画帖/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵貼込帖，「浮世五色合」所収；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "佐野喜"
+        },
+        {
+            "label": "版元",
+            "value": "佐野屋 喜兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5245-10(1)/東5245-010(001)"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "氷（こほり）は水（みづ）より出（いで）て。水（みづ）より清（きよ）き歌川（うたがは）の藍（あい）より出（いで）て藍（あい）より青（あを）き國貞（くにさだ）ぬしは。似顔（にがほ）の名人（めいにん）画工（ぐわこう）の魁首（おやだま）。丹青（あをに）よし奈良刀（ならもの）ならぬ筆（ふで）の巧手（きれあぢ）。青砥（あをと）が智（ち）にもおとらぬ妙案（めうあん）。功（かう）なり名遂（なとげ）て後（のち）の改名（かいめい）師（し）を敬（うや）まへる操（みさほ）の青柳緑色（あをやぎみどりいろ）増（ます）風情（ふぜい）あ"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊国（3世）（ウタガワ　トヨクニ）（1786-1865）"
+        },
+        {
+            "label": "改印等",
+            "value": "渡"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「浮世五色合」 「青」"
+        },
+        {
+            "label": "画題等",
+            "value": "ウキヨ　ゴシキ　アワセ　アオ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "應需　國貞改二代豊國画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010644",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc633225575685772406b88254aae1a6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc633225575685772406b88254aae1a6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2610,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dc633225575685772406b88254aae1a6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dc633225575685772406b88254aae1a6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010644&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-010-01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2610,
+                                "width": 1800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010644&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-010-01.jpg"
+                    },
+                    "width": 1800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010644&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-010-01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

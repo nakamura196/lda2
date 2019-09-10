@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/98494c435d38a1920a01683e289d3a6a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般////"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "彫田吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和-別169/和-別0169"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "五斗兵衛"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊国（3世）（ウタガワ　トヨクニ）（1786-1865）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "乞巧奠五色の縫"
+        },
+        {
+            "label": "画題等",
+            "value": "キッコウデン　ゴシキ　ノ　クミイト"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）"
+        },
+        {
+            "label": "演目",
+            "value": "義経腰越状?乞巧奠五色の縫??復讐天橋立"
+        },
+        {
+            "label": "所作題・音曲",
+            "value": "乞巧奠五色の縫"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00226586",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/98494c435d38a1920a01683e289d3a6a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/98494c435d38a1920a01683e289d3a6a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3580,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/98494c435d38a1920a01683e289d3a6a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/98494c435d38a1920a01683e289d3a6a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00226586&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FWA-BE169.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3580,
+                                "width": 2420
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00226586&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FWA-BE169.jpg"
+                    },
+                    "width": 2420
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00226586&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FWA-BE169.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,138 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b351edaac16fd627f9e63d839d259a36.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "元治０１（1864）"
+        },
+        {
+            "label": "分類",
+            "value": "団扇絵/参考資料/日本地誌/近畿（山城、大和、河内、和泉、摂津、近江、淡路）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "辻"
+        },
+        {
+            "label": "版元",
+            "value": "未詳"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "944-C7-1/東C944-C007-001"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（1世）（ウタガワ　クニサダ）（1786-1864），歌川広重（2世）（ウタガワ　ヒロシゲ）（1826-1869）"
+        },
+        {
+            "label": "改印等",
+            "value": "子極"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「近江八景」 「粟津晴嵐」"
+        },
+        {
+            "label": "画題等",
+            "value": "オウミ　ハッケイ　アワズ　ノ　セイラン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）（歌川国貞（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画，歌川広重（2世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "筆"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "七十八歳豊国画、広重筆"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00012285",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b351edaac16fd627f9e63d839d259a36.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b351edaac16fd627f9e63d839d259a36.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1821,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b351edaac16fd627f9e63d839d259a36.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b351edaac16fd627f9e63d839d259a36.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012285&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F944-C007-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1821,
+                                "width": 2324
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012285&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F944-C007-001.jpg"
+                    },
+                    "width": 2324
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012285&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F944-C007-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

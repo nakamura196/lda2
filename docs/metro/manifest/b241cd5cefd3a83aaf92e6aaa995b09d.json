@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b241cd5cefd3a83aaf92e6aaa995b09d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板尾張ヨリ伊勢参宮巡双六（新板双六集）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "大正12年8月"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "33.0×49.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "名古屋井筒屋文助板等の複刻；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6573-3/加06573-003"
+        },
+        {
+            "label": "題名",
+            "value": "新板尾張ヨリ伊勢参宮巡双六（新板双六集）"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　オワリ　ヨリ　イセ　サングウ　マワリ　スゴロク　シンパン　スゴロクシュウ"
+        },
+        {
+            "label": "題名",
+            "value": "シンパンスゴロクシュウ"
+        },
+        {
+            "label": "出版地",
+            "value": "名古屋"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "豊田棄三郎（名古屋）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000787",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b241cd5cefd3a83aaf92e6aaa995b09d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b241cd5cefd3a83aaf92e6aaa995b09d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4886,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b241cd5cefd3a83aaf92e6aaa995b09d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b241cd5cefd3a83aaf92e6aaa995b09d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000787&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6573-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4886,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000787&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6573-003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000787&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6573-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

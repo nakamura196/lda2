@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/44e037efeb16377734aca913367e31f8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２２（1889）12・"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖，「月の百姿」所収；目録題：羽柴秀次；；；；；1帖；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "日本バシ区室町三丁目九バンチ　秋山武右衛門（こつけい堂）"
+        },
+        {
+            "label": "版元",
+            "value": "秋山　武右衛門"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5233-60(96)/東5233-060(096)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "改印等",
+            "value": "明治廿二年十二月十日印刷　仝年仝月　日出版"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「月百姿」「おもひきや雲ゐの秋のそらならて竹あむ窓の月を見んとは　秀次」"
+        },
+        {
+            "label": "画題等",
+            "value": "ツキ　ヒャクシ　オモイキヤ　クモイ　ノ　アキ　ノ　ソラナラテ　タケアム　マド　ノ　ツキ　オ　ミントワ　ヒデツグ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "芳年(「大蘇」印)"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "山本刀"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00019680",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/44e037efeb16377734aca913367e31f8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/44e037efeb16377734aca913367e31f8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/44e037efeb16377734aca913367e31f8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/44e037efeb16377734aca913367e31f8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019680&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5233-060-096.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2761,
+                                "width": 1821
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019680&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5233-060-096.jpg"
+                    },
+                    "width": 1821
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00019680&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5233-060-096.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f43813da486c7e41e3a62cbad6da405e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板身延山参詣双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "36.0×48.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3587-S1/東S3587-S001"
+        },
+        {
+            "label": "題名",
+            "value": "新板身延山参詣双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ミノブサン　サンケイ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "北川月麿"
+        },
+        {
+            "label": "作者・画工",
+            "value": "北川月麿"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "こく屋紋右衛門"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000315",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f43813da486c7e41e3a62cbad6da405e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f43813da486c7e41e3a62cbad6da405e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5136,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f43813da486c7e41e3a62cbad6da405e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f43813da486c7e41e3a62cbad6da405e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000315&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F3587-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5136,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000315&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F3587-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000315&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F3587-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

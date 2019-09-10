@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa633cf776cdd2b388952c6cce3d63b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０２（1855）"
+        },
+        {
+            "label": "分類",
+            "value": "地震絵、一般/江戸/災異－地震/安政２年/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "-"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0277-C18/東C0277-C018"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「安政二年十月二日地震出火後日角力」「大まうけの方」「大おあいだの方」 「打身骨繼療治所」「六ちそうの内」「ぬれほとけ」「雷門」「五重の塔」"
+        },
+        {
+            "label": "画題等",
+            "value": "アンセイ　ニネン　ジュウガツ　フツカ　ジシン　シュッカ　ゴジツ　スモウ　オオモウケ　ノ　カタ　オオ　オアイダ　ノ　カタ　ウチミ　ホネツギ　リョウジショ　ロク　チソウ　ノ　ウチ　ヌレボトケ　カミナリモン　ゴジュウ　ノ　トウ"
+        },
+        {
+            "label": "災害名称",
+            "value": "安政の大地震（1855年）"
+        },
+        {
+            "label": "災害年代",
+            "value": "江戸"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震"
+        },
+        {
+            "label": "資料解説",
+            "value": "2007文化財ウィーク（36）「地震で被害を被った浅草寺の六地蔵・濡れ仏・雷神・五重塔を人間に見立て、骨接ぎで治療を受けている様に描いている。画面上部は番付の形で、「大まうけの方」として材木問屋や吉原の仮宅など儲けた人々と、「大おあいだの方」として休座した芝居小屋や贅沢品関係の損をした人々を対比している。」，『第3回江戸資料展』図録解説p.22「地震､出火により得した人､損した人を角力番付ふうに作ったもの｡その下に雷門､浅草寺五重の塔､ぬれ仏､六地蔵の一体の損傷を骨継療治所で修復している絵がある｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007453",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa633cf776cdd2b388952c6cce3d63b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa633cf776cdd2b388952c6cce3d63b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa633cf776cdd2b388952c6cce3d63b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1aa633cf776cdd2b388952c6cce3d63b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007453&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C018.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007453&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C018.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007453&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C018.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/809615d034bbdc22dfd97b041e28f0d7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "絵入今様宗教双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治21年11月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/宗教、哲学、教育/宗教、哲学、教育//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "74.0×53.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "300-S2/東S300-S002"
+        },
+        {
+            "label": "題名",
+            "value": "絵入今様宗教双六"
+        },
+        {
+            "label": "題名",
+            "value": "エイリ　イマヨウ　シュウキョウ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "伊東洋二郎"
+        },
+        {
+            "label": "作者・画工",
+            "value": "土佐光"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "三浦兼助"
+        },
+        {
+            "label": "資料解説",
+            "value": "『明治前期の東京』図録解説p.28「仏教各宗､神道各派などの古来の宗教にキリスト教､ギリシャ教､バラモン教､回々教､火教などが加わり､無宗教､妄信などの項もある｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000290",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/809615d034bbdc22dfd97b041e28f0d7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/809615d034bbdc22dfd97b041e28f0d7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/809615d034bbdc22dfd97b041e28f0d7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/809615d034bbdc22dfd97b041e28f0d7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000290&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F300-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4691
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000290&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F300-S002.jpg"
+                    },
+                    "width": 4691
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000290&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F300-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

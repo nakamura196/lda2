@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3a4c57a5ffbad6c2fae839d0ae076cc.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板ちんわん寿こ六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "万延1年1月"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26.0×38.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5259-S23/東S5259-S023"
+        },
+        {
+            "label": "題名",
+            "value": "新板ちんわん寿こ六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　チンワン　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "よし藤"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "文正堂"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000466",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3a4c57a5ffbad6c2fae839d0ae076cc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3a4c57a5ffbad6c2fae839d0ae076cc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1896,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3a4c57a5ffbad6c2fae839d0ae076cc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b3a4c57a5ffbad6c2fae839d0ae076cc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000466&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S023.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1896,
+                                "width": 2736
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000466&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S023.jpg"
+                    },
+                    "width": 2736
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000466&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S023.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

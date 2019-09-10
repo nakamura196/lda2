@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b842b8c0f6d41e256d227a206a4f327e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "源平打毬合戦双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "安政4年8月"
+        },
+        {
+            "label": "分類",
+            "value": "美術/娯楽、運動/運動競技（蹴鞠玉突）//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "92.0×36.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "586-S2ア/東S586-S002ア"
+        },
+        {
+            "label": "題名",
+            "value": "源平打毬合戦双六"
+        },
+        {
+            "label": "題名",
+            "value": "ゲンペイ　ダキュウ　カッセン　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川国郷"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川國郷"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "和泉屋市兵衛"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000609",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b842b8c0f6d41e256d227a206a4f327e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b842b8c0f6d41e256d227a206a4f327e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b842b8c0f6d41e256d227a206a4f327e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b842b8c0f6d41e256d227a206a4f327e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000609&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F586-S02a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000609&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F586-S02a.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000609&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F586-S02a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

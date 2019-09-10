@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9165f4619c271edd9889220d23ddb8d7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "花暦遊山双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "文久4年"
+        },
+        {
+            "label": "分類",
+            "value": "一般/江戸/名所案内記、図絵//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "74.0×49.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "025-S6/東S025-S006"
+        },
+        {
+            "label": "題名",
+            "value": "花暦遊山双六"
+        },
+        {
+            "label": "題名",
+            "value": "ハナゴヨミ　ユサン　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "梅素亭玄魚"
+        },
+        {
+            "label": "作者・画工",
+            "value": "玄魚"
+        },
+        {
+            "label": "資料解説",
+            "value": "『江戸地誌とその周辺』図録解説p.8「初春の日本橋を振り出しに、37のコマをまわり、初日の出で上る双六。コマの並べ方は必ずしも四季の順を追っているわけではない。景物として特に多いものは、花の18コマ、ついで鳥の8コマである。摘草の項には作者玄魚の俳句が記されている。」，『江戸の夏』図録解説p.9「日本橋を振出に､四季の花鳥風月を項目とし､江戸近郊の名所を､その欄に記入した双六｡当時､何の名所はどこであるかが一見してわかる｡夏の欄について見られたい｡製作者玄魚(文化14-明治13)は宮城氏｡梅素亭と号す｡草双紙の袋､摺物の図案､千社札のデザインなどに優れていた｡」，『第2回江戸資料展』図録解説p.27「花暦と遊山の場所の双六｡花･千鳥等の景物ごとに場所と立寄る時期を示してある｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000021",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9165f4619c271edd9889220d23ddb8d7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9165f4619c271edd9889220d23ddb8d7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9165f4619c271edd9889220d23ddb8d7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9165f4619c271edd9889220d23ddb8d7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000021&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S006.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4551
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000021&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S006.jpg"
+                    },
+                    "width": 4551
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000021&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F025-S006.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

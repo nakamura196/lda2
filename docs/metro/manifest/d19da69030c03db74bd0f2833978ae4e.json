@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d19da69030c03db74bd0f2833978ae4e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "東京出初寿語禄",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治14年10月"
+        },
+        {
+            "label": "分類",
+            "value": "法制/明治以後の市政/消防//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "71.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "644-S1/東S644-S001"
+        },
+        {
+            "label": "題名",
+            "value": "東京出初寿語禄"
+        },
+        {
+            "label": "題名",
+            "value": "トウキョウ　デゾメ　スゴロク"
+        },
+        {
+            "label": "題名",
+            "value": "東容出初寿語禄"
+        },
+        {
+            "label": "題名",
+            "value": "アズマハダデゾメスゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "守川周重"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(守川)周重"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "松井栄吉"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000642",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d19da69030c03db74bd0f2833978ae4e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d19da69030c03db74bd0f2833978ae4e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d19da69030c03db74bd0f2833978ae4e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d19da69030c03db74bd0f2833978ae4e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000642&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F644-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000642&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F644-S01.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000642&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F644-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

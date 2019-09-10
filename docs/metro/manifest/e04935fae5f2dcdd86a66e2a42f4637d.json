@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e04935fae5f2dcdd86a66e2a42f4637d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「諸国温泉功能鑑」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "内43×31.8cm（外67×40.5cm）"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；軸物；板元鍵型泉字印（吉田屋小吉板）；；；"
+        },
+        {
+            "label": "版元",
+            "value": "[板元鍵型泉字印（吉田屋小吉板）]"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "7706-D1/東D7706-D001"
+        },
+        {
+            "label": "題名",
+            "value": "「諸国温泉功能鑑」"
+        },
+        {
+            "label": "題名",
+            "value": "ショコクオンセンコウノウカガミ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041003",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e04935fae5f2dcdd86a66e2a42f4637d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e04935fae5f2dcdd86a66e2a42f4637d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e04935fae5f2dcdd86a66e2a42f4637d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e04935fae5f2dcdd86a66e2a42f4637d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041003&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F7706-D001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041003&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F7706-D001.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041003&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F7706-D001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2efe0f5b6c3dfbb201502f34966fae68.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０２（1855）"
+        },
+        {
+            "label": "分類",
+            "value": "鯰絵、一般/江戸/災異－地震/安政２年/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "-"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0277-C50/東C0277-C050"
+        },
+        {
+            "label": "画中文字",
+            "value": "「二日夜取込　大鯰　揺出シ　通り物　飛行山　燈火　揺消シ　＃嵜　飛出シ　裸身　駈出　轉山　のめり川　（略）　吉原　死人山　深川　惣崩レ　（略）　三日ヨリ取込　往来山　野陣　焼ヶ原　土藏なし　門並　甲梁　諸処ノ裏　混雑　杉丸太　髙直山　苫莚　〆賣　（略）　八宗　大せがき　御救　頂キ」　「天下泰平國土安穏」"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「地震ハ二日乃亥の刻焼止ハ三日乃巳の刻両四時角力取組」 「仰天十日頃迄野宿仕候」"
+        },
+        {
+            "label": "画題等",
+            "value": "ジシン　ワ　ヒツカ　ノ　イノコク　ヤキドメ　ワ　ミッカ　ノ　ミノコク　リョウ　ヨジ　スモウ　トリクミ　ギョウテン　トオカ　ゴロ　マデ　ノジュク　ツカマツリ　ソウロウ"
+        },
+        {
+            "label": "画の内容",
+            "value": "要石と鯰の取組"
+        },
+        {
+            "label": "災害名称",
+            "value": "安政の大地震（1855年）"
+        },
+        {
+            "label": "災害年代",
+            "value": "江戸"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007494",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2efe0f5b6c3dfbb201502f34966fae68.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2efe0f5b6c3dfbb201502f34966fae68.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2efe0f5b6c3dfbb201502f34966fae68.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2efe0f5b6c3dfbb201502f34966fae68.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007494&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C050.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007494&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C050.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007494&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0277-C050.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

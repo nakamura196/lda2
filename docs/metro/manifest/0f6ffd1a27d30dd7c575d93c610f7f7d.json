@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f6ffd1a27d30dd7c575d93c610f7f7d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/和漢書"
+        },
+        {
+            "label": "分類",
+            "value": "総記/辞書/////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "諸橋文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；内容：申集　下六畫；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "823-MW-2-28/諸823-MW-002-028"
+        },
+        {
+            "label": "丁数・ページ数",
+            "value": "52丁"
+        },
+        {
+            "label": "和漢書種別",
+            "value": "その他"
+        },
+        {
+            "label": "巻冊",
+            "value": "11集　檢字･辨似合1巻　備考，版心　補遺版心　等韻版心　；；1冊"
+        },
+        {
+            "label": "書名",
+            "value": "康煕字典"
+        },
+        {
+            "label": "書名",
+            "value": "コウキ　ジテン"
+        },
+        {
+            "label": "書名",
+            "value": "kāng  xī zì diǎn"
+        },
+        {
+            "label": "著者",
+            "value": "淸張玉書∥等奉勅編"
+        },
+        {
+            "label": "判型",
+            "value": "大"
+        },
+        {
+            "label": "出版年・書写年",
+            "value": "殿版後印"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000005-00235153",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f6ffd1a27d30dd7c575d93c610f7f7d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f6ffd1a27d30dd7c575d93c610f7f7d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4677,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0f6ffd1a27d30dd7c575d93c610f7f7d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0f6ffd1a27d30dd7c575d93c610f7f7d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000005-00235153&size=org&type=image&file=%2F%E5%92%8C%E6%BC%A2%E6%9B%B8%2F823-MW-2-28%28001%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4677,
+                                "width": 5770
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000005-00235153&size=thumb&type=image&file=%2F%E5%92%8C%E6%BC%A2%E6%9B%B8%2F823-MW-2-28%28001%29.jpg"
+                    },
+                    "width": 5770
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000005-00235153&size=thumb&type=image&file=%2F%E5%92%8C%E6%BC%A2%E6%9B%B8%2F823-MW-2-28%28001%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -51,15 +51,14 @@ from PIL import Image
 import time
 from selenium import webdriver
 
-categories = [# "双六", 
-# "江戸城", "浮世絵",
-              # "番付", "江戸図", "和漢書", 
-              "建築図面", "書簡", "その他の貴重資料", "近代の地図", "東京府・東京市関係資料", "江戸・東京の災害記録　", "絵葉書・写真帖"]
+categories = [
+    # "双六", "江戸城", "浮世絵", "番付", "江戸図", "和漢書", "建築図面", "書簡", "その他の貴重資料", 
+              "近代の地図", "東京府・東京市関係資料", "江戸・東京の災害記録　", "絵葉書・写真帖"]
 
 for category in categories:
 
     flg = True
-    p = 2450
+    p = 0
 
     while(flg):
 

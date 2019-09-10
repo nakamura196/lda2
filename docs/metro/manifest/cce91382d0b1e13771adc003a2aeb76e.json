@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cce91382d0b1e13771adc003a2aeb76e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「魚盡見立評判第初輯　文久元年酉秋新板　会席献立料理通」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "文久元年酉秋新板"
+        },
+        {
+            "label": "分類",
+            "value": "産業/商業///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "51.0×37.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；魚尽見立評判第初輯；；"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4237/加04237"
+        },
+        {
+            "label": "題名",
+            "value": "「魚盡見立評判第初輯　文久元年酉秋新板　会席献立料理通」"
+        },
+        {
+            "label": "題名",
+            "value": "ウオヅクシミタテヒョウバンダイショシュウ　ブンキュウガンネントリアキシンパン　カイセキコンダテリョウリツウ"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第3回江戸資料展』図録解説p.24「著名料亭の一覧を見立番付の形式で現わしたもの｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041097",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cce91382d0b1e13771adc003a2aeb76e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cce91382d0b1e13771adc003a2aeb76e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cce91382d0b1e13771adc003a2aeb76e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cce91382d0b1e13771adc003a2aeb76e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041097&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4237.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041097&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4237.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041097&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4237.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

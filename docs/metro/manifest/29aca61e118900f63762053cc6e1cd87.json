@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/29aca61e118900f63762053cc6e1cd87.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "歌舞伎双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "（大正か昭和）"
+        },
+        {
+            "label": "分類",
+            "value": "美術/音楽/江戸長唄、大薩摩//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "25.0×30.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "565-S2/東S565-S002"
+        },
+        {
+            "label": "題名",
+            "value": "歌舞伎双六"
+        },
+        {
+            "label": "題名",
+            "value": "カブキ　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "時代家"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000474",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/29aca61e118900f63762053cc6e1cd87.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/29aca61e118900f63762053cc6e1cd87.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1812,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/29aca61e118900f63762053cc6e1cd87.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/29aca61e118900f63762053cc6e1cd87.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000474&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F565-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1812,
+                                "width": 2620
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000474&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F565-S002.jpg"
+                    },
+                    "width": 2620
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000474&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F565-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

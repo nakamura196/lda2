@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d08e3b57ab82ae5ed483b5a33def4147.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "福福双禄",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "安政4年11月"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/漫画、大津絵、狂画/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "53.0×38.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5247-S2/東S5247-S002"
+        },
+        {
+            "label": "題名",
+            "value": "福福双禄"
+        },
+        {
+            "label": "題名",
+            "value": "フク　フク　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川広重"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(歌川)廣重"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "団仙堂"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.9「ふり出しの又平･上りの福禄寿、共に中村福助の似顔になっているので、題名はそれと祝意をかけているようだ。福助は安政4年10月5日より森田座上演の『群三込繰曲文台』で吃の又平を、第2番目所作事『採筆恵の大津絵』で瓢箪鯰･船頭･げほう（福禄寿の異称)･藤娘･鎗持奴の五役を演じ、大いに好評を博した。この双六に翌11月の改印が見えるところから、この好評を背景に作られたものと思われる。大津絵は近江の国辺で売られた略画で、仏画から興り、後次第に画題が定まって瓢箪鯰は水難除･鎗持奴は道中安全などを兼ねる名物となった。演劇や錦絵に登場するのは近松が『傾城反魂香』に吃又の件を用いてからであろう。この双六にある大津絵はよく知られた画題ばかりで、筆致もよく模している。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000432",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d08e3b57ab82ae5ed483b5a33def4147.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d08e3b57ab82ae5ed483b5a33def4147.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d08e3b57ab82ae5ed483b5a33def4147.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d08e3b57ab82ae5ed483b5a33def4147.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000432&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000432&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S02.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000432&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5247-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

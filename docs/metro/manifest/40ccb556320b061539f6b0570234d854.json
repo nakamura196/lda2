@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/40ccb556320b061539f6b0570234d854.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "富士の巻狩双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永頃"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/日本史/近古史/鎌倉時代/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "47.0×65.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "9141-S1/東S9141-S001"
+        },
+        {
+            "label": "題名",
+            "value": "富士の巻狩双六"
+        },
+        {
+            "label": "題名",
+            "value": "フジ　ノ　マキガリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川貞房"
+        },
+        {
+            "label": "作者・画工",
+            "value": "貞房"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "沢屋幸吉"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000713",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/40ccb556320b061539f6b0570234d854.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/40ccb556320b061539f6b0570234d854.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4627,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/40ccb556320b061539f6b0570234d854.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/40ccb556320b061539f6b0570234d854.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000713&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F9141-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4627,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000713&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F9141-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000713&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F9141-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

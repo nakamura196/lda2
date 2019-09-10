@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6af435a0d53351eae71603a736dc2aed.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０９（1876）06・03"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/徳川並江戸時代史（通史）/季世（家慶－慶喜）//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；3枚続「亀喜妙々」の右欠；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "銀座四丁目十四番地　山中北郎板"
+        },
+        {
+            "label": "版元",
+            "value": "山中 北郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "2449-C2/東C2449-C002"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「松村春輔述」「南金六町十四番地　月岡米二郎画」の文あり"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892），小林年参（コバヤシ　トシミツ）（生没年未詳）"
+        },
+        {
+            "label": "改印等",
+            "value": "御届明治九年六月三日"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「皇国一新見聞誌」「米船鹿児島戦争」"
+        },
+        {
+            "label": "画題等",
+            "value": "コウコク　イッシン　ケンブンシ　ベイセン　カゴシマ　センソウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年，小林年参"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "大蘇芳年、補筆年参"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009694",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6af435a0d53351eae71603a736dc2aed.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6af435a0d53351eae71603a736dc2aed.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1890,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6af435a0d53351eae71603a736dc2aed.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6af435a0d53351eae71603a736dc2aed.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009694&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2449-C002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1890,
+                                "width": 2703
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009694&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2449-C002.jpg"
+                    },
+                    "width": 2703
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009694&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2449-C002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

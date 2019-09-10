@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/03eb41f70c428952e071d75eb1f06198.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２９（1896）8"
+        },
+        {
+            "label": "分類",
+            "value": "貼交絵/一般/通誌/山嶽、河川、海岸、湖沼、橋梁"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京日本橋区長谷川町十九番地　福田熊次郎"
+        },
+        {
+            "label": "版元",
+            "value": "福田　熊次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "016-C3-96/東C016-C003-096"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「盃を巴にまはす酒盛もうなぎ登りのつよい和田平　千秋」"
+        },
+        {
+            "label": "件名",
+            "value": "梅素薫（バイソ　カオル）（生没年未詳）"
+        },
+        {
+            "label": "改印等",
+            "value": "-"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京自慢名物会」「三遊亭遊三」「ビラ辰」「鰻蒲焼　和田平」「よし町きゝやう家よし子　佐藤よし」「見立模様大傳馬町市之織物」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　ジマン　メイブツエ　サンユウテイ　ユウザ　ビラタツ　ウナギ　カバヤキ　ワダヘイ　ヨシチョウ　キキョウヤ　ヨシコ　サトウ　ヨシ　ミタテ　モヨウ　オオデンマチョウ　イチ　ノ　オリモノ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅素薫"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "案"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅素薫案（「某素」印）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00020488",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/03eb41f70c428952e071d75eb1f06198.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/03eb41f70c428952e071d75eb1f06198.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/03eb41f70c428952e071d75eb1f06198.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/03eb41f70c428952e071d75eb1f06198.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020488&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-C003-096.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020488&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-C003-096.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020488&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-C003-096.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

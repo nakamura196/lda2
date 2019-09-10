@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/42e02417b9381350008e9201431d3960.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "狂歌会席料理名家双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）/待合、料亭、茶店、付町芸妓/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×69.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0797-S3/東S0797-S003"
+        },
+        {
+            "label": "題名",
+            "value": "狂歌会席料理名家双六"
+        },
+        {
+            "label": "題名",
+            "value": "キョウカ　カイセキ　リョウリ　メイカ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "蓬莱山人　東里山人"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川貞景"
+        },
+        {
+            "label": "作者・画工",
+            "value": "五湖亭貞景"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "岩戸屋喜三郎"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第2回江戸資料展』図録解説p.25「有名会席料理店の特徴を狂歌によんだ双六｡上りが吉原になっている｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000184",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/42e02417b9381350008e9201431d3960.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/42e02417b9381350008e9201431d3960.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4785,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/42e02417b9381350008e9201431d3960.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/42e02417b9381350008e9201431d3960.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000184&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0797-S003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4785,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000184&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0797-S003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000184&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0797-S003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

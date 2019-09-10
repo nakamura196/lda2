@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/40d11cdb2a8060d7b1735566c36e874c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；後摺；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "佐野喜"
+        },
+        {
+            "label": "版元",
+            "value": "佐野屋　喜兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3556-C11/東C3556-C011"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（1世）（ウタガワ　ヒロシゲ）（1797-1858）"
+        },
+        {
+            "label": "改印等",
+            "value": "田中"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/横"
+        },
+        {
+            "label": "画題等",
+            "value": "「東都名所」「海案寺紅葉之圖」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウト　メイショ　カイアンジ　モミジ　ノ　ズ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "廣重画"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第1回江戸資料展』図録解説p.25「品川鮫洲の補陀山海晏寺(曹洞宗）は紅葉の名所で、晩秋の頃は遊客が訪ずれて賑わった｡広重のこの図は、秋色をよく表現したものとして知られている｡天保年間の作品であるが、展示品は弘化年間の後摺と見られる｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00222168",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/40d11cdb2a8060d7b1735566c36e874c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/40d11cdb2a8060d7b1735566c36e874c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1842,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/40d11cdb2a8060d7b1735566c36e874c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/40d11cdb2a8060d7b1735566c36e874c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00222168&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3556-C011.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1842,
+                                "width": 2733
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00222168&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3556-C011.jpg"
+                    },
+                    "width": 2733
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00222168&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3556-C011.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

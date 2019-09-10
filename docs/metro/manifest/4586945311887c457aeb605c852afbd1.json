@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4586945311887c457aeb605c852afbd1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵貼込帖，「衣喰住之内家職幼絵解ノ図」所収；書名は後補題簽による；；；刊；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "086-6(45)/東086-006(045)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「本朝茶ハ上古よりありと云ひ又嵯峨天皇茶を愛給ふこと日本記に見えたり然れども栂尾の明恵唐より其種を持来り建仁年間筑前の背振山に植しを始めとなし夫より山城の宇治伊勢の川上駿河の安倍茶など追々名高く方今にてハ国中大概之を作り外国にても羨み慕ふ所にして実に我朝の名産なるものなり」"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国輝（2世）（クタガワ　クニテル）(1830-1874)"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「茶植附の図」"
+        },
+        {
+            "label": "画題等",
+            "value": "チャ　ウエツケ　ノ　ズ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国輝（2世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "応需曜斎国輝画図"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009417",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4586945311887c457aeb605c852afbd1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4586945311887c457aeb605c852afbd1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2779,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4586945311887c457aeb605c852afbd1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4586945311887c457aeb605c852afbd1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009417&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F086-006-45.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2779,
+                                "width": 1845
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009417&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F086-006-45.jpg"
+                    },
+                    "width": 1845
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009417&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F086-006-45.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

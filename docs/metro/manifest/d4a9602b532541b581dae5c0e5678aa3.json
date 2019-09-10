@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d4a9602b532541b581dae5c0e5678aa3.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０２（1869）05・"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）/待合、料亭、茶店、付町芸妓/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "かゞ吉板"
+        },
+        {
+            "label": "版元",
+            "value": "加賀屋　吉兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0797-C34-4/東C0797-C034-004"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「元柳橋の夕照　薄酔の座敷退はゆふぐれ照らす楓を欺き桜色よき艶くらべ仇な笑顔の一対は瀬田の風情を写し絵に彩る姿の二本柳風に吹るゝ酔ざましハ陶氏が住居の楼にやありなん　可南垣魯文賛」「柳ばし小てつ」「伊勢屋ゆき」"
+        },
+        {
+            "label": "件名",
+            "value": "落合芳幾（オチアイ　ヨシイク）（1833-1904）"
+        },
+        {
+            "label": "改印等",
+            "value": "巳五〔改〕"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「両国八景之内」「元柳橋の夕照」"
+        },
+        {
+            "label": "画題等",
+            "value": "リョウゴク　ハッケイ　ノ　ウチ　モトヤナギバシ　ノ　セキショウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "恵斎芳幾筆"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009243",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d4a9602b532541b581dae5c0e5678aa3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d4a9602b532541b581dae5c0e5678aa3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d4a9602b532541b581dae5c0e5678aa3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d4a9602b532541b581dae5c0e5678aa3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009243&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0797-C034-004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009243&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0797-C034-004.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009243&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0797-C034-004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

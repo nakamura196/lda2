@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6f13035db29575762d3b4d8b3d94899b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新版続百鬼飛廻双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/徳川並江戸時代史（通史）//怪談/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "34.0×46.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "2456-S5/東S2456-S005"
+        },
+        {
+            "label": "題名",
+            "value": "新版続百鬼飛廻双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ツズキ　ヒャッキ　トビマワリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "髙本彫金"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "墨屋小兵衛（京都）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000281",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6f13035db29575762d3b4d8b3d94899b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6f13035db29575762d3b4d8b3d94899b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5228,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6f13035db29575762d3b4d8b3d94899b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6f13035db29575762d3b4d8b3d94899b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000281&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2456-S005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5228,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000281&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2456-S005.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000281&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F2456-S005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

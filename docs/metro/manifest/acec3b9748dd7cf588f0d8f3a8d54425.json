@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/acec3b9748dd7cf588f0d8f3a8d54425.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１３（1880）08・03"
+        },
+        {
+            "label": "分類",
+            "value": "一般/一般/新聞紙、画報/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "新葭丁二番地　山本平吉"
+        },
+        {
+            "label": "版元",
+            "value": "山本　平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "008-C4-2/東C008-C004-002"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「價一銭六厘」"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（3世）（ウタガワ　クニサダ）（1848-1920）"
+        },
+        {
+            "label": "改印等",
+            "value": "御届明治十三年八月三日"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京各社撰抜新聞」「繪入お濱のはなし」 「おはま」「花娵」「お幸」「秀吉」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　カクシャ　センバツシンブン　エイリ　オハマノ　ハナシ　オハマ　ハナヨメ　オコウ　ヒデヨシ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国貞（3世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅堂国政圖、長谷川丁廿二番地画工竹内栄久"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007125",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/acec3b9748dd7cf588f0d8f3a8d54425.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/acec3b9748dd7cf588f0d8f3a8d54425.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/acec3b9748dd7cf588f0d8f3a8d54425.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/acec3b9748dd7cf588f0d8f3a8d54425.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007125&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-C004-2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007125&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-C004-2.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007125&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-C004-2.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

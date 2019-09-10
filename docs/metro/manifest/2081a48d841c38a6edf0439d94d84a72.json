@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2081a48d841c38a6edf0439d94d84a72.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０４（1871）03・"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）/待合、料亭、茶店、付町芸妓/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "馬喰四木屋板"
+        },
+        {
+            "label": "版元",
+            "value": "木屋　宗次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0797-C36-1/東C0797-C036-001"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「庖丁の切味に向ふ疵を思ひ洗ひ魚の手奇麗に結髪の横櫛をぞ忍ばる　蝙蝠の名は客人の傘に残りて安とは価のひくきを唱ふ　玄冶店の繁昌店もいつぞや地魚のまかつみに表へうつり住よし町岸うつ波の夫ならで　夜る昼となきにきはひなるべし　山々亭有人記」「ふぢやたま」「布袋やくめ」"
+        },
+        {
+            "label": "件名",
+            "value": "落合芳幾（オチアイ　ヨシイク）（1833-1904）"
+        },
+        {
+            "label": "改印等",
+            "value": "未三改"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京料理十八肴」「住吉町駐春亭」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　リョウリ　ジュウハチコウ　スミヨシチョウ　チュウシュンテイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一恵齋芳幾筆"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫栄"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009253",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2081a48d841c38a6edf0439d94d84a72.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2081a48d841c38a6edf0439d94d84a72.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2081a48d841c38a6edf0439d94d84a72.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2081a48d841c38a6edf0439d94d84a72.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009253&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0797-C036-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009253&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0797-C036-001.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009253&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0797-C036-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/69423857fb901e1fa7aacd38ad1cffa2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "美談傑作双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "大正13年1月"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/合伝/逸話、逸聞集//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×80.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "218-S1/東S218-S001"
+        },
+        {
+            "label": "題名",
+            "value": "美談傑作双六"
+        },
+        {
+            "label": "題名",
+            "value": "ビダン　ケッサク　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "津田茂"
+        },
+        {
+            "label": "作者・画工",
+            "value": "津田茂"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "ヨウネン社"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000271",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/69423857fb901e1fa7aacd38ad1cffa2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/69423857fb901e1fa7aacd38ad1cffa2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/69423857fb901e1fa7aacd38ad1cffa2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/69423857fb901e1fa7aacd38ad1cffa2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000271&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F218-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000271&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F218-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000271&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F218-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

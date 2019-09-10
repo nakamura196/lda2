@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/133dd8cd2062cbb6eae66a9118515f4a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "住宅附属屋（薪炭小屋（三号）ほか）平面図・立面図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "雑集清敬/雑再調分///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "22.5×39cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木77-4-69/木077-4-069"
+        },
+        {
+            "label": "題名",
+            "value": "住宅附属屋（薪炭小屋（三号）ほか）平面図・立面図"
+        },
+        {
+            "label": "題名",
+            "value": "ジュウタク　フゾクヤ　シンタン　ゴヤ　サンゴウ　ホカ　コウジヒ　ケッサンヒョウ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「第参号薪炭及積物小屋之図」）「第参号薪炭積物置場横面」）「第四号供待腰掛小家之図」）「第四号供待腰掛小家横図」）「第五号門番所及小使部屋之地図」）「第五号門番所小使部屋横面」）「第六号物置之図」）「第六号物置横面渡り廊下取附」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00048797",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/133dd8cd2062cbb6eae66a9118515f4a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/133dd8cd2062cbb6eae66a9118515f4a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/133dd8cd2062cbb6eae66a9118515f4a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/133dd8cd2062cbb6eae66a9118515f4a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00048797&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI077-004-069.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00048797&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI077-004-069.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00048797&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI077-004-069.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

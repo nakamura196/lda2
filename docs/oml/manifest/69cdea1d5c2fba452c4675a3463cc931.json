@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/69cdea1d5c2fba452c4675a3463cc931.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪三郷火消纏づくし",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1634頃(江戸期(寛永11年以降))]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1634****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカサンゴウヒケシマトイズクシヒケシマトイズクシ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪三郷火消纏づくし"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000304013"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28331"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "27310010"
+        },
+        {
+            "label": "注記_01",
+            "value": "台紙に貼付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "シオヤ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:塩屋【  】兵衛"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;26×37cm(17×23cm)"
+        },
+        {
+            "label": "請求記号",
+            "value": "317"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28331",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/69cdea1d5c2fba452c4675a3463cc931.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/69cdea1d5c2fba452c4675a3463cc931.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/69cdea1d5c2fba452c4675a3463cc931.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/69cdea1d5c2fba452c4675a3463cc931.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=159147",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 707
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=159147"
+                    },
+                    "width": 707
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=159147"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

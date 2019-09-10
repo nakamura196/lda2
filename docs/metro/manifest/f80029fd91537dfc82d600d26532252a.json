@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f80029fd91537dfc82d600d26532252a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１９（1886）"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/各宗/禅宗//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；冊子目録題：教導立志基、釈氏妙沢。順番と画題の人物名は目録（5261-K002）による；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "両国吉川町二番地　松木平吉版"
+        },
+        {
+            "label": "版元",
+            "value": "松木　平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3552-K1/東K小3552-K001"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「楊栁橋畔月光述」"
+        },
+        {
+            "label": "件名",
+            "value": "井上安治（イノウエ　ヤスジ）（1864-1889）"
+        },
+        {
+            "label": "改印等",
+            "value": "御届明治十九年"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「教導立志基」 「八」"
+        },
+        {
+            "label": "画題等",
+            "value": "キョウドウ　リッシ　ノ　モトイ　ハチ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "井上探景"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "井上探景　(「探景」印)"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009955",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f80029fd91537dfc82d600d26532252a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f80029fd91537dfc82d600d26532252a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3400,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f80029fd91537dfc82d600d26532252a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f80029fd91537dfc82d600d26532252a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009955&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3552-K001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3400,
+                                "width": 2324
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009955&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3552-K001.jpg"
+                    },
+                    "width": 2324
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009955&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3552-K001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

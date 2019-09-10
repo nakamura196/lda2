@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cdf506b91a8412f38441d277b0b9daa1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０２（1869）7"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/麹町､神田/麹町（虎の門、鍛冶橋、九段）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "蔦屋　吉蔵"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0411-C21/東C0411-C021"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国輝（2世）（ウタガワ　クニテル）(1830-1874)"
+        },
+        {
+            "label": "改印等",
+            "value": "巳七改"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京名所内櫻田全圖」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　メイショ　ナイ　サクラダ　ゼンズ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国輝（2世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一曜齋国輝画、国輝画、應好国輝筆"
+        },
+        {
+            "label": "資料解説",
+            "value": "2006文化財ウィーク（26）「内桜田は西丸下、馬場先内とも称した。譜代大名の屋敷が建ち並び、人通りも多くにぎわった場所である。下馬の立て札がみえるが、そこより先の乗馬・乗駕が禁止された場所を示す。江戸城では大手門前、内桜田門前、西丸大手門前をいう。画面左手の奥に見えるのが二重橋で、現在とは異なり木造である。その手前に大手橋がみえる。中央の門は坂下門、右側は桔梗門、奥の一番右端に見えるのが富士見櫓である。現在は皇居外苑となっており、楠正成の騎馬姿の銅像がある。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00052933",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cdf506b91a8412f38441d277b0b9daa1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cdf506b91a8412f38441d277b0b9daa1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4724,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cdf506b91a8412f38441d277b0b9daa1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cdf506b91a8412f38441d277b0b9daa1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052933&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0411-C021.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4724,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052933&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0411-C021.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052933&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0411-C021.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

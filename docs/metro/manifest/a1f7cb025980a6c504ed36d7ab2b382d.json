@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a1f7cb025980a6c504ed36d7ab2b382d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般、美術/娯楽、運動/見世物、其他興行物/からくり、生人形、細工物/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；存1枚（続きありか）；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5894-C7-1/東C5894-C007-001"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（ウタガワ　クニサダ）"
+        },
+        {
+            "label": "改印等",
+            "value": "極"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/堅"
+        },
+        {
+            "label": "画題等",
+            "value": "籠細工"
+        },
+        {
+            "label": "画題等",
+            "value": "カゴザイク"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国貞∥画"
+        },
+        {
+            "label": "資料解説",
+            "value": "2012文化財ウィーク（10-1）「籠細工とは、竹の籠目を編んで、伝説上の人物や動物などをつくって見世物(みせもの)にしたものです。文化・文政期（1804-1830）には、大がかりな細工物の展示が流行しました。この図は、浅草の奥山で見世物に出展されたさまざまな籠細工を描いています。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00224003",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a1f7cb025980a6c504ed36d7ab2b382d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a1f7cb025980a6c504ed36d7ab2b382d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2748,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a1f7cb025980a6c504ed36d7ab2b382d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a1f7cb025980a6c504ed36d7ab2b382d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00224003&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5894-C007-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2748,
+                                "width": 1818
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00224003&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5894-C007-001.jpg"
+                    },
+                    "width": 1818
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00224003&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5894-C007-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

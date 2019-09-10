@@ -58,6 +58,7 @@ all = []
 # -------
 
 files = glob.glob(data_dir+"/metadata/*.json")
+print(len(files))
 
 for file in files:
     try:
@@ -77,6 +78,7 @@ for file in files:
 images = {}
 
 files = glob.glob(data_dir+"/images/*.json")
+print(len(files))
 
 for file in files:
     try:
@@ -123,7 +125,14 @@ rows.append(row1)
 rows.append(row2)
 rows.append(row3)
 
-for obj in all:
+for i in range(len(all)):
+    
+    print(str(i+1)+"/"+str(len(all)))
+    
+    obj = all[i]
+
+    if "title" not in obj:
+        obj["title"] = "[タイトルなし]"
 
     id = obj["id"]
     url = obj["url"]

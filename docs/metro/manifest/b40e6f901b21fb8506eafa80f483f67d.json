@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b40e6f901b21fb8506eafa80f483f67d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "日枝神社配置平面図（青木良孝か）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "泉涌寺泉山法隆寺相国寺知恩寺御影堂増上寺山門光明寺山門東福寺山門男山八幡北野平野神社松尾神社鴨神社山王八阪杜神楽岡斎場/東都山王神社本殿妻、平面、拝殿正面、東面二葉///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "54×36cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木27-5-1/木027-05-01"
+        },
+        {
+            "label": "題名",
+            "value": "日枝神社配置平面図（青木良孝か）"
+        },
+        {
+            "label": "題名",
+            "value": "ヒエ　ジンジャ　ハイチ　ヘイメンズ　アオキ　ヨシタカカ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「萬治二年徳川四代将軍家綱現存神殿造建ス（寛永年徳川源公）御造建東都山王神社御本社渡殿拝殿本社圍繞透墻唐門 百分壹木口指地割之図」，（題箋）「山王神社本社平面」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治22.3］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:100"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044203",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b40e6f901b21fb8506eafa80f483f67d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b40e6f901b21fb8506eafa80f483f67d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b40e6f901b21fb8506eafa80f483f67d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b40e6f901b21fb8506eafa80f483f67d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044203&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-005-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044203&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-005-001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044203&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-005-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

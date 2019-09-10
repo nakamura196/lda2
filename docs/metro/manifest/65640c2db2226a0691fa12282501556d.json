@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/65640c2db2226a0691fa12282501556d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化2-4年刊"
+        },
+        {
+            "label": "分類",
+            "value": "芸術/書画/絵画/画譜/"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；存1枚；假題；國政合筆；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "山口"
+        },
+        {
+            "label": "版元",
+            "value": "山口藤兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特5351/特5351"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊国（3世）（ウタガワ　トヨクニ）（1786-1865）"
+        },
+        {
+            "label": "改印等",
+            "value": "「米良」一印"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "[櫓下鳥居前美人]"
+        },
+        {
+            "label": "画題等",
+            "value": "ヤグラシタ　トリイマエ　ビジン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "香蝶楼豊國画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00226382",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/65640c2db2226a0691fa12282501556d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/65640c2db2226a0691fa12282501556d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2682,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/65640c2db2226a0691fa12282501556d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/65640c2db2226a0691fa12282501556d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00226382&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FTo5351.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2682,
+                                "width": 1812
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00226382&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FTo5351.jpg"
+                    },
+                    "width": 1812
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00226382&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FTo5351.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

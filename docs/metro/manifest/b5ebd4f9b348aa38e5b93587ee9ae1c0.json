@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b5ebd4f9b348aa38e5b93587ee9ae1c0.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新撰少年教育世界漫遊双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治26年12月"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/外国地誌（萬国）/外国地誌（萬国）//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "58.0×86.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "950-S3/東S950-S003"
+        },
+        {
+            "label": "題名",
+            "value": "新撰少年教育世界漫遊双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンセン　ショウネン　キョウイク　セカイ　マンユウ　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "石井定"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000743",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b5ebd4f9b348aa38e5b93587ee9ae1c0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b5ebd4f9b348aa38e5b93587ee9ae1c0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4208,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b5ebd4f9b348aa38e5b93587ee9ae1c0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b5ebd4f9b348aa38e5b93587ee9ae1c0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000743&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F950-S03-X1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4208,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000743&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F950-S03-X1.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000743&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F950-S03-X1.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

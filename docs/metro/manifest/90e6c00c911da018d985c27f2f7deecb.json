@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "皇室/明治天皇付明治史/維新各戦役/維新当時の風刺画/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "1589-C87/東C1589-C087"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/堅"
+        },
+        {
+            "label": "画題等",
+            "value": "とう楽寺あほだら経"
+        },
+        {
+            "label": "画題等",
+            "value": "トウラクジ　アホダラキョウ"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第3回江戸資料展』図録解説p.28「暖簾に江戸城と富士山が描いてある。軒には菖蒲がさしてあり､5月であることを暗示している。京屋の親父が､長さんや土さん(長州･土州であろう)と江戸見物に出かけて来たことなどの文句がよみこまれている。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00220849",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2716,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220849&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1589-C087%2802%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2716,
+                                "width": 1856
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220849&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1589-C087%2802%29.jpg"
+                    },
+                    "width": 1856
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2720,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/90e6c00c911da018d985c27f2f7deecb.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220849&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1589-C087%2801%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2720,
+                                "width": 1876
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220849&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1589-C087%2801%29.jpg"
+                    },
+                    "width": 1876
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220849&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F1589-C087%2802%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

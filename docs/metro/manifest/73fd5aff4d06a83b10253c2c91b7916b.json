@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/73fd5aff4d06a83b10253c2c91b7916b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "八坂神社本殿平面図・木割（裏面：八坂神社本殿矩計図）（明治22.9）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "林宗栄図集清敬/神社林家平野神社松尾神社林準次郎宗栄実測///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "33.5×47cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木28-3-50/木028-3-50"
+        },
+        {
+            "label": "題名",
+            "value": "八坂神社本殿平面図・木割（裏面：八坂神社本殿矩計図）（明治22.9）"
+        },
+        {
+            "label": "題名",
+            "value": "ヤサカ　ジンジャ　ホンデン　ヘイメンズ　キワリ　リメン　ヤサカ　ジンジャ　ホンデン　カナバカリズ　メイジ　２２　９"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「八坂神社」，「明治廿二年九月十九日 林宗榮寫之」，（裏面内題）「八坂神社 軒高サ不詳ニ付為纂考探求之寸尺穿鑿スル図 廿分一」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治22.9.19"
+        },
+        {
+            "label": "家名・人名",
+            "value": "林宗栄"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:100、1:20"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044413",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/73fd5aff4d06a83b10253c2c91b7916b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/73fd5aff4d06a83b10253c2c91b7916b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/73fd5aff4d06a83b10253c2c91b7916b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/73fd5aff4d06a83b10253c2c91b7916b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044413&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI028-003-050.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044413&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI028-003-050.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044413&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI028-003-050.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

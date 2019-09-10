@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d63acca99748014d9e989572f667ad6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "文化１３（1816）3"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/上方絵、田沼騒動///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "塩長"
+        },
+        {
+            "label": "版元",
+            "value": "塩屋　長兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "M837-1/東M837-001"
+        },
+        {
+            "label": "出版地",
+            "value": "大坂"
+        },
+        {
+            "label": "画中文字",
+            "value": "「三浦荒次郎　市川鰕十郎」「佐野源左衛門　中村歌右衛門」"
+        },
+        {
+            "label": "上演場所",
+            "value": "大坂"
+        },
+        {
+            "label": "上演場所",
+            "value": "角"
+        },
+        {
+            "label": "上演年",
+            "value": "文化１３（1816）03・"
+        },
+        {
+            "label": "件名",
+            "value": "春好"
+        },
+        {
+            "label": "役名・役者",
+            "value": "三浦荒次郎（1代）市川　鰕十郎、佐野源左衛門（3代）中村　歌右衛門"
+        },
+        {
+            "label": "改印等",
+            "value": "－"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "[三月開嬉心船橋]"
+        },
+        {
+            "label": "画題等",
+            "value": "ヤヨイ　ニ　ヒラク　アンド　ノ　フナハシ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "春好"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "春好画"
+        },
+        {
+            "label": "演目",
+            "value": "三月開嬉心船橋"
+        },
+        {
+            "label": "演目",
+            "value": "ヤヨイ　ニ　ヒラク　アンド　ノ　フナバシ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00052497",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d63acca99748014d9e989572f667ad6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d63acca99748014d9e989572f667ad6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4508,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8d63acca99748014d9e989572f667ad6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8d63acca99748014d9e989572f667ad6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052497&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FM837-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4508,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052497&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FM837-001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052497&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FM837-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

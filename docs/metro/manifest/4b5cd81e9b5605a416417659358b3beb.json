@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b5cd81e9b5605a416417659358b3beb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "幼女ハツユメ双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "大正13年1月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/童話及童話を絵画化したるもの//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "39.0×56.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "087-S2-2/東S087-S002-2"
+        },
+        {
+            "label": "題名",
+            "value": "幼女ハツユメ双六"
+        },
+        {
+            "label": "題名",
+            "value": "ヨウジョ　ハツユメ　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "佐藤武雄"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000226",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b5cd81e9b5605a416417659358b3beb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b5cd81e9b5605a416417659358b3beb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4890,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b5cd81e9b5605a416417659358b3beb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4b5cd81e9b5605a416417659358b3beb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000226&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F087-S002-02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4890,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000226&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F087-S002-02.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000226&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F087-S002-02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

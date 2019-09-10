@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d57420935dc5737d8bf51fb88b2b8d99.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０７ヵ（1874）"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/華押、印譜付刻//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "い"
+        },
+        {
+            "label": "版元",
+            "value": "沢村屋　清吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5259-C31-12/東C5259-C031-012"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「芭蕉翁」「嵐雪」「其角」「秋色」「千代能」"
+        },
+        {
+            "label": "件名",
+            "value": "河鍋暁斎（カワナベ　キョウサイ）（1831-1889）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「応需暁斎楽画」「第十五」「翁社中ヲ集テ業ノ上下ヲ見玉ウノ図也」"
+        },
+        {
+            "label": "画題等",
+            "value": "オウジュ　キョウサイ　ラクガ　ダイジュウゴ　オウシャチュウ　オ　アツマリテ　ギョウ　ノ　ジョウゲ　オ　ミタマウ　ノ　ズ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "河鍋暁斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "惺々暁斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫銀"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010737",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d57420935dc5737d8bf51fb88b2b8d99.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d57420935dc5737d8bf51fb88b2b8d99.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2772,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d57420935dc5737d8bf51fb88b2b8d99.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d57420935dc5737d8bf51fb88b2b8d99.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010737&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5259-C031-012.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2772,
+                                "width": 1860
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010737&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5259-C031-012.jpg"
+                    },
+                    "width": 1860
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010737&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5259-C031-012.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

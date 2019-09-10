@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/99261cc70b28b5bd0a761b61e6db6e90.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板小倉忠臣蔵飛廻双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "31.0×47.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "墨摺；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6553/加06553"
+        },
+        {
+            "label": "題名",
+            "value": "新板小倉忠臣蔵飛廻双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　オグラ　チュウシングラ　トビマワリ　スゴロク"
+        },
+        {
+            "label": "出版地",
+            "value": "京都"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "正本屋堅治（京）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000771",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/99261cc70b28b5bd0a761b61e6db6e90.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/99261cc70b28b5bd0a761b61e6db6e90.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4777,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/99261cc70b28b5bd0a761b61e6db6e90.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/99261cc70b28b5bd0a761b61e6db6e90.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000771&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6553.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4777,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000771&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6553.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000771&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6553.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

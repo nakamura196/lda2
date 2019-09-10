@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/77147d66e3d92e643d9b7d4bc8e62289.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「東都帰路待［受］狂歌合　兼題　千鳥」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "名声亭□面／判者、歌澤上音斎／筆、琴風舎内真吉／彫工"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "30.5×24.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加7424-18-2/加07424-018-02"
+        },
+        {
+            "label": "題名",
+            "value": "「東都帰路待［受］狂歌合　兼題　千鳥」"
+        },
+        {
+            "label": "題名",
+            "value": "トウトキロマチウケキョウカアワセ　ケンダイ　チドリ"
+        },
+        {
+            "label": "画中文字",
+            "value": "「文久元辛酉五月五日於万代楼披巻二首合点甲乙」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041146",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/77147d66e3d92e643d9b7d4bc8e62289.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/77147d66e3d92e643d9b7d4bc8e62289.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/77147d66e3d92e643d9b7d4bc8e62289.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/77147d66e3d92e643d9b7d4bc8e62289.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041146&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-018-02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041146&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-018-02.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041146&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-018-02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

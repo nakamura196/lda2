@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2f8b2c07636f84fde52b1c27ec7472b9.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０８（1875）10・ヵ"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/徳川並江戸時代史（通史）/画史//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "錦栄堂"
+        },
+        {
+            "label": "版元",
+            "value": "万屋　孫兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "2407-C1-1/東C2407-C001-001"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「東照神君」「伊井直正」「木村重成首」"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "改印等",
+            "value": "亥十ヵ"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪（二丁掛）"
+        },
+        {
+            "label": "画題等",
+            "value": "「徳川十五代記略」「神君大坂御勝利首実検之図」"
+        },
+        {
+            "label": "画題等",
+            "value": "トクガワ　ジュウゴダイ　キリャク　シンクン　オオサカ　ゴショウリ　クビジッケン　ノ　ズ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "大蘇芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫銀"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009610",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2f8b2c07636f84fde52b1c27ec7472b9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2f8b2c07636f84fde52b1c27ec7472b9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2841,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2f8b2c07636f84fde52b1c27ec7472b9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2f8b2c07636f84fde52b1c27ec7472b9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009610&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2407-C001-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2841,
+                                "width": 1858
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009610&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2407-C001-001.jpg"
+                    },
+                    "width": 1858
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009610&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2407-C001-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

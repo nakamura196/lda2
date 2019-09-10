@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b6ccec16ae8900939d99075097073e8f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０８（1875）8"
+        },
+        {
+            "label": "分類",
+            "value": "貼交絵/一般/東京/名所、案内記、写真帖/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "い、板元神田須田丁沢村"
+        },
+        {
+            "label": "版元",
+            "value": "沢村屋　清吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "035-C2-5/東C035-C002-005"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "/関防：上に鳥　「會席御料理松源」の看板"
+        },
+        {
+            "label": "件名",
+            "value": "肉亭夏良（ニクテイ　カリョウ）（生没年未詳），歌川広重（3世）（ウタガワ　ヒロシゲ）（1842-1894），河鍋暁斎（カワナベ　キョウサイ）（1831-1889）"
+        },
+        {
+            "label": "改印等",
+            "value": "亥八"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京開化名勝ノ内」「松源労上乃遊戯」「上野廣小路より望三橋を」「石井一庭」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　カイカ　メイショウ　ノ　ウチ　マツゲン　ロウジョウ　ノ　ユウギ　ウエノ　ヒロコウジ　ヨリ　ノゾム　サンバシ　オ　イシイ　イッテイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "肉亭夏良，歌川広重（3世），河鍋暁斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "肉亭夏良、広重画、暁斎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫銀"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007556",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b6ccec16ae8900939d99075097073e8f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b6ccec16ae8900939d99075097073e8f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b6ccec16ae8900939d99075097073e8f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b6ccec16ae8900939d99075097073e8f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007556&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-C002-05.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007556&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-C002-05.jpg"
+                    },
+                    "width": 4724
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007556&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-C002-05.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3bddd0a03f4ab42f87cf784058742706.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "天満大火之図",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1846]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1846****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "テンマタイカノズ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "天満大火之図"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000521474"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28372"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "c0032001"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[出版地不明]:[出版者不明]"
+        },
+        {
+            "label": "形態",
+            "value": "地図1枚;28×39cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "369"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28372",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3bddd0a03f4ab42f87cf784058742706.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3bddd0a03f4ab42f87cf784058742706.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 711,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3bddd0a03f4ab42f87cf784058742706.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3bddd0a03f4ab42f87cf784058742706.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=159888",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 711,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=159888"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=159888"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b9145ed9ba515d958221366c892b43b3.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "玉廼春初鳥双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治2年11月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/玩具及子供風俗、子供風俗を絵画化したもの/人間の生活を動植物にて表わしたるもの及び動植物に関するもの/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×70.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0862-S2/東S0862-S002"
+        },
+        {
+            "label": "題名",
+            "value": "玉廼春初鳥双六"
+        },
+        {
+            "label": "題名",
+            "value": "タマ　ノ　ハル　ハツドリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一樹斎国政（4代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一樹齋國政　四世か→三世國貞"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "慶寿堂丸平"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000213",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b9145ed9ba515d958221366c892b43b3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b9145ed9ba515d958221366c892b43b3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4569,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b9145ed9ba515d958221366c892b43b3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b9145ed9ba515d958221366c892b43b3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000213&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0862-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4569,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000213&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0862-S002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000213&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0862-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

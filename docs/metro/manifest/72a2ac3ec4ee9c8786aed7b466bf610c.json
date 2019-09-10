@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72a2ac3ec4ee9c8786aed7b466bf610c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "天保"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）/吉原遊女（各地の遊女は0799）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；「流行美人合」は「辰己八景ノ内」の後摺時の改題か，判じ絵による細目題:菜、蚊、蝶、尾、栗　→　仲町　送り；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "蔦屋 吉蔵"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0793-C48-4/東C0793-C048-004"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（1世）（ウタガワ　クニサダ）（1786-1864）"
+        },
+        {
+            "label": "改印等",
+            "value": "極"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「流行美人合」 [仲町　送り]]"
+        },
+        {
+            "label": "画題等",
+            "value": "ハヤリ　ビジン　アワセ　ナカチョウ　オクリ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国貞（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "香蝶楼国貞画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00049150",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72a2ac3ec4ee9c8786aed7b466bf610c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72a2ac3ec4ee9c8786aed7b466bf610c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4724,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72a2ac3ec4ee9c8786aed7b466bf610c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/72a2ac3ec4ee9c8786aed7b466bf610c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00049150&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0793-C048-004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4724,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00049150&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0793-C048-004.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00049150&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0793-C048-004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

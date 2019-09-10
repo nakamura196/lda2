@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef23f7b3e2568d72644b05cf6b4d2332.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「狂歌早引節用集　兼題　四季種々　満会」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "46×35.4cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加7424-62/加07424-062"
+        },
+        {
+            "label": "題名",
+            "value": "「狂歌早引節用集　兼題　四季種々　満会」"
+        },
+        {
+            "label": "題名",
+            "value": "キョウカハヤビキセツヨウシュウ　ケンダイ　シキシュシュ　マンカイ"
+        },
+        {
+            "label": "画中文字",
+            "value": "「十一月二日若緑亭にて開巻」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041193",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef23f7b3e2568d72644b05cf6b4d2332.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef23f7b3e2568d72644b05cf6b4d2332.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ef23f7b3e2568d72644b05cf6b4d2332.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ef23f7b3e2568d72644b05cf6b4d2332.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041193&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-062.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041193&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-062.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041193&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-062.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

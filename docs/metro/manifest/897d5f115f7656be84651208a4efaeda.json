@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/897d5f115f7656be84651208a4efaeda.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "武芸立身館双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化頃"
+        },
+        {
+            "label": "分類",
+            "value": "美術/兵学、武芸、武家故実/武芸、武器（総）史伝及武家故実//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "70.0×47.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "592-S2/東S592-S002"
+        },
+        {
+            "label": "題名",
+            "value": "武芸立身館双六"
+        },
+        {
+            "label": "題名",
+            "value": "ブゲイ　リッシン　ヤカタ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "万亭応賀"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川豊国（3代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一陽齋豊國(三世"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "上州屋重蔵"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000623",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/897d5f115f7656be84651208a4efaeda.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/897d5f115f7656be84651208a4efaeda.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/897d5f115f7656be84651208a4efaeda.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/897d5f115f7656be84651208a4efaeda.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000623&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F592-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000623&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F592-S02.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000623&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F592-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

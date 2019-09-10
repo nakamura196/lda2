@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e15b777046e85cbe274c351221e70882.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/和漢書"
+        },
+        {
+            "label": "分類",
+            "value": "一般/江戸/災異－地震/安政2年///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "23.3×16cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；写（カーボン）；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0277-21/東0277-021"
+        },
+        {
+            "label": "件名",
+            "value": "江戸地誌"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "江戸市政百話　一"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "エド　シセイ　ヒャクワ　1"
+        },
+        {
+            "label": "丁数・ページ数",
+            "value": "45丁"
+        },
+        {
+            "label": "和漢書種別",
+            "value": "その他"
+        },
+        {
+            "label": "巻冊",
+            "value": "；；1冊"
+        },
+        {
+            "label": "書名",
+            "value": "安政大地震実験談"
+        },
+        {
+            "label": "書名",
+            "value": "アンセイ　オオジシン　ジッケンダン"
+        },
+        {
+            "label": "災害名称",
+            "value": "安政の大地震（1855年）"
+        },
+        {
+            "label": "災害年代",
+            "value": "江戸"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震"
+        },
+        {
+            "label": "著者",
+            "value": "佐久間長敬∥講演"
+        },
+        {
+            "label": "著者",
+            "value": "サクマ　オサヒロ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000005-00181923",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e15b777046e85cbe274c351221e70882.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e15b777046e85cbe274c351221e70882.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4491,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e15b777046e85cbe274c351221e70882.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e15b777046e85cbe274c351221e70882.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000005-00181923&size=org&type=image&file=%2F%E5%92%8C%E6%BC%A2%E6%9B%B8%2F0277-021_01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4491,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000005-00181923&size=thumb&type=image&file=%2F%E5%92%8C%E6%BC%A2%E6%9B%B8%2F0277-021_01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000005-00181923&size=thumb&type=image&file=%2F%E5%92%8C%E6%BC%A2%E6%9B%B8%2F0277-021_01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

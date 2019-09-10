@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f19f6e742e433fb753dbf1b718db470.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "大嘗祭（文政度）大嘗宮指図（寛政度内裏紫宸殿・南庭廻り指図）（文政元）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清秀一/悠記主記殿廻立殿御膳屋木寄仕様図面清秀勝久木子作太夫所蔵大嘗會図書大嘗會三清秀///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "80×55.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木38-1-1/木038-1-01"
+        },
+        {
+            "label": "題名",
+            "value": "大嘗祭（文政度）大嘗宮指図（寛政度内裏紫宸殿・南庭廻り指図）（文政元）"
+        },
+        {
+            "label": "題名",
+            "value": "ダイジョウサイ　ブンセイド　ダイジョウキュウ　サシズ　カンセイド　ダイリ　シシンデン　ナンテイ　マワリ　サシズ　ブンセイ　ガン"
+        },
+        {
+            "label": "題名",
+            "value": "（外題）「文政元寅年十一月 大嘗會御用御繪図 木子作太夫扣」）「ほ」，（勝久印，（正殿･廻立殿･膳屋"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "文政1.11(1818)"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清秀"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044805",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f19f6e742e433fb753dbf1b718db470.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f19f6e742e433fb753dbf1b718db470.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3f19f6e742e433fb753dbf1b718db470.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3f19f6e742e433fb753dbf1b718db470.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044805&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI038-001-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4804
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044805&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI038-001-001.jpg"
+                    },
+                    "width": 4804
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044805&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI038-001-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5625e43ca9538377e9c7be7c106d31.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "浪華名所役者大見立",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "50.0×71.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり付；多色摺；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6608/加06608"
+        },
+        {
+            "label": "題名",
+            "value": "浪華名所役者大見立"
+        },
+        {
+            "label": "題名",
+            "value": "ナニワ　メイショ　ヤクシャ　オオミタテ"
+        },
+        {
+            "label": "作者・画工",
+            "value": "河竹遊好"
+        },
+        {
+            "label": "作者・画工",
+            "value": "松川半山"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "照春堂"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000829",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5625e43ca9538377e9c7be7c106d31.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5625e43ca9538377e9c7be7c106d31.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4756,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5625e43ca9538377e9c7be7c106d31.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9e5625e43ca9538377e9c7be7c106d31.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000829&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6608.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4756,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000829&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6608.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000829&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6608.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

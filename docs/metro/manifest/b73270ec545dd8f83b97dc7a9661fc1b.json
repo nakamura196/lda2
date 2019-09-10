@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b73270ec545dd8f83b97dc7a9661fc1b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "辻うら寿ご六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "安政4年9月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/支那哲学/術教（占、卜、九星、有卦絵）//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.0×50.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "389-S1/東S389-S001"
+        },
+        {
+            "label": "題名",
+            "value": "辻うら寿ご六"
+        },
+        {
+            "label": "題名",
+            "value": "ツジウラ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "梅素亭玄魚"
+        },
+        {
+            "label": "作者・画工",
+            "value": "玄魚"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "遠州屋彦兵衛"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000355",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b73270ec545dd8f83b97dc7a9661fc1b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b73270ec545dd8f83b97dc7a9661fc1b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b73270ec545dd8f83b97dc7a9661fc1b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b73270ec545dd8f83b97dc7a9661fc1b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000355&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F389-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000355&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F389-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000355&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F389-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

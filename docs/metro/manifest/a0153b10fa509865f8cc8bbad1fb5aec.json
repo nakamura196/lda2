@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0153b10fa509865f8cc8bbad1fb5aec.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「千穐月並力競　狂歌四民集　兼題　花の部」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "千柳亭綾彦／選"
+        },
+        {
+            "label": "出版年",
+            "value": "癸卯八月"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "43.3×31.9cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加7424-35/加07424-035"
+        },
+        {
+            "label": "題名",
+            "value": "「千穐月並力競　狂歌四民集　兼題　花の部」"
+        },
+        {
+            "label": "題名",
+            "value": "センシュウツキナミチカラクラベ　キョウカシミンシュウ　ケンダイ　ハナノブ"
+        },
+        {
+            "label": "作者カナ",
+            "value": "センリュウテイ　アヤヒコ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041166",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0153b10fa509865f8cc8bbad1fb5aec.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0153b10fa509865f8cc8bbad1fb5aec.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a0153b10fa509865f8cc8bbad1fb5aec.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a0153b10fa509865f8cc8bbad1fb5aec.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041166&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-035.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041166&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-035.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041166&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-035.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ff443d72ee11459654f0ec6350aa6694.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "浪花生玉正遷宮難波宮砂持人数おどり",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "安政3(1856)"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1856****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ナニワ イクタマ ショウセングウ ナニワノミヤ スナモチ ニンズウオドリ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "浪花生玉正遷宮難波宮砂持人数おどり"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000777399"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28932"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "o0006001"
+        },
+        {
+            "label": "注記_01",
+            "value": "安政三辰ノ四月八日ヨリ，帙入"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ホリトヨ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[大坂]:堀豊"
+        },
+        {
+            "label": "巻次",
+            "value": "三編"
+        },
+        {
+            "label": "巻次(数値)",
+            "value": "0003"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;19×52cm(折りたたみ19×19cm)"
+        },
+        {
+            "label": "請求記号",
+            "value": "386"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28932",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ff443d72ee11459654f0ec6350aa6694.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ff443d72ee11459654f0ec6350aa6694.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 386,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ff443d72ee11459654f0ec6350aa6694.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ff443d72ee11459654f0ec6350aa6694.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=194208",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 386,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=194208"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=194208"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

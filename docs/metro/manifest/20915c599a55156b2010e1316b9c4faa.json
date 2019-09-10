@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20915c599a55156b2010e1316b9c4faa.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "安政０４（1857）02・"
+        },
+        {
+            "label": "分類",
+            "value": "源氏絵/風俗/年中行事//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "蔦屋　吉蔵"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "K660-13-8/東K660-013-008"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（2世）（ウタガワ　クニサダ）（1823-1880）"
+        },
+        {
+            "label": "改印等",
+            "value": "改，巳二"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「紫式部げむじかるた」「八」「あふひ」"
+        },
+        {
+            "label": "画題等",
+            "value": "ムラサキ　シキブ　ゲンジ　カルタ　ハチ　アオイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国貞（2世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅蝶楼国貞画（年玉枠）"
+        },
+        {
+            "label": "画の内容",
+            "value": "「偐紫田舎源氏」12編下の図柄参照"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00012991",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20915c599a55156b2010e1316b9c4faa.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20915c599a55156b2010e1316b9c4faa.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3436,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20915c599a55156b2010e1316b9c4faa.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/20915c599a55156b2010e1316b9c4faa.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012991&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FK660-013-008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3436,
+                                "width": 2372
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012991&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FK660-013-008.jpg"
+                    },
+                    "width": 2372
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00012991&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FK660-013-008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

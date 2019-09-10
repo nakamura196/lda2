@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c0b3671a1c7829b19c29680230d40ee6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "水滸伝豪傑双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/小説/読本、実録物、怪談本//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×91.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "476-S4/東S476-S004"
+        },
+        {
+            "label": "題名",
+            "value": "水滸伝豪傑双六"
+        },
+        {
+            "label": "題名",
+            "value": "スイコデン　ゴウケツ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川國芳"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "鶴屋喜右衛門ほか"
+        },
+        {
+            "label": "資料解説",
+            "value": "2012大規模企画展(41)　「中国明代の長編小説『水滸伝』を双六にしたもの。梁山泊を中心に活躍した108人の豪傑を双六のコマ絵にしています。この双六の刊行年は不明ですが、国芳は文政10年（1827）頃から『通俗水滸伝豪傑百八人一個』というシリーズで錦絵を刊行して大変な人気となり、武者絵の第一人者となりました。小説の水滸伝ブームと連動したといわれていますが、双六になるほど江戸っ子の間に知られていたということでしょう。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000420",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c0b3671a1c7829b19c29680230d40ee6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c0b3671a1c7829b19c29680230d40ee6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c0b3671a1c7829b19c29680230d40ee6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c0b3671a1c7829b19c29680230d40ee6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000420&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F476-S04.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000420&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F476-S04.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000420&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F476-S04.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

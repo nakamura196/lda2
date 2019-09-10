@@ -1,0 +1,138 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5b141f281d9f116defa454c1dbdb2b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "帝都大震災一覧",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "廣瀬正雄"
+        },
+        {
+            "label": "作者",
+            "value": ""
+        },
+        {
+            "label": "作者",
+            "value": "編輯兼発行者"
+        },
+        {
+            "label": "出版年",
+            "value": "大正12"
+        },
+        {
+            "label": "分類",
+            "value": "一般/東京/災異－地震/大正１２年大地震/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "内50.5×37.7cm（外73×47.8cm）"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；印刷；軸物；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "恭文堂　中村有蔵"
+        },
+        {
+            "label": "版元",
+            "value": ""
+        },
+        {
+            "label": "版元",
+            "value": "印刷人"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0372-D7/東D0372-D007"
+        },
+        {
+            "label": "題名",
+            "value": "帝都大震災一覧"
+        },
+        {
+            "label": "題名",
+            "value": "テイト　ダイシンサイ　イチラン"
+        },
+        {
+            "label": "画中文字",
+            "value": "「大正十二年十月廿四日内務省御届　同月廿六日発行」"
+        },
+        {
+            "label": "災害名称",
+            "value": "関東大震災（1923年）"
+        },
+        {
+            "label": "災害年代",
+            "value": "大正"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震"
+        },
+        {
+            "label": "作者カナ",
+            "value": "ヒロセ　マサオ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00040956",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5b141f281d9f116defa454c1dbdb2b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5b141f281d9f116defa454c1dbdb2b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e5b141f281d9f116defa454c1dbdb2b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9e5b141f281d9f116defa454c1dbdb2b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040956&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F0372-D007.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040956&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F0372-D007.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040956&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F0372-D007.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

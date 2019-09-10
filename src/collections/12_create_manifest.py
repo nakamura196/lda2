@@ -182,6 +182,7 @@ for j in range(4, r_count):
     canvases = manifest["sequences"][0]["canvases"]
 
     if id not in id_image_map:
+        print("None: \t"+id)
         continue
 
     images = id_image_map[id]

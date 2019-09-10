@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1c523ec18826aad8c3f35f132563d3c8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "東大寺大仏殿柱傾斜実測図6／梁行ト・チ通り（縮尺1:100）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "古社寺実測図////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "110×80.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木63-1-6/木063-1-06"
+        },
+        {
+            "label": "題名",
+            "value": "東大寺大仏殿柱傾斜実測図6／梁行ト・チ通り（縮尺1:100）"
+        },
+        {
+            "label": "題名",
+            "value": "トウダイジ　ダイブツデン　ハシラ　ケイシャ　ジッソクズ　6　ハリユキ　ト　チ　トオリ　シュクシャク　1　100"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「東大寺大佛殿柱傾斜實測図 縮尺百分之壱 梁行」，（外題）「大佛殿柱傾斜梁行トチ號實測図」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（青写真）"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治37］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:100"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00046814",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1c523ec18826aad8c3f35f132563d3c8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1c523ec18826aad8c3f35f132563d3c8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1c523ec18826aad8c3f35f132563d3c8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1c523ec18826aad8c3f35f132563d3c8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046814&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI063-001-006.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046814&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI063-001-006.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046814&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI063-001-006.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

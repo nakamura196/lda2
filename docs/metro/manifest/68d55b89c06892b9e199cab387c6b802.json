@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/68d55b89c06892b9e199cab387c6b802.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０２（1869）10・"
+        },
+        {
+            "label": "分類",
+            "value": "武者絵/太平記///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵貼込帖，「太平記英勇伝拾遺」所収；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "廣幸"
+        },
+        {
+            "label": "版元",
+            "value": "広岡屋　幸助"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5264-9(49)/東5264-009(049)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "山々亭有人記"
+        },
+        {
+            "label": "件名",
+            "value": "落合芳幾（オチアイ　ヨシイク）（1833-1904）"
+        },
+        {
+            "label": "改印等",
+            "value": "巳十改"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「太平記三十六番相撲」「第四之番ヒ」「小西隼人」"
+        },
+        {
+            "label": "画題等",
+            "value": "タイヘイキ　サンジュウロクバン　スモウ　ダイヨン　ノ　ツガイ　コニシ　ハヤト"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "朝霞楼芳幾筆"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00020756",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/68d55b89c06892b9e199cab387c6b802.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/68d55b89c06892b9e199cab387c6b802.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2965,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/68d55b89c06892b9e199cab387c6b802.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/68d55b89c06892b9e199cab387c6b802.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020756&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5264-009-049.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2965,
+                                "width": 2156
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020756&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5264-009-049.jpg"
+                    },
+                    "width": 2156
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020756&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5264-009-049.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

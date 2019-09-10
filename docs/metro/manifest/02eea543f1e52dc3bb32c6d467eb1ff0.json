@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/02eea543f1e52dc3bb32c6d467eb1ff0.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板志利取双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治20年"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/滑稽文学/語呂合付句、地口付尻取り文句//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "446-S1/東S446-S001"
+        },
+        {
+            "label": "題名",
+            "value": "新板志利取双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　シリトリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳藤"
+        },
+        {
+            "label": "作者・画工",
+            "value": "(歌川)芳藤"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "児玉又七"
+        },
+        {
+            "label": "資料解説",
+            "value": "『子供の遊び』図録解説p.11「ぼたんに唐獅子竹に虎､とらを踏まへて和唐内、内藤さまは下り藤､富士見西行後向き､むきみ蛤ばかはしら、柱は2階と縁の下､下谷上野の山かつら、桂文治は落語家（はなしか）で、でん／＼太鼓に笙の笛、閻魔は盆とお正月、勝頼さんは武田菱､菱餅3月雛祭り､祭万灯（まんどう）山車屋台､鯛に鰹にたこまぐろ、ろんどん異国の大港(下略)　この有名な尻取り文句を､振り出しから上りまでに仕立てた双六である。上りのところに｢一ツ余れば大象へ帰る、二ツ余れば咲いた桜へ帰る｣などとあり、上りを目前にして､なかなかたどりつけないゲームとしての面白さがある。」，『明治前期の東京』図録解説p.28「ぼたんに唐獅子　竹にとら　とらをふまへて　和藤内　ないとうさまは　さがりふぢ　というような明治の人たちの間にはやった有名なしりとりの絵どき｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000385",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/02eea543f1e52dc3bb32c6d467eb1ff0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/02eea543f1e52dc3bb32c6d467eb1ff0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/02eea543f1e52dc3bb32c6d467eb1ff0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/02eea543f1e52dc3bb32c6d467eb1ff0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000385&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F446-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000385&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F446-S01.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000385&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F446-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

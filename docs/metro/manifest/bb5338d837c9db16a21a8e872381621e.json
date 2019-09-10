@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bb5338d837c9db16a21a8e872381621e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "日出新聞新年附録凱旋双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治28年1月"
+        },
+        {
+            "label": "分類",
+            "value": "遊芸・娯楽/娯楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×66.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "（日出新聞新年号附録）；石版；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6554/加06554"
+        },
+        {
+            "label": "題名",
+            "value": "日出新聞新年附録凱旋双六"
+        },
+        {
+            "label": "題名",
+            "value": "ヒノデ　シンブン　シンネン　フロク　ガイセン　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "日出新聞"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000772",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bb5338d837c9db16a21a8e872381621e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bb5338d837c9db16a21a8e872381621e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4920,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bb5338d837c9db16a21a8e872381621e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/bb5338d837c9db16a21a8e872381621e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000772&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6554.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4920,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000772&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6554.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000772&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6554.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

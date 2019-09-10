@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01ba68b2e22e349107ec8a71bb7ced3.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "文久０３（1863）08・"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/古今俳優似顔大全///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "広幸"
+        },
+        {
+            "label": "版元",
+            "value": "広岡屋　幸助"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5728-C3-2/東C5728-C003-002"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（1世）（ウタガワ　クニサダ）（1786-1864）"
+        },
+        {
+            "label": "役名・役者",
+            "value": "早野勘平<4.5>嵐　雛助、赤根屋半七（3代）叶　雛助、手塚の太郎（7代）嵐　雛助"
+        },
+        {
+            "label": "改印等",
+            "value": "亥八改"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "紫野大徳寺焼香之図"
+        },
+        {
+            "label": "画題等",
+            "value": "アラシヤ　ケイフ　ハヤノ　カンペイ　ヨダイメ　アラシ　ヒナスケ　アカネヤ　ハンシチ　ゴダイメ　カノウ　ヒナスケ　テヅカノ　タロウ　ロクダイメ　トウジ　アラシ　ヒナスケ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）（歌川国貞（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "七十八歳豊国画(年玉枠)"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00011689",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01ba68b2e22e349107ec8a71bb7ced3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01ba68b2e22e349107ec8a71bb7ced3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1532,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d01ba68b2e22e349107ec8a71bb7ced3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d01ba68b2e22e349107ec8a71bb7ced3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00011689&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5728-C003-02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1532,
+                                "width": 1020
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00011689&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5728-C003-02.jpg"
+                    },
+                    "width": 1020
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00011689&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5728-C003-02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

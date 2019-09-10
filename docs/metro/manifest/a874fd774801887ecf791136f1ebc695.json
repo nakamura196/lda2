@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a874fd774801887ecf791136f1ebc695.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；袋；目録題：「源氏五十四帖」（後補書題簽）；；；；画帖；袋題「源氏絵物語」；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "久"
+        },
+        {
+            "label": "版元",
+            "value": "山本　平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加8057-52/加08057-052"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "たちばなのこじまの色はかはらじをこのうきふねぞゆくゑしられぬ/関坊題：「源氏香の図」"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国貞（1世）（ウタガワ　クニサダ）（1786-1864）"
+        },
+        {
+            "label": "改印等",
+            "value": "普"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「源氏香の図」 「浮舟」"
+        },
+        {
+            "label": "画題等",
+            "value": "ゲンジ　コウ　ノ　ズ　ウキフネ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）（歌川国貞（1世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一陽斎豊国画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00020119",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a874fd774801887ecf791136f1ebc695.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a874fd774801887ecf791136f1ebc695.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2624,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a874fd774801887ecf791136f1ebc695.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a874fd774801887ecf791136f1ebc695.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020119&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA8057-052.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2624,
+                                "width": 1896
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020119&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA8057-052.jpg"
+                    },
+                    "width": 1896
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020119&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA8057-052.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

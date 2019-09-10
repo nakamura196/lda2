@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/102a36edbac5fdd3cc2d64b08b64ffe2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "神仏納手拭",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "安政1年10月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/社寺/社寺//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×35.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "310-S5/東S310-S005"
+        },
+        {
+            "label": "題名",
+            "value": "神仏納手拭"
+        },
+        {
+            "label": "題名",
+            "value": "シンブツ　オサメ　テヌグイ"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一立斎広重、一陽斎豊国"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一立齋廣重　一陽齋豊國"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000296",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/102a36edbac5fdd3cc2d64b08b64ffe2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/102a36edbac5fdd3cc2d64b08b64ffe2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/102a36edbac5fdd3cc2d64b08b64ffe2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/102a36edbac5fdd3cc2d64b08b64ffe2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000296&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F310-S005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 5071
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000296&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F310-S005.jpg"
+                    },
+                    "width": 5071
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000296&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F310-S005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

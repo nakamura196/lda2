@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/787fd68aceac7b20ccb3e4f9400d589c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/日本地誌/日本地誌/名所、図会、細見、鹿子///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖，「廣重日本名所」所収；；；；；折本，3帖（甲・乙・丙）；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "9405-13-3(18)/東9405-013-003(18)"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（3世）（ウタガワ　ヒロシゲ）（1842-1894）"
+        },
+        {
+            "label": "改印等",
+            "value": "御届明治九年"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/横"
+        },
+        {
+            "label": "画題等",
+            "value": "「日本地誌略圖」「六十六」「豊後國」「佐賀之關」"
+        },
+        {
+            "label": "画題等",
+            "value": "ニホン　チシ　リャクズ　ロクジュウロク　ブンゴノクニ　サガノセキ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重（3世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "畫"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "広重畫"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00233948",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/787fd68aceac7b20ccb3e4f9400d589c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/787fd68aceac7b20ccb3e4f9400d589c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2395,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/787fd68aceac7b20ccb3e4f9400d589c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/787fd68aceac7b20ccb3e4f9400d589c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00233948&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F9405-013-003-18.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2395,
+                                "width": 3100
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00233948&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F9405-013-003-18.jpg"
+                    },
+                    "width": 3100
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00233948&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F9405-013-003-18.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

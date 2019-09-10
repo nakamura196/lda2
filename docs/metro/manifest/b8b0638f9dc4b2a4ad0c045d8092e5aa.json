@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8b0638f9dc4b2a4ad0c045d8092e5aa.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０７（1874）11・"
+        },
+        {
+            "label": "分類",
+            "value": "一般/一般/新聞紙、画報/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "政栄堂"
+        },
+        {
+            "label": "版元",
+            "value": "川口屋　正蔵"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "008-29-35/東008-029-035"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「転々堂鈍々記」"
+        },
+        {
+            "label": "件名",
+            "value": "小林永濯（コバヤシ　エイタク）（1843-1890）"
+        },
+        {
+            "label": "改印等",
+            "value": "戌十一"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「各種新聞図解の内」「第七」「東京日々新聞」「第七百四十八号」"
+        },
+        {
+            "label": "画題等",
+            "value": "カクシュ　シンブン　ズカイ　ノ　ウチ　ダイナナ　トウキョウ　ニチニチ　シンブン　ダイナナヒャクヨンジュウハチゴウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "小林永濯"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "鮮斎永濯"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007045",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8b0638f9dc4b2a4ad0c045d8092e5aa.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8b0638f9dc4b2a4ad0c045d8092e5aa.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2787,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b8b0638f9dc4b2a4ad0c045d8092e5aa.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b8b0638f9dc4b2a4ad0c045d8092e5aa.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007045&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-35.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2787,
+                                "width": 1836
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007045&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-35.jpg"
+                    },
+                    "width": 1836
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007045&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F008-029-35.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e4652eafcf1011dc04dc6fdcf76999.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "百人一首廻利寿語呂久",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治1年7月"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/和歌/選集/小倉百首/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "61.0×73.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "4136-S4/東S4136-S004"
+        },
+        {
+            "label": "題名",
+            "value": "百人一首廻利寿語呂久"
+        },
+        {
+            "label": "題名",
+            "value": "ヒャクニン　イッシュ　マワリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "綾岡輝松"
+        },
+        {
+            "label": "作者・画工",
+            "value": "綾岡主人（輝松）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "彫工　渡辺栄蔵"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "大和屋貞助"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000372",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e4652eafcf1011dc04dc6fdcf76999.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e4652eafcf1011dc04dc6fdcf76999.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e4652eafcf1011dc04dc6fdcf76999.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b2e4652eafcf1011dc04dc6fdcf76999.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000372&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4136-S04.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000372&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4136-S04.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000372&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4136-S04.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

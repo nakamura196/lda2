@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dddae393222b7310d8aea181d15a57ac.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板金沢道中双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "安政4年3月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/隣接街道（五街道、付金沢街道、富士山）/金州街道//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49.0×70.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "066-S1/東S066-S001"
+        },
+        {
+            "label": "題名",
+            "value": "新板金沢道中双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　カナザワ　ドウチュウ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川芳員"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一壽齋(歌川)芳員"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "和泉屋市兵衛"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000113",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dddae393222b7310d8aea181d15a57ac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dddae393222b7310d8aea181d15a57ac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4740,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dddae393222b7310d8aea181d15a57ac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dddae393222b7310d8aea181d15a57ac.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000113&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F066-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4740,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000113&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F066-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000113&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F066-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b2ad73cfbe611ccf96985a521ec3ee4.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２９（1896）7"
+        },
+        {
+            "label": "分類",
+            "value": "貼交絵////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京日本橋区長谷川町十九番地　福田熊次郎"
+        },
+        {
+            "label": "版元",
+            "value": "福田　熊次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "016-3ア-12/東016-003ア-012"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「皆人か三清堂も妙薬のきゝめに名さえ高木評判　千秋賛」"
+        },
+        {
+            "label": "件名",
+            "value": "梅堂小国政（バイドウ　コクニマサ）（生没年未詳），稲葉千秋"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京自慢名物会」「春風亭柳枝」「ビラ辰」「髙木與兵衛　清婦湯　清心丹[薬屋]」「よし町丁字屋小てる　小嶌かね」「かきから町水天宮模様」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　ジマン　メイブツエ　シュンプウテイ　リュウシ　ビラタツ　タカギ　ヨヘエ　セイフトウ　セイシンタン　クスリヤ　ヨシマチ　チョウジヤ　コテル　コジマ　カネ　カキカラマチ　スイテングウ　モヨウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅堂小国政，稲葉千秋"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "小国政（「小国政画」印）、千秋好"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00020475",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b2ad73cfbe611ccf96985a521ec3ee4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b2ad73cfbe611ccf96985a521ec3ee4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2680,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4b2ad73cfbe611ccf96985a521ec3ee4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4b2ad73cfbe611ccf96985a521ec3ee4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020475&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-003a-012.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2680,
+                                "width": 1752
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020475&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-003a-012.jpg"
+                    },
+                    "width": 1752
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00020475&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F016-003a-012.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

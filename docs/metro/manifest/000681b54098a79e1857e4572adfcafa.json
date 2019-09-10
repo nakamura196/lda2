@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/000681b54098a79e1857e4572adfcafa.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "草紙合高評双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "安政2年9月"
+        },
+        {
+            "label": "分類",
+            "value": "文学、語学/小説/史伝/草双紙/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "4715-S1/東S4715-S001"
+        },
+        {
+            "label": "題名",
+            "value": "草紙合高評双六"
+        },
+        {
+            "label": "題名",
+            "value": "ソウシ　アワセ　アタリ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "楳素亭玄魚"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川豊国（3代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一陽齋豊國"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "若狭屋与市"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.7「当時評判の草双紙(合巻)14部を採り、1作ごとに登場人物を3枚続きの様式に配し、各々を齣とした双六。絵は、その合巻の表紙や挿絵等から取り、書名に小さく版元名も添えている。しかし振りはじめの会話中に自刊の『雑談雨夜質庫』と『北雪美談時代加賀見』を出し、それを中央に配置するなど、若狭屋は自己宣伝にも努めている。題名が省略されているものについて補うと、右側で『弓張月春宵栄』『遊仙沓春雨草紙』、左側で『釈迦八相倭文庫』『白縫譚』『雪梅芳譚犬の草紙』『梅若松若　竹取物語』『南柯夢女舞衣』である。」，『第2回江戸資料展』図録解説p.20「当時流行の合巻を知ることのできる双六｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000413",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/000681b54098a79e1857e4572adfcafa.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/000681b54098a79e1857e4572adfcafa.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/000681b54098a79e1857e4572adfcafa.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/000681b54098a79e1857e4572adfcafa.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000413&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4715-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000413&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4715-S01.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000413&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F4715-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

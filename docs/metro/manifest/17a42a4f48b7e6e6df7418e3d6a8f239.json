@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/17a42a4f48b7e6e6df7418e3d6a8f239.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「大日本持〇長者鑑　三津除　後編」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "小蝶／筆"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.0×22.8cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "版元",
+            "value": "藤岡堂"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-2-2(20)/東448-002-002(20)"
+        },
+        {
+            "label": "題名",
+            "value": "「大日本持〇長者鑑　三津除　後編」"
+        },
+        {
+            "label": "題名",
+            "value": "［ダイニホンモチマルチョウジャカガミ　サンガツノゾク　コウヘン］"
+        },
+        {
+            "label": "題名",
+            "value": "「松廼寿」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［マツノコトブキ］"
+        },
+        {
+            "label": "画中文字",
+            "value": "松逎寿　[2]"
+        },
+        {
+            "label": "作者カナ",
+            "value": "コチョウ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041347",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/17a42a4f48b7e6e6df7418e3d6a8f239.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/17a42a4f48b7e6e6df7418e3d6a8f239.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/17a42a4f48b7e6e6df7418e3d6a8f239.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/17a42a4f48b7e6e6df7418e3d6a8f239.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000014-00041347&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-02%2820%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000014-00041347&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-02%2820%29.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000014-00041347&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-02%2820%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

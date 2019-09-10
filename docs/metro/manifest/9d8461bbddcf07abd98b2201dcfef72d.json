@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9d8461bbddcf07abd98b2201dcfef72d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御開港横浜一覧双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "万延1年10月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/市外/横浜市、久良岐、都筑、橘樹/横浜市/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "61.0×72.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0561-S2/東S0561-S002"
+        },
+        {
+            "label": "題名",
+            "value": "御開港横浜一覧双六"
+        },
+        {
+            "label": "題名",
+            "value": "ゴカイコウ　ヨコハマ　イチラン　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "落合芳幾"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一恵齋芳幾"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "和泉屋市兵衛"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.5「安政5年6月調印された日米修好通商条約により、翌6年6月横浜港が誕生した。その開港時の様子をとり入れ、日本橋を振り出しに外国人屋敷で上る双六。落款は芳幾写となっており、粉本は貞秀画の｢御開港横浜之全図｣らしいので、『神奈川県史』付録の複製により付陳した。この全図には安政六年12月の年記があり､開港した年のうちに制作されている。浮世絵派の絵師が描いたものとしては、最も早いものに属し、地形図としても優れている。貞秀･芳幾ともに横浜に関する絵を制作しているが、貞秀はとりわけ絵図式の作に特徴があり、風俗画にも写実の風がある。当図は万延元年10月の改印を持ち、早くも翌年には新知識の双六が出版されたことがわかる。ただし色の様子から慶応頃の後摺と見られる。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000052",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9d8461bbddcf07abd98b2201dcfef72d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9d8461bbddcf07abd98b2201dcfef72d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4968,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9d8461bbddcf07abd98b2201dcfef72d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9d8461bbddcf07abd98b2201dcfef72d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000052&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0561-S002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4968,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000052&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0561-S002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000052&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0561-S002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

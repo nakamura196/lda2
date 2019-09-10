@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d81a0ec78d940df1463ff6ff08c29bce.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "教育明治寿語録",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治26年11月"
+        },
+        {
+            "label": "分類",
+            "value": "皇室/明治天皇付明治史/明治史//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×50.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "袋あり；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "157-S1/東S157-S001"
+        },
+        {
+            "label": "題名",
+            "value": "教育明治寿語録"
+        },
+        {
+            "label": "題名",
+            "value": "キョウイク　メイジ　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "横山良八"
+        },
+        {
+            "label": "資料解説",
+            "value": "2006文化財ウィーク（39）「明治元年上野の戦争に始まり、明治26年シベリヤ横断に成功、帰京した福島安正中佐の帰国までを扱った飛び双六。各年に起こった、政治、外交、交通、文化、風俗、天災などに関する著名事件が一目でわかる。画面中央、「明治廿年　皇居ふしん」とあり、建設中の明治宮殿が描かれている。」，『明治前期の東京』図録解説p.20「出版年月は今次の展観の範囲の外へ出るが、明治元年上野の戦争に始まり、明治26年シベリヤ横断に成功帰京した福島安正中佐の帰国まで。政治、外交、交通、文化、風俗、天災などに関する著名事件が一目にわかるので陳列した。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000248",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d81a0ec78d940df1463ff6ff08c29bce.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d81a0ec78d940df1463ff6ff08c29bce.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d81a0ec78d940df1463ff6ff08c29bce.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d81a0ec78d940df1463ff6ff08c29bce.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000248&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F157-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4549
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000248&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F157-S001.jpg"
+                    },
+                    "width": 4549
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000248&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F157-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

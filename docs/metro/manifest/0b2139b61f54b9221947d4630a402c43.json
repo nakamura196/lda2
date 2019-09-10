@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b2139b61f54b9221947d4630a402c43.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "平安神宮蒼龍（白虎）楼四隅・中央楼軒組方斗巻斗現寸図（平安遷都紀念祭紀念殿）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "大極殿////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "32×47.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木57-3-7/木057-3-07"
+        },
+        {
+            "label": "題名",
+            "value": "平安神宮蒼龍（白虎）楼四隅・中央楼軒組方斗巻斗現寸図（平安遷都紀念祭紀念殿）"
+        },
+        {
+            "label": "題名",
+            "value": "ヘイアン　ジングウ　ソウリュウ　ビャッコロウ　ヨスミ　チュウオウロウ　ノキグミ　ホウト　マキト　ゲンスンズ　ヘイアン　セント　キネンサイ　キネンデン"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「蒼龍白虎四隅樓及ヒ中央樓軒組之部 方斗正寸法図 巻斗木口正寸法図」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00046249",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b2139b61f54b9221947d4630a402c43.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b2139b61f54b9221947d4630a402c43.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4493,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0b2139b61f54b9221947d4630a402c43.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0b2139b61f54b9221947d4630a402c43.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046249&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI057-003-007.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4493,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046249&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI057-003-007.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046249&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI057-003-007.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

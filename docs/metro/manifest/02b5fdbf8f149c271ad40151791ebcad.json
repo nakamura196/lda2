@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/02b5fdbf8f149c271ad40151791ebcad.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「東京各区食物店一覧表」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "児玉久七／編輯兼出版人"
+        },
+        {
+            "label": "出版年",
+            "value": "御届　明治　年九月　日"
+        },
+        {
+            "label": "分類",
+            "value": "産業/商業///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "36.2×24.2cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；いろは順に即席・会席・鰻・鳥・すし・テンプラ・汁粉・牛肉・西洋料理・ソバ・茶漬・菓子などの食物店をならべたもの；；"
+        },
+        {
+            "label": "版元",
+            "value": "児玉久七"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4251/加04251"
+        },
+        {
+            "label": "題名",
+            "value": "「東京各区食物店一覧表」"
+        },
+        {
+            "label": "題名",
+            "value": "トウキョウカククショクモツテンイチランヒョウ"
+        },
+        {
+            "label": "資料コード",
+            "value": "1170151257"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041111",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/02b5fdbf8f149c271ad40151791ebcad.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/02b5fdbf8f149c271ad40151791ebcad.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/02b5fdbf8f149c271ad40151791ebcad.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/02b5fdbf8f149c271ad40151791ebcad.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041111&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4251.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041111&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4251.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041111&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4251.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

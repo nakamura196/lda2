@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351bd175e81601bcfa62a9a6b89dc50.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板七津伊呂波清書双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "美術/演劇/脚本、筋書、絵本、作者、番附、外題をもととしたる双六//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.0×73.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "573-S36/東S573-S036"
+        },
+        {
+            "label": "題名",
+            "value": "新板七津伊呂波清書双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ナナツ　イロハ　セイショ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川豊国（3代）"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一陽齋豊國(三世"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "若狭屋与市"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.7「多くの舞台姿を一覧できる双六としてとりあげた。錦絵に｢清書七伊呂波｣という47枚の揃い物がある。安政3年6月から8月までに改印を受けており、同じ3世豊国が描いたもので、12軒の版元が関与している。内容は歌舞伎の47種の情景を選び、すべて役者似顔で描き、｢い―一の谷｣「ろ―六歌仙・喜撰」のように名題の略称・登場人物・場面名等をいろは47文字が頭につくように配したもので、上部に7種の文字が白抜きで書かれている。当双六は、その全部をかなり忠実に模して構成しており、文字の枠は、富士＝藤慶のように、その絵を刊行した版元を暗示している。これらを考えると、全揃い購入者への景品か宣伝用に作られたものと推定される。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000553",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351bd175e81601bcfa62a9a6b89dc50.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351bd175e81601bcfa62a9a6b89dc50.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351bd175e81601bcfa62a9a6b89dc50.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c351bd175e81601bcfa62a9a6b89dc50.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000553&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S36.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000553&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S36.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000553&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F573-S36.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff51c64a3c74655ef07286e0f7159228.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新板鎌倉時代四民出世双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "万延1年10月"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "73.0×48.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5259-S13/東S5259-S013"
+        },
+        {
+            "label": "題名",
+            "value": "新板鎌倉時代四民出世双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　カマクラ　ジダイ　シミン　シュッセ　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川貞秀"
+        },
+        {
+            "label": "作者・画工",
+            "value": "五雲亭貞秀"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "丸屋徳蔵"
+        },
+        {
+            "label": "資料解説",
+            "value": "『第3回江戸資料展』図録解説p.23「徳川時代の四民の職業を鎌倉時代におきかえて示したもの｡職業欄の下に描かれた商品類が多種多様､かつ具体的に紹介され､資料的な意義をもつ｡」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000456",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff51c64a3c74655ef07286e0f7159228.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff51c64a3c74655ef07286e0f7159228.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ff51c64a3c74655ef07286e0f7159228.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ff51c64a3c74655ef07286e0f7159228.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000456&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S13.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000456&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S13.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000456&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F5259-S13.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

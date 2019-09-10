@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/75a1f408ded24e8cf06f68fac202bc70.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "小学教授双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "明治7年8月"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/教育/教育//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "72.0×108.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "390-S2/東S390-S002"
+        },
+        {
+            "label": "題名",
+            "value": "小学教授双六"
+        },
+        {
+            "label": "題名",
+            "value": "ショウガク　キョウジュ　スゴロク"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "和泉屋市兵衛"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.11「近代教育制度の大綱が決定し、明治5年8月｢学制｣が発布され、文部省は｢小学教則｣を公布した｡当初この教則は必須ではなく、各地方の裁量に任されたため、実地に基づいて編成した師範学校式教則の方が全国に普及した。この双六上の50音図･単語図･連語図･数字図･加算九九図他は入門教材用掛図で、振り出し部分の単語図に師範学校とあるのは、同校の手により編集されたためである。これらの教材は広く全国に用いられ、中でも8図からなる単語図は代表的なものだったらしく、教育を題材とした錦絵類にたびたび見かける。」，『明治前期の東京』図録解説p.14「小学校生徒の勉強のための教材双六。振出しが｢小学校生徒勉強之図｣、上りは｢試験褒美之図｣で、九九、算用数字、ローマ数字、色、単語図、連語図等がはいっている。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000356",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/75a1f408ded24e8cf06f68fac202bc70.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/75a1f408ded24e8cf06f68fac202bc70.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4761,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/75a1f408ded24e8cf06f68fac202bc70.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/75a1f408ded24e8cf06f68fac202bc70.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000356&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F390-S02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4761,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000356&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F390-S02.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000356&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F390-S02.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

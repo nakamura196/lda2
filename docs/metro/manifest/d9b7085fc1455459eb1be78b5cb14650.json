@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9b7085fc1455459eb1be78b5cb14650.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "弘化"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵/絵本、画帖/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵貼込帖，「花暦吉日姿」所収；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "芝神明前、若狭屋"
+        },
+        {
+            "label": "版元",
+            "value": "若狭屋　与市"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5245-7(5)/東5245-007(005)"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "「君（きみ）が代（よ）の初日（はつひ）の鏡（かゞみ）曇（くも）りなく今朝（けさ）ははたちの山姫（やまひめ）も雪（ゆき）を重（かさ）ねし白無垢（しろむく）のうへゝ霞（かすみ）を襠（うちかけ）の裾野模様（すそのもやう）は春駒（はるごま）の気（き）もわか松（まつ）のきそはじめよし　作者　万亭おう賀述」"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊国（3世）（ウタガワ　トヨクニ）（1786-1865）"
+        },
+        {
+            "label": "改印等",
+            "value": "田中"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「花暦吉日姿」「着そ始よし」"
+        },
+        {
+            "label": "画題等",
+            "value": "ハナゴヨミ　キチジツスガタ　キソハジメ　ヨシ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "國貞改二代豊國画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫工春吉"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010626",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9b7085fc1455459eb1be78b5cb14650.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9b7085fc1455459eb1be78b5cb14650.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2616,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9b7085fc1455459eb1be78b5cb14650.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d9b7085fc1455459eb1be78b5cb14650.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010626&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-007-05.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2616,
+                                "width": 1794
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010626&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-007-05.jpg"
+                    },
+                    "width": 1794
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010626&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F5245-007-05.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

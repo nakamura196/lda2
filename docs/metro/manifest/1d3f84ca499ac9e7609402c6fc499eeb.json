@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1d3f84ca499ac9e7609402c6fc499eeb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "内裏（承応度）台所御門建地割（明暦元）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子近江蔵図禁裏神社城郭建築/木子近江蔵図禁裏///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "107×161cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木23-1-4/木023-1-04"
+        },
+        {
+            "label": "題名",
+            "value": "内裏（承応度）台所御門建地割（明暦元）"
+        },
+        {
+            "label": "題名",
+            "value": "ダイリ　ジョウオウド　ダイドコロ　ゴモン　タテジワリ　メイレキ　ガン"
+        },
+        {
+            "label": "題名",
+            "value": "（外題）「木子作太夫改書付 昔奈良之都時より 禁裏御大工棟梁古宮豊前守総領也 古宮久左衛門 明暦元年五月吉日 禁中臺所御門地割」，（題箋）「明暦元年五月吉日 禁中臺所御門之図 古宮久左衛門 木子作太夫改」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明暦1"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子勝久"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00043929",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1d3f84ca499ac9e7609402c6fc499eeb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1d3f84ca499ac9e7609402c6fc499eeb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1d3f84ca499ac9e7609402c6fc499eeb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1d3f84ca499ac9e7609402c6fc499eeb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

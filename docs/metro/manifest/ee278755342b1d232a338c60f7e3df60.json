@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee278755342b1d232a338c60f7e3df60.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治"
+        },
+        {
+            "label": "分類",
+            "value": "玩具絵、一般/家庭/玩具及子供風俗、子供風俗を絵画化したもの/人間の生活を動植物にて表わしたるもの及び動植物に関するもの/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0862-K2/東K小0862-K002"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "しんぱんにゆこにゆこつくし"
+        },
+        {
+            "label": "画題等",
+            "value": "シンパン　ニュコニュコ　ズクシ"
+        },
+        {
+            "label": "資料解説",
+            "value": "『近代日本の夜明け』図録解説p.19「ここにあげた3枚は、玩具（おもちゃ）絵と呼ばれ、子供の手遊び用錦絵。右の1枚は、擬人化された動物もの、中央は、同一種のものを集めた○○尽し、左は切り抜いて組み立てるもの。玩具絵の内容は、他に大人の生活を子供で描いたもの、着せ替えなど多岐にわたり、特に幕末から明治にかけて多く作られた。版画としての芸術性には欠けるが、このような作品が子供達の間にまで浸透していた事象は、木版技術が長い歴史を経て、最末端まで及んだことを示し、興味深い。左の1枚は、切り抜いて組み立てると小さいが立体的な人力車となる。こうした組上げ絵の中には相当複雑なものがあって、大人も楽しんだらしい。この人力車は、明治になって発案された乗り物で、江戸時代の駕籠に代わって急速に普及し、当時の市中を描いた絵には、必ずといってよい程登場する。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00220504",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee278755342b1d232a338c60f7e3df60.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee278755342b1d232a338c60f7e3df60.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3616,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ee278755342b1d232a338c60f7e3df60.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ee278755342b1d232a338c60f7e3df60.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220504&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0862-K002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3616,
+                                "width": 2380
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220504&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0862-K002.jpg"
+                    },
+                    "width": 2380
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00220504&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0862-K002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

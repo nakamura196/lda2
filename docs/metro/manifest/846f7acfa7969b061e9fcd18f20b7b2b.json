@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/846f7acfa7969b061e9fcd18f20b7b2b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治３０（1897）02・04"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/心理、倫理/修養教訓、金言集//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；骨皮道人の戯文あり；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "印刷並ニ発行人　日本橋区本銀町二丁目十二番地　武川清吉"
+        },
+        {
+            "label": "版元",
+            "value": "沢村屋　清吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "373-C4-3/東C373-C004-003"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "小林清親（コバヤシ　キヨチカ）（1847-1915）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「教育いろは談語」「は」「話し半分に聞け」"
+        },
+        {
+            "label": "画題等",
+            "value": "キョウイク　イロハダンゴ　ハ　ハナシハンブン　ニ　キケ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "小林清親"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "清親"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00010232",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/846f7acfa7969b061e9fcd18f20b7b2b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/846f7acfa7969b061e9fcd18f20b7b2b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2637,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/846f7acfa7969b061e9fcd18f20b7b2b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/846f7acfa7969b061e9fcd18f20b7b2b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010232&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F373-C004-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2637,
+                                "width": 1792
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010232&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F373-C004-003.jpg"
+                    },
+                    "width": 1792
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00010232&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F373-C004-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

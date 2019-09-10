@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d3b15980006889e4bacd4e7ab26aa1bd.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "証果増進之図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/仏教/仏教//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "69.0×61.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "340-S1/東S340-S001"
+        },
+        {
+            "label": "題名",
+            "value": "証果増進之図"
+        },
+        {
+            "label": "題名",
+            "value": "ショウカ　ゾウシン　ノ　ズ"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "丹陽翠龍軒"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.2「天台の名目を初学の僧に覚えさせるための名目双六(仏法双六ともいう)というものが鎌倉時代には存在し､それを絵双六に引き直したものが浄土双六であるという一説をも展示資料7は記している。当図は、丹陽翠龍軒板とあって丹波か丹後の版らしく､彫は精緻でかなり時代が下るようだが､この類の例として掲出した。全体を括って｢証果増進之図｣と題し､証果つまり悟りの進度表になっている。人間世界を指す南贍部洲から振り出し､法身（ホウシン）を上りとする。骰子の目は三毒の「貪瞋癡」三学の｢戒定慧」の六字を用い､その目の善悪によって上下する。紙双六には、区画ごとに骰子の目に対する指示があり､それに従って飛び越えたり戻ったりする｢飛び双六｣と、振り出しから上りまで順々に進む｢回り双六｣､及び両者の複合形態のものがある。この双六は飛び双六で､三毒の目が続けばやがて無間へ落ち､ゲームから抜けることになる。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000309",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d3b15980006889e4bacd4e7ab26aa1bd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d3b15980006889e4bacd4e7ab26aa1bd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d3b15980006889e4bacd4e7ab26aa1bd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d3b15980006889e4bacd4e7ab26aa1bd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000309&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F340-S01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4761
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000309&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F340-S01.jpg"
+                    },
+                    "width": 4761
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000309&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F340-S01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

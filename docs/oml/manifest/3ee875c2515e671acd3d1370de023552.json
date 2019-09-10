@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ee875c2515e671acd3d1370de023552.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[番付]大正九年二月十五日;當的中一座弓勢，;近江源氏先陣館，;阿波十郎兵衛",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1920]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1920****"
+        },
+        {
+            "label": "文書種別",
+            "value": "g：芝居番付"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "バンズケ タイショウ キュウネン ニガツ ジュウゴニチ アタリ ハズサヌ イチザ ノ ユンゼイ， オウミ ゲンジ センジンヤカタ， アワノ ジュウロベエ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[番付]大正九年二月十五日;當的中一座弓勢，;近江源氏先陣館，;阿波十郎兵衛"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012487268"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29304"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "m0106"
+        },
+        {
+            "label": "注記_01",
+            "value": "興行地・劇場等:道頓堀 竹田芝居，芝居番付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ナカザ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[大阪]:中座"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;51×71cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "774.4"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29304",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ee875c2515e671acd3d1370de023552.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ee875c2515e671acd3d1370de023552.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 730,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3ee875c2515e671acd3d1370de023552.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3ee875c2515e671acd3d1370de023552.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=196904",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 730,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196904"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=196904"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

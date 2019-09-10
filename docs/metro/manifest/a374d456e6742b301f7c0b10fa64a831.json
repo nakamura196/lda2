@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a374d456e6742b301f7c0b10fa64a831.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸名物吾妻錦画東海道細見双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "65.0×103.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加6582/加06582"
+        },
+        {
+            "label": "題名",
+            "value": "江戸名物吾妻錦画東海道細見双六"
+        },
+        {
+            "label": "題名",
+            "value": "エド　メイブツ　アズマ　ニシキエ　トウカイドウ　サイケン　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "北尾重政"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "西村屋与八"
+        },
+        {
+            "label": "資料解説",
+            "value": "『双六』図録解説p.4「東海道双六の中でも当図などは絵双六の一典型と見られるので壁面の冒頭に掲げた。北尾派の祖･重政は各宿駅を俯瞰式の風景画とし､遠山の気分が続くように描いている。堂々たる題字も重政筆と思われるが､成立は決め手がなく安永-寛政頃かと見られる。角書にある｢吾妻錦絵｣は、明和2年頃から江戸で始められた多色摺木版画のことである。仔細に見ると､版元の｢永寿堂西村屋与八｣の部分は墨色もいくぶん濃く、字体も少し違うようである。ここが｢伊勢屋金兵衛｣となっている自然な版も当館に所蔵があり、一九は永寿堂が求版埋木した後摺と見られるが、色彩が残っているので敢えて出陳した。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000811",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a374d456e6742b301f7c0b10fa64a831.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a374d456e6742b301f7c0b10fa64a831.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4137,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a374d456e6742b301f7c0b10fa64a831.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a374d456e6742b301f7c0b10fa64a831.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000811&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6582.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4137,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000811&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6582.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000811&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2FKA6582.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

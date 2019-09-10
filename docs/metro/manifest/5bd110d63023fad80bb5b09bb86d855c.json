@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5bd110d63023fad80bb5b09bb86d855c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２９（1896）"
+        },
+        {
+            "label": "分類",
+            "value": "貼交絵////"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖，「誠忠義士傳」所収；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京日本橋区長谷川町十九番地　福田熊次郎"
+        },
+        {
+            "label": "版元",
+            "value": "福田　熊次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加12395-14/加12395-14"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「文明の進歩菓子にもある滋養　狂句万十」"
+        },
+        {
+            "label": "件名",
+            "value": "梅素薫（バイソ　カオル）（生没年未詳）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「東京自慢名ぶつ会」「三遊亭圓生」「ビラ辰」「宮内省御用御菓子調進所　風月堂」「新ばし辰中村屋そめ　清水みつ」「見立模様橋場の渡し染め」"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　ジマン　メイブツエ　サンユウテイ　エンショウ　ビラタツ　クナイショウ　ゴヨウ　オカシ　チョウシンショ　フウゲツドウ　タツ　ナカムラヤ　ソメ　シミズ　ミツ　ミタテ　モヨウ　ハシバ　ノ　ワタシゾメ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅素薫"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "案"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅素薫案（「夜雨」印）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00007206",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5bd110d63023fad80bb5b09bb86d855c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5bd110d63023fad80bb5b09bb86d855c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2680,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5bd110d63023fad80bb5b09bb86d855c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5bd110d63023fad80bb5b09bb86d855c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007206&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA12395-014.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2680,
+                                "width": 1800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007206&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA12395-014.jpg"
+                    },
+                    "width": 1800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00007206&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA12395-014.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

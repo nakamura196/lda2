@@ -1,0 +1,147 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治１９（1886）09・01"
+        },
+        {
+            "label": "分類",
+            "value": "武者絵////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "本郷区湯島天神町三丁目三バンチ　画工兼出板人篠田義正"
+        },
+        {
+            "label": "版元",
+            "value": "篠田　義正"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "H157-2/東H157-002"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "国俊"
+        },
+        {
+            "label": "改印等",
+            "value": "御届明治十九年九月一日"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「英雄尽」 「花和尚魯知深」 「九紋竜史進」"
+        },
+        {
+            "label": "画題等",
+            "value": "エイユウツクシ　カオショウ　ロ　チシン　クモンリュウ　シ　シン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "国俊"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "?斎国俊筆"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00051289",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2764,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00051289&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH157-002%2802%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2764,
+                                "width": 1812
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00051289&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH157-002%2802%29.jpg"
+                    },
+                    "width": 1812
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2768,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d710e98637f2187d6fa5497feedcb4d1.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00051289&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH157-002%2801%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2768,
+                                "width": 1790
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00051289&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH157-002%2801%29.jpg"
+                    },
+                    "width": 1790
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00051289&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FH157-002%2802%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

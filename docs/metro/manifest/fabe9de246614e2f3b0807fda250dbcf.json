@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fabe9de246614e2f3b0807fda250dbcf.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２０（1887）10・16"
+        },
+        {
+            "label": "分類",
+            "value": "錦絵新聞、伝記/各伝///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京京橋区尾張町二丁目一番地　やまと新聞社"
+        },
+        {
+            "label": "版元",
+            "value": "やまと新聞社"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "280-C25/東C280-C025"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「逓信省認可　明治廿年十月十六日やまと新聞第三百十一号付録」　｢持主兼印刷人　奥隅欣二　編輯人　中泉政太郎｣"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「近世人物誌」「やまと新聞附録」「第十三」「江川太郎左エ門」"
+        },
+        {
+            "label": "画題等",
+            "value": "キンセイ　ジンブツシ　ヤマト　シンブン　フロク　ダイジュウサン　エガワ　タロウザエモン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "芳年(「大蘇」印)"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫工円活"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009935",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fabe9de246614e2f3b0807fda250dbcf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fabe9de246614e2f3b0807fda250dbcf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2820,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fabe9de246614e2f3b0807fda250dbcf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/fabe9de246614e2f3b0807fda250dbcf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009935&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-C025.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2820,
+                                "width": 1836
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009935&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-C025.jpg"
+                    },
+                    "width": 1836
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009935&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-C025.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

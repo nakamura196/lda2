@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d37964114afe5a8ef576e291e428d1d9.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治０７（1874）02・"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/各伝///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "土橋政田屋板"
+        },
+        {
+            "label": "版元",
+            "value": "政田屋 平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "280-C2-5/東C280-C002-005"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "画中文字",
+            "value": "「勇将の下に弱兵なし和歌松家の兵隊中世に知られたる一個の武夫宿直の昧爽躁然と四方にひゞく鯨の声発砲頻りに聞えしかば事こそあれど一騎駈けに雷発なしたる勢ひに続て一藩功を遂しは洛中保護の美挙なりとて厚く恩賞ありしとかや」"
+        },
+        {
+            "label": "件名",
+            "value": "月岡芳年（ツキオカ　ヨシトシ）（1839-1892）"
+        },
+        {
+            "label": "改印等",
+            "value": "戌二"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「競勢酔虎伝」「窪田万治」"
+        },
+        {
+            "label": "画題等",
+            "value": "ケイセイ　スイコデン　クボタ　マンジ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月岡芳年"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "大蘇芳年(「号魁斎」印)"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "片田彫長"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009991",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d37964114afe5a8ef576e291e428d1d9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d37964114afe5a8ef576e291e428d1d9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2752,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d37964114afe5a8ef576e291e428d1d9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d37964114afe5a8ef576e291e428d1d9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009991&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-C002-005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2752,
+                                "width": 1852
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009991&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-C002-005.jpg"
+                    },
+                    "width": 1852
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00009991&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F280-C002-005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e63cb63146cf7a2b275d97ea1b36e126.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治"
+        },
+        {
+            "label": "分類",
+            "value": "役者絵/近世水滸伝、水滸伝///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "N157-1/東N157-001"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "上演場所",
+            "value": "(見立)"
+        },
+        {
+            "label": "件名",
+            "value": "梅堂小国政（バイドウ　コクニマサ）（生没年未詳）"
+        },
+        {
+            "label": "役名・役者",
+            "value": "九紋龍（9代）市川　団十郎、魯智深（1代）市川　左団次、公孫勝（5代）尾上　菊五郎、扈三娘（4代）中村　福助、武松（1代）市川　権十郎、関勝（4代）中村　芝翫"
+        },
+        {
+            "label": "改印等",
+            "value": "－"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "役者絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「見立水滸伝」「九紋龍　市川団十郎」「魯智深　市川左団次」 「公孫勝　尾上菊五郎」「扈三娘　中村福助」 「武松　市川権十郎」「関勝　中村芝翫」"
+        },
+        {
+            "label": "画題等",
+            "value": "ミタテ　スイコデン　クモンリュウ　イチカワ　ダンジュウロウ　ロ　チシン　イチカワ　サダンジ　コウソン　ショウ　オノエ　キクゴロウ　コ　サンジョウ　ナカムラ　フクスケ　ブショウ　イチカワ　ゴンジュウロウ　カン　ショウ　ナカムラ　シカン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "梅堂小国政"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "小国政筆"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00052770",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e63cb63146cf7a2b275d97ea1b36e126.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e63cb63146cf7a2b275d97ea1b36e126.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4508,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e63cb63146cf7a2b275d97ea1b36e126.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e63cb63146cf7a2b275d97ea1b36e126.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052770&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN157-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4508,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052770&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN157-001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000003-00052770&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FN157-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

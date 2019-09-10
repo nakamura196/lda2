@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5f250424e4c52bae4a57ff5481f1aa8e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "新版宿下り楽双六",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/双六"
+        },
+        {
+            "label": "出版年",
+            "value": "（天保）"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/春/三月（総）/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.0×64.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0756-S1/東S0756-S001"
+        },
+        {
+            "label": "題名",
+            "value": "新版宿下り楽双六"
+        },
+        {
+            "label": "題名",
+            "value": "シンパン　ヤドサガリ　ラク　スゴロク"
+        },
+        {
+            "label": "作者・画工",
+            "value": "歌川国芳"
+        },
+        {
+            "label": "作者・画工",
+            "value": "一勇齋國芳"
+        },
+        {
+            "label": "版元（出版者）",
+            "value": "加賀屋吉右衛門"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000004-00000163",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5f250424e4c52bae4a57ff5481f1aa8e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5f250424e4c52bae4a57ff5481f1aa8e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3981,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5f250424e4c52bae4a57ff5481f1aa8e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5f250424e4c52bae4a57ff5481f1aa8e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000163&size=org&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0756-S001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3981,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000163&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0756-S001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000004-00000163&size=thumb&type=image&file=%2F%E5%8F%8C%E5%85%AD%2F0756-S001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
