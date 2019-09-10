@@ -25,56 +25,44 @@ import time
 from PIL import Image
 
 import time
+from selenium import webdriver
 
 check = []
 
-odir = "data/metadata"
+files = glob.glob("data/metadata2/*.html")
 
-with open('data/html.csv', 'r') as f:
-    reader = csv.reader(f)
-    header = next(reader)  # ヘッダーを読み飛ばしたい時
+for file in files:
+    soup = BeautifulSoup(open(file), "lxml")
 
-    for row in reader:
+    id = file.split("/")[-1].split(".")[0]
+    print(id)
 
-        url = row[0]
+    filename = "data/metadata/"+id+".json"
 
-        print("********\t"+url)
+    if os.path.exists(filename):
+        continue
 
-        id = url.split("_")[-1]
+    url = soup.find(class_="sanshoUrl").text.split("このページのURL：")[1].strip()
 
-        filename = odir+"/"+id+".json"
+    main = {}
+    main["metadata"] = {}
 
-        if os.path.exists(filename):
-            continue
+    main["title"] = soup.find(id="contentHead").text.strip()
+    main["url"] = url
+    main["id"] = id
+    main["within"] = "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+    main["attribution"] = "北方資料デジタル・ライブラリー"
+    main["license"] = "http://www3.library.pref.hokkaido.jp/digitallibrary/"
 
-        time.sleep(1)
+    ms = soup.find_all(class_="detail-data-set")
 
-        r = requests.get(url)  # requestsを使って、webから取得
+    for m in ms:
+        field = m.find(class_="detail-title").text.strip()
+        value = m.find(class_="detail-value").text.strip()
+        if len(value) != 0:
+            main["metadata"][field] = value
 
-        soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
-        main = {}
-        main["metadata"] = {}
-
-        main["title"] = soup.find(class_="infolib_section").text.strip()
-        main["url"] = url
-        main["id"] = id
-        main["within"] = "http://www.i-repository.net/il/meta_pub/G0000307library"
-        main["attribution"] = "県立長野図書館"
-        main["license"] = "http://creativecommons.org/publicdomain/mark/1.0/"
-
-        trs = soup.find(class_="detail_tbl").find_all("tr")
-
-        for tr in trs:
-
-            tds = tr.find_all("td")
-
-            if tds != None and len(tds) == 2:
-
-                main["metadata"][tds[0].text.strip()
-                                ] = tds[1].text.strip()
-
-        f2 = open(filename, 'w')
-        json.dump(main, f2, ensure_ascii=False, indent=4,
-                  sort_keys=True, separators=(',', ': '))
-
+    f2 = open(filename, 'w')
+    json.dump(main, f2, ensure_ascii=False, indent=4,
+              sort_keys=True, separators=(',', ': '))

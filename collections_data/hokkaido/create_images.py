@@ -29,144 +29,55 @@ from selenium import webdriver
 
 check = []
 
+files = glob.glob("data/html2/*.html")
 
-# ChromeのDriverオブジェクト生成時にオプションに引数を追加して渡す。
-options = Options()
-# options.add_argument('--headless')
-driver = webdriver.Chrome(chrome_options=options)
+for file in files:
+    soup = BeautifulSoup(open(file), "lxml")
 
-url = "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=12&data_id=5-34666-0"
+    id = file.split("/")[-1].split(".")[0]
+    print(id)
 
-driver.get(url)
+    filename = "data/images/"+id+".json"
 
-driver.find_element_by_id("ui-id-2").click()
+    if os.path.exists(filename):
+        continue
 
-time.sleep(5)
+    main = {}
+    array = []
+    main["array"] = array
 
-source = driver.page_source
+    top = id.split("-")[1]
 
-with open("data/tmp.html", mode='w') as f:
-        f.write(source)
+    if soup.find(id="thumbnailArea_view") == None:
+        continue
 
-time.sleep(2)
+    aas = soup.find(id="thumbnailArea_view").find_all(class_="thumbnailImg")
 
-'''
+    for i in range(len(aas)):
+        a = aas[i]
 
-flg = True
+        img_id = a.find("a").get("href").split("\"")[1]
 
-page = 0
+        img_url = "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/" + \
+            top+"/"+img_id+"/"+img_id+"_" + \
+                str(i+1).zfill(7)+".jp2&WID=full&CVT=jpeg"
 
-while(flg):
+        thumb_url = img_url.replace("full", "300")
 
-    page += 1
-
-    time.sleep(2)
-
-    source = driver.page_source
-
-    with open("data/html/"+str(page).zfill(6)+".html", mode='w') as f:
-        f.write(source)
-
-    try:
-        driver.find_element_by_class_name("next").click()
-    except:
-        print("No next")
-        flg = False
-'''
-
-'''
-
-odir = "data/images"
-
-with open('data/html.csv', 'r') as f:
-    reader = csv.reader(f)
-    header = next(reader)  # ヘッダーを読み飛ばしたい時
-
-    for row in reader:
-
-        url = row[0]
-
-        filename = odir+"/"+url.split("_")[-1]+".json"
-
-        if os.path.exists(filename):
-            continue
-
-        print("********\t"+url)
-
-        main = {}
-        array = []
-        main["array"] = array
-
-        driver.get(url)
-        time.sleep(5)
-
-        text = driver.find_element_by_id(
-            "contviewer_url").text
-
-        if len(text) == 0:
-            print("空？")
-            continue
-
-        img_url = text.split("のURL:")[1]
-
-        if img_url != "":
-
-            print(img_url)
-
-            thumb_url = img_url.replace(".jpg", "_ls.jpg")
-
+        if i == 0:
             main["thumbnail"] = thumb_url
 
-            image = Image.open(urllib.request.urlopen(img_url))
-            width, height = image.size
+        image = Image.open(urllib.request.urlopen(img_url))
+        width, height = image.size
 
-            obj = {
-                "img_url": img_url,
-                "thumb_url": thumb_url,
-                "width": width,
-                "height": height
-            }
-            array.append(obj)
-        else:
-            print("空？")
-            continue
+        obj = {
+            "img_url": img_url,
+            "thumb_url": thumb_url,
+            "width": width,
+            "height": height
+        }
+        array.append(obj)
 
-        driver.find_element_by_id("toolbar_xpanelcont_next").click()
-
-        flg = True
-
-        while(flg):
-
-            tmp = driver.find_element_by_id(
-                "contviewer_url").text.split("のURL:")
-
-            img_url = tmp[1]
-            print(img_url)
-
-            thumb_url = img_url.replace(".jpg", "_ls.jpg")
-
-            image = Image.open(urllib.request.urlopen(img_url))
-            width, height = image.size
-
-            obj = {
-                "img_url": img_url,
-                "thumb_url": thumb_url,
-                "width": width,
-                "height": height
-            }
-            array.append(obj)
-
-            if img_url in check:
-                flg = False
-            else:
-
-                check.append(img_url)
-                driver.find_element_by_id("toolbar_xpanelcont_next").click()
-
-        f2 = open(filename, 'w')
-        json.dump(main, f2, ensure_ascii=False, indent=4,
-                  sort_keys=True, separators=(',', ': '))
-
-'''
-
-driver.quit()
+    f2 = open(filename, 'w')
+    json.dump(main, f2, ensure_ascii=False, indent=4,
+              sort_keys=True, separators=(',', ': '))
