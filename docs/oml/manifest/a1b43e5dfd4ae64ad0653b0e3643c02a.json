@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1b43e5dfd4ae64ad0653b0e3643c02a.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "浪花故事鑑:摂津国西成郡郡中一紙一覧",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "安政5(1858)"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1858****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ナニワコジカガミセツツノクニニシナリグングンチユウイツシイチラン"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "浪花故事鑑:摂津国西成郡郡中一紙一覧"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349530"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28091"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "20770010"
+        },
+        {
+            "label": "注記_01",
+            "value": "台紙付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "テンマダイジヨウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "天満大丈"
+        },
+        {
+            "label": "巻次",
+            "value": "初篇"
+        },
+        {
+            "label": "巻次(数値)",
+            "value": "0001"
+        },
+        {
+            "label": "形態",
+            "value": "1枚もの;40×59cm(34×49cm)"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "タケカワブンジヤク"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "竹川 文雀/集"
+        },
+        {
+            "label": "請求記号",
+            "value": "ZYC290"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28091",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1b43e5dfd4ae64ad0653b0e3643c02a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1b43e5dfd4ae64ad0653b0e3643c02a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 707,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/a1b43e5dfd4ae64ad0653b0e3643c02a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/a1b43e5dfd4ae64ad0653b0e3643c02a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=150216",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 707,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=150216"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=150216"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

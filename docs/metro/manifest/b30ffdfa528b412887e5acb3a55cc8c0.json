@@ -1,0 +1,123 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "御本丸御書院渡御櫓唐銅鋳物鴟吻",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6192-D3/東D6192-D003"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸御書院渡御櫓唐銅鋳物鴟吻"
+        },
+        {
+            "label": "題名",
+            "value": "ゴホンマル　ゴショイン　ワタリ　オヤグラ　カラカネ　イモノ　シフン"
+        },
+        {
+            "label": "題名",
+            "value": "御本丸御書院渡御櫓唐銅鋳物鴟吻"
+        },
+        {
+            "label": "図面種類",
+            "value": "鴟吻詳細図"
+        },
+        {
+            "label": "建築区分",
+            "value": "櫓"
+        },
+        {
+            "label": "建築区分",
+            "value": "書院二重櫓"
+        },
+        {
+            "label": "数量",
+            "value": "1幅"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006958",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4706,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006958&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_D03_X1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4706,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006958&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_D03_X1.jpg"
+                    },
+                    "width": 6000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 4772,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b30ffdfa528b412887e5acb3a55cc8c0.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006958&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_D03_X2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4772,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006958&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_D03_X2.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006958&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6192_D03_X1.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,135 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "西丸仮御殿御中奥御廊下取置床カ并両開簓子縁正寸絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸城"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "6171-9/東6171-009"
+        },
+        {
+            "label": "題名",
+            "value": "西丸仮御殿御中奥御廊下取置床カ并両開簓子縁正寸絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ニシノマル　カリ　ゴテン　オンナカオク　オロウカ　トリオキ　ユカ　ナラビニ　リョウビラキ　ササラコ　フチ　ショウスン　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（1）西丸仮御殿御中奥御廊下取置床カ絵図十分ノ一 （2）西丸仮御殿御中奥御廊下両開キ簓子縁正寸絵図御垂木大サ五寸角"
+        },
+        {
+            "label": "図面種類",
+            "value": "床詳細図"
+        },
+        {
+            "label": "奥書印記等",
+            "value": "元治元甲子年西之丸仮御殿普請絵図"
+        },
+        {
+            "label": "建築区分",
+            "value": "西丸"
+        },
+        {
+            "label": "建築区分",
+            "value": "中奥廊下"
+        },
+        {
+            "label": "数量",
+            "value": "1舗"
+        },
+        {
+            "label": "造営年度",
+            "value": "元治度"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:10"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000002-00006821",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4668,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006821&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_09_X1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4668,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006821&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_09_X1.jpg"
+                    },
+                    "width": 6000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 4668,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/50fc0f20bb23e022fb21fb01af9c8ff5.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006821&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_09_X2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4668,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006821&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_09_X2.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000002-00006821&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9F%8E%2F6171_09_X1.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

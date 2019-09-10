@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/beb256144adc75091930f5c4b9df57ad.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "浪華新町ねり物番附",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1846(弘化3)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1846****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ナニワシンマチネリモノバンズケ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "浪華新町ねり物番附"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000365265"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28068"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "19600010"
+        },
+        {
+            "label": "注記_01",
+            "value": "番付 墨刷"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "チヨウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[浪華]:丁【 】【 】"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;36×48cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ハヤシナンカ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "林 南花/写"
+        },
+        {
+            "label": "請求記号",
+            "value": "384"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28068",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/beb256144adc75091930f5c4b9df57ad.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/beb256144adc75091930f5c4b9df57ad.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 707,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/beb256144adc75091930f5c4b9df57ad.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/beb256144adc75091930f5c4b9df57ad.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=149362",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 707,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=149362"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=149362"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

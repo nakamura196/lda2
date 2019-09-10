@@ -51,132 +51,120 @@ from PIL import Image
 import time
 from selenium import webdriver
 
-categories = [
-    # "双六",
-    "江戸城", "浮世絵",
-    "番付", "江戸図", "和漢書", "建築図面", "書簡", "その他の貴重資料", "近代の地図", "東京府・東京市関係資料", "江戸・東京の災害記録　", "絵葉書・写真帖"]
+files = glob.glob("data/metadata/*.json")
 
 # ChromeのDriverオブジェクト生成時にオプションに引数を追加して渡す。
 options = Options()
 options.add_argument('--headless')
 driver = webdriver.Chrome(chrome_options=options)
 
-for category in categories:
+for i in range(len(files)):
+    print(str(i+1)+"/"+str(len(files)))
 
-    print(category)
+    file = files[i]
 
-    flg = True
-    p = 0
+    # jsonファイルを読み込む
+    f = open(file)
+    # jsonデータを読み込んだファイルオブジェクトからPythonデータを作成
+    data = json.load(f)
+    # ファイルを閉じる
+    f.close()
 
-    while(flg):
 
-        print(p)
+    id = data["id"]
 
-        url = "http://archive.library.metro.tokyo.jp/da/result_sd?qf=&q=&start=" + \
-            str(10*p)+"&sort=タイトル_STRING asc, METADATA_ID asc&dispStyle=&tilcod=&mode=result_sd&cond[item0_andOr]=and&cond[item0_cond]=in&cond[item10_andOr]=and&cond[item10_cond]=in&cond[item11_andOr]=and&cond[item11_cond]=in&cond[item12_andOr]=and&cond[item12_cond]=in&cond[item13_andOr]=and&cond[item13_cond]=in&cond[item14_andOr]=and&cond[item14_cond]=in&cond[item15_andOr]=and&cond[item15_cond]=in&cond[item16_andOr]=and&cond[item16_cond]=in&cond[item17_andOr]=and&cond[item17_cond]=in&cond[item18_andOr]=and&cond[item18_cond]=in&cond[item19_andOr]=and&cond[item19_cond]=in&cond[item20_andOr]=and&cond[item20_cond]=eq&cond[item2_andOr]=and&cond[item2_cond]=in&cond[item3_andOr]=and&cond[item3_cond]=in&cond[item4_andOr]=and&cond[item4_cond]=in&cond[item8_andOr]=and&cond[item8_cond]=in&cond[item9_andOr]=and&cond[item9_cond]=in&category="+category
+    url2 = data["url"]
 
-        p += 1
+    filename = "data/images/"+id+".json"
 
-        r = requests.get(url)  # requestsを使って、webから取得
-        soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
+    if os.path.exists(filename):
+        continue
 
-        divs = soup.find_all(class_="sdw_search_resultListLink")
+    print(url2)
 
-        if len(divs) == 0:
-            flg = False
+    main = {}
+    array = []
+    main["array"] = array
 
-        for div in divs:
-            id = div.get("onclick").split("'")[1]
+    driver.get(url2)
 
-            url2 = "http://archive.library.metro.tokyo.jp/da/detail?tilcod="+id
+    r = requests.get(url2)  # requestsを使って、webから取得
 
-            filename = "data/images/"+id+".json"
+    soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
-            if os.path.exists(filename):
-                continue
+    try:
+        driver.find_element_by_id(
+            "originalImage").click()
+    except:
+        print("Init Error: 拡大ボタンを押せませんでした。")
+        continue
 
-            print(url2)
+    next_flg = True
 
-            main = {}
-            array = []
-            main["array"] = array
+    first_flg = True
 
-            driver.get(url2)
+    error_flg = False
 
-            r = requests.get(url2)  # requestsを使って、webから取得
+    while(next_flg):
 
-            soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
+        time.sleep(1)
+
+        try:
+
+            if first_flg:
+                img_url = driver.find_element_by_id(
+                    "sdw_image").get_attribute("src").replace("=view", "=org")
+
+            else:
+                img_url = driver.find_element_by_class_name(
+                    "cboxPhoto").get_attribute("src").replace("=view", "=org")
+
+            print(img_url)
+
+            thumb_url = img_url.replace("=org", "=thumb")
+
+            image = Image.open(urllib.request.urlopen(img_url))
+            width, height = image.size
+
+            obj = {
+                "img_url": img_url,
+                "thumb_url": thumb_url,
+                "width": width,
+                "height": height
+            }
+            array.append(obj)
+
+            if "thumbnail" not in main:
+                main["thumbnail"] = thumb_url
+
+            first_flg = False
 
             try:
-                driver.find_element_by_id(
-                    "originalImage").click()
+                cboxNext = driver.find_element_by_id(
+                    "cboxNext").get_attribute("style")
             except:
-                print("Init Error")
-                continue
+                next_flg = False
 
-            next_flg = True
+            if "float: left;" == cboxNext:
 
-            first_flg = True
+                driver.find_element_by_id(
+                    "cboxNext").click()
+            else:
 
-            error_flg = False
+                next_flg = False
 
-            while(next_flg):
+  
+        except:
+            print("Second Error")
+            error_flg = True
+            next_flg = False
 
-                time.sleep(1)
+        
 
-                try:
-
-                    if first_flg:
-                        img_url = driver.find_element_by_class_name(
-                            "cboxPhotoOriginal").get_attribute("src")
-
-                    else:
-                        img_url = driver.find_element_by_class_name(
-                            "cboxPhoto").get_attribute("src").replace("=view", "=org")
-
-                    print(img_url)
-
-                    thumb_url = img_url.replace("=org", "=thumb")
-
-                    image = Image.open(urllib.request.urlopen(img_url))
-                    width, height = image.size
-
-                    obj = {
-                        "img_url": img_url,
-                        "thumb_url": thumb_url,
-                        "width": width,
-                        "height": height
-                    }
-                    array.append(obj)
-
-                    if first_flg:
-                        main["thumbnail"] = thumb_url
-
-                    first_flg = False
-
-                    try:
-                        cboxNext = driver.find_element_by_id(
-                            "cboxNext").get_attribute("style")
-                    except:
-                        next_flg = False
-
-                    if "float: left;" == cboxNext:
-
-                        driver.find_element_by_id(
-                            "cboxNext").click()
-                    else:
-
-                        next_flg = False
-
-                except:
-                    print("Second Error")
-                    error_flg = True
-                    next_flg = False
-
-            if not error_flg:
-                f2 = open(filename, 'w')
-                json.dump(main, f2, ensure_ascii=False, indent=4,
-                          sort_keys=True, separators=(',', ': '))
+    if not error_flg:
+        f2 = open(filename, 'w')
+        json.dump(main, f2, ensure_ascii=False, indent=4,
+                    sort_keys=True, separators=(',', ': '))
 
 
 driver.quit()

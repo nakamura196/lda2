@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc5d2f16644076f92019dc5940cb517b.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "大阪府会議員年令大番附",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1931"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1931****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "オオサカフカイギインネンレイオオバンズケ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "大阪府会議員年令大番附"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0080349431"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "28102"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "20880010"
+        },
+        {
+            "label": "注記_01",
+            "value": "台紙付"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "トウアケイザイケンキユウキヨウカイ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "東亜経済研究協会"
+        },
+        {
+            "label": "形態",
+            "value": "1枚もの;35×49cm(32×47cm)"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "トウアケイザイケンキユウキヨウカイ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "東亜経済研究協会/[編]"
+        },
+        {
+            "label": "請求記号",
+            "value": "ZYP314"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=28102",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc5d2f16644076f92019dc5940cb517b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc5d2f16644076f92019dc5940cb517b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 707,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/dc5d2f16644076f92019dc5940cb517b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/dc5d2f16644076f92019dc5940cb517b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=150259",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 707,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=150259"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=150259"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

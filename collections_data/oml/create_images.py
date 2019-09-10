@@ -73,6 +73,8 @@ for j in range(1, r_count):
                 img_url = "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no="+data_no
                 thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no="+data_no
 
+                print(img_url)
+
                 try:
                     image = Image.open(urllib.request.urlopen(img_url))
                     width, height = image.size

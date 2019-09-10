@@ -59,7 +59,7 @@ categories = [# "双六",
 for category in categories:
 
     flg = True
-    p = 1679
+    p = 2450
 
     while(flg):
 

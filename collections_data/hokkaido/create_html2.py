@@ -65,20 +65,32 @@ for i in range(len(files)):
 
         source2 = driver.page_source
 
-        driver.find_element_by_id("ui-id-2").click()
+        try:
+            driver.find_element_by_id("ui-id-2").click()
 
-        time.sleep(1)
+            time.sleep(1)
 
-        source = driver.page_source
+            source = driver.page_source
 
-        if "thumbnailImg" in source:
+            if "thumbnailImg" in source:
 
-            with open(filename2, mode='w') as f:
-                f.write(source2)
+                with open(filename2, mode='w') as f:
+                    f.write(source2)
 
-            with open(filename, mode='w') as f:
-                f.write(source)
-        else:
-            print("None")
+                with open(filename, mode='w') as f:
+                    f.write(source)
+
+            elif "dataIcon" in source:
+
+                with open(filename2, mode='w') as f:
+                    f.write("")
+
+                with open(filename, mode='w') as f:
+                    f.write("")
+
+            else:
+                print("None")
+        except:
+            continue
 
 driver.quit()
