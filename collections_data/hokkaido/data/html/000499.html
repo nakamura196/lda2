@@ -1,0 +1,1485 @@
+<html lang="ja-jp" dir="ltr"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>北方資料デジタル・ライブラリー</title>
+<link rel="stylesheet" type="text/css" href="./css/base.css">
+<link rel="stylesheet" type="text/css" href="./css/color1.css?var=20150529">
+<link rel="stylesheet" type="text/css" href="./css/layout.css">
+<link rel="stylesheet" type="text/css" href="./css/custom.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+<style>.wrapper { max-width: 980px; }</style>
+<link rel="stylesheet" type="text/css" href="./css/da-layout.css">
+<link rel="stylesheet" type="text/css" href="./css/da-searchResult.css">
+<style>.thumnailColumn { float : left; width : 160; }</style>
+<link rel="stylesheet" type="text/css" href="./css/da-searchCondition.css">
+<link rel="stylesheet" type="text/css" href="./css/da-detail.css">
+<link rel="stylesheet" type="text/css" href="./css/da-faset.css">
+<link rel="stylesheet" type="text/css" href="./css/jquery-ui-1.10.3.custom.css">
+<link rel="stylesheet" type="text/css" href="./css/dialog_modal.css">
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.10.3.custom.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/format.js"></script>
+
+<style type="text/css">
+.ui-widget-content {
+	text-align: left;
+	list-style:none;
+}
+</style>
+
+<!--[if lt IE 9]>
+<script src="./js/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript">
+$(document).ready( function() {
+
+	$("#loan_card_no").val("");
+	$("#user_card_no").html("");
+	getLoginState(0);
+
+	// 借りる
+	$("#loan_dialog #loan_btn").click(function() {
+	    // 貸出処理
+	    execLoan("./loan_ajax.php", 1);
+	});
+
+	// 貸出キャンセル
+	$("#loan_dialog #cancel_btn").click(function() {
+
+	    closeModalDialog();
+	});
+
+	// ログイン
+	$("#login_dialog #login_btn").click(function() {
+		// ログイン処理
+		execLogin("./login_ajax.php", $("#mode").val());
+	});
+
+	// ログインキャンセル
+	$("#login_dialog #cancel_btn").click(function() {
+	    // ダイアログを閉じる
+	    closeModalDialog();
+            // 入力とメッセージをクリア
+		$("#cardNo").val("");
+		$("#password").val("");
+		$("#message").html("");
+	});
+        
+        $('#searchCrossStop_btn, #searchCrossStatus').css({'display': 'none'});
+        $('#searchArea').css('display', 'block');
+        $('#searchResultAreaAll').css('display', 'none');
+        $('#detail_userInfo').css('display', 'none');
+        $('#mainText').css('display', 'block');
+        $('#lib'+'A0001').prop("checked",true);
+        
+        if (searchType == 2 && param_name_flg == 0) {  //総合検索かつWebAPI呼び出し以外
+            $("#kokaikanArea .libName").prop("checked",true);
+        }
+});
+
+var libIdList = JSON.parse('{"A0001":["\u5317\u6d77\u9053\u7acb\u56f3\u66f8\u9928","cBraun"],"A0100":["\u9053\u7acb\u6a5f\u95a2"],"A0101":["\u5317\u6d77\u9053\u7acb\u6587\u66f8\u9928","cRed"],"A0102":["\u5317\u6d77\u9053\u7acb\u57cb\u8535\u6587\u5316\u8ca1\u30bb\u30f3\u30bf\u30fc","cViolet"],"A0200":["\u516c\u7acb\u56f3\u66f8\u9928"],"A0202":["\u65ed\u5ddd\u5e02\u56f3\u66f8\u9928","cRed"],"A0203":["\u5317\u898b\u5e02\u7acb\u56f3\u66f8\u9928","cViolet"],"A0204":["\u6edd\u4e0a\u753a\u56f3\u66f8\u9928","cViolet"],"B0100":["\u9053\u7acb\u6a5f\u95a2"],"B0101":["\u5317\u6d77\u9053\u535a\u7269\u9928","cRed"],"B0200":["\u516c\u7acb\u56f3\u66f8\u9928"],"B0201":["\u672d\u5e4c\u5e02\u4e2d\u592e\u56f3\u66f8\u9928","cViolet"],"B0202":["\u51fd\u9928\u5e02\u4e2d\u592e\u56f3\u66f8\u9928","cViolet"],"B0203":["\u82eb\u5c0f\u7267\u5e02\u7acb\u4e2d\u592e\u56f3\u66f8\u9928","cViolet"],"B0204":["\u5e02\u7acb\u91e7\u8def\u56f3\u66f8\u9928\u3000\u672c\u6587","cViolet"],"B0205":["\u5e02\u7acb\u91e7\u8def\u56f3\u66f8\u9928\u3000\u76ee\u9332","cViolet"],"B0300":["\u5927\u5b66\u56f3\u66f8\u9928"],"B0301":["\u5317\u6d77\u9053\u5927\u5b66\u9644\u5c5e\u56f3\u66f8\u9928 \u753b\u50cf\u3042\u308a","cBlue"],"B0302":["\u5317\u6d77\u9053\u5927\u5b66\u9644\u5c5e\u56f3\u66f8\u9928 \u9ad8\u7cbe\u7d30\u753b\u50cf\u3042\u308a","cBlue"],"B0400":["\u535a\u7269\u9928\u30fb\u305d\u306e\u4ed6"],"B0401":["\u56fd\u7acb\u56fd\u4f1a\u56f3\u66f8\u9928\u30c7\u30b8\u30bf\u30eb\u30b3\u30ec\u30af\u30b7\u30e7\u30f3","cGreen"]}');
+var statusTimer;  //処理中タイマー
+var searchType = 5;
+var param_name_flg = 1;
+
+
+// 貸出期間を取得
+getLoanPeriod("./loan_period_ajax.php");
+    var conditionAry      = new Array();
+    var conditionChkAry   = new Array(Array('フリーワード',''));
+    var fasetAry          = null;
+    var sortAry           = null;
+    var selectPage        = null;
+    var currentSort       = new Array(2);
+	var fasetData         = null;
+	var dispthumbnailFlag = false;
+
+    jQuery(function($){
+        $('.searchDetailTrigger').click(function(){
+        	$('.searchDetailCondition').slideToggle();
+        });
+
+        // 全て空の状態で検索をかける(全件検索)
+        if (searchType == 5 || param_name_flg == 1){  //フリーワード検索 or WebAPI呼び出し
+            ClickSearchButton();
+        }
+
+        else if( document.referrer.indexOf("mypage.php") != -1 ){
+			// 遷移元がマイページであれば、現状の検索条件で検索を実施させる
+			$('#libno').val('A0001');
+			$('#searchStr').val(JSON.stringify(conditionChkAry));
+			$('#searchForm').submit();
+		}
+
+        // サジェスト用文字列出力
+        $('#suggestCnt0').autocomplete({
+    source: function(req, resp){
+        $.ajax({
+            url: 'suggest.php',
+            type: 'POST',
+            cache: false,
+            dataType: 'json',
+            data: {
+              param1: req.term,
+              type:'0'
+            },
+            success: function(o){
+                resp(o);
+            },
+            error: function(xhr, ts, err){
+                resp(['']);
+            }          });
+    }
+});
+    });
+
+    function searchDa()
+    {
+        //処理中を表示
+        startTimer();
+
+        // 渡す引数の準備
+        var argData = {
+            condition   : conditionAry,
+            faset       : fasetAry,
+            sort        : sortAry,
+            page        : selectPage,
+            type        : 5,
+        };
+
+       jQuery . ajax(
+        {
+            type     : 'POST',
+            url      : 'searchLit.php',
+            dataType : 'json',
+            data     : argData,
+            success  : function( data )
+            {
+
+
+				if (data.page == null) {
+					jQuery('#pageMessageArea').html("");
+					jQuery('#searchResultPage').html("");
+					jQuery('#sort_item > option').remove();
+				jQuery('#searchResult').html( "<br><br>&nbsp&nbsp&nbsp&nbsp検索に失敗しました<br><br><br>" );
+					jQuery('#searchFasetArea').html("");
+					return;
+				}
+
+                // 検索結果の表示
+        	selectPage = data.page;
+                
+                //総合検索 ファセットの結果を使用する
+
+		if (data.faset != null) {
+		    KokaikanSearchOutput(data.faset);
+		}
+		
+		CrossSearchOutput();
+		stopTimer();
+
+		// ページャーの表示
+		changePage(data.page);
+
+		// ソートの表示
+		changeSort(data.sort);
+
+		// 検索一覧表示
+		var argSearchResultData = {
+                    type       : 5,
+                    libno      : 11,  //図書館番号
+                    start      : data.page[0],
+                    json_array : JSON.stringify(data.result)
+		};
+
+		getSearchData("GetSearchResultData.php", "searchResult", argSearchResultData, data.current);
+
+		// ファセット表示
+		var argSearchFasetData = {
+		    jsonArray : JSON.stringify(data.faset)
+		};
+
+
+	    	getSearchData("GetSearchFasetData.php", "searchFasetArea", argSearchFasetData, null);
+
+		fasetData = data.faset;
+
+		// 現在の検索状態を保存
+		saveCurrentResultData(data.current);
+
+            },
+            error: function(XMLHttpRequest, textStatus, errorThrown) {
+                if ( data.readyState == 0 ) {
+
+                    return;
+                }
+
+				jQuery('#pageMessageArea').html("");
+				jQuery('#searchResultPage').html("");
+				jQuery('#sort_item > option').remove();
+				jQuery('#searchResult').html( "<br><br>&nbsp&nbsp&nbsp&nbsp検索に失敗しました<br><br><br>" );
+				jQuery('#searchFasetArea').html("");
+            }
+        });
+    }
+
+   // ページャの表示
+    function changePage(pageObj)
+    {
+
+		var all   = pageObj[2];
+		var start = pageObj[0];
+		var cnt   = pageObj[1];
+        var max   = start + cnt;
+        if (all < max) {
+            max = all;
+        }
+
+        var pageMessage = all + " 件中 " + (start+1) + " ～ " + max + " 件表示";
+		if (all == 0) {
+			pageMessage = "0 件中 0 件表示";
+		}
+
+        $('#pageMessageArea').html(pageMessage);
+        $.ajax( {
+            url: "createPager.php",
+            // △件目から□件表示
+            data : "startLitIndex=" + pageObj[0] + "&perPageMax=" + pageObj[1] + "&maxLit=" + pageObj[2],
+            success: function( data ) {
+                jQuery('#searchResultPage').html(data);
+            }
+        } );
+    }
+
+   // ソート状態の表示
+    function changeSort(sortData)
+	{
+		//項目の削除
+		$('#sort_item > option').remove();
+
+		//項目の追加
+		for (var i = 0; i < sortData[1].length; i++) {
+			$('#sort_item').append($('<option>').html(sortData[1][i][0]).val(sortData[1][i][1]));
+		}
+
+		//現在状態の設定
+		$('#sort_item').val(sortData[0][1]);
+		$('#sort_order').val(sortData[0][2]);
+	}
+
+    // 現在の検索条件の保存
+    function saveCurrentResultData(currentData)
+    {
+        // 現在のソート状態を保存
+        currentSort[0] = currentData['sort'][1];
+        currentSort[1] = new Boolean(currentData['sort'][2]);
+    }
+
+    function getSearchData(targetPhp, dispId, arg, current)
+    {
+        jQuery . ajax( {
+            type     : 'POST',
+            url      : targetPhp,
+            dataType : 'html',
+            data     : arg,
+            success  : function( data ) {
+                jQuery( '#' + dispId ).html( data );
+                if (dispId == 'searchResult') {
+                    if (current['thumbnail'] != 1) {
+                        for (i=0; i<20; i++)
+                        {
+
+                            // ヘッダー表示部
+                            eval("document.getElementById('searchImageArea').className = 'searchImageAreaON';");
+                            eval("document.getElementById('searchDataArea').className = 'searchDataAreaON';");
+
+                            // データ表示部
+                            eval("document.getElementById('searchImageArea"+i+"').className = 'searchImageAreaON';");
+                            eval("document.getElementById('searchDataArea"+i+"').className = 'searchDataAreaON';");
+                        }
+                    }
+
+                    //サムネイル表示の調整
+                    var litetaturaMax = 20;
+
+					document.getElementById("dispthumbnail").checked = dispthumbnailFlag;
+
+                    Dispthumbnail(document.getElementById("dispthumbnail"),litetaturaMax);
+                }
+            },
+            error: function( data ) {
+                if ( data.readyState == 0 ) {
+
+                    return;
+                }
+                alert("Search JQuery Ajax ERROR : " + targetPhp);
+            }
+        } );
+    }
+
+    // 検索条件項目とそれに対する検索条件の取得
+    function getSelectSuggestValue()
+    {
+        var i = 0;
+        var count = 1;
+        var conditionValueArray = new Array();
+        // サジェストタイプの入力データの取得
+        for (i=0; i<count; i++) {
+            eval("var suggestData = document.getElementById('suggestCnt" + i + "');");
+            if (suggestData == null) {
+                    continue;
+            }
+            if (!getSelectSuggestValueCheck(i, suggestData)) {
+                    return false;
+            }
+            eval("conditionValueArray[" + i + "] = suggestData.value;");
+        }
+        // サジェストタイプの入力データの取得(開始/終了)
+        var suggestData = null;
+        for (i = 0; i < count; i++) {
+            eval("suggestData = document.getElementById('suggestCnt" + i + "_s');");
+            if (suggestData == null) {
+                continue;
+            }
+            if (!getSelectSuggestValueCheck(i, suggestData)) {
+                return false;
+            }
+            var value0 = suggestData.value;
+            eval("suggestData = document.getElementById('suggestCnt" + i + "_e');");
+            if (suggestData == null) {
+                continue;
+            }
+            if (!getSelectSuggestValueCheck(i, suggestData)) {
+                return false;
+            }
+            var value1   = suggestData.value;
+            var subValue = new Array(value0, value1);
+            eval("conditionValueArray['" + i + "'] = subValue;");
+        }
+
+        // セレクトボックスの入力データの取得
+        for (i=0; i<count; i++)
+        {
+            eval("var selectData = document.getElementById('srchCndtnSlct" + i + "');");
+            if (selectData == null)
+            {
+				continue;
+			}
+            var selectedIndex = selectData.selectedIndex;           // 選択されたoptionのindexを取得
+            var selectValue   = selectData.options[selectedIndex].value;    // 選択されたindexの値を取得
+            if (selectValue == "(未選択)") {
+                    selectValue = "";
+            }
+            eval("conditionValueArray[" + i + "] = selectValue;");
+        }
+
+        // ラジオボタンのデータ取得
+        for(i=0; i<count; i++)
+        {
+            eval("var radioData = document.getElementsByName('srchCndtnRdoName_" + i + "');");
+            if (radioData == null || radioData.length == 0) {
+				continue;
+			}
+
+			var selectValue = "";
+			// 選択されているかをチェック
+			for (j=0; j<radioData.length; j++)
+			{
+				if (radioData[j].checked)
+				{
+					selectValue = radioData[j].value;
+					break;
+				}
+			}
+			eval("conditionValueArray[" + i + "] = selectValue;");
+	    }
+
+        // 検索条件の引数として渡す検索条件項目配列にセット
+        conditionAry[0] = new Array('フリーワード' ,conditionValueArray[0]);
+        return true;
+    }
+
+    // 検索条件項目との内容確認
+    function getSelectSuggestValueCheck(i, obj)
+    {
+        if (obj.value == '') {
+            return true;
+        }
+        if (conditionChkAry[i][1] == '') {
+            return true;
+        }
+
+		if (conditionChkAry[i][1] == 'YYYY/MM/DD') {
+            var str = obj.value;
+            if (!str.match(/^\d{4}\/\d{2}\/\d{2}$/)) {
+                alert("【" + conditionChkAry[i][0] + "】\nYYYY/MM/DD形式で入力してください");
+                return false;
+            }
+		    var vYear  = str.substr(0, 4) - 0;
+			var vMonth = str.substr(5, 2) - 1;
+		    var vDay   = str.substr(8, 2) - 0;
+		    // 月,日の妥当性チェック
+			if (vMonth >= 0 && vMonth <= 11 && vDay >= 1 && vDay <= 31) {
+		        var vDt = new Date(vYear, vMonth, vDay);
+		        if (isNaN(vDt)) {
+	                alert("【" + conditionChkAry[i][0] + "】\n日付が正しくありません");
+	                return false;
+		        } else if (vDt.getFullYear() == vYear && vDt.getMonth() == vMonth && vDt.getDate() == vDay) {
+		            ;
+		        } else {
+	                alert("【" + conditionChkAry[i][0] + "】\n日付が正しくありません");
+	                return false;
+		        }
+		    }else{
+                alert("【" + conditionChkAry[i][0] + "】\n日付が正しくありません");
+                return false;
+		    }
+        } else if (conditionChkAry[i][1] == 'YYYY') {
+            var str = obj.value;
+            if (!str.match(/^\d{4}/)) {
+                alert("【" + conditionChkAry[i][0] + "】\nYYYY形式で入力してください");
+                return false;
+            }
+        } else if (conditionChkAry[i][1] == 'NUMBER') {
+			var str = obj.value;
+			if (str.match(/[^0-9]/g)) {
+                alert("【" + conditionChkAry[i][0] + "】\n数値を入力してください");
+                return false;
+			}
+		}
+        return true;
+    }
+
+    // ファセット条件の取得
+    function collectFasetData(selectedItemType, selectedItemValue)
+    {
+		if (fasetAry == null) {
+			fasetAry = new Array();
+		}
+		fasetAry.push(new Array(selectedItemType, selectedItemValue));
+
+		//ページをクリア
+		selectPage = null;
+
+        searchDa();
+    }
+
+	//ファセットのページング
+	function facetPageing(type, start_idx)
+	{
+
+		fasetData[type]['start'] = start_idx;
+
+		// ファセット表示
+        var argSearchFasetData = {
+			jsonArray : JSON.stringify(fasetData)
+		};
+        getSearchData("GetSearchFasetData.php", "searchFasetArea", argSearchFasetData, null);
+	}
+
+    // ページの取得
+    function collectPageData(startIndex, perPageLit)
+    {
+        selectPage = new Array(startIndex, perPageLit);
+        searchDa();
+    }
+
+    // ウィンドウの幅が変更された時のイベント
+    function ResizeWindow()
+    {
+        // 拡張情報のデータ部の幅を基本情報のデータ部の幅と同一にする
+        $(".searchDetailCondition").width($(".searchBaseCondition").width());
+    }
+
+    // サムネイルの表示/非表示
+    function Dispthumbnail(obj, litCnt)
+    {
+		dispthumbnailFlag = obj.checked;
+
+        var i = 0;
+        if (!obj.checked) { // サムネイル表示エリア消去　データ表示エリア拡大
+            // ヘッダー表示部
+            eval("document.getElementById('searchImageArea').className = 'searchImageAreaON';");
+
+            // データ表示部
+            for (i=0; i<litCnt; i++)
+            {
+                eval("document.getElementById('searchImageArea" + i + "').className = 'searchImageAreaON';");
+                eval("document.getElementById('searchDataArea" + i + "').className = 'searchDataAreaON';");
+            }
+        } else {          // サムネイル表示エリア、データ表示エリア元の状態に戻す
+            // ヘッダー表示部
+            eval("document.getElementById('searchImageArea').className = 'searchImageAreaOFF';");
+
+            // データ表示部
+            for (i=0; i<litCnt; i++)
+            {
+                eval("document.getElementById('searchImageArea" + i + "').className = 'searchImageAreaOFF';");
+                eval("document.getElementById('searchDataArea" + i + "').className = 'searchDataAreaOFF';");
+            }
+        }
+
+    }
+
+    // 検索中止ボタンが押された時のイベント
+    function ClickSearchStopButton()
+    {
+        stopTimer();
+    }
+    // 検索ボタンが押された時のイベント
+    function ClickSearchButton()
+    {
+        //2015.11.01 追加 公開館、横断検索参加館の検索件数をクリア
+        $('#kokaikanArea .libLink').html('<span>&nbsp;</span>');
+
+        var litetaturaMax = 20
+        // サムネイル表示/非表示のチェックボックスのリセット
+        document.getElementById("dispthumbnail").checked = false;
+        //ページをクリア
+        selectPage = null;
+
+        // 検索条件の項目とデータを配列に収納する
+        if (!getSelectSuggestValue()) {
+                return;
+        }
+
+        if (searchType == 4 || searchType == 5 ||
+            searchType == 6 || searchType == 7 || searchType == 8 ||
+            param_name_flg == 1) {
+            $('#searchResultAreaAll').css('display', 'block');
+        }
+
+        searchDa();
+        
+        if (param_name_flg == 1) {
+            $('#searchArea').css('display', 'none');
+        }
+    }
+
+    // 検索条件クリアボタンが押された時のイベント
+    function ClickClearButton()
+    {
+        //2015.11.01 追加 公開館、横断検索参加館の検索件数をクリア
+        $('#kokaikanArea .libLink').html('<span>&nbsp;</span>');
+        //2015.11.01 追加 ファセット条件をクリアする
+        fasetAry = null;
+        //2015.11.01 追加 検索結果一覧を非表示にする
+        if (searchType == 4 || searchType == 5 ||
+            searchType == 6 || searchType == 7 || searchType == 8 ||
+            param_name_flg == 1) {
+            $('#searchResultAreaAll').css('display', 'none');
+            $('#searchResultPage').empty(); //ページャ要素をクリア
+            $('#pageMessageArea').empty();  //件数要素をクリア
+            $('#sort_item').empty();        //ソート要素をクリア
+            $('#searchResult').empty();     //検索結果一覧要素をクリア
+            $('#searchFasetArea').empty();  //ファセット要素をクリア
+        }
+        var i = 0;
+        var count = 1;
+        var conditionValueArray = new Array();
+        // サジェストタイプの入力データの取得
+        for (i=0; i<count; i++) {
+            eval("var suggestData = document.getElementById('suggestCnt" + i + "');");
+            if (suggestData === null) {
+                    continue;
+            }
+			suggestData.value = "";
+            eval("conditionValueArray[" + i + "] = suggestData.value;");
+        }
+
+        // サジェストタイプの入力データの取得(開始/終了)
+        var suggestData = null;
+        for (i = 0; i < count; i++) {
+            eval("suggestData = document.getElementById('suggestCnt" + i + "_s');");
+            if (suggestData === null) {
+                continue;
+            }
+			suggestData.value = "";
+            var value0 = suggestData.value;
+            eval("suggestData = document.getElementById('suggestCnt" + i + "_e');");
+            if (suggestData == null) {
+                continue;
+            }
+			suggestData.value = "";
+            var value1 = suggestData.value;
+            var subValue = new Array(value0, value1);
+            eval("conditionValueArray['" + i + "'] = subValue;");
+        }
+
+        // セレクトボックスの入力データの取得
+        for (i=0; i<count; i++)
+        {
+            eval("var selectData = document.getElementById('srchCndtnSlct" + i + "');");
+            if (selectData === null) {
+				continue;
+			}
+            
+			selectData.selectedIndex = 0;
+
+            selectValue = "";
+            eval("conditionValueArray[" + i + "] = selectValue;");
+        }
+
+        // ラジオボタンのデータ取得
+        for (i=0; i<count; i++)
+        {
+            eval("var radioData = document.getElementsByName('srchCndtnRdoName_" + i + "');");
+            if (radioData == null || radioData.length == 0) {
+				continue;
+			}
+			for(j = 0; j <radioData.length; j++){
+				radioData[j].checked = false;
+			}
+			eval("conditionValueArray[" + i + "] = null;");
+        }
+
+        // 検索条件の引数として渡す検索条件項目配列にセット
+        conditionAry[0] = new Array('フリーワード' ,conditionValueArray[0]);
+
+
+        return;
+    }
+
+    // 絞込クリアボタンが押された時のイベント
+    function ClickFasetClearButton()
+    {
+        //ファセット条件をクリアする
+        fasetAry = null;
+		searchDa();
+        return;
+    }
+
+    //並び替えの実行
+    function ClickSortButton()
+    {
+        sortAry = new Array($('#sort_item').val(), $('#sort_order').val());
+		searchDa();
+        return;
+    }
+
+    //表示順が変更された場合の処理
+    function ChangeSortItem()
+    {
+        var selectText = $('#sort_item option:selected').text();
+        if (selectText.match(/あ→ん/) || selectText.match(/古い順/)) {
+            $('#sort_order').val('1');  //昇順
+        } else {
+            $('#sort_order').val('0');  //降順
+        }
+        ClickSortButton();
+    }
+
+    // 詳細ページへ遷移する
+    function changeDetailPage(type, tab, literatureId)
+    {
+
+		if (tab == 0) {
+	        document.detailForm.type.value = type;
+			document.detailForm.literatureId.value = literatureId;
+			document.detailForm.target = "miyagi_detail";
+	        document.detailForm.submit();
+		} else {
+	        document.detailExtForm.type.value = type;
+		    document.detailExtForm.detailTab.value = tab;
+			document.detailExtForm.literatureId.value = literatureId;
+			document.detailExtForm.target = "miyagi_detail";
+	        document.detailExtForm.submit();
+		}
+    }
+
+
+
+    // ラジオボタンの選択を解除する
+    function radioButtonClear(radio, cnt)
+    {
+        for (var i=0; i<cnt; i++)
+        {
+            document.getElementsByName("srchCndtnRdoName_" + radio)[i].checked = false;
+        }
+    }
+
+	///// for debug
+	function printProperties(obj) {
+	    var properties = '';
+	    for (var prop in obj){
+		    properties += prop + "=" + obj[prop] + "\n";
+		}
+		alert(properties);
+	}
+
+	// -------------------------------------------------------------------------------------------------------
+		function ClickUserButton() {
+		// ログイン認証を表示
+		$("#login_dialog").hide();
+
+		// 貸出確認を非表示
+		$("#loan_dialog").hide();
+
+		// ログイン確認
+		getLoginState(2);
+	}
+
+		function ClickLoanButton(state, literature_id, title, url) {
+
+		// ボタンの状態を保持
+		$("#state").val(state);
+		// 対象の文献IDを保持
+		$("#loan_literature_id").val(literature_id);
+		// 貸出対象の文献タイトルを設定
+		$("#title").html(title);
+
+		document.ebookForm.epub_state.value = state;
+		document.ebookForm.title.value = title;
+		document.ebookForm.action      = url;
+
+		// ログイン確認
+		getLoginState(1);
+	}
+
+		function _ClickLoanButton(login) {
+		var state = $("#state").val();
+		var literature_id = $("#literature_id").val();
+
+		if (state == 1) {
+			// 閲覧
+			// ビューア画面を表示
+			document.ebookForm.submit();
+
+		} else if (state == 2) {
+			if (login) {
+				// ログイン済みの場合は、貸出確認へ遷移
+				confirmLoan();
+
+			} else {
+				// 未ログインの場合
+				// ログイン認証
+				confirmLogin(1);
+			}
+
+		} else if (state == 99) {
+			// 自由閲覧
+
+			if (login) {
+				// ログイン済みの場合は、自由閲覧処理
+				execLoan("./loan_ajax.php", "99");
+
+			} else {
+				// ビューア画面を表示
+				document.ebookForm.submit();
+			}
+
+		} else {
+			// 未処理
+		}
+	}
+
+		function execLogin(targetPhp, mode)
+	{
+		var argUserData = {
+			ShoriCode : 31,
+			CardNo    : $("#cardNo").val(),
+			Password  : $("#password").val()
+		};
+
+		$.ajax( {
+			type     : 'POST',
+			url      : targetPhp,
+			dataType : 'json',
+			data     : argUserData,
+			success  : function( data ) {
+				if (data.ReturnCode == "0000") {
+					// 正常終了
+					// カード番号を保持
+					$("#loan_card_no").val(data.CardNo);
+					$("#user_card_no").html(data.CardNo);
+					$("#detail_userInfo").show();
+					searchDa();
+
+					// 貸出中のデータを取得
+					getLoanData("./loan_list_ajax.php", 1, mode);
+				}
+
+				if (data.Message != "") {
+					// エラーメッセージを表示
+					$("#message").html(data.Message);
+				}
+
+			},
+			error    : function( data ) {
+                if ( data.readyState == 0 ) {
+                    return;
+                }
+				alert("Search JQuery Ajax ERROR : " + targetPhp);
+			}
+		} );
+	}
+
+
+
+	//貸出状況のデータを取得する
+	// mode: 0: mypage, 1: loan
+	function getLoanData(targetPhp, state, mode)
+	{
+		var argLoanData = {
+				shoriCode     : 0,
+				userId        : $("#loan_card_no").val(),
+				getstatus     : state,
+				literature_id : $("#loan_literature_id").val()
+		};
+
+		$.ajax( {
+			type     : 'POST',
+			url      : targetPhp,
+			dataType : 'json',
+			data     : argLoanData,
+			success  : function( data ) {
+
+				// 入力をクリア
+			    $("#cardNo").val("");
+			    $("#password").val("");
+
+				if (mode == 0) {
+										$("#modalbox, #overlay").fadeOut(500).promise().done(function() {
+						$("#overlay").remove();
+						// マイページ画面へ遷移
+						saveSearchCondition();
+					});
+				} else if (mode == 1) {
+					if (data.read) {
+						// 貸出済みの場合は、ビューア表示
+												$("#modalbox, #overlay").fadeOut(500).promise().done(function() {
+							$("#overlay").remove();
+							// ビューア画面を表示
+							document.ebookForm.submit();
+						});
+					} else {
+						// 貸出確認
+						confirmLoan();
+					}
+				}
+
+			},
+			error    : function( data ) {
+                if ( data.readyState == 0 ) {
+                    return;
+                }
+				alert("Search JQuery Ajax ERROR : " + targetPhp);
+			}
+		} );
+	}
+
+
+	// 貸出確認
+	function confirmLoan() {
+
+		// ログイン認証を非表示
+		$("#login_dialog").hide();
+
+		// 貸出確認を表示
+		$("#loan_dialog").show();
+
+		// ダイアログを表示
+		dispDialog();
+
+	}
+
+	// ログイン認証
+	// mode: 0: mypage, 1: loan
+	function confirmLogin(mode) {
+		$("#mode").val(mode);
+
+		// ログイン認証を表示
+		$("#login_dialog").show();
+
+		// 貸出確認を非表示
+		$("#loan_dialog").hide();
+
+		// ダイアログを表示
+		dispDialog();
+
+	}
+
+
+	/*
+	 * 貸出処理
+	 * targetPhp : ajax用
+	 * code      : 処理コード(1:貸出、99:自由閲覧)
+	 */
+	function execLoan(targetPhp, code)
+	{
+		var argLoanData = {
+				shoriCode    : code,
+				literatureId : $("#loan_literature_id").val(),
+				userId       : $("#loan_card_no").val()
+		};
+
+		$.ajax( {
+			type     : 'POST',
+			url      : targetPhp,
+			dataType : 'json',
+			data     : argLoanData,
+			success  : function( data ) {
+				var result = data.meta;
+				if (result.dataStatus == 0 && result.message != "") {
+					// 貸出成功
+										$("#modalbox, #overlay").fadeOut(500).promise().done(function() {
+						$("#overlay").remove();
+						// ビューア画面を表示
+						document.ebookForm.submit();
+						alert(result.message);
+						searchDa();
+					});
+				}
+				if (result.dataStatus == 0) {
+					// 自由閲覧の場合は、メッセージ消去
+					$("#modalbox, #overlay").fadeOut(500).promise().done(function() {
+						$("#overlay").remove();
+						// ビューア画面を表示
+						document.ebookForm.submit();
+					});
+
+				}
+				if (result.dataStatus != 0 && result.message != "") {
+					// 貸出エラー
+					$("#modalbox, #overlay").fadeOut(500).promise().done(function() {
+						$("#overlay").remove();
+						alert(result.message);
+					});
+				}
+			},
+			error    : function( data ) {
+                if ( data.readyState == 0 ) {
+
+                    return;
+                }
+				alert("Search JQuery Ajax ERROR : " + targetPhp);
+			}
+		} );
+	}
+
+
+	/*
+	 * 貸出期間取得
+	 * targetPhp : ajax用
+	 */
+	function getLoanPeriod(targetPhp)
+	{
+		var argLoanData = {
+				shoriCode : 0
+		};
+
+		$.ajax( {
+			type     : 'POST',
+			url      : targetPhp,
+			dataType : 'json',
+			data     : argLoanData,
+			success  : function( data ) {
+				var result = data.meta;
+				if (result.dataStatus == 0 && result.loanPeriod != "") {
+					var date = getLoanLimit(new Date(), result.loanPeriod);
+					var month = date.getMonth() + 1;
+					var day   = date.getDate();
+					var year  = date.getFullYear();
+					var limit = year + "年" + month + "月" + day + "日";
+					$("#limit").text(limit);
+				}
+
+			},
+			error    : function( data ) {
+                if ( data.readyState == 0 ) {
+
+                    return;
+                }
+				alert("Search JQuery Ajax ERROR : " + targetPhp);
+			}
+		} );
+	}
+
+	/*
+	 * ログイン確認
+	 * type: 0: 初期表示時、1:貸出/閲覧処理前、2:利用者用機能
+	 */
+	function getLoginState(type)
+	{
+		var targetPhp = "./login_state_ajax.php";
+		$.ajax( {
+			type     : 'POST',
+			url      : targetPhp,
+			dataType : 'json',
+			data     : "",
+			success  : function( data ) {
+				if (type == 1) {
+					_ClickLoanButton(data.login);
+				}
+				if (data.login == true) {
+					// ログイン済み
+					$("#detail_userInfo").show();
+					$("#login").val(true);
+					if (type == 2) {
+						// ログイン済みの場合には、そのままマイページ画面へ遷移
+						saveSearchCondition();
+					}
+
+				} else {
+					// 未ログイン
+					$("#detail_userInfo").hide();
+					$("#login").val(false);
+					if (type == 2) {
+						// 利用者認証
+						confirmLogin(0);
+					}
+				}
+
+			},
+			error    : function( data ) {
+                if ( data.readyState == 0 ) {
+                    return;
+                }
+				alert("Search JQuery Ajax ERROR : " + targetPhp);
+			}
+		} );
+	}
+
+	// 検索条件を保存する
+	function saveSearchCondition() {
+		var targetPhp = "./save_search_condition_ajax.php";
+		var argData = {
+			condition : conditionAry,
+			faset     : fasetAry,
+			page      : selectPage
+		};
+		$.ajax( {
+			type     : 'POST',
+			url      : targetPhp,
+			dataType : 'json',
+			data     : argData,
+			success  : function( data ) {
+				if (data.result == true) {
+					// 検索画面のタイプ
+					document.mypageForm.type.value = "5";
+					// マイページ画面へ遷移
+					document.mypageForm.submit();
+				}
+			},
+			error    : function( data ) {
+                if ( data.readyState == 0 ) {
+                    return;
+                }
+				alert("Search JQuery Ajax ERROR : " + targetPhp);
+			}
+		} );
+	}
+
+        /*
+	 * ログアウトボタン押下時
+	 */
+	function ClickLogoutButton() {
+		if (confirm("ログアウトします。")) {
+			var targetPhp = "./logout_ajax.php";
+			var argLogoutData = {
+	 			CardNo : $("#loan_card_no").val(),
+	 			dispId : "da"
+			};
+
+			$.ajax( {
+				type     : 'POST',
+				url      : targetPhp,
+				dataType : 'json',
+				data     : argLogoutData,
+				success  : function( data ) {
+					alert(data.Message);
+					// 利用者情報を非表示にする
+					$("#detail_userInfo").hide();
+					ClickSearchButton();
+				},
+				error    : function( data ) {
+                if ( data.readyState == 0 ) {
+                    return;
+                }
+					alert("Search JQuery Ajax ERROR : " + targetPhp);
+				}
+			} );
+		} else {
+			// キャンセルの場合は未処理
+		}
+	}
+        
+        //公開館検索件数をファセットから出力
+	function KokaikanSearchOutput(faset) {
+                var key;
+                var libraryName = '';
+                var libraryId = '';
+                var searchKensu = 0;
+
+                if (faset.length == 0) {
+		　　$('#kokaikanArea #libA0001,.libC01,.libC02 input.libName').each(function() {
+                    　　if ($(this).prop('checked')) {
+                            $('#linkLib' + $(this).val().substr(3) + ' span').html('<span>見つかりませんでした</span>');
+			}
+                　　});
+                    return;
+                }
+
+                var fasetLlibrary=faset[1].data; //所蔵機関別件数の取得
+                $('#kokaikanArea #libA0001,.libC01,.libC02 input.libName').each(function() {
+                    if ($(this).prop('checked')) {
+
+			var	flg = 0;
+
+                        for (key in fasetLlibrary) {
+                             var temp=fasetLlibrary[key]
+                             libraryName =  temp.item;
+                            searchKensu = temp.count;
+                            if ($(this).parent('div').text().trim() == libraryName) {
+                                for (key in libIdList) {  //総合検索用 図書館番号を検索
+                                     if (libIdList[key][0] == libraryName) {
+                                        $('#linkLib' + key + ' span').html('<a href=\"javascript:MoveSearch(\'' + key + '\');\">' + searchKensu + '件見つかりました</a>');
+                                        flg = flg+1;
+					break;
+                                    }
+                                }
+                                break;
+                            }
+                        }
+			
+			if (flg == 0) {
+                             $('#linkLib' + $(this).val().substr(3) + ' span').html('<span>見つかりませんでした</span>');
+			}
+                    }
+               });
+         }
+
+        //横断検索参加館を検索
+	function CrossSearchOutput() {
+            $('.libC03 input.libName').each(function() {
+                if ($(this).prop('checked') && $(this).val().substr(6) != '00') {
+                    var argData = {
+                        libno       : $(this).val().substr(3),
+                        condition   : conditionAry,
+                    };
+
+                    jQuery . ajax(
+                        {
+                            type     : 'POST',
+                            url      : 'GetSearchCrossData.php',
+                            dataType : 'json',
+                            data     : argData,
+                            success: function(res){
+                                if (res.kensu > 0) {
+                                    $('#linkLib' + res.libid + ' span').html('<a href=\"javascript:MoveSearch(\'' + res.libid + '\');\">' + res.kensu + '件見つかりました</a>');
+                    
+                                } else if (res.http_code == 200) {
+                                    $('#linkLib' + res.libid + ' span').html('<span>見つかりませんでした</span>');
+                                } else {
+                                    $('#linkLib' + res.libid + ' span').html('<span style="color: red;">接続に失敗しました</span>');
+                                }
+                            },
+                            error: function(XMLHttpRequest, textStatus, errorThrown) {
+                            }
+                        });
+                }
+            });
+        }
+
+        //総合検索先のページを開く
+	function MoveSearch(libid) {
+                    $('#libno').val(libid);
+                    $('#searchStr').val(JSON.stringify(conditionAry));
+                    $('#searchForm').submit();
+        }
+
+        //総合検索　「処理中」を点滅
+        //検索ボタン乱打された場合に備えてsetIntervalの戻り値を配列に保存
+        var statusTimerarray = new Array();
+        var searchStatus = 0;  //検索状態初期化
+        function startTimer(){
+            $('#searchCrossStop_btn, #searchCrossStatus').css({'display': 'inline'});
+            searchStatus = 1;  //検索中
+            statusTimer = setInterval(function(){
+                // フェードイン、フェードアウトを繰り返し
+                $('#searchCrossStatus').fadeOut('slow', function() {
+                    if(searchStatus == 1){
+                        $(this).fadeIn('slow');
+                    }
+                });
+            } , 2000);
+            statusTimerarray.push(statusTimer);
+        }
+        function stopTimer(){
+            searchStatus = 0;  //検索終了
+            var i;
+            for ( i = 0; i < statusTimerarray.length; i++ ) {
+                clearInterval(statusTimerarray[i]);
+            }
+            // 配列初期化
+            statusTimerarray = new Array();
+            $('#searchCrossStop_btn, #searchCrossStatus').css({'display': 'none'});
+        }
+        //総合検索　チェックボックスイベント
+        $(document).on('click', '#libA0001',function() {  //北海道立図書館
+           if(!($("#libA0001").prop("checked"))) {
+                $("#libC0001").prop("checked",false);
+            }
+        });
+
+        $(document).on('click', '#allSelect_btn', function() {  //全選択
+            $("#kokaikanArea .libName").prop("checked",true);
+        });
+
+        $(document).on('click', '#allRelease_btn', function() {  //全解除
+            $("#kokaikanArea .libName").prop("checked",false);
+            $('.libLink').html('<span>&nbsp;</span>');
+         });
+
+        $(document).on('click', '#libC0001',function() {  //道立図書館と公開館
+           if($("#libC0001").prop("checked")) {
+                $(".libC01 .libName, #libA0001").prop("checked",true);
+            } else {
+                $(".libC01 .libName").prop("checked",false);
+            }
+        });
+        
+        $(document).on('click', '#libC0002',function() {  //公開館
+           if($("#libC0002").prop("checked")) {
+                $(".libC02 .libName").prop("checked",true);
+            } else {
+                $(".libC02 .libName, #libC0001").prop("checked",false);
+            }
+        });
+        
+        $(document).on('click', '#libC0003',function() {  //横断検索参加館
+           $(".libC03 .libName").prop("checked", this.checked);
+        });
+
+        $(document).on('click', '.libC02 .libName',function() {  //公開館の館種、図書館イベント
+            var kanshuid = this.id.substr(0, 6);
+            var id_right2 = this.id.substr(6);
+            if(this.checked) {
+                if(id_right2 == '00') {  //館種のクリックの場合
+                    $('.' + kanshuid + ' .libName').prop("checked",true);
+                }
+            } else {
+                if(id_right2 == '00') {  //館種のクリックの場合
+                    $('.' + kanshuid + ' .libName, #libC0001, #libC0002').prop("checked",false);
+                } else {
+                    $('#' + kanshuid + '00, #libC0001, #libC0002').prop("checked",false);
+                }
+            }
+        });
+        $(document).on('click', '.libC03 .libName',function() {  //横断検索参加館の館種、図書館イベント
+            var kanshuid = this.id.substr(0, 6);
+            var id_right2 = this.id.substr(6);
+            if(this.checked) {
+                if(id_right2 == '00') {  //館種のクリックの場合
+                    $('.' + kanshuid + ' .libName').prop("checked",true);
+                }
+            } else {
+                if(id_right2 == '00') {  //館種のクリックの場合
+                    $('.' + kanshuid + ' .libName, #libC0003').prop("checked",false);
+                } else {
+                    $('#' + kanshuid + '00, #libC0003').prop("checked",false);
+                }
+            }
+        });
+
+</script>
+<script type="text/javascript" src="./js/googleanalytics.js"></script>
+</head>
+<body id="contentPage" class="cBraun color1" style="font-size: 100%;">
+<header id="pageTop"><div id="topBar"><div id="headBox"><h1><img src="./images/logo.png" width="600" height="50" alt="北方資料デジタル・ライブラリー" class="mLogo"></h1><div id="toolBox"><ul id="t_jtools"><li id="t_fsize"><span class="label">文字サイズ</span><ul><li id="t_plus" class="btn"><a href="#" class="vtip" title="文字サイズを10%ずつ拡大します">大</a></li><li id="t_minus" class="btn"><a href="#" class="vtip" title="文字サイズを10%ずつ縮小します">小</a></li></ul></li><li id="t_color"><span class="label">背景</span><ul><li id="t_black" class="btn"><a href="#" class="vtip" title="黒背景のスタイルに切替えます">黒</a></li><li id="t_white" class="btn"><a href="#" class="vtip" title="白背景のスタイルに切替えます">白</a></li></ul></li><li id="t_reset" class="btn"><a href="#" class="vtip" title="文字サイズ・背景色スタイルを初期設定にリセットします">リセット</a></li></ul></div><a id="manuBtn" href="#menu">メニューへ</a></div></div></header>    <div id="contentsArea">
+        <br>
+
+	<div id="helpButtonArea">
+             <input type="button" value="トップ" class="topButton buttomText buttomTextBrwn no_border" onclick="topForm.submit();">
+             <input type="button" value="ヘルプ" class="helpButton buttomText buttomTextBrwn no_border" onclick="helpForm.submit();">
+        </div>
+        <p id="detail_userInfo" style="float: right; display: none;">
+			カード番号：&nbsp;<span id="user_card_no"></span>&nbsp;&nbsp;&nbsp;
+			<a href="javascript:ClickLogoutButton();">[ログアウト]</a>&nbsp;&nbsp;&nbsp;
+	</p>
+        <div class="clear"></div>
+        <br>
+        <!------------------------------ タイトル ------------------------------>
+        <div id="contentHead" style="text-align:left;">
+            <div style="padding-bottom: 5px">
+                 <h2>簡易検索</h2>
+             </div>
+        </div>
+        <!------------------------------ 検索条件 ------------------------------>
+	<div id="mainText" style="text-align: left; display: block;">
+        <div id="searchArea" style="display: none;">
+            <h3>検索条件</h3>
+
+            <div id="searchConditionArea">
+                <div id="searchCondition">
+                    <div class="search-condition">
+<div class="search-title" id="left">
+<b>フリーワード</b>
+</div>
+<div class="search-item" id="right">
+<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input class="textboxSize100 ui-autocomplete-input" id="suggestCnt0" name="srchCndtnText_0" value="" autocomplete="off">
+</div>
+<div class="clear"></div>
+</div>
+                </div>
+            </div>
+            <div class="searchTrigger">
+                <div id="searchButtonArea">
+                    <input type="button" id="search_btn" value="検 索" class="searchButton buttomText buttomTextBrwn no_border" onclick="ClickSearchButton();">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" value="条件クリア" class="searchClearButton buttomText buttomTextWth no_border" onclick="ClickClearButton();">
+		</div>
+		<div class="clear"></div>
+            </div>
+
+        <!------------------------------ 検索対象館表示 ------------------------------>
+        <div id="searchCrossInfo">
+                    </div>
+        </div> 
+      <div id="searchResultAreaAll" style="display: block;">
+
+	<h3>検索結果一覧</h3>
+        <!---------------------------- 検索結果一覧 ---------------------------->
+        <div id="searchResultInfo">
+            <div class="searchResultRow1">
+                <input type="checkbox" id="dispthumbnail" onclick="Dispthumbnail(this,20);">サムネイルの表示/非表示	<br>
+            </div>
+
+            <div id="searchResultPage" class="pager searchResultRow2"><ul class="pager"><li class="first"><div class="pageTop"><a href="javascript:collectPageData(0, 20,0)">最初</a></div></li><li class="prev10"><div class="pageOne"><a href="javascript:collectPageData(9760,20,0)" style="font-size:20px"><div class="mark">◁◁</div></a></div></li><li class="prev"><div class="pageOne"><a href="javascript:collectPageData(9940,20,0)" style="font-size:20px"><div class="mark">◀</div></a></div></li><li><a href="javascript:collectPageData(9900,20,0)">496</a></li><li><a href="javascript:collectPageData(9920,20,0)">497</a></li><li><a href="javascript:collectPageData(9940,20,0)">498</a></li><li><em>499</em></li><li><a href="javascript:collectPageData(9980,20,0)">500</a></li><li><a href="javascript:collectPageData(10000,20,0)">501</a></li><li><a href="javascript:collectPageData(10020,20,0)">502</a></li><li class="next"><div class="pageOne"><a href="javascript:collectPageData(9980,20,0)" style="font-size:20px"><div class="mark">▶</div></a></div></li><li class="next"><div class="pageOne"><a href="javascript:collectPageData(10160,20,0)" style="font-size:20px"><div class="mark">▷▷</div></a></div></li><li class="last"><div class="pageTop"><a href="javascript:collectPageData(16440,20,0)">最後</a></div></li></ul><br></div>
+
+            <div class="clear"></div>
+            <div class="searchResultRow3">
+
+
+                <div id="pageMessageArea">16460 件中 9961 ～ 9980 件表示</div>
+
+                <!-- sortStyle start -->
+                <div class="sortStyle" id="sortArea">
+
+                    <!-- 表示順＋リストボックス -->
+
+                    <div class="sortSetRight">
+	                    <div class="sortSet">
+	                        <div class="sortTextArea">
+	                            <font>表示順</font>
+	                        </div>
+	                        <div class="sortCombboxArea">
+	                            <select id="sort_item" name="sort_item" onchange="ChangeSortItem();">
+	                            <option value="0">タイトル（あ→ん）</option><option value="1">タイトル（ん→あ）</option><option value="2">巻次（あ→ん）</option><option value="3">巻次（ん→あ）</option><option value="4">巻書名（あ→ん）</option><option value="5">巻書名（ん→あ）</option><option value="6">出版者（あ→ん）</option><option value="7">出版者（ん→あ）</option><option value="8">出版年（新しい順）</option><option value="9">出版年（古い順）</option><option value="10">所蔵機関（あ→ん）</option><option value="11">所蔵機関（ん→あ）</option></select>&nbsp;
+	                        </div>
+	                    </div>
+
+	                    <!-- 順序＋リストボックス -->
+                            <div class="sortSet" id="sortOrderArea">
+	                        <div class="sortTextArea">
+	                            <font>順序</font>
+	                        </div>
+	                        <div class="sortCombboxArea">
+	                            <select id="sort_order" name="sort_order">
+	                                <option value="1">昇順</option>
+	                                <option value="0">降順</option>
+	                            </select>&nbsp;
+	                        </div>
+	                        <div class="clear"></div>
+	                    </div>
+
+	                    <!-- 並び替えボタン -->
+	                    <div class="sortImageArea" id="sortOrderArea">
+                        <input type="button" value="並び替え" id="sort_button" class="sortImage buttomText buttomTextBrwn no_border" onclick="ClickSortButton();">
+	                    </div>
+
+                    </div>
+
+
+                    <div class="clear"></div>
+                </div>
+                <!-- sortStyle end -->
+            </div>
+
+
+
+            <div class="clear"></div>
+        </div>
+
+        <div id="searchFasetSndLarge">
+            <div class="FasetClear"><input type="button" value="絞込クリア" class="fasetClearButton buttomText buttomTextWth no_border" onclick="ClickFasetClearButton();"></div>
+        </div>
+        <div class="clear"></div>
+
+        <div id="searchResultArea" class="width100p">
+            <div id="searchResult"><div class="HeaderRow">    <div class="NumberColumn">No</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea" class="searchImageAreaON">サムネイル</div>        <div id="searchDataArea" class="ResultDataColumn searchDataAreaOFF">タイトル / 資料情報</div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9961</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea0" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29393-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206315" border="0"></a>        </div>        <div id="searchDataArea0" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29393-0" target="dl_detail">北越殖民社関係資料</a> : 107-11 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1926 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29393', '北越殖民社関係資料', 'media_player.php?dataId=0206315')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9962</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea1" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-563-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037950" border="0"></a>        </div>        <div id="searchDataArea1" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-563-0" target="dl_detail">北越殖民社関係資料</a> : 107-11 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1926 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9963</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea2" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-553-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037677" border="0"></a>        </div>        <div id="searchDataArea2" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-553-0" target="dl_detail">北越殖民社関係資料</a> : 107-2 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1912 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9964</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea3" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29383-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206305" border="0"></a>        </div>        <div id="searchDataArea3" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29383-0" target="dl_detail">北越殖民社関係資料</a> : 107-2 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1912 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29383', '北越殖民社関係資料', 'media_player.php?dataId=0206305')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9965</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea4" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-554-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037697" border="0"></a>        </div>        <div id="searchDataArea4" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-554-0" target="dl_detail">北越殖民社関係資料</a> : 107-3 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1913 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9966</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea5" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29384-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206306" border="0"></a>        </div>        <div id="searchDataArea5" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29384-0" target="dl_detail">北越殖民社関係資料</a> : 107-3 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1913 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29384', '北越殖民社関係資料', 'media_player.php?dataId=0206306')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9967</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea6" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29385-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206307" border="0"></a>        </div>        <div id="searchDataArea6" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29385-0" target="dl_detail">北越殖民社関係資料</a> : 107-4 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1914 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29385', '北越殖民社関係資料', 'media_player.php?dataId=0206307')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9968</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea7" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-555-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037759" border="0"></a>        </div>        <div id="searchDataArea7" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-555-0" target="dl_detail">北越殖民社関係資料</a> : 107-4 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1914 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9969</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea8" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29386-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206308" border="0"></a>        </div>        <div id="searchDataArea8" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29386-0" target="dl_detail">北越殖民社関係資料</a> : 107-5 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1915 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29386', '北越殖民社関係資料', 'media_player.php?dataId=0206308')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9970</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea9" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-556-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037784" border="0"></a>        </div>        <div id="searchDataArea9" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-556-0" target="dl_detail">北越殖民社関係資料</a> : 107-5 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1915 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9971</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea10" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29387-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206309" border="0"></a>        </div>        <div id="searchDataArea10" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29387-0" target="dl_detail">北越殖民社関係資料</a> : 107-6 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1916 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29387', '北越殖民社関係資料', 'media_player.php?dataId=0206309')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9972</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea11" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-557-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037804" border="0"></a>        </div>        <div id="searchDataArea11" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-557-0" target="dl_detail">北越殖民社関係資料</a> : 107-6 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1916 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9973</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea12" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-558-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037828" border="0"></a>        </div>        <div id="searchDataArea12" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-558-0" target="dl_detail">北越殖民社関係資料</a> : 107-7 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1918 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9974</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea13" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29388-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206310" border="0"></a>        </div>        <div id="searchDataArea13" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29388-0" target="dl_detail">北越殖民社関係資料</a> : 107-7 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1918 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29388', '北越殖民社関係資料', 'media_player.php?dataId=0206310')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9975</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea14" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29389-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206311" border="0"></a>        </div>        <div id="searchDataArea14" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29389-0" target="dl_detail">北越殖民社関係資料</a> : 107-7-2 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1918 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29389', '北越殖民社関係資料', 'media_player.php?dataId=0206311')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9976</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea15" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-559-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037848" border="0"></a>        </div>        <div id="searchDataArea15" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-559-0" target="dl_detail">北越殖民社関係資料</a> : 107-7-2 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1918 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9977</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea16" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-560-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037890" border="0"></a>        </div>        <div id="searchDataArea16" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-560-0" target="dl_detail">北越殖民社関係資料</a> : 107-8 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1919 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9978</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea17" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29390-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206312" border="0"></a>        </div>        <div id="searchDataArea17" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29390-0" target="dl_detail">北越殖民社関係資料</a> : 107-8 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1919 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29390', '北越殖民社関係資料', 'media_player.php?dataId=0206312')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9979</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea18" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29391-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=206313" border="0"></a>        </div>        <div id="searchDataArea18" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-29391-0" target="dl_detail">北越殖民社関係資料</a> : 107-9 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1920 : 北海道立図書館        </div><div class="searchButtonArea"><input class="buttomTextS buttomTextWthS" type="button" name="loan_button" value="自由閲覧" onclick="ClickLoanButton(99, '29391', '北越殖民社関係資料', 'media_player.php?dataId=0206313')"></div>        <div class="clear"></div>    </div></div><div class="DataRow">    <div class="NumberColumn">9980</div>    <div class="searchResultDataGroup drowLeftLine">        <div id="searchImageArea19" class="searchImageAreaON">            <a class="thumnailLinkImg" href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-561-1" target="dl_detail"><img src="/digitallibrary/dsearch/ics/load_thumbnail.php?dataId=0037916" border="0"></a>        </div>        <div id="searchDataArea19" class="searchDataAreaON">            <a href="/digitallibrary/dsearch/da/detail.php?libno=11&amp;data_id=5-561-0" target="dl_detail">北越殖民社関係資料</a> : 107-9 : 北越殖民株式会社時代（明４０‐昭２７） イ．終戦前の期間（明４０‐昭２０） 晩生内農場関係：晩生内精算, 1920 : 北海道立図書館        </div>        <div class="clear"></div>    </div></div></div>
+        </div>
+        <!--------------------------- ファセット条件 --------------------------->
+        <div id="searchFasetSndSmall">
+            <div class="FasetClear"><input type="button" value="絞込クリア" class="fasetClearButton buttomText buttomTextWth no_border" onclick="ClickFasetClearButton();"></div>
+        </div>
+        <div id="searchFasetArea"><b>館種</b><br><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;0&quot;,&quot;公立図書館&quot;);">公立図書館</a></div><div class="fasetCount">(6180件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;0&quot;,&quot;道立図書館&quot;);">道立図書館</a></div><div class="fasetCount">(5987件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;0&quot;,&quot;道立機関&quot;);">道立機関</a></div><div class="fasetCount">(4293件)<br></div><div class="clear"></div><br><b>所蔵機関</b><br><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;1&quot;,&quot;北海道立図書館&quot;);">北海道立図書館</a></div><div class="fasetCount">(5987件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;1&quot;,&quot;北海道立文書館&quot;);">北海道立文書館</a></div><div class="fasetCount">(4282件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;1&quot;,&quot;旭川市図書館&quot;);">旭川市図書館</a></div><div class="fasetCount">(4046件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;1&quot;,&quot;北見市立図書館&quot;);">北見市立図書館</a></div><div class="fasetCount">(1982件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;1&quot;,&quot;滝上町図書館&quot;);">滝上町図書館</a></div><div class="fasetCount">(146件)<br></div><div class="clear"></div><div class="fasetNavi">    <a href="javascript:void(0);" onclick="facetPageing(&quot;1&quot;,&quot;5&quot;);">後の5件 &gt;&gt;</a></div><br><b>カテゴリー</b><br><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;2&quot;,&quot;古文書・古記録&quot;);">古文書・古記録</a></div><div class="fasetCount">(6103件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;2&quot;,&quot;写真&quot;);">写真</a></div><div class="fasetCount">(5344件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;2&quot;,&quot;電子書籍&quot;);">電子書籍</a></div><div class="fasetCount">(1871件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;2&quot;,&quot;図類&quot;);">図類</a></div><div class="fasetCount">(1359件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;2&quot;,&quot;図書資料&quot;);">図書資料</a></div><div class="fasetCount">(709件)<br></div><div class="clear"></div><div class="fasetNavi">    <a href="javascript:void(0);" onclick="facetPageing(&quot;2&quot;,&quot;5&quot;);">後の5件 &gt;&gt;</a></div><br><b>コンテンツ</b><br><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;3&quot;,&quot;旭川市図書館所蔵写真&quot;);">旭川市図書館所蔵写真</a></div><div class="fasetCount">(3972件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;3&quot;,&quot;開拓使文書&quot;);">開拓使文書</a></div><div class="fasetCount">(3682件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;3&quot;,&quot;殖民地区画図&quot;);">殖民地区画図</a></div><div class="fasetCount">(801件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;3&quot;,&quot;林家文書&quot;);">林家文書</a></div><div class="fasetCount">(697件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;3&quot;,&quot;林家文書【電子書籍】&quot;);">林家文書【電子書籍】</a></div><div class="fasetCount">(697件)<br></div><div class="clear"></div><div class="fasetNavi">    <a href="javascript:void(0);" onclick="facetPageing(&quot;3&quot;,&quot;5&quot;);">後の5件 &gt;&gt;</a></div><br><b>言語</b><br><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;4&quot;,&quot;日本語&quot;);">日本語</a></div><div class="fasetCount">(7299件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;4&quot;,&quot;JPN：日本語&quot;);">JPN：日本語</a></div><div class="fasetCount">(4446件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;4&quot;,&quot;JPN&quot;);">JPN</a></div><div class="fasetCount">(655件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;4&quot;,&quot;CHI：中国語&quot;);">CHI：中国語</a></div><div class="fasetCount">(1件)<br></div><div class="clear"></div><div class="fasetType">    <a href="javascript:void(0);" onclick="collectFasetData(&quot;4&quot;,&quot;KOR：朝鮮語&quot;);">KOR：朝鮮語</a></div><div class="fasetCount">(1件)<br></div><div class="clear"></div><div class="fasetNavi">    <a href="javascript:void(0);" onclick="facetPageing(&quot;4&quot;,&quot;5&quot;);">後の5件 &gt;&gt;</a></div><br></div>
+        <!-- 利用者用機能 -->
+		<div style="display: none; clear:both; float: right; margin:5px; text-align: center; width: 20%;">
+			<input type="button" value="利用者用機能" style=" background: url('images/btnbase_brwn_100_40.gif') center top no-repeat; background-size: cover; color: #FFFFFF; width : 100px; height : 40px; border : none; font-weight: bolder; font-family: Meiryo, 'メイリオ', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'MS PGothic','ＭＳ Ｐゴシック',sans-serif;" class="buttomText buttomTextGrn no_border" onclick="ClickUserButton();">
+		</div>
+		<div class="clear"></div>
+
+      </div>
+    </div>
+    </div>
+    <div class="clear"></div>
+	<div id="modalbox">
+		<div id="contentsArea">
+			<div class="clear"></div>
+			<!-- ログイン認証ダイアログ -->
+			<div id="login_dialog">
+				<div id="contentHead" style="text-align:left;"><h2><font size="5">北海道立図書館 利用者認証画面</font></h2></div><table border="0" width="100%" 　align="center">	<tbody><tr>		<td width="10%"></td>		<td width="80%" colspan="2">カード番号とパスワードを入力して<br>ログインボタンを押してください。<br>&nbsp;		</td>		<td width="10%" colspan="2"></td>	</tr>	<tr>		<td width="15%"></td>		<td width="30%" valign="top" style="background: #E0E0E0"><b>カード番号</b>		</td>		<td width="35%"><input type="text" value="" id="cardNo" style="ime-mode: disabled;"></td>		<td width="15%" align="left">(半角)</td>		<td width="5%"></td>	</tr>	<tr>		<td width="15%"></td>		<td width="30%" valign="top" style="background: #E0E0E0"><b>パスワード</b>		</td>		<td width="35%"><input type="password" value="" id="password">		</td>		<td width="20%" colspan="2"></td>	</tr></tbody></table><div class="searchTrigger">	<div id="searchButtonArea">		<input type="button" id="login_btn" value="ログイン" class="searchButton buttomText buttomTextBrwn no_border">		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		<input type="button" id="cancel_btn" value="キャンセル" class="searchClearButton buttomText buttomTextWth no_border">	</div>	<div class="clear"></div></div><div>	<div class="red" align="center" <br=""><a target="_blank" href="./user-authentication.htm" style="text-decoration: underline">電子書籍の利用について</a><br>&nbsp;</div></div><div>	<div class="red" align="center" id="message"></div></div>			</div>
+			<!-- 貸出確認ダイアログ -->
+			<div id="loan_dialog">
+				<div id="contentHead" style="text-align:left;"><h2><font size="5">貸出確認画面</font></h2></div><table border="0" width="100%" align="center">	<tbody><tr>		<td></td>	</tr>	<tr>		<td width="5%"></td>		<td width="45%" valign="top" align="center" style="background: #E0E0E0"><b>タイトル</b></td>		<td width="45%" valign="top" align="center" style="background: #E0E0E0"><b>貸出期限</b></td>		<td width="5%"></td>	</tr>	<tr>		<td width="5%"></td>		<td width="45%" align="center"><span id="title"></span></td>		<td width="45%px" align="center"><span id="limit">2019年9月10日</span></td>		<td width="5%"></td>	</tr></tbody></table><div class="searchTrigger">	<div id="searchButtonArea">		<input type="button" id="loan_btn" name="loan_btn" value="借りる" class="searchButton buttomText buttomTextBrwn no_border">		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		<input type="button" id="cancel_btn" name="cancel_btn" value="キャンセル" class="searchClearButton buttomText buttomTextWth no_border">	</div>	<div class="clear"></div></div>			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+    
+<div style="padding-bottom: 5px;"></div><footer id="pageFot"><p id="upLink"><a href="#pageTop" class="hide">トップに戻る</a></p><div id="fotBox"><p id="copyright">© 2015 Northern Regions Literature, All Rights Reserved.</p></div></footer>    <!-- 送信専用フォーム -->
+    <form name="detailForm" action="./detail.php" method="get" target="_blank">
+            <!-- 検索タイプ -->
+            <input type="hidden" name="type">
+            <!-- 詳細を開く文献ID -->
+            <input type="hidden" name="literatureId">
+    </form>
+    <form name="detailExtForm" action="./detail.php" method="get" target="_blank">
+            <!-- 検索タイプ -->
+            <input type="hidden" name="type">
+            <!-- 詳細を開く文献ID -->
+            <input type="hidden" name="literatureId">
+            <!-- 開くタブの種類 -->
+            <input type="hidden" name="detailTab">
+    </form>
+    <form name="helpForm" action="help.html" method="post" target="_blank"></form>
+    <form name="topForm" action="http://www3.library.pref.hokkaido.jp/digitallibrary/" method="post"></form>
+    <!-- マイページ用 -->
+    <form name="mypageForm" action="./mypage.php" method="post" target="">
+        <input type="hidden" name="type">
+    </form>
+    <form name="ownForm" action="" method="post" target="">
+        <input type="hidden" id="loan_literature_id">
+        <input type="hidden" id="loan_card_no" value="">
+        <input type="hidden" id="state">
+        <input type="hidden" id="mode">
+    </form>
+    <!-- 電子書籍ビューア確認用(暫定) -->
+    <form name="ebookForm" action="" method="post" target="ebook">
+    	<!-- 文献タイトル -->
+		<input type="hidden" name="title">
+		<!-- 電子書籍ステータス -->
+		<input type="hidden" name="epub_state">
+	</form>
+    <!-- 総合検索検索結果一覧遷移用 -->
+    <form name="searchForm" action="./GetSearchCrossHTML.php" method="post" target="search" id="searchForm">
+        <input type="hidden" name="libno" id="libno">
+        <input type="hidden" name="condition" id="searchStr">
+        <input type="hidden" name="searchtype" id="searchtype" value="5">
+    </form>
+
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul></body></html>

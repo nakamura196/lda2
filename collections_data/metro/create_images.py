@@ -122,7 +122,7 @@ for category in categories:
 
             while(next_flg):
 
-                time.sleep(5)
+                time.sleep(1)
 
                 try:
 
