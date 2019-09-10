@@ -31,11 +31,14 @@ check = []
 
 files = glob.glob("data/metadata2/*.html")
 
-for file in files:
+for i in range(len(files)):
+    print(str(i+1)+"/"+str(len(files)))
+
+    file = files[i]
+
     soup = BeautifulSoup(open(file), "lxml")
 
     id = file.split("/")[-1].split(".")[0]
-    print(id)
 
     filename = "data/metadata/"+id+".json"
 

@@ -59,7 +59,7 @@ categories = [# "双六",
 for category in categories:
 
     flg = True
-    p = 0
+    p = 1679
 
     while(flg):
 
@@ -68,7 +68,7 @@ for category in categories:
 
         p += 1
 
-        print(str(p)+"\t"+category)
+        print(str(p)+"\t"+category)  # 1680	建築図面
 
         r = requests.get(url)  # requestsを使って、webから取得
         soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出

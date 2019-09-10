@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4a339224abc432a8a992467032f219c3.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "坂井商店 中央市街",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ガラス乾板写真集"
+        },
+        {
+            "label": "タイトル",
+            "value": "坂井商店 中央市街"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "サカイショウテン チュウオウシガイ"
+        },
+        {
+            "label": "地域",
+            "value": "滝上"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "滝上町図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "35932"
+        },
+        {
+            "label": "言語",
+            "value": "JPN：日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "まちの様子"
+        },
+        {
+            "label": "シリーズ名（ヨミ）",
+            "value": "マチノヨウス"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=55&data_id=5-35932-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4a339224abc432a8a992467032f219c3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4a339224abc432a8a992467032f219c3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1544,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4a339224abc432a8a992467032f219c3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/4a339224abc432a8a992467032f219c3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35932/0231946/0231946_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1544,
+                                "width": 2126
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35932/0231946/0231946_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2126
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35932/0231946/0231946_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

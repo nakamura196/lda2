@@ -27,15 +27,16 @@ from PIL import Image
 import time
 from selenium import webdriver
 
-check = []
-
 files = glob.glob("data/html2/*.html")
 
-for file in files:
+for i in range(len(files)):
+    file = files[i]
+
+    print(str(i+1)+"/"+str(len(files)))
+
     soup = BeautifulSoup(open(file), "lxml")
 
     id = file.split("/")[-1].split(".")[0]
-    print(id)
 
     filename = "data/images/"+id+".json"
 
@@ -53,6 +54,10 @@ for file in files:
 
     aas = soup.find(id="thumbnailArea_view").find_all(class_="thumbnailImg")
 
+    print("画像数: "+str(len(aas))+ "\t"+id)
+
+    error_flg = False
+
     for i in range(len(aas)):
         a = aas[i]
 
@@ -61,23 +66,31 @@ for file in files:
         img_url = "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/" + \
             top+"/"+img_id+"/"+img_id+"_" + \
                 str(i+1).zfill(7)+".jp2&WID=full&CVT=jpeg"
+        print(img_url)
 
         thumb_url = img_url.replace("full", "300")
 
         if i == 0:
             main["thumbnail"] = thumb_url
 
-        image = Image.open(urllib.request.urlopen(img_url))
-        width, height = image.size
+        try:
+            image = Image.open(urllib.request.urlopen(img_url))
+            width, height = image.size
 
-        obj = {
-            "img_url": img_url,
-            "thumb_url": thumb_url,
-            "width": width,
-            "height": height
-        }
-        array.append(obj)
+            obj = {
+                "img_url": img_url,
+                "thumb_url": thumb_url,
+                "width": width,
+                "height": height
+            }
+            array.append(obj)
+        except:
+            error_flg = True
+            print("Image open Error")
+            break
 
-    f2 = open(filename, 'w')
-    json.dump(main, f2, ensure_ascii=False, indent=4,
-              sort_keys=True, separators=(',', ': '))
+    if not error_flg:
+
+        f2 = open(filename, 'w')
+        json.dump(main, f2, ensure_ascii=False, indent=4,
+                sort_keys=True, separators=(',', ': '))

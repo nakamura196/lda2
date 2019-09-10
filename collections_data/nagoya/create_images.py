@@ -60,11 +60,7 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(chrome_options=options)
 
 for category in categories:
-
     
-
-    
-
     flg = True
     p = 0
 
@@ -102,73 +98,53 @@ for category in categories:
             array = []
             main["array"] = array
 
-            driver.get(url2)
-
-            r = requests.get(url2)  # requestsを使って、webから取得
-
-            soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
-
-            driver.find_element_by_id(
-                "originalImage").click()
-
             next_flg = True
-
-            first_flg = True
 
             error_flg = False
 
+            driver.get(url2)
+
+            time.sleep(2)
+
+            check = []
+
             while(next_flg):
 
-                time.sleep(2)
+                soup = BeautifulSoup(driver.page_source, 'lxml')  # 要素を抽出
+
+                imgs = soup.find(class_="sdw_detailViewLinkThumb").find_all("img")
+
+                for img in imgs:
+                    src = img.get("src")
+
+                    thumb_url = "http://e-library2.gprime.jp/lib_city_nagoya/da/"+src
+
+                    img_url = thumb_url.replace("=thumb", "=org")
+
+                    if img_url in check:
+                        continue
+
+                    print(img_url)
+
+                    image = Image.open(urllib.request.urlopen(img_url))
+                    width, height = image.size
+
+                    obj = {
+                        "img_url": img_url,
+                        "thumb_url": thumb_url,
+                        "width": width,
+                        "height": height
+                    }
+                    array.append(obj)
+                    check.append(img_url)
+
+                    if "thumbnail" not in main:
+                        main["thumbnail"] = thumb_url
 
                 try:
-
-                    if first_flg:
-                        img_url = driver.find_element_by_class_name(
-                            "cboxPhotoOriginal").get_attribute("src")
-
-                    else:
-                        img_url = driver.find_element_by_class_name(
-                            "cboxPhoto").get_attribute("src").replace("=view", "=org")
-
+                    driver.find_element_by_class_name(
+                        "sdw_detailViewLinkButtonFwd").click()
                 except:
-                    print("Error")
-                    error_flg = True
-                    next_flg = False
-                
-                print(img_url)
-
-                thumb_url = img_url.replace("=org", "=thumb")
-                
-
-                image = Image.open(urllib.request.urlopen(img_url))
-                width, height = image.size
-
-                obj = {
-                    "img_url": img_url,
-                    "thumb_url": thumb_url,
-                    "width": width,
-                    "height": height
-                }
-                array.append(obj)
-
-                if first_flg:
-                    main["thumbnail"] = thumb_url
-
-                first_flg = False
-
-                try:
-                    cboxNext = driver.find_element_by_id(
-                        "cboxNext").get_attribute("style")
-                except:
-                    next_flg = False
-
-                if "float: left;" == cboxNext:
-                    
-                    driver.find_element_by_id(
-                        "cboxNext").click()
-                else:
-
                     next_flg = False
 
             if not error_flg:

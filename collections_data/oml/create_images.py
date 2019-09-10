@@ -62,6 +62,8 @@ for j in range(1, r_count):
 
         print(len(imgs))
 
+        error_flg = False
+
         for img in imgs:
             src = img.get("src")
 
@@ -71,17 +73,23 @@ for j in range(1, r_count):
                 img_url = "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no="+data_no
                 thumb_url = "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no="+data_no
 
-                image = Image.open(urllib.request.urlopen(img_url))
-                width, height = image.size
+                try:
+                    image = Image.open(urllib.request.urlopen(img_url))
+                    width, height = image.size
 
-                obj = {
-                    "img_url": img_url,
-                    "thumb_url": thumb_url,
-                    "width": width,
-                    "height": height
-                }
-                array.append(obj)
+                    obj = {
+                        "img_url": img_url,
+                        "thumb_url": thumb_url,
+                        "width": width,
+                        "height": height
+                    }
+                    array.append(obj)
+                except:
+                    print("Error Image.open")
+                    error_flg = True
+                    break
 
-        f2 = open(filename, 'w')
-        json.dump(main, f2, ensure_ascii=False, indent=4,
-                  sort_keys=True, separators=(',', ': '))
+        if not error_flg:
+            f2 = open(filename, 'w')
+            json.dump(main, f2, ensure_ascii=False, indent=4,
+                    sort_keys=True, separators=(',', ': '))
