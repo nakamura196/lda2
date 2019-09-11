@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4b541d9cc89469862799239ecad1d49d.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "針田鉱業国力鉱山鉱石運搬軌道 昭和３０年頃 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "針田鉱業国力鉱山鉱石運搬軌道 昭和３０年頃 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ハリタコウギョウコクリョクコウザンコウセキウンパンキドウ ショウワ１８ネンコロ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41748"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "日吉地区の通称「鉄山」針田鉱業国力鉱山。鉄鉱石の運搬は、湧網線（下佐呂間・常呂間）開通前は、山元から常呂駅までトラック輸送、そこから貨物輸送。昭和２７年１１月20日の開通後は、北見共立駅裏の土場から鉄鉱石を積み込み、共立駅から室蘭に向けて鉱石を貨物運搬。昭和３９年１０月閉山。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41748-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4b541d9cc89469862799239ecad1d49d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4b541d9cc89469862799239ecad1d49d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 932,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4b541d9cc89469862799239ecad1d49d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/4b541d9cc89469862799239ecad1d49d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41748/0262489/0262489_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 932,
+                                "width": 1808
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41748/0262489/0262489_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1808
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41748/0262489/0262489_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0126eb65b0dbdd4deb30759bc3c101cf.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "檜山支庁管内〔鳥瞰図〕",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "檜山支庁管内〔鳥瞰図〕"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ヒヤマ シチョウ カンナイ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "檜山"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ヒヤマ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1100000122074"
+        },
+        {
+            "label": "管理番号",
+            "value": "2119"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1936"
+        },
+        {
+            "label": "著者",
+            "value": "北海道檜山支庁∥編"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "ホッカイドウ ヒヤマ シチョウ"
+        },
+        {
+            "label": "一般注記",
+            "value": "檜山支庁管内鳥瞰図[鳥瞰図](15×53cm)含む"
+        },
+        {
+            "label": "地域",
+            "value": "檜山振興局"
+        },
+        {
+            "label": "出版地",
+            "value": "江差町(檜山)"
+        },
+        {
+            "label": "出版者",
+            "value": "北海道檜山支庁"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ホッカイドウヒヤマシチョウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "17×78cm(折りたたみ17cm)"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2119-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0126eb65b0dbdd4deb30759bc3c101cf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0126eb65b0dbdd4deb30759bc3c101cf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 823,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0126eb65b0dbdd4deb30759bc3c101cf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/0126eb65b0dbdd4deb30759bc3c101cf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2119/0090496/0090496_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 823,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2119/0090496/0090496_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2119/0090496/0090496_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

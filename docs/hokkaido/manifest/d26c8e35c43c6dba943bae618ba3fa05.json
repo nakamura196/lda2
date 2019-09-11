@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d26c8e35c43c6dba943bae618ba3fa05.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "蝦夷図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "蝦夷図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "エゾズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "蝦夷図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "エゾズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012927"
+        },
+        {
+            "label": "管理番号",
+            "value": "1653"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "〔出版年不明〕"
+        },
+        {
+            "label": "一般注記",
+            "value": "写"
+        },
+        {
+            "label": "説明",
+            "value": "文化年間（1804～1818）以降になると多くの蝦夷図が作成されるようになるが、本図もまたそのような1枚である。「千歳川」の記載があり、これは文化2年（1805）以降であることが分かる。同系統図の多くは東北諸藩の蝦夷地警備の際に使用されたと思われる。東蝦夷地と日本海側に地名・里程を記入している。本図には他図にはない大きな特徴が二つあって、一つは東蝦夷地のエリモ岬の出っ張りが小さく形をなしていないこと。一つは東西蝦夷地の境界線がくっきりと引かれていることである。このような境界線を示す蝦夷図は他にはみられない。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "出版者",
+            "value": "〔出版者不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "78×82cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1653-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d26c8e35c43c6dba943bae618ba3fa05.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d26c8e35c43c6dba943bae618ba3fa05.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3303,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d26c8e35c43c6dba943bae618ba3fa05.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d26c8e35c43c6dba943bae618ba3fa05.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1653/0080609/0080609_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3303,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1653/0080609/0080609_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1653/0080609/0080609_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

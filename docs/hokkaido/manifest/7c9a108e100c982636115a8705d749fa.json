@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7c9a108e100c982636115a8705d749fa.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "[サッポロビール絵はがき] [静止画資料]",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "絵葉書"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "絵葉書"
+        },
+        {
+            "label": "タイトル",
+            "value": "[サッポロビール絵はがき] [静止画資料]"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "サッポロビールエハガキ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "[サッポロビール絵はがき] [静止画資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "サッポロ ビール エハガキ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3100000003543"
+        },
+        {
+            "label": "管理番号",
+            "value": "38846"
+        },
+        {
+            "label": "言語",
+            "value": "JPN"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "出版地",
+            "value": "札幌"
+        },
+        {
+            "label": "出版者",
+            "value": "大日本麦酒"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ダイニホンビール"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×10cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-38846-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7c9a108e100c982636115a8705d749fa.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7c9a108e100c982636115a8705d749fa.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2250,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7c9a108e100c982636115a8705d749fa.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/7c9a108e100c982636115a8705d749fa.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38846/0250609/0250609_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2250,
+                                "width": 1460
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38846/0250609/0250609_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1460
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38846/0250609/0250609_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

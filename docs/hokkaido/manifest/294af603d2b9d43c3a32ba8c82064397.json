@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/294af603d2b9d43c3a32ba8c82064397.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北海道国郡全図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "北海道国郡全図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ホッカイドウ コクグン ゼンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "北海道国郡全図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ホッカイドウ コクグン ゼンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730010244"
+        },
+        {
+            "label": "管理番号",
+            "value": "1643"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1869"
+        },
+        {
+            "label": "一般注記",
+            "value": "開拓使蔵版"
+        },
+        {
+            "label": "説明",
+            "value": "明治2年（1869）、北海道の新しい行政機関となった開拓使が出版した最初の北海道全図である。作者は開拓判官を任命された松浦武四郎である。図には、初代開拓使長官、鍋島直正の漢詩、二代目開拓長官、東久世通禧の和歌、内務卿、伊達宗城の題言「寧静致遠」が記載された堂々たる美図で、「寧静致遠」とは「遠く隔たった地が静かに治まる」という意味である。図は北海道を中心として樺太全島と千島列島を描写しているが、南を上部として表現している。さらに松浦武四郎の原案を基にして命名された11の国名、86の郡名が記載されている。本図には和歌のある初版、和歌を削除した二版、そして漢詩・題言ともに削除した三版がある。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "109×94cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1643-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/294af603d2b9d43c3a32ba8c82064397.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/294af603d2b9d43c3a32ba8c82064397.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3718,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/294af603d2b9d43c3a32ba8c82064397.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/294af603d2b9d43c3a32ba8c82064397.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1643/0080597/0080597_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3718,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1643/0080597/0080597_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1643/0080597/0080597_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

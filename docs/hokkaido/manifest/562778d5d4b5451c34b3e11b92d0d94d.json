@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂町文化祭演劇 第１２回 昭和４０年１１月２日",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図書資料"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂町文化祭資料"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂町文化祭演劇 第１２回 昭和４０年１１月２日"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロチョウブンカサイエンゲキ ダイ１２カイ ショウワ４０ネン１１ガツ２ニチ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41969"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「広報ところ」１１月では、前夜祭の１１月２日、常呂高校演劇部、青年団や演劇グループによる演劇の芸能発表があったと伝えています。会場は常呂町中央公民館。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41969-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 570,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41969/0263001/0263001_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 570,
+                                "width": 816
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41969/0263001/0263001_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 816
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 558,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/562778d5d4b5451c34b3e11b92d0d94d.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41969/0263002/0263002_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 558,
+                                "width": 846
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41969/0263002/0263002_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 846
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41969/0263001/0263001_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

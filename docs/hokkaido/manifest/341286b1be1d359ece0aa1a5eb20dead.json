@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/341286b1be1d359ece0aa1a5eb20dead.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "十勝国全図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "十勝国全図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トカチコク ゼンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "十勝国全図 [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "トカチコク ゼンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730011112"
+        },
+        {
+            "label": "管理番号",
+            "value": "2220"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1915"
+        },
+        {
+            "label": "一般注記",
+            "value": "縮尺1：100000 止若、本別、厚内、清水、芽室、帯広、伏古、佐念頃、大津、利別太、茂寄の閣市街図あり"
+        },
+        {
+            "label": "地域",
+            "value": "上川振興局、上川盆地"
+        },
+        {
+            "label": "出版地",
+            "value": "帯広町(十勝)"
+        },
+        {
+            "label": "出版者",
+            "value": "日野間測勝館"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ヒノマソクショウカン"
+        },
+        {
+            "label": "大きさ",
+            "value": "175×107cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2220-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/341286b1be1d359ece0aa1a5eb20dead.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/341286b1be1d359ece0aa1a5eb20dead.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4875,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/341286b1be1d359ece0aa1a5eb20dead.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/341286b1be1d359ece0aa1a5eb20dead.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2220/0090652/0090652_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4875,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2220/0090652/0090652_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2220/0090652/0090652_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

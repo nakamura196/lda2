@@ -31,18 +31,22 @@ check = []
 
 files = glob.glob("data/metadata2/*.html")
 
-for i in range(len(files)):
-    print(str(i+1)+"/"+str(len(files)))
-
+for i in range(len(sorted(files))):
+    
     file = files[i]
 
     soup = BeautifulSoup(open(file), "lxml")
 
     id = file.split("/")[-1].split(".")[0]
 
+    print(str(i+1)+"/"+str(len(files))+"\t"+id)
+
     filename = "data/metadata/"+id+".json"
 
     if os.path.exists(filename):
+        continue
+
+    if len(soup) == 0:
         continue
 
     url = soup.find(class_="sanshoUrl").text.split("このページのURL：")[1].strip()

@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/687a4a1a567e70edd03aac0082a97102.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "島牧村鳥瞰図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "島牧村鳥瞰図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "シママキムラ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1冊"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "開村100年記念島牧村勢要覧. 昭和46年版"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "カイソン ヒャクネン キネン シママキ ソンセイ ヨウラン"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009730002578"
+        },
+        {
+            "label": "管理番号",
+            "value": "2117"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1971"
+        },
+        {
+            "label": "著者",
+            "value": "島牧村企画室∥編"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "シママキムラ キカクシツ"
+        },
+        {
+            "label": "地域",
+            "value": "島牧"
+        },
+        {
+            "label": "出版地",
+            "value": "島牧村(後志)"
+        },
+        {
+            "label": "出版者",
+            "value": "島牧村"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "シママキムラ"
+        },
+        {
+            "label": "大きさ",
+            "value": "24×25cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2117-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/687a4a1a567e70edd03aac0082a97102.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/687a4a1a567e70edd03aac0082a97102.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 979,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/687a4a1a567e70edd03aac0082a97102.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/687a4a1a567e70edd03aac0082a97102.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2117/0090493/0090493_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 979,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2117/0090493/0090493_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2117/0090493/0090493_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

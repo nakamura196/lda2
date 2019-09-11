@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/49b41925b57a3cf086b72fe939d654de.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "愛馬と共に",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ガラス乾板写真集"
+        },
+        {
+            "label": "タイトル",
+            "value": "愛馬と共に"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "アイバトトモニ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "滝上町図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "35948"
+        },
+        {
+            "label": "言語",
+            "value": "JPN：日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "地域",
+            "value": "滝上"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "当時のくらし"
+        },
+        {
+            "label": "シリーズ名（ヨミ）",
+            "value": "トウジノクラシ"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=55&data_id=5-35948-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/49b41925b57a3cf086b72fe939d654de.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/49b41925b57a3cf086b72fe939d654de.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1562,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/49b41925b57a3cf086b72fe939d654de.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/49b41925b57a3cf086b72fe939d654de.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35948/0231978/0231978_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1562,
+                                "width": 2126
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35948/0231978/0231978_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2126
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35948/0231978/0231978_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

@@ -29,7 +29,7 @@ from selenium import webdriver
 
 files = glob.glob("data/html2/*.html")
 
-for i in range(len(files)):
+for i in range(len(sorted(files))):
     file = files[i]
 
     print(str(i+1)+"/"+str(len(files)))

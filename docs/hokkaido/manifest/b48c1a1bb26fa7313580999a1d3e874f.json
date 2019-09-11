@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b48c1a1bb26fa7313580999a1d3e874f.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "白滝村鳥瞰図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "白滝村鳥瞰図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "シラタキムラ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "22p"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "白滝村勢要覧. 1961"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "シラタキ ソンセイ ヨウラン"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009730007732"
+        },
+        {
+            "label": "管理番号",
+            "value": "2031"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1961"
+        },
+        {
+            "label": "著者",
+            "value": "白滝村総務係∥編"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "シラタキムラ"
+        },
+        {
+            "label": "地域",
+            "value": "白滝"
+        },
+        {
+            "label": "出版地",
+            "value": "白滝村(網走)"
+        },
+        {
+            "label": "出版者",
+            "value": "白滝村"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "シラタキムラ"
+        },
+        {
+            "label": "大きさ",
+            "value": "26cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2031-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b48c1a1bb26fa7313580999a1d3e874f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b48c1a1bb26fa7313580999a1d3e874f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1511,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b48c1a1bb26fa7313580999a1d3e874f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/b48c1a1bb26fa7313580999a1d3e874f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2031/0090395/0090395_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1511,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2031/0090395/0090395_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2031/0090395/0090395_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

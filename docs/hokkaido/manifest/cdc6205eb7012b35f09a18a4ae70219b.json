@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cdc6205eb7012b35f09a18a4ae70219b.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂町市街地航空写真 昭和４７年春（常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂町市街地航空写真 昭和４７年春（常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロチョウシガイチコウクウシャシン ショウワ４７ネンハル（トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41412"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "写真に写っている主な施設：国保病院病棟落成・前庭整備（昭和４５年１０月）、消防庁舎竣工（昭和４５年１１月１５日）、前浜海水浴場脱衣所・シャワー設備・公衆便所整備（昭和４６年７月）、前浜海水浴場駐車場整備（昭和４７年）、常呂町農協金融店舗・生産資材店舗建設（昭和４６年９月）、特別養護老人ホーム「のぞみの園」第１期工事完了（昭和４６年１２月２１日）、常呂川堤防内にグランド整備（昭和４８年６月完成）、「のぞみの園」第２期拡張工事着手（完了は、昭和４８年１０月１日）。＊昭和４８年１１月１８日完成の常呂郵便局ではなく、旧郵便局があるので、総合的に判断して昭和４７年春（雪があるので４月頃）撮影。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41412-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cdc6205eb7012b35f09a18a4ae70219b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cdc6205eb7012b35f09a18a4ae70219b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2216,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cdc6205eb7012b35f09a18a4ae70219b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/cdc6205eb7012b35f09a18a4ae70219b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41412/0261505/0261505_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2216,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41412/0261505/0261505_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41412/0261505/0261505_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}
