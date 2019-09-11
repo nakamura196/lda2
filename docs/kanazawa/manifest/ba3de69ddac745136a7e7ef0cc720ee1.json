@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ba3de69ddac745136a7e7ef0cc720ee1.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "金沢湯涌江戸村",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "施設"
+        },
+        {
+            "label": "住所",
+            "value": "石川県金沢市湯涌荒屋町１１７"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:3888 × 高さ:2592"
+        },
+        {
+            "label": "撮影地域",
+            "value": "湯涌温泉周辺"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2010/09/25 12:08"
+        },
+        {
+            "label": "撮影時期",
+            "value": "秋"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:72 × 高さ:72 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "158m"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/747/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ba3de69ddac745136a7e7ef0cc720ee1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ba3de69ddac745136a7e7ef0cc720ee1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ba3de69ddac745136a7e7ef0cc720ee1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/ba3de69ddac745136a7e7ef0cc720ee1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/834",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 969
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/834"
+                    },
+                    "width": 969
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/834"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

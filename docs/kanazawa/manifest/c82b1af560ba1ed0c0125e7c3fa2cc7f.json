@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/c82b1af560ba1ed0c0125e7c3fa2cc7f.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "辰巳用水",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "風景"
+        },
+        {
+            "label": "住所",
+            "value": "石川県金沢市広坂１丁目２ 県道10号線"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:3888 × 高さ:2592"
+        },
+        {
+            "label": "撮影地域",
+            "value": "金沢21世紀美術館・広坂"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2010/11/17 10:37"
+        },
+        {
+            "label": "撮影時期",
+            "value": "秋"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:72 × 高さ:72 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "28m"
+        },
+        {
+            "label": "備考",
+            "value": "広坂通り"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/702/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/c82b1af560ba1ed0c0125e7c3fa2cc7f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/c82b1af560ba1ed0c0125e7c3fa2cc7f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/c82b1af560ba1ed0c0125e7c3fa2cc7f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/c82b1af560ba1ed0c0125e7c3fa2cc7f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/786",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 431
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/786"
+                    },
+                    "width": 431
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/786"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

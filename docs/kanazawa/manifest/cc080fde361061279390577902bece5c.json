@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/cc080fde361061279390577902bece5c.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "金沢九谷",
+    "license": "http://open-imagedata.city.kanazawa.ishikawa.jp/page/category/qa#licenses",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "その他"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:5760 × 高さ:3840"
+        },
+        {
+            "label": "撮影日",
+            "value": "2012/12/04 13:39"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:300 × 高さ:300 （インチ）"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/804/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/cc080fde361061279390577902bece5c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/cc080fde361061279390577902bece5c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/cc080fde361061279390577902bece5c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/cc080fde361061279390577902bece5c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/898",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 970
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/898"
+                    },
+                    "width": 970
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/898"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

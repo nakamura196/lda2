@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7ea38b08255638f000037e46777d09d3.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "（辰巳用水）土塀と辰巳用水",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "風景"
+        },
+        {
+            "label": "住所",
+            "value": "金沢市下石引町1-1"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:1180 × 高さ:826"
+        },
+        {
+            "label": "撮影地域",
+            "value": "小立野・石引"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:600 × 高さ:600 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "55m"
+        },
+        {
+            "label": "備考",
+            "value": "パンフレット「辰巳用水　附　土清水塩硝蔵跡（平成25年6月発行）」掲載画像http://www4.city.kanazawa.lg.jp/11104/bunkazaimain/pamphlet.html"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/1019/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7ea38b08255638f000037e46777d09d3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7ea38b08255638f000037e46777d09d3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7ea38b08255638f000037e46777d09d3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/7ea38b08255638f000037e46777d09d3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/1130",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 923
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1130"
+                    },
+                    "width": 923
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1130"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/51aeda8e53fd88df25cd6e37c7c900b9.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "末浄水場園地",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "施設"
+        },
+        {
+            "label": "住所",
+            "value": "石川県金沢市末町１の１"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:3888 × 高さ:2592"
+        },
+        {
+            "label": "撮影地域",
+            "value": "城南周辺"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2010/04/10 13:18"
+        },
+        {
+            "label": "撮影時期",
+            "value": "春"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:72 × 高さ:72 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "120m"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/719/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/51aeda8e53fd88df25cd6e37c7c900b9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/51aeda8e53fd88df25cd6e37c7c900b9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/51aeda8e53fd88df25cd6e37c7c900b9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/51aeda8e53fd88df25cd6e37c7c900b9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/804",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 969
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/804"
+                    },
+                    "width": 969
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/804"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

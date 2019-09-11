@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7e5ca1938f50247b7cea1de6821fae6c.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "金沢城門等写真（6枚目）",
+    "license": "http://creativecommons.org/licenses/by-nc/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "その他"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:4159 × 高さ:3039"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:72 × 高さ:72 （インチ）"
+        },
+        {
+            "label": "備考",
+            "value": "金沢市立玉川図書館近世史料館に所蔵されている史料です。Web公開用に画質を落としている画像があります。より高画質の画像を入手したい等のご要望、ご質問等につきましては、金沢市立玉川図書館近世史料館（https://www2.lib.kanazawa.ishikawa.jp/kinsei/kinsei.htm）へお問合せください。"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/915/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7e5ca1938f50247b7cea1de6821fae6c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7e5ca1938f50247b7cea1de6821fae6c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/7e5ca1938f50247b7cea1de6821fae6c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/7e5ca1938f50247b7cea1de6821fae6c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/1019",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 885
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1019"
+                    },
+                    "width": 885
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1019"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

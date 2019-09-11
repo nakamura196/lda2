@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/a26c4a0ef79a22095d7eef70b1177021.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "（切山城跡）鉛玉（弾丸）",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "その他"
+        },
+        {
+            "label": "住所",
+            "value": "金沢市桐山町"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:1299 × 高さ:966"
+        },
+        {
+            "label": "撮影地域",
+            "value": "金沢市桐山町"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:600 × 高さ:600 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "138m"
+        },
+        {
+            "label": "備考",
+            "value": "パンフレット「加越国境城跡群及び道」掲載画像http://www4.city.kanazawa.lg.jp/11104/bunkazaimain/pamphlet.html"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/998/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/a26c4a0ef79a22095d7eef70b1177021.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/a26c4a0ef79a22095d7eef70b1177021.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/a26c4a0ef79a22095d7eef70b1177021.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/a26c4a0ef79a22095d7eef70b1177021.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/1108",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 869
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1108"
+                    },
+                    "width": 869
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1108"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ab9f75fe75466005fc76ad40b2240b2f.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "九十九曲湾の風景（「北陸名所図会」）",
+    "license": "http://creativecommons.org/licenses/by-nc/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "その他"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:3741 × 高さ:2601"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:400 × 高さ:400 （インチ）"
+        },
+        {
+            "label": "備考",
+            "value": "http://www.lib.kanazawa.ishikawa.jp/kinsei/090.htmWeb公開用に画質を落としている画像があります。より高画質の画像を入手したい等のご要望、ご質問等につきましては、金沢市立玉川図書館近世史料館（https://www2.lib.kanazawa.ishikawa.jp/kinsei/kinsei.htm）へお問合せください。金沢市立玉川図書館近世史料館に所蔵されている史料です。"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/947/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ab9f75fe75466005fc76ad40b2240b2f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ab9f75fe75466005fc76ad40b2240b2f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/ab9f75fe75466005fc76ad40b2240b2f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/ab9f75fe75466005fc76ad40b2240b2f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/1055",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 930
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1055"
+                    },
+                    "width": 930
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1055"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

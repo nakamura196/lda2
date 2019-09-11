@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/5e8c93e4007e8d5e6a0b8f77d77cc96c.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "ひがしの広見（面積約２９０㎡）【東山ひがし重要伝統的建造物群保存地区探訪ポイントマップ】",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "風景"
+        },
+        {
+            "label": "住所",
+            "value": "金沢市　東山"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:3008 × 高さ:2000"
+        },
+        {
+            "label": "撮影地域",
+            "value": "ひがし茶屋街"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2005/12/07 09:11"
+        },
+        {
+            "label": "撮影時期",
+            "value": "冬"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:300 × 高さ:300 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "17m"
+        },
+        {
+            "label": "備考",
+            "value": "東山ひがし重要伝統的建造物群保存地区探訪ポイントマップに掲載。"
+        },
+        {
+            "label": "キーワード",
+            "value": "ひがしの広見（面積約２９０㎡）東山ひがし重要伝統的建造物群保存地区探訪ポイントマップ"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/665/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/5e8c93e4007e8d5e6a0b8f77d77cc96c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/5e8c93e4007e8d5e6a0b8f77d77cc96c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/5e8c93e4007e8d5e6a0b8f77d77cc96c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/5e8c93e4007e8d5e6a0b8f77d77cc96c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/692",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 972
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/692"
+                    },
+                    "width": 972
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/692"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/433f00c58951b027e428c3f469a97923.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "幸（利家長女・前田長種室）墓と石廟",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "風景"
+        },
+        {
+            "label": "住所",
+            "value": "金沢市野田町野田山"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:4320 × 高さ:3240"
+        },
+        {
+            "label": "撮影地域",
+            "value": "野田山周辺"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2010/11/29 09:46"
+        },
+        {
+            "label": "撮影時期",
+            "value": "秋"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:600 × 高さ:600 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "162m"
+        },
+        {
+            "label": "備考",
+            "value": "パンフレット「加賀藩主前田家墓所」掲載画像http://www4.city.kanazawa.lg.jp/11104/bunkazaimain/pamphlet.html"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/987/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/433f00c58951b027e428c3f469a97923.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/433f00c58951b027e428c3f469a97923.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/433f00c58951b027e428c3f469a97923.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/433f00c58951b027e428c3f469a97923.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/1095",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 862
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1095"
+                    },
+                    "width": 862
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/1095"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}
