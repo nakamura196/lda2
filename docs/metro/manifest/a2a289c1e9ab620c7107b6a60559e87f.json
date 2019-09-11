@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2a289c1e9ab620c7107b6a60559e87f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［伊勢国山田施粥番附]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "産業/商業///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "40.5×29.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；あるいは慶応2年か；；"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加4246/加04246"
+        },
+        {
+            "label": "題名",
+            "value": "［伊勢国山田施粥番附]"
+        },
+        {
+            "label": "題名",
+            "value": "イセノクニヤマダホドコシガユバンヅケ"
+        },
+        {
+            "label": "画中文字",
+            "value": "写本。吹上町、一志町、宮後など伊勢国山田にあった町名が多数みられる。"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041106",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2a289c1e9ab620c7107b6a60559e87f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2a289c1e9ab620c7107b6a60559e87f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a2a289c1e9ab620c7107b6a60559e87f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a2a289c1e9ab620c7107b6a60559e87f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041106&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4246.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041106&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4246.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041106&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA4246.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

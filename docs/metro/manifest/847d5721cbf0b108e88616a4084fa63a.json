@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/847d5721cbf0b108e88616a4084fa63a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸城本丸大奥ほか銅物絵図表紙共35枚の23",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "西丸能舞臺本丸大広間本丸雑大奥御殿向其外銅物類/大奥御殿向其外銅物類///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26.5×37.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木12-4-23/木012-4-23"
+        },
+        {
+            "label": "題名",
+            "value": "江戸城本丸大奥ほか銅物絵図表紙共35枚の23"
+        },
+        {
+            "label": "題名",
+            "value": "エドジョウ　ホンマル　オオオク　ホカ　ドウモノ　エズ　ヒョウシトモ　35マイ　ノ　２３"
+        },
+        {
+            "label": "題名",
+            "value": "「新御殿御休息御棚」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（彩色）"
+        },
+        {
+            "label": "家名・人名",
+            "value": "甲良家"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011文化財ウィーク（34）「大奥での御台所の御殿は、「新御殿」、「松御殿」などと呼ばれました。新御殿は、複数の部屋で構成されていました。この図は、御休息之間の棚の装身具の図と思われます。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00043162",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/847d5721cbf0b108e88616a4084fa63a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/847d5721cbf0b108e88616a4084fa63a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/847d5721cbf0b108e88616a4084fa63a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/847d5721cbf0b108e88616a4084fa63a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043162&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI012-004-023.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043162&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI012-004-023.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043162&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI012-004-023.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

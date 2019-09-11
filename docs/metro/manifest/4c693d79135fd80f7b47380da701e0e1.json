@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c693d79135fd80f7b47380da701e0e1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［恭礼門院か］立太后構図（明和8）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清宣/明和度傳家立后本宮之図安永九年東宮御元服宴会御装束図一同御元服ニ付宮中御構之図七清宣///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "100×125cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木33-1-10/木033-1-10"
+        },
+        {
+            "label": "題名",
+            "value": "［恭礼門院か］立太后構図（明和8）"
+        },
+        {
+            "label": "題名",
+            "value": "キョウレイモンインカ　リツタイゴウ　コウズ　メイワ　8"
+        },
+        {
+            "label": "題名",
+            "value": "（外題）「明和八年五月九日 立后本宮之図」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（彩色）"
+        },
+        {
+            "label": "作成年",
+            "value": "明和8.5(1771)"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清宣"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044625",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c693d79135fd80f7b47380da701e0e1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c693d79135fd80f7b47380da701e0e1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4986,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c693d79135fd80f7b47380da701e0e1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4c693d79135fd80f7b47380da701e0e1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044625&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI033-001-010-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4986,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044625&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI033-001-010-W.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044625&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI033-001-010-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

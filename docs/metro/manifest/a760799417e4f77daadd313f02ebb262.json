@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a760799417e4f77daadd313f02ebb262.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "梨木神社本殿棒矩計図（明治18.9）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "神社三/神社清敬///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "77.5×32cm、台紙82.5×42cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木66-3-54/木066-3-054"
+        },
+        {
+            "label": "題名",
+            "value": "梨木神社本殿棒矩計図（明治18.9）"
+        },
+        {
+            "label": "題名",
+            "value": "ナシノキ　ジンジャ　ホンデン　ボウ　カナバカリズ　メイジ　18　9"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「明治十八年九月 梨ノ木神社本宮建杖 十分一之図」，（外題）「京都梨木神社本殿矩計詳細図 拾分之壱 明治十八年九月」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治18.9"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:10"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00047176",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a760799417e4f77daadd313f02ebb262.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a760799417e4f77daadd313f02ebb262.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a760799417e4f77daadd313f02ebb262.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a760799417e4f77daadd313f02ebb262.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047176&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI066-003-054.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047176&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI066-003-054.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047176&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI066-003-054.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

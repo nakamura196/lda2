@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5d57c1388c77b052cebcbab141ab9ae.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "東都下谷絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永4[1851]"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/下谷、浅草（第五大区）/下谷/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 色刷；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "[金鱗堂]尾張屋清七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0461-6/東0461-006"
+        },
+        {
+            "label": "題名",
+            "value": "東都下谷絵図"
+        },
+        {
+            "label": "題名",
+            "value": "トウト　シタヤ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽）下谷繪圖　全"
+        },
+        {
+            "label": "大きさ",
+            "value": "45.8×88.3cm"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［尾張屋板切絵図　23］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "オワリヤバン　キリエズ　23"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "編者等",
+            "value": "戸松昌訓著"
+        },
+        {
+            "label": "資料解説",
+            "value": "2018文化財ウィーク(67)，2011-2大規模企画展『江戸の町づくり』リーフレットp.14「現在の千代田区外神田、神田和泉町、台東区台東あたりの絵図です。左手の神田川沿いには町屋が並んでいますが、図の中央部の名前がびっしり詰まっているところは今のJR御徒町駅付近で、いわゆる御徒士（おかち）役の御家人の多い地域でした。この地域の大名屋敷は外様大名の上屋敷が多く、江戸城から離れたところに置かれていました。嘉永4年、安政4年（1857）、文久2年（1862）の板があります。（Zonal Map of Shitaya）This map covers the area around what is currently Chiyoda Ward (Sotokanda"
+        },
+        {
+            "label": "資料解説",
+            "value": "Kanda Izumi Town) and Taito Ward (Taito). The center of the map packed with names is the area around the current JR Okachimachi Station"
+        },
+        {
+            "label": "資料解説",
+            "value": "and it was an area where many gokenin (lower-ranking retainers)"
+        },
+        {
+            "label": "資料解説",
+            "value": "who were okachi (foot soldiers)"
+        },
+        {
+            "label": "資料解説",
+            "value": "lived.」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042357",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5d57c1388c77b052cebcbab141ab9ae.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5d57c1388c77b052cebcbab141ab9ae.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3742,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f5d57c1388c77b052cebcbab141ab9ae.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f5d57c1388c77b052cebcbab141ab9ae.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042357&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0461-006.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3742,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042357&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0461-006.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042357&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0461-006.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

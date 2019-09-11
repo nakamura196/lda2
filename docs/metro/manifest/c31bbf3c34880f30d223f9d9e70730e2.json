@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c31bbf3c34880f30d223f9d9e70730e2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「武者鑑」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48×36cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加125-6/加00125-006"
+        },
+        {
+            "label": "題名",
+            "value": "「武者鑑」"
+        },
+        {
+            "label": "題名",
+            "value": "ムシャカガミ"
+        },
+        {
+            "label": "画中文字",
+            "value": "「山本勘助入道晴行」「直江山城守兼次」「真田幸村」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041014",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c31bbf3c34880f30d223f9d9e70730e2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c31bbf3c34880f30d223f9d9e70730e2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c31bbf3c34880f30d223f9d9e70730e2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c31bbf3c34880f30d223f9d9e70730e2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041014&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-006.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4149
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041014&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-006.jpg"
+                    },
+                    "width": 4149
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041014&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-006.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

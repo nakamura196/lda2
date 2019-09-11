@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3c33a89d4b028a3c69c2e3c35663875.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "儀式図袋（立后・元服ほか）（明治12.8調）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清久/陽明御殿近衛様櫻御所仙洞御所辰ノ日御絵図傳家図書寛政度恭禮門院御葬儀図面御車及御輿等之図傳家享和参内殿御構図朔旦冬至絵図立后本宮之図清久天明四、六年///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "32.5×23cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木34-3-28/木034-3-28"
+        },
+        {
+            "label": "題名",
+            "value": "儀式図袋（立后・元服ほか）（明治12.8調）"
+        },
+        {
+            "label": "題名",
+            "value": "ギシキズ　フクロ　リツゴウ　ゲンプク　ホカ　メイジ　12　8　シラベ"
+        },
+        {
+            "label": "題名",
+            "value": "（袋外題）「明治十二年八月調 朔旦冬至絵図壱 立后本宮之図 御元服之図 木子清敬 六」"
+        },
+        {
+            "label": "体裁",
+            "value": "雑（袋）"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清久"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00057588",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3c33a89d4b028a3c69c2e3c35663875.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3c33a89d4b028a3c69c2e3c35663875.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3c33a89d4b028a3c69c2e3c35663875.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c3c33a89d4b028a3c69c2e3c35663875.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057588&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI034-003-028.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057588&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI034-003-028.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057588&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI034-003-028.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

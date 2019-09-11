@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f5634cd0e41bfe717ea8f7e14237bb17.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北海道さけます北見支場常呂ふ化場完成開場式 昭和３９年１２月１７日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "北海道さけます北見支場常呂ふ化場完成開場式 昭和３９年１２月１７日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ホッカイドウサケマスキタミシジョウトコロフカジョウカイジョウシキ ショウワ３９ネン１２ガツ１７ニチ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42362"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「広報ところ」昭和４０年１月号には、岐阜地区の町有地に建設。ふ化室では一度に６６０万粒のふ化をすることができ、北見・網走に次ぐ３番目と紹介。写真の式典会場は中央公民館。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42362-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f5634cd0e41bfe717ea8f7e14237bb17.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f5634cd0e41bfe717ea8f7e14237bb17.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1259,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f5634cd0e41bfe717ea8f7e14237bb17.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/f5634cd0e41bfe717ea8f7e14237bb17.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42362/0263906/0263906_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1259,
+                                "width": 1931
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42362/0263906/0263906_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1931
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42362/0263906/0263906_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

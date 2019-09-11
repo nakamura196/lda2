@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/768ea9dd5c6bd2642d4cc28ff87bd9ef.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "木子幸三郎／御料車に関する事務解嘱の辞令（鉄道省）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "清逸辞令其弐////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26.5×19、台紙27.5×79cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木174-60/木174-060"
+        },
+        {
+            "label": "題名",
+            "value": "木子幸三郎／御料車に関する事務解嘱の辞令（鉄道省）"
+        },
+        {
+            "label": "題名",
+            "value": "キコ　コウザブロウ　ゴリョウシャ　ニ　カンスル　ジム　カイショク　ノ　ジレイ　テツドウショウ"
+        },
+        {
+            "label": "体裁",
+            "value": "文書"
+        },
+        {
+            "label": "作成年",
+            "value": "7970"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子幸三郎"
+        },
+        {
+            "label": "数量",
+            "value": "１枚"
+        },
+        {
+            "label": "内容等",
+            "value": "文書"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00077000",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/768ea9dd5c6bd2642d4cc28ff87bd9ef.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/768ea9dd5c6bd2642d4cc28ff87bd9ef.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/768ea9dd5c6bd2642d4cc28ff87bd9ef.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/768ea9dd5c6bd2642d4cc28ff87bd9ef.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00077000&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI174-060.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00077000&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI174-060.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00077000&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI174-060.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,131 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "閑院宮邸平面図（明治39）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "邸宅////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "113×145cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木67-11/木067-11"
+        },
+        {
+            "label": "題名",
+            "value": "閑院宮邸平面図（明治39）"
+        },
+        {
+            "label": "題名",
+            "value": "カンインノミヤテイ　ヘイメンズ　メイジ　39"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「閑院宮邸配置図 貳百分一」題箋）「明治三拾九年一月調 閑院宮地坪建坪調及地図 壱帖 木子藤原清敬」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（彩色）"
+        },
+        {
+            "label": "作成年",
+            "value": "明治39.1調"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:200"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00047530",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5078,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047530&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI067-011-WX1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5078,
+                                "width": 5999
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047530&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI067-011-WX1.jpg"
+                    },
+                    "width": 5999
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 5078,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0975593e7a409901510fb29b400e0644.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00047530&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI067-011-WX2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5078,
+                                "width": 5999
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00047530&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI067-011-WX2.jpg"
+                    },
+                    "width": 5999
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047530&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI067-011-WX1.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

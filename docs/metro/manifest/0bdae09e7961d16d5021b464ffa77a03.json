@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0bdae09e7961d16d5021b464ffa77a03.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）奥宮殿建物風窓金網図 6枚綴の 3（女官候所客間・呉服所）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「皇后宮常御殿　皇太后宮御休所　御小座敷　御文庫　御霊代ノ間　皇后宮常御殿ヨリ申口其他取合廊下」/「御霊代ノ間」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "28.0×40.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木96-1-35-4/木096-1-035-4"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）奥宮殿建物風窓金網図 6枚綴の 3（女官候所客間・呉服所）"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　オクキュウデン　タテモノ　カザマド　カナアミズ　6マイツズリ　ノ　3　ジョカン　ソウロウドコロ　キャクマ　ゴフクジョ"
+        },
+        {
+            "label": "題名",
+            "value": "「第三拾八号  女官客間」「第三拾九号  呉服所」（内題）"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治18年12月12日"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "6枚綴"
+        },
+        {
+            "label": "縮尺",
+            "value": "［1:10］"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00060897",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0bdae09e7961d16d5021b464ffa77a03.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0bdae09e7961d16d5021b464ffa77a03.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0bdae09e7961d16d5021b464ffa77a03.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0bdae09e7961d16d5021b464ffa77a03.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00060897&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI096-001-035-4.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00060897&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI096-001-035-4.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00060897&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI096-001-035-4.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

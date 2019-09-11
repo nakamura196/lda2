@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/38582da16d6b282a4b8b47cf54202363.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「大日本松桜見立角力　松之部」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.2×23.2cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2529-16(9)/特2529-016(09)"
+        },
+        {
+            "label": "題名",
+            "value": "「大日本松桜見立角力　松之部」"
+        },
+        {
+            "label": "題名",
+            "value": "「ダイニツポン　マツ　サクラ　ミタテ　スモウ」"
+        },
+        {
+            "label": "題名",
+            "value": "［江戸自慢］"
+        },
+        {
+            "label": "題名",
+            "value": "［エドジマン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "江戸自慢　16、「大関　江刕唐崎孤松、関脇　摂刕住吉岸姫松、勧進元　播州高砂相生松」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041917",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/38582da16d6b282a4b8b47cf54202363.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/38582da16d6b282a4b8b47cf54202363.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/38582da16d6b282a4b8b47cf54202363.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/38582da16d6b282a4b8b47cf54202363.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041917&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2809%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041917&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2809%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041917&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2809%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2311afa68b5af938d88cca1f560abe.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治"
+        },
+        {
+            "label": "分類",
+            "value": "一般/東京/名所、案内記、写真帖//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖，「開化三十六景　一」所収；；；；版元は14枚目による；1帖；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "［大倉孫兵衛］"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "035-27-1(12)/東035-027-001(012)"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（2世）（ウタガワ　ヒロシゲ）（1826-1869）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/横"
+        },
+        {
+            "label": "画題等",
+            "value": "東京開化三十六景　赤坂離宮紀ノ國坂"
+        },
+        {
+            "label": "画題等",
+            "value": "トウキョウ　カイカ　サンジュウロッケイ　アカサカ　リキュウ　キノクニザカ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重（2世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "廣重画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00218161",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2311afa68b5af938d88cca1f560abe.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2311afa68b5af938d88cca1f560abe.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1830,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7e2311afa68b5af938d88cca1f560abe.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7e2311afa68b5af938d88cca1f560abe.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00218161&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-027-01-12.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1830,
+                                "width": 2439
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00218161&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-027-01-12.jpg"
+                    },
+                    "width": 2439
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00218161&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F035-027-01-12.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

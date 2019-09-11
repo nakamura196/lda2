@@ -1,0 +1,138 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a1e4c23c5152ea1c66d5a6632cd25469.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北海道十勝国全図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "北海道十勝国全図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ホッカイドウ トカチコク ゼンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "北海道十勝国全図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ホッカイドウ トカチコク ゼンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730011113"
+        },
+        {
+            "label": "管理番号",
+            "value": "1684"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1901"
+        },
+        {
+            "label": "著者",
+            "value": "鳥居欣四郎/著"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "トリイ キンシロウ"
+        },
+        {
+            "label": "一般注記",
+            "value": "縮尺１：１０００００"
+        },
+        {
+            "label": "地域",
+            "value": "上川振興局、上川盆地"
+        },
+        {
+            "label": "説明",
+            "value": "明治34年（1901）10月の再版で、石版無彩刷、縮尺10万分の1として出版された図である。「北海道庁事業手・鳥居欣四郎輯製、北海道庁河西支庁蔵版」とあり、さらに「発行者・内藤 始（大津村）、印刷所・真誠堂（東京）」とも記載される。十勝国全域にわたる大型図で、各所に多くの殖民区画が実施されていることが判明する。別に「十勝太・帯広・大津・利別太・茂寄」の5市街図も掲載される。なお初版は明治33年5月に出版されており、それには5市街図はない。また再版図は初版図と比較すると殖民区画が追加され、道路も増加している。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "大津村（十勝）"
+        },
+        {
+            "label": "出版者",
+            "value": "内藤始"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ナイトウハジメ"
+        },
+        {
+            "label": "大きさ",
+            "value": "181×118cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1684-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a1e4c23c5152ea1c66d5a6632cd25469.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a1e4c23c5152ea1c66d5a6632cd25469.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4751,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a1e4c23c5152ea1c66d5a6632cd25469.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/a1e4c23c5152ea1c66d5a6632cd25469.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1684/0080664/0080664_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4751,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1684/0080664/0080664_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1684/0080664/0080664_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

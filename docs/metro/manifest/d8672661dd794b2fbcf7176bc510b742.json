@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8672661dd794b2fbcf7176bc510b742.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般/家庭/玩具及子供風俗、子供風俗を絵画化したもの/学校遊び）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；刷物（色刷）；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "神田　いせ辰"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0864-C5/東C0864-C005"
+        },
+        {
+            "label": "画中文字",
+            "value": "「おきな　三番叟、千蔵｣｢岩ふし、尾上、お初」（以下略）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/版彩/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "歌舞伎見立錦絵"
+        },
+        {
+            "label": "画題等",
+            "value": "カブキ　ミタテ　ニシキエ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00220523",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8672661dd794b2fbcf7176bc510b742.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8672661dd794b2fbcf7176bc510b742.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2946,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d8672661dd794b2fbcf7176bc510b742.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d8672661dd794b2fbcf7176bc510b742.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00220523&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0864-C005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2946,
+                                "width": 1926
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00220523&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0864-C005.jpg"
+                    },
+                    "width": 1926
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00220523&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0864-C005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

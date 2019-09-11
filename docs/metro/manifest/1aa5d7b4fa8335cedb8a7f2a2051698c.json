@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa5d7b4fa8335cedb8a7f2a2051698c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永初期"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/本所、深川（第六大区）/本所/五百羅漢栄螺堂"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "遠州屋彦兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "025-K3/東K小025-K003"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（1世）（ウタガワ　ヒロシゲ）（1797-1858）"
+        },
+        {
+            "label": "改印等",
+            "value": "米良、村田"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/淡版彩/横"
+        },
+        {
+            "label": "画題等",
+            "value": "江戸名所、五百羅漢ささゐ堂"
+        },
+        {
+            "label": "画題等",
+            "value": "エドメイショゴヒャクラカンササイドウ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "廣重画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00218100",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa5d7b4fa8335cedb8a7f2a2051698c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa5d7b4fa8335cedb8a7f2a2051698c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2372,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1aa5d7b4fa8335cedb8a7f2a2051698c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1aa5d7b4fa8335cedb8a7f2a2051698c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00218100&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F025-K003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2372,
+                                "width": 3120
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00218100&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F025-K003.jpg"
+                    },
+                    "width": 3120
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00218100&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F025-K003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

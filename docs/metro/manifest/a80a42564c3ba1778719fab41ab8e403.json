@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a80a42564c3ba1778719fab41ab8e403.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「書画一覧」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "児玉又七／編輯兼出版人"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "36×25cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；"
+        },
+        {
+            "label": "版元",
+            "value": "児玉又七／出版人"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加125-57/加00125-057"
+        },
+        {
+            "label": "題名",
+            "value": "「書画一覧」"
+        },
+        {
+            "label": "題名",
+            "value": "ショガイチラン"
+        },
+        {
+            "label": "画中文字",
+            "value": "「書之部」「画之部」"
+        },
+        {
+            "label": "作者カナ",
+            "value": "コダマ　マタシチ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041063",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a80a42564c3ba1778719fab41ab8e403.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a80a42564c3ba1778719fab41ab8e403.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a80a42564c3ba1778719fab41ab8e403.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a80a42564c3ba1778719fab41ab8e403.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041063&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-057.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 3595
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041063&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-057.jpg"
+                    },
+                    "width": 3595
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041063&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-057.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

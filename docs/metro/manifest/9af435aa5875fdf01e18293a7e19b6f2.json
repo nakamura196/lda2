@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9af435aa5875fdf01e18293a7e19b6f2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "江戸品川御臺場仕様図面",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "一般/市外/荏原、豊多摩/荏原/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "題簽の大きさ:9.0×1.5cm、中央下の折込部分の大きさ:6.2×9.0cm"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0511-30-4/東0511-030-004"
+        },
+        {
+            "label": "題名",
+            "value": "江戸品川御臺場仕様図面"
+        },
+        {
+            "label": "題名",
+            "value": "エド　シナガワ　オダイバ　シヨウ　ズメン"
+        },
+        {
+            "label": "題名",
+            "value": "［4］三番御臺場圖"
+        },
+        {
+            "label": "題名",
+            "value": "サンバン　オダイバ　ズ"
+        },
+        {
+            "label": "体裁",
+            "value": "一枚もの"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "資料解説",
+            "value": "2010文化財ウィーク『黒船が来た！』図録解説p.14「第3台場の図。外側には、波よけと敵の接近を防 ぐために「波除杭」、内部には、敵の進入を防ぐ「一 文字堤」や塁の補修のための「持 もち 留 どめ 土 つち」が設けられた。 番士の生活施設である「休息所」もあった。 展示資料30?32は、品川の御台場関係の図20枚を集めた 『江戸品川御台場仕様図面』（東0511-030）の中の図。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00056161",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9af435aa5875fdf01e18293a7e19b6f2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9af435aa5875fdf01e18293a7e19b6f2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9af435aa5875fdf01e18293a7e19b6f2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9af435aa5875fdf01e18293a7e19b6f2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056161&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2F0511-30-04.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056161&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2F0511-30-04.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056161&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2F0511-30-04.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/31a392961c02fa7cc368f89187bb0b8c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "韓国駐箚軍司令官官邸２階4号室平面詳細図・3～28号室開口部の符丁を示す図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "（帙なし）/韓国駐箚軍司令官々舎二帙ノー其弐///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "50×74.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木130-2-14/木130-2-014"
+        },
+        {
+            "label": "題名",
+            "value": "韓国駐箚軍司令官官邸２階4号室平面詳細図・3～28号室開口部の符丁を示す図"
+        },
+        {
+            "label": "題名",
+            "value": "カンコク　チュウサツグン　シレイカン　カンテイ　2カイ　4ゴウシツ　ヘイメン　ショウサイズ　3　28ゴウシツ　カイコウブ　ノ　フチョウ　オ　シメス　ズ"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治41年1月"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子幸三郎"
+        },
+        {
+            "label": "数量",
+            "value": "１枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20、［1:100］"
+        },
+        {
+            "label": "内容等",
+            "value": "一般詳細図"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00067702",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/31a392961c02fa7cc368f89187bb0b8c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/31a392961c02fa7cc368f89187bb0b8c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/31a392961c02fa7cc368f89187bb0b8c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/31a392961c02fa7cc368f89187bb0b8c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00067702&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI130-002-014.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00067702&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI130-002-014.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00067702&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI130-002-014.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b394c0d6be8b2d182c176dbfbcfc7800.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「樹梯再興集　兼題　春夏之部　秋冬之部　恋雜之部」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "至清堂大人・浅裏庵大人・燕栗園大人／撰"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "48.0×33.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加7424-3/加07424-003"
+        },
+        {
+            "label": "題名",
+            "value": "「樹梯再興集　兼題　春夏之部　秋冬之部　恋雜之部」"
+        },
+        {
+            "label": "題名",
+            "value": "ジュテイサイコウシュウ　ケンダイ　ハルナツノブ　アキフユノブ　コイザツノブ"
+        },
+        {
+            "label": "画中文字",
+            "value": "「弘化四年正月十九日　於檜園発会同席　校講三首合点甲乙録」"
+        },
+        {
+            "label": "作者カナ",
+            "value": "シセイドウ　ウシ・アサウラアン　ウシ・エンリツエン　ウシ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041126",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b394c0d6be8b2d182c176dbfbcfc7800.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b394c0d6be8b2d182c176dbfbcfc7800.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b394c0d6be8b2d182c176dbfbcfc7800.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b394c0d6be8b2d182c176dbfbcfc7800.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041126&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041126&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-003.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041126&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

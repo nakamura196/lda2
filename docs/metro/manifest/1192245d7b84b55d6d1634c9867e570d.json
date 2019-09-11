@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1192245d7b84b55d6d1634c9867e570d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区///"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖「江戸名所四十八景」所収，縁の断ち落としあり，東040-5にも所蔵あり（断ち落としなし）；；；；後摺；1帖；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加254(33)/加00254(033)"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（2世）（ウタガワ　ヒロシゲ）（1826-1869）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "江戸名所四十八景　増上寺"
+        },
+        {
+            "label": "画題等",
+            "value": "エド　メイショ　シジュウハッケイ　ゾウジョウジ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重（2世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "廣重画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00234188",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1192245d7b84b55d6d1634c9867e570d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1192245d7b84b55d6d1634c9867e570d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2488,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1192245d7b84b55d6d1634c9867e570d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1192245d7b84b55d6d1634c9867e570d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00234188&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA254-033.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2488,
+                                "width": 1860
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00234188&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA254-033.jpg"
+                    },
+                    "width": 1860
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00234188&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2FKA254-033.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

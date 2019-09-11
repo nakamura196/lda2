@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f92270dbb452f6ea0d53e227c5c737a8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "上野東叡山寛永寺黒門繪圖　但シ二十分の一",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/各宗/天台宗//"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "36.7×66.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；写；；朱書きあり；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3536-30/東3536-030"
+        },
+        {
+            "label": "題名",
+            "value": "上野東叡山寛永寺黒門繪圖　但シ二十分の一"
+        },
+        {
+            "label": "題名",
+            "value": "ウエノ　トウエイザン　カンエイジ　クロモン　エズ　タダシ　ニジュウブン　ノ　イチ"
+        },
+        {
+            "label": "題名",
+            "value": "上野東叡山黒門　在形圖"
+        },
+        {
+            "label": "題名",
+            "value": "ウエノ　トウエイザン　クロモン　ザイケイズ"
+        },
+        {
+            "label": "作成年",
+            "value": "弘化3写カ"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1：20"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00057137",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f92270dbb452f6ea0d53e227c5c737a8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f92270dbb452f6ea0d53e227c5c737a8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f92270dbb452f6ea0d53e227c5c737a8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f92270dbb452f6ea0d53e227c5c737a8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057137&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2F3536-30.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057137&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2F3536-30.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057137&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2F3536-30.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

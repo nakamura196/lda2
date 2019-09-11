@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a04eea6a11a062ae4ba7aa3a7505ffe5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "泉涌寺図面袋",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清太郎製図集附テ城守元二郎図集/木子清太郎製図集///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "15×23.5cm、台紙27.5×39cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木79-5-6/木079-5-06"
+        },
+        {
+            "label": "題名",
+            "value": "泉涌寺図面袋"
+        },
+        {
+            "label": "題名",
+            "value": "センニュウジ　ズメン　フクロ"
+        },
+        {
+            "label": "題名",
+            "value": "（袋外題）「京都 泉山寺百分弐縮圖 全」，（袋裏面）「明治十六年拾月下旬寫圖之際干西村君上東送於厳父君 木子清太郎（木子清印）"
+        },
+        {
+            "label": "体裁",
+            "value": "雑（袋・彩色）1枚"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清太郎"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00058942",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a04eea6a11a062ae4ba7aa3a7505ffe5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a04eea6a11a062ae4ba7aa3a7505ffe5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a04eea6a11a062ae4ba7aa3a7505ffe5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a04eea6a11a062ae4ba7aa3a7505ffe5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058942&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI079-005-006.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058942&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI079-005-006.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058942&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI079-005-006.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

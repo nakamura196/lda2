@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac83e2ef8f0d37cecee13cdd1fee8632.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「浄瑠璃文句穴さがし 八編」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.2×23.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2529-13(36)/特2529-013(36)"
+        },
+        {
+            "label": "題名",
+            "value": "「浄瑠璃文句穴さがし 八編」"
+        },
+        {
+            "label": "題名",
+            "value": "「ジヤウルリモンク　アナサガシ　ハチヘン」"
+        },
+        {
+            "label": "題名",
+            "value": "「江戸自慢　四」（表紙）"
+        },
+        {
+            "label": "題名",
+            "value": "［エドジマン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "江戸自慢　13、「戀女房　沓掛村、お染久松　油屋」「九編近日出し申候」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041868",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac83e2ef8f0d37cecee13cdd1fee8632.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac83e2ef8f0d37cecee13cdd1fee8632.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ac83e2ef8f0d37cecee13cdd1fee8632.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ac83e2ef8f0d37cecee13cdd1fee8632.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041868&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-013%2836%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041868&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-013%2836%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041868&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-013%2836%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

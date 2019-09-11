@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e9c2879e4c2fa7f50b266f92a17f0687.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［欄間］図案",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "欄間現寸/欄間現寸二///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "54.5×236cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木159-4-11/木159-4-011"
+        },
+        {
+            "label": "題名",
+            "value": "［欄間］図案"
+        },
+        {
+            "label": "題名",
+            "value": "ランマ　ズアン"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治末期～昭和初期］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子幸三郎"
+        },
+        {
+            "label": "数量",
+            "value": "１枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "［現寸］"
+        },
+        {
+            "label": "内容等",
+            "value": "図案"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00074987",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e9c2879e4c2fa7f50b266f92a17f0687.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e9c2879e4c2fa7f50b266f92a17f0687.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1902,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e9c2879e4c2fa7f50b266f92a17f0687.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e9c2879e4c2fa7f50b266f92a17f0687.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00074987&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI159-004-011-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1902,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00074987&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI159-004-011-W.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00074987&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI159-004-011-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

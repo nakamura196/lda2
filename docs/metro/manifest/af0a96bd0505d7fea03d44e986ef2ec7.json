@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/af0a96bd0505d7fea03d44e986ef2ec7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "番町絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "宝暦5[1755]"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/麹町､神田/麹町（虎の門、鍛冶橋、九段）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 手彩；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "吉文字屋次郎兵衛"
+        },
+        {
+            "label": "版元",
+            "value": "北畑氏"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0411-16/東0411-016"
+        },
+        {
+            "label": "題名",
+            "value": "番町絵図"
+        },
+        {
+            "label": "題名",
+            "value": "バンチョウ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽（書））番町繪圖　全"
+        },
+        {
+            "label": "大きさ",
+            "value": "45.0×64.3cm"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［吉文字屋板切絵図　1］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "キチモンジヤバン　キリエズ　1"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "編者等",
+            "value": "狐千瀬貞雄，鼇峰依為質編輯"
+        },
+        {
+            "label": "資料解説",
+            "value": "2003文化財ウィーク（18）「江戸のような大都市の場合、1枚図では詳細な情報まで盛り込むことができず、また大型では携行に不便であるなどの理由から、地域毎に分割した切絵図が考え出された。この番町地域は、武家屋敷地帯で道がわかりにくいことが定評となっていたため、必要上まずここから刊行されたようだ。吉文字屋板は、宝暦5年から安永4年まで、21年間かかってわずかに8図を出して終わった。展示資料17･18はともに宝暦5年の刊記を持つが、版元の組合せが異なり、諸処に埋木による修正も見られる。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042228",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/af0a96bd0505d7fea03d44e986ef2ec7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/af0a96bd0505d7fea03d44e986ef2ec7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4750,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/af0a96bd0505d7fea03d44e986ef2ec7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/af0a96bd0505d7fea03d44e986ef2ec7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042228&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0411-016.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4750,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042228&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0411-016.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042228&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0411-016.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

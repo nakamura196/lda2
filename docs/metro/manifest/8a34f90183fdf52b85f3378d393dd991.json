@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8a34f90183fdf52b85f3378d393dd991.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "四谷千駄谷内藤新宿辺絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永2[1849]"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 色刷；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "[近吾堂]近江屋吾平"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加352/加00352"
+        },
+        {
+            "label": "題名",
+            "value": "四谷千駄谷内藤新宿辺絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ヨツヤ　センダガヤ　ナイトウ　シンジュク　アタリ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽）四ﾂ谷千駄ヶ谷邊圖　全"
+        },
+        {
+            "label": "大きさ",
+            "value": "42.6×60.2cm"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "編者等",
+            "value": "高柴三雄  訂"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042707",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8a34f90183fdf52b85f3378d393dd991.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8a34f90183fdf52b85f3378d393dd991.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4778,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8a34f90183fdf52b85f3378d393dd991.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8a34f90183fdf52b85f3378d393dd991.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042707&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2FKA352.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4778,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042707&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2FKA352.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042707&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2FKA352.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

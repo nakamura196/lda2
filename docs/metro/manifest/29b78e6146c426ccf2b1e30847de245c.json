@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/29b78e6146c426ccf2b1e30847de245c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「常盤津外題集」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49×36cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；"
+        },
+        {
+            "label": "版元",
+            "value": "好鄭舎／蔵板"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加125-49/加00125-049"
+        },
+        {
+            "label": "題名",
+            "value": "「常盤津外題集」"
+        },
+        {
+            "label": "題名",
+            "value": "トキワヅゲダイシュウ"
+        },
+        {
+            "label": "画中文字",
+            "value": "［常磐津外題番附］，東京大学HP"
+        },
+        {
+            "label": "資料解説",
+            "value": "2012大規模企画展(53)　「明治12年（1879）の貸本番付です。江戸時代の番付との比較のために並べてみました。「和漢西洋之群籍」となっており、日本のトップは『真書太閤記』、中国のトップは『通俗三国志』です。なぜか2段目以降は左右とも日本の物語のようです。また、江戸時代、日本のトップであった『太平記』が見当たりません。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041055",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/29b78e6146c426ccf2b1e30847de245c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/29b78e6146c426ccf2b1e30847de245c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/29b78e6146c426ccf2b1e30847de245c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/29b78e6146c426ccf2b1e30847de245c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041055&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-049.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4085
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041055&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-049.jpg"
+                    },
+                    "width": 4085
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041055&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-049.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

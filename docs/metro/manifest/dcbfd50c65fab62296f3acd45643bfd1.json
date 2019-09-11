@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcbfd50c65fab62296f3acd45643bfd1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[国高改　足利勇士鑑 　2]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.5×23.4cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-1-4(16)/東448-001-004(16)"
+        },
+        {
+            "label": "題名",
+            "value": "[国高改　足利勇士鑑 　2]"
+        },
+        {
+            "label": "題名",
+            "value": "［コクダカカイ　アシカガユウシカガミ］"
+        },
+        {
+            "label": "題名",
+            "value": "「阿つまみやげ　四編　全」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［アツマミヤゲ　ヨンヘン　ゼン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "吾妻美屋げ　四編"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041281",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcbfd50c65fab62296f3acd45643bfd1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcbfd50c65fab62296f3acd45643bfd1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dcbfd50c65fab62296f3acd45643bfd1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dcbfd50c65fab62296f3acd45643bfd1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041281&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-001-04%2816%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041281&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-001-04%2816%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041281&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-001-04%2816%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

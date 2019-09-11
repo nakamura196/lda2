@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/93f5eec5b59d8c3eb8cb1ee68dadf678.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［遊女図］",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "切抜版////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；錦絵複製；；(東020-1「江戸物語」（大正5）の挿図24「絵暦　美人　豊春画」)；；；；；；；"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "P34-1/東P034-001"
+        },
+        {
+            "label": "題名",
+            "value": "［遊女図］"
+        },
+        {
+            "label": "題名",
+            "value": "ユウウジョズ"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊春（ウタガワ　トヨハル）（生没年未詳）"
+        },
+        {
+            "label": "作者等",
+            "value": "歌川豊春∥画"
+        },
+        {
+            "label": "資料解説",
+            "value": "古典籍総合目録DB登録データ＜；；；；；；；＞"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00215198",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/93f5eec5b59d8c3eb8cb1ee68dadf678.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/93f5eec5b59d8c3eb8cb1ee68dadf678.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3254,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/93f5eec5b59d8c3eb8cb1ee68dadf678.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/93f5eec5b59d8c3eb8cb1ee68dadf678.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00215198&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FP34-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3254,
+                                "width": 2178
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00215198&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FP34-001.jpg"
+                    },
+                    "width": 2178
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00215198&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FP34-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

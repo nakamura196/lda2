@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d162ca44a380775f1a2e83e85a699d6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）主馬寮御料馬車舎・馬車舎基礎石断面図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「宮殿起シ図　主馬寮　参考」/「主馬寮」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.0×85.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木106-2-4/木106-2-004"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）主馬寮御料馬車舎・馬車舎基礎石断面図"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　シュメリョウ　ゴリョウ　バシャシャ　バシャシャ　キソイシ　ダンメンズ"
+        },
+        {
+            "label": "題名",
+            "value": "「第七拾八号  御料馬車舎  第七拾七号  馬車舎  共石据貮拾分壹之圖」）「明治十九年九月  原図」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（彩色）"
+        },
+        {
+            "label": "作成年",
+            "value": "明治19年&nbsp;9月"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00062812",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d162ca44a380775f1a2e83e85a699d6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d162ca44a380775f1a2e83e85a699d6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4491,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5d162ca44a380775f1a2e83e85a699d6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5d162ca44a380775f1a2e83e85a699d6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00062812&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI106-002-004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4491,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00062812&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI106-002-004.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00062812&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI106-002-004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

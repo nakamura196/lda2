@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c36a12a419e89149a7626182a9b16b93.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「地震出火競」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.6×23.4cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2529-9(10)/特2529-009(10)"
+        },
+        {
+            "label": "題名",
+            "value": "「地震出火競」"
+        },
+        {
+            "label": "題名",
+            "value": "「江戸じまん」（表紙外題）"
+        },
+        {
+            "label": "題名",
+            "value": "［エドジマン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "江戸自慢　9、「安政二乙卯江戸大地震大火、明暦三丸山本妙寺振袖火事、弘化四善光寺開雇地震」"
+        },
+        {
+            "label": "災害年代",
+            "value": "江戸"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t火災"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041757",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c36a12a419e89149a7626182a9b16b93.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c36a12a419e89149a7626182a9b16b93.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c36a12a419e89149a7626182a9b16b93.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c36a12a419e89149a7626182a9b16b93.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041757&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-009%2810%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041757&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-009%2810%29.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041757&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-009%2810%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

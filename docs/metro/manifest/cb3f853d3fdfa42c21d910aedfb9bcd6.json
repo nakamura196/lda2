@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb3f853d3fdfa42c21d910aedfb9bcd6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）賢所立面図11枚の 3（神殿・東面）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「賢所」/「賢所　平面及立面」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "36.5×52.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木90-1-12/木090-1-012"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）賢所立面図11枚の 3（神殿・東面）"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　カシコドコロ　リツメンズ　11マイ　ノ　3　シンデン　トウメン"
+        },
+        {
+            "label": "題名",
+            "value": "「賢第貮号東平及神饌所エ取合廊下」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "内容等",
+            "value": "「神饌所エ取合渡廊」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00059191",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb3f853d3fdfa42c21d910aedfb9bcd6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb3f853d3fdfa42c21d910aedfb9bcd6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cb3f853d3fdfa42c21d910aedfb9bcd6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cb3f853d3fdfa42c21d910aedfb9bcd6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059191&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI090-001-012.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059191&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI090-001-012.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059191&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI090-001-012.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

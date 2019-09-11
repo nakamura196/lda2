@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d23ada6365787133c891b08170c6825.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "木子幸三郎／東京府尋常中学校卒業証書",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "清逸辞令其壱////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "30×39.5、39.5×54.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木173-1/木173-001"
+        },
+        {
+            "label": "題名",
+            "value": "木子幸三郎／東京府尋常中学校卒業証書"
+        },
+        {
+            "label": "題名",
+            "value": "キコ　コウザブロウ　トウキョウフ　ジンジョウ　チュウガッコウ　ソツギョウ　ショウショ"
+        },
+        {
+            "label": "体裁",
+            "value": "文書"
+        },
+        {
+            "label": "作成年",
+            "value": "明治27年4月8日"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子幸三郎"
+        },
+        {
+            "label": "数量",
+            "value": "１枚"
+        },
+        {
+            "label": "内容等",
+            "value": "文書"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00076847",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d23ada6365787133c891b08170c6825.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d23ada6365787133c891b08170c6825.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d23ada6365787133c891b08170c6825.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7d23ada6365787133c891b08170c6825.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076847&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI173-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076847&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI173-001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076847&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI173-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

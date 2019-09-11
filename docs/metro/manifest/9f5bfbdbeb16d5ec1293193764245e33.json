@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f5bfbdbeb16d5ec1293193764245e33.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「東都　拳相撲　文久二壬戌年十一月改正」」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "文久2壬戌年11月改正"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "内50×37.7cm（外90×47.3cm）"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；軸物；「会日3・8之日，本石町於白木庵中毎日稽古仕候」とあり；；；"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "584-D1/東D584-D001"
+        },
+        {
+            "label": "題名",
+            "value": "「東都　拳相撲　文久二壬戌年十一月改正」」"
+        },
+        {
+            "label": "題名",
+            "value": "トウト　ケンズモウバンヅケ　ブンキュウニミズノエイヌドシジュウイチガツカイセイ"
+        },
+        {
+            "label": "題名",
+            "value": "（表紙題簽）「拳相撲番附　（文久二年）」（改装）"
+        },
+        {
+            "label": "題名",
+            "value": "ケンズモウバンヅケ　ブンキュウニネン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041002",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f5bfbdbeb16d5ec1293193764245e33.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f5bfbdbeb16d5ec1293193764245e33.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f5bfbdbeb16d5ec1293193764245e33.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9f5bfbdbeb16d5ec1293193764245e33.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041002&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F584-D001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041002&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F584-D001.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041002&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F584-D001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

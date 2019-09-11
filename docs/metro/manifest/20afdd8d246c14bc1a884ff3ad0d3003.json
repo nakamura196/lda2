@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）東溜之間・西溜之間屋根獅子口図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「欄間格天井懸魚其他文様」/「獅子口鬼板　其一」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "139.0×253.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木117-2-21/木117-2-021"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）東溜之間・西溜之間屋根獅子口図"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　ヒガシ　タマリノマ　ニシ　タマリノマ　ヤネ　シシグチズ"
+        },
+        {
+            "label": "題名",
+            "value": "「東西溜之間獅々口」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00065314",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3566,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00065314&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI117-002-021-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3566,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00065314&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI117-002-021-W.jpg"
+                    },
+                    "width": 6000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/20afdd8d246c14bc1a884ff3ad0d3003.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00065314&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI117-002-021-f.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00065314&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI117-002-021-f.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00065314&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI117-002-021-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

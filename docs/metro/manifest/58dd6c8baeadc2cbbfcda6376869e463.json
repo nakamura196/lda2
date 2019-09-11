@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/58dd6c8baeadc2cbbfcda6376869e463.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「江都自慢」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.8×23.1cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-13-2(10)/東448-0013-002(10)"
+        },
+        {
+            "label": "題名",
+            "value": "「江都自慢」"
+        },
+        {
+            "label": "題名",
+            "value": "［エドジマン］"
+        },
+        {
+            "label": "題名",
+            "value": "「しん会　あづまのことぶき」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［シンカイ　アヅマノコトブキ］"
+        },
+        {
+            "label": "画中文字",
+            "value": "新会あつまの寿 [2]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041491",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/58dd6c8baeadc2cbbfcda6376869e463.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/58dd6c8baeadc2cbbfcda6376869e463.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/58dd6c8baeadc2cbbfcda6376869e463.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/58dd6c8baeadc2cbbfcda6376869e463.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041491&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-013-02%2810%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041491&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-013-02%2810%29.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041491&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-013-02%2810%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

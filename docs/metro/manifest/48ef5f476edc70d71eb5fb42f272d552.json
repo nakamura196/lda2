@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/48ef5f476edc70d71eb5fb42f272d552.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「伊達大評定黒白論」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "18.2×23.8cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2527（14)/特2527（14)"
+        },
+        {
+            "label": "題名",
+            "value": "「伊達大評定黒白論」"
+        },
+        {
+            "label": "題名",
+            "value": "「ダテ　オホヒヤウヂヤウ　コクビヤクロン」"
+        },
+        {
+            "label": "題名",
+            "value": "「皇国妙々競」（表紙）"
+        },
+        {
+            "label": "画中文字",
+            "value": "皇國妙々競"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041628",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/48ef5f476edc70d71eb5fb42f272d552.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/48ef5f476edc70d71eb5fb42f272d552.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/48ef5f476edc70d71eb5fb42f272d552.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/48ef5f476edc70d71eb5fb42f272d552.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041628&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2527%2814%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041628&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2527%2814%29.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041628&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2527%2814%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,138 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f9f14ca53add603b2195e1c7eb354d33.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "オチシュペツ，トプシュペツ，オフンタルマナイ",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "殖民地区画図"
+        },
+        {
+            "label": "タイトル",
+            "value": "オチシュペツ，トプシュペツ，オフンタルマナイ"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "オチシュペツ トプシュペツ オフンタルマナイ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "オチシュペツ"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "トプシュペツ"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "オフンタルマナイ [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "オチシュペツ トプシュペツ オフンタルマナイ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730003738"
+        },
+        {
+            "label": "管理番号",
+            "value": "2457"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1935.8"
+        },
+        {
+            "label": "一般注記",
+            "value": "北海道殖民地区画図 北見国枝幸郡"
+        },
+        {
+            "label": "一般注記",
+            "value": "5版 初版年：1912.2"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "シッュパンシャフメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "40×53cm"
+        },
+        {
+            "label": "版次",
+            "value": "増設"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2457-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f9f14ca53add603b2195e1c7eb354d33.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f9f14ca53add603b2195e1c7eb354d33.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2222,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f9f14ca53add603b2195e1c7eb354d33.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/f9f14ca53add603b2195e1c7eb354d33.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2457/0090979/0090979_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2222,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2457/0090979/0090979_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2457/0090979/0090979_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

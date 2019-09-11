@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f0994294f5a2ce7beea77a9718efbbc8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "木子清敬／陸軍大臣より宮内大臣へ靖国神社拝殿造営委員嘱託に関する協議書（明治31.4.6）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "清敬辞令其弐（箱）////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "26.5×36cm、台紙27.5×39.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木168-62-2/木168-62-2"
+        },
+        {
+            "label": "題名",
+            "value": "木子清敬／陸軍大臣より宮内大臣へ靖国神社拝殿造営委員嘱託に関する協議書（明治31.4.6）"
+        },
+        {
+            "label": "題名",
+            "value": "キコ　キヨヨシ　リクグン　ダイジン　ヨリ　クナイ　ダイジン　エ　ヤスクニ　ジンジャ　ハイデン　ゾウエイ　イイン　ショクタク　ニ　カンスル　キョウギショ　メイジ　31　4　6"
+        },
+        {
+            "label": "体裁",
+            "value": "文書1枚"
+        },
+        {
+            "label": "作成年",
+            "value": "明治31(1898).4.6"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00076447",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f0994294f5a2ce7beea77a9718efbbc8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f0994294f5a2ce7beea77a9718efbbc8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f0994294f5a2ce7beea77a9718efbbc8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f0994294f5a2ce7beea77a9718efbbc8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076447&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI168-062-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076447&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI168-062-002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076447&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI168-062-002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ebbc1472cfc4655e42664de0b4b51ebd.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "上州草津温泉之全圖",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "地誌////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "34.7×47.4cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；多色摺；溪斎英泉写；草津立町白木屋弥太夫；江尾壹松田蔵板，摺師美濃善；；；；"
+        },
+        {
+            "label": "版元",
+            "value": "白木屋弥太夫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加2390/加02390"
+        },
+        {
+            "label": "題名",
+            "value": "上州草津温泉之全圖"
+        },
+        {
+            "label": "題名",
+            "value": "ジョウシュウ　クサツ　オンセン　ノ　ゼンズ"
+        },
+        {
+            "label": "題名",
+            "value": "上州草津温泉之全圖；上州草津温泉之全図"
+        },
+        {
+            "label": "題名",
+            "value": "ジョウシュウクサツオンセンノゼンズ"
+        },
+        {
+            "label": "出版地",
+            "value": "草津町（群馬県）"
+        },
+        {
+            "label": "件名",
+            "value": "溪齋英泉（ケイサイ　エイセン）（1791-1848）"
+        },
+        {
+            "label": "作者等",
+            "value": "溪齋英泉∥画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00211821",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ebbc1472cfc4655e42664de0b4b51ebd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ebbc1472cfc4655e42664de0b4b51ebd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4899,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ebbc1472cfc4655e42664de0b4b51ebd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ebbc1472cfc4655e42664de0b4b51ebd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00211821&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FKA2390.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4899,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00211821&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FKA2390.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00211821&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FKA2390.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

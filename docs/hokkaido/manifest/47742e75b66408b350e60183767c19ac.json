@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/47742e75b66408b350e60183767c19ac.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "小樽実業名家案内双六",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "小樽実業名家案内双六"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "オタル ジツギョウ メイカ アンナイ スゴロク"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "小樽実業名家案内双六 [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "オタル ジツギョウ メイカ アンナイ スゴロク"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012627"
+        },
+        {
+            "label": "管理番号",
+            "value": "2265"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1902"
+        },
+        {
+            "label": "著者",
+            "value": "木村 柳三郎∥[著]"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "キムラ リュウザブロウ"
+        },
+        {
+            "label": "地域",
+            "value": "小樽"
+        },
+        {
+            "label": "説明",
+            "value": "この双六が発行された明治３５年の小樽は、区制が施行された明治３２年に６万人を超えていた人口が、さらに「人口七万弐千七百二十八人 実ニ北海道第一の商業地ナリ」と双六の上がりに記されている通り、人口は７万人を超え、工場も明治３２年の５１から１３０へ、銀行は１３、商店は１３００店と、小樽の街が大きく発展している時代であった。 双六でも、汽車の振出しから、塊陽亭、三井銀行小樽支店、今井合名会社等の名も載せられているなど５５の升に呉服店や小間物店、銀行、旅館等が描かれている。上がりの「小樽全景」では、多数の船舶が描かれており、当時の小樽に賑わい垣間見ることができる。 印刷所の喜信堂は、地図や絵葉書等も手掛けており、当館では、他に明治40年発行の「小樽繁昌寿語六」を所蔵している。"
+        },
+        {
+            "label": "出版地",
+            "value": "小樽区"
+        },
+        {
+            "label": "出版者",
+            "value": "東田次信"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ヒガシダツグノブ"
+        },
+        {
+            "label": "大きさ",
+            "value": "68×103cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2265-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/47742e75b66408b350e60183767c19ac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/47742e75b66408b350e60183767c19ac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2290,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/47742e75b66408b350e60183767c19ac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/47742e75b66408b350e60183767c19ac.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2265/0090726/0090726_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2290,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2265/0090726/0090726_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2265/0090726/0090726_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

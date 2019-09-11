@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fe70f6271d6b41aa8ca84cabac98080e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「檜垣月並五会目　絵手本山水奇鑑　兼題　春二十種」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "官生居梅明／撰者"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "41.0×28.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加7424-19-1/加07424-019-01"
+        },
+        {
+            "label": "題名",
+            "value": "「檜垣月並五会目　絵手本山水奇鑑　兼題　春二十種」"
+        },
+        {
+            "label": "題名",
+            "value": "ヒガキツキナミ　ゴカイメ　エテホンサンスイキカン　ケンダイ　ハルニジュッシュ」"
+        },
+        {
+            "label": "画中文字",
+            "value": "「嘉永六丑歳二月二十日開三首合点甲乙録」"
+        },
+        {
+            "label": "作者カナ",
+            "value": "キュウセイキョ　ウメアキ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041147",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fe70f6271d6b41aa8ca84cabac98080e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fe70f6271d6b41aa8ca84cabac98080e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fe70f6271d6b41aa8ca84cabac98080e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/fe70f6271d6b41aa8ca84cabac98080e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041147&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-019-01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041147&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-019-01.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041147&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-019-01.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

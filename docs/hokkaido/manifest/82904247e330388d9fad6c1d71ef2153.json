@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/82904247e330388d9fad6c1d71ef2153.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂郵便局舎と職員 昭和１４年 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂郵便局舎と職員 昭和１４年 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロユウビンキョクシャトショクイン ショウワ１４ネン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41230"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和２年１月１６日に常呂郵便局は全焼。翌３年３月２６日新築復旧し、特設電話交換業務開始。７年１０月１日常呂郵便局普通電話交換業務開始。写真は昭和１４年、局長以下、職員・家族ふくめたもの。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41230-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/82904247e330388d9fad6c1d71ef2153.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/82904247e330388d9fad6c1d71ef2153.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2176,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/82904247e330388d9fad6c1d71ef2153.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/82904247e330388d9fad6c1d71ef2153.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41230/0260921/0260921_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2176,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41230/0260921/0260921_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41230/0260921/0260921_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

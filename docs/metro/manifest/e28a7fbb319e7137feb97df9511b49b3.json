@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e28a7fbb319e7137feb97df9511b49b3.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［東京帝国大学紀要工科第１冊第１号法隆寺建築論付図］裏表紙",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "（帙なし）/日光廟建築論上其弐付図自第廿一図至第四十七図///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "61.5×90cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木172-2-29/木172-2-029"
+        },
+        {
+            "label": "題名",
+            "value": "［東京帝国大学紀要工科第１冊第１号法隆寺建築論付図］裏表紙"
+        },
+        {
+            "label": "題名",
+            "value": "トウキョウ　テイコク　ダイガク　キヨウ　コウカ　ダイ1サツ　ダイ1ゴウ　ホウリュウジ　ケンチクロン　フズ　ウラビョウシ"
+        },
+        {
+            "label": "体裁",
+            "value": "表紙"
+        },
+        {
+            "label": "作成年",
+            "value": "明治30年"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子幸三郎"
+        },
+        {
+            "label": "数量",
+            "value": "１枚"
+        },
+        {
+            "label": "内容等",
+            "value": "雑"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00076806",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e28a7fbb319e7137feb97df9511b49b3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e28a7fbb319e7137feb97df9511b49b3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e28a7fbb319e7137feb97df9511b49b3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e28a7fbb319e7137feb97df9511b49b3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076806&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI172-002-029.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076806&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI172-002-029.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076806&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI172-002-029.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

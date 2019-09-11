@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dae798c415ff7520c264ed47f9f3a149.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "比叡山延暦寺法華堂・常行堂平面図・立面図（明治23.8）（青木良孝）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "佛寺青木氏調査清敬////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×199cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木61-1-5/木061-01-05"
+        },
+        {
+            "label": "題名",
+            "value": "比叡山延暦寺法華堂・常行堂平面図・立面図（明治23.8）（青木良孝）"
+        },
+        {
+            "label": "題名",
+            "value": "ヒエイザン　エンリャクジ　ホッケドウ　ジョウギョウドウ　ヘイメンズ　リツメンズ　メイジ　23　8　アオキ　ヨシタカ"
+        },
+        {
+            "label": "題名",
+            "value": "「明治廿三年八月新取調之 取調人元皇都産現東京赤坂 青木良孝謹設」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治23.8"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:50、1:100"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00046655",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dae798c415ff7520c264ed47f9f3a149.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/dae798c415ff7520c264ed47f9f3a149.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1472,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/dae798c415ff7520c264ed47f9f3a149.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/dae798c415ff7520c264ed47f9f3a149.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046655&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI061-001-005-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1472,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046655&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI061-001-005-W.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046655&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI061-001-005-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

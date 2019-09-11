@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1c87c3c4aaf8410b6e642594519c272.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「落語年代記　寅春新梓」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "近立舎／書写"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37×52.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；貼り込み帖「洗雲彩霞」，加-403-12が袋；；8月6日八代目団十郎が大阪で自殺，七代目の妾お為は市川猿蔵（安2年9月19日，21才で大阪で没）を九代目にしたかった。八代目は父が前借した大阪興行主と江戸金主（大阪出演に反対）との板挟みとなり自殺；；"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加403（51）/加00403（51）"
+        },
+        {
+            "label": "題名",
+            "value": "「落語年代記　寅春新梓」"
+        },
+        {
+            "label": "題名",
+            "value": "「ラクゴ　ネンダイキ　トラハル　シンパン」"
+        },
+        {
+            "label": "題名",
+            "value": "「洗雲彩霞」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［センウン　サイカ］"
+        },
+        {
+            "label": "出版地",
+            "value": "東江"
+        },
+        {
+            "label": "作者カナ",
+            "value": "キンリツシャ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00042141",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1c87c3c4aaf8410b6e642594519c272.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1c87c3c4aaf8410b6e642594519c272.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d1c87c3c4aaf8410b6e642594519c272.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d1c87c3c4aaf8410b6e642594519c272.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00042141&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA403%2851%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00042141&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA403%2851%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00042141&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA403%2851%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

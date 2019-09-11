@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3b5a0c3eceec1a73cbf90210219b9fb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "浅間大社拝殿建地割（側面）（明治2.12）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "本堂及向拝叡山東山両塔辛嵜絵図宝塔図解大徳寺休門駿河浅間大社貞享古図五間社社寺雑権現造拝殿/駿河一ノ宮浅間大社拝殿平及妻越後近藤金吾模写明治二年十二月///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "122×97.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木19-7-2/木019-7-02"
+        },
+        {
+            "label": "題名",
+            "value": "浅間大社拝殿建地割（側面）（明治2.12）"
+        },
+        {
+            "label": "題名",
+            "value": "センゲン　タイシャ　ハイデン　タテジワリ　ソクメン　メイジ　２　１２"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「駿河一之宮浅間大社大拝殿妻 貳拾分壹之図 明治二年十二月 越後國蒲原郷賀茂庄住 近藤金吾謹模写」，（題箋）「駿河一ノ宮 浅間大社拝殿 正面 越後近藤金吾」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治2.12"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子家"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00043733",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3b5a0c3eceec1a73cbf90210219b9fb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3b5a0c3eceec1a73cbf90210219b9fb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3b5a0c3eceec1a73cbf90210219b9fb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c3b5a0c3eceec1a73cbf90210219b9fb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043733&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI019-007-002-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4735
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043733&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI019-007-002-W.jpg"
+                    },
+                    "width": 4735
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043733&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI019-007-002-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

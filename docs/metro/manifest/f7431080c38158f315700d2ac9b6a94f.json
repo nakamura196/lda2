@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7431080c38158f315700d2ac9b6a94f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２５（1892）"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/風俗史及資料/明治以後の風俗、流行/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖，「婦人風俗尽」所収；；；；；1帖，画帖仕立；目録は旧蔵者の手書き；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "京橋区尾張町二丁目一番地　佐々木豊吉"
+        },
+        {
+            "label": "版元",
+            "value": "佐々木 豊吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0717-5(6)/東0717-005(006)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "尾形月耕（オガタ　ゲッコウ）（1859-1920）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "婦人風俗尽　雛祭"
+        },
+        {
+            "label": "画題等",
+            "value": "フジン　フウゾクズクシ　ヒナマツリ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "尾形月耕"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "月耕（「尾形月耕」印）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "直山刀"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00008387",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7431080c38158f315700d2ac9b6a94f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7431080c38158f315700d2ac9b6a94f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2677,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7431080c38158f315700d2ac9b6a94f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f7431080c38158f315700d2ac9b6a94f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00008387&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0717-005-06.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2677,
+                                "width": 1779
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00008387&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0717-005-06.jpg"
+                    },
+                    "width": 1779
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00008387&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0717-005-06.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/13ce0068ac23b6387eb88ccd283dbc7b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "住宅（御殿）建地割（南面，御玄関・御広敷・御清所ほか），裏面：同建地割（北面）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清秀一/御玄関南表廣式御清北表東表西表御居間南表御納戸北妻虹梁繰形御表御居間東表御居間御書院客溜東妻臺所客溜御書院西妻御居間雨儀営繕司控高御座其他傳家御殿不詳図///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "45.5×263.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木38-2-1/木038-2-01"
+        },
+        {
+            "label": "題名",
+            "value": "住宅（御殿）建地割（南面，御玄関・御広敷・御清所ほか），裏面：同建地割（北面）"
+        },
+        {
+            "label": "題名",
+            "value": "ジュウタク　ゴテン　タテジワリ　ナンメン　オゲンカン　オヒロシキ　オキヨドコロ　ホカ　リメン　ドウ　タテジワリ　ホクメン"
+        },
+        {
+            "label": "題名",
+            "value": "（題箋）「表面 御玄関南表(御玄関 南妻･廣式南平･御清所南平)，（ 裏面 廣式御清共北表(御清所北平 廣式北平･御玄関北妻)」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清秀"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044812",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/13ce0068ac23b6387eb88ccd283dbc7b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/13ce0068ac23b6387eb88ccd283dbc7b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1225,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/13ce0068ac23b6387eb88ccd283dbc7b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/13ce0068ac23b6387eb88ccd283dbc7b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044812&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI038-002-001-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1225,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044812&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI038-002-001-W.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044812&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI038-002-001-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

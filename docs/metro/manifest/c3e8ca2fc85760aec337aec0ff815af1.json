@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3e8ca2fc85760aec337aec0ff815af1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "1935.4"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/121.5/5001/1935"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(6枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "聖堂復興期成会"
+        },
+        {
+            "label": "出版者",
+            "value": "セイドウ フッコウ キセイカイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "8.8×14cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "湯島聖堂竣工記念繪葉書"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "ユシマ セイドウ シュンコウ キネン エハガキ"
+        },
+        {
+            "label": "注記",
+            "value": "共同刊行:斯文會 袋入り"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "[解説]"
+        },
+        {
+            "label": "資料コード",
+            "value": "5017322232"
+        },
+        {
+            "label": "件名",
+            "value": "文京区"
+        },
+        {
+            "label": "件名",
+            "value": "ブンキョウク"
+        },
+        {
+            "label": "著編者",
+            "value": "[聖堂復興期成會／編]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004736",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3e8ca2fc85760aec337aec0ff815af1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3e8ca2fc85760aec337aec0ff815af1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5616,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c3e8ca2fc85760aec337aec0ff815af1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c3e8ca2fc85760aec337aec0ff815af1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004736&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5017322232_0008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5616,
+                                "width": 3744
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004736&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5017322232_0008.jpg"
+                    },
+                    "width": 3744
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004736&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5017322232_0008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

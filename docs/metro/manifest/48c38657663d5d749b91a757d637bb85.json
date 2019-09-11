@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/48c38657663d5d749b91a757d637bb85.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "浮絵////"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "地本問屋　江戸よし町親仁橋角　山本平吉板"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "3536-C47/東C3536-C047"
+        },
+        {
+            "label": "件名",
+            "value": "歌川国虎（ウタガワ　クニトラ）"
+        },
+        {
+            "label": "改印等",
+            "value": "極"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/横"
+        },
+        {
+            "label": "画題等",
+            "value": "浮絵目黒不動参詣群集之図"
+        },
+        {
+            "label": "画題等",
+            "value": "ウキエ　メグロ　フドウ　サンケイ　グンシュウ　ノ　ズ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川国虎"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "國虎画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00222011",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/48c38657663d5d749b91a757d637bb85.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/48c38657663d5d749b91a757d637bb85.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1848,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/48c38657663d5d749b91a757d637bb85.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/48c38657663d5d749b91a757d637bb85.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00222011&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3536-C047.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1848,
+                                "width": 2904
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00222011&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3536-C047.jpg"
+                    },
+                    "width": 2904
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00222011&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F3536-C047.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

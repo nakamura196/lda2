@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/00d30b59f85e2cccae9fe1f6ae74eccc.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "役者番附",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "演劇/歌舞伎・文楽///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "大"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；江戸時代新役者付外；；；"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加5995-2/加05995-002"
+        },
+        {
+            "label": "題名",
+            "value": "役者番附"
+        },
+        {
+            "label": "題名",
+            "value": "ヤクシャ　バンズケ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00233837",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/00d30b59f85e2cccae9fe1f6ae74eccc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/00d30b59f85e2cccae9fe1f6ae74eccc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/00d30b59f85e2cccae9fe1f6ae74eccc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/00d30b59f85e2cccae9fe1f6ae74eccc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00233837&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA5995%E2%80%90002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00233837&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA5995%E2%80%90002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00233837&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA5995%E2%80%90002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4631935f4ba4efb88813a8a9abb07ffe.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "寺院塔（三重塔）建地割（寛永20）（林宗相）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "浅草本堂知恩院梵鐘鐘楼半唐様二王門多宝塔薬医門六角堂鴨本社三間社朱雀門下御霊杜其他矩術/林家佛寺絵図///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "86.5×44cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木21-1-14/木021-1-14"
+        },
+        {
+            "label": "題名",
+            "value": "寺院塔（三重塔）建地割（寛永20）（林宗相）"
+        },
+        {
+            "label": "題名",
+            "value": "ジイントウ　サンジュウノトウ　タテジワリ　カンエイ　２０　ハヤシ　ムネスケ"
+        },
+        {
+            "label": "題名",
+            "value": "「寛永弐拾癸未年九月吉日 洛陽上賀茂庄林作左衛門宗相」，（後補題箋）「三重塔 林佐右衛門 寛永二十年」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "寛永20.9"
+        },
+        {
+            "label": "家名・人名",
+            "value": "林家"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00043748",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4631935f4ba4efb88813a8a9abb07ffe.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4631935f4ba4efb88813a8a9abb07ffe.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4631935f4ba4efb88813a8a9abb07ffe.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4631935f4ba4efb88813a8a9abb07ffe.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043748&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI021-001-014.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4566
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043748&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI021-001-014.jpg"
+                    },
+                    "width": 4566
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043748&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI021-001-014.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d27cd9ba8ac893e968bc9d27d879ccde.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "唐沢山神社／木子清敬宛今村吉之助唐沢山神社設計図書請取状（明治27）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "宮城清敬/唐沢山神社本殿拝殿祝詞屋及透塀///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "18.5×63cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木51-8-9/木051-08-09"
+        },
+        {
+            "label": "題名",
+            "value": "唐沢山神社／木子清敬宛今村吉之助唐沢山神社設計図書請取状（明治27）"
+        },
+        {
+            "label": "題名",
+            "value": "カラサワヤマ　ジンジャ　キコ　キヨヨシ　アテ"
+        },
+        {
+            "label": "題名",
+            "value": "無題"
+        },
+        {
+            "label": "体裁",
+            "value": "文書"
+        },
+        {
+            "label": "作成年",
+            "value": "明治27(1894)"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00058016",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d27cd9ba8ac893e968bc9d27d879ccde.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d27cd9ba8ac893e968bc9d27d879ccde.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4493,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d27cd9ba8ac893e968bc9d27d879ccde.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d27cd9ba8ac893e968bc9d27d879ccde.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058016&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI051-008-009.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4493,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058016&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI051-008-009.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058016&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI051-008-009.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

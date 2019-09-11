@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fca864df4bdaa1441e47b58cb28b360f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「紫式部源氏五十四帖　外編　投扇曲点式絵図」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "34×47.8cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加169（11）/加00169(11)"
+        },
+        {
+            "label": "題名",
+            "value": "「紫式部源氏五十四帖　外編　投扇曲点式絵図」"
+        },
+        {
+            "label": "題名",
+            "value": "「葩籬満前」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［ハリマゼ］"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00042045",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fca864df4bdaa1441e47b58cb28b360f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/fca864df4bdaa1441e47b58cb28b360f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/fca864df4bdaa1441e47b58cb28b360f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/fca864df4bdaa1441e47b58cb28b360f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00042045&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA169%2811%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00042045&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA169%2811%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00042045&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA169%2811%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

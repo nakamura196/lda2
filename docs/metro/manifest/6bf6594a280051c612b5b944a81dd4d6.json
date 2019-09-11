@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6bf6594a280051c612b5b944a81dd4d6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「和漢年数早見一覧　嘉永四亥ノ年まで年すう」 [22]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.5×23.4cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-1-2(11)/東448-001-002(11)"
+        },
+        {
+            "label": "題名",
+            "value": "「和漢年数早見一覧　嘉永四亥ノ年まで年すう」 [22]"
+        },
+        {
+            "label": "題名",
+            "value": "［ワカンネンスウハヤミイチラン　カエイヨンイノトシマデネンスウ］"
+        },
+        {
+            "label": "題名",
+            "value": "「阿つまみやげ　二編　全」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "［アヅマミヤゲ　ニヘン　ゼン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "阿つまみやげ　　二編"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041239",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6bf6594a280051c612b5b944a81dd4d6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6bf6594a280051c612b5b944a81dd4d6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6bf6594a280051c612b5b944a81dd4d6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6bf6594a280051c612b5b944a81dd4d6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041239&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-001-02%2811%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041239&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-001-02%2811%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041239&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-001-02%2811%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

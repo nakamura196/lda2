@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/38f8f9d39cd8e3410b8694dc5b839b11.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「三都大芝居濱芝居子供芝居役者相場定　并ニ位附　嘉永四亥ノ正月改正大新版」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永4亥ノ正月"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "内32.1×57.7cm（外54.8×66.2cm）"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；軸物；；；；"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5713-D7/東D5713-D007"
+        },
+        {
+            "label": "題名",
+            "value": "「三都大芝居濱芝居子供芝居役者相場定　并ニ位附　嘉永四亥ノ正月改正大新版」"
+        },
+        {
+            "label": "題名",
+            "value": "サンガノツオオシバイハマシバイコドモシバイソウバサダメ　ナラビニクライヅケ　カエイヨンイノショウガツカイセイダイシンパン"
+        },
+        {
+            "label": "題名",
+            "value": "表題表紙「三都役者相場定」（改装）"
+        },
+        {
+            "label": "題名",
+            "value": "サンガノツヤクシャソウバサダメ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00040994",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/38f8f9d39cd8e3410b8694dc5b839b11.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/38f8f9d39cd8e3410b8694dc5b839b11.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/38f8f9d39cd8e3410b8694dc5b839b11.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/38f8f9d39cd8e3410b8694dc5b839b11.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040994&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F5713-D007.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040994&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F5713-D007.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00040994&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F5713-D007.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

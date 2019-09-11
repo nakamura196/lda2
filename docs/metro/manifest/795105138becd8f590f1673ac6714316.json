@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/795105138becd8f590f1673ac6714316.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「よしこのぶし　芝居狂言粹のふところ」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.2×23.2cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2529-16(48)/特2529-016(48)"
+        },
+        {
+            "label": "題名",
+            "value": "「よしこのぶし　芝居狂言粹のふところ」"
+        },
+        {
+            "label": "題名",
+            "value": "「シバイ　キョウゲン　スイ　ノ　フトコロ」"
+        },
+        {
+            "label": "題名",
+            "value": "[江戸自慢]"
+        },
+        {
+            "label": "題名",
+            "value": "［エドジマン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "江戸自慢　16、「太功記　かほどおもふニよそめのそなたほんのこころのそこ見たい」"
+        },
+        {
+            "label": "資料解説",
+            "value": "2012大規模企画展(29)　「江戸っ子のお気に入りの芝居の中から、お気に入りの場面を取り上げて、「よしこのぶし」（江戸時代の流行歌）の節に合う歌詞をつけたものと思われます。芝居は江戸っ子最大の楽しみのひとつであり、芝居のあらすじやセリフは生活の隅々にまで浸透していました。このような番付からも江戸っ子の生活ぶりや文化、教養などをうかがい知ることができ、とても興味深いものがあります。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041956",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/795105138becd8f590f1673ac6714316.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/795105138becd8f590f1673ac6714316.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/795105138becd8f590f1673ac6714316.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/795105138becd8f590f1673ac6714316.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041956&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2848%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041956&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2848%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041956&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2848%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

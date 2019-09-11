@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/463a70d688d9b6c1eac6cf165f7278a2.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "内裏紫宸殿節会道具覚書",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "（無題）/寛延三午歳伊勢御遷宮御神寶之図利兵衡///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "24.5×65cm、台紙27.5×39.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木43-1-22/木043-1-22"
+        },
+        {
+            "label": "題名",
+            "value": "内裏紫宸殿節会道具覚書"
+        },
+        {
+            "label": "題名",
+            "value": "ダイリ　シシンデン　セチエ　ドウグ　オボエガキ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「志しいてんせち の御どうく註文」，（木子大工五郎兵衛→行事官様御内こまい市左衛門様 台紙外題）「紫宸殿節会の御道具注文 うし十二月廿二日 木子大工五郎兵衛」"
+        },
+        {
+            "label": "体裁",
+            "value": "文書"
+        },
+        {
+            "label": "作成年",
+            "value": "丑12月22日"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00057822",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/463a70d688d9b6c1eac6cf165f7278a2.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/463a70d688d9b6c1eac6cf165f7278a2.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2590,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/463a70d688d9b6c1eac6cf165f7278a2.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/463a70d688d9b6c1eac6cf165f7278a2.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057822&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI043-001-022.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2590,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057822&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI043-001-022.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057822&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI043-001-022.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

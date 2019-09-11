@@ -1,0 +1,123 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "西東本願寺開祖遠忌舞楽御用木子甚三郎宛岡本隼人書簡ほか文書（計3点）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清敬一幼少代理時代/万延文久年間東西本願寺御大會舞楽御用積清幸幼清敬///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "15×33cm、台紙27.5×39.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木44-4-8/木044-4-08"
+        },
+        {
+            "label": "題名",
+            "value": "西東本願寺開祖遠忌舞楽御用木子甚三郎宛岡本隼人書簡ほか文書（計3点）"
+        },
+        {
+            "label": "題名",
+            "value": "ニシ　ヒガシ　ホンガンジ　カイソ　オンキ　ブガク　ゴヨウ　キコ　ジンザブロウアテ　オカモト　ハヤト　ショカン　ホカ　ブンショ　ケイ　3テン"
+        },
+        {
+            "label": "題名",
+            "value": "（1.）「木子甚三郎殿へ 岡本隼人」 2月25日 2.木子甚三郎礼状 3.作事奉行名･住所覚書"
+        },
+        {
+            "label": "体裁",
+            "value": "文書"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00057863",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057863&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI044-004-008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057863&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI044-004-008.jpg"
+                    },
+                    "width": 6000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f352872f7e5f8c4cadb5a3b9d18f7a28.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00057863&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI044-004-008-Y.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00057863&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI044-004-008-Y.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057863&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI044-004-008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

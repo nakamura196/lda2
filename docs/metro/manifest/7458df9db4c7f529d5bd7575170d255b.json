@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "帝国大学造家学科卒業記念写真5（木子清敬写真）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "清敬写真　////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "13.8×19cm、台紙27.5×39.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木177-12/木177-12"
+        },
+        {
+            "label": "題名",
+            "value": "帝国大学造家学科卒業記念写真5（木子清敬写真）"
+        },
+        {
+            "label": "題名",
+            "value": "テイコク　ダイガク　ゾウカ　ガッカ　ソツギョウ　キネン　シャシン　5　キコ　キョヨシ　シャシン"
+        },
+        {
+            "label": "題名",
+            "value": "無題"
+        },
+        {
+            "label": "体裁",
+            "value": "写真（印画紙・白黒）2枚（同じもの）"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00077145",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4441,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00077145&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI177-012-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4441,
+                                "width": 5622
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00077145&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI177-012-001.jpg"
+                    },
+                    "width": 5622
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 4441,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7458df9db4c7f529d5bd7575170d255b.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00077145&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI177-012-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4441,
+                                "width": 5622
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000016-00077145&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI177-012-002.jpg"
+                    },
+                    "width": 5622
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00077145&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI177-012-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

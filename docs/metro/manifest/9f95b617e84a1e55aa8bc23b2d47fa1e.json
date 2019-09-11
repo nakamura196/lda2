@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f95b617e84a1e55aa8bc23b2d47fa1e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居賢所御仮殿柱・束下煉瓦積基礎伏図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "宮城清敬/明治三十七年宮城賢所御仮殿清敬///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×39cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木51-1-27/木051-01-27"
+        },
+        {
+            "label": "題名",
+            "value": "皇居賢所御仮殿柱・束下煉瓦積基礎伏図"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　カシコドコロ　オカリドノ　ハシラ　ツカシタ　レンカズミ　キソブセズ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「賢所御假殿新築柱下及椽束下床束下并ニ向拝柱下其他煉瓦積ミ平面図」，（外題）「第十八號 御仮殿地形煉瓦積立及平面共 五葉」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（彩色）"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治37］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00045433",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f95b617e84a1e55aa8bc23b2d47fa1e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f95b617e84a1e55aa8bc23b2d47fa1e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4493,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f95b617e84a1e55aa8bc23b2d47fa1e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9f95b617e84a1e55aa8bc23b2d47fa1e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00045433&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI051-001-027.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4493,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00045433&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI051-001-027.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00045433&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI051-001-027.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

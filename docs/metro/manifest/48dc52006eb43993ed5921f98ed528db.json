@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/48dc52006eb43993ed5921f98ed528db.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "天保14-弘化4"
+        },
+        {
+            "label": "分類",
+            "value": "一般/伝記/徳川並江戸時代史（通史）/伝説、由来/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；10枚揃の内1枚；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "藤岡屋慶次郎"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "2451-C5/東C2451-C005"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（1世）（ウタガワ　ヒロシゲ）（1797-1858）"
+        },
+        {
+            "label": "改印等",
+            "value": "村"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/錦絵/堅"
+        },
+        {
+            "label": "画題等",
+            "value": "江戸名所古跡伝、吾嬬の森嬬の由来"
+        },
+        {
+            "label": "画題等",
+            "value": "エド　メイショ　コセキデン　アズマ　ノ　モリ　ノ　ユライ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "廣重画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "彫工房次郎"
+        },
+        {
+            "label": "画の内容",
+            "value": "十枚揃の内一枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00221365",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/48dc52006eb43993ed5921f98ed528db.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/48dc52006eb43993ed5921f98ed528db.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2629,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/48dc52006eb43993ed5921f98ed528db.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/48dc52006eb43993ed5921f98ed528db.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00221365&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2451-C005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2629,
+                                "width": 1839
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00221365&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2451-C005.jpg"
+                    },
+                    "width": 1839
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00221365&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2451-C005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
