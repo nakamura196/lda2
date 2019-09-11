@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ccbb23995363a1e237da5ebdf66c7d19.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/0・200/3416/"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵葉書32枚"
+        },
+        {
+            "label": "出版者",
+            "value": "青雲堂出版部"
+        },
+        {
+            "label": "出版者",
+            "value": "セイウンドウ シュッパンブ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×9cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "最新大東京"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "サイシン ダイトウキョウ"
+        },
+        {
+            "label": "注記",
+            "value": "色刷 箱入(15cm)"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "大東京の表象東京市政会館・東京市公会堂 The Tokyo-shisei-kaikan & City Hall"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "故安田善次郎翁の寄附金三百万円を基金として昭和五年日比谷の一角に竣工されたものである。東京市公会堂としては三千人をゆっくり入れる大講堂の設備があり、展覧会、講演会、映画音楽等の催に毎日利用され市民に寄興する処甚だ多い。帯黄色なるビルヂイングの雄姿は巍然として近隣を壓し無言の裡に大東京市の偉大さを物語っている。"
+        },
+        {
+            "label": "資料コード",
+            "value": "1128258912"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00002772",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ccbb23995363a1e237da5ebdf66c7d19.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ccbb23995363a1e237da5ebdf66c7d19.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ccbb23995363a1e237da5ebdf66c7d19.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ccbb23995363a1e237da5ebdf66c7d19.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002772&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1128258912-0016.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4090,
+                                "width": 5450
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002772&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1128258912-0016.jpg"
+                    },
+                    "width": 5450
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002772&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1128258912-0016.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

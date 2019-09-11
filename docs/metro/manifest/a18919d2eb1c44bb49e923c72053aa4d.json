@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a18919d2eb1c44bb49e923c72053aa4d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［文字絵、酉年と狂歌］",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "切抜版////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；切抜版；；；；；；；"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "P44-4/東P044-004"
+        },
+        {
+            "label": "題名",
+            "value": "［文字絵、酉年と狂歌］"
+        },
+        {
+            "label": "題名",
+            "value": "モジエ　トリドシ　ト　キョウカ"
+        },
+        {
+            "label": "件名",
+            "value": "都水園石翁（トスイエン　セキオウ）（1850-1921）"
+        },
+        {
+            "label": "作者等",
+            "value": "猪口山人∥画"
+        },
+        {
+            "label": "資料解説",
+            "value": "大規模企画展2012(70-1)　「大小暦とはその年の大の月、小の月がすぐわかるように、画面中に隠し摺にした絵暦のことです。江戸時代は陰暦でしたので、1か月の日数は大の月が30日、小の月が29日でした。しかし、その順序が毎年変わったり、閏月（同じ月が2回あること）がしばしばあるなど、煩雑だったので、このような大小の摺物は大変重宝しました。結果として江戸における絵暦の流行が木版画の印刷技術を進歩させ、美しいあずま錦絵を発生させることにつながりました。さて、この大小暦、大の月と小の月は何月でしょうか？」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00215233",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a18919d2eb1c44bb49e923c72053aa4d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a18919d2eb1c44bb49e923c72053aa4d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2272,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a18919d2eb1c44bb49e923c72053aa4d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a18919d2eb1c44bb49e923c72053aa4d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00215233&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FP44-004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2272,
+                                "width": 3152
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00215233&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FP44-004.jpg"
+                    },
+                    "width": 3152
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00215233&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FP44-004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3085f5c908b1951fe2ed2f16ab6f8b3a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/東京府・東京市関係資料"
+        },
+        {
+            "label": "出版年",
+            "value": "1935"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・200/60/G12"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "32p"
+        },
+        {
+            "label": "出版者",
+            "value": "東京府"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウ フ"
+        },
+        {
+            "label": "大きさ",
+            "value": "26cm"
+        },
+        {
+            "label": "資料コード",
+            "value": "1124325919"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "東京府史蹟名勝天然紀念物調査報告[書]"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "トウキョウ フ シセキ メイショウ テンネン キネン ブツ チョウサ ホウコク ショ"
+        },
+        {
+            "label": "シリーズ巻次",
+            "value": "第12冊"
+        },
+        {
+            "label": "タイトル",
+            "value": "名勝堀切小高園の花菖蒲"
+        },
+        {
+            "label": "タイトル",
+            "value": "メイショウ ホリキリ コダカ エン ノ ハナ ショウブ"
+        },
+        {
+            "label": "著編者",
+            "value": "東京府／編"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000009-00005287",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3085f5c908b1951fe2ed2f16ab6f8b3a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3085f5c908b1951fe2ed2f16ab6f8b3a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3085f5c908b1951fe2ed2f16ab6f8b3a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3085f5c908b1951fe2ed2f16ab6f8b3a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

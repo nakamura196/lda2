@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab6c85c808fb1176a322ad6f876c9676.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/90・290/5009/X"
+        },
+        {
+            "label": "出版地",
+            "value": "[青梅]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(3枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "青梅鐵道株式會社"
+        },
+        {
+            "label": "出版者",
+            "value": "オウメ テツドウ カブシキ ガイシャ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×9.2cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "青梅鐵道沿線名勝繪はがき"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "オウメ テツドウ エンセン メイショウ エハガキ"
+        },
+        {
+            "label": "注記",
+            "value": "袋入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "袋"
+        },
+        {
+            "label": "資料コード",
+            "value": "5017718957"
+        },
+        {
+            "label": "件名",
+            "value": "東京都多摩地域"
+        },
+        {
+            "label": "件名",
+            "value": "トウキョウトタマチイキ"
+        },
+        {
+            "label": "内容細目",
+            "value": "内容:奥多摩雷電山石灰採掘場. 奥多摩の林産. 奥多摩川樂々園"
+        },
+        {
+            "label": "著編者",
+            "value": "[青梅鐵道株式會社／編]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004825",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab6c85c808fb1176a322ad6f876c9676.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab6c85c808fb1176a322ad6f876c9676.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5616,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab6c85c808fb1176a322ad6f876c9676.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ab6c85c808fb1176a322ad6f876c9676.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004825&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5017718957_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5616,
+                                "width": 3744
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004825&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5017718957_0001.jpg"
+                    },
+                    "width": 3744
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004825&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5017718957_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

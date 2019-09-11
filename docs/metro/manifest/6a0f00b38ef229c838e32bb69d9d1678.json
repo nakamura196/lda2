@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6a0f00b38ef229c838e32bb69d9d1678.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[1914?]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・600/5024/"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき22枚 白黒"
+        },
+        {
+            "label": "ページ数",
+            "value": "うち2枚カラー"
+        },
+        {
+            "label": "出版者",
+            "value": "東京大正博覽會協賛會[ほか]"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウタイショウハクランカイキョウサンカイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×10cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "[東京大正博覧会]"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "トウキョウ タイショウ ハクランカイ"
+        },
+        {
+            "label": "注記",
+            "value": "タイトルは受入リストによる"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "正門イルミネーション"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "東京大正博覧会 第一会場"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003087050"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00003358",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6a0f00b38ef229c838e32bb69d9d1678.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6a0f00b38ef229c838e32bb69d9d1678.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6a0f00b38ef229c838e32bb69d9d1678.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6a0f00b38ef229c838e32bb69d9d1678.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
