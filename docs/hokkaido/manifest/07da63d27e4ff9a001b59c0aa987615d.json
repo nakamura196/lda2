@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/07da63d27e4ff9a001b59c0aa987615d.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北海道之図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "北海道之図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ホッカイドウ ノ ズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "北海道之図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ホッカイドウ ノ ズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730010333"
+        },
+        {
+            "label": "管理番号",
+            "value": "1645"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "〔出版年不明〕"
+        },
+        {
+            "label": "著者",
+            "value": "阪部勘吉/〔著〕"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "サカベ カンキチ"
+        },
+        {
+            "label": "一般注記",
+            "value": "縮尺１：５０００００，現在置兵地、増設見込地の記載あり"
+        },
+        {
+            "label": "説明",
+            "value": "縮尺50万分の1で石版無彩刷の北海道地図であり、「製図、陸軍歩兵一等軍曹・阪部勘吉」と記載される。本図は屯田兵村の設置を示すための北海道図であり、一般の地形図ではない。「現在置兵地」として記されている箇所は「琴似・山鼻・江別・篠路・和田」の5ヶ所であり、この設置状況からみて本図は明治23年（1890）頃の出版と推測される。なお、この図は、本来は9枚からなる切図であるが、本館のものは9枚を1枚に貼り合せたものである。現存数の極めて少ない図で他機関での所蔵をきかない。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "出版者",
+            "value": "〔出版者不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "103×135cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1645-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/07da63d27e4ff9a001b59c0aa987615d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/07da63d27e4ff9a001b59c0aa987615d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2624,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/07da63d27e4ff9a001b59c0aa987615d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/07da63d27e4ff9a001b59c0aa987615d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1645/0080599/0080599_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2624,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1645/0080599/0080599_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1645/0080599/0080599_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

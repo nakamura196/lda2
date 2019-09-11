@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0eb269ac5d155fe18cb5b7890d9d5e08.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[19--]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/35・188/5003/X"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(8枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "泉岳寺"
+        },
+        {
+            "label": "出版者",
+            "value": "センガクジ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×8.9cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "萬松山泉岳寺義士参詣記念繪葉書"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "バンショウザン センガクジ ギシ サンケイ キネン エハガキ"
+        },
+        {
+            "label": "注記",
+            "value": "タイトルは袋による はがきのタイトル:東京芝高輪泉岳寺"
+        },
+        {
+            "label": "注記",
+            "value": "袋入"
+        },
+        {
+            "label": "注記",
+            "value": "東京芝高輪泉岳寺"
+        },
+        {
+            "label": "注記",
+            "value": "トウキョウ シバ タカナワ センガクジ"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "四十七義士ノ墓（北側）Tomb of 47 Gishi"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003084139"
+        },
+        {
+            "label": "件名",
+            "value": "赤穂義士"
+        },
+        {
+            "label": "件名",
+            "value": "アコウギシ"
+        },
+        {
+            "label": "巻次",
+            "value": "甲"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00003266",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0eb269ac5d155fe18cb5b7890d9d5e08.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0eb269ac5d155fe18cb5b7890d9d5e08.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0eb269ac5d155fe18cb5b7890d9d5e08.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0eb269ac5d155fe18cb5b7890d9d5e08.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003266&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003084139_0008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4090,
+                                "width": 5450
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003266&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003084139_0008.jpg"
+                    },
+                    "width": 5450
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003266&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003084139_0008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
