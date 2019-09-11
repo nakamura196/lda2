@@ -58,7 +58,7 @@ all = []
 # -------
 
 files = glob.glob(data_dir+"/metadata/*.json")
-print(len(files))
+# print(len(files))
 
 for file in files:
     try:
@@ -78,7 +78,7 @@ for file in files:
 images = {}
 
 files = glob.glob(data_dir+"/images/*.json")
-print(len(files))
+# print(len(files))
 
 for file in files:
     try:
@@ -139,7 +139,16 @@ for i in range(len(all)):
     uuid = hashlib.md5(url.encode('utf-8')).hexdigest()
     thumbnail = ""
     if id in images:
-        thumbnail = images[id]["thumbnail"]
+        img = images[id]
+        arr = img["array"]
+        if len(arr) == 0:
+            continue
+
+        if "thubmnail" not in img:
+            thumb_uri = arr[0]["thumb_url"]
+        else:
+            thumb_uri = img["thumbnail"]
+        thumbnail = thumb_uri
 
     description = ""
     if "description" in obj:

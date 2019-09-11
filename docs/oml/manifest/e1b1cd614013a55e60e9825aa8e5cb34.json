@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e1b1cd614013a55e60e9825aa8e5cb34.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "口上覚",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[186-]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1860****"
+        },
+        {
+            "label": "文書種別",
+            "value": "a：間重富・間家関係文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "コウジョウオボエ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "口上覚"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0014253085"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29746"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "q1019001"
+        },
+        {
+            "label": "注記_01",
+            "value": "八月"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ハザマ セイイチロウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[書写地不明]:間清一郎"
+        },
+        {
+            "label": "形態",
+            "value": "1枚 ; 19×19cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ハザマ，シゲアキ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "間 清一郎/著"
+        },
+        {
+            "label": "請求記号",
+            "value": "440.2"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "間重富関係資料(文書・記録類:文書類) 重要文化財指定(歴史資料):2016年8月17日"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29746",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e1b1cd614013a55e60e9825aa8e5cb34.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/e1b1cd614013a55e60e9825aa8e5cb34.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 708,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/e1b1cd614013a55e60e9825aa8e5cb34.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/e1b1cd614013a55e60e9825aa8e5cb34.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=3813",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 708,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3813"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=3813"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

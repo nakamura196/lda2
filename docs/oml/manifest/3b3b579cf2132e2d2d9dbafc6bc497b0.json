@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b579cf2132e2d2d9dbafc6bc497b0.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "自安寺妙見宮朝参の図 (写真浪花百景 上編 中編)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1868頃(明治初年)]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1868****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ジアンジミョウケングウチョウサンノズ (シヤシンナニワヒヤツケイ)"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "自安寺妙見宮朝参の図 (写真浪花百景 上編 中編)"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000268770"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29793"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "f0120001"
+        },
+        {
+            "label": "注記_01",
+            "value": "写真浪花百景 上編 中編 34枚のうちの1枚"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ワタヤキヘエ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "綿屋喜兵衛"
+        },
+        {
+            "label": "形態",
+            "value": "1枚40cm(18×24cm)"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ハセガワサダノブイツカドウハンスイ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "長谷川貞信/画 一荷堂半水/著"
+        },
+        {
+            "label": "請求記号",
+            "value": "721.8"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "現在の地名A_01(カナ)",
+            "value": "チュウオウク"
+        },
+        {
+            "label": "現在の地名A_01(漢字)",
+            "value": "中央区"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29793",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b579cf2132e2d2d9dbafc6bc497b0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b579cf2132e2d2d9dbafc6bc497b0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 689,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3b3b579cf2132e2d2d9dbafc6bc497b0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3b3b579cf2132e2d2d9dbafc6bc497b0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=167491",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 689,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=167491"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=167491"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

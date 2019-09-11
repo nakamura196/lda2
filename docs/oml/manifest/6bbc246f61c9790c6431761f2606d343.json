@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6bbc246f61c9790c6431761f2606d343.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "弘化改正大坂細見図 (大阪古地図集成 第14図)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1980.1"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "198010**"
+        },
+        {
+            "label": "文書種別",
+            "value": "m3：その他"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "コウカ カイセイ オオサカ サイケンズ  (オオサカ コチズ シュウセイ ダイジュウヨンズ)"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "弘化改正大坂細見図 (大阪古地図集成 第14図)"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0012107731"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29927"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "r1014001"
+        },
+        {
+            "label": "注記_01",
+            "value": "原版の実寸:49×72cm"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "オオサカ トシ キョウカイ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[大阪]:大阪都市協会"
+        },
+        {
+            "label": "形態",
+            "value": "地図1枚 ; 51×72cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "291.63"
+        },
+        {
+            "label": "資料種別1",
+            "value": "7：1枚ものの地図"
+        },
+        {
+            "label": "注記_02",
+            "value": "原版:弘化2年(1845)"
+        },
+        {
+            "label": "注記_03",
+            "value": "大阪建設史夜話附図"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29927",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6bbc246f61c9790c6431761f2606d343.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/6bbc246f61c9790c6431761f2606d343.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2679,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/6bbc246f61c9790c6431761f2606d343.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/6bbc246f61c9790c6431761f2606d343.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=199793",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2679,
+                                "width": 4000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=199793"
+                    },
+                    "width": 4000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=199793"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

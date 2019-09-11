@@ -83,7 +83,12 @@ files = glob.glob(data_dir+"/images/*.json")
 rows = []
 rows.append(["id", "img_url", "thumb_url", "width", "height"])
 
-for file in files:
+for i in range(len(files)):
+
+    print(str(i+1)+"/"+str(len(files)))
+
+    file = files[i]
+    
     try:
         # jsonファイルを読み込む
         f = open(file)

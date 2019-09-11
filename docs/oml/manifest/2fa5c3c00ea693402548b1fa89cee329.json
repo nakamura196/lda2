@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2fa5c3c00ea693402548b1fa89cee329.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "明治四十一年略暦;生白蝋米穀内外雑貨依托販売問屋",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1907.11"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "190711**"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "メイジ ヨンジュウイチネン リャクレキ ナマ ハクロウ ベイコク ナイガイ ザッカ イタク ハンバイ ドンヤ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "明治四十一年略暦;生白蝋米穀内外雑貨依托販売問屋"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000757157"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29755"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "q0032001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "アサオカ ショウテン，ニシダ マツサブロウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:[浅岡商店]，:西田 松三郎"
+        },
+        {
+            "label": "形態",
+            "value": "1枚 ; 53×35cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29755",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2fa5c3c00ea693402548b1fa89cee329.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2fa5c3c00ea693402548b1fa89cee329.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1785,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2fa5c3c00ea693402548b1fa89cee329.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/2fa5c3c00ea693402548b1fa89cee329.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198863",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1785,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198863"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198863"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

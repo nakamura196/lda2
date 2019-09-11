@@ -43,10 +43,15 @@ label = config["label"]
 collection_path = output_dir+"/collection.json"
 
 rows = [
+    ["echo ' --- 01 ---'"],
     ["python 01_create_metadata.py "+config_path],
+    ["echo ' ---- 02 ----'"],
     ["python 02_create_images.py "+config_path],
+    ["echo ' ---- 12 ----'"],
     ["python 12_create_manifest.py "+config_path],
+    ["echo ' ---- 13 ----'"],
     ["python 13_create_collection.py "+config_path],
+    ["echo ' ---- 20 ----'"],
     ["python 20_collection_converter.py "+collection_path+" "+output_dir+"/items.json"],
     # ["python 21_collection_converter4es.py "+collection_path +
     #     " "+data_dir+"/rows.json"],
