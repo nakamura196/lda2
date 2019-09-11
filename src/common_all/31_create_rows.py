@@ -20,6 +20,7 @@ path = "data/data.json"
 
 data = []
 
+total = 0
 
 def exec(manifest):
     thumbnail = None

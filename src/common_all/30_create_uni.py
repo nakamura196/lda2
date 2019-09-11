@@ -21,6 +21,7 @@ prefix = "https://nakamura196.github.io/lda2/"
 
 collections = []
 
+total = 0
 
 with open(path) as f:
     df = json.load(f)
@@ -39,11 +40,13 @@ with open(path) as f:
             "label": data["label"]+"("+str(len(data["manifests"]))+")"
         })
 
+        total += len(data["manifests"])
+
 uni = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": prefix+"/collections_all.json",
     "@type": "sc:Collection",
-    "label": "地域文化資源デジタルアーカイブ",
+    "label": "地域文化資源デジタルアーカイブ("+str(total)+")",
     "vhint": "use-thumb",
     "collections": collections
 }
