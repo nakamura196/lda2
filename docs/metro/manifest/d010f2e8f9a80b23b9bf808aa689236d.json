@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d010f2e8f9a80b23b9bf808aa689236d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）奥宮殿建物床高さ色分図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "帙なし　1束3袋/「皇居御造営　雑」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "52.5×44.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木109-1-57/木109-1-057"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）奥宮殿建物床高さ色分図"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　オクキュウデン　タテモノ　ユカ　ジバン　タカサ　イロワケズ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「第壹區  宮殿其他御建物床違色分之圖」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（彩色）"
+        },
+        {
+            "label": "作成年",
+            "value": "明治18年4月19日"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "資料解説",
+            "value": "2015文化財ウィーク『江戸城から明治宮殿へ』図録p.21「江戸城の御殿などに採用された書院造では、近世社会における格式が床の高低や天井の仕上げなどに視覚的に表されていました。この図面から、奥宮殿においてもこの考え方が適用されていたことが分かります。奥宮殿全体で最も床が高い部屋である「剣璽之間」には神器が安置されていました。また、聖上常御殿（赤）、皇后宮常御殿（黄緑）、皇太后宮御休所・宮御殿（青）という床の高さの順序は、皇族の序列に対する考え方を反映したものと見られています。（A Color-Coded Plan of Floor Height in the Inner Palace）According to the Shoin style of design used in the palaces in Edo Castle"
+        },
+        {
+            "label": "資料解説",
+            "value": "the medieval concept of status was displayed visually through the height of floors and the design of ceilings. From this plan"
+        },
+        {
+            "label": "資料解説",
+            "value": "showing the floor height of different rooms in differing colors"
+        },
+        {
+            "label": "資料解説",
+            "value": "it is clear that this idea was adopted in the construction of the Inner Palace.」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00056012",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d010f2e8f9a80b23b9bf808aa689236d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d010f2e8f9a80b23b9bf808aa689236d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d010f2e8f9a80b23b9bf808aa689236d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d010f2e8f9a80b23b9bf808aa689236d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056012&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI109-001-057.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4491
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056012&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI109-001-057.jpg"
+                    },
+                    "width": 4491
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056012&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI109-001-057.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

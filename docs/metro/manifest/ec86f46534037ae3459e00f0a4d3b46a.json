@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec86f46534037ae3459e00f0a4d3b46a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［番町麹町永田町外櫻田邉］（原題簽）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "[嘉永6[1853]?]"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/麹町､神田/麹町（虎の門、鍛冶橋、九段）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；木版；色刷；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "平野屋平助"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0411-12/東0411-012"
+        },
+        {
+            "label": "題名",
+            "value": "［番町麹町永田町外櫻田邉］（原題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "バンチョウ　コウジマチ　ナガタチョウ　ソトサクラダ　アタリ"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［平野屋板切絵図　2］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "ヒラノヤバン　キリエズ　2"
+        },
+        {
+            "label": "大きさ",
+            "value": "47.0×49.7cm"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011-2大規模企画展『江戸の町づくり』リーフレットp.15「現在の千代田区の番町、麹町、平河町、永田町、霞ヶ関あたりの絵図です。刊年の記載がありませんが、嘉永6年（1853）から安政6年（1859）の間と思われます。近吾堂板、尾張屋板が甲州街道を切絵図の境として両側を2枚にしていたのに対し、甲州街道を中心とした両側の地域を1枚で描いています。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042224",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec86f46534037ae3459e00f0a4d3b46a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec86f46534037ae3459e00f0a4d3b46a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5153,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ec86f46534037ae3459e00f0a4d3b46a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ec86f46534037ae3459e00f0a4d3b46a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042224&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0411-012.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5153,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042224&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0411-012.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042224&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0411-012.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

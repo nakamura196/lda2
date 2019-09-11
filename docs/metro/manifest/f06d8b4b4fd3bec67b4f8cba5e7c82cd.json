@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f06d8b4b4fd3bec67b4f8cba5e7c82cd.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "増上寺山門平面図・立面図（部分）（青木良孝か）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "泉涌寺泉山法隆寺相国寺知恩寺御影堂増上寺山門光明寺山門東福寺山門男山八幡北野平野神社松尾神社鴨神社山王八阪杜神楽岡斎場/増上寺山門正面、側面、平面、五葉///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×84cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木27-11-2/木027-11-02"
+        },
+        {
+            "label": "題名",
+            "value": "増上寺山門平面図・立面図（部分）（青木良孝か）"
+        },
+        {
+            "label": "題名",
+            "value": "ゾウジョウジ　サンモン　ヘイメンズ　リツメンズ　ブブン　アオキ　ヨシタカカ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「東都名所芝浄土宗大本山三縁 山 増上寺山門地割百分一之図」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治23.3］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:100"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044242",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f06d8b4b4fd3bec67b4f8cba5e7c82cd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f06d8b4b4fd3bec67b4f8cba5e7c82cd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2245,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f06d8b4b4fd3bec67b4f8cba5e7c82cd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f06d8b4b4fd3bec67b4f8cba5e7c82cd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044242&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-011-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2245,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044242&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-011-002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044242&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-011-002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

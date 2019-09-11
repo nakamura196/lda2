@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/060e6e25e8f724e126cba01ce0bd800d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "しん吉原二のかわり燈籠番附",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "7月"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/遊里付待合、料理屋（吉原と署名なき遊女の状を描けるものを収む）/吉原（元吉原、新吉原）/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×38.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；卯文月、改所小泉忠五郎、版元蔦屋重三郎；；；"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0791-C59/東C0791-C059"
+        },
+        {
+            "label": "題名",
+            "value": "しん吉原二のかわり燈籠番附"
+        },
+        {
+            "label": "題名",
+            "value": "シン　ヨシワラ　ニ　ノ　カワリ　トウロウ　バンヅケ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00079421",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/060e6e25e8f724e126cba01ce0bd800d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/060e6e25e8f724e126cba01ce0bd800d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1881,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/060e6e25e8f724e126cba01ce0bd800d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/060e6e25e8f724e126cba01ce0bd800d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00079421&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F0791-C059.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1881,
+                                "width": 2604
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00079421&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F0791-C059.jpg"
+                    },
+                    "width": 2604
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00079421&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F0791-C059.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

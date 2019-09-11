@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bffda839f55ff453baa2b84f8181de8f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "伝記/徳川並江戸時代史（通史）/季世（家慶－慶喜）//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "河村蔵版"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "2445-K1-6(2)/東K小2445-K001-006(02)"
+        },
+        {
+            "label": "出版地",
+            "value": "江戸"
+        },
+        {
+            "label": "画中文字",
+            "value": "「薩州の藩有村隼人の養子なり径史を好ミ頗る撃剣を極め常に幕府の暴政を憤り脱藩して水府浪士と供に＃を計り庚申の三月三日井伊家登城の供先へ切込終に中将を突然れども重創痛ミ辰の口にて咽を貫いて死す(以下欠）」"
+        },
+        {
+            "label": "件名",
+            "value": "歌川芳艶（ウタガワ　ヨシツヤ）（1822-1866）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "四ツ切/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "「近世明義伝」「有村治左衛門」"
+        },
+        {
+            "label": "画題等",
+            "value": "キンセイ　メイギデン　アリムラ　ジザエモン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川芳艶"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        },
+        {
+            "label": "画の内容",
+            "value": "桜田門外の変の人物"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00009689",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bffda839f55ff453baa2b84f8181de8f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/bffda839f55ff453baa2b84f8181de8f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3339,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/bffda839f55ff453baa2b84f8181de8f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/bffda839f55ff453baa2b84f8181de8f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00009689&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2445-K001-006%2802%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3339,
+                                "width": 1932
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00009689&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2445-K001-006%2802%29.jpg"
+                    },
+                    "width": 1932
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00009689&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F2445-K001-006%2802%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

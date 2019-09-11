@@ -70,7 +70,7 @@ for file in files:
         id_uuid_map[data["id"]] = hashlib.md5(
             data["url"].encode('utf-8')).hexdigest()
     except:
-        print("error 1")
+        print("メタデータJSONファイルを開けない。\t"+file)
 
     
 
@@ -88,7 +88,7 @@ for i in range(len(files)):
     print(str(i+1)+"/"+str(len(files)))
 
     file = files[i]
-    
+
     try:
         # jsonファイルを読み込む
         f = open(file)
@@ -98,15 +98,17 @@ for i in range(len(files)):
         f.close()
 
         id = os.path.split(file)[1].split(".")[0]
-        uuid = id_uuid_map[id]
 
+        if id in id_uuid_map:
 
-
-        for obj in data["array"]:
-            rows.append([uuid, obj["img_url"], obj["thumb_url"], obj["width"], obj["height"]])
+            uuid = id_uuid_map[id]
+            for obj in data["array"]:
+                rows.append([uuid, obj["img_url"], obj["thumb_url"], obj["width"], obj["height"]])
+        else:
+            print("UUIDなし\t"+id)
             
     except:
-        print("error 1")
+        print("画像JSONファイルを開けない。\t"+file)
 
 df = pd.DataFrame(rows)
 writer = pd.ExcelWriter(data_dir+"/images.xlsx",

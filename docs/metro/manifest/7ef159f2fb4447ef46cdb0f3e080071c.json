@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7ef159f2fb4447ef46cdb0f3e080071c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[仕入値段表]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.0×22.8cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-2-4(22)/東448-002-004(22)"
+        },
+        {
+            "label": "題名",
+            "value": "[仕入値段表]"
+        },
+        {
+            "label": "題名",
+            "value": "［シイレネダンヒョウ］"
+        },
+        {
+            "label": "題名",
+            "value": "「松廼寿」（表紙題簽）"
+        },
+        {
+            "label": "題名",
+            "value": "「マツノコトブキ」"
+        },
+        {
+            "label": "画中文字",
+            "value": "松逎寿　[4]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041389",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7ef159f2fb4447ef46cdb0f3e080071c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7ef159f2fb4447ef46cdb0f3e080071c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7ef159f2fb4447ef46cdb0f3e080071c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7ef159f2fb4447ef46cdb0f3e080071c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041389&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-04%2822%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041389&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-04%2822%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041389&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-002-04%2822%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
