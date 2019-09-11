@@ -27,8 +27,6 @@ from PIL import Image
 import time
 from selenium import webdriver
 
-check = []
-
 
 # ChromeのDriverオブジェクト生成時にオプションに引数を追加して渡す。
 options = Options()
@@ -37,112 +35,69 @@ driver = webdriver.Chrome(chrome_options=options)
 
 odir = "data/images"
 
-with open('data/html.csv', 'r') as f:
-    reader = csv.reader(f)
-    header = next(reader)  # ヘッダーを読み飛ばしたい時
+page = 0
 
-    for row in reader:
+flg = True
 
-        time.sleep(1)
+while(flg):
 
-        url = row[0]
+    page += 1
 
-        url = "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/986/search_detail"
+    time.sleep(1)
 
-        filename = odir+"/"+url.split("_")[-1]+".json"
+    url = "http://open-imagedata.city.kanazawa.ishikawa.jp/search/detail?dts=&dte=&q=&p="+str(page)
 
-        if os.path.exists(filename):
-            continue
+    filename = odir+"/"+url.split("_")[-1]+".json"
 
-        print("********\t"+url)
+    if os.path.exists(filename):
+        continue
+
+    print("********\t"+url)
+
+    main = {}
+    array = []
+    main["array"] = array
+
+    driver.get(url)
+
+    soup = BeautifulSoup(driver.page_source, 'lxml')  # 要素を抽出
+
+    thumbs = soup.find_all(class_="thumb")
+
+    for i in range(len(thumbs)):
 
         main = {}
         array = []
         main["array"] = array
 
-        driver.get(url)
+        id = thumbs[i].find("a").get("href").split("/")[-2]
 
-        driver.find_element_by_class_name(
-            "download").click()
+        filename = "data/images/"+id+".json"
 
-        driver.find_element_by_class_name(
-            "checkbox-inline").click()
-
-        '''
-        driver.find_element_by_class_name(
-            "radio-inline").click()
-        '''
-
-        driver.find_element_by_class_name(
-            "download-btn").click()
-
-        '''
-        if len(text) == 0:
-            print("空？")
+        if os.path.exists(filename):
             continue
 
-        img_url = text.split("のURL:")[1]
+        thumb_url = "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/"+thumbs[i].find("script").text.split("(")[1].split(", ")[0]
+        img_url = thumb_url.replace("thumbnail", "regular")
 
-        if img_url != "":
+        print(img_url)
 
-            print(img_url)
+        try:
+            image = Image.open(urllib.request.urlopen(img_url))
+            width, height = image.size
 
-            thumb_url = img_url.replace(".jpg", "_ls.jpg")
+            obj = {
+                "img_url": img_url,
+                "thumb_url": thumb_url,
+                "width": width,
+                "height": height
+            }
+            array.append(obj)
 
             main["thumbnail"] = thumb_url
 
-            image = Image.open(urllib.request.urlopen(img_url))
-            width, height = image.size
-
-            obj = {
-                "img_url": img_url,
-                "thumb_url": thumb_url,
-                "width": width,
-                "height": height
-            }
-            array.append(obj)
-        else:
-            print("空？")
-            continue
-
-        driver.find_element_by_id("toolbar_xpanelcont_next").click()
-
-        flg = True
-
-        while(flg):
-
-            tmp = driver.find_element_by_id(
-                "contviewer_url").text.split("のURL:")
-
-            img_url = tmp[1]
-            print(img_url)
-
-            thumb_url = img_url.replace(".jpg", "_ls.jpg")
-
-            image = Image.open(urllib.request.urlopen(img_url))
-            width, height = image.size
-
-            obj = {
-                "img_url": img_url,
-                "thumb_url": thumb_url,
-                "width": width,
-                "height": height
-            }
-            array.append(obj)
-
-            if img_url in check:
-                flg = False
-            else:
-
-                check.append(img_url)
-                driver.find_element_by_id("toolbar_xpanelcont_next").click()
-
-        f2 = open(filename, 'w')
-        json.dump(main, f2, ensure_ascii=False, indent=4,
-                  sort_keys=True, separators=(',', ': '))
-
-        '''
-
-        # time.sleep(5)
-
-        break
+            f2 = open(filename, 'w')
+            json.dump(main, f2, ensure_ascii=False, indent=4,
+                    sort_keys=True, separators=(',', ': '))
+        except:
+            print("Error")

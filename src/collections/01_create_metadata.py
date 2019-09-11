@@ -154,8 +154,12 @@ for i in range(len(all)):
     if "description" in obj:
         description = obj["description"]
 
+    license = "不明"
+    if "license" in obj:
+        license = obj["license"]
+
     row = [obj["title"], thumbnail, url, "", obj["within"],
-           obj["attribution"], obj["license"], uuid, description]
+           obj["attribution"], license, uuid, description]
 
     for key in fields:
         value = ""

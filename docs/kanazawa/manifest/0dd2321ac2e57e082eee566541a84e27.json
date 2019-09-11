@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/0dd2321ac2e57e082eee566541a84e27.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "にし茶屋街",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "風景"
+        },
+        {
+            "label": "住所",
+            "value": "金沢市　野町"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:3861 × 高さ:2574"
+        },
+        {
+            "label": "撮影地域",
+            "value": "にし茶屋街・寺町"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2013/08/15 10:50"
+        },
+        {
+            "label": "撮影時期",
+            "value": "夏"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:350 × 高さ:350 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "25m"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/4/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/0dd2321ac2e57e082eee566541a84e27.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/0dd2321ac2e57e082eee566541a84e27.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/0dd2321ac2e57e082eee566541a84e27.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/0dd2321ac2e57e082eee566541a84e27.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/4",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 969
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/4"
+                    },
+                    "width": 969
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/4"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

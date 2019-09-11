@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/9c1649e545903c5a589affb570de745c.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "長町武家屋敷跡",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "風景"
+        },
+        {
+            "label": "住所",
+            "value": "石川県 金沢市 長町"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:4800 × 高さ:3203"
+        },
+        {
+            "label": "撮影地域",
+            "value": "長町武家屋敷跡・香林坊"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2014/02/05 13:26"
+        },
+        {
+            "label": "撮影時期",
+            "value": "冬"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:300 × 高さ:300 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "30m"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/276/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/9c1649e545903c5a589affb570de745c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/9c1649e545903c5a589affb570de745c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/9c1649e545903c5a589affb570de745c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/9c1649e545903c5a589affb570de745c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/261",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 969
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/261"
+                    },
+                    "width": 969
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/261"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/3b17f1495f29875949fe89339166ed5e.json",
+    "@type": "sc:Manifest",
+    "attribution": "金沢市画像オープンデータ",
+    "label": "里見町【カナザワケンチクサンポvol.1】",
+    "license": "http://creativecommons.org/licenses/by/2.1",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "風景"
+        },
+        {
+            "label": "住所",
+            "value": "石川県　金沢市　里見町"
+        },
+        {
+            "label": "実効画像サイズ",
+            "value": "幅:793 × 高さ:1181"
+        },
+        {
+            "label": "撮影地域",
+            "value": "竪町・里見町"
+        },
+        {
+            "label": "撮影場所",
+            "value": "大きい地図で見る"
+        },
+        {
+            "label": "撮影日",
+            "value": "2010/06/22 14:46"
+        },
+        {
+            "label": "撮影時期",
+            "value": "夏"
+        },
+        {
+            "label": "画像サイズ",
+            "value": "幅:96 × 高さ:96 （インチ）"
+        },
+        {
+            "label": "高さ",
+            "value": "24m"
+        },
+        {
+            "label": "キーワード",
+            "value": "カナザワケンチクサンポvol.1"
+        },
+        {
+            "label": "備考",
+            "value": "カナザワケンチクサンポvol.1に掲載。"
+        }
+    ],
+    "related": "http://open-imagedata.city.kanazawa.ishikawa.jp/data/detail/620/search_detail",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/3b17f1495f29875949fe89339166ed5e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/3b17f1495f29875949fe89339166ed5e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 646,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/kanazawa/manifest/3b17f1495f29875949fe89339166ed5e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/kanazawa/manifest/3b17f1495f29875949fe89339166ed5e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/regular/659",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 646,
+                                "width": 434
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/659"
+                    },
+                    "width": 434
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://open-imagedata.city.kanazawa.ishikawa.jp/image/thumbnail/659"
+    },
+    "within": "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+}

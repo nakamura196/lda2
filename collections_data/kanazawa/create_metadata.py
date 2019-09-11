@@ -25,56 +25,88 @@ import time
 from PIL import Image
 
 import time
+from selenium import webdriver
 
-check = []
 
-odir = "data/metadata"
+# ChromeのDriverオブジェクト生成時にオプションに引数を追加して渡す。
+options = Options()
+options.add_argument('--headless')
+driver = webdriver.Chrome(chrome_options=options)
 
-with open('data/html.csv', 'r') as f:
-    reader = csv.reader(f)
-    header = next(reader)  # ヘッダーを読み飛ばしたい時
+odir = "data/images"
 
-    for row in reader:
+page = 0
 
-        url = row[0]
+flg = True
 
-        print("********\t"+url)
+while(flg):
 
-        id = url.split("_")[-1]
+    page += 1
 
-        filename = odir+"/"+id+".json"
+    time.sleep(1)
+
+    url = "http://open-imagedata.city.kanazawa.ishikawa.jp/search/detail?dts=&dte=&q=&p=" + \
+        str(page)
+
+    filename = odir+"/"+url.split("_")[-1]+".json"
+
+    if os.path.exists(filename):
+        continue
+
+    print("********\t"+url)
+
+    
+
+    driver.get(url)
+
+    soup = BeautifulSoup(driver.page_source, 'lxml')  # 要素を抽出
+
+    thumbs = soup.find_all(class_="thumb")
+
+    for i in range(len(thumbs)):
+
+        main = {}
+        array = []
+        main["array"] = array
+
+        url = thumbs[i].find("a").get("href")
+        print(url)
+
+        id = url.split("/")[-2]
+
+        filename = "data/metadata/"+id+".json"
 
         if os.path.exists(filename):
             continue
 
-        time.sleep(1)
+        obj = {}
+        metadata = {}
+        obj["metadata"] = metadata
+
+        obj["url"] = url
+        obj["id"] = id
+        obj["within"] = "http://open-imagedata.city.kanazawa.ishikawa.jp/"
+        obj["attribution"] = "金沢市画像オープンデータ"
+        # obj["license"] = "http://archive.library.metro.tokyo.jp/da/windowTokyo"
 
         r = requests.get(url)  # requestsを使って、webから取得
 
         soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
-        main = {}
-        main["metadata"] = {}
-
-        main["title"] = soup.find(class_="infolib_section").text.strip()
-        main["url"] = url
-        main["id"] = id
-        main["within"] = "http://www.i-repository.net/il/meta_pub/G0000307library"
-        main["attribution"] = "県立長野図書館"
-        main["license"] = "http://creativecommons.org/publicdomain/mark/1.0/"
-
-        trs = soup.find(class_="detail_tbl").find_all("tr")
+        trs = soup.find(class_="table").find_all("tr")
 
         for tr in trs:
+            field = tr.find("th").text.strip()
+            if field == "ライセンス":
+                value = tr.find("a").get("href").split("/jp")[0]
+                obj["license"] = value
+            elif field == "タイトル":
+                obj["title"] = tr.find("td").text.strip()
+            else:
+                value = tr.find("td").text.strip()
 
-            tds = tr.find_all("td")
-
-            if tds != None and len(tds) == 2:
-
-                main["metadata"][tds[0].text.strip()
-                                ] = tds[1].text.strip()
+                metadata[field] = value
 
         f2 = open(filename, 'w')
-        json.dump(main, f2, ensure_ascii=False, indent=4,
-                  sort_keys=True, separators=(',', ': '))
-
+        json.dump(obj, f2, ensure_ascii=False, indent=4,
+                    sort_keys=True, separators=(',', ': '))
