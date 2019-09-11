@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/ea1f7f8b46242242dca23861e3dfd525.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "カーリング指導者講習会広報記事 昭和５６年１月 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図書資料"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "カーリング関係"
+        },
+        {
+            "label": "タイトル",
+            "value": "カーリング指導者講習会広報記事 昭和５６年１月 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "カーリングシドウシャコウシュウカイコウホウキジ ショウワ５６ネン１ガツ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "40594"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "北海道主催の講習会 １／２６-２７常呂町内 １／２８-２９町外対象 講師：元世界チャンピオン／ウォーリー・ウースリアック氏 会場：町民センターカーリング場「広報ところ」３月号掲載記事抜粋"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-40594-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/ea1f7f8b46242242dca23861e3dfd525.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/ea1f7f8b46242242dca23861e3dfd525.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 778,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/ea1f7f8b46242242dca23861e3dfd525.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/ea1f7f8b46242242dca23861e3dfd525.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40594/0258932/0258932_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 778,
+                                "width": 457
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40594/0258932/0258932_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 457
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40594/0258932/0258932_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

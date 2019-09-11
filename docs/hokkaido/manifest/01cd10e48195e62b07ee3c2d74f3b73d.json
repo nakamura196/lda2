@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/01cd10e48195e62b07ee3c2d74f3b73d.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "オン子ナイ",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "殖民地区画図"
+        },
+        {
+            "label": "タイトル",
+            "value": "オン子ナイ"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "オンネナイ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "オン子ナイ [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "オンネナイ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730001079"
+        },
+        {
+            "label": "管理番号",
+            "value": "2814"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1929.5"
+        },
+        {
+            "label": "一般注記",
+            "value": "北海道殖民地区画図 天塩国中川郡"
+        },
+        {
+            "label": "一般注記",
+            "value": "4版 初版年：1904.9"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "シッュパンシャフメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "55×36cm"
+        },
+        {
+            "label": "版次",
+            "value": "増画"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2814-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/01cd10e48195e62b07ee3c2d74f3b73d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/01cd10e48195e62b07ee3c2d74f3b73d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4650,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/01cd10e48195e62b07ee3c2d74f3b73d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/01cd10e48195e62b07ee3c2d74f3b73d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2814/0091336/0091336_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4650,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2814/0091336/0091336_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2814/0091336/0091336_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

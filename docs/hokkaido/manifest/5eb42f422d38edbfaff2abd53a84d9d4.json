@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5eb42f422d38edbfaff2abd53a84d9d4.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "ワッカ駅逓設置 明治２１年 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "ワッカ駅逓設置 明治２１年 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ワッカエキテイセッチ メイジ２１ネン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "40849"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「常呂町百年史」に、北海道庁告示、「北海道（官設）駅逓所」、「網走市史」などの資料から明治２１年官設の休息所として設置。「常呂町百年史」には、「植民状況邦文」からとして、明治２９年の状況として「ワッカ駅舎に於いて、馬４０余頭、牛５頭を有し、砂堤に放牧」の記載。ワッカ駅逓は、大正９年１２月３１日で廃止。設置から廃止まで福吉久右衛門、ワッカ駅逓放牧地経営（福吉牧場）。写真は明治３９年頃。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-40849-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5eb42f422d38edbfaff2abd53a84d9d4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5eb42f422d38edbfaff2abd53a84d9d4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1209,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5eb42f422d38edbfaff2abd53a84d9d4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/5eb42f422d38edbfaff2abd53a84d9d4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40849/0259604/0259604_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1209,
+                                "width": 1465
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40849/0259604/0259604_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1465
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40849/0259604/0259604_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}
