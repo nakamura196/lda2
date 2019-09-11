@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/040f0d746c57390cc741deba3e00bd69.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/東京府・東京市関係資料"
+        },
+        {
+            "label": "出版年",
+            "value": "[19--]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/498.1/5272/X"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "出版者",
+            "value": "[東京市]"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウシ"
+        },
+        {
+            "label": "大きさ",
+            "value": "20×28cm"
+        },
+        {
+            "label": "資料コード",
+            "value": "7100433054"
+        },
+        {
+            "label": "件名",
+            "value": "墳墓-条例・規則"
+        },
+        {
+            "label": "件名",
+            "value": "フンボ-ジョウレイキソク"
+        },
+        {
+            "label": "タイトル",
+            "value": "東京市墓地附屬設備使用條例及同施行細則"
+        },
+        {
+            "label": "タイトル",
+            "value": "トウキョウシ ボチ フゾク セツビ シヨウ ジョウレイ オヨビ ドウ シコウ サイソク"
+        },
+        {
+            "label": "著編者",
+            "value": "[東京市／編]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000009-00040674",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/040f0d746c57390cc741deba3e00bd69.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/040f0d746c57390cc741deba3e00bd69.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1725,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/040f0d746c57390cc741deba3e00bd69.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/040f0d746c57390cc741deba3e00bd69.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00040674&size=org&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F7100433054_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1725,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00040674&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F7100433054_0001.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00040674&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F7100433054_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

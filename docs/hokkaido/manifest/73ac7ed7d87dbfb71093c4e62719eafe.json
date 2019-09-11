@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "カーリング指導者講習会 昭和５６年１月 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "カーリング関係"
+        },
+        {
+            "label": "タイトル",
+            "value": "カーリング指導者講習会 昭和５６年１月 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "カーリングシドウシャコウシュウカイ ショウワ５６ネン１ガツ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "39481"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "北海道主催の講習会 １／２６-２７常呂町内 １／２８-２９町外対象 講師：元世界チャンピオン／ウォーリー・ウースリアック氏 会場：町民センターカーリング場 参加者：９２人（社会教育事業報告）"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-39481-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 948,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39481/0252730/0252730_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 948,
+                                "width": 1432
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39481/0252730/0252730_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1432
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 952,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/73ac7ed7d87dbfb71093c4e62719eafe.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39481/0252731/0252731_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 952,
+                                "width": 1428
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39481/0252731/0252731_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1428
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39481/0252730/0252730_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

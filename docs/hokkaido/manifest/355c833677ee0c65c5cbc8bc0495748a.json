@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/355c833677ee0c65c5cbc8bc0495748a.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "滝上公園東屋",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ガラス乾板写真集"
+        },
+        {
+            "label": "タイトル",
+            "value": "滝上公園東屋"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "タキノウエコウエンアズマヤ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "滝上町図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "ガラス乾板写真集"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ガラスカンパンシャシンシュウ"
+        },
+        {
+            "label": "管理番号",
+            "value": "36005"
+        },
+        {
+            "label": "言語",
+            "value": "JPN：日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "地域",
+            "value": "滝上"
+        },
+        {
+            "label": "説明",
+            "value": "金光堂時計店の半纏"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "子どもの生活"
+        },
+        {
+            "label": "シリーズ名（ヨミ）",
+            "value": "コドモノセイカツ"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=55&data_id=5-36005-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/355c833677ee0c65c5cbc8bc0495748a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/355c833677ee0c65c5cbc8bc0495748a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1664,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/355c833677ee0c65c5cbc8bc0495748a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/355c833677ee0c65c5cbc8bc0495748a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/36005/0232093/0232093_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1664,
+                                "width": 2126
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/36005/0232093/0232093_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2126
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/36005/0232093/0232093_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}
