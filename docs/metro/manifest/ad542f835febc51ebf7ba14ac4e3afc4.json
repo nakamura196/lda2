@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad542f835febc51ebf7ba14ac4e3afc4.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "〔寛永江戸図〕",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "文化12[1815]"
+        },
+        {
+            "label": "分類",
+            "value": "地図/寛永///"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 無彩，文化十二年再版；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "江見屋吉上ｴ門"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "A13-4/東A13-004"
+        },
+        {
+            "label": "題名",
+            "value": "〔寛永江戸図〕"
+        },
+        {
+            "label": "題名",
+            "value": "カンエイ　エドズ"
+        },
+        {
+            "label": "題名",
+            "value": "江戸図"
+        },
+        {
+            "label": "大きさ",
+            "value": "cm"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "その他の江戸図"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042418",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad542f835febc51ebf7ba14ac4e3afc4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad542f835febc51ebf7ba14ac4e3afc4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4477,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad542f835febc51ebf7ba14ac4e3afc4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ad542f835febc51ebf7ba14ac4e3afc4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042418&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2FA13-004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4477,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042418&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2FA13-004.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042418&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2FA13-004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

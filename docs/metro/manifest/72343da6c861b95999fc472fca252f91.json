@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72343da6c861b95999fc472fca252f91.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［皇居（明治宮殿）御学問所・聖上常御殿］立面図（南面）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「皇居御造営　清敬　原図二」/「原図　其四」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "31×91.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木81-2-5/木081-2-005"
+        },
+        {
+            "label": "題名",
+            "value": "［皇居（明治宮殿）御学問所・聖上常御殿］立面図（南面）"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　ゴガクモンジョ　セイジョウ　ツネゴテン　リツメンズ　ナンメン"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（鉛筆）"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "［1:100］"
+        },
+        {
+            "label": "資料解説",
+            "value": "2015文化財ウィーク『江戸城から明治宮殿へ』図録p.20「この図のとおり、表宮殿と奥宮殿は、御学問所の２階から聖上常御殿へと続く長い廊下で繋がれていました。奥宮殿には、天皇・皇后などの生活空間である常御殿や、女官の詰所等がありました。和洋折衷の表宮殿に対し、書院造を取り入れた和風建築でしたが、内部には洋風の家具や暖炉、絨毯、シャンデリアなどが導入されていました。（An Elevation of the Imperial Study and Emperor's Living Quarters (South Side)）As this plan shows"
+        },
+        {
+            "label": "資料解説",
+            "value": "the Front Palace and Inner Palace were linked by a long corridor running from the second floor of the Imperial Study to the Emperor's residence. The Inner Palace"
+        },
+        {
+            "label": "資料解説",
+            "value": "which housed the living quarters of the Emperor and Empress"
+        },
+        {
+            "label": "資料解説",
+            "value": "was constructed in Japanese style"
+        },
+        {
+            "label": "資料解説",
+            "value": "but also contained Western furnishings such as fireplaces"
+        },
+        {
+            "label": "資料解説",
+            "value": "carpets"
+        },
+        {
+            "label": "資料解説",
+            "value": "and chandeliers.」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00056004",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72343da6c861b95999fc472fca252f91.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/72343da6c861b95999fc472fca252f91.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/72343da6c861b95999fc472fca252f91.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/72343da6c861b95999fc472fca252f91.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056004&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI081-002-005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056004&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI081-002-005.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00056004&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI081-002-005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

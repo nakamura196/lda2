@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/555bf4ee451035972cd85d56fd01fd42.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "文久再鐫八町堀霊岸島日本橋南之絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "文久3[1863]再刻"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/日本橋、京橋（第一大区）/日本橋/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 色刷；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "金鱗堂尾張屋清七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0421-6ア/東0421-006ア"
+        },
+        {
+            "label": "題名",
+            "value": "文久再鐫八町堀霊岸島日本橋南之絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ブンキュウ　サイセン　ハッチョウボリ　レイガンジマ　ニホンバシ　ミナミ　ノ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（原題簽）[靈岸嶋八町堀日本橋南繪圖　全]"
+        },
+        {
+            "label": "大きさ",
+            "value": "cm"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［尾張屋板切絵図　6］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "オワリヤバン　キリエズ　6"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042249",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/555bf4ee451035972cd85d56fd01fd42.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/555bf4ee451035972cd85d56fd01fd42.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5049,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/555bf4ee451035972cd85d56fd01fd42.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/555bf4ee451035972cd85d56fd01fd42.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042249&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0421-006a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5049,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042249&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0421-006a.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042249&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0421-006a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

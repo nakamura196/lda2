@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab2067bc0f4f412519dfe405a8fa6830.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「武者鏡　應仁始ヨリ元和年至」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.8×23.1cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "448-13-1(4)/東448-0013-001(04)"
+        },
+        {
+            "label": "題名",
+            "value": "「武者鏡　應仁始ヨリ元和年至」"
+        },
+        {
+            "label": "題名",
+            "value": "［ムシャカガミ　オウニンハジメヨリゲンナネンイタル］"
+        },
+        {
+            "label": "題名",
+            "value": "「志ん□　東寿會」（表紙外題）"
+        },
+        {
+            "label": "題名",
+            "value": "［シン□　アヅマノコトブキカイ］"
+        },
+        {
+            "label": "画中文字",
+            "value": "新会あつまの寿 [1]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041472",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab2067bc0f4f412519dfe405a8fa6830.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab2067bc0f4f412519dfe405a8fa6830.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ab2067bc0f4f412519dfe405a8fa6830.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ab2067bc0f4f412519dfe405a8fa6830.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041472&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-013-01%2804%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041472&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-013-01%2804%29.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041472&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F448-013-01%2804%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d01f14b4752bdc0cf43cccbc4928bb3.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[芥川龍之介　小島政二郎宛書簡]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/書簡"
+        },
+        {
+            "label": "文庫名",
+            "value": "渡辺刀水旧蔵諸家書簡文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "渡1735/渡1735"
+        },
+        {
+            "label": "題名",
+            "value": "[芥川龍之介　小島政二郎宛書簡]"
+        },
+        {
+            "label": "題名",
+            "value": "アクタガワリュウノスケ　コジママサジロウ　アテ　ショカン"
+        },
+        {
+            "label": "大きさ",
+            "value": "26.4×14.0cm"
+        },
+        {
+            "label": "形状",
+            "value": "畳物"
+        },
+        {
+            "label": "受取人",
+            "value": "小島〔政二郎〕"
+        },
+        {
+            "label": "差出人",
+            "value": "芥川龍之介"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000017-00040921",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d01f14b4752bdc0cf43cccbc4928bb3.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d01f14b4752bdc0cf43cccbc4928bb3.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3066,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7d01f14b4752bdc0cf43cccbc4928bb3.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7d01f14b4752bdc0cf43cccbc4928bb3.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000017-00040921&size=org&type=image&file=%2F%E6%9B%B8%E7%B0%A1%2FWT1735.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3066,
+                                "width": 3411
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000017-00040921&size=thumb&type=image&file=%2F%E6%9B%B8%E7%B0%A1%2FWT1735.jpg"
+                    },
+                    "width": 3411
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000017-00040921&size=thumb&type=image&file=%2F%E6%9B%B8%E7%B0%A1%2FWT1735.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

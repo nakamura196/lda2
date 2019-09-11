@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/657e2ad141a9d3f32825dee01ab4507c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）聖上常御殿・皇后宮常御殿納まり詳細図10枚綴の 8（皇后宮常御殿内法廻り）［吹上宮殿計画］",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「賢所聖上御常御殿及表宮殿向建具類」/「聖上常御殿　其一」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "28.0×39.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木92-1-2-6-9/木092-1-002-06-09"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）聖上常御殿・皇后宮常御殿納まり詳細図10枚綴の 8（皇后宮常御殿内法廻り）［吹上宮殿計画］"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　セイジョウ　ツネゴテン　コウゴウグウ　ツネゴテン　オサマリ　ショウサイズ　10マイツズリ　ノ　8　コウゴウグウ　ツネゴテン　ウチノリマワリ　フキアゲ　キュウデン　ケイカク"
+        },
+        {
+            "label": "題名",
+            "value": "「皇后宮常御殿縁側」（内題）"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治15年&nbsp;6月］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "10枚綴"
+        },
+        {
+            "label": "縮尺",
+            "value": "［1:2］"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00059559",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/657e2ad141a9d3f32825dee01ab4507c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/657e2ad141a9d3f32825dee01ab4507c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/657e2ad141a9d3f32825dee01ab4507c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/657e2ad141a9d3f32825dee01ab4507c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059559&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI092-001-002-06-09.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4491
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059559&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI092-001-002-06-09.jpg"
+                    },
+                    "width": 4491
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059559&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI092-001-002-06-09.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

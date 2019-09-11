@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d52a963299a74cdeed67ded9ef750bf8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「東都　五光商群」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "総記/郷土資料（東京）///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "76×50cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；食品，名物，薬物店等の番附；；；；"
+        },
+        {
+            "label": "版元",
+            "value": "金勇舎青山／蔵版、当世堂配之"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加372/加00372"
+        },
+        {
+            "label": "題名",
+            "value": "「東都　五光商群」"
+        },
+        {
+            "label": "題名",
+            "value": "トウト　ゴコウショウグン"
+        },
+        {
+            "label": "画中文字",
+            "value": "「嘉永三庚戌孟春」"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011大規模企画展(60-4)「下り物といって、伝統文化をバックに上方産の物品が珍重された反面、江戸ならではの商品が数多く生みだされるようになり、江戸土産としても扱われるようになりました。中でも江戸についての情報源として錦絵、草双紙のほか、ここにご紹介するような見立番付も『江戸自慢』『江戸土産』として数多く作られました。」，『江戸の食べもの』図録解説p.15「向って右に｢食類名物｣左に｢名品芸能｣を対置させ｢大江戸の繁花一紙に｣表現した摺物。122の業種の各々に5軒の店又は5人を選び｢太平余光天下の雷名ここにあけるといへとも撰に無甲乙｣と左側に云っている。題名は三国志の五虎将軍を連想させ、雷名轟く5つを意味し、雷公の大きな舌に書かれているらしい。食物関係では55種、275件の多数があがっている。年代が明確なのでよい資料であろう。この背景には、天保･弘化と江戸に遊んだ波華の西沢一鳳が『皇都午睡』の中で｢食は江戸一にて二は大坂三は京なり｡｣と言っている状況があり、諺も当時は｢京の着倒れ、江戸の食倒れ｣であった。大江戸の繁昌もここに極れりとの感がある。他に番付類を数点附陳した。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041075",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d52a963299a74cdeed67ded9ef750bf8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d52a963299a74cdeed67ded9ef750bf8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d52a963299a74cdeed67ded9ef750bf8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d52a963299a74cdeed67ded9ef750bf8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041075&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA372.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 3751
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041075&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA372.jpg"
+                    },
+                    "width": 3751
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041075&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA372.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

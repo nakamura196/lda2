@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351f7dc65aa7434d65ef24f8d273406.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "明治２９（1896）"
+        },
+        {
+            "label": "分類",
+            "value": "一般/風俗/容儀、服飾、調度//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；錦絵の貼込帖，「時代かゞみ」所収；；；；；15帖；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "東京市日本橋区吉川町二番地　松木平吉"
+        },
+        {
+            "label": "版元",
+            "value": "松木　平吉"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "073-9(22)/東073-009(022)"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "件名",
+            "value": "楊洲周延（ヨウシュウ　チカノブ）（1838-1812）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "時代かゞみ　安政之頃　飛鳥山かわらけなげ"
+        },
+        {
+            "label": "画題等",
+            "value": "ジダイカガミ　アンセイ　ノ　コロ　アスカヤマ　カワラケナゲ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "楊洲周延"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "［画］"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "楊洲周延(「楊洲」丸印)"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00008466",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351f7dc65aa7434d65ef24f8d273406.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351f7dc65aa7434d65ef24f8d273406.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2697,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c351f7dc65aa7434d65ef24f8d273406.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c351f7dc65aa7434d65ef24f8d273406.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00008466&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F073-009-22.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2697,
+                                "width": 1800
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00008466&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F073-009-22.jpg"
+                    },
+                    "width": 1800
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00008466&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F073-009-22.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

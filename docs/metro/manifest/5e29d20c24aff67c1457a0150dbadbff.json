@@ -1,0 +1,107 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[科名未詳]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "織田氏献品メリケン種十五品ノ一 按ノラナ　佛種ノラナ？ 米利堅種名未詳亥四月二日和名:ムグラ（別名）カナムグラ/漢名:葎草/記述洋名:Humulus japonicus/学名:Humulus japonicus/綱:12/目:5/科（記述）:/科（学名）:アサ（以前はクワ）/形状:/産地:/採時:/備考:カナムグラ（鉄葎）/記載文字:；〔宍戸昌〕編 『〔海雲樓博物雜纂〕』第一種［植物圖譜稿］；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特5126-1-2-3/特5126-001-002-003"
+        },
+        {
+            "label": "題名",
+            "value": "[科名未詳]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00217014",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4150,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00217014&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5126-01-002-003%28001%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4150,
+                                "width": 3300
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00217014&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5126-01-002-003%28001%29.jpg"
+                    },
+                    "width": 3300
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 3300,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/5e29d20c24aff67c1457a0150dbadbff.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000015-00217014&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5126-01-002-003%28002%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3300,
+                                "width": 4150
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000015-00217014&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5126-01-002-003%28002%29.jpg"
+                    },
+                    "width": 4150
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00217014&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5126-01-002-003%28001%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

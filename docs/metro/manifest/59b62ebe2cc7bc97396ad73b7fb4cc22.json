@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/59b62ebe2cc7bc97396ad73b7fb4cc22.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[品川台場絵図]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "国書地理////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "40.5×71.6cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "新収資料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "写；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "和1715/和1715"
+        },
+        {
+            "label": "題名",
+            "value": "[品川台場絵図]"
+        },
+        {
+            "label": "題名",
+            "value": "シナガワ　ダイバ　エズ"
+        },
+        {
+            "label": "形状",
+            "value": "一枚もの"
+        },
+        {
+            "label": "資料解説",
+            "value": "文化財ウィーク2010『黒船が来た！』図録解説p.14「品川の御台場の計画図と推測される。大森村海岸 にある町打場（大筒の練習場）等の記載から、嘉永 3-5年（1850-52）以降の製作と考えられる。測量線、 水深、海岸の屋敷名、町打場、洲、方位のすべてが 記載されている貴重な図である。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00056156",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/59b62ebe2cc7bc97396ad73b7fb4cc22.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/59b62ebe2cc7bc97396ad73b7fb4cc22.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/59b62ebe2cc7bc97396ad73b7fb4cc22.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/59b62ebe2cc7bc97396ad73b7fb4cc22.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00056156&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FWA1715.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00056156&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FWA1715.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00056156&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FWA1715.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

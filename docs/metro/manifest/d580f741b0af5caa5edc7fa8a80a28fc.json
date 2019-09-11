@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d580f741b0af5caa5edc7fa8a80a28fc.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "法隆寺西院・東院配置平面図（明治24.5）（青木良孝）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "泉涌寺泉山法隆寺相国寺知恩寺御影堂増上寺山門光明寺山門東福寺山門男山八幡北野平野神社松尾神社鴨神社山王八阪杜神楽岡斎場/法隆寺佛閣地割指図///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "53×74cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木27-17-1/木027-17-01"
+        },
+        {
+            "label": "題名",
+            "value": "法隆寺西院・東院配置平面図（明治24.5）（青木良孝）"
+        },
+        {
+            "label": "題名",
+            "value": "ホウリュウジ　サイイン　トウイン　ハイチ　ヘイメンズ　メイジ　２４　５　アオキ　ヨシタカ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「大和國平群郡斑鳩里法相宗 斑鳩山法隆寺佛閣地割指図」，「明治廿四年五月改之 青木良孝謹設」，（題箋）「法隆寺佛閣地割指図」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治24.5"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044255",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d580f741b0af5caa5edc7fa8a80a28fc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d580f741b0af5caa5edc7fa8a80a28fc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d580f741b0af5caa5edc7fa8a80a28fc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d580f741b0af5caa5edc7fa8a80a28fc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044255&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-017-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044255&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-017-001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044255&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI027-017-001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

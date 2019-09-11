@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/367956bef1cab1ecf3bb6e015e175442.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「大日本儒詩書画一覧」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "倉島伊左衛門／編集出版人"
+        },
+        {
+            "label": "出版年",
+            "value": "御届明治十八年二月廿三日"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "49×37cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；"
+        },
+        {
+            "label": "版元",
+            "value": "倉島伊左衛門"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加125-14/加00125-014"
+        },
+        {
+            "label": "題名",
+            "value": "「大日本儒詩書画一覧」"
+        },
+        {
+            "label": "題名",
+            "value": "ダイニホンジュシショガイチラン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041022",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/367956bef1cab1ecf3bb6e015e175442.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/367956bef1cab1ecf3bb6e015e175442.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/367956bef1cab1ecf3bb6e015e175442.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/367956bef1cab1ecf3bb6e015e175442.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041022&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-014.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4129
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041022&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-014.jpg"
+                    },
+                    "width": 4129
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041022&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-014.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e3240da745a38bfb048de5dfe66740.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "二条城天守建地割（寛永5・寛文3写）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子近江蔵図禁裏神社城郭建築/木子近江蔵図城郭///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "118.5×97.5cm、台紙138.5×118.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木23-2-3/木023-2-03"
+        },
+        {
+            "label": "題名",
+            "value": "二条城天守建地割（寛永5・寛文3写）"
+        },
+        {
+            "label": "題名",
+            "value": "ニジョウジョウ　テンシュ　タテジワリ　カンエイ　５　カンブン　３　ウツシ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「京二条御城三拾分一之指図」，「寛永五年十一月五日 棟梁 木子氏勝政 寛文三年八月五日 棟梁 望月秦勝久写」，（題箋）「寛永五年十一月五日 棟梁 木子氏勝政 京二條御城 御殿主 同天守 指図 寛文三年八月五日 棟梁 望月秦勝久写」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "寛永5・寛文3写"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子勝久"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00043945",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e3240da745a38bfb048de5dfe66740.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e3240da745a38bfb048de5dfe66740.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b2e3240da745a38bfb048de5dfe66740.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b2e3240da745a38bfb048de5dfe66740.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043945&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI023-002-003-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 5157
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043945&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI023-002-003-W.jpg"
+                    },
+                    "width": 5157
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043945&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI023-002-003-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

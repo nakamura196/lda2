@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ca8fa797a3f9bca52861146bd6773de6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "南本所竪川辺之地図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永4[1851]改"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/本所、深川（第六大区）/本所/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 色刷；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "[近吾堂]近江屋吾平"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0471-13/東0471-013"
+        },
+        {
+            "label": "題名",
+            "value": "南本所竪川辺之地図"
+        },
+        {
+            "label": "題名",
+            "value": "ミナミ　ホンジョ　タテカワ　ヘン　ノ　チズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽）改正南本所竪川邊圖　全"
+        },
+        {
+            "label": "大きさ",
+            "value": "42.5×59.7cm"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［近吾堂板切絵図3］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "キンゴドウバン　キリエズ3"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "編者等",
+            "value": "村上吾雄誌"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011-2大規模企画展『江戸の町づくり』リーフレットp.8「展示資料41、42番と同じく隅田川以東の本所地域の切絵図です。小名木川（絵図上部）をはじめ、竪川（絵図の中央を東西に貫く）、横川（絵図左側を上下に貫く）など、江戸になってから開拓された水路が縦横にはりめぐらされています。右下の両国橋をわたったところに、明暦の大火（1657）で命を落とした10万人ともいわれる人々を供養するために建てられた回向院があります。その下の本所御蔵のあたりが現在のJR両国駅です。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042377",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ca8fa797a3f9bca52861146bd6773de6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ca8fa797a3f9bca52861146bd6773de6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4808,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ca8fa797a3f9bca52861146bd6773de6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ca8fa797a3f9bca52861146bd6773de6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042377&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0471-013.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4808,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042377&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0471-013.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042377&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0471-013.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

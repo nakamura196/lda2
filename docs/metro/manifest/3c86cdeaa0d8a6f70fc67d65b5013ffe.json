@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c86cdeaa0d8a6f70fc67d65b5013ffe.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "木子清幸宛大阪屋市郎衛門書簡",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清房二/傳家古図祝詞傳家京都内侍所京都神嘉殿東京内侍所御仮殿カ　文化度///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "16.5×52cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木37-3-28/木037-3-28"
+        },
+        {
+            "label": "題名",
+            "value": "木子清幸宛大阪屋市郎衛門書簡"
+        },
+        {
+            "label": "題名",
+            "value": "キコ　キヨユキ　アテ　オオサカヤ　イチロウエモン　ショカン"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「御受口上」，（奥書）「七月朔日 大阪屋市郎衛門 木子河内大椽様」"
+        },
+        {
+            "label": "体裁",
+            "value": "文書"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清房"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00057681",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c86cdeaa0d8a6f70fc67d65b5013ffe.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c86cdeaa0d8a6f70fc67d65b5013ffe.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2337,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c86cdeaa0d8a6f70fc67d65b5013ffe.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3c86cdeaa0d8a6f70fc67d65b5013ffe.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057681&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI037-003-028.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2337,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057681&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI037-003-028.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00057681&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI037-003-028.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

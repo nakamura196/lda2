@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/138be2037c06c2e995da3da9f1ad5c32.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "木子清敬／赤阪離宮観菊会（明治35）招待状封筒",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "清敬御召状（箱）////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "20.8×25.2cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木170-24-2/木170-24-2"
+        },
+        {
+            "label": "題名",
+            "value": "木子清敬／赤阪離宮観菊会（明治35）招待状封筒"
+        },
+        {
+            "label": "題名",
+            "value": "キコ　キヨヨシ　アカサカ　リキュウ　カンギクカイ　メイジ　35　ショウタイジョウ　フウトウ"
+        },
+        {
+            "label": "体裁",
+            "value": "文書（封筒）1枚（170-24-1の台紙裏面に貼付）"
+        },
+        {
+            "label": "作成年",
+            "value": "明治35(1902).11.6"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00076631",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/138be2037c06c2e995da3da9f1ad5c32.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/138be2037c06c2e995da3da9f1ad5c32.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/138be2037c06c2e995da3da9f1ad5c32.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/138be2037c06c2e995da3da9f1ad5c32.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076631&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI170-024-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076631&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI170-024-002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00076631&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI170-024-002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

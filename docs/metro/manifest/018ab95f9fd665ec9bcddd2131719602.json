@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/018ab95f9fd665ec9bcddd2131719602.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "佐々木兵太夫尉小笠原長時・貞慶一巻伝授覚書（写）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "佛寺Ⅰ清敬/仏殿講演材料共二///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27.5×39cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木60-1-44/木060-1-44"
+        },
+        {
+            "label": "題名",
+            "value": "佐々木兵太夫尉小笠原長時・貞慶一巻伝授覚書（写）"
+        },
+        {
+            "label": "題名",
+            "value": "ササキ　ヘイダユウノジョウ　オガサワラ　ナガトキ　サダヨシ　イッカン　デンジュ　オボエガキ　ウツシ"
+        },
+        {
+            "label": "題名",
+            "value": "「小笠原大膳太夫 長時 同 右近太夫 貞慶 右一巻於當家 為秘事依種々懇望今傳授 畢努ニ疎早不可為 他見者也 佐々木兵太夫尉 明暦二年丙申 正月十五日 源高直」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［写しか，明暦2(1656)］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00058309",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/018ab95f9fd665ec9bcddd2131719602.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/018ab95f9fd665ec9bcddd2131719602.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4493,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/018ab95f9fd665ec9bcddd2131719602.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/018ab95f9fd665ec9bcddd2131719602.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058309&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI060-001-044.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4493,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058309&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI060-001-044.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00058309&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI060-001-044.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

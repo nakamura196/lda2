@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f8f8b96cebaff8b6f8efa00b54d9798.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「癸卯発会　力競相撲立　兼題　霞知春」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "作者",
+            "value": "千柳亭綾彦／撰"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "43×31.7cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加7424-57/加07424-057"
+        },
+        {
+            "label": "題名",
+            "value": "「癸卯発会　力競相撲立　兼題　霞知春」"
+        },
+        {
+            "label": "題名",
+            "value": "ミズノトウハッカイ　チカラクラベスモウダテ　ケンダイ　［カスミシルハル］"
+        },
+        {
+            "label": "作者カナ",
+            "value": "センリュウテイ　アヤヒコ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041188",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f8f8b96cebaff8b6f8efa00b54d9798.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f8f8b96cebaff8b6f8efa00b54d9798.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f8f8b96cebaff8b6f8efa00b54d9798.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9f8f8b96cebaff8b6f8efa00b54d9798.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041188&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-057.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041188&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-057.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041188&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA7424-057.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

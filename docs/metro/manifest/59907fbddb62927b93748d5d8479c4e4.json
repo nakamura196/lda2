@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/59907fbddb62927b93748d5d8479c4e4.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "皇居（明治宮殿）賢所便殿金物図（柱銅敷座） 7枚綴　B ノ 2",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「奥宮殿諸銅物　奥表宮殿諸銅物類奥表宮殿内法天井地違寄木張」/「奥表宮殿諸銅物　其一」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "32.5×44.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木120-2-47-2/木120-2-047-2"
+        },
+        {
+            "label": "題名",
+            "value": "皇居（明治宮殿）賢所便殿金物図（柱銅敷座） 7枚綴　B ノ 2"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　カシコドコロ　ベンデン　カナモノズ　ハシラ　ドウシキザ　7マイツズリ　Ｂ　ノ　2"
+        },
+        {
+            "label": "題名",
+            "value": "「便殿外側柱根敷座銅拾六枚」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "7枚綴"
+        },
+        {
+            "label": "縮尺",
+            "value": "［1:1］"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00065932",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/59907fbddb62927b93748d5d8479c4e4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/59907fbddb62927b93748d5d8479c4e4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/59907fbddb62927b93748d5d8479c4e4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/59907fbddb62927b93748d5d8479c4e4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00065932&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI120-002-047-2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00065932&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI120-002-047-2.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00065932&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI120-002-047-2.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

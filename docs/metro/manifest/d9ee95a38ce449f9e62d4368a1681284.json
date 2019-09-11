@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9ee95a38ce449f9e62d4368a1681284.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永初期"
+        },
+        {
+            "label": "分類",
+            "value": "一般/市外/南葛飾、東葛飾/南葛飾（亀戸、四ﾂ木、木下川）/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "遠州屋彦兵衛"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0531-K1/東K小0531-K001"
+        },
+        {
+            "label": "件名",
+            "value": "歌川広重（1世）（ウタガワ　ヒロシゲ）（1797-1858）"
+        },
+        {
+            "label": "改印等",
+            "value": "米良、村田"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "中判/淡版彩/横"
+        },
+        {
+            "label": "画題等",
+            "value": "江戸名所、亀井戸梅屋敷"
+        },
+        {
+            "label": "画題等",
+            "value": "エド　メイショ　カメイド　ウメヤシキ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川広重"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "廣重画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00219005",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9ee95a38ce449f9e62d4368a1681284.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9ee95a38ce449f9e62d4368a1681284.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2416,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d9ee95a38ce449f9e62d4368a1681284.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d9ee95a38ce449f9e62d4368a1681284.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00219005&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0531-K001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2416,
+                                "width": 3188
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00219005&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0531-K001.jpg"
+                    },
+                    "width": 3188
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00219005&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F0531-K001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

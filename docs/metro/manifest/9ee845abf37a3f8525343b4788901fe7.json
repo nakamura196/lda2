@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ee845abf37a3f8525343b4788901fe7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「盛衰記　三國志　勇士競見立　西ノ方三国志」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "17.2×23.2cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特2529-16(13)/特2529-016(13)"
+        },
+        {
+            "label": "題名",
+            "value": "「盛衰記　三國志　勇士競見立　西ノ方三国志」"
+        },
+        {
+            "label": "題名",
+            "value": "「セイスイキ　サンゴクシ　ユウシ　クラベ　ミタテ　ニシ　ノ　カタ　サンゴクシ」"
+        },
+        {
+            "label": "題名",
+            "value": "［江戸自慢］"
+        },
+        {
+            "label": "題名",
+            "value": "［エドジマン］"
+        },
+        {
+            "label": "画中文字",
+            "value": "江戸自慢　16"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041921",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ee845abf37a3f8525343b4788901fe7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ee845abf37a3f8525343b4788901fe7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ee845abf37a3f8525343b4788901fe7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9ee845abf37a3f8525343b4788901fe7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041921&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2813%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041921&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2813%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041921&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FTo2529-016%2813%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

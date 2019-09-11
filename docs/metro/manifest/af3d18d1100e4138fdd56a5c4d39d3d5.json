@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/af3d18d1100e4138fdd56a5c4d39d3d5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "牛込市谷大久保絵図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/江戸図"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永7[1854]"
+        },
+        {
+            "label": "分類",
+            "value": "一般/各区/赤坂、四谷、牛込（第三大区）/牛込/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "木版 色刷；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "金鱗堂尾張屋清七"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0443-6ア/東0443-006ア"
+        },
+        {
+            "label": "題名",
+            "value": "牛込市谷大久保絵図"
+        },
+        {
+            "label": "題名",
+            "value": "ウシゴメ　イチガヤ　オオクボ　エズ"
+        },
+        {
+            "label": "題名",
+            "value": "（題簽）大久保繪圖　全"
+        },
+        {
+            "label": "大きさ",
+            "value": "49.8×52.6cm"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "［尾張屋板切絵図　15］"
+        },
+        {
+            "label": "シリーズ名カナ",
+            "value": "オワリヤバン　キリエズ　15"
+        },
+        {
+            "label": "江戸図種別",
+            "value": "切絵図"
+        },
+        {
+            "label": "編者等",
+            "value": "戸松昌訓図"
+        },
+        {
+            "label": "資料解説",
+            "value": "2011-2大規模企画展『江戸の町づくり』リーフレットp.13「現在の新宿区の早稲田、戸塚、大久保、市ヶ谷あたりの切絵図です。町屋は外濠沿いにありますが、ほとんどが武家地です。」"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000013-00042320",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/af3d18d1100e4138fdd56a5c4d39d3d5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/af3d18d1100e4138fdd56a5c4d39d3d5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5072,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/af3d18d1100e4138fdd56a5c4d39d3d5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/af3d18d1100e4138fdd56a5c4d39d3d5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042320&size=org&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0443-006a.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5072,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042320&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0443-006a.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000013-00042320&size=thumb&type=image&file=%2F%E6%B1%9F%E6%88%B8%E5%9B%B3%2F0443-006a.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

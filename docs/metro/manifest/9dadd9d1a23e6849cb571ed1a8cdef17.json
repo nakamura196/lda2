@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9dadd9d1a23e6849cb571ed1a8cdef17.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "美術/書画、骨董/浮世絵//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；軸物；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "524-D16/東D524-D016"
+        },
+        {
+            "label": "件名",
+            "value": "鳥文斎栄之（チョウブンサイ　エイシ）（1756-1829）"
+        },
+        {
+            "label": "改印等",
+            "value": "極(寛政初期）"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "柱絵（内65×10.9cm）（外134.5×23.5cm）/錦絵/竪"
+        },
+        {
+            "label": "画題等",
+            "value": "文を奪いあう芸者と仲居"
+        },
+        {
+            "label": "画題等",
+            "value": "フミ　オ　ウバイアウ　ゲイシャ　ト　ナカイ"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "鳥文斎栄之"
+        },
+        {
+            "label": "絵師・落款",
+            "value": ""
+        },
+        {
+            "label": "絵師・落款",
+            "value": "画"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "栄之画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00223006",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9dadd9d1a23e6849cb571ed1a8cdef17.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9dadd9d1a23e6849cb571ed1a8cdef17.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2785,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9dadd9d1a23e6849cb571ed1a8cdef17.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9dadd9d1a23e6849cb571ed1a8cdef17.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00223006&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F524-D016.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2785,
+                                "width": 483
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00223006&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F524-D016.jpg"
+                    },
+                    "width": 483
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00223006&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F524-D016.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ad113ffe9a0636757d2e17da28b6d85.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "規矩図「二タ軒論支木負居処」（寛政元）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "平野社松尾社加茂社加茂別雷社八阪社日枝社其他神社宮殿局部図書常御殿廻其他雑種/仲川直道絵図安永二癸巳八月の記入あり///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "30.5×48.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木22-6-36/木022-6-36"
+        },
+        {
+            "label": "題名",
+            "value": "規矩図「二タ軒論支木負居処」（寛政元）"
+        },
+        {
+            "label": "題名",
+            "value": "キクズ　フタノキ　ロンシ　キオイ　イドコロ　カンセイ　ガン"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「二タ軒論支木負居虚」，「中川直道」）「寛政元酉六月再造 廿九日」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "寛政1.6.29"
+        },
+        {
+            "label": "家名・人名",
+            "value": "中川吉右衛門直道"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00043912",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ad113ffe9a0636757d2e17da28b6d85.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ad113ffe9a0636757d2e17da28b6d85.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9ad113ffe9a0636757d2e17da28b6d85.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9ad113ffe9a0636757d2e17da28b6d85.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043912&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI022-006-036.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043912&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI022-006-036.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00043912&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI022-006-036.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

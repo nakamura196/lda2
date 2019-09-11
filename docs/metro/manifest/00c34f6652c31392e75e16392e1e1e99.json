@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/00c34f6652c31392e75e16392e1e1e99.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "三都太夫三味線人形見競鑑",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "嘉永3"
+        },
+        {
+            "label": "分類",
+            "value": "美術/音楽/浄瑠璃付説教、祭文/義太夫節付操人形/"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "55.5×32.0cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "軸物；木版墨摺；本清版；；；"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "5668-D14(5)/東D5668-D014(005)"
+        },
+        {
+            "label": "題名",
+            "value": "三都太夫三味線人形見競鑑"
+        },
+        {
+            "label": "題名",
+            "value": "サンガノツタユウ　シャミセン　ニンギョウ　ミクラベカガミ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00079499",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/00c34f6652c31392e75e16392e1e1e99.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/00c34f6652c31392e75e16392e1e1e99.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4491,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/00c34f6652c31392e75e16392e1e1e99.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/00c34f6652c31392e75e16392e1e1e99.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00079499&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2F5668-D014%2805%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4491,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00079499&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F5668-D014%2805%29.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00079499&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2F5668-D014%2805%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
