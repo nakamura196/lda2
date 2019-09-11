@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/49fbf065a3f4303f1b8c98ecd3fb5e48.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "暴雨洪水落橋砲發ノ画",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1885.7"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "188507**"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ボウウ コウズイ ラッキョウ ホウハツ ノ ガ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "暴雨洪水落橋砲發ノ画"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013850439"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29557"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0042001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "キムラ マツノスケ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[大阪]:木村松之助"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×17cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "369.3"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "明治18年7月1日から7月4日までの洪水による被害で天神橋や京橋が落ちたり、安治川橋が上流から流されてきた橋材のため爆破を余儀なくされたことなどを伝える瓦版"
+        },
+        {
+            "label": "注釈",
+            "value": "本甼八百屋町角木村板，木版彩色刷"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29557",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/49fbf065a3f4303f1b8c98ecd3fb5e48.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/49fbf065a3f4303f1b8c98ecd3fb5e48.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2419,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/49fbf065a3f4303f1b8c98ecd3fb5e48.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/49fbf065a3f4303f1b8c98ecd3fb5e48.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198104",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2419,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198104"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198104"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

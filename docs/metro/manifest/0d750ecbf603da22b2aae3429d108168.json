@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d750ecbf603da22b2aae3429d108168.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［青山御所］御車寄木鼻現寸図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "能楽堂清敬/芝山内（後ニ靖国神社境内ニ移築）能舞臺現寸清敬///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "37.5×48.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木71-3-9/木071-3-09"
+        },
+        {
+            "label": "題名",
+            "value": "［青山御所］御車寄木鼻現寸図"
+        },
+        {
+            "label": "題名",
+            "value": "アオヤマ　ゴショ　ミクルマヨセ　キバナ　ゲンスンズ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「壹號 ヒジキバナ」，（題箋）「壱号 肘木鼻現寸之図」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:1"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00047751",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d750ecbf603da22b2aae3429d108168.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d750ecbf603da22b2aae3429d108168.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0d750ecbf603da22b2aae3429d108168.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0d750ecbf603da22b2aae3429d108168.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047751&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI071-003-009.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047751&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI071-003-009.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047751&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI071-003-009.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

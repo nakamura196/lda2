@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f3915a540c0da4fef1eaa122e1ba0336.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "海魚問屋",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "カイギョ トイヤ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "海魚問屋"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569551"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29547"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0028001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "サギイケ ヘイクロウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:鷺池平九郎"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;35×51.5cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "アサダ，イッシュウ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "一舟/画"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "大阪ざこば 神平商店"
+        },
+        {
+            "label": "注釈",
+            "value": "印刷:藤原石印"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29547",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f3915a540c0da4fef1eaa122e1ba0336.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f3915a540c0da4fef1eaa122e1ba0336.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 910,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f3915a540c0da4fef1eaa122e1ba0336.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f3915a540c0da4fef1eaa122e1ba0336.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=197958",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 910,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197958"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197958"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

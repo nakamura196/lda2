@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/646ce60adf3dfeff864e092d8adb3246.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "昆布仲買商",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[18--]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1800****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "コンブ ナカガイショウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "昆布仲買商"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569530"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29544"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0025001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ヤスイ ナラジロウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:安井楢治郎"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;33×49cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "藻苅船の図，大阪市西区靱中通弐丁目"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29544",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/646ce60adf3dfeff864e092d8adb3246.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/646ce60adf3dfeff864e092d8adb3246.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 867,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/646ce60adf3dfeff864e092d8adb3246.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/646ce60adf3dfeff864e092d8adb3246.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=197955",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 867,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197955"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197955"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

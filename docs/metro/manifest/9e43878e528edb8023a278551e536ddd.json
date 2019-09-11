@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e43878e528edb8023a278551e536ddd.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "〔越後（津幡・今石動・高岡）より江戸までの里程一覧〕",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/日本地誌/日本地誌/地図、里程表/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "9403-C5/東C9403-C005"
+        },
+        {
+            "label": "題名",
+            "value": "〔越後（津幡・今石動・高岡）より江戸までの里程一覧〕"
+        },
+        {
+            "label": "題名",
+            "value": "エチゴヨリエドマデノリテイイチラン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00229632",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e43878e528edb8023a278551e536ddd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e43878e528edb8023a278551e536ddd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1932,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9e43878e528edb8023a278551e536ddd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9e43878e528edb8023a278551e536ddd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00229632&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2F9403-C005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1932,
+                                "width": 2492
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00229632&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2F9403-C005.jpg"
+                    },
+                    "width": 2492
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00229632&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2F9403-C005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

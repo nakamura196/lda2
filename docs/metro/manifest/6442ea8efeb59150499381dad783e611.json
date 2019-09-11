@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6442ea8efeb59150499381dad783e611.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "「一時雷鳴流行批判　活模様浮世雛形」",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/番付"
+        },
+        {
+            "label": "出版年",
+            "value": "慶應二丙寅仲春発兊"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "52×37cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "加賀文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；「写真鵜飼三治」とあり；；；"
+        },
+        {
+            "label": "版元",
+            "value": "歳盛堂"
+        },
+        {
+            "label": "番付種類",
+            "value": "見立番付"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "加125-11/加00125-011"
+        },
+        {
+            "label": "題名",
+            "value": "「一時雷鳴流行批判　活模様浮世雛形」"
+        },
+        {
+            "label": "題名",
+            "value": "イチジライメイリュウコウヒハン　ダテモヨウウキヨエヒナガタ"
+        },
+        {
+            "label": "画中文字",
+            "value": "「慶應二丙寅仲春発兊　活模様浮世雛形　歳盛堂寿梓」（元は袋か？台紙に貼りつけられた一葉あり）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000014-00041019",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6442ea8efeb59150499381dad783e611.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6442ea8efeb59150499381dad783e611.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6442ea8efeb59150499381dad783e611.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6442ea8efeb59150499381dad783e611.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041019&size=org&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-011.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 3951
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041019&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-011.jpg"
+                    },
+                    "width": 3951
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000014-00041019&size=thumb&type=image&file=%2F%E7%95%AA%E4%BB%98%2FKA125-011.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

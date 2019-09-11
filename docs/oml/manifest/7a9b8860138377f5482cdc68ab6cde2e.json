@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7a9b8860138377f5482cdc68ab6cde2e.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "各国洪水飛報(しょこくおおみづしらせ)",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1885.7"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "188507**"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ショコク オオミズ シラセ，カッコク コウズイ ヒホウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "各国洪水飛報(しょこくおおみづしらせ)"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000471619"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29476"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "n0053001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "セハラステマツ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:瀬原捨松"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;54×38cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ステマツ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "瀬原 捨松/編輯"
+        },
+        {
+            "label": "請求記号",
+            "value": "450.9"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29476",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7a9b8860138377f5482cdc68ab6cde2e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/7a9b8860138377f5482cdc68ab6cde2e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1411,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/7a9b8860138377f5482cdc68ab6cde2e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/7a9b8860138377f5482cdc68ab6cde2e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=195988",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1411,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=195988"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=195988"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

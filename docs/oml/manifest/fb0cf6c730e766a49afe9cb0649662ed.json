@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/fb0cf6c730e766a49afe9cb0649662ed.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "炭薪;蒸氣問屋并ニ和船荷物ニ應ジ為換取組仕候",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "********"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "タンシン ジョウキ トイヤ ナラビニ ワセン ニモツ ニ オウジ カワセガエ トリクミ ツカマツリソウロウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "炭薪;蒸氣問屋并ニ和船荷物ニ應ジ為換取組仕候"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569510"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29680"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0055001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "タデ キンタロウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[南宇和郡]:田手金太郎"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×25cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ハセガワ，サダノブ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "貞信/画"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "花瓶に生けられた桜・牡丹の花と女性2人の絵柄，愛媛県南宇和郡貝塚港"
+        },
+        {
+            "label": "注釈",
+            "value": "木版彩色刷"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29680",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/fb0cf6c730e766a49afe9cb0649662ed.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/fb0cf6c730e766a49afe9cb0649662ed.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1725,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/fb0cf6c730e766a49afe9cb0649662ed.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/fb0cf6c730e766a49afe9cb0649662ed.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198192",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1725,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198192"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198192"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0928806c0ad55c8b951c2d68303bff90.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［皇居（明治宮殿）］橋（アーチ橋）平面図・断面図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "「皇居御造営　清敬　原図七」/「原図　其十四」///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "62.5×126cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木86-2-6/木086-2-006"
+        },
+        {
+            "label": "題名",
+            "value": "［皇居（明治宮殿）］橋（アーチ橋）平面図・断面図"
+        },
+        {
+            "label": "題名",
+            "value": "コウキョ　メイジ　キュウデン　ハシ　アーチキョウ　ヘイメンズ　ダンメンズ"
+        },
+        {
+            "label": "題名",
+            "value": "無題"
+        },
+        {
+            "label": "体裁",
+            "value": "図面（彩色）"
+        },
+        {
+            "label": "作成年",
+            "value": "［明治］"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬(明治宮殿)"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00059108",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0928806c0ad55c8b951c2d68303bff90.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0928806c0ad55c8b951c2d68303bff90.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3242,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0928806c0ad55c8b951c2d68303bff90.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0928806c0ad55c8b951c2d68303bff90.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059108&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI086-002-006-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3242,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059108&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI086-002-006-W.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00059108&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI086-002-006-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

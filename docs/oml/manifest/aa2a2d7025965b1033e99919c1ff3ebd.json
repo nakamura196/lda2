@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/aa2a2d7025965b1033e99919c1ff3ebd.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "諸國醤油塩賣捌所",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1878.12"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "187812**"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ショコク ショウユ シオ ウリサバキジョ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "諸國醤油塩賣捌所"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569545"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29699"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0074001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "サクライ ハンエモン"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[京都]:櫻井半右衛門"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×25cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "菰巻きの樽を満載した菱垣廻船の図，伏水堀詰"
+        },
+        {
+            "label": "注釈",
+            "value": "付:休暇並汽車發着表 明治十二(高野栄助)"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29699",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/aa2a2d7025965b1033e99919c1ff3ebd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/aa2a2d7025965b1033e99919c1ff3ebd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1725,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/aa2a2d7025965b1033e99919c1ff3ebd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/aa2a2d7025965b1033e99919c1ff3ebd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198211",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1725,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198211"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198211"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

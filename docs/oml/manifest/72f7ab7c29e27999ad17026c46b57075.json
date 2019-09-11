@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/72f7ab7c29e27999ad17026c46b57075.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "東海道名所之内 淀川",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1863]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1863****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "トウカイドウ メイショ ノ ウチ ヨドガワ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "東海道名所之内 淀川"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013850425"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29555"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0040001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[江戸]:[正文堂]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;37×25cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ウタガワ，ヨシツヤ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "一英斎 芳艶/画"
+        },
+        {
+            "label": "請求記号",
+            "value": "291.63"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "船首を竜頭で装飾した船. 遠景に大坂城."
+        },
+        {
+            "label": "注釈",
+            "value": "木版彩色刷"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29555",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/72f7ab7c29e27999ad17026c46b57075.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/72f7ab7c29e27999ad17026c46b57075.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1716,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/72f7ab7c29e27999ad17026c46b57075.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/72f7ab7c29e27999ad17026c46b57075.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198102",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1716,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198102"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198102"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

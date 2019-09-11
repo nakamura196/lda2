@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6d3c8c0ae91cdda2c2a8e628025fad15.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "ちちぶじゅん礼略ゑん記",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "宗教、哲学、教育/社寺/祭典、葬儀、縁日、縁起//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "刷物；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "312-C3/東C312-C003"
+        },
+        {
+            "label": "題名",
+            "value": "ちちぶじゅん礼略ゑん記"
+        },
+        {
+            "label": "題名",
+            "value": "チチブジュンレイリャクエンキ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00229126",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6d3c8c0ae91cdda2c2a8e628025fad15.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/6d3c8c0ae91cdda2c2a8e628025fad15.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1852,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/6d3c8c0ae91cdda2c2a8e628025fad15.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/6d3c8c0ae91cdda2c2a8e628025fad15.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00229126&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2F312-C003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1852,
+                                "width": 2520
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00229126&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2F312-C003.jpg"
+                    },
+                    "width": 2520
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00229126&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2F312-C003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

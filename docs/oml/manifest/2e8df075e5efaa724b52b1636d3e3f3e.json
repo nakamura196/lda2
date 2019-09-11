@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2e8df075e5efaa724b52b1636d3e3f3e.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "泉州紡績會社製絲販売代理店;各国紡績綿糸だん通用糸嶋糸いろ糸堺紡績糸販売ところ",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[18--]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1800****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "センシュウ ボウセキ ガイシャ セイシ ハンバイ ダイリテン カッコク ボウセキ メンシ ダンツウヨウ イト シマイト イロイト サカイ ボウセキ イト ハンバイ トコロ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "泉州紡績會社製絲販売代理店;各国紡績綿糸だん通用糸嶋糸いろ糸堺紡績糸販売ところ"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569573"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29693"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0068001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ツジモト ヤスシチ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[出版地不明]:辻本安七"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;26×39cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "宝船の図"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29693",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2e8df075e5efaa724b52b1636d3e3f3e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/2e8df075e5efaa724b52b1636d3e3f3e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 835,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/2e8df075e5efaa724b52b1636d3e3f3e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/2e8df075e5efaa724b52b1636d3e3f3e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198205",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 835,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198205"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198205"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

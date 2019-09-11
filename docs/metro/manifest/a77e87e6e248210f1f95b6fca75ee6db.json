@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a77e87e6e248210f1f95b6fca75ee6db.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "［蜂須賀邸日本館］断面図（第2号）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "蜂須賀侯邸////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "58×52.5cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木69-50/木069-50"
+        },
+        {
+            "label": "題名",
+            "value": "［蜂須賀邸日本館］断面図（第2号）"
+        },
+        {
+            "label": "題名",
+            "value": "ハチスカテイ　ニホンカン　ダンメンズ　ダイ　2ゴウ"
+        },
+        {
+            "label": "題名",
+            "value": "無題"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00047680",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a77e87e6e248210f1f95b6fca75ee6db.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a77e87e6e248210f1f95b6fca75ee6db.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a77e87e6e248210f1f95b6fca75ee6db.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a77e87e6e248210f1f95b6fca75ee6db.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047680&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI069-050.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4500
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047680&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI069-050.jpg"
+                    },
+                    "width": 4500
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00047680&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI069-050.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

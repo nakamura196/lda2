@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a373a771382eb8ffa150e59a84f221f7.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/浮世絵"
+        },
+        {
+            "label": "分類",
+            "value": "一般、美術/娯楽、運動/相撲付拳闘//"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "版元",
+            "value": "江戸　藤慶　油町　(藤岡や慶次郎)"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "587-C20-2/東C587-C020-002"
+        },
+        {
+            "label": "件名",
+            "value": "歌川豊国（3世）（ウタガワ　トヨクニ）（1786-1865）"
+        },
+        {
+            "label": "改印等",
+            "value": "米良、村田"
+        },
+        {
+            "label": "浮世絵種別",
+            "value": "その他の浮世絵"
+        },
+        {
+            "label": "版種",
+            "value": "大判/錦絵/堅"
+        },
+        {
+            "label": "画題等",
+            "value": "剣山谷右衛門"
+        },
+        {
+            "label": "画題等",
+            "value": "ツルギヤマ　タニエモン"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "歌川豊国（3世）"
+        },
+        {
+            "label": "絵師・落款",
+            "value": "一陽齋豊國画"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000003-00223857",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a373a771382eb8ffa150e59a84f221f7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/a373a771382eb8ffa150e59a84f221f7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2748,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/a373a771382eb8ffa150e59a84f221f7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/a373a771382eb8ffa150e59a84f221f7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00223857&size=org&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F587-C020-002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2748,
+                                "width": 1818
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00223857&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F587-C020-002.jpg"
+                    },
+                    "width": 1818
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000003-00223857&size=thumb&type=image&file=%2F%E6%B5%AE%E4%B8%96%E7%B5%B5%2F587-C020-002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

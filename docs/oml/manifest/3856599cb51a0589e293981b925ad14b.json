@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3856599cb51a0589e293981b925ad14b.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "攝刕大津波の次第;嘉永七甲寅年十一月五日",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1854(嘉永7)"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1854****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "セッシュウ オオツナミ ノ シダイ カエイ シチ キノエドシ ジュウイチガツ イツカ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "攝刕大津波の次第;嘉永七甲寅年十一月五日"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013850428"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29504"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0003001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[出版地不明]:[出版者不明]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;36×48cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "369.3"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "嘉永7年11月5日夕方4時頃発生した安政南海地震(M8.4)による津波の被害状況を伝える瓦版"
+        },
+        {
+            "label": "注釈",
+            "value": "木版刷"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29504",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3856599cb51a0589e293981b925ad14b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/3856599cb51a0589e293981b925ad14b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 933,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/3856599cb51a0589e293981b925ad14b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/3856599cb51a0589e293981b925ad14b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=197932",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 933,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197932"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197932"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/266f44e1adaaf7536da405be7d443ca5.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "南区大火地図;明治四十五年一月十六日",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1912.1"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "191201**"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ミナミク タイカ チズ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "南区大火地図;明治四十五年一月十六日"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0000412466"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29461"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "n0038001"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "タカハシ ゴノスケ イエムラブンガンドウ エミヤショテン"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪 : 高橋五之助　家村文翫堂(発売)　エミヤ書店(発売)"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;40×55cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "369.3"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29461",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/266f44e1adaaf7536da405be7d443ca5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/266f44e1adaaf7536da405be7d443ca5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 729,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/266f44e1adaaf7536da405be7d443ca5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/266f44e1adaaf7536da405be7d443ca5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=195968",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 729,
+                                "width": 1000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=195968"
+                    },
+                    "width": 1000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=195968"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

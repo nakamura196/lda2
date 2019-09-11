@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ac8cc8a2d3abaa64d185cd999307e1ff.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "[砥石商]",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1878]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1878****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "トイシショウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "[砥石商]"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569516"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29683"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0058001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ハットリ イヘエ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[京都]:服部伊兵衛"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×26cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "天使と外輪船と和船の絵柄，西京三條通寺町東へ入"
+        },
+        {
+            "label": "注釈",
+            "value": "木版彩色刷，付:明治十二年年齢早見表(多紀昱太郎)"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29683",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ac8cc8a2d3abaa64d185cd999307e1ff.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/ac8cc8a2d3abaa64d185cd999307e1ff.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1725,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/ac8cc8a2d3abaa64d185cd999307e1ff.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/ac8cc8a2d3abaa64d185cd999307e1ff.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198195",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1725,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198195"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198195"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

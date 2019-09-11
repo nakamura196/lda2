@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/47e42b80021964b3ecefd8f401643f1f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "南禅寺仏殿立面図（正面・側面）（明治22.4）（青木良孝）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "佛寺青木氏調査清敬////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "27×95.5cm（台紙28.5×96cm）"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木61-6-3/木061-06-03"
+        },
+        {
+            "label": "題名",
+            "value": "南禅寺仏殿立面図（正面・側面）（明治22.4）（青木良孝）"
+        },
+        {
+            "label": "題名",
+            "value": "ナンゼンジ　ブツデン　リツメンズ　ショウメン　ソクメン　メイジ　22　4　アオキ　ヨシタカ"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「山城國愛宕郡東山 監觴書ハ木口ニ在 天平興國南禅寺佛殿七拾分 壱之図」，「明治二十二年四月生寫」，（題箋）「南禅寺佛殿正面側面"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "明治22.4"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:70"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00046697",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/47e42b80021964b3ecefd8f401643f1f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/47e42b80021964b3ecefd8f401643f1f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/47e42b80021964b3ecefd8f401643f1f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/47e42b80021964b3ecefd8f401643f1f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046697&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI061-006-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046697&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI061-006-003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046697&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI061-006-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

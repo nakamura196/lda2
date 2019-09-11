@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c5a733f4827dbf9db3cb5cad0eabb2fb.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "平安神宮計画案（現敷地）配置図（1/400）（平安遷都紀念祭記念殿）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "大極殿/平安神宮新築雑書///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "117.5×56cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木56-2-23/木056-2-23"
+        },
+        {
+            "label": "題名",
+            "value": "平安神宮計画案（現敷地）配置図（1/400）（平安遷都紀念祭記念殿）"
+        },
+        {
+            "label": "題名",
+            "value": "ヘイアン　ジングウ　ケイカクアン　ゲンシキチ　ハイチズ　1　400　ヘイアン　セント　キネンサイ　キネンデン"
+        },
+        {
+            "label": "題名",
+            "value": "（内題）「桓武天皇平安遷都千百念紀念殿敷地之図 縮尺四百分一」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清敬"
+        },
+        {
+            "label": "数量",
+            "value": "1枚（袋入）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00046156",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c5a733f4827dbf9db3cb5cad0eabb2fb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c5a733f4827dbf9db3cb5cad0eabb2fb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3014,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c5a733f4827dbf9db3cb5cad0eabb2fb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c5a733f4827dbf9db3cb5cad0eabb2fb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046156&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI056-002-023-W.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3014,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046156&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI056-002-023-W.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00046156&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI056-002-023-W.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

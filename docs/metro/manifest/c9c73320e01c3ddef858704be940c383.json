@@ -1,0 +1,107 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "〇一種  （宍戸昌致措葉之記）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "////"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "特別買上文庫"
+        },
+        {
+            "label": "書誌注記",
+            "value": "和名:フウ、楓/漢名:/記述洋名:/学名:/綱:/目:/科（記述）:金縷梅/科（学名）:フウ/形状:/産地:/採時:/備考:/記載文字:；；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "特5125-2-5-47/特5125-002-005-047"
+        },
+        {
+            "label": "題名",
+            "value": "〇一種  （宍戸昌致措葉之記）"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00216782",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00216782&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5125-2-5-047%28001%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4491
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00216782&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5125-2-5-047%28001%29.jpg"
+                    },
+                    "width": 4491
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/c9c73320e01c3ddef858704be940c383.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000015-00216782&size=org&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5125-2-5-047%28002%29.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4491
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000015-00216782&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5125-2-5-047%28002%29.jpg"
+                    },
+                    "width": 4491
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000015-00216782&size=thumb&type=image&file=%2F%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%B2%B4%E9%87%8D%E8%B3%87%E6%96%99%2FTo5125-2-5-047%28001%29.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

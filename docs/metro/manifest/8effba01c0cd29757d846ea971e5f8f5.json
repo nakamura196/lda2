@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8effba01c0cd29757d846ea971e5f8f5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[河鍋暁斎　かち銀八宛書簡]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/書簡"
+        },
+        {
+            "label": "文庫名",
+            "value": "渡辺刀水旧蔵諸家書簡文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "渡1101/渡1101"
+        },
+        {
+            "label": "題名",
+            "value": "[河鍋暁斎　かち銀八宛書簡]"
+        },
+        {
+            "label": "題名",
+            "value": "カワナベ　キョウサイ　カチギンパチ　アテ　ショカン"
+        },
+        {
+            "label": "形状",
+            "value": "巻子"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "史外史譜141"
+        },
+        {
+            "label": "大きさ",
+            "value": "12.8×48.7cm"
+        },
+        {
+            "label": "受取人",
+            "value": "かち銀八"
+        },
+        {
+            "label": "差出人",
+            "value": "河鍋暁斎"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000017-00040920",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8effba01c0cd29757d846ea971e5f8f5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/8effba01c0cd29757d846ea971e5f8f5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2455,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/8effba01c0cd29757d846ea971e5f8f5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/8effba01c0cd29757d846ea971e5f8f5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000017-00040920&size=org&type=image&file=%2F%E6%9B%B8%E7%B0%A1%2FWT1101.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2455,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000017-00040920&size=thumb&type=image&file=%2F%E6%9B%B8%E7%B0%A1%2FWT1101.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000017-00040920&size=thumb&type=image&file=%2F%E6%9B%B8%E7%B0%A1%2FWT1101.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

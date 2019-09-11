@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4115d3ba607812c6cef91904e89b44c.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "諸國名所百景;大坂天保山",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1859]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1859****"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ショコク メイショ ヒャッケイ オオサカ テンポウザン"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "諸國名所百景;大坂天保山"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013850449"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29558"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0043001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ウオヤ エイキチ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "下谷:[魚屋栄吉]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;36×24cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "アンドウ，ヒロシゲ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "広重/画"
+        },
+        {
+            "label": "請求記号",
+            "value": "721.8"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注釈",
+            "value": "出版者は版元印による，木版彩色刷"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29558",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4115d3ba607812c6cef91904e89b44c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4115d3ba607812c6cef91904e89b44c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1735,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/f4115d3ba607812c6cef91904e89b44c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/f4115d3ba607812c6cef91904e89b44c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198105",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1735,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198105"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198105"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

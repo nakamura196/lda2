@@ -1,0 +1,147 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "電氣大博覧會會場全景圖繪 大大阪市街電鐡線路圖 三電力送電線路圖 郊外電鐡線路圖",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1926.3"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "192603**"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "デンキ ダイハクランカイ カイジョウ ゼンケイ ズエ ダイオオサカ シガイ デンテツ センロズ サンデンリョク ソウデン センロズ コウガイ デンテツ センロズ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "電氣大博覧會會場全景圖繪 大大阪市街電鐡線路圖 三電力送電線路圖 郊外電鐡線路圖"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013850443"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29509"
+        },
+        {
+            "label": "枚数",
+            "value": "2"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0010001"
+        },
+        {
+            "label": "注記_01",
+            "value": "会期・会場:大正15年3月20日から5月31日築港・天王寺公園 「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "インサツコウショウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "大阪:印刷工廠"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;53×77cm(折りたたみ27cm)"
+        },
+        {
+            "label": "請求記号",
+            "value": "606"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注釈",
+            "value": "色刷 両面刷"
+        },
+        {
+            "label": "版・版関連事項",
+            "value": "再版"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29509",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 847,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=197939",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 847,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197939"
+                    },
+                    "width": 1200
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 847,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/855010a1cf9fa5b7e5d030b5e0fdb0dc.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=197940",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 847,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197940"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197939"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

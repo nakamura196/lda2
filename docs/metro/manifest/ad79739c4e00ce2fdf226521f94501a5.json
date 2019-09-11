@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad79739c4e00ce2fdf226521f94501a5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "学習院（学習所）便所増築平面図（安政6）（安政6）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/建築図面"
+        },
+        {
+            "label": "分類",
+            "value": "木子清幸一/学習院之図///"
+        },
+        {
+            "label": "大きさ（cm）",
+            "value": "38×27cm"
+        },
+        {
+            "label": "文庫名",
+            "value": "木子文庫"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "木40-4-3/木040-4-03"
+        },
+        {
+            "label": "題名",
+            "value": "学習院（学習所）便所増築平面図（安政6）（安政6）"
+        },
+        {
+            "label": "題名",
+            "value": "ガクシュウイン　ガクシュウジョ　ベンジョ　ゾウチク　ヘイメンズ　アンセイ　6　アンセイ　6"
+        },
+        {
+            "label": "題名",
+            "value": "（外題）「學習院両便所之図 但御学頭之便所也 安政六未年十一月 図面帳面共添差上候」"
+        },
+        {
+            "label": "体裁",
+            "value": "図面"
+        },
+        {
+            "label": "作成年",
+            "value": "安政6.11(1859)"
+        },
+        {
+            "label": "家名・人名",
+            "value": "木子清幸"
+        },
+        {
+            "label": "数量",
+            "value": "1枚"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000016-00044887",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad79739c4e00ce2fdf226521f94501a5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad79739c4e00ce2fdf226521f94501a5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad79739c4e00ce2fdf226521f94501a5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ad79739c4e00ce2fdf226521f94501a5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044887&size=org&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI040-004-003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4500,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044887&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI040-004-003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000016-00044887&size=thumb&type=image&file=%2F%E5%BB%BA%E7%AF%89%E5%9B%B3%E9%9D%A2%2FKI040-004-003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

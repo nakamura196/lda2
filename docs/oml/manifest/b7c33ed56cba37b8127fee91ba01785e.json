@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7c33ed56cba37b8127fee91ba01785e.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "天保山御固図",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "1902.7"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "190207**"
+        },
+        {
+            "label": "文書種別",
+            "value": "x：大阪関係などの文書"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "テンポウザン オカタメ ズ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "天保山御固図"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013850446"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29511"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0012001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ソドウ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[書写地不明]:[蘓堂]"
+        },
+        {
+            "label": "形態",
+            "value": "掛物1軸;138×76cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ソドウ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "蘓堂/[写]"
+        },
+        {
+            "label": "請求記号",
+            "value": "392"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "嘉永7(1854)年9月18日ロシア軍艦が天保山沖に停泊した時の様子を描いた図を模写."
+        },
+        {
+            "label": "注釈",
+            "value": "図54×73cm"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29511",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7c33ed56cba37b8127fee91ba01785e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7c33ed56cba37b8127fee91ba01785e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 898,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/b7c33ed56cba37b8127fee91ba01785e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/b7c33ed56cba37b8127fee91ba01785e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=197942",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 898,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197942"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=197942"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

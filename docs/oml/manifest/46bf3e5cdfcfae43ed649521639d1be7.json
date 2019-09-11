@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/46bf3e5cdfcfae43ed649521639d1be7.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "萬金物商 并ニ古銅古鐡売買;舩釘和鐡洋鐡網針",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1881]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1881****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "ヨロズ カナモノショウ ナラビニ コドウ フルテツ バイバイ フナクギ ワテツ ヨウテツ アミバリ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "萬金物商 并ニ古銅古鐡売買;舩釘和鐡洋鐡網針"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569528"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29689"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0064001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "マエダ リヘエ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[大阪]:前田利兵衛"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×26cm"
+        },
+        {
+            "label": "著者(カナ)",
+            "value": "ハセガワ，サダノブ"
+        },
+        {
+            "label": "著者(漢字)",
+            "value": "貞信/[画]"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "西洋式帆船と蒸気船を手前に千石船を遠景に描く，大阪南堀江三番丁 京屋"
+        },
+        {
+            "label": "注釈",
+            "value": "木版彩色刷，付:明治十五年略歴(頒暦社)"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29689",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/46bf3e5cdfcfae43ed649521639d1be7.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/46bf3e5cdfcfae43ed649521639d1be7.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1725,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/46bf3e5cdfcfae43ed649521639d1be7.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/46bf3e5cdfcfae43ed649521639d1be7.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198201",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1725,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198201"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198201"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}

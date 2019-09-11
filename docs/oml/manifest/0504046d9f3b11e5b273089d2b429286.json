@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/oml/manifest/0504046d9f3b11e5b273089d2b429286.json",
+    "@type": "sc:Manifest",
+    "attribution": "大阪市立図書館デジタルアーカイブ",
+    "label": "刻煙草製造仲買小売所;諸国銘葉",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata": [
+        {
+            "label": "刊年表示形",
+            "value": "[1883]"
+        },
+        {
+            "label": "刊年／作成年（数値）",
+            "value": "1883****"
+        },
+        {
+            "label": "文書種別",
+            "value": "f：引札"
+        },
+        {
+            "label": "書名1(カナ)",
+            "value": "キザミタバコ セイゾウ ナカガイ コウリジョ ショコク メイヨウ"
+        },
+        {
+            "label": "書名1(漢字)",
+            "value": "刻煙草製造仲買小売所;諸国銘葉"
+        },
+        {
+            "label": "書誌ID",
+            "value": "0013569506"
+        },
+        {
+            "label": "書誌管理番号",
+            "value": "29678"
+        },
+        {
+            "label": "枚数",
+            "value": "1"
+        },
+        {
+            "label": "注記_04",
+            "value": "CC-BY（クリエイティブ・コモンズ・ライセンス）"
+        },
+        {
+            "label": "管理番号",
+            "value": "p0053001"
+        },
+        {
+            "label": "注記_01",
+            "value": "「なにわの海の時空館」旧蔵資料"
+        },
+        {
+            "label": "出版者(カナ)",
+            "value": "ウエダ トモキチ"
+        },
+        {
+            "label": "出版者(漢字)",
+            "value": "[八日市]:[上田友吉]"
+        },
+        {
+            "label": "形態",
+            "value": "1枚;38×26cm"
+        },
+        {
+            "label": "請求記号",
+            "value": "674.7"
+        },
+        {
+            "label": "資料種別1",
+            "value": "12：貴重書"
+        },
+        {
+            "label": "注記_02",
+            "value": "蔵が建ち並ぶ岸に船をつけて荷揚げ作業をしている様子を描いた絵柄，八日市上日吉"
+        },
+        {
+            "label": "注釈",
+            "value": "木版彩色刷，付:明治十七年略暦(西湖堂鳥居猪之助)"
+        }
+    ],
+    "related": "http://image.oml.city.osaka.lg.jp/archive/detail.do?id=29678",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/oml/manifest/0504046d9f3b11e5b273089d2b429286.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/oml/manifest/0504046d9f3b11e5b273089d2b429286.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1725,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/oml/manifest/0504046d9f3b11e5b273089d2b429286.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/oml/manifest/0504046d9f3b11e5b273089d2b429286.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://image.oml.city.osaka.lg.jp/archive/get-media?data_no=198190",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1725,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198190"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://image.oml.city.osaka.lg.jp/archive/get-middle?data_no=198190"
+    },
+    "within": "http://image.oml.city.osaka.lg.jp/archive/"
+}
