@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/00bce04a0787d1b1482bf25ac5ae3089.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "旭川市東鷹栖地区敬老会",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "旭川市図書館所蔵写真"
+        },
+        {
+            "label": "タイトル",
+            "value": "旭川市東鷹栖地区敬老会"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "アサヒカワシヒガシタカスチクケイロウカイ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "旭川市図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41137"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "昭和51年9月8日"
+        },
+        {
+            "label": "一般注記",
+            "value": "東鷹栖"
+        },
+        {
+            "label": "内容注記",
+            "value": "時代目安：昭和40-64年"
+        },
+        {
+            "label": "内容細目",
+            "value": "老人福祉"
+        },
+        {
+            "label": "説明",
+            "value": "記念品を渡す松本市長"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=53&data_id=5-41137-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/00bce04a0787d1b1482bf25ac5ae3089.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/00bce04a0787d1b1482bf25ac5ae3089.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1960,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/00bce04a0787d1b1482bf25ac5ae3089.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/00bce04a0787d1b1482bf25ac5ae3089.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41137/0260582/0260582_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1960,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41137/0260582/0260582_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41137/0260582/0260582_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

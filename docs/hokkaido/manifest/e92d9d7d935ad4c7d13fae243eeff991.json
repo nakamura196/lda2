@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/e92d9d7d935ad4c7d13fae243eeff991.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "明治二己巳年十一月迄札幌之図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "明治二己巳年十一月迄札幌之図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "メイジ キシ ニネン ジュウイチガツ マデ サッポロ ノ ズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "明治二己巳年十一月迄札幌之図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "メイジ キシ ニネン ジュウイチガツ マデ サッポロ ノ ズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3000700006965"
+        },
+        {
+            "label": "管理番号",
+            "value": "1661"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1894.3"
+        },
+        {
+            "label": "一般注記",
+            "value": "此原図ハ高見沢権之丞氏明治八年六月六十一才ノ筆写ニ係ル者ナリとあり"
+        },
+        {
+            "label": "地域",
+            "value": "札幌"
+        },
+        {
+            "label": "説明",
+            "value": "図に「此原図ハ高見沢権之丞氏、明治八年六月六十一才ノ筆写ニ係ル者ナリ。明治二十七年三月」との記載があり、この図の来歴を物語っている。石版無彩刷の小図であるが、草創期の札幌市街の様子を垣間見ることができる。高見沢は開拓使に乞われて札幌に住居し、明治初期の札幌で土木・建築事業などで活躍した人物である。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "出版者",
+            "value": "〔出版者不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "31×51cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1661-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/e92d9d7d935ad4c7d13fae243eeff991.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/e92d9d7d935ad4c7d13fae243eeff991.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1522,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/e92d9d7d935ad4c7d13fae243eeff991.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/e92d9d7d935ad4c7d13fae243eeff991.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1661/0080626/0080626_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1522,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1661/0080626/0080626_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1661/0080626/0080626_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

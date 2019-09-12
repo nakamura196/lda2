@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "雪印乳業株式会社常呂工場 昭和３０年 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "雪印乳業株式会社常呂工場 昭和３０年 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ユキジルシニュウギョウカブシキカイシャトコロコウジョウ ショウワ３０ネン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41058"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和２８年：雪印集乳所開設（共立百年史）昭和３０年：町内に２つあった集乳所を統合して雪印乳業株式会社常呂工場に（農協５０年史） ＊場所は常楽寺の南側、現在の常呂駐在所写真は、昭和３０年代の常呂工場と昭和４５年の常呂高校仮装行列の写真に写り込んだもの。昭和４９年の常呂町酪農振興会臨時総会で、原料乳の配乳が雪印網走工場から森永佐呂間工場に変更（その前から常呂工場は閉鎖）"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41058-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 731,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41058/0260290/0260290_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 731,
+                                "width": 1121
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41058/0260290/0260290_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1121
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 653,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/54c12884eab0469af6f8ea2701ddd6a6.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41058/0260291/0260291_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 653,
+                                "width": 967
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41058/0260291/0260291_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 967
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41058/0260290/0260290_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

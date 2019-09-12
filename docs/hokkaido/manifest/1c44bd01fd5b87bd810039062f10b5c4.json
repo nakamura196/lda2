@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "めぐみ保育園園内行事 昭和３８年 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "めぐみ保育園園内行事 昭和３８年 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "メグミホイクエンエンナイギョウジ ショウワ３８ネン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41973"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "めぐみ保育園は、基督教常呂教会に附属して昭和３４年６月３日開園。場所は、現在の開進町会館（字常呂５１８番地）、昭和４７年１２月閉園。写真には「おめでとう」の文字で壁面を飾っている。保育園の行事または教会の行事の可能性がある。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41973-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 681,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41973/0263015/0263015_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 681,
+                                "width": 990
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41973/0263015/0263015_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 990
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 678,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/1c44bd01fd5b87bd810039062f10b5c4.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41973/0263016/0263016_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 678,
+                                "width": 990
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41973/0263016/0263016_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 990
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41973/0263015/0263015_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

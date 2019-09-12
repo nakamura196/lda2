@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/08145dab801c4befc66502bc91d03d7f.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "鐺沸に北海道のり養殖センター建設 昭和４３年 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "鐺沸に北海道のり養殖センター建設 昭和４３年 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トウフツ・ホッカイドウノリヨウショクセンターケンセツ ショウワ４３ネン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "40500"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和４３年：全漁連・道漁連が鐺沸に建設、６月発足。サロマ湖・外海でのり養殖実施。昭和４４年：サロマ湖・外海ともにのり養殖は好調だったが、１０月、１１月の大時化で施設の大半大破。昭和４５年：オキザル沖合にのり養殖保全施設設置。昭和４８年：北海道のり養殖センター閉鎖。 ＊「常呂漁協４０年誌」"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-40500-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/08145dab801c4befc66502bc91d03d7f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/08145dab801c4befc66502bc91d03d7f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 883,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/08145dab801c4befc66502bc91d03d7f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/08145dab801c4befc66502bc91d03d7f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40500/0258487/0258487_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 883,
+                                "width": 1431
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40500/0258487/0258487_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1431
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40500/0258487/0258487_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}
