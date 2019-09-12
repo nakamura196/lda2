@@ -58,14 +58,14 @@ categories = [
     # "名古屋の絵葉書集",
     # "鶴舞公園にあった動物園", 
     # "特別集書資料", 
-    "郷土検索データベース", 
+    # "郷土検索データベース", 
     "市政資料館資料検索"
     ]
 
 for category in categories:
 
     flg = True
-    p = 2576
+    p = 0
 
     while(flg):
 
