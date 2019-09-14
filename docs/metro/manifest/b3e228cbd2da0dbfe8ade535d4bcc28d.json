@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3e228cbd2da0dbfe8ade535d4bcc28d.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/0・200/3416/"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵葉書32枚"
+        },
+        {
+            "label": "出版者",
+            "value": "青雲堂出版部"
+        },
+        {
+            "label": "出版者",
+            "value": "セイウンドウ シュッパンブ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×9cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "最新大東京"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "サイシン ダイトウキョウ"
+        },
+        {
+            "label": "注記",
+            "value": "色刷 箱入(15cm)"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "浅草仲見世と仁王門の遠望 \"Nio\"Gate & \"Nakamise\"shop street of Asakusa"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "浅草仲見世と仁王門往昔雷門があったと言う所謂雷門前で下車すれば直ちに仲見世通りである。雷おこし、紅梅焼等は此地の名物で百余軒の土産物店は軒を並べ仁王門に至る。一寸八分金の観世音像は十八間四面の御堂に鎮座し、御利益あらたかなる由。之れに燐して浅草興行街がある。"
+        },
+        {
+            "label": "資料コード",
+            "value": "1128258912"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00002786",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3e228cbd2da0dbfe8ade535d4bcc28d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3e228cbd2da0dbfe8ade535d4bcc28d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b3e228cbd2da0dbfe8ade535d4bcc28d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b3e228cbd2da0dbfe8ade535d4bcc28d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002786&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1128258912-0030.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4090,
+                                "width": 5450
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002786&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1128258912-0030.jpg"
+                    },
+                    "width": 5450
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002786&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1128258912-0030.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

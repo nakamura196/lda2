@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f12f3fcfa71a5513171a46b331943331.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "十五題　十三題　,　〔登美宮吉子様御筆〕 　／　ジュウゴダイ　,　トミノミヤ　ヨシコ　サマ　ゴヒツ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　登美宮吉子"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "９１１．１５８"
+        },
+        {
+            "label": "形態",
+            "value": "１巻　;　２４ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "巻子本，箱入り  女流ちらし書，吟咏「月」２８題"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Jpeg形式）（610KB）"
+        },
+        {
+            "label": "著者名",
+            "value": "登美宮　　吉子著　／　トミノミヤ，ヨシコ"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051192332　／　Ｗ　　-　０９９　　　　-　１８１"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（html形式）（400KB）"
+        },
+        {
+            "label": "内容注記",
+            "value": "内容：十五夜月　山家待月　見月恋昔　都月　名所月　水中月　月似霜　月為友　秋月勝　春花　月毎秋友　月前雁　月前竹　月前舟　月前言志　月前祝　他１３題"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192332/23_07_tomino.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f12f3fcfa71a5513171a46b331943331.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f12f3fcfa71a5513171a46b331943331.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 786,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f12f3fcfa71a5513171a46b331943331.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/f12f3fcfa71a5513171a46b331943331.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192332/7-g.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 786,
+                                "width": 8617
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192332/7-g.jpg"
+                    },
+                    "width": 8617
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192332/7-g.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

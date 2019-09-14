@@ -23,58 +23,25 @@ import json
 import time
 from PIL import Image
 
-url = "https://iss.ndl.go.jp/api/oaipmh?verb=ListRecords&metadataPrefix=dcndl_simple&set=ibaraki&from=2014-10-01"
+
+url = "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html#sonota"
 
 r = requests.get(url)  # requestsを使って、webから取得
 
-soup = BeautifulSoup(r.text, 'xml')  # 要素を抽出
-
-metadatas = soup.find_all("metadata")
-
-print(len(metadatas))
-
-for metadata in metadatas:
-    print(metadata)
-    seeAlso = metadata.find("rdfs:seeAlso").get("rdf:resource")
-    print(seeAlso)
-
-'''
-
-
-
-rows = []
-row = ["id", "img_url", "thumb_url", "width", "height"]
-rows.append(row)
-
-rows2 = []
-row2 = ["id", "thumb_url"]
-rows2.append(row2)
-
-f = open("data/data.html")
-html = f.read()
-f.close()
-
-soup = BeautifulSoup(html)
+soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
 aas = soup.find_all("a")
-
-urls = []
 
 for j in range(len(aas)):
     a = aas[j]
 
-    if a.get("href") != None and "mkey" in a.get("href"):
+    if a.get("href") != None and "valuable_m" in a.get("href"):
 
-        url = "https://archives.nishi.or.jp/"+a.get("href")
-
-        if url in urls:
-            continue
-
-        urls.append(url)
+        url = "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/"+a.get("href")
 
         print(url)
 
-        id = url.split("=")[-1]
+        id = url.split("/")[-2]
 
         filename = "data/images/"+id+".json"
 
@@ -91,21 +58,21 @@ for j in range(len(aas)):
 
         soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
-        imgs = soup.find(class_="group").find_all("img")
-
-        thumb_flg = True
+        imgs = soup.find_all("a")
 
         if len(imgs) != 0:
 
-            continue
-
             for img in imgs:
-                src = img.get("src")
+                src = img.get("href")
 
-                if "media/thumb" in src:
+                if ".png" in src or ".jpg" in src:
 
-                    thumb_url = "https://archives.nishi.or.jp/"+src
-                    img_url = thumb_url.replace("/thumb/", "/middle/")
+                    last = url.split("/")[-1]
+
+                    thumb_url = url.replace("/"+last, "/")+src
+                    print(thumb_url)
+
+                    img_url = thumb_url
 
                     image = Image.open(urllib.request.urlopen(img_url))
                     width, height = image.size
@@ -118,40 +85,14 @@ for j in range(len(aas)):
                     }
                     array.append(obj)
 
-                    if thumb_flg:
+                    if "thumbnail" not in main:
 
                         main["thumbnail"] = thumb_url
+                else:
+                    continue
 
-                        thumb_flg = False
-
-        else:
-            imgs = soup.find_all("img")
-
-            for img in imgs:
-                src = img.get("src")
-                if "media/middle" in src:
-
-                    img_url = "https://archives.nishi.or.jp/"+src
-                    thumb_url = img_url.replace("/middle/", "/thumb/")
-
-                    image = Image.open(urllib.request.urlopen(img_url))
-                    width, height = image.size
-
-                    obj = {
-                        "img_url": img_url,
-                        "thumb_url": thumb_url,
-                        "width": width,
-                        "height": height
-                    }
-                    array.append(obj)
-
-                    if thumb_flg:
-
-                        main["thumbnail"] = thumb_url
-
-                        thumb_flg = False
+        
 
         f2 = open(filename, 'w')
         json.dump(main, f2, ensure_ascii=False, indent=4,
                   sort_keys=True, separators=(',', ': '))
-'''

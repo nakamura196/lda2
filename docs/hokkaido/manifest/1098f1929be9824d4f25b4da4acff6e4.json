@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1098f1929be9824d4f25b4da4acff6e4.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "原孤葉句碑建立除幕 昭和３９年１０月２５日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "原孤葉句碑建立除幕 昭和３９年１０月２５日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ハラコヨウクヒコンリュウジョマク ショウワ３９ネン１０ガツ２５ニチ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "40972"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「ところ文庫１０ 常呂町歴史散歩」から抜粋「栄浦第１キャンプ場内（注：現在は廃止）に昭和３９年１１月に常呂町文化連盟、蛙声（あせい）会、網走十七美会（となみかい）が建立した石碑です。原孤葉の句「鮭曳の唄よ日が落つ風の中」を刻んでいます。原孤葉氏は本名を紋蔵といい、明治２９（１８９６）年に滋賀県浅井郡に生まれ、網走町収入役、常呂村長、常呂町教育長を歴任した人です。そして、一方では俳句の蛙声会のよき指導者であり、その顕彰の意を込めてこの碑が建立されましたが、昭和４６年に逝去されました。 ＊現在、この石碑は鶴雅リゾート右横の小公園近くに移転しています。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-40972-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1098f1929be9824d4f25b4da4acff6e4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1098f1929be9824d4f25b4da4acff6e4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1600,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1098f1929be9824d4f25b4da4acff6e4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/1098f1929be9824d4f25b4da4acff6e4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40972/0260075/0260075_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1600,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40972/0260075/0260075_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40972/0260075/0260075_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

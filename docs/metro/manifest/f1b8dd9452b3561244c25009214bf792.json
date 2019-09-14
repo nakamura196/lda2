@@ -1,0 +1,138 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1b8dd9452b3561244c25009214bf792.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[1932]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/33・369/5029/1932"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(3枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "シュッパンシャ フメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×8.6cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "白木屋本店火災寫眞"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "シロキヤ ホンテン カサイ シャシン"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "昭和七年十二月十六日"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "ショウワ ナナネン ジュウニガツ ジュウロクニチ"
+        },
+        {
+            "label": "注記",
+            "value": "タイトルはホルダーによる"
+        },
+        {
+            "label": "注記",
+            "value": "ホルダー入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "飛行機上ヨリ見タル白木屋火災"
+        },
+        {
+            "label": "資料コード",
+            "value": "5006019063"
+        },
+        {
+            "label": "件名",
+            "value": "火災"
+        },
+        {
+            "label": "件名",
+            "value": "カサイ"
+        },
+        {
+            "label": "災害名称",
+            "value": "昭和期の大火"
+        },
+        {
+            "label": "災害年代",
+            "value": "昭和"
+        },
+        {
+            "label": "災害種別",
+            "value": "火災"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004242",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1b8dd9452b3561244c25009214bf792.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1b8dd9452b3561244c25009214bf792.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f1b8dd9452b3561244c25009214bf792.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f1b8dd9452b3561244c25009214bf792.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004242&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006019063_0004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4090,
+                                "width": 5450
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004242&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006019063_0004.jpg"
+                    },
+                    "width": 5450
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004242&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006019063_0004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

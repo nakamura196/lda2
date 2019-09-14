@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1a636decbc34f2ecbdec0e2c4162443f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "1934.5"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・620/5020/"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "地図1枚 色刷"
+        },
+        {
+            "label": "出版者",
+            "value": "[東京市]"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウシ"
+        },
+        {
+            "label": "大きさ",
+            "value": "55×64cm(折りたたみ24×16cm)"
+        },
+        {
+            "label": "資料コード",
+            "value": "5002152655"
+        },
+        {
+            "label": "件名",
+            "value": "東京都区部"
+        },
+        {
+            "label": "件名",
+            "value": "トウキョウトクブ"
+        },
+        {
+            "label": "著編者",
+            "value": "[東京市／編]"
+        },
+        {
+            "label": "図名",
+            "value": "東京市公園配置圖"
+        },
+        {
+            "label": "図名",
+            "value": "トウキョウシ コウエン ハイチズ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00001680",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1a636decbc34f2ecbdec0e2c4162443f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1a636decbc34f2ecbdec0e2c4162443f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1a636decbc34f2ecbdec0e2c4162443f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1a636decbc34f2ecbdec0e2c4162443f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001680&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5002152655_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 5884
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001680&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5002152655_0001.jpg"
+                    },
+                    "width": 5884
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001680&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5002152655_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

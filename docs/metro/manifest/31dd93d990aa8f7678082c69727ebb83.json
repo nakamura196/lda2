@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/31dd93d990aa8f7678082c69727ebb83.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/東京府・東京市関係資料"
+        },
+        {
+            "label": "出版年",
+            "value": "1935.6"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/0・200/3191/"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "1冊(頁付なし)"
+        },
+        {
+            "label": "出版者",
+            "value": "青海堂"
+        },
+        {
+            "label": "出版者",
+            "value": "セイカイドウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×23cm"
+        },
+        {
+            "label": "資料コード",
+            "value": "1125862431"
+        },
+        {
+            "label": "タイトル",
+            "value": "大東京名所百景写真帖"
+        },
+        {
+            "label": "タイトル",
+            "value": "ダイトウキョウ メイショ ヒャッケイ シャシンチョウ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000009-00005622",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/31dd93d990aa8f7678082c69727ebb83.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/31dd93d990aa8f7678082c69727ebb83.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2161,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/31dd93d990aa8f7678082c69727ebb83.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/31dd93d990aa8f7678082c69727ebb83.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00005622&size=org&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1125862431_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2161,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00005622&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1125862431_0001.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00005622&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1125862431_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

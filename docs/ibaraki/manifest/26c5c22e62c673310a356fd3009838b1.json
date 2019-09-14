@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/26c5c22e62c673310a356fd3009838b1.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "杏所先生書翰　／　キョウショ　センセイ　ショカン",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "立原　　杏所"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔水戸〕　:　立原杏所書"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔１８‐‐〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "２８９．１"
+        },
+        {
+            "label": "形態",
+            "value": "１巻　;　２３ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "自筆，巻子本 １０通 軸の題：杏所書翰集"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Jpeg形式）（800KB）"
+        },
+        {
+            "label": "著者名",
+            "value": "立原　杏所（１７８５〜１８４０）著　／　タチハラ，キヨウシヨ"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051355665　／　Ｗ　　-　０９２．８　　-　２６５"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　立原杏所"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（html形式）（400KB）"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355665/23_05_kyoshosyo.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/26c5c22e62c673310a356fd3009838b1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/26c5c22e62c673310a356fd3009838b1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 844,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/26c5c22e62c673310a356fd3009838b1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/26c5c22e62c673310a356fd3009838b1.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355665/5-g.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 844,
+                                "width": 9240
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355665/5-g.jpg"
+                    },
+                    "width": 9240
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355665/5-g.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

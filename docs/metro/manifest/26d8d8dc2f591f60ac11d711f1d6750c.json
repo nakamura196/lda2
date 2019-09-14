@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/26d8d8dc2f591f60ac11d711f1d6750c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[1914?]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・600/5018/"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき35枚 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "萬集堂"
+        },
+        {
+            "label": "出版者",
+            "value": "バンシュウドウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×10cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "大正博覽會[絵はがき]"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "タイショウ ハクランカイ"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "水産館"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "大正博覧会 第一会場"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003605862"
+        },
+        {
+            "label": "内容細目",
+            "value": "内容:大正博覽會.東京大正博覽會ほか"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00003704",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/26d8d8dc2f591f60ac11d711f1d6750c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/26d8d8dc2f591f60ac11d711f1d6750c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/26d8d8dc2f591f60ac11d711f1d6750c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/26d8d8dc2f591f60ac11d711f1d6750c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003704&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003605862_0011.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003704&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003605862_0011.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003704&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003605862_0011.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

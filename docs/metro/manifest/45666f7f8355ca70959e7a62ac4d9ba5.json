@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/45666f7f8355ca70959e7a62ac4d9ba5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "1920.2"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "/10・21B/3001/20A"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき4枚"
+        },
+        {
+            "label": "出版者",
+            "value": "東京府"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウフ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×10cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "東京府民政史料展覧会記念絵葉書"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "トウキョウフ ミンセイ シリョウ テンランカイ キネン エハガキ"
+        },
+        {
+            "label": "注記",
+            "value": "袋入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "川崎平右衛門伊奈半左衛門謝恩塔　北多摩郡小平村榎戸新田所在"
+        },
+        {
+            "label": "資料コード",
+            "value": "1114684046"
+        },
+        {
+            "label": "内容細目",
+            "value": "内容:川崎平右衛門伊奈半左衛門謝恩塔(北多摩郡小平村榎戸新田所在).小泉次太夫四カ領用水掘割普請之図.西多摩郡五日市町小和田広徳寺文書.西多摩郡平井郷伝馬定書"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00002617",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/45666f7f8355ca70959e7a62ac4d9ba5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/45666f7f8355ca70959e7a62ac4d9ba5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5616,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/45666f7f8355ca70959e7a62ac4d9ba5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/45666f7f8355ca70959e7a62ac4d9ba5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002617&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1114684046_0005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5616,
+                                "width": 3744
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002617&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1114684046_0005.jpg"
+                    },
+                    "width": 3744
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002617&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F1114684046_0005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

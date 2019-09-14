@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/76603926451690dd124e6efcf2184f5b.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "蘭山禅師詩　,　四季詠詩　／　ランザン　ゼンジ　シ　,　シキ　エイシ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　蘭山道"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "９１９．５"
+        },
+        {
+            "label": "形態",
+            "value": "１巻　;　３０ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "巻子本，箱入り  箱書き：蘭山禅師詠詩巻  付：蘭山禅師紹介文"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Jpeg形式）（270KB）"
+        },
+        {
+            "label": "著者名",
+            "value": "蘭山　道昶著　／　ランザン，ドウチョウ"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194593　／　Ｗ　　-　０９９　　　　-　６４５"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（html形式）（120KB）"
+        },
+        {
+            "label": "内容注記",
+            "value": "内容：古寺桜花　松林茂翠　竹間素月　高樹雪鴉  \r\n     著者紹介：著者紹介：僧侶（曹洞宗）．生年未詳，１７５６（宝暦６）年没．法諱：道昶\r\n，道号：蘭山，号：界天．京都の人，呉雲法雲の法嗣．寺を出て江戸に下り，徳川光圀に\r\n仕える．後心越興儔の法を嗣ぎ，１７００（元禄１３）年に常陸水戸天徳寺（後の祇園寺\r\n）３世に就く．"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194593/23_09_ranzan.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/76603926451690dd124e6efcf2184f5b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/76603926451690dd124e6efcf2184f5b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 832,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/76603926451690dd124e6efcf2184f5b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/76603926451690dd124e6efcf2184f5b.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194593/9-g.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 832,
+                                "width": 2988
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194593/9-g.jpg"
+                    },
+                    "width": 2988
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194593/9-g.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

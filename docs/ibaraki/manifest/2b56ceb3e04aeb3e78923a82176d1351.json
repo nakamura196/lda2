@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/2b56ceb3e04aeb3e78923a82176d1351.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "寛政水戸領絵図 / カンセイ ミトリョウ エズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "水戸藩−地図"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　〔製作者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "１７９３年"
+        },
+        {
+            "label": "分類番号",
+            "value": "２９１．３１０３８"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　８３ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "写図　; 軸装"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式） (841KB) ／ 画像ファイル（Ｊｐｅｇ形式） (4888KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "作者不明"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194692　/　ＷＭ-０９２-４０７"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194692/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/2b56ceb3e04aeb3e78923a82176d1351.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/2b56ceb3e04aeb3e78923a82176d1351.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1686,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/2b56ceb3e04aeb3e78923a82176d1351.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/2b56ceb3e04aeb3e78923a82176d1351.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194692/001051194692.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1686,
+                                "width": 3642
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194692/001051194692.jpg"
+                    },
+                    "width": 3642
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194692/001051194692.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

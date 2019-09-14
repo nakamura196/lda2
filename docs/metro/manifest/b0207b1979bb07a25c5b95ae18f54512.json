@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b0207b1979bb07a25c5b95ae18f54512.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "[193-]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/518.8/5201/X"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "地図1枚 色刷"
+        },
+        {
+            "label": "出版者",
+            "value": "東京市都市計畫課"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウシトシケイカクカ"
+        },
+        {
+            "label": "大きさ",
+            "value": "76×52cm"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003229405"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20000"
+        },
+        {
+            "label": "件名",
+            "value": "東京都区部"
+        },
+        {
+            "label": "件名",
+            "value": "トウキョウトクブ"
+        },
+        {
+            "label": "著編者",
+            "value": "[東京市都市計畫課／編]"
+        },
+        {
+            "label": "災害名称",
+            "value": "関東大震災からの復興"
+        },
+        {
+            "label": "災害年代",
+            "value": "大正"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t火災"
+        },
+        {
+            "label": "図名",
+            "value": "復興街路一覽圖"
+        },
+        {
+            "label": "図名",
+            "value": "フッコウ ガイロ イチランズ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00001818",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b0207b1979bb07a25c5b95ae18f54512.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/b0207b1979bb07a25c5b95ae18f54512.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/b0207b1979bb07a25c5b95ae18f54512.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/b0207b1979bb07a25c5b95ae18f54512.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001818&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003229405_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 3892
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001818&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003229405_0001.jpg"
+                    },
+                    "width": 3892
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001818&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003229405_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

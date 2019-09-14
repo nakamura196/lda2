@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5cc590b795514383d8bdbc550308d7fd.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "新刻日本輿地路程全図 /シンコク　ニホン　ヨチ　ロテイ　ゼンズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "日本−地図"
+        },
+        {
+            "label": "出版事項",
+            "value": "東京　:　須原茂兵衛"
+        },
+        {
+            "label": "出版事項",
+            "value": "１８４０"
+        },
+        {
+            "label": "分類番号",
+            "value": "２９１"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　１４７ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "軸装 ; 多色刷"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式） (2186KB) ／ 画像ファイル（Ｊｐｅｇ形式） (15193KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "長 玄珠著　／　チョウ，ハルタカ"
+        },
+        {
+            "label": "解説",
+            "value": "長久保赤水が出版した，経緯度が入った地図。長　玄珠は長久保赤水のこと。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194809　／　ＷＭ-０９２-４０４"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　長久保赤水"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194809/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5cc590b795514383d8bdbc550308d7fd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5cc590b795514383d8bdbc550308d7fd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3566,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5cc590b795514383d8bdbc550308d7fd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/5cc590b795514383d8bdbc550308d7fd.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194809/001051194809.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3566,
+                                "width": 5395
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194809/001051194809.jpg"
+                    },
+                    "width": 5395
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194809/001051194809.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

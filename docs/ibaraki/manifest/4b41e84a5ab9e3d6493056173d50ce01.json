@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/4b41e84a5ab9e3d6493056173d50ce01.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "茨城県管内区画略図　/ イバラキケン カンナイ クカク リャクズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "茨城県−地図"
+        },
+        {
+            "label": "出版事項",
+            "value": "町屋（茨城県）　:　根本健助"
+        },
+        {
+            "label": "出版事項",
+            "value": "１８７４年"
+        },
+        {
+            "label": "分類番号",
+            "value": "２９１．３１０３８"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　１４７ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "軸装　;　明治５年調査 ; 86×136ｃｍ"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式） (2327KB) ／ 画像ファイル（Ｊｐｅｇ形式） (15008KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "松平　俊雄編述 / マツダイラ，トシオ"
+        },
+        {
+            "label": "解説",
+            "value": "松平俊雄が作成し，久慈郡町屋（現在，常陸太田市）の根本健助が出版したもの"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194627　/　ＷＭ-０９２-４１６"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194627/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/4b41e84a5ab9e3d6493056173d50ce01.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/4b41e84a5ab9e3d6493056173d50ce01.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3585,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/4b41e84a5ab9e3d6493056173d50ce01.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/4b41e84a5ab9e3d6493056173d50ce01.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194627/001051194627.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3585,
+                                "width": 5327
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194627/001051194627.jpg"
+                    },
+                    "width": 5327
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194627/001051194627.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

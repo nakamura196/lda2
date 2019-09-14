@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cfbf8246425925f4134b8b0cdd9f6ce6.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "1930.6"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/43・290/5006/1930"
+        },
+        {
+            "label": "出版地",
+            "value": "高田町(東京府)"
+        },
+        {
+            "label": "ページ数",
+            "value": "地図1枚"
+        },
+        {
+            "label": "出版者",
+            "value": "高田町"
+        },
+        {
+            "label": "出版者",
+            "value": "タカダマチ"
+        },
+        {
+            "label": "大きさ",
+            "value": "60×85cm"
+        },
+        {
+            "label": "注記",
+            "value": "青焼き"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003420400"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:4000"
+        },
+        {
+            "label": "件名",
+            "value": "豊島区"
+        },
+        {
+            "label": "件名",
+            "value": "トシマク"
+        },
+        {
+            "label": "図名",
+            "value": "東京府北豊嶋郡高田町全圖"
+        },
+        {
+            "label": "図名",
+            "value": "トウキョウフ キタトシマグン タカダマチ ゼンズ"
+        },
+        {
+            "label": "図名関連情報",
+            "value": "昭和五年現在"
+        },
+        {
+            "label": "図名関連情報",
+            "value": "ショウワ ゴネン ゲンザイ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00001896",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cfbf8246425925f4134b8b0cdd9f6ce6.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cfbf8246425925f4134b8b0cdd9f6ce6.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4845,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cfbf8246425925f4134b8b0cdd9f6ce6.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cfbf8246425925f4134b8b0cdd9f6ce6.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001896&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003420400_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4845,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001896&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003420400_0001.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001896&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003420400_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

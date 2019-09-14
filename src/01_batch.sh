@@ -1,5 +1,9 @@
 cd collections
 
+echo "ibaraki"
+python create_batch.py ../../collections_data/ibaraki/data/config.yml
+sh batch.sh
+
 echo "kanazawa"
 python create_batch.py ../../collections_data/kanazawa/data/config.yml
 sh batch.sh

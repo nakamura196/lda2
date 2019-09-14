@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "〔長久保中行詩書〕 ／ ナガクボ チュウコウ シショ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　長久保中行"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔17‐‐〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "９１９．５"
+        },
+        {
+            "label": "形態",
+            "value": "1巻　;　21cm"
+        },
+        {
+            "label": "注記",
+            "value": "自筆書 巻子本"
+        },
+        {
+            "label": "画像リンク",
+            "value": "・画像ファイル〔１〕 (png形式) (約1.3MB)\n・画像ファイル〔２〕 (png形式) (約1.4MB)"
+        },
+        {
+            "label": "著者名",
+            "value": "長久保 中行　著　／　ナガクボ チュウコウ"
+        },
+        {
+            "label": "解説",
+            "value": "著者紹介：漢学者。寛延元(1748)年〜寛政8(1796)年。天明8(1788)年に彰考館に入る。修姓:長。名:中行。号:暘谷。長久保赤水の従甥。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194536　／　Ｗ０９９−９６４"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194536/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 623,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194536/001051194536_1.png",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 623,
+                                "width": 1394
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194536/001051194536_1.png"
+                    },
+                    "width": 1394
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 716,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/c3545d732b9447f2d17a5b5b006f74a0.json/canvas/p2",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194536/001051194536_2.png",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 716,
+                                "width": 1398
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194536/001051194536_2.png"
+                    },
+                    "width": 1398
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194536/001051194536_1.png"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

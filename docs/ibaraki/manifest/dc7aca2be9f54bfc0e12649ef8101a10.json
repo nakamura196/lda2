@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc7aca2be9f54bfc0e12649ef8101a10.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "水戸領分割図　下野国那須郡図・八溝山近傍図 / ミトリョウ ブンカツ ズ　シモツケ ノ クニ ナスグン ズ　ヤミゾサン キンボウ ズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "水戸藩−地図"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　〔製作者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "２９１．３１"
+        },
+        {
+            "label": "形態",
+            "value": "１巻　;　４１ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "巻子本　;　４巻１箱入り　;　久慈郡図・下野国那須郡図・八溝山近傍図は同一巻にある"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式） (1006KB) ／ 画像ファイル（Ｊｐｅｇ形式） (1720KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "作者不明"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051355988　/　ＷＭ-０９２-４３０-３"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355988_1/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc7aca2be9f54bfc0e12649ef8101a10.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc7aca2be9f54bfc0e12649ef8101a10.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1298,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc7aca2be9f54bfc0e12649ef8101a10.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc7aca2be9f54bfc0e12649ef8101a10.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355988_1/001051355988-sim.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1298,
+                                "width": 1812
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355988_1/001051355988-sim.jpg"
+                    },
+                    "width": 1812
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355988_1/001051355988-sim.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

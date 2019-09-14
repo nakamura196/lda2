@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5378946124d125f0ee550a9d12517d30.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "鄭大木与朱舜水尺牘安積澹泊臨写横幅　／　テイ　タイボク　ヨ　シュ　シュンスイ　セキトク　アサカ　タンパク　リンシャ　オウフク",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "鄭　森　;　朱  舜水"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　安積覚手写"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔１７ - - 〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "２８９．１"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　５５ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "手写，軸装，箱入り箱書き（側面）：安積澹泊先生真蹟鄭大木与朱舜水尺牘写箱ふた裏に，明治４１年２月に書かれた解説あり"
+        },
+        {
+            "label": "著者名",
+            "value": "鄭　森　著　／　テイ，シン"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051355202　／　Ｗ-０９２．８-２１５"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　朱 舜水"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（Gif形式）（380KB）"
+        },
+        {
+            "label": "原本画像リンク",
+            "value": "原本画像ファイル（Jpeg形式）（900KB）"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355202/22_04_syusyun.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5378946124d125f0ee550a9d12517d30.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5378946124d125f0ee550a9d12517d30.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1595,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/5378946124d125f0ee550a9d12517d30.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/5378946124d125f0ee550a9d12517d30.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355202/004-001-1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1595,
+                                "width": 2016
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355202/004-001-1.jpg"
+                    },
+                    "width": 2016
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355202/004-001-1.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

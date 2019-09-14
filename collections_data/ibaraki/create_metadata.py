@@ -23,73 +23,64 @@ import json
 import time
 from PIL import Image
 
-rows = []
-row = ["id", "img_url", "thumb_url", "width", "height"]
-rows.append(row)
 
-rows2 = []
-row2 = ["id", "thumb_url"]
-rows2.append(row2)
+url = "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html#sonota"
 
-f = open("data/data.html")
-html = f.read()
-f.close()
+r = requests.get(url)  # requestsを使って、webから取得
 
-soup = BeautifulSoup(html)
+soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
 
 aas = soup.find_all("a")
 
-urls = []
-
 for j in range(len(aas)):
     a = aas[j]
-    if "mkey" in a.get("href"):
 
-        url = "https://archives.nishi.or.jp/"+a.get("href")
+    if a.get("href") != None and "valuable_m" in a.get("href"):
 
-        if url in urls:
-            continue
-
-        urls.append(url)
+        url = "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/" + \
+            a.get("href")
 
         print(url)
 
-        id = url.split("=")[-1]
+        id = url.split("/")[-2]
 
         filename = "data/metadata/"+id+".json"
 
         if os.path.exists(filename):
             continue
 
-        time.sleep(1)
-
         r = requests.get(url)  # requestsを使って、webから取得
 
-        soup = BeautifulSoup(r.text, 'lxml')  # 要素を抽出
+        soup = BeautifulSoup(r.content, 'html.parser')
 
+        main = {}
+        main["metadata"] = {}
 
-        obj = {}
-        obj["metadata"] = {}
+        # main["title"] = soup.find(id="contentHead").text.strip()
+        main["url"] = url
+        main["id"] = id
+        main["within"] = "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+        main["attribution"] = "茨城県立図書館デジタルライブラリー"
+        main["license"] = "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
 
-        obj["title"] = soup.find(class_="detail").find("header").text.strip()
-
-        obj["url"] = url
-        obj["id"] = id
-        obj["within"] = "https://archives.nishi.or.jp/index.php"
-        obj["attribution"] = "にしのみやデジタルアーカイブ"
-        obj["license"] = "http://creativecommons.org/licenses/by/4.0/"
-
-        obj["description"] = soup.find(class_="summary").text.strip()
-
-        trs = soup.find(class_="data").find_all("tr")
+        trs = soup.find_all("tr")
 
         for tr in trs:
+            tds = tr.find_all("td")
+            if len(tds) == 0:
+                continue
+            field = tds[0].text.strip()
+            value = tds[1].text.strip()
 
-            obj["metadata"][tr.find("th").text.strip()
-                            ] = tr.find("td").text.strip()
+            if field == "書名":
+                main["title"] = value
+            else:
 
-                
+                main["metadata"][field] = value
+
+            
+
 
         f2 = open(filename, 'w')
-        json.dump(obj, f2, ensure_ascii=False, indent=4,
+        json.dump(main, f2, ensure_ascii=False, indent=4,
                   sort_keys=True, separators=(',', ': '))

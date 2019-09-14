@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/7347126b7bc528784d9c456547cb98d8.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "長久保赤水書（人生訓） ／ ナガクボ セキスイ ショ　ジンセイクン",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "人生訓"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔出版地不明〕　:　〔出版者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔出版年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "１５９"
+        },
+        {
+            "label": "形態",
+            "value": "1軸　;　40cm"
+        },
+        {
+            "label": "注記",
+            "value": "自筆掛軸"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（png形式） (1.4MB)"
+        },
+        {
+            "label": "著者名",
+            "value": "長久保 赤水　筆　／　ナガクボ セキスイ"
+        },
+        {
+            "label": "解説",
+            "value": "赤水が８１歳の時に書いた人生訓。これは廻文式（かいもんしき。千鳥読みともいわれる）に特別の読み方をする。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051192142　／　Ｗ０９１−２０２"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　長久保赤水"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（html形式）(約550B)"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192142/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/7347126b7bc528784d9c456547cb98d8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/7347126b7bc528784d9c456547cb98d8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1079,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/7347126b7bc528784d9c456547cb98d8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/7347126b7bc528784d9c456547cb98d8.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192142/001051192142.png ",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1079,
+                                "width": 791
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192142/001051192142.png "
+                    },
+                    "width": 791
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192142/001051192142.png "
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

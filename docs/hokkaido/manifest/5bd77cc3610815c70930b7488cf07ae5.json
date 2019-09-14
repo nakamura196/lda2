@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5bd77cc3610815c70930b7488cf07ae5.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "旧常呂橋と弁天・朝日地区の風景 昭和３０年代前半 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "旧常呂橋と弁天・朝日地区の風景 昭和３０年代前半 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "キュウトコロバシ・ベンテン・アサヒチクフウケイ ショウワ３０ネンダイゼンハン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42289"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "常呂橋の完成・渡橋式（昭和３８年１２月５日）と朝日橋完成・渡橋式（昭和３９年１２月２６日）にょって役割を終えた旧常呂橋。撤去作業は昭和４０年３月。写真は、弁天の小高いところから見たもの。常呂神社の鳥居と鳥居前の安部商店がはっきり写っている。常呂橋を網走から来たバスを通過する写真はこの１枚のみ。弁天から地区から左手奥に旧朝日地区が広がっている。中央奥に常楽寺の屋根が見えるが中央公民館（昭和３６年建設）がないので、それ以前、また、常呂川河口拡幅工事着工により昭和３５年に常呂漁協魚菜市場が現在の常呂漁港に移転し、弁天地区の商店・事業所も移転するため、それ以前。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42289-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5bd77cc3610815c70930b7488cf07ae5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5bd77cc3610815c70930b7488cf07ae5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 891,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5bd77cc3610815c70930b7488cf07ae5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/5bd77cc3610815c70930b7488cf07ae5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42289/0263731/0263731_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 891,
+                                "width": 1343
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42289/0263731/0263731_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1343
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42289/0263731/0263731_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

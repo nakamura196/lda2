@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f97b2a1012b95d7e7154fd0fb3e0eb90.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "小樽新聞社主催第6回観楓会[静止画資料]",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "絵葉書"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "絵葉書"
+        },
+        {
+            "label": "タイトル",
+            "value": "小樽新聞社主催第6回観楓会[静止画資料]"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "オタルシンブンシャシュサイダイロッカイカンプウカイ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "小樽新聞社主催第6回観楓会[静止画資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "オタル シンブンシャ シュサイ ダイ ロッカイ カンプウカイ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3100000004313"
+        },
+        {
+            "label": "管理番号",
+            "value": "38797"
+        },
+        {
+            "label": "言語",
+            "value": "JPN"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "[1911]"
+        },
+        {
+            "label": "一般注記",
+            "value": "於夕張線 四十四年十月十七日"
+        },
+        {
+            "label": "内容細目",
+            "value": "内容：夕張炭山第一坑務所付近・夕張線鐘ヶ淵の佳景"
+        },
+        {
+            "label": "出版地",
+            "value": "小樽"
+        },
+        {
+            "label": "出版者",
+            "value": "小樽新聞社"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "オタルシンブンシャ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×10cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-38797-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f97b2a1012b95d7e7154fd0fb3e0eb90.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f97b2a1012b95d7e7154fd0fb3e0eb90.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f97b2a1012b95d7e7154fd0fb3e0eb90.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/f97b2a1012b95d7e7154fd0fb3e0eb90.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38797/0250280/0250280_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1456,
+                                "width": 2243
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38797/0250280/0250280_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2243
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38797/0250280/0250280_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

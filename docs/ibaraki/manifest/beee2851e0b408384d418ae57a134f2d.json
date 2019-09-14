@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/beee2851e0b408384d418ae57a134f2d.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "東湖先生筆　３ / トウコ　センセイ　ヒツ　00003",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "藤田　東湖"
+        },
+        {
+            "label": "出版事項",
+            "value": "：〔手書地不明〕　:　〔藤田東湖〕書"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔１８‐‐〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "９１９．５"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　７２ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "軸装，箱入，箱の書名：藤田東湖先生之書"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式）（11557KB） ／ 画像ファイル（Ｊｐｅｇ形式） (1306KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "藤田　東湖著　／　フジタ，トウコ"
+        },
+        {
+            "label": "解説",
+            "value": "広浦船遊之詩の一節。広浦は水戸八景の一つ『広浦秋月』で呼ばれる、茨城県の涸沼湖畔である。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194908　／　Ｗ-０９９-６５０-３"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　藤田東湖"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194890_2/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/beee2851e0b408384d418ae57a134f2d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/beee2851e0b408384d418ae57a134f2d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2202,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/beee2851e0b408384d418ae57a134f2d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/beee2851e0b408384d418ae57a134f2d.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194890_2/001051194890_2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2202,
+                                "width": 782
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194890_2/001051194890_2.jpg"
+                    },
+                    "width": 782
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194890_2/001051194890_2.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

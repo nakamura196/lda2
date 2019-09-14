@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "鐺沸地区サロマ湖湖口の汐切り 大正時代から昭和初期（常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "鐺沸地区サロマ湖湖口の汐切り 大正時代から昭和初期（常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トーフツチク サロマコ ココウノシオキリ タイショウジダイ・ショウワショキ（トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "39246"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「岐阜開拓百年記念史 闘墾」の「汐切り」の項に、昭和４年まで鐺沸にサロマ湖の口があったこと、湖口は晩秋から初冬の漂砂で湖口がふさがれ、春の雪解け水が湖に流入する河川の増水を招き、岐阜地区まで水があふれ出し、農耕ができなくなるため、鐺沸付近の農漁民と岐阜地区の人びとが出役して湖口を切り開く工事を行った。これを「汐切り」と呼んだことを記しています。また、「ところ文庫１４ 常呂町の昔話」の「鐺沸の話２」には、毎年４月２０日にスコップ１丁かついで来て、ちょっと掘って水がなんぼか流れるとざーっと流れていき、１日経てばどんな船でも通れたととの高齢者の証言を載せています。写真は、大正時代から昭和初期にかけてのもの。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-39246-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2141,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39246/0251535/0251535_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2141,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39246/0251535/0251535_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2080,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/b65fd066edcd70c3b8faedc4ea5e4316.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39246/0251536/0251536_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2080,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39246/0251536/0251536_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39246/0251535/0251535_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

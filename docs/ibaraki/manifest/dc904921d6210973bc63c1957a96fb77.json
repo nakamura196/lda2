@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc904921d6210973bc63c1957a96fb77.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "長久保赤水先生詩書　／　ナガクボ　セキスイ　センセイ　シショ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "立原　東里"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　長久保玄珠"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "９１９．５　；　２８９．１"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　７０ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "書名は題箋による．本文及び軸の書名：立原君号東里説軸装"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Jpeg形式）（900KB）"
+        },
+        {
+            "label": "著者名",
+            "value": "長久保　玄珠著　／　ナガクボ，ハルタカ"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051356028　/　Ｗ-０９２．８-２３６"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　長久保赤水"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（Gif形式）（300KB）"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356028/22_05_tachihara.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc904921d6210973bc63c1957a96fb77.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc904921d6210973bc63c1957a96fb77.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1422,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc904921d6210973bc63c1957a96fb77.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/dc904921d6210973bc63c1957a96fb77.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356028/005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1422,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356028/005.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356028/005.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

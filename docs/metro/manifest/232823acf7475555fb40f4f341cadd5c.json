@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/232823acf7475555fb40f4f341cadd5c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[19--]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/52・175/5003/X"
+        },
+        {
+            "label": "出版地",
+            "value": "[下矢口町(東京府)]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(8枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "新田神社社務所"
+        },
+        {
+            "label": "出版者",
+            "value": "ニッタ ジンシャ シャムショ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×9cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "府社新田神社繪葉書"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "フシャ ニッタ ジンジャ エハガキ"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "東京府下矢口町"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "トウキョウフ シモヤグチマチ"
+        },
+        {
+            "label": "注記",
+            "value": "タイトルは袋による"
+        },
+        {
+            "label": "注記",
+            "value": "袋入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "袋"
+        },
+        {
+            "label": "資料コード",
+            "value": "5020152896"
+        },
+        {
+            "label": "著編者",
+            "value": "[新田神社社務所／編]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00005097",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/232823acf7475555fb40f4f341cadd5c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/232823acf7475555fb40f4f341cadd5c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5616,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/232823acf7475555fb40f4f341cadd5c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/232823acf7475555fb40f4f341cadd5c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00005097&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5020152896_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5616,
+                                "width": 3744
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00005097&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5020152896_0001.jpg"
+                    },
+                    "width": 3744
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00005097&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5020152896_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

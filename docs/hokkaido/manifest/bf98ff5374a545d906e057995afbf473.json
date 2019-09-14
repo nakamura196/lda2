@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bf98ff5374a545d906e057995afbf473.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "全日本カーリング選手権ビックマリン優勝 第２回 昭和６０年２月２４日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "カーリング関係"
+        },
+        {
+            "label": "タイトル",
+            "value": "全日本カーリング選手権ビックマリン優勝 第２回 昭和６０年２月２４日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ゼンニホンカーリングセンシュケンビックマリンユウショウ ダイ２カイ ショウワ６０ネン２ガツ２４ニチ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41726"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和６０年４月号の「広報ところ」が１ページを使って紹介。２月２４日札幌市で開催の同大会で、昨年の優勝チーム／池田町のスベローズに１１－１で圧勝して優勝。常呂町のカーリングチーム初の全国制覇。写真は、常呂町役場での優勝報告会。写真前列３人と後列左端が優勝のビックマリンメンバー。後列は、同大会３位のチェイサーズ。当時は常呂町にはまだカーリングホールがなく、屋外で競技をしていた時代。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41726-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bf98ff5374a545d906e057995afbf473.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bf98ff5374a545d906e057995afbf473.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1088,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bf98ff5374a545d906e057995afbf473.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/bf98ff5374a545d906e057995afbf473.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41726/0262418/0262418_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1088,
+                                "width": 1632
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41726/0262418/0262418_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1632
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41726/0262418/0262418_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

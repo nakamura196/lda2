@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d6a203b41915ac36c1fdd7f2d759b22b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/東京府・東京市関係資料"
+        },
+        {
+            "label": "出版年",
+            "value": "1937.5"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・317/86/G2A"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "302p 地図5枚"
+        },
+        {
+            "label": "出版者",
+            "value": "東京市監査局都市計画課"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウシカンサキョクトシケイカクカ"
+        },
+        {
+            "label": "大きさ",
+            "value": "23cm"
+        },
+        {
+            "label": "資料コード",
+            "value": "1124436589"
+        },
+        {
+            "label": "タイトル",
+            "value": "東京市域拡張史"
+        },
+        {
+            "label": "タイトル",
+            "value": "トウキョウ シイキ カクチョウシ"
+        },
+        {
+            "label": "巻次",
+            "value": "千歳村・砧村編入"
+        },
+        {
+            "label": "巻次",
+            "value": "チトセムラ キヌタムラ ヘンニュウ"
+        },
+        {
+            "label": "著編者",
+            "value": "東京市監査局都市計画課／編"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000009-00040455",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d6a203b41915ac36c1fdd7f2d759b22b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d6a203b41915ac36c1fdd7f2d759b22b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1920,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d6a203b41915ac36c1fdd7f2d759b22b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d6a203b41915ac36c1fdd7f2d759b22b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00040455&size=org&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1124436589_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1920,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00040455&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1124436589_0001.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00040455&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1124436589_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/3c8ca521c748c8c67d6f6f5d2bbc9645.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "〔常陸国石高郡分図〕 ／ ヒタチノクニ コクダカ グンブンズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "石高"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　〔製作者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "６１１．２２１"
+        },
+        {
+            "label": "形態",
+            "value": "1軸　;　109cm"
+        },
+        {
+            "label": "注記",
+            "value": "軸装　;　石高付"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式）（10475KB) ／ 画像ファイル（Ｊｐｅｇ形式） (13724KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "作者不明　／"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051356978　／　０９２．９−２８−"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356978/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/3c8ca521c748c8c67d6f6f5d2bbc9645.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/3c8ca521c748c8c67d6f6f5d2bbc9645.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3885,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/3c8ca521c748c8c67d6f6f5d2bbc9645.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/3c8ca521c748c8c67d6f6f5d2bbc9645.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356978/001051356978.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3885,
+                                "width": 5149
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356978/001051356978.jpg"
+                    },
+                    "width": 5149
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356978/001051356978.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

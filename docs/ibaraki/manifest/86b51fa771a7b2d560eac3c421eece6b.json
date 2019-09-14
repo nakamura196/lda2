@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/86b51fa771a7b2d560eac3c421eece6b.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "東湖先生文稿増子毅斎墓表　／　トウコ　センセイ　ブンコウ　マシコ　キサイ　ボヒョウ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "増子　毅斎"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　藤田彪"
+        },
+        {
+            "label": "出版事項",
+            "value": "１８３６"
+        },
+        {
+            "label": "分類番号",
+            "value": "２８９．１"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　４４ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "軸装，箱入り箱書：東湖先生増子毅斎墓表草按原本は１８３６（天保７）年のもの"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Jpeg形式）（900KB）"
+        },
+        {
+            "label": "著者名",
+            "value": "藤田　彪　述　／　フジタ，タケキ"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051355178　/　Ｗ-０９２．８-２４９"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　藤田東湖"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（GIf形式）（350KB）"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355178/22_06_touko.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/86b51fa771a7b2d560eac3c421eece6b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/86b51fa771a7b2d560eac3c421eece6b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2172,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/86b51fa771a7b2d560eac3c421eece6b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/86b51fa771a7b2d560eac3c421eece6b.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355178/006-001-1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2172,
+                                "width": 1728
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355178/006-001-1.jpg"
+                    },
+                    "width": 1728
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355178/006-001-1.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

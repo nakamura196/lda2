@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c25ccc4062c34c241edca63f1f21d23e.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "大日本沿海要彊全図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "大日本沿海要彊全図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ダイニホン エンカイ ヨウキョウ ゼンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "大日本沿海要彊全図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ダイニホン エンカイ ヨウキョウ ゼンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012957"
+        },
+        {
+            "label": "管理番号",
+            "value": "1650"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1854"
+        },
+        {
+            "label": "著者",
+            "value": "工藤 東平/〔著〕"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "クドウ トウヘイ"
+        },
+        {
+            "label": "一般注記",
+            "value": "木版 裏面に日本全図蝦夷樺太千島琉球小笠原とあり"
+        },
+        {
+            "label": "説明",
+            "value": "津軽の地理学者、工藤東平が作成し、嘉永7年（1854）に出版された日本図である。オホーツク海沿岸からカムチヤツカ半島にいたる北方周辺をも載せた図であるが、蝦夷地やカラフト島には僅かながらケバ描写がみられ、図形から考察するとヨーロッパで出版された図を参考としたものであろう。図の周囲には経緯度数も記入されている。右下に工藤東平の漢文による識語があるが、その文字を書いたのは、詩人であり書家としても知られた篠田雲鳳である。雲鳳は当時、工藤東平の妻であった。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "出版者",
+            "value": "〔出版者不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "105×54cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1650-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c25ccc4062c34c241edca63f1f21d23e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c25ccc4062c34c241edca63f1f21d23e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4647,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c25ccc4062c34c241edca63f1f21d23e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/c25ccc4062c34c241edca63f1f21d23e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1650/0080606/0080606_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4647,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1650/0080606/0080606_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1650/0080606/0080606_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

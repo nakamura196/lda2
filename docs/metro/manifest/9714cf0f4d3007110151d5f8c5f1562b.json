@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9714cf0f4d3007110151d5f8c5f1562b.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/東京府・東京市関係資料"
+        },
+        {
+            "label": "出版年",
+            "value": "1931"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・519/3176/G"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "211p"
+        },
+        {
+            "label": "出版者",
+            "value": "東京市]"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウシ"
+        },
+        {
+            "label": "大きさ",
+            "value": "27cm"
+        },
+        {
+            "label": "資料コード",
+            "value": "1127287900"
+        },
+        {
+            "label": "タイトル",
+            "value": "多摩川ヲ水源トスル東京市第二水道拡張計画参考書"
+        },
+        {
+            "label": "タイトル",
+            "value": "タマガワ オ スイゲン トスル トウキョウシ ダイニ スイドウ カクチョウ ケイカク サンコウショ"
+        },
+        {
+            "label": "著編者",
+            "value": "[東京市／編]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000009-00005655",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9714cf0f4d3007110151d5f8c5f1562b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9714cf0f4d3007110151d5f8c5f1562b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1920,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9714cf0f4d3007110151d5f8c5f1562b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9714cf0f4d3007110151d5f8c5f1562b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00005655&size=org&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1127287900_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1920,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00005655&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1127287900_0001.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000009-00005655&size=thumb&type=image&file=%2F%E6%9D%B1%E4%BA%AC%E5%BA%9C%E3%83%BB%E6%9D%B1%E4%BA%AC%E5%B8%82%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99%2F1127287900_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

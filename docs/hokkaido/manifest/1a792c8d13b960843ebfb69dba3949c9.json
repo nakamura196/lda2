@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1a792c8d13b960843ebfb69dba3949c9.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "リイシリ嶋碇泊測量粗絵図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "リイシリ嶋碇泊測量粗絵図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "リイシリトウ テイハク ソクリョウ アラエズ"
+        },
+        {
+            "label": "巻書名",
+            "value": "リイシリ嶋碇泊測量粗絵図"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "佐藤正克文書. 46"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "サトウ マサカツ モンジョ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009510027900"
+        },
+        {
+            "label": "管理番号",
+            "value": "1659"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "内容注記",
+            "value": "下図（14×22cm）あり"
+        },
+        {
+            "label": "地域",
+            "value": "利尻島"
+        },
+        {
+            "label": "説明",
+            "value": "無彩色の一枚物であるが、沿岸の描写は精密であり、地名も数多く記入されている。内陸部の描写はない。運上家近くのヲトントマリから西海岸を回ってヲタトマリにいたる11ヶ所に海岸から沖に向かってまっすぐ1丁から7丁までの7ヶ所に浅深測量の数値を記載するのは珍しい。明治初年の写しであろうか。佐藤正克文書の一つである。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "大きさ",
+            "value": "77×68cm"
+        },
+        {
+            "label": "巻書名（ヨミ）",
+            "value": "リシイリトウ テイハク ソクリョウ アラエズ"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1659-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1a792c8d13b960843ebfb69dba3949c9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1a792c8d13b960843ebfb69dba3949c9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3741,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1a792c8d13b960843ebfb69dba3949c9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/1a792c8d13b960843ebfb69dba3949c9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1659/0080624/0080624_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3741,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1659/0080624/0080624_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1659/0080624/0080624_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

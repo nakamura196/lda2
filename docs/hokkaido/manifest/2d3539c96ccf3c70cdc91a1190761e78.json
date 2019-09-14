@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2d3539c96ccf3c70cdc91a1190761e78.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "樺太国楠渓海岸図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "樺太国楠渓海岸図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "カラフトコク ナンケイ カイガンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "樺太国楠渓海岸図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "カラフトコク ナンケイ カイガンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012831"
+        },
+        {
+            "label": "管理番号",
+            "value": "1673"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1873"
+        },
+        {
+            "label": "一般注記",
+            "value": "縮尺１：１４５８１，測量：五藤国幹 吉田重親，製図：本宿宅命 狩野応信，刻：井田道寿"
+        },
+        {
+            "label": "地域",
+            "value": "樺太"
+        },
+        {
+            "label": "説明",
+            "value": "明治になって兵部省海軍部水路寮（後に水路局）は全国各地の港湾を中心に測量し、海図を銅版印刷して出版するようになる。北海道は明治4年（1871）から測量が開始され、同年には根室・珸瑶琩・野付・小樽・寿都が、同6年には樺太島の楠渓が、同7年には福島が測量され、次々と出版されていく。本図には「皇朝明治六年十一月、海軍大尉・五藤国幹、海軍少尉・吉田重親同刻、海軍少尉・本宿宅命、水路寮出仕・狩野応信製図、井田道寿刻」と記載があり、出版されたのは翌7年のことであった。因みに「楠渓」とはかつてのクシユンコタン（久春古丹）である。なお、同8年5月、千島樺太交換条約により樺太全島はロシア領となるのである。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "出版者",
+            "value": "〔出版者不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "46×35cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1673-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2d3539c96ccf3c70cdc91a1190761e78.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2d3539c96ccf3c70cdc91a1190761e78.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2541,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2d3539c96ccf3c70cdc91a1190761e78.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/2d3539c96ccf3c70cdc91a1190761e78.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1673/0080645/0080645_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2541,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1673/0080645/0080645_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1673/0080645/0080645_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

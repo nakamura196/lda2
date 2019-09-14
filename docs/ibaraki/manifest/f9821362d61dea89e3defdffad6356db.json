@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f9821362d61dea89e3defdffad6356db.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "〔会沢正志書：（会沢正志斎書）〕　/ アイザワ　セイシ　ショ　：　（　アイザワ　セイシサイ　ショ　）",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "会沢　正志斎"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　会沢正志書"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔１８５‐〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "９１９．５"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　７０ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "自筆            軸装，箱入\r\n      箱の書名：会沢先生霞湖泛舟七律"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式）（15604KB） ／ 画像ファイル（Ｊｐｅｇ形式） (1319KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "会沢　正志著　：　（会沢正志斎著）　／　アイザワ，セイシ　：　（　アイザワ　セイシサイ　）"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051192357　／　Ｗ-０９９-６１２"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　会沢正志斎"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192357/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f9821362d61dea89e3defdffad6356db.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f9821362d61dea89e3defdffad6356db.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1865,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/f9821362d61dea89e3defdffad6356db.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/f9821362d61dea89e3defdffad6356db.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192357/001051192357.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1865,
+                                "width": 893
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192357/001051192357.jpg"
+                    },
+                    "width": 893
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051192357/001051192357.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

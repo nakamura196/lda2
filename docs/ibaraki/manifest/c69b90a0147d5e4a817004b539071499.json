@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c69b90a0147d5e4a817004b539071499.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "小宮山楓軒書簡　／　コミヤマ　フウケン　ショカン",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "小宮山　　昌秀"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔茨城県〕　:　小宮山昌秀書"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔１８‐‐〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "２８９．１"
+        },
+        {
+            "label": "形態",
+            "value": "１巻　;　２０ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "自筆，巻子本"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Jpeg形式）（160KB）"
+        },
+        {
+            "label": "著者名",
+            "value": "小宮山　　昌秀著　／　コミヤマ，マサヒデ"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051355749　／　Ｗ　　-　０９２．８　　-　３８５"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　小宮山楓軒"
+        },
+        {
+            "label": "翻刻文リンク",
+            "value": "翻刻文ファイル（html形式）（50KB）"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355749/23_06_komiyama.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c69b90a0147d5e4a817004b539071499.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c69b90a0147d5e4a817004b539071499.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 964,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/c69b90a0147d5e4a817004b539071499.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/c69b90a0147d5e4a817004b539071499.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355749/6-g.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 964,
+                                "width": 1222
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355749/6-g.jpg"
+                    },
+                    "width": 1222
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051355749/6-g.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

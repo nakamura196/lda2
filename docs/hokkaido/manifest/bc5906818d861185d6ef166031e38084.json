@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bc5906818d861185d6ef166031e38084.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "朝日地区子ども会発足 （常呂町） 昭和４０年３月１１日",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "朝日地区子ども会発足 （常呂町） 昭和４０年３月１１日"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "アサヒチクコドモカイホッソク （トコロチョウ） ショウワ４０ネン３ガツ１１ニチ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42422"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和４０年３月１１日、午後１時から常呂小学校を会場に、町内の３地区（末広・栄町・朝日）に子ども会が発足したことを記念して、町長から３つの子ども会に会旗が贈られました。「広報ところ」では、会員・父兄・来賓など約２３０人が出席し、会旗のほかにも全員に記念品が配られたことを伝えています。会旗の贈呈式の後、常呂中学校のブラスバンドを先頭に市街地をパレードし、町の人たちにお披露目しました。写真は、朝日地区の子ども会会員と育成者が会旗を中心にして撮ったもの。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42422-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bc5906818d861185d6ef166031e38084.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bc5906818d861185d6ef166031e38084.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1445,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bc5906818d861185d6ef166031e38084.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/bc5906818d861185d6ef166031e38084.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42422/0264026/0264026_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1445,
+                                "width": 2391
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42422/0264026/0264026_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2391
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42422/0264026/0264026_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

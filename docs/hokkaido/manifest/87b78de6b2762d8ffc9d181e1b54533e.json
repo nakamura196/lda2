@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "錦水保育所、旧錦水中学校教室に移転 （常呂町） 昭和４２年４月１９日",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "錦水保育所、旧錦水中学校教室に移転 （常呂町） 昭和４２年４月１９日"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "キンスイホイクショ、キュウキンスイチュウガッコウキョウシツニイテン （トコロチョウ） ショウワ４２ネン４ガツ１９ニチ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42430"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "錦水保育所の始まりは、岐阜区が岐阜青年研修所大広間に開設（昭和４０年５月１日）。翌４１年に錦水中学校は常呂中学校に統合、その空き教室（２教室）を岐阜区が町からもらい受け移転。写真は、錦水小学校行事の「小鳥の森」（巣箱設置）活動に写り込んだ錦水保育所と園児の笑顔。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42430-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 535,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42430/0264053/0264053_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 535,
+                                "width": 973
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42430/0264053/0264053_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 973
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 657,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/87b78de6b2762d8ffc9d181e1b54533e.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42430/0264054/0264054_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 657,
+                                "width": 961
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42430/0264054/0264054_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 961
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42430/0264053/0264053_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

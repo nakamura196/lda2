@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2ad77a49b5d1343e823fbcb370240177.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "札幌市街之図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "札幌市街之図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "サッポロ シガイ ノ ズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "札幌市街之図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "サッポロ シガイ ノ ズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730011909"
+        },
+        {
+            "label": "管理番号",
+            "value": "1678"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1899"
+        },
+        {
+            "label": "一般注記",
+            "value": "縮尺１：１０００００，札幌近傍図あり"
+        },
+        {
+            "label": "地域",
+            "value": "札幌"
+        },
+        {
+            "label": "説明",
+            "value": "明治32年（1899）6月に石版彩色刷、縮尺1万分の1として出版された図である。「発行兼発売元・自治堂小塩武吉（札幌）、印刷所・北海石版所（札幌）、編輯兼印刷人・本間清造（札幌）」との記載がある。新しい施設として師範学校が見え、札幌村、上白石村、円山村も載っており、別に「札幌近傍図」（5万分の1）も掲載されている。本間清造の経営する北海石版所は、札幌を代表する印刷所として明治から昭和にいたる長い年月にわたって印刷活動を続けた会社である。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "札幌区"
+        },
+        {
+            "label": "出版者",
+            "value": "自治堂"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ジチドウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "66×50cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1678-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2ad77a49b5d1343e823fbcb370240177.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2ad77a49b5d1343e823fbcb370240177.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3249,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2ad77a49b5d1343e823fbcb370240177.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/2ad77a49b5d1343e823fbcb370240177.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1678/0080653/0080653_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3249,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1678/0080653/0080653_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1678/0080653/0080653_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

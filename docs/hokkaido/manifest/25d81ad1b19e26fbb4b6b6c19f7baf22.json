@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/25d81ad1b19e26fbb4b6b6c19f7baf22.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂漁港竣工旗行列 （常呂町） 昭和３３年１０月５日",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂漁港竣工旗行列 （常呂町） 昭和３３年１０月５日"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロギョコウシュンコウハタギョウレツ （トコロチョウ） ショウワ３３ネン１０ガツ５ニチ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42453"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「広報ところ」１０月号から：「午前９時、花火を合図に、駅前から網走向陽高校のブラスバンドを先頭に、小中生の旗行列、絢爛の美を競う自動車の仮装パレードが漁港をめざして練り歩き、一方、漁船３０余隻が満艦飾の装いを凝らして入港、式場で合流すると、広い漁港も人と色彩に埋まり、沿道は各町内会が作ったアーチ、万国旗が飾られ、浜も町も喜びに沸き返りました」と記載。写真は、本通り商店街を歩く旗行列。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42453-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/25d81ad1b19e26fbb4b6b6c19f7baf22.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/25d81ad1b19e26fbb4b6b6c19f7baf22.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1389,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/25d81ad1b19e26fbb4b6b6c19f7baf22.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/25d81ad1b19e26fbb4b6b6c19f7baf22.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42453/0264116/0264116_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1389,
+                                "width": 2015
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42453/0264116/0264116_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2015
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42453/0264116/0264116_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

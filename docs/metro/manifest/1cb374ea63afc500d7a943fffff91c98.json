@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1cb374ea63afc500d7a943fffff91c98.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "1921.3"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/290.3/5086/1921"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "地図1枚(4図) 色刷"
+        },
+        {
+            "label": "出版者",
+            "value": "東京日日新聞"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウニチニチシンブン"
+        },
+        {
+            "label": "大きさ",
+            "value": "79×54cm"
+        },
+        {
+            "label": "注記",
+            "value": "「東京日日新聞」第15959號附録"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003144970"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:50000"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:250000"
+        },
+        {
+            "label": "件名",
+            "value": "関東地方"
+        },
+        {
+            "label": "件名",
+            "value": "カントウチホウ"
+        },
+        {
+            "label": "著編者",
+            "value": "[東京日日新聞／編]"
+        },
+        {
+            "label": "図名",
+            "value": "實測武相交通地圖"
+        },
+        {
+            "label": "図名",
+            "value": "ジッソク ブソウ コウツウ チズ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00001746",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1cb374ea63afc500d7a943fffff91c98.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/1cb374ea63afc500d7a943fffff91c98.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/1cb374ea63afc500d7a943fffff91c98.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/1cb374ea63afc500d7a943fffff91c98.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001746&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003144970_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 3799
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001746&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003144970_0001.jpg"
+                    },
+                    "width": 3799
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001746&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5003144970_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

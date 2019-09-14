@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/62b499784455d9fab47e258a9fae879a.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "常陸国絵図 / ヒタチ ノ クニ エズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "茨城県−地図"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　〔製作者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "２９１．３１"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　１０２×１３３ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "軸装"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式） (2165KB) ／ 画像ファイル（Ｊｐｅｇ形式） (13501KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "著者不明 / チョシャ フメイ"
+        },
+        {
+            "label": "解説",
+            "value": "常陸国について、山川湖沼の他、村名と主要街道を記す。郡ごとに背景色を変えている。石高，村数は江戸時代前期の実態を反映していると思われる。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194866　/　Ｍ-０９２-４２５"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194866/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/62b499784455d9fab47e258a9fae879a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/62b499784455d9fab47e258a9fae879a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3711,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/62b499784455d9fab47e258a9fae879a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/62b499784455d9fab47e258a9fae879a.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194866/001051194866.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3711,
+                                "width": 4849
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194866/001051194866.jpg"
+                    },
+                    "width": 4849
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194866/001051194866.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

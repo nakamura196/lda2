@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "豊川地区の造田作業 大正１５年 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "豊川地区の造田作業 大正１５年 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トヨカワチク・ゾウデンサギョウ タイショウ１５ネン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41955"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「豊川区開基百年記念誌 ふるさと」から：水稲耕作に関する記述として大正１３年：廃河川となった東１線１３号に１０馬力のガスエンジンを使用した揚水により、水稲耕作が行われた。谷川虎蔵、馬渕元之助、宇野要助、岡崎重吉ら先駆者によって初めての事業化。大正１５年：岡崎重吉は西３線１２号に稲作と併せて、寒地稲作の危険性からでん粉の生産を計画し、６馬力のガスエンジン使用による動力製造を開始したが、乾燥場が焼失。写真は、大正１５年のもの。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41955-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 805,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41955/0262960/0262960_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 805,
+                                "width": 1225
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41955/0262960/0262960_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1225
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 823,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/39286c6230a77298ae9bc11a83e91090.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41955/0262961/0262961_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 823,
+                                "width": 989
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41955/0262961/0262961_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 989
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41955/0262960/0262960_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

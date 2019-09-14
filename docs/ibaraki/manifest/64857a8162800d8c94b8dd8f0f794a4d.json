@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/64857a8162800d8c94b8dd8f0f794a4d.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "暁斎楽画 　第４ ／ キョウサイ ラクガ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "出版事項",
+            "value": "〔出版地不明〕　:　〔出版者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔出版年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "７２１．８"
+        },
+        {
+            "label": "形態",
+            "value": "1枚　;　36cm"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式）（1797KB) ／ 画像ファイル（Ｊｐｅｇ形式） (1707KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "河鍋 暁斎　作　／　カワナベ キョウサイ"
+        },
+        {
+            "label": "解説",
+            "value": "現在の茨城県古河市に生まれ，幕末から明治にかけて活躍した絵師である河鍋暁斎（１８３１〜１８８９）が，極楽の文明開化を描いたもの。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051191672　／　Ｗユ０９７−７７２−"
+        },
+        {
+            "label": "関連リンク",
+            "value": "輝く茨城の先人たち　河鍋 暁斎"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051191672/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/64857a8162800d8c94b8dd8f0f794a4d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/64857a8162800d8c94b8dd8f0f794a4d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2174,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/64857a8162800d8c94b8dd8f0f794a4d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/64857a8162800d8c94b8dd8f0f794a4d.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051191672/001051191672.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2174,
+                                "width": 1468
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051191672/001051191672.jpg"
+                    },
+                    "width": 1468
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051191672/001051191672.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

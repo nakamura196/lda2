@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e89fcbebd60455e5716ef7f871d8176e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[19--]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/290.9/5329/X"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき4組(16枚) カラー"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "シュッパンシャ フメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×9cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "東京スケッチ"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "トウキョウ スケッチ"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "Sketch Tokyo"
+        },
+        {
+            "label": "注記",
+            "value": "英文併記"
+        },
+        {
+            "label": "注記",
+            "value": "袋入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "二重橋の荘厳 IMPERIAL SACRED BRIDGE (TOKYO)"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "輝く皇城"
+        },
+        {
+            "label": "資料コード",
+            "value": "5006018440"
+        },
+        {
+            "label": "件名",
+            "value": "東京都区部"
+        },
+        {
+            "label": "件名",
+            "value": "トウキョウトクブ"
+        },
+        {
+            "label": "巻次",
+            "value": "no.1-no.4"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004193",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e89fcbebd60455e5716ef7f871d8176e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/e89fcbebd60455e5716ef7f871d8176e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/e89fcbebd60455e5716ef7f871d8176e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/e89fcbebd60455e5716ef7f871d8176e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004193&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006018440_0004.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004193&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006018440_0004.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004193&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006018440_0004.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/19f3b4099060da35e1c1ede9f64836ac.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "旧水戸藩弘道館之図 / キュウ　ミトハン　コウドウカン　ノ　ズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "弘道館（水戸藩）"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　〔製作者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "３７２．１０５"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　８９ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "軸装\r\n      修史閣（立林宮太郎）の蔵印有．\r\n      裏面の図名：旧水戸弘道館之図"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式）（11683KB） ／ 画像ファイル（Ｊｐｅｇ形式） (5753KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "作者不明"
+        },
+        {
+            "label": "解説",
+            "value": "茨城県水戸市にあった水戸藩の藩校「弘道館」の図面である。弘道館は水戸藩第９代藩主徳川斉昭が創立した。明治戊辰の兵火と昭和２０年の戦災で建物の多くが焼失し現在は一部が残っている。本図で往時の姿を知ることができる。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051194783　／　０９５-７３"
+        },
+        {
+            "label": "関連リンク",
+            "value": "「いばらきの文化財」-国指定文化財-史跡-旧弘道館\n弘道館公園"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194783/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/19f3b4099060da35e1c1ede9f64836ac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/19f3b4099060da35e1c1ede9f64836ac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2402,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/19f3b4099060da35e1c1ede9f64836ac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/19f3b4099060da35e1c1ede9f64836ac.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194783/001051194783.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2402,
+                                "width": 3105
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194783/001051194783.jpg"
+                    },
+                    "width": 3105
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051194783/001051194783.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

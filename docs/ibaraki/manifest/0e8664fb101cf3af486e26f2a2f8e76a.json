@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/0e8664fb101cf3af486e26f2a2f8e76a.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "〔水戸絵図（水戸城下図）〕/ミト エズ ミトジョウカ ズ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "水戸市−地図"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作地不明〕　:　〔製作者不明〕"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔製作年不明〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "２９１．３１"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　１９７×８４ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "軸装"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式） (1759KB) ／ 画像ファイル（Ｊｐｅｇ形式） (6842KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "作者不明"
+        },
+        {
+            "label": "解説",
+            "value": "確たる製作年は不明であるが、水戸城下を描いた絵図である。三の丸には松平、白井、太田などの重臣の屋敷が並んでいるが、徳川斉昭時代、これらの屋敷を移転させ，弘道館を建設した。現物は１枚の絵図である。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051354957　/　Ｍ-０９２-４２３"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051354957/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/0e8664fb101cf3af486e26f2a2f8e76a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/0e8664fb101cf3af486e26f2a2f8e76a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1852,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/0e8664fb101cf3af486e26f2a2f8e76a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/0e8664fb101cf3af486e26f2a2f8e76a.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051354957/001051354957.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1852,
+                                "width": 4321
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051354957/001051354957.jpg"
+                    },
+                    "width": 4321
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051354957/001051354957.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad2bf22b08b4ebde2f0c34d395a03ea8.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[1930]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/288.4/5010/1930"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(8枚) カラー"
+        },
+        {
+            "label": "出版者",
+            "value": "中村興文堂"
+        },
+        {
+            "label": "出版者",
+            "value": "ナカムラ コウブンドウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "10×15cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "帝都御巡幸の光景"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "テイト ゴジュンコウ ノ コウケイ"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "昭和五年三月東京復興完成式典祭"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "ショウワ ゴネン サンガツ トウキョウ フッコウ カンセイ シキテンサイ"
+        },
+        {
+            "label": "注記",
+            "value": "袋入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "上野公園より御展望の光景"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "帝都復興式典祭記念　天皇陛下御巡幸"
+        },
+        {
+            "label": "資料コード",
+            "value": "5013693386"
+        },
+        {
+            "label": "件名",
+            "value": "行幸・行啓"
+        },
+        {
+            "label": "件名",
+            "value": "ギョウコウ・ギョウケイ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004491",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad2bf22b08b4ebde2f0c34d395a03ea8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad2bf22b08b4ebde2f0c34d395a03ea8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/ad2bf22b08b4ebde2f0c34d395a03ea8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/ad2bf22b08b4ebde2f0c34d395a03ea8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004491&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5013693386_0008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004491&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5013693386_0008.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004491&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5013693386_0008.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

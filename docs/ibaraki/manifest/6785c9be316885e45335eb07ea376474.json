@@ -1,0 +1,90 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/6785c9be316885e45335eb07ea376474.json",
+    "@type": "sc:Manifest",
+    "attribution": "茨城県立図書館デジタルライブラリー",
+    "label": "水戸初代藩主徳川頼房公書状 / ミト ショダイ ハンシュ トクガワ ヨリフサ コウ ショジョウ",
+    "license": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html",
+    "metadata": [
+        {
+            "label": "件名",
+            "value": "徳川 頼房 ; 崇伝"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔江戸〕　:　徳川頼房書"
+        },
+        {
+            "label": "出版事項",
+            "value": "〔１６‐‐〕"
+        },
+        {
+            "label": "分類番号",
+            "value": "２８９．１"
+        },
+        {
+            "label": "形態",
+            "value": "１軸　;　６１ｃｍ"
+        },
+        {
+            "label": "注記",
+            "value": "自筆書簡１通 ; 軸装，箱入り ; 箱書き（側面）：水戸初代藩主徳川頼房書状　江戸芝金地院（こんちいん）崇伝に宛てたもの"
+        },
+        {
+            "label": "画像リンク",
+            "value": "画像ファイル（Ｓｉｄ形式）（1292KB） ／ 画像ファイル（Ｊｐｅｇ形式） (504KB)"
+        },
+        {
+            "label": "著者名",
+            "value": "徳川  頼房著　／　トクガワ，ヨリフサ"
+        },
+        {
+            "label": "解説",
+            "value": "水戸藩の初代藩主である徳川頼房が崇伝（すうでん）に宛てた書状。崇伝は「以心崇伝」とも呼ばれた江戸初期の臨済宗の僧。家康の側近でもあった。"
+        },
+        {
+            "label": "資料番号/請求記号",
+            "value": "001051356242　/　Ｗ-０９２．８-２５７"
+        }
+    ],
+    "related": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356242/Bibliography.html",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/6785c9be316885e45335eb07ea376474.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/6785c9be316885e45335eb07ea376474.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 749,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/ibaraki/manifest/6785c9be316885e45335eb07ea376474.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/ibaraki/manifest/6785c9be316885e45335eb07ea376474.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356242/001051356242.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 749,
+                                "width": 893
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356242/001051356242.jpg"
+                    },
+                    "width": 893
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/valuable_m/001051356242/001051356242.jpg"
+    },
+    "within": "https://www.lib.pref.ibaraki.jp/guide/shiryou/digital_lib/digital_lib_main.html"
+}

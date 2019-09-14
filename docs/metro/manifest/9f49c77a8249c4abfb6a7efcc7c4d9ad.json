@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f49c77a8249c4abfb6a7efcc7c4d9ad.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[192-]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/83・290/5017/X"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(16枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "東京交友舎"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウ コウユウシャ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×8.9cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "高尾山風光"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "タカオサン フウコウ"
+        },
+        {
+            "label": "注記",
+            "value": "タイトルは袋による"
+        },
+        {
+            "label": "注記",
+            "value": "袋入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "有喜寺本坊"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "高尾山名勝"
+        },
+        {
+            "label": "資料コード",
+            "value": "5006025365"
+        },
+        {
+            "label": "件名",
+            "value": "八王子市"
+        },
+        {
+            "label": "件名",
+            "value": "ハチオウジシ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004452",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f49c77a8249c4abfb6a7efcc7c4d9ad.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f49c77a8249c4abfb6a7efcc7c4d9ad.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9f49c77a8249c4abfb6a7efcc7c4d9ad.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9f49c77a8249c4abfb6a7efcc7c4d9ad.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004452&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006025365_0003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004452&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006025365_0003.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004452&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006025365_0003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}
