@@ -4,8 +4,8 @@ echo "ibaraki"
 python create_batch.py ../../collections_data/ibaraki/data/config.yml
 sh batch.sh
 
-echo "kanazawa"
-python create_batch.py ../../collections_data/kanazawa/data/config.yml
+echo "chiba"
+python create_batch.py ../../collections_data/chiba/data/config.yml
 sh batch.sh
 
 echo "metro"

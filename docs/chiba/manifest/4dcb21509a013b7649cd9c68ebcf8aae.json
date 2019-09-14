@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4dcb21509a013b7649cd9c68ebcf8aae.json",
+    "@type": "sc:Manifest",
+    "attribution": "千葉県デジタルアーカイブ",
+    "label": "下総国千葉郡野田村ヨリ麁絵図面村々江遠近大凡里数附",
+    "license": "http://e-library.gprime.jp/lib_pref_chiba/da/top",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/千葉県デジタルアーカイブ"
+        },
+        {
+            "label": "サブカテゴリ",
+            "value": "森川家文書"
+        },
+        {
+            "label": "ジャンル",
+            "value": "下総地方（旧下総国）"
+        },
+        {
+            "label": "形態",
+            "value": "葉"
+        },
+        {
+            "label": "書名",
+            "value": "下総国千葉郡野田村ヨリ麁絵図面村々江遠近大凡里数附"
+        },
+        {
+            "label": "書名",
+            "value": "しもうさのくに　ちばぐん　のだむら　より　あらえずめん　むらむら　え　おちこち　おおよそ　りすうつき"
+        },
+        {
+            "label": "書誌事項",
+            "value": "分類：絵図"
+        },
+        {
+            "label": "請求記号",
+            "value": "C23"
+        },
+        {
+            "label": "刊行年",
+            "value": "（天保期か）"
+        }
+    ],
+    "related": "http://e-library.gprime.jp/lib_pref_chiba/da/detail?tilcod=0000000014-CHB600587",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4dcb21509a013b7649cd9c68ebcf8aae.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4dcb21509a013b7649cd9c68ebcf8aae.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 914,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4dcb21509a013b7649cd9c68ebcf8aae.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4dcb21509a013b7649cd9c68ebcf8aae.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600587&size=view&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600587_0000100_1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 914,
+                                "width": 1280
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600587&size=view&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600587_0000100_1.jpg"
+                    },
+                    "width": 1280
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600587&size=view&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600587_0000100_1.jpg"
+    },
+    "within": "http://e-library.gprime.jp/lib_pref_chiba/da/top"
+}

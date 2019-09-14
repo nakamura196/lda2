@@ -1,0 +1,590 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json",
+    "@type": "sc:Manifest",
+    "attribution": "千葉県デジタルアーカイブ",
+    "label": "一算盈肭・一題十六品解術",
+    "license": "http://e-library.gprime.jp/lib_pref_chiba/da/top",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/千葉県デジタルアーカイブ"
+        },
+        {
+            "label": "サブカテゴリ",
+            "value": "房総数学文庫"
+        },
+        {
+            "label": "ジャンル",
+            "value": "数学"
+        },
+        {
+            "label": "備考",
+            "value": "写本"
+        },
+        {
+            "label": "形態",
+            "value": "１冊"
+        },
+        {
+            "label": "書名",
+            "value": "一算盈肭・一題十六品解術"
+        },
+        {
+            "label": "書名",
+            "value": "いっさんえいじく　いちだいじゅうろくほんかいじゅつ"
+        },
+        {
+            "label": "請求記号",
+            "value": "C41"
+        },
+        {
+            "label": "刊行年",
+            "value": "明和\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t5年\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1768年"
+        },
+        {
+            "label": "著者",
+            "value": "山路連貝軒編述・藤田定資述"
+        }
+    ],
+    "related": "http://e-library.gprime.jp/lib_pref_chiba/da/detail?tilcod=0000000014-CHB600095",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406000_1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406000_1.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406100_2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406100_2.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p3",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406200_3.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406200_3.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p4-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p4",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406300_4.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[4]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406300_4.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p5-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p5",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406400_5.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[5]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406400_5.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p6",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p6-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p6",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406500_6.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[6]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406500_6.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p7",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p7-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p7",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406600_7.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[7]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406600_7.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p8",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p8-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p8",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406700_8.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[8]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406700_8.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p9",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p9-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p9",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406800_9.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[9]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406800_9.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p10",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p10-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p10",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406900_10.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[10]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406900_10.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p11",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p11-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p11",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407000_11.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[11]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407000_11.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p12",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p12-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p12",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407100_12.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[12]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407100_12.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p13",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p13-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p13",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407200_13.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[13]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407200_13.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p14",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p14-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p14",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407300_14.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[14]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407300_14.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p15",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p15-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p15",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407400_15.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[15]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407400_15.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p16",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p16-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p16",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407500_16.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[16]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407500_16.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p17",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p17-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p17",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407600_17.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[17]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407600_17.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p18",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p18-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p18",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407700_18.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[18]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407700_18.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p19",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p19-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p19",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407800_19.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[19]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407800_19.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p20",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p20-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p20",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407900_20.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[20]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0407900_20.jpg"
+                    },
+                    "width": 2339
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p21",
+                    "@type": "sc:Canvas",
+                    "height": 1654,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/annotation/p21-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/chiba/manifest/4a329e7d136b117b82552c2f511102cc.json/canvas/p21",
+                            "resource": {
+                                "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=org&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0408000_21.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1654,
+                                "width": 2339
+                            }
+                        }
+                    ],
+                    "label": "[21]",
+                    "thumbnail": {
+                        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0408000_21.jpg"
+                    },
+                    "width": 2339
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://e-library.gprime.jp/lib_pref_chiba/da/download/?id=0000000014-CHB600095&size=thumb&type=image&file=%2F%E5%8D%83%E8%91%89%E7%9C%8C%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%2FCHB600095_0406000_1.jpg"
+    },
+    "within": "http://e-library.gprime.jp/lib_pref_chiba/da/top"
+}

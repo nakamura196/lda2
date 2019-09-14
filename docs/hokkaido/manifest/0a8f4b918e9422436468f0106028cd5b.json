@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0a8f4b918e9422436468f0106028cd5b.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "昭和７年 洪水になった中央橋",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ガラス乾板写真集"
+        },
+        {
+            "label": "タイトル",
+            "value": "昭和７年 洪水になった中央橋"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ショウワ７ネン コウズイニナッタ チュウオウバシ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "滝上町図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "35936"
+        },
+        {
+            "label": "言語",
+            "value": "JPN：日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "地域",
+            "value": "滝上"
+        },
+        {
+            "label": "説明",
+            "value": "奥に瀧ノ上神社が見える"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "まちの様子"
+        },
+        {
+            "label": "シリーズ名（ヨミ）",
+            "value": "マチノヨウス"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=55&data_id=5-35936-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0a8f4b918e9422436468f0106028cd5b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0a8f4b918e9422436468f0106028cd5b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1546,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/0a8f4b918e9422436468f0106028cd5b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/0a8f4b918e9422436468f0106028cd5b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35936/0231954/0231954_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1546,
+                                "width": 2126
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35936/0231954/0231954_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2126
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/35936/0231954/0231954_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}
