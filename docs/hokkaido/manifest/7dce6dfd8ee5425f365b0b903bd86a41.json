@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7dce6dfd8ee5425f365b0b903bd86a41.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "千島色丹島斜古丹港内の眺望 [静止画資料]",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "絵葉書"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "絵葉書"
+        },
+        {
+            "label": "タイトル",
+            "value": "千島色丹島斜古丹港内の眺望 [静止画資料]"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "チシマシコタントウシャコタンコウナイノチョウボウ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "千島色丹島斜古丹港内の眺望 [静止画資料]. 其一"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "チシマ シコタン トウ シャコタン コウナイ ノ チョウボウ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3100000005332"
+        },
+        {
+            "label": "管理番号",
+            "value": "38772"
+        },
+        {
+            "label": "言語",
+            "value": "JPN"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "原田"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ハラダ"
+        },
+        {
+            "label": "大きさ",
+            "value": "10×15cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-38772-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7dce6dfd8ee5425f365b0b903bd86a41.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7dce6dfd8ee5425f365b0b903bd86a41.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/7dce6dfd8ee5425f365b0b903bd86a41.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/7dce6dfd8ee5425f365b0b903bd86a41.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38772/0250139/0250139_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1456,
+                                "width": 2240
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38772/0250139/0250139_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2240
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38772/0250139/0250139_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

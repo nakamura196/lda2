@@ -1,0 +1,138 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f062beb56af39d4f0ddc8d467b30780f.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "千島一覧",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "千島一覧"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "チシマ イチラン"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "千島一覧"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "チシマ イチラン"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730010245"
+        },
+        {
+            "label": "管理番号",
+            "value": "1644"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1870"
+        },
+        {
+            "label": "著者",
+            "value": "松浦武四郎/〔著〕"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "マツウラ タケシロウ"
+        },
+        {
+            "label": "一般注記",
+            "value": "鳥瞰図、州名、郡数、里程東本願寺縣所建立地等記載あり"
+        },
+        {
+            "label": "地域",
+            "value": "千島列島（歯舞諸島、色丹島、国後島、択捉島を除く）"
+        },
+        {
+            "label": "説明",
+            "value": "明治3年（1870）、北方探検家として有名な松浦武四郎が描き、東京の和泉屋市兵衛から大錦3枚続きとして出版された鳥瞰図である。北海道を中心に樺太島や千島列島の島々を描写した木版多色刷の美しい図である。「庚午冬日 北海道人戯図」と記すが、「北海道人」とは松浦武四郎の号の一つである。北海道十二州名を挙げ、下部には全道各地への里程を詳細に載せている。因みに本図の草稿は松阪市にある松浦武四郎記念館に所蔵されている。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "東京府"
+        },
+        {
+            "label": "出版者",
+            "value": "和泉屋市兵衛"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "イズミヤイチベエ"
+        },
+        {
+            "label": "大きさ",
+            "value": "38×76cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1644-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f062beb56af39d4f0ddc8d467b30780f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f062beb56af39d4f0ddc8d467b30780f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2141,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/f062beb56af39d4f0ddc8d467b30780f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/f062beb56af39d4f0ddc8d467b30780f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1644/0080598/0080598_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2141,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1644/0080598/0080598_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1644/0080598/0080598_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

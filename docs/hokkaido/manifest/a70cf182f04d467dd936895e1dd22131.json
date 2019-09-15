@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a70cf182f04d467dd936895e1dd22131.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "明治天皇崩御三周年忌追悼句会の一巻 大正２年 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "明治天皇崩御三周年忌追悼句会の一巻 大正２年 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "メイジテンノウホウギョ サンシュウネンキ ツイトウクカイ ノ ヒトマキ タイショウ２ネン （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "39245"
+        },
+        {
+            "label": "言語",
+            "value": "JPN：日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "俳句の会「蛙声会（あせいかい）」が、大正２年に明治天皇崩御三周年忌の追悼句会を開き、会員の句を記したもの。「常呂町史」には、町内の「曹洞宗大雲山天龍寺の古文書の中から発見」の記述があり、表装した額の写真が付けられています。戦時中活動を停止した蛙声会は、戦後再出発し、現在も例会を続けています。この蛙声会が創立１００年を記念してこれまでの歩みを掘り起こす一環として、天龍寺に現物が保存されていることを知り、写真に収めました。額のサイズは、タテ４８．８ｃｍ、ヨコ１５８．５ｃｍ。我流のくずし字もいくつかあり、右から2.17．21番目の句が判読できないとのことです。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-39245-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a70cf182f04d467dd936895e1dd22131.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a70cf182f04d467dd936895e1dd22131.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 924,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a70cf182f04d467dd936895e1dd22131.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/a70cf182f04d467dd936895e1dd22131.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39245/0251332/0251332_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 924,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39245/0251332/0251332_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/39245/0251332/0251332_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}
