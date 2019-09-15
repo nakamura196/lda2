@@ -1,0 +1,94 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74f5be4b7dbcd0a179a30806cb9e19ab.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "旭川市街展望",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "旭川市図書館所蔵写真"
+        },
+        {
+            "label": "タイトル",
+            "value": "旭川市街展望"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "アサヒカワシガイテンボウ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "旭川市図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "30891"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "一般注記",
+            "value": "市街"
+        },
+        {
+            "label": "内容細目",
+            "value": "旭川の町並み"
+        },
+        {
+            "label": "地域",
+            "value": "旭川"
+        },
+        {
+            "label": "説明",
+            "value": "公害スナップ 旧北海ホテル 紳士服の一色"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=53&data_id=5-30891-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74f5be4b7dbcd0a179a30806cb9e19ab.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74f5be4b7dbcd0a179a30806cb9e19ab.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1908,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74f5be4b7dbcd0a179a30806cb9e19ab.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/74f5be4b7dbcd0a179a30806cb9e19ab.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/30891/0208187/0208187_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1908,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/30891/0208187/0208187_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/30891/0208187/0208187_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

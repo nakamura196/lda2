@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/17f5bc71bafcce555bb7c5e2718a66cf.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "小樽市街之図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "小樽市街之図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "オタル シガイ ノ ズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "小樽市街之図 [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "オタル シガイ ノ ズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012607"
+        },
+        {
+            "label": "管理番号",
+            "value": "2260"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1911"
+        },
+        {
+            "label": "著者",
+            "value": "丸藤 宇三郎∥[著]"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "マルフジ ウサブロウ"
+        },
+        {
+            "label": "一般注記",
+            "value": "縮尺1：10000"
+        },
+        {
+            "label": "地域",
+            "value": "小樽"
+        },
+        {
+            "label": "出版地",
+            "value": "小樽区"
+        },
+        {
+            "label": "出版者",
+            "value": "丸藤測量事務所"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "マルフジソクリョウジムショ"
+        },
+        {
+            "label": "大きさ",
+            "value": "52×68cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2260-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/17f5bc71bafcce555bb7c5e2718a66cf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/17f5bc71bafcce555bb7c5e2718a66cf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2586,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/17f5bc71bafcce555bb7c5e2718a66cf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/17f5bc71bafcce555bb7c5e2718a66cf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2260/0090720/0090720_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2586,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2260/0090720/0090720_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2260/0090720/0090720_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

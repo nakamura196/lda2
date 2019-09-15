@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "姉問逆水門跡 大正１５年９月 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "姉問逆水門跡 大正１５年９月 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "アネトイギャクスイモンアト タイショウ１５ネン９ガツ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41159"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「ところ文庫１０ 常呂町歴史散歩」から（常呂町郷土研究同好会／刊） 「古い記録に、アネトイ（ア子トイ）またはアネトウ（ア子トウ）と書かれたアイヌ語の地名があります。さけ・ます捕獲場からおよそ１ｋｍ上流の姉問水門付近のことで…（中略）…ここに水門が造られたのは大正15（１９２６）年9月のことで、常呂川下流部の築堤工事に伴い、満潮時の常呂川の逆流と洪水によるアネトイ川の氾濫を防ぐために造られました。当時としては珍しいアーチ型の水門です。その後、昭和59（１９８４）年に築堤のかさ上げ工事に伴い、旧水門より下流に新しい水門が造られ、同時に水門に直接連結した排水機場も建設されました。旧水門のアネトイ川の胸壁の装飾は、現在でもその上部が残っているので見ることができます」＊写真は、姉問逆水門跡と姉問排水機場。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41159-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41159/0260638/0260638_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41159/0260638/0260638_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1600
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/c2c0d127dc219132b30a5327287cf93a.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41159/0260639/0260639_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41159/0260639/0260639_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41159/0260638/0260638_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

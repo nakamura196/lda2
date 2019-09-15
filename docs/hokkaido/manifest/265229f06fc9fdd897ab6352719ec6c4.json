@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/265229f06fc9fdd897ab6352719ec6c4.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北進町側から常呂小学校方面の町道 昭和４６年頃 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "北進町側から常呂小学校方面の町道 昭和４６年頃 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ホクシンチョウ・トコロショウガッコウ・ドウロチョウドウ ショウワ４６ネンコロ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42436"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "常呂駅から北進町に続く旧国道と常呂小学校前から続く町道が交わる湧網線踏切の交差点から常呂小学校方面の町道と街並み。右側が開進町で左側が栄町。写真の奥にはかすかに舗装道路が見える（昭和４４年７月に常呂小学校前の町道３００ｍが舗装）。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42436-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/265229f06fc9fdd897ab6352719ec6c4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/265229f06fc9fdd897ab6352719ec6c4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1279,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/265229f06fc9fdd897ab6352719ec6c4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/265229f06fc9fdd897ab6352719ec6c4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42436/0264068/0264068_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1279,
+                                "width": 1919
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42436/0264068/0264068_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1919
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42436/0264068/0264068_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

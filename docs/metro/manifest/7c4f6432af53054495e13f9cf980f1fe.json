@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7c4f6432af53054495e13f9cf980f1fe.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[1913]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/34・369/5008/1913"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(5枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "シュッパンシャ フメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×9cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "[大正二年二月二十日神田の大火]"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "タイショウ ニネン ニガツ ハツカ カンダ ノ タイカ"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "神田区大火の惨状　明治会館"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "大正二年二月二十日　本郷便利堂発行"
+        },
+        {
+            "label": "資料コード",
+            "value": "5006019054"
+        },
+        {
+            "label": "件名",
+            "value": "千代田区"
+        },
+        {
+            "label": "件名",
+            "value": "チヨダク"
+        },
+        {
+            "label": "災害名称",
+            "value": "大正期の大火"
+        },
+        {
+            "label": "災害年代",
+            "value": "大正"
+        },
+        {
+            "label": "災害種別",
+            "value": "火災"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004238",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7c4f6432af53054495e13f9cf980f1fe.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/7c4f6432af53054495e13f9cf980f1fe.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/7c4f6432af53054495e13f9cf980f1fe.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/7c4f6432af53054495e13f9cf980f1fe.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004238&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006019054_0005.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004238&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006019054_0005.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004238&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5006019054_0005.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/724dd1badc0d77ff0fc997a5e4e3c0c8.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂村役場庁舎・議事堂 昭和４年１０月 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂村役場庁舎・議事堂 昭和４年１０月 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロムラヤクバチョウシャ・ギジドウ ショウワ４ネン１０ガツ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "40177"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「常呂村史」から：昭和４年１０月役場庁舎・議事堂建設（事務室２９坪・宿直室５坪・小使室６坪・湯飲室４坪・村長室６坪・委員室９坪・議事堂３１坪）＊建設後間もない頃の写真＊庁舎の前に電柱があるが、大正７年：常呂電気株式会社設立、大正９年開業、大正１１年経営難で北海道合同電気株式会社に吸収合併、大正１３年発電所から火災、大正１４年火災復旧使用認可。昭和４年の「小林家文書」に、（６月）電気料６円３５銭の支出記録あり。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-40177-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/724dd1badc0d77ff0fc997a5e4e3c0c8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/724dd1badc0d77ff0fc997a5e4e3c0c8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2027,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/724dd1badc0d77ff0fc997a5e4e3c0c8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/724dd1badc0d77ff0fc997a5e4e3c0c8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40177/0261174/0261174_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2027,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40177/0261174/0261174_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40177/0261174/0261174_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

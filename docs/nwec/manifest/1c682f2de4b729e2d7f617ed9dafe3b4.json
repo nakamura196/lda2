@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/1c682f2de4b729e2d7f617ed9dafe3b4.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "家庭科の男女共修をすすめる会;[馬場陽子]"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "スローファイア化"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:extent",
+            "value": "30cm×21cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "収入"
+        },
+        {
+            "label": "dc:subject",
+            "value": "支出"
+        },
+        {
+            "label": "dc:subject",
+            "value": "家庭科の男女共修をすすめる会"
+        },
+        {
+            "label": "dc:subject",
+            "value": "馬場"
+        },
+        {
+            "label": "dc:subject",
+            "value": "陽子（家庭科の男女共修をすすめる会）"
+        },
+        {
+            "label": "dc:title",
+            "value": "1986年度総会会計報告案"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "[家庭科の男女共修をすすめる会'85.4～'87.12]"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "カテイカ ノ ダンジョ キョウシュウ オ ススメルカイ 85 4 87 12"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "1986ネンド ソウカイ カイケイ ホウコクアン"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1986"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210000900059",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/1c682f2de4b729e2d7f617ed9dafe3b4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/1c682f2de4b729e2d7f617ed9dafe3b4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2880,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/1c682f2de4b729e2d7f617ed9dafe3b4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/1c682f2de4b729e2d7f617ed9dafe3b4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239182.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2880,
+                                "width": 2042
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239182_ls.jpg"
+                    },
+                    "width": 2042
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239182_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

@@ -1,0 +1,155 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "家庭科教育研究者連盟;丸岡玲子"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:一部可"
+        },
+        {
+            "label": "dc:description",
+            "value": "恒久利用条件:利用制限あり(個人情報)"
+        },
+        {
+            "label": "dc:description",
+            "value": "著作権許諾済"
+        },
+        {
+            "label": "dc:description",
+            "value": "「1991.11.17 家教連11月理事会(丸岡)」とあり"
+        },
+        {
+            "label": "dc:extent",
+            "value": "26cm×37cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "2枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "家庭科教育"
+        },
+        {
+            "label": "dc:subject",
+            "value": "集会"
+        },
+        {
+            "label": "dc:subject",
+            "value": "家庭科教育研究者連盟"
+        },
+        {
+            "label": "dc:subject",
+            "value": "丸岡"
+        },
+        {
+            "label": "dc:subject",
+            "value": "玲子(家庭科教育研究者連盟会長)"
+        },
+        {
+            "label": "dc:title",
+            "value": "[11月理事会報告]"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "[家教連理事会関連資料]"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "カキョウレン リジカイ カンレン シリョウ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "11ガツ リジカイ ホウコク"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1991"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210006000100",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2068,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299815.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2068,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299815_ls.jpg"
+                    },
+                    "width": 2880
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2075,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/6460f286cc70d55d3d8042491c390118.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299816.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2075,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299816_ls.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299815_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

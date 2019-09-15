@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "[家庭科の男女共修をすすめる会]"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:description",
+            "value": "恒久利用条件:著作権許諾済"
+        },
+        {
+            "label": "dc:description",
+            "value": "本文に青ボールペンで書き込みあり"
+        },
+        {
+            "label": "dc:extent",
+            "value": "26cm×37cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "2枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "行動計画"
+        },
+        {
+            "label": "dc:subject",
+            "value": "家庭科の男女共修をすすめる会"
+        },
+        {
+            "label": "dc:title",
+            "value": "1983年度運動方針と活動報告及び1984年度運動方針案"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "[家庭科の男女共修をすすめる会'83～'84]"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "カテイカ ノ ダンジョ キョウシュウ オ ススメルカイ 83 84"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "1983ネンド ウンドウ ホウシン ト カツドウ ホウコク オヨビ 1984ネンド ウンドウ ホウシン アン"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1984"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210002300026",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2061,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/240/000240053.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2061,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/240/000240053_ls.jpg"
+                    },
+                    "width": 2880
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2078,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/6e8af0edf142bb264388a38a627da7c4.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/240/000240054.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2078,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/240/000240054_ls.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/240/000240053_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

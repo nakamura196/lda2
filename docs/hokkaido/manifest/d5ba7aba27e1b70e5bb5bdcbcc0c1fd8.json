@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d5ba7aba27e1b70e5bb5bdcbcc0c1fd8.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "啓明校",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "啓明校"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ケイメイコウ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "旭川市図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "啓明校"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ケイメイコウ"
+        },
+        {
+            "label": "管理番号",
+            "value": "38739"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1933"
+        },
+        {
+            "label": "内容注記",
+            "value": "大正十四年実測 大正十五年製図 昭和七年部分修正"
+        },
+        {
+            "label": "地域",
+            "value": "旭川"
+        },
+        {
+            "label": "出版地",
+            "value": "旭川"
+        },
+        {
+            "label": "出版者",
+            "value": "旭川市役所"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "アサヒカワシヤクショ"
+        },
+        {
+            "label": "大きさ",
+            "value": "55×77cm"
+        },
+        {
+            "label": "容量",
+            "value": "縮尺1：3000"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=53&data_id=5-38739-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d5ba7aba27e1b70e5bb5bdcbcc0c1fd8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d5ba7aba27e1b70e5bb5bdcbcc0c1fd8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2558,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d5ba7aba27e1b70e5bb5bdcbcc0c1fd8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d5ba7aba27e1b70e5bb5bdcbcc0c1fd8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38739/0249910/0249910_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2558,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38739/0249910/0249910_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38739/0249910/0249910_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

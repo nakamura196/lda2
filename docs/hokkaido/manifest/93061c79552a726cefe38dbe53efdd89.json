@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/93061c79552a726cefe38dbe53efdd89.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "ソ連・ユジノサハリンスク市",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "旭川市図書館所蔵写真"
+        },
+        {
+            "label": "タイトル",
+            "value": "ソ連・ユジノサハリンスク市"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ソレン・ユジノサハリンスクシ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "旭川市図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "37192"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "昭和47年09月09日～13日"
+        },
+        {
+            "label": "一般注記",
+            "value": "流通団地"
+        },
+        {
+            "label": "内容注記",
+            "value": "時代目安：昭和40-64年"
+        },
+        {
+            "label": "内容細目",
+            "value": "国際交流"
+        },
+        {
+            "label": "地域",
+            "value": "旭川"
+        },
+        {
+            "label": "説明",
+            "value": "ユジノサハリンスク市親善訪問団来旭 ブルイキン市長 姉妹都市 視察 旭一？ 卸売市場 セリ風景"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=53&data_id=5-37192-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/93061c79552a726cefe38dbe53efdd89.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/93061c79552a726cefe38dbe53efdd89.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2102,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/93061c79552a726cefe38dbe53efdd89.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/93061c79552a726cefe38dbe53efdd89.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/37192/0243616/0243616_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2102,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/37192/0243616/0243616_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/37192/0243616/0243616_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

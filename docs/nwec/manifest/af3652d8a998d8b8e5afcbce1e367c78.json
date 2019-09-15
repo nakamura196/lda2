@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/af3652d8a998d8b8e5afcbce1e367c78.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "売春対策国民協議会"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "スローファイア化"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:extent",
+            "value": "26cm×19cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "売春対策国民協議会"
+        },
+        {
+            "label": "dc:subject",
+            "value": "久布白"
+        },
+        {
+            "label": "dc:subject",
+            "value": "オチミ(売春対策国民協議会会長)"
+        },
+        {
+            "label": "dc:title",
+            "value": "[1958年のアジア大会運営組織委員会宛文書]"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "日本キリスト教婦人矯風会資料（売春防止法関係）"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ニホン キリストキョウ フジン キョウフウカイ シリョウ バイシュン ボウシホウ カンケイ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "1958ネン ノ アジア タイカイ ウンエイ ソシキ イインカイ アテ ブンショ"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1958"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000130003600001",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/af3652d8a998d8b8e5afcbce1e367c78.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/af3652d8a998d8b8e5afcbce1e367c78.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2880,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/af3652d8a998d8b8e5afcbce1e367c78.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/af3652d8a998d8b8e5afcbce1e367c78.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/231/000231966.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2880,
+                                "width": 2093
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/231/000231966_ls.jpg"
+                    },
+                    "width": 2093
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/231/000231966_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

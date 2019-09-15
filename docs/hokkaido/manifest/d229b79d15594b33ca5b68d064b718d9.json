@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d229b79d15594b33ca5b68d064b718d9.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂川下流築堤護岸工事完成 昭和３年７月 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂川下流築堤護岸工事完成 昭和３年７月 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロガワカリュウチクテイゴガンコウジカンセイ ショウワ３ネン７ガツ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42282"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「常呂村史」から：常呂川下流部工事実施の状況という項目で、大正１０年８月に左岸築堤終点部分から工事に着手し、冬期間も継続して行い、大正１１年８月の洪水で築堤の一部を流失するという不幸に遭遇しながらも大正１４年に左岸築堤完成。大正１５年には右岸築堤工事も完成。昭和３年７月、護岸工事の全部を完成、付帯水門工事、道路付け替え工事等を竣工。写真はこの工事完成後、昭和１０年代のもの。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42282-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d229b79d15594b33ca5b68d064b718d9.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d229b79d15594b33ca5b68d064b718d9.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1273,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d229b79d15594b33ca5b68d064b718d9.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d229b79d15594b33ca5b68d064b718d9.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42282/0263717/0263717_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1273,
+                                "width": 2016
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42282/0263717/0263717_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2016
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42282/0263717/0263717_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

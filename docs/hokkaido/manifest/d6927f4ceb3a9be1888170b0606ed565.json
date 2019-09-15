@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6927f4ceb3a9be1888170b0606ed565.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "福山小学校校章制定 昭和５３年３月１日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "学校資料"
+        },
+        {
+            "label": "タイトル",
+            "value": "福山小学校校章制定 昭和５３年３月１日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "フクヤマショウガッコウコウショウセイテイ ショウワ５３ネン３ガツ１ニチ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42615"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「福山小学校開校６０周年誌」には、校章について「校章の地柄正六角形に雪を表し、厳しさと豊かな自然に恵まれたこの北海道に根強く、たくましく生き、さらに郷土常呂町町花てっせん（クレマチス）を配して郷土愛を表現し、イワケシュをはじめ幾多の山々に囲まれた平和な里で、人間性豊かに日々成長する福山小学校児童の姿を表現した」と記述。配色は、「中央円内部の文字は黒、円内部は白、葉は緑、正六角形内側の葉と葉の間は桃色」。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42615-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6927f4ceb3a9be1888170b0606ed565.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6927f4ceb3a9be1888170b0606ed565.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1545,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6927f4ceb3a9be1888170b0606ed565.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6927f4ceb3a9be1888170b0606ed565.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42615/0264949/0264949_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1545,
+                                "width": 1593
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42615/0264949/0264949_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1593
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42615/0264949/0264949_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/fba0661e121e24e3f00879992f0a712c.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂町国保病院 昭和２８年１０月１日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂町国保病院 昭和２８年１０月１日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロチョウコクホビョウイン ショウワ２８ネン１０ガツ１ニチ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42144"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「常呂町史」から：昭和１７年１１月１４日 常呂村国民健康保険組合設立昭和２３年９月２０日 常呂村病院建設（工費２百２７万６，９２０円 ２９２坪 ２５床）昭和２３年１０月１日 北海道農業共同組合連合会に病院経営委託昭和２８年１０月１日 常呂町国民健康保険病院（国保病院）」として発足昭和３４年９月２５日 国保病院増築落成昭和４０年１１月８日 国保病院新築写真は、厚生病院から国保病院に変更後直後の国保病院全景。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42144-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/fba0661e121e24e3f00879992f0a712c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/fba0661e121e24e3f00879992f0a712c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 891,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/fba0661e121e24e3f00879992f0a712c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/fba0661e121e24e3f00879992f0a712c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42144/0263411/0263411_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 891,
+                                "width": 1365
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42144/0263411/0263411_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1365
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42144/0263411/0263411_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

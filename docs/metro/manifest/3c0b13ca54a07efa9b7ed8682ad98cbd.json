@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c0b13ca54a07efa9b7ed8682ad98cbd.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "1896.10"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/36・290/5023/1896"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "地図1枚 色刷"
+        },
+        {
+            "label": "出版者",
+            "value": "北畠茂兵衛"
+        },
+        {
+            "label": "出版者",
+            "value": "キタバタケモヘイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "69×80cm(折りたたみ20cm)"
+        },
+        {
+            "label": "注記",
+            "value": "カバーのタイトル:東亰市牛込區全圖拾五區之内第十"
+        },
+        {
+            "label": "注記",
+            "value": "カバー入"
+        },
+        {
+            "label": "資料コード",
+            "value": "5013196700"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:5000"
+        },
+        {
+            "label": "件名",
+            "value": "新宿区"
+        },
+        {
+            "label": "件名",
+            "value": "シンジュクク"
+        },
+        {
+            "label": "著編者",
+            "value": "東亰郵便電信局／[著]"
+        },
+        {
+            "label": "図名",
+            "value": "東亰市牛込區全圖"
+        },
+        {
+            "label": "図名",
+            "value": "トウキョウシ ウシゴメク ゼンズ"
+        },
+        {
+            "label": "図名関連情報",
+            "value": "明治二十九年八月調査"
+        },
+        {
+            "label": "図名関連情報",
+            "value": "メイジ ニジュウキュウネン ハチガツ チョウサ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00002297",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c0b13ca54a07efa9b7ed8682ad98cbd.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c0b13ca54a07efa9b7ed8682ad98cbd.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 5852,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3c0b13ca54a07efa9b7ed8682ad98cbd.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3c0b13ca54a07efa9b7ed8682ad98cbd.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002297&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5013196700_0003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5852,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002297&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5013196700_0003.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002297&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5013196700_0003.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

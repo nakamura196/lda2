@@ -1,10 +1,10 @@
 echo ' --- 01 ---'
-python 01_create_metadata.py ../../collections_data/metro/data/config.yml
+python 01_create_metadata.py ../../collections_data/hokkaido/data/config.yml
 echo ' ---- 02 ----'
-python 02_create_images.py ../../collections_data/metro/data/config.yml
+python 02_create_images.py ../../collections_data/hokkaido/data/config.yml
 echo ' ---- 12 ----'
-python 12_create_manifest.py ../../collections_data/metro/data/config.yml
+python 12_create_manifest.py ../../collections_data/hokkaido/data/config.yml
 echo ' ---- 13 ----'
-python 13_create_collection.py ../../collections_data/metro/data/config.yml
+python 13_create_collection.py ../../collections_data/hokkaido/data/config.yml
 echo ' ---- 20 ----'
-python 20_collection_converter.py /Users/nakamura/git/min_a/lda2/docs/metro/collection.json /Users/nakamura/git/min_a/lda2/docs/metro/items.json
+python 20_collection_converter.py /Users/nakamura/git/min_a/lda2/docs/hokkaido/collection.json /Users/nakamura/git/min_a/lda2/docs/hokkaido/items.json

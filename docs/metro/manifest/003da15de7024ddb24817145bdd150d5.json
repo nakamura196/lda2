@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/003da15de7024ddb24817145bdd150d5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[1921?]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・260/5027/"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(46枚)"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "シュッパンシャフメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "16×10cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "東京名所"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "トウキョウ メイショ"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "最新撮影"
+        },
+        {
+            "label": "掲載資料関連情報",
+            "value": "サイシン サツエイ"
+        },
+        {
+            "label": "注記",
+            "value": "箱入り"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "近衛歩兵第一、第二連隊 The Konowehohei No.1＆2 Rentai Tokyo"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "東京名所"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003079030"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00002883",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/003da15de7024ddb24817145bdd150d5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/003da15de7024ddb24817145bdd150d5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/003da15de7024ddb24817145bdd150d5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/003da15de7024ddb24817145bdd150d5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002883&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003079030_0021.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002883&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003079030_0021.jpg"
+                    },
+                    "width": 5616
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00002883&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003079030_0021.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5182dbc0f74eb2479a4f73719191b602.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "青雲小学校",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "旭川市図書館所蔵写真"
+        },
+        {
+            "label": "タイトル",
+            "value": "青雲小学校"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "セイウンショウガッコウ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "旭川市図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41819"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "昭和36年6月9日"
+        },
+        {
+            "label": "一般注記",
+            "value": "曙"
+        },
+        {
+            "label": "内容注記",
+            "value": "時代目安：昭和20-39年"
+        },
+        {
+            "label": "内容細目",
+            "value": "小学校"
+        },
+        {
+            "label": "説明",
+            "value": "北朝鮮帰国の友を送る 友達から心づくしの記念品を贈られて喜ぶ香山君兄弟"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=53&data_id=5-41819-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5182dbc0f74eb2479a4f73719191b602.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5182dbc0f74eb2479a4f73719191b602.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2242,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/5182dbc0f74eb2479a4f73719191b602.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/5182dbc0f74eb2479a4f73719191b602.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41819/0262626/0262626_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2242,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41819/0262626/0262626_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41819/0262626/0262626_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

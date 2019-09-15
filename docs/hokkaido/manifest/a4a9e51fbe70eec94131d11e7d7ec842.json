@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a4a9e51fbe70eec94131d11e7d7ec842.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "慥斎改正今蝦夷地形図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "慥斎改正今蝦夷地形図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ゾウサイ カイセイ イマエゾ チケイズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "慥斎改正今蝦夷地形図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ゾウサイ カイセイ イマエゾ チケイズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012947"
+        },
+        {
+            "label": "管理番号",
+            "value": "1631"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1799"
+        },
+        {
+            "label": "著者",
+            "value": "山田聯/〔著〕"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "ヤマダ レン"
+        },
+        {
+            "label": "一般注記",
+            "value": "写"
+        },
+        {
+            "label": "説明",
+            "value": "幕府の若年寄、堀田正敦に仕えた地理学者、山田聯（慥斎と号す）の作成した図である。蝦夷地を中心としてカラフト島や千島の島々をも描く大型図である。この図の元は寛政2年（1790）に最上徳内が著わした『蝦夷草紙』付図5枚であり、山田聯はそのうちの4枚を1枚に写しとって作成したものである。図中に経緯度線を引き、随所に『蝦夷志』や『蝦夷草紙』からの説明を記入している。なお本図には外題・内題ともになく、国文学研究資料館所蔵「津軽家文書」にある同図の内題をそのまま借用したものである。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "出版者",
+            "value": "〔出版者不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "145×146cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1631-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a4a9e51fbe70eec94131d11e7d7ec842.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a4a9e51fbe70eec94131d11e7d7ec842.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3277,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a4a9e51fbe70eec94131d11e7d7ec842.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/a4a9e51fbe70eec94131d11e7d7ec842.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1631/0080575/0080575_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3277,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1631/0080575/0080575_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1631/0080575/0080575_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

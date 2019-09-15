@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "吉野小学校新築落成 昭和３６年１２月４日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "学校資料"
+        },
+        {
+            "label": "タイトル",
+            "value": "吉野小学校新築落成 昭和３６年１２月４日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ヨシノショウガッコウシンチクラクセイ ショウワ３６ネン１２月４日 （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "41155"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和１１年９月２５日、隈川小学校改築竣工。昭和３４年１１月７日、へき地集会所（体育館：１７８．２㎡）落成式。昭和３６年１２月４日、校舎新築（体育館を除く１５２．２８㎡）。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-41155-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 703,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41155/0260625/0260625_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 703,
+                                "width": 1117
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41155/0260625/0260625_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1117
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 701,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d35c1dee14a22428c069ff520eedd31a.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41155/0260626/0260626_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 701,
+                                "width": 1133
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41155/0260626/0260626_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1133
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/41155/0260625/0260625_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

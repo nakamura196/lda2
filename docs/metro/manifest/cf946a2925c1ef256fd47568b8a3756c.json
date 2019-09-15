@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cf946a2925c1ef256fd47568b8a3756c.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[193-?]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/35・18/5003/"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(8枚) 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "泉岳寺"
+        },
+        {
+            "label": "出版者",
+            "value": "センガクジ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×10cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "四十七義士遺物萬松山泉岳寺参拜記念"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "シジュウシチ ギシ イブツ バンショウザン センガクジ サンパイ キネン"
+        },
+        {
+            "label": "注記",
+            "value": "タイトルは袋による"
+        },
+        {
+            "label": "注記",
+            "value": "袋入り"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "（刀・槍）"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003084068"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00003251",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cf946a2925c1ef256fd47568b8a3756c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/cf946a2925c1ef256fd47568b8a3756c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/cf946a2925c1ef256fd47568b8a3756c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/cf946a2925c1ef256fd47568b8a3756c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003251&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003084068_0002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4090,
+                                "width": 5450
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003251&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003084068_0002.jpg"
+                    },
+                    "width": 5450
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003251&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003084068_0002.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

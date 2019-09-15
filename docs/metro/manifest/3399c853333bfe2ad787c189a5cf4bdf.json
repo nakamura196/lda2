@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3399c853333bfe2ad787c189a5cf4bdf.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "大震大火災実況（馬入川、小田原、熱海、他）（写真）",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "一般/東京/災異－地震/大正12年大地震/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "書誌注記",
+            "value": "；写真（印画紙焼付）；；；；；；；；；；｜//////////////｜/"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "0372-K9-2/東K小0372-K009-002"
+        },
+        {
+            "label": "題名",
+            "value": "大震大火災実況（馬入川、小田原、熱海、他）（写真）"
+        },
+        {
+            "label": "題名",
+            "value": "タイシン　ダイカサイ　ジッキョウ　バニュウガワ　オダワラ　アタミ　ホカ"
+        },
+        {
+            "label": "形状",
+            "value": "一枚もの"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00236088",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3399c853333bfe2ad787c189a5cf4bdf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/3399c853333bfe2ad787c189a5cf4bdf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/3399c853333bfe2ad787c189a5cf4bdf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/3399c853333bfe2ad787c189a5cf4bdf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

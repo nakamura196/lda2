@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/a8084236c461f98437f21ded11ea2be8.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "和田典子"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "印刷種別:手書き"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:description",
+            "value": "恒久利用条件:著作権許諾済"
+        },
+        {
+            "label": "dc:description",
+            "value": "作成年「1980」は前後の文書からの推測による"
+        },
+        {
+            "label": "dc:extent",
+            "value": "25cm×18cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "委員会"
+        },
+        {
+            "label": "dc:subject",
+            "value": "和田"
+        },
+        {
+            "label": "dc:subject",
+            "value": "典子(家庭科の男女共修をすすめる会)"
+        },
+        {
+            "label": "dc:title",
+            "value": "[10/4 実行委員会メモ]"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "1980.1-国連婦人の十年中間年日本大会"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "1980 1 コクレン フジン ノ 10ネン チュウカンネン ニホン タイカイ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "10 4 ジッコウ イインカイ メモ"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1980"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210012600027",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/a8084236c461f98437f21ded11ea2be8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/a8084236c461f98437f21ded11ea2be8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2880,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/a8084236c461f98437f21ded11ea2be8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/a8084236c461f98437f21ded11ea2be8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239992.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2880,
+                                "width": 2068
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239992_ls.jpg"
+                    },
+                    "width": 2068
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239992_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a68aed4c34d25d46046ca1e70a41a3cf.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "明治天皇葬儀遙拝式・遙拝殿新築 大正元年９月１３日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "ふり返ってみる地域のできごと"
+        },
+        {
+            "label": "タイトル",
+            "value": "明治天皇葬儀遙拝式・遙拝殿新築 大正元年９月１３日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "メイジテンノウソウギヨウハイシキ・ヨウハイデンシンチク タイショウ１ネン９ガツ１３ニチ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "40937"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「常呂町百年史」から：「明治天皇が明治４５年７月３０日に崩御され、その後９月１３日に葬儀が行われた。この日、常呂でも遙拝式が挙行される。当日のために公園予定地（現常呂中央児童公園）に、４００余円をかけ遙拝殿が新築された。当日、在郷軍人をはじめ５００余人が参列し、翌日は常楽寺にても各宗連合の遙拝式もなされている」と北海タイムスの記事を引用して記載。写真は大正２年と思われる遙拝殿と明治天皇修礼。場所は、中央児童公園の忠魂碑と小高神社があったあたり。遙拝殿手前には「明治天皇奉頌唱歌」の文字が見える。この歌は同年６月に歌詞を募集し、７月１８日東京音楽学校作曲で発表しているので、同年７月３０日に行った常呂村の明治天皇追悼修礼で発表を兼ねて行った可能性が高い。＊「常呂町史」５０９ページに、明治３６年に常呂神社の基礎となる小祠を建てたとしてこの写真が使われているのは間違い"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-40937-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a68aed4c34d25d46046ca1e70a41a3cf.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a68aed4c34d25d46046ca1e70a41a3cf.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2122,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a68aed4c34d25d46046ca1e70a41a3cf.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/a68aed4c34d25d46046ca1e70a41a3cf.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40937/0259898/0259898_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2122,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40937/0259898/0259898_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40937/0259898/0259898_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

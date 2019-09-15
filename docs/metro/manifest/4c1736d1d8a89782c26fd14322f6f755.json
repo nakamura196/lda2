@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c1736d1d8a89782c26fd14322f6f755.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "[192-]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "DT/0・450/5008/G"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "地図1枚 色刷"
+        },
+        {
+            "label": "出版者",
+            "value": "警視廳保安部建築課"
+        },
+        {
+            "label": "出版者",
+            "value": "ケイシチョウホアンブケンチクカ"
+        },
+        {
+            "label": "大きさ",
+            "value": "110×79cm(折りたたみ28cm)"
+        },
+        {
+            "label": "資料コード",
+            "value": "5000661115"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:20000"
+        },
+        {
+            "label": "巻次",
+            "value": "東京地圖"
+        },
+        {
+            "label": "巻次",
+            "value": "トウキョウ チズ"
+        },
+        {
+            "label": "著編者",
+            "value": "警視廳保安部建築課／調"
+        },
+        {
+            "label": "災害名称",
+            "value": "関東大震災（1923年）"
+        },
+        {
+            "label": "災害年代",
+            "value": "大正"
+        },
+        {
+            "label": "災害種別",
+            "value": "地震\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t火災"
+        },
+        {
+            "label": "図名",
+            "value": "大正十二年九月一日震災東京附近ニ於ケル木造建物被害分布圖"
+        },
+        {
+            "label": "図名",
+            "value": "タイショウ ジュウニネン クガツ ツイタチ シンサイ トウキョウ フキン ニ オケル モクゾウ タテモノ ヒガイ ブンプズ"
+        },
+        {
+            "label": "図名関連情報",
+            "value": "1:20000"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00001602",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c1736d1d8a89782c26fd14322f6f755.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c1736d1d8a89782c26fd14322f6f755.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/4c1736d1d8a89782c26fd14322f6f755.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/4c1736d1d8a89782c26fd14322f6f755.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001602&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5000661115_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4150
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001602&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5000661115_0001.jpg"
+                    },
+                    "width": 4150
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00001602&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5000661115_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74bf1bcc496ed5cea4fe0b6192ea994a.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "後志支庁管内鳥瞰図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "後志支庁管内鳥瞰図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "シリベシ シチョウ カンナイ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "後志支庁管内"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "シリベシ シチョウ カンナイ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009730005453"
+        },
+        {
+            "label": "管理番号",
+            "value": "2012"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1931"
+        },
+        {
+            "label": "一般注記",
+            "value": "鳥瞰せる後志支庁管内(17×74cm)含む"
+        },
+        {
+            "label": "出版地",
+            "value": "倶知安町(後志)"
+        },
+        {
+            "label": "出版者",
+            "value": "北海道後志支庁"
+        },
+        {
+            "label": "大きさ",
+            "value": "19×101cm(折りたたみ)"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2012-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74bf1bcc496ed5cea4fe0b6192ea994a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74bf1bcc496ed5cea4fe0b6192ea994a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 705,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/74bf1bcc496ed5cea4fe0b6192ea994a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/74bf1bcc496ed5cea4fe0b6192ea994a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2012/0090371/0090371_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 705,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2012/0090371/0090371_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2012/0090371/0090371_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

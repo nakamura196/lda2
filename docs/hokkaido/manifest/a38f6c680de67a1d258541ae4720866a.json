@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "川沿郵便局郵便集配業務開始 （常呂町） 昭和１１年４月１日",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "あのときの常呂・写真館"
+        },
+        {
+            "label": "タイトル",
+            "value": "川沿郵便局郵便集配業務開始 （常呂町） 昭和１１年４月１日"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "カワゾエユウビンキョクユウビンシュウハイギョウムカイし （トコロチョウ） ショウワ１１ネン４ガツ１ニチ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42463"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和１０年１１月１日：上川沿郵便局が川沿郵便局に改称昭和１１年４月１日：川沿郵便局、郵便集配事務開始。川沿・常呂間に騎馬送往復１便の路線開設昭和１７年８月１日：川沿郵便局が豊川郵便局に改称＊写真は、昭和１１年頃の局舎と１８年頃の郵便局職員"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42463-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 775,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42463/0264141/0264141_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 775,
+                                "width": 1183
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42463/0264141/0264141_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1183
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1421,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/a38f6c680de67a1d258541ae4720866a.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42463/0264142/0264142_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1421,
+                                "width": 2025
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42463/0264142/0264142_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2025
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42463/0264141/0264141_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

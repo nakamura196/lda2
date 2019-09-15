@@ -1,5 +1,9 @@
 cd collections
 
+echo "nwec"
+python create_batch.py ../../collections_data/nwec/data/config.yml
+sh batch.sh
+
 echo "ibaraki"
 python create_batch.py ../../collections_data/ibaraki/data/config.yml
 sh batch.sh

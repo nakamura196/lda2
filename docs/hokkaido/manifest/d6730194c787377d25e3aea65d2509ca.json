@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6730194c787377d25e3aea65d2509ca.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "函館戦争之古蹟五稜郭 [静止画資料]",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "絵葉書"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "絵葉書"
+        },
+        {
+            "label": "タイトル",
+            "value": "函館戦争之古蹟五稜郭 [静止画資料]"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ハコダテ センソウ ノ コセキ ゴリョウカク"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "函館戦争之古蹟五稜郭 [静止画資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ハコダテ センソウ ノ コセキ ゴリョウカク"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730014656"
+        },
+        {
+            "label": "管理番号",
+            "value": "4233"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "[出版年不明]"
+        },
+        {
+            "label": "出版地",
+            "value": "函館"
+        },
+        {
+            "label": "出版者",
+            "value": "小島大盛堂"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "コジマタイセイドウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "14×9cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-4233-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6730194c787377d25e3aea65d2509ca.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6730194c787377d25e3aea65d2509ca.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1374,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6730194c787377d25e3aea65d2509ca.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d6730194c787377d25e3aea65d2509ca.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/4233/0102155/0102155_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1374,
+                                "width": 2192
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/4233/0102155/0102155_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 2192
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/4233/0102155/0102155_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/79b58268697577ec5a7900e85a853ae0.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "石狩支庁管内鳥瞰図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "石狩支庁管内鳥瞰図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "イシカリ シチョウ カンナイ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚(折りたたみ)"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "石狩支庁管内鳥瞰図 [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "イシカリ シチョウ カンナイ チョウカンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3000900011901"
+        },
+        {
+            "label": "管理番号",
+            "value": "2000"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1937.7"
+        },
+        {
+            "label": "著者",
+            "value": "吉田 初三郎∥画"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "ヨシダ ハツサブロウ"
+        },
+        {
+            "label": "一般注記",
+            "value": "定山渓温泉附近スキー案内図あり"
+        },
+        {
+            "label": "地域",
+            "value": "石狩振興局"
+        },
+        {
+            "label": "出版地",
+            "value": "[札幌]"
+        },
+        {
+            "label": "出版者",
+            "value": "石狩景勝地協会"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "イシカリケイショウチキョウカイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "18×11cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2000-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/79b58268697577ec5a7900e85a853ae0.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/79b58268697577ec5a7900e85a853ae0.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 864,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/79b58268697577ec5a7900e85a853ae0.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/79b58268697577ec5a7900e85a853ae0.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2000/0090353/0090353_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 864,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2000/0090353/0090353_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2000/0090353/0090353_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

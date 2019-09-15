@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/beea7acb1e7b6cd64e8b3505f2b65bb8.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北海道石狩川図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "北海道石狩川図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ホッカイドウ イシカリガワズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "北海道石狩川図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ホッカイドウ イシカリガワズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3000700006701"
+        },
+        {
+            "label": "管理番号",
+            "value": "1640"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1875"
+        },
+        {
+            "label": "一般注記",
+            "value": "彩色．縮尺1：266800．大正12年河野常吉の図の来歴に関する記入あり"
+        },
+        {
+            "label": "説明",
+            "value": "『北海道石狩川図』（明治8年、開拓使地理課）と題する石版無彩刷図を、ほぼ原寸大に写し取り彩色して見やすくするとともに、随所に書き入れをした同名の図である。小樽から幌内に至る鉄道線路、雨竜川・空知川も新たに追加され、「江別村・幌向村・岩見沢・幌内」の文字も新しく記入されている。同19年に上川の愛別で発生したバッタ大群の駆除についての記載があり、河野常吉は説明文のなかで同年に写された図であろうと推測している。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "札幌"
+        },
+        {
+            "label": "出版者",
+            "value": "開拓使地理課"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "カイタクシチリカ"
+        },
+        {
+            "label": "大きさ",
+            "value": "66×54cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1640-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/beea7acb1e7b6cd64e8b3505f2b65bb8.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/beea7acb1e7b6cd64e8b3505f2b65bb8.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3265,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/beea7acb1e7b6cd64e8b3505f2b65bb8.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/beea7acb1e7b6cd64e8b3505f2b65bb8.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1640/0080592/0080592_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3265,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1640/0080592/0080592_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1640/0080592/0080592_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/8d16f5b4b88b7ea0d645f25320874008.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北海道鳥瞰図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "北海道鳥瞰図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ホッカイドウ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚(折たたみ)"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "北海道鳥瞰図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ホッカイドウ チョウカンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009510001876"
+        },
+        {
+            "label": "管理番号",
+            "value": "1979"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1936"
+        },
+        {
+            "label": "著者",
+            "value": "吉田 初三郎∥著"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "ヨシダ ハツサブロウ"
+        },
+        {
+            "label": "説明",
+            "value": "大正から昭和初期にかけて、全国的な観光ブームの興隆を背景に、観光名所や鉄道沿線などを独特のパノラマ手法で描き、鳥瞰図絵師としての地位を確立した吉田初三郎の作品。吉田は大正期より北海道に来道し、道内市町村等、各地の鳥瞰図を多数作製しているが、これは北海道全域を描くもの。本図には本道のほか、千島列島最北端の占守島やカムチャッカ半島なども描かれているが、特に札幌や旭川など、大都市や主要観光地の描写は詳細である。本図は、明治25年以来行われていた陸軍最大の年中行事「陸軍特別大演習」が、昭和11年10月に初めて北海道（石狩平野を中心に）で行われることを機に、北海道庁からの委嘱により作製されたが、大元帥として統監された昭和天皇台覧作である。因みに、演習終了後、昭和天皇は札幌・小樽を巡幸したが、翌年、日中戦争が起こったため、恒例の大演習はこれが最後のものとなった。"
+        },
+        {
+            "label": "出版地",
+            "value": "札幌"
+        },
+        {
+            "label": "出版者",
+            "value": "北海道庁"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ホッカイドウチョウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "28cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1979-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/8d16f5b4b88b7ea0d645f25320874008.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/8d16f5b4b88b7ea0d645f25320874008.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 727,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/8d16f5b4b88b7ea0d645f25320874008.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/8d16f5b4b88b7ea0d645f25320874008.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1979/0090327/0090327_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 727,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1979/0090327/0090327_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1979/0090327/0090327_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

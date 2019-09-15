@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1ffb4a7a8d7425ab33d41e852711739c.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "松前蝦夷地一円之図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "松前蝦夷地一円之図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "マツマエ エゾチ イチエン ノ ズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "松前蝦夷地一円之図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "マツマエ エゾチ イチエン ノ ズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012935"
+        },
+        {
+            "label": "管理番号",
+            "value": "1652"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1779"
+        },
+        {
+            "label": "一般注記",
+            "value": "写 松前医師監田碩【アン】【イ】蔵之図先年碩【アン】祖父唐太渡海之節写"
+        },
+        {
+            "label": "説明",
+            "value": "寛政2年（1790）から3年にかけて松前藩は、藩士に命じてカラフト島の調査を実施させた。その結果作成された蝦夷図があり、作成に深く関わった藩士、加藤肩吾の自筆図は北海道大学附属図書館に所蔵される。この系統図は以降、松前藩作成図として長く写し継がれ現存するものが多い。本図もその系統の写しであるが、「松前医師監田硯庵儲蔵之図、先年硯庵祖父唐太渡海之節写之ト云、安永八亥年九月」との記載がある。安永8年（1779）は、この系統図の作成年代と合わない。図の随所に里程や集落に関する記入があり、ウルツフ島が大陸の一部のように描写されている。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "〔出版地不明〕"
+        },
+        {
+            "label": "出版者",
+            "value": "〔出版者不明〕"
+        },
+        {
+            "label": "大きさ",
+            "value": "119×110cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1652-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1ffb4a7a8d7425ab33d41e852711739c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1ffb4a7a8d7425ab33d41e852711739c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 3500,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/1ffb4a7a8d7425ab33d41e852711739c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/1ffb4a7a8d7425ab33d41e852711739c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1652/0080608/0080608_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3500,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1652/0080608/0080608_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1652/0080608/0080608_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

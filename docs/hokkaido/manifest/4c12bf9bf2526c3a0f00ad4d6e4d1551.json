@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4c12bf9bf2526c3a0f00ad4d6e4d1551.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "幕別町鳥瞰図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "幕別町鳥瞰図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "マクベツチョウ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "13p"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "まくべつ 町政要覧. 1963"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "マクベツ チョウセイ ヨウラン"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009730005782"
+        },
+        {
+            "label": "管理番号",
+            "value": "2047"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1963"
+        },
+        {
+            "label": "著者",
+            "value": "[幕別町]∥[編]"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "マクベツチョウ"
+        },
+        {
+            "label": "地域",
+            "value": "幕別"
+        },
+        {
+            "label": "出版地",
+            "value": "[幕別町](十勝)"
+        },
+        {
+            "label": "出版者",
+            "value": "[幕別町]"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "マクベツチョウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "22cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2047-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4c12bf9bf2526c3a0f00ad4d6e4d1551.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4c12bf9bf2526c3a0f00ad4d6e4d1551.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1065,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/4c12bf9bf2526c3a0f00ad4d6e4d1551.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/4c12bf9bf2526c3a0f00ad4d6e4d1551.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2047/0090410/0090410_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1065,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2047/0090410/0090410_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2047/0090410/0090410_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

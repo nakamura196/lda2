@@ -1,0 +1,86 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bec31ca308236ab33326594580066554.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "共立「客土記念碑」除幕 昭和３５年９月１８日 （常呂町）",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "共立「客土記念碑」除幕 昭和３５年９月１８日 （常呂町）"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "キョウリツ「キャクドキネンヒ」ジョマク ショウワ３５ネン９ガツ１８ニチ （トコロチョウ）"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "40978"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "「 ところ文庫１０ 常呂町歴史散歩」から抜粋「昭和３５（１９６０）年に、常呂町土地改良区が旧北見共立駅前に建立した石碑です。常呂原野の耕地の大部分は、低位泥炭地のため泥炭湿地改良の必要が説かれ、客土によらなければ生産の向上は望めないため、常呂村排水土功組合が関係機関へ陳情を続けた結果、昭和２５年６月に認可を得、１０ヶ年の団体営継続事業として軌道による客土に着工しました。３５年２月に工事が完了し、これを記念してこの碑が建てられたわけです。＊現在、この碑は旧北見共立駅前から共立会館駐車場南側に移されています。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-40978-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bec31ca308236ab33326594580066554.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bec31ca308236ab33326594580066554.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1600,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/bec31ca308236ab33326594580066554.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/bec31ca308236ab33326594580066554.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40978/0260091/0260091_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1600,
+                                "width": 1200
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40978/0260091/0260091_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1200
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/40978/0260091/0260091_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

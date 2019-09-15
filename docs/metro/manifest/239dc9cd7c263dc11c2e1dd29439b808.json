@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/239dc9cd7c263dc11c2e1dd29439b808.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "1920.11"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/33・290/5035/1920"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "地図1枚 色刷"
+        },
+        {
+            "label": "出版者",
+            "value": "遞信協會"
+        },
+        {
+            "label": "出版者",
+            "value": "テイシン キョウカイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "74×55cm"
+        },
+        {
+            "label": "注記",
+            "value": "袋のタイトル:番地界入東京市日本橋区全図"
+        },
+        {
+            "label": "注記",
+            "value": "共同刊行:川流堂小林又七 袋入"
+        },
+        {
+            "label": "注記",
+            "value": "番地界入東京市日本橋区全図"
+        },
+        {
+            "label": "注記",
+            "value": "バンチ カイ イリ トウキョウ シ ニホンバシ ク ゼンズ"
+        },
+        {
+            "label": "資料コード",
+            "value": "5015685070"
+        },
+        {
+            "label": "縮尺",
+            "value": "1:5000"
+        },
+        {
+            "label": "件名",
+            "value": "中央区"
+        },
+        {
+            "label": "件名",
+            "value": "チュウオウク"
+        },
+        {
+            "label": "著編者",
+            "value": "東京遞信局／編纂"
+        },
+        {
+            "label": "図名",
+            "value": "東京市日本橋區"
+        },
+        {
+            "label": "図名",
+            "value": "トウキョウシ ニホンバシク"
+        },
+        {
+            "label": "版表示",
+            "value": "2版"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00002350",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/239dc9cd7c263dc11c2e1dd29439b808.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/239dc9cd7c263dc11c2e1dd29439b808.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/239dc9cd7c263dc11c2e1dd29439b808.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/239dc9cd7c263dc11c2e1dd29439b808.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002350&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5015685070_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 4166
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002350&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5015685070_0001.jpg"
+                    },
+                    "width": 4166
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002350&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5015685070_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

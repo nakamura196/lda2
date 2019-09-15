@@ -1,0 +1,123 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "簿書10695-018：元箱館砲兵、陸軍省ヘ引渡ノ件",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "古文書・古記録"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "開拓使文書"
+        },
+        {
+            "label": "タイトル",
+            "value": "簿書10695-018：元箱館砲兵、陸軍省ヘ引渡ノ件"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "簿書10695-018：モトハコダテホウヘイリクグンショウエヒキワタシノケン"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立文書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "制旨録 自明治二年至同七年 ［開拓使東京出張所庶務課］"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "セイシロクメイジニネンヨリドウナナネンニイタル カイタクシトウキョウシュッチョウジョショムカ"
+        },
+        {
+            "label": "管理番号",
+            "value": "5393"
+        },
+        {
+            "label": "言語",
+            "value": "JPN：日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立機関"
+        },
+        {
+            "label": "著者",
+            "value": "開拓使東京出張所庶務課"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "カイタクシトウキョウシュッチョウジョショムカ"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=12&data_id=5-5393-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2123,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/5393/0201972/0201972_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2123,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/5393/0201972/0201972_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2123,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/db9d759da9f669c6fb79c329b9378ee4.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/5393/0201973/0201973_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2123,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/5393/0201973/0201973_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/5393/0201972/0201972_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

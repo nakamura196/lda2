@@ -1,0 +1,135 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "[1942]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/290.9/5163/1942"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "出版者",
+            "value": "西武電車"
+        },
+        {
+            "label": "出版者",
+            "value": "セイブデンシャ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×57cm(折りたたみ15×14cm)"
+        },
+        {
+            "label": "資料コード",
+            "value": "5004222580"
+        },
+        {
+            "label": "件名",
+            "value": "東京都"
+        },
+        {
+            "label": "件名",
+            "value": "サイタマケン"
+        },
+        {
+            "label": "著編者",
+            "value": "[西武電車／編]"
+        },
+        {
+            "label": "図名",
+            "value": "西武電車沿線案内"
+        },
+        {
+            "label": "図名",
+            "value": "セイブ デンシャ エンセン アンナイ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00002147",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2676,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002147&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5004222580_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2676,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002147&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5004222580_0001.jpg"
+                    },
+                    "width": 6000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2674,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/2bf840595f00ae03b175876725d0c9e5.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000008-00002147&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5004222580_0002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2674,
+                                "width": 6000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download?id=0000000008-00002147&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5004222580_0002.jpg"
+                    },
+                    "width": 6000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00002147&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F5004222580_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

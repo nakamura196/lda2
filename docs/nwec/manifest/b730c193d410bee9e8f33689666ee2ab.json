@@ -1,0 +1,151 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "[丸岡玲子]"
+        },
+        {
+            "label": "dc:creator",
+            "value": "[家庭科教育研究者連盟]"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:description",
+            "value": "恒久利用条件:著作権許諾済"
+        },
+        {
+            "label": "dc:description",
+            "value": "本文中に赤ボールペンで書き込みあり;2枚目は「あゆみよりの報告」とある会計報告書"
+        },
+        {
+            "label": "dc:extent",
+            "value": "26cm×36cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "2枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "家庭科教育"
+        },
+        {
+            "label": "dc:subject",
+            "value": "話し合い"
+        },
+        {
+            "label": "dc:subject",
+            "value": "家教連"
+        },
+        {
+            "label": "dc:subject",
+            "value": "家庭科教育研究者連盟"
+        },
+        {
+            "label": "dc:title",
+            "value": "1990.3.5 家教連三役会"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "一九八九、一〇-一九九一、三 三役会"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "1989 10 1991 3 サンヤクカイ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "1990 3 5 カキョウレン サンヤクカイ"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1990"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210006100013",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2056,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299861.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2056,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299861_ls.jpg"
+                    },
+                    "width": 2880
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2078,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/b730c193d410bee9e8f33689666ee2ab.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299862.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2078,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299862_ls.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299861_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

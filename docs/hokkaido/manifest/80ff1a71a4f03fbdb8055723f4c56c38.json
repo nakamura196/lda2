@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/80ff1a71a4f03fbdb8055723f4c56c38.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "昭和天皇",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "旭川市図書館所蔵写真"
+        },
+        {
+            "label": "タイトル",
+            "value": "昭和天皇"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ショウワテンノウ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "旭川市図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "32204"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "昭和43年9月9日"
+        },
+        {
+            "label": "一般注記",
+            "value": "層雲峡"
+        },
+        {
+            "label": "内容注記",
+            "value": "時代目安：昭和40-64年"
+        },
+        {
+            "label": "内容細目",
+            "value": "皇室"
+        },
+        {
+            "label": "地域",
+            "value": "上川"
+        },
+        {
+            "label": "説明",
+            "value": "北海道行幸啓 天皇皇后両陛下 大雪山高原温泉にて散策 植物観察 案内者は舘脇操北大名誉教授 道新撮影 旭川地区御巡路メモ有り"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=53&data_id=5-32204-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/80ff1a71a4f03fbdb8055723f4c56c38.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/80ff1a71a4f03fbdb8055723f4c56c38.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2165,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/80ff1a71a4f03fbdb8055723f4c56c38.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/80ff1a71a4f03fbdb8055723f4c56c38.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/32204/0209394/0209394_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2165,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/32204/0209394/0209394_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/32204/0209394/0209394_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

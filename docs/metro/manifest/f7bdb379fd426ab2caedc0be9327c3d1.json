@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7bdb379fd426ab2caedc0be9327c3d1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "1924.9"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "/20/51H/3-8"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "出版者",
+            "value": "文部省震災予防調査会"
+        },
+        {
+            "label": "出版者",
+            "value": "モンブショウ シンサイ ヨボウ チョウサカイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "44×50cm"
+        },
+        {
+            "label": "注記",
+            "value": "1:10000 4色刷"
+        },
+        {
+            "label": "資料コード",
+            "value": "1112953913"
+        },
+        {
+            "label": "巻次",
+            "value": "四谷"
+        },
+        {
+            "label": "著編者",
+            "value": "文部省震災予防調査会／編"
+        },
+        {
+            "label": "図名",
+            "value": "東京市火災動態地図"
+        },
+        {
+            "label": "図名",
+            "value": "トウキョウシ カサイ ドウタイ チズ"
+        },
+        {
+            "label": "図名関連情報",
+            "value": "大正十二年九月"
+        },
+        {
+            "label": "図名関連情報",
+            "value": "タイショウ ジュウニネン クガツ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00000947",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7bdb379fd426ab2caedc0be9327c3d1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7bdb379fd426ab2caedc0be9327c3d1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 6000,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/f7bdb379fd426ab2caedc0be9327c3d1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/f7bdb379fd426ab2caedc0be9327c3d1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00000947&size=org&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F1112953913_0001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 6000,
+                                "width": 5973
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00000947&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F1112953913_0001.jpg"
+                    },
+                    "width": 5973
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000008-00000947&size=thumb&type=image&file=%2F%E8%BF%91%E4%BB%A3%E3%81%AE%E5%9C%B0%E5%9B%B3%2F1112953913_0001.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

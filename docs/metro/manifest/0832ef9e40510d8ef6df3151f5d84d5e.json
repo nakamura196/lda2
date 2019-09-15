@@ -1,0 +1,126 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0832ef9e40510d8ef6df3151f5d84d5e.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[刊年不明]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "ST/53・673/5001/X"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき1組(19枚) カラー"
+        },
+        {
+            "label": "出版者",
+            "value": "目黒雅叙園"
+        },
+        {
+            "label": "出版者",
+            "value": "メグロ ガジョエン"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×10cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "東京・雅叙園エハガキ"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "トウキョウ ガジョエン エハガキ"
+        },
+        {
+            "label": "注記",
+            "value": "タイトルはホルダーによる"
+        },
+        {
+            "label": "注記",
+            "value": "ホルダー入"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "庭園より十畝荘を望む"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "目黒雅叙園　GAJOEN"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "MEGURO"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "TOKYO"
+        },
+        {
+            "label": "資料コード",
+            "value": "5016409616"
+        },
+        {
+            "label": "著編者",
+            "value": "[目黒雅叙園／編]"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00004668",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0832ef9e40510d8ef6df3151f5d84d5e.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/0832ef9e40510d8ef6df3151f5d84d5e.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/0832ef9e40510d8ef6df3151f5d84d5e.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/0832ef9e40510d8ef6df3151f5d84d5e.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004668&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5016409616_0016.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4090,
+                                "width": 5450
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004668&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5016409616_0016.jpg"
+                    },
+                    "width": 5450
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00004668&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5016409616_0016.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/47ca320027fb3d3cd9a21e6f8e856f4b.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:description",
+            "value": "恒久利用条件:著作権許諾済"
+        },
+        {
+            "label": "dc:description",
+            "value": "作成年「1991」は「26回大会」とあることからの推測による;本文に赤・青ボールペンで書き込みあり"
+        },
+        {
+            "label": "dc:extent",
+            "value": "26cm×18cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "話し合い"
+        },
+        {
+            "label": "dc:subject",
+            "value": "[家教連]"
+        },
+        {
+            "label": "dc:subject",
+            "value": "[家庭科教育研究者連盟]"
+        },
+        {
+            "label": "dc:title",
+            "value": "10月8日P6:30- 三役会"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "一九八九、一〇-一九九一、三 三役会"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "1989 10 1991 3 サンヤクカイ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "10ガツ 8ニチ P 6:30 サンヤクカイ"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1991"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210006100027",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/47ca320027fb3d3cd9a21e6f8e856f4b.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/47ca320027fb3d3cd9a21e6f8e856f4b.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2880,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/47ca320027fb3d3cd9a21e6f8e856f4b.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/47ca320027fb3d3cd9a21e6f8e856f4b.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299872.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2880,
+                                "width": 2066
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299872_ls.jpg"
+                    },
+                    "width": 2066
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/299/000299872_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d1445f28497b3bc3b58e998b0b1ae783.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "北見国礼文郡全図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "北見国礼文郡全図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "キタミコク レブングン ゼンズ"
+        },
+        {
+            "label": "巻書名",
+            "value": "北見国礼文郡全図"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "佐藤正克文書. 47"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "サトウ マサカツ モンジョ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009510027901"
+        },
+        {
+            "label": "管理番号",
+            "value": "1660"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "地域",
+            "value": "礼文島"
+        },
+        {
+            "label": "説明",
+            "value": "無彩色の一枚物であるが、島の山々も描写された精密で迫力のある図である。沿岸に見える地名も豊富であり、地点から地点への距離も全島にわたって詳しく記入されている。また朱線で沿岸の道路だけでなく山越の山道も書き入れられている。「凡周廻拾六里壱丁廿七間余、明治八年三月、漁夫定之写?」の記載もある。佐藤正克文書の一つである。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "大きさ",
+            "value": "40×82cm"
+        },
+        {
+            "label": "巻書名（ヨミ）",
+            "value": "キタミコク レブングン ゼンズ"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1660-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d1445f28497b3bc3b58e998b0b1ae783.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d1445f28497b3bc3b58e998b0b1ae783.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2073,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/d1445f28497b3bc3b58e998b0b1ae783.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/d1445f28497b3bc3b58e998b0b1ae783.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1660/0080625/0080625_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2073,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1660/0080625/0080625_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1660/0080625/0080625_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

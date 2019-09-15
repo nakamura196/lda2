@@ -1,0 +1,110 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b3951de57ec49a9843e4716999fe8a3c.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "札幌市街之図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "札幌市街之図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "サッポロ シガイ ノ ズ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "札幌市街之図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "サッポロ シガイ ノ ズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3000800009601"
+        },
+        {
+            "label": "管理番号",
+            "value": "1676"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "一般注記",
+            "value": "縮尺１：１００００"
+        },
+        {
+            "label": "地域",
+            "value": "札幌"
+        },
+        {
+            "label": "説明",
+            "value": "明治22年（1889）7月に石版無彩刷、縮尺1万分の1として出版された図で、初期の印刷札幌図である。「北海道庁板権所有」とあり、「発行兼印刷人・津田教助（札幌）、写者・望月 学、彫刻兼印刷・松島東一郎」と記載される。発展しつつある札幌の中心部を描いた図で、以後この形式が定着する。札幌農学校はまだ市街中心地にあり、現在地には附属農園として当時から広大な敷地であったことも判明する。ほかに製麻会社や競馬場も見える。「大通」もすでに作られ近くには豊平館も見える。苗穂村、豊平村、白石村があるが、山鼻村屯田地にはまだ入植がみられない。松島東一郎は札幌に在住し多くの石版図を作成した人物である。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "大きさ",
+            "value": "55×43cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1676-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b3951de57ec49a9843e4716999fe8a3c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b3951de57ec49a9843e4716999fe8a3c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2005,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/b3951de57ec49a9843e4716999fe8a3c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/b3951de57ec49a9843e4716999fe8a3c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1676/0080649/0080649_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2005,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1676/0080649/0080649_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1676/0080649/0080649_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

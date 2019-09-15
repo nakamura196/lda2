@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/058b60b8557dc4072e10c4f81d23149a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "1928.12"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/210.0/5130/1928"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき16枚 白黒"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "シュッパンシャフメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "15×10cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "御大典記念東京市奉祝當日の實況"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "ゴタイテン キネン トウキョウシ ホウシュク トウジツ ノ ジッキョウ"
+        },
+        {
+            "label": "注記",
+            "value": "袋のタイトル:御大禮東京市奉祝の光景"
+        },
+        {
+            "label": "注記",
+            "value": "袋入り"
+        },
+        {
+            "label": "注記",
+            "value": "御大禮東京市奉祝の光景"
+        },
+        {
+            "label": "注記",
+            "value": "ゴタイレイ トウキョウシ ホウシュク ノ コウケイ"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "丸之内ニ於ケル各校唱歌団"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003606144"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00003744",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/058b60b8557dc4072e10c4f81d23149a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/058b60b8557dc4072e10c4f81d23149a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4090,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/058b60b8557dc4072e10c4f81d23149a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/058b60b8557dc4072e10c4f81d23149a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003744&size=org&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003606144_0016.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4090,
+                                "width": 5450
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003744&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003606144_0016.jpg"
+                    },
+                    "width": 5450
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/download/?id=0000000007-00003744&size=thumb&type=image&file=%2F%E7%B5%B5%E8%91%89%E6%9B%B8%E3%83%BB%E5%86%99%E7%9C%9F%E5%B8%96%2F5003606144_0016.jpg"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

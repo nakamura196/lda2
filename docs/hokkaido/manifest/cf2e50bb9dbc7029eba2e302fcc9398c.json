@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cf2e50bb9dbc7029eba2e302fcc9398c.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "簿書1：表紙",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "古文書・古記録"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "箱館奉行所文書"
+        },
+        {
+            "label": "タイトル",
+            "value": "簿書1：表紙"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "簿書00001-000：ヒョウシ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立文書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "宗谷場所御引渡目録 安政二年"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ソウヤバショオヒキワタシモクロク"
+        },
+        {
+            "label": "管理番号",
+            "value": "38563"
+        },
+        {
+            "label": "言語",
+            "value": "JPN：日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立機関"
+        },
+        {
+            "label": "出版年",
+            "value": "1855／1855"
+        },
+        {
+            "label": "著者",
+            "value": "箱館奉行所紋別御用所"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "ハコダテブギョウショモンベツゴヨウショ"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=12&data_id=5-38563-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cf2e50bb9dbc7029eba2e302fcc9398c.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cf2e50bb9dbc7029eba2e302fcc9398c.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1200,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/cf2e50bb9dbc7029eba2e302fcc9398c.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/cf2e50bb9dbc7029eba2e302fcc9398c.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38563/0248513/0248513_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1600
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38563/0248513/0248513_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1600
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/38563/0248513/0248513_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

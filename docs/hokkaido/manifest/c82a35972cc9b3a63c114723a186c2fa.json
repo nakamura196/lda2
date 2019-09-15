@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "常呂村農業会事務所完成 （常呂町） 昭和２２年１１月５日",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "写真"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "常呂の建築物・記念碑など"
+        },
+        {
+            "label": "タイトル",
+            "value": "常呂村農業会事務所完成 （常呂町） 昭和２２年１１月５日"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "トコロムラノウギョウカイジムショカンセイ （トコロチョウ） ショウワ２２ネン１１ガツ５ニチ"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北見市立図書館"
+        },
+        {
+            "label": "管理番号",
+            "value": "42140"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "公立図書館"
+        },
+        {
+            "label": "説明",
+            "value": "昭和２１年８月１０日地鎮祭、２２年１１月５日完成、１１月１５．１６日落成式（常呂町農協２０年史）この当時は常呂村農業会。２２年１１月９日：農業協同組合法・農業団体調整法公布。２３年２月１５日：農業協同組合設立準備会開催、３月２６日：農業協同組合設立により常呂村農業会解散。"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=54&data_id=5-42140-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 659,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42140/0263397/0263397_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 659,
+                                "width": 971
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42140/0263397/0263397_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 971
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 719,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/c82a35972cc9b3a63c114723a186c2fa.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42140/0263398/0263398_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 719,
+                                "width": 1135
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42140/0263398/0263398_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1135
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/42140/0263397/0263397_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

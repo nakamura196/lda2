@@ -1,0 +1,135 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "印刷種別:手書き"
+        },
+        {
+            "label": "dc:description",
+            "value": "スローファイア化"
+        },
+        {
+            "label": "dc:description",
+            "value": "破断"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:不可"
+        },
+        {
+            "label": "dc:description",
+            "value": "恒久利用条件:利用制限あり(劣化)"
+        },
+        {
+            "label": "dc:description",
+            "value": "著作権許諾済"
+        },
+        {
+            "label": "dc:description",
+            "value": "「主婦大会を持ちましょう」の裏紙使用;赤で取り消しあり"
+        },
+        {
+            "label": "dc:extent",
+            "value": "26cm×36cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:title",
+            "value": "[十六年統制により荷受機関廃止]"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "奥むめおコレクション"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "オク ムメオ コレクション"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "16ネン トウセイ ニヨリ ニウケ キカン ハイシ"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1949"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000140056900001",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1703,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/230/000230928.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1703,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/230/000230928_ls.jpg"
+                    },
+                    "width": 2880
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1703,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/98f0ac25c2e9c1933d5e4f2545c32433.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/230/000230929.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1703,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/230/000230929_ls.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/230/000230928_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

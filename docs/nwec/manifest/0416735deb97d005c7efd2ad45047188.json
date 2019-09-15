@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/0416735deb97d005c7efd2ad45047188.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "和田典子"
+        },
+        {
+            "label": "dc:description",
+            "value": "「労働、家庭・福祉、政策・決定参加」とあり、出席した国会議員記載あり"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "印刷種別:手書き"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:description",
+            "value": "恒久利用条件:著作権許諾済"
+        },
+        {
+            "label": "dc:description",
+            "value": "レポート用紙に書かれたメモ;作成年「1990」は前後の文書からの推測による"
+        },
+        {
+            "label": "dc:extent",
+            "value": "25cm×18cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "国際婦人年日本大会の決議を実現するための連絡会"
+        },
+        {
+            "label": "dc:subject",
+            "value": "国際婦人年連絡会"
+        },
+        {
+            "label": "dc:subject",
+            "value": "和田"
+        },
+        {
+            "label": "dc:subject",
+            "value": "典子(家庭科の男女共修をすすめる会)"
+        },
+        {
+            "label": "dc:title",
+            "value": "[「10月8日全体会」メモ]"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "[国際婦人年連絡会資料]"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "コクサイ フジンネン レンラクカイ シリョウ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "10ガツ 8ニチ ゼンタイカイ メモ"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1990"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210010000016",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/0416735deb97d005c7efd2ad45047188.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/0416735deb97d005c7efd2ad45047188.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2880,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/0416735deb97d005c7efd2ad45047188.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/0416735deb97d005c7efd2ad45047188.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239770.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2880,
+                                "width": 2045
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239770_ls.jpg"
+                    },
+                    "width": 2045
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239770_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

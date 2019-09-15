@@ -1,0 +1,163 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "稚内市観光鳥瞰図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "鳥瞰図"
+        },
+        {
+            "label": "タイトル",
+            "value": "稚内市観光鳥瞰図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ワッカナイシ カンコウ チョウカンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1冊"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "稚内市鳥瞰図"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ワッカナイシ チョウカンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "1009730007512"
+        },
+        {
+            "label": "管理番号",
+            "value": "1986"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1950"
+        },
+        {
+            "label": "著者",
+            "value": "稚内市∥編"
+        },
+        {
+            "label": "著者（ヨミ）",
+            "value": "ワッカナイシ"
+        },
+        {
+            "label": "一般注記",
+            "value": "稚内市観光鳥瞰図(18×50cm)含む"
+        },
+        {
+            "label": "内容注記",
+            "value": "「絵に添えて一筆」(吉田初三郎∥著)あり。"
+        },
+        {
+            "label": "地域",
+            "value": "稚内"
+        },
+        {
+            "label": "出版地",
+            "value": "稚内"
+        },
+        {
+            "label": "出版者",
+            "value": "稚内市"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ワッカナイシ"
+        },
+        {
+            "label": "大きさ",
+            "value": "19×54cm(折りたたみ19cm)"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1986-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1070,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1986/0090330/0090330_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1070,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1986/0090330/0090330_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1727,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/78e97c31ff3d7cc64e4f38bf8b613621.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1986/0090331/0090331_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1727,
+                                "width": 1688
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1986/0090331/0090331_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 1688
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1986/0090330/0090330_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

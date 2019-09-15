@@ -1,0 +1,151 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "蝦夷松前一円図",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "古地図"
+        },
+        {
+            "label": "タイトル",
+            "value": "蝦夷松前一円図"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "エゾ マツマエ イチエンズ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "蝦夷松前一円図 [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "エゾ マツマエ イチエンズ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730012959"
+        },
+        {
+            "label": "管理番号",
+            "value": "1668"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1859"
+        },
+        {
+            "label": "一般注記",
+            "value": "図上には「改正蝦夷輿地全図」とあり。木版 地名 里程アイヌ語等を周囲に記載"
+        },
+        {
+            "label": "説明",
+            "value": "安政6年（1859）に出版された大型の蝦夷図である。内題は「改正蝦夷輿地全図」という。識語に「草莽之臣 徹」と記載されるが誰のことか不明である。図は嘉永7年の『蝦夷闔境輿地全図』とほぼ同じ図形と内容であるが、特色として、図の左右に蝦夷地の地名・里数を載せ、さらにアイヌ語が、凡例に１６、下部に８０記載されている。＜解説：高木 崇世芝 氏＞"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "文亀堂"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "ブンキドウ"
+        },
+        {
+            "label": "大きさ",
+            "value": "136×90cm"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-1668-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4358,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1668/0080636/0080636_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4358,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1668/0080636/0080636_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 1974,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/2fcc48da618bd14f6032067ce7465306.json/canvas/p2",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1668/0080637/0080637_0000002.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1974,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1668/0080637/0080637_0000002.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/1668/0080636/0080636_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

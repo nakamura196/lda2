@@ -1,0 +1,130 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/dc0dbdc8e0dbf5e391daea63c22eae03.json",
+    "@type": "sc:Manifest",
+    "attribution": "北方資料デジタル・ライブラリー",
+    "label": "平線，西別",
+    "license": "http://www3.library.pref.hokkaido.jp/digitallibrary/",
+    "metadata": [
+        {
+            "label": "カテゴリー",
+            "value": "図類"
+        },
+        {
+            "label": "コンテンツ",
+            "value": "殖民地区画図"
+        },
+        {
+            "label": "タイトル",
+            "value": "平線，西別"
+        },
+        {
+            "label": "タイトル（ヨミ）",
+            "value": "ヘイセン ニシベツ"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "所蔵機関",
+            "value": "北海道立図書館"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "平線"
+        },
+        {
+            "label": "書名・資料名",
+            "value": "西別 [地図資料]"
+        },
+        {
+            "label": "書名・資料名（ヨミ）",
+            "value": "ヘイセン ニシベツ"
+        },
+        {
+            "label": "書誌ＩＤ",
+            "value": "3009730003925"
+        },
+        {
+            "label": "管理番号",
+            "value": "2568"
+        },
+        {
+            "label": "言語",
+            "value": "日本語"
+        },
+        {
+            "label": "館種",
+            "value": "道立図書館"
+        },
+        {
+            "label": "出版年",
+            "value": "1943.5"
+        },
+        {
+            "label": "一般注記",
+            "value": "北海道殖民地区画図 根室国野付郡"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "出版者（ヨミ）",
+            "value": "シッュパンシャフメイ"
+        },
+        {
+            "label": "大きさ",
+            "value": "55×39cm"
+        },
+        {
+            "label": "版次",
+            "value": "増設"
+        }
+    ],
+    "related": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/da/detail.php?libno=11&data_id=5-2568-1-c1",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/dc0dbdc8e0dbf5e391daea63c22eae03.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/dc0dbdc8e0dbf5e391daea63c22eae03.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 4237,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/hokkaido/manifest/dc0dbdc8e0dbf5e391daea63c22eae03.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/hokkaido/manifest/dc0dbdc8e0dbf5e391daea63c22eae03.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2568/0091090/0091090_0000001.jp2&WID=full&CVT=jpeg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4237,
+                                "width": 3000
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2568/0091090/0091090_0000001.jp2&WID=300&CVT=jpeg"
+                    },
+                    "width": 3000
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www3.library.pref.hokkaido.jp/digitallibrary/dsearch/ics/viewer/iipsrv.fcgi?FIF=/2568/0091090/0091090_0000001.jp2&WID=300&CVT=jpeg"
+    },
+    "within": "http://www3.library.pref.hokkaido.jp/digitallibrary/"
+}

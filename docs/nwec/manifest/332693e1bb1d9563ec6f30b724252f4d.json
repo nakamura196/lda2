@@ -1,0 +1,118 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/332693e1bb1d9563ec6f30b724252f4d.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "印刷種別:謄写版"
+        },
+        {
+            "label": "dc:description",
+            "value": "スローファイア化"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:extent",
+            "value": "20cm×28cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "買売春"
+        },
+        {
+            "label": "dc:subject",
+            "value": "売春防止法"
+        },
+        {
+            "label": "dc:subject",
+            "value": "団体活動"
+        },
+        {
+            "label": "dc:subject",
+            "value": "収入"
+        },
+        {
+            "label": "dc:subject",
+            "value": "支出"
+        },
+        {
+            "label": "dc:title",
+            "value": "12月会計報告"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "日本キリスト教婦人矯風会資料（売春防止法関係）"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "昭和31年～35年 : 売春対策国民協議会資料"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ニホン キリストキョウ フジン キョウフウカイ シリョウ バイシュン ボウシホウ カンケイ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ショウワ 31ネン 35ネン : バイシュン タイサク コクミン キョウギカイ シリョウ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "12ガツ カイケイ ホウコク"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000130000900182",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/332693e1bb1d9563ec6f30b724252f4d.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/332693e1bb1d9563ec6f30b724252f4d.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2062,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/332693e1bb1d9563ec6f30b724252f4d.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/332693e1bb1d9563ec6f30b724252f4d.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/229/000229153.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2062,
+                                "width": 2880
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/229/000229153_ls.jpg"
+                    },
+                    "width": 2880
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/229/000229153_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}
