@@ -97,9 +97,12 @@ for config in df:
         if config["local_flg"]:
             filepath = config["path"]+"/"+manifest_uri.split("/")[-1]
 
-            with open(filepath) as f:
-                manifest = json.load(f)
-                data.append(exec(manifest))
+            try:
+                with open(filepath) as f:
+                    manifest = json.load(f)
+                    data.append(exec(manifest))
+            except:
+                print("Error: "+path)
 
         else:
             uuid = hashlib.md5(manifest_uri.encode('utf-8')).hexdigest()

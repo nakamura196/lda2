@@ -1,0 +1,114 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/db3057d4057f6e29cd586b46e98069ac.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/東京府・東京市関係資料"
+        },
+        {
+            "label": "出版年",
+            "value": "[1934.11]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/35・62/3002/G"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "1冊(頁付なし)"
+        },
+        {
+            "label": "出版者",
+            "value": "東京市"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウシ"
+        },
+        {
+            "label": "大きさ",
+            "value": "26cm"
+        },
+        {
+            "label": "注記",
+            "value": "有栖川宮記念公園開園記念"
+        },
+        {
+            "label": "資料コード",
+            "value": "1128762190"
+        },
+        {
+            "label": "タイトル",
+            "value": "有栖川宮記念公園"
+        },
+        {
+            "label": "タイトル",
+            "value": "アリスガワノミヤ キネン コウエン"
+        },
+        {
+            "label": "著編者",
+            "value": "[東京市／編]"
+        },
+        {
+            "label": "タイトル関連情報",
+            "value": "高松宮御下賜"
+        },
+        {
+            "label": "タイトル関連情報",
+            "value": "タカマツノミヤ ゴカシ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000009-00006058",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/db3057d4057f6e29cd586b46e98069ac.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/db3057d4057f6e29cd586b46e98069ac.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/db3057d4057f6e29cd586b46e98069ac.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/db3057d4057f6e29cd586b46e98069ac.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,78 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/05b153cb75d5eb94e9773d04e69747a1.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "大日本六十余州之図",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/その他の貴重資料"
+        },
+        {
+            "label": "分類",
+            "value": "参考資料/日本地誌/日本地誌/地図、里程表/"
+        },
+        {
+            "label": "文庫名",
+            "value": "東京誌料"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "9403-C2/東C9403-C002"
+        },
+        {
+            "label": "題名",
+            "value": "大日本六十余州之図"
+        },
+        {
+            "label": "題名",
+            "value": "ダイニッポンロクジュウヨシュウノズ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000015-00229629",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/05b153cb75d5eb94e9773d04e69747a1.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/05b153cb75d5eb94e9773d04e69747a1.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/05b153cb75d5eb94e9773d04e69747a1.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/05b153cb75d5eb94e9773d04e69747a1.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

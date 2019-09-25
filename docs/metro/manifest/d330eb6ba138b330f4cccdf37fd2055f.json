@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d330eb6ba138b330f4cccdf37fd2055f.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/絵葉書・写真帖"
+        },
+        {
+            "label": "出版年",
+            "value": "[1919?]"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "S/83・74A/5001/1919"
+        },
+        {
+            "label": "出版地",
+            "value": "[出版地不明]"
+        },
+        {
+            "label": "ページ数",
+            "value": "絵はがき16枚"
+        },
+        {
+            "label": "出版者",
+            "value": "[出版者不明]"
+        },
+        {
+            "label": "大きさ",
+            "value": "14cm"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "高尾山名勝絵葉書"
+        },
+        {
+            "label": "掲載資料タイトル",
+            "value": "タカオサン メイショウ エハガキ"
+        },
+        {
+            "label": "絵葉書各タイトル",
+            "value": "高尾山　二十四丁目付近の松林"
+        },
+        {
+            "label": "資料コード",
+            "value": "1114641192"
+        },
+        {
+            "label": "内容細目",
+            "value": "内容:見晴より富士山遠望.小名路の堰.飯縄権現大社.広庭の入口.二十四丁目附近の松林.琵琶の滝.有喜寺護摩堂.登山の途中.奥の院.五重の塔.蛇滝.雨中高尾山.本坊表門.登山口.二軒茶屋附近の景.三十六童子"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000007-00002591",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d330eb6ba138b330f4cccdf37fd2055f.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d330eb6ba138b330f4cccdf37fd2055f.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d330eb6ba138b330f4cccdf37fd2055f.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d330eb6ba138b330f4cccdf37fd2055f.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

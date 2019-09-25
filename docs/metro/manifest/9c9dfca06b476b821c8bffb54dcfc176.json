@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9c9dfca06b476b821c8bffb54dcfc176.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/東京府・東京市関係資料"
+        },
+        {
+            "label": "出版年",
+            "value": "1892年"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "/ ﾄﾌｶｼﾎｳｲﾂｼﾕ/ /"
+        },
+        {
+            "label": "出版地",
+            "value": "東京"
+        },
+        {
+            "label": "出版者",
+            "value": "東京府"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウフ"
+        },
+        {
+            "label": "資料コード",
+            "value": "5010133162"
+        },
+        {
+            "label": "タイトル",
+            "value": "東京府下死亡一週表"
+        },
+        {
+            "label": "タイトル",
+            "value": "トウキョウ フカ シボウ イッシュウヒョウ"
+        },
+        {
+            "label": "巻次",
+            "value": "427号 (明治25年9月4日?10日)"
+        },
+        {
+            "label": "著編者",
+            "value": "東京府／[編]"
+        },
+        {
+            "label": "著編者",
+            "value": "トウキョウフ"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000009-00237961",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9c9dfca06b476b821c8bffb54dcfc176.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/9c9dfca06b476b821c8bffb54dcfc176.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/9c9dfca06b476b821c8bffb54dcfc176.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/9c9dfca06b476b821c8bffb54dcfc176.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/e82889004f8d2cf05f7c872b998e2fdb.json",
+    "@type": "sc:Manifest",
+    "attribution": "国立女性教育会館女性デジタルアーカイブシステム",
+    "label": "[タイトルなし]",
+    "license": "http://www.i-repository.net/il/meta_pub/G0000337warchive",
+    "metadata": [
+        {
+            "label": "dc:creator",
+            "value": "[国際婦人年日本大会の決議を実現するための連絡会]"
+        },
+        {
+            "label": "dc:description",
+            "value": "1990年民間女性会議(1990.11.17 : 衆議院憲政記念館)"
+        },
+        {
+            "label": "dc:description",
+            "value": "媒体:紙"
+        },
+        {
+            "label": "dc:description",
+            "value": "原資料の利用:可"
+        },
+        {
+            "label": "dc:description",
+            "value": "請求記号「21:120-17」と同じ"
+        },
+        {
+            "label": "dc:extent",
+            "value": "30cm×21cm"
+        },
+        {
+            "label": "dc:extent",
+            "value": "1枚"
+        },
+        {
+            "label": "dc:subject",
+            "value": "会議"
+        },
+        {
+            "label": "dc:subject",
+            "value": "民間女性会議"
+        },
+        {
+            "label": "dc:subject",
+            "value": "国際婦人年日本大会の決議を実現するための連絡会"
+        },
+        {
+            "label": "dc:subject",
+            "value": "国際婦人年連絡会"
+        },
+        {
+            "label": "dc:title",
+            "value": "1990年民間女性会議 : 平等・開発・平和 : プログラム"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "和田典子資料"
+        },
+        {
+            "label": "dcndl:seriestitle",
+            "value": "[ユニフェム、女性支援等資料]"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ワダ ノリコ シリョウ"
+        },
+        {
+            "label": "dcndl:seriestitletranscription",
+            "value": "ユニフェム ジョセイ シエントウ  シリョウ"
+        },
+        {
+            "label": "dcndl:titletranscription",
+            "value": "1990ネン ミンカン ジョセイ カイギ : ビョウドウ カイハツ ヘイワ : プログラム"
+        },
+        {
+            "label": "dcterms:issued",
+            "value": "1990"
+        }
+    ],
+    "related": "http://www.i-repository.net/il/meta_pub/G0000337warchive_000210012000024",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/e82889004f8d2cf05f7c872b998e2fdb.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/nwec/manifest/e82889004f8d2cf05f7c872b998e2fdb.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2880,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/nwec/manifest/e82889004f8d2cf05f7c872b998e2fdb.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/nwec/manifest/e82889004f8d2cf05f7c872b998e2fdb.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239439.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2880,
+                                "width": 2042
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239439_ls.jpg"
+                    },
+                    "width": 2042
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://www.i-repository.net/il/cont/01/G0000337warchive/000/239/000239439_ls.jpg"
+    },
+    "within": "http://www.i-repository.net/il/meta_pub/G0000337warchive"
+}

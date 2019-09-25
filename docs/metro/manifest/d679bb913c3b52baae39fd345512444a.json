@@ -1,0 +1,122 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d679bb913c3b52baae39fd345512444a.json",
+    "@type": "sc:Manifest",
+    "attribution": "TOKYOアーカイブ",
+    "label": "[タイトルなし]",
+    "license": "http://archive.library.metro.tokyo.jp/da/windowTokyo",
+    "metadata": [
+        {
+            "label": "カテゴリ",
+            "value": "/近代の地図"
+        },
+        {
+            "label": "出版年",
+            "value": "1940.10"
+        },
+        {
+            "label": "製作者",
+            "value": "東京都立図書館"
+        },
+        {
+            "label": "請求記号",
+            "value": "T/0・317/456/G1940A"
+        },
+        {
+            "label": "出版地",
+            "value": "[東京]"
+        },
+        {
+            "label": "ページ数",
+            "value": "1枚"
+        },
+        {
+            "label": "出版者",
+            "value": "東京府"
+        },
+        {
+            "label": "出版者",
+            "value": "トウキョウフ"
+        },
+        {
+            "label": "大きさ",
+            "value": "46×78cm(折りたたみ23×11cm)"
+        },
+        {
+            "label": "資料コード",
+            "value": "5003634630"
+        },
+        {
+            "label": "件名",
+            "value": "東京都"
+        },
+        {
+            "label": "件名",
+            "value": "トウキョウト"
+        },
+        {
+            "label": "内容細目",
+            "value": "裏面:東京府管内圖(縮尺1:120000)"
+        },
+        {
+            "label": "巻次",
+            "value": "[昭和15年]"
+        },
+        {
+            "label": "巻次",
+            "value": "1940"
+        },
+        {
+            "label": "著編者",
+            "value": "[東京府／編]"
+        },
+        {
+            "label": "図名",
+            "value": "東亰府勢一覽"
+        },
+        {
+            "label": "図名",
+            "value": "トウキョウ フセイ イチラン"
+        }
+    ],
+    "related": "http://archive.library.metro.tokyo.jp/da/detail?tilcod=0000000008-00001993",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d679bb913c3b52baae39fd345512444a.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda2/metro/manifest/d679bb913c3b52baae39fd345512444a.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 36,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda2/metro/manifest/d679bb913c3b52baae39fd345512444a.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda2/metro/manifest/d679bb913c3b52baae39fd345512444a.json/canvas/p1",
+                            "resource": {
+                                "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 36,
+                                "width": 36
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+                    },
+                    "width": 36
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://archive.library.metro.tokyo.jp/da/resources/images/indicator.gif"
+    },
+    "within": "http://archive.library.metro.tokyo.jp/da/top"
+}

@@ -24,23 +24,27 @@ collections = []
 total = 0
 
 with open(path) as f:
-    df = json.load(f)
+    try:
+        df = json.load(f)
 
-    for obj in df:
-        
-        print(obj["collection_uri"])
+        for obj in df:
+            
+            print(obj["collection_uri"])
 
-        r = requests.get(obj["collection_uri"])
-        data = r.json()
+            r = requests.get(obj["collection_uri"])
+            data = r.json()
 
-        collections.append({
-            "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": data["@id"],
-            "@type": "sc:Collection",
-            "label": data["label"]+"("+str(len(data["manifests"]))+")"
-        })
+            collections.append({
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "@id": data["@id"],
+                "@type": "sc:Collection",
+                "label": data["label"]+"("+str(len(data["manifests"]))+")"
+            })
 
-        total += len(data["manifests"])
+            total += len(data["manifests"])
+
+    except:
+        print("Error: "+path)
 
 uni = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
