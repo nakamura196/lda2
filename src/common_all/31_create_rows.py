@@ -54,6 +54,8 @@ def exec(manifest):
             license = "Public Domain Marked"
         elif license == "http://creativecommons.org/licenses/by/4.0/":
             license = "CC BY"
+        else:
+            license = "その他"
         obj["license"] = license
 
     if "metadata" in manifest:
